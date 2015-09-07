@@ -335,7 +335,7 @@ function getJSON(url, calback) {
             var json = JSON.parse(xmlhttp.responseText);
             calback(json);
         }
-    }
+    };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
@@ -376,11 +376,11 @@ $(window).ready(function () {
     $('#Menu-button').click(function () {
 
         if ($('#Menu-button').hasClass('open')) {
-            $("#Body-Wrapper").removeClass("open-menu");
+            $("#Nav").removeClass("open-menu");
             $("#Menu-button").removeClass("open");
 
         } else {
-            $("#Body-Wrapper").addClass("open-menu");
+            $("#Nav").addClass("open-menu");
             $("#Menu-button").addClass("open");
 
         }
@@ -397,7 +397,7 @@ $(window).ready(function () {
  * ======================================================================================
  */
 function closeFABs(){
-    $('#Fab-Shadow').addClass('hide')
+    $('#Fab-Shadow').addClass('hide');
     $('.fab').removeClass('open');
      $("body").removeClass('noScroll');
     $('#MapOverview').addClass('oHide'); 
@@ -413,12 +413,12 @@ function toggleFAB(view) {
     var mView = $('#' + view);
     var mShadow = $('#Fab-Shadow');
     if (mView.hasClass('open')) {
-        mShadow.addClass('hide')
+        mShadow.addClass('hide');
         mView.removeClass('open');
         
     } else {
 		$('#MapOverview').addClass('oHide'); 
-        mShadow.removeClass('hide')
+        mShadow.removeClass('hide');
         mView.addClass('open');
         $("body").addClass('noScroll');
 
@@ -438,11 +438,11 @@ function toggleMapOverview() {
 
     if (mView.hasClass('oHide')) {
         mView.removeClass('oHide'); 
-        $('#Fab-Shadow').removeClass('hide')
+        $('#Fab-Shadow').removeClass('hide');
         $("body").addClass('noScroll');
     }else{
         mView.addClass('oHide');
-        $('#Fab-Shadow').addClass('hide')
+        $('#Fab-Shadow').addClass('hide');
         $("body").removeClass('noScroll');
      }
       

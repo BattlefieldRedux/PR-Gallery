@@ -9,28 +9,16 @@ div#Header {
     background: rgba(17, 17, 17, 0.69);
     width: 100%;
     height: 80px;
-    position: fixed;
     transition: all 700ms;
     z-index: 9999;
     box-shadow: 2px 2px 2px #000000;
+    flex:0 1;
 }
 
 
 
 div#Wrapper {
     /* overflow-x: hidden; */
-}
-
-div#map {
-    transition: opacity 700ms;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
-div#map.ready {
-    opacity: 1;
 }
 
 html {
@@ -46,6 +34,9 @@ body {
     margin: 0 auto;
     background: #333;
     overflow-x: hidden;
+    display:flex;
+    flex-direction: column;
+  	min-height: 100vh;
 }
 
 .hide{
@@ -53,12 +44,12 @@ body {
 }
 
 div#Container-Wrapper {
-    width: 100%;
+    width: auto;
     margin: 0 auto;
-    position: relative;
     padding: 5px;
-    margin-bottom: 25px;
     pointer-events: all;
+    flex:1;
+    display:flex;
 }
 
 div#Title-Wrapper {
@@ -67,6 +58,9 @@ div#Title-Wrapper {
     color: white;
 }
 
+.clear {
+    clear:both;
+}
 
 div#SubTitle {
     /* float: left; */
@@ -281,8 +275,15 @@ div#Fab-Shadow {
  * ==============             menu-button          ====================
  * ====================================================================
  */
+
+.buttons {
+	position: absolute;
+	left: 25px;
+	height: 80px;
+	width: 50px;
+}
+
 #Menu-button {
-    float: left;
     width: 50px;
     height: 20px;
     display: table;
@@ -291,8 +292,19 @@ div#Fab-Shadow {
     -webkit-tap-highlight-color: transparent; /* For some Androids */
     margin-top: 12px;
     position: absolute;
-    top: 13px;
-    left: 25px;
+}
+
+#Map-button {
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    margin-top: 12px;
+    position: absolute;
+    
+    top: 30px;
+    text-align: center;
 }
 
 
@@ -342,35 +354,22 @@ div#Fab-Shadow {
 
 
 #Body-Wrapper{
-    top: 80px;
-    transition: left 300ms;
     pointer-events: none;
 	display: flex;
-	position:relative;
+	flex:1;
 }
 
-#Body-Wrapper.open-menu{
-    position: relative;
-    left: 200px;
+#Nav.open-menu{
+    margin-left: 0px;
 }
- 
- 
- 
-div#Container-Navigation {
-    position: absolute;
-    height: 100%;
-    left: -200px;
-    pointer-events: all;
-}
-
-
 
 div#Nav {
-    position: fixed;
-    display: table;
+    transition: margin-left 300ms;
+    margin-left: -200px;
+    display: flex;
     background: #444;
-    height: 100%;
-    top: 80px;
+    width:200px;
+    pointer-events: all;
 }
 
 #Nav ul {

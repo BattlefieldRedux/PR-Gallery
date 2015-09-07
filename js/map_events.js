@@ -56,78 +56,78 @@ $(window).ready(function (e) {
 				var str_coord = "";
 				switch (colno) {
 					case 1:
-						str_coord = "Z"
+						str_coord = "Z";
 						break;
 					case 2:
 					case 3:
 					case 4:
-						str_coord = "A"
+						str_coord = "A";
 						break;
 					case 5:
 					case 6:
 					case 7:
-						str_coord = "B"
+						str_coord = "B";
 						break;
 					case 8:
 					case 9:
 					case 10:
-						str_coord = "C"
+						str_coord = "C";
 						break;
 					case 11:
 					case 12:
 					case 13:
-						str_coord = "D"
+						str_coord = "D";
 						break;
 					case 14:
 					case 15:
 					case 16:
-						str_coord = "E"
+						str_coord = "E";
 						break;
 					case 17:
 					case 18:
 					case 19:
-						str_coord = "F"
+						str_coord = "F";
 						break;
 					case 20:
 					case 21:
 					case 22:
-						str_coord = "G"
+						str_coord = "G";
 						break;
 					case 23:
 					case 24:
 					case 25:
-						str_coord = "H"
+						str_coord = "H";
 						break;
 					case 26:
 					case 27:
 					case 28:
-						str_coord = "I"
+						str_coord = "I";
 						break;
 					case 29:
 					case 30:
 					case 31:
-						str_coord = "J"
+						str_coord = "J";
 						break;
 					case 32:
 					case 33:
 					case 34:
-						str_coord = "K"
+						str_coord = "K";
 						break;
 					case 35:
 					case 36:
 					case 37:
-						str_coord = "L"
+						str_coord = "L";
 						break;
 					case 38:
 					case 39:
 					case 40:
-						str_coord = "M"
+						str_coord = "M";
 						break;
 					case 41:
-						str_coord = "N"
+						str_coord = "N";
 						break;
 					default:
-						str_coord = ""
+						str_coord = "";
 				};
 				str_coord += intpad(Math.floor((rowno + 1) / 3),2);
 				

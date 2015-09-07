@@ -73,7 +73,9 @@ $(window).ready(function () {
 		
         var layouts = [];
 		var element = $(event.target).parent();
+		console.log(element);
         var mapcode = element.data('code'); 
+		console.log(mapcode);
 		loadMap(mapcode);
 		
 		
@@ -89,11 +91,11 @@ $(window).ready(function () {
         //$('#Background').css('background-image', 'url("img/maps/' + mapName+ '/background.jpg")');
 		//$('#Background').css('background-image', 'url("map_source/albasrah_minimap.jpg")');
         // $('#map').addClass('ready');
-        $('#map').addClass('ready');
         $('#Header').removeClass("opaque");
         $('#Container').addClass('hide');
+        $('#map').removeClass('hide');
         $('#PRContainer').removeClass('hide');
-        $("#Menu-button").addClass("open").addClass("galleryPage");
+        map._onResize(); 
     });
 });
 
@@ -105,11 +107,11 @@ $(window).ready(function () {
 $(window).ready(function () {
 
 
-  $('#Header').on('click', '.galleryPage', function () {
+  $('#Map-button').on('click', function () {
     closeFABs();
     $('#Title').html("Project Reality");
-    $('#SubTitle').html('MapGallery')
-    $('#map').removeClass('ready');
+    $('#SubTitle').html('MapGallery');
+    $('#map').addClass('hide');
     $('#Container').removeClass('hide');
     $('#PRContainer').addClass('hide');
     $('#Fab-Anchor').html('');

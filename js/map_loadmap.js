@@ -80,7 +80,7 @@ function loadMap(mapname) {
 		map.addLayer(GMLayerGroup);
 
 	  }).fail( function(d, textStatus, error) {
-			console.error("getJSON failed, status: " + textStatus + ", error: "+error)
+			console.error("getJSON failed, status: " + textStatus + ", error: "+error);
 	  });
 	  resetRotation();
 };
@@ -119,5 +119,5 @@ var doSomething = function(extraStuff) {
 		});
 		gmlayers.push(gamemode);
 		GMcontrol.addBaseLayer(gamemode, gmnames[extraStuff]);
-	}
+	};
 };
