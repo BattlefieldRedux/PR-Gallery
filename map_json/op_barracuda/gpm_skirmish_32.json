@@ -1,44 +1,74 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [174.45375, -193.17175]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about insrg_bipod will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_skirmish32_missilesilo_ch_usmc_smg"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_skirmish32_missilesilo_ch_usmc_smg",
+        "class": "ObjectPlacement",
+        "name_object": "insrg_bipod",
+        "obj1": "insrg_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [61.658875, -155.87975]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "crate_0"
+      },
+      "bf2props": {
+        "name": "crate_0",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [193.77287, -200.60437]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "crate_1"
+      },
+      "bf2props": {
+        "name": "crate_1",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

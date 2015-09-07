@@ -1,317 +1,557 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [168.80925, -237.40163]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-120.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_idf will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_vehicledepot"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_vehicledepot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_idf",
+        "obj1": "vehicle_depot_idf",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [169.728, -232.28412]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Merkava Mark IV will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_tank"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_tank",
+        "class": "ObjectPlacement",
+        "name_object": "Merkava Mark IV",
+        "obj1": "idf_tnk_merkava_bf2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [169.664, -233.77937]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Merkava Mark IV will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_tank_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_tank_0",
+        "class": "ObjectPlacement",
+        "name_object": "Merkava Mark IV",
+        "obj1": "idf_tnk_merkava",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [169.64375, -228.35587]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Namer will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_apc"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_apc",
+        "class": "ObjectPlacement",
+        "name_object": "Namer",
+        "obj1": "idf_apc_namer",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [169.64375, -229.67426]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Namer will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_apc_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_apc_0",
+        "class": "ObjectPlacement",
+        "name_object": "Namer",
+        "obj1": "idf_apc_namer",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [177.19888, -232.08112]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about usaas_stinger will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_aa"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_aa",
+        "class": "ObjectPlacement",
+        "name_object": "usaas_stinger",
+        "obj1": "usaas_stinger",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [227.96675, -4.961502]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_trans"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_trans",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-8T Hip",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [234.91913, -4.961502]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_the"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_the",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-8T Hip",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [238.12936, -7.852623]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about BTR-80A will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_apc_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_apc_0",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-80A",
+        "obj1": "null",
+        "obj2": "ru_apc_btr80a_bf2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [238.92426, -7.852623]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about BTR-80A will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_apc_1"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_apc_1",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-80A",
+        "obj1": "null",
+        "obj2": "ru_apc_btr80a_bf2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [239.85425, -7.852623]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about BTR-80A will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_apc_2"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_apc_2",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-80A",
+        "obj1": "null",
+        "obj2": "ru_apc_btr80a",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [240.79788, -7.852623]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about BTR-80A will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_apc_3"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_apc_3",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-80A",
+        "obj1": "null",
+        "obj2": "ru_apc_btr80a",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [242.991, -5.333626]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_cas"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_cas",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-28N Havoc",
+        "obj1": "null",
+        "obj2": "ru_ahe_havoc",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [224.76288, -5.12175]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_cas_sp"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_cas_sp",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-28N Havoc",
+        "obj1": "null",
+        "obj2": "ru_ahe_havoc_sp",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [231.70737, -4.961502]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_trans_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_trans_0",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-8T Hip",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [237.22824, -4.0527496]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-108.921",
         "popupContent": "Amazing information about deployable_commandpost_ru will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_cp"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_cp",
+        "class": "ObjectPlacement",
+        "name_object": "deployable_commandpost_ru",
+        "obj1": "null",
+        "obj2": "deployable_commandpost_ru",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.70663, -238.21112]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_jeep"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_jeep",
+        "class": "ObjectPlacement",
+        "name_object": "HMMVW SIYUR",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [171.14337, -238.21112]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_jeep_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_jeep_0",
+        "class": "ObjectPlacement",
+        "name_object": "HMMVW SIYUR",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [171.64775, -238.21112]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_jeep_1"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_jeep_1",
+        "class": "ObjectPlacement",
+        "name_object": "HMMVW SIYUR",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.16812, -238.21112]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_jeep_2"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_jeep_2",
+        "class": "ObjectPlacement",
+        "name_object": "HMMVW SIYUR",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [174.6325, -238.93213]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about M35 Logistics will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_logi"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_logi",
+        "class": "ObjectPlacement",
+        "name_object": "M35 Logistics",
+        "obj1": "idf_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [174.14763, -238.93213]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about M35 Logistics will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_trainstation_logi_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_trainstation_logi_0",
+        "class": "ObjectPlacement",
+        "name_object": "M35 Logistics",
+        "obj1": "idf_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [242.42688, -7.7389984]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_boat"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_boat",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_pkp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [241.73926, -7.7389984]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "cpname_beirut_coop64_carrier_boat_0"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop64_carrier_boat_0",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_pkp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

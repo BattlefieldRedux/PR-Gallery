@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [203.71375, -206.45474]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_tad_sae_skirmish32_nvamain_crate"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_skirmish32_nvamain_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [54.1615, -224.67624]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_tad_sae_skirmish32_usmain_crate"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_skirmish32_usmain_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

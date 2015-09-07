@@ -1,434 +1,764 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [94.764755, -11.069626]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_mil will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_depot"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_mil",
+        "obj1": "null",
+        "obj2": "vehicle_depot_mil",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [103.593, -14.785873]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about T-62 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_tank"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_tank",
+        "class": "ObjectPlacement",
+        "name_object": "T-62",
+        "obj1": "null",
+        "obj2": "mil_tnk_t62",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [102.82562, -14.785873]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about BMP-1 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_bmp"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_bmp",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-1",
+        "obj1": "null",
+        "obj2": "mil_ifv_bmp1",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [104.128876, -9.871498]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about BMP-1 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_bmp_0"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_bmp_0",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-1",
+        "obj1": "null",
+        "obj2": "mil_ifv_bmp1_bf2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [104.89662, -9.871498]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about BMP-1 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_bmp_1"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_bmp_1",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-1",
+        "obj1": "null",
+        "obj2": "mil_ifv_bmp1_bf2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [101.42175, -9.953629]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about SPG-9 Technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_techie"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_techie",
+        "class": "ObjectPlacement",
+        "name_object": "SPG-9 Technical",
+        "obj1": "null",
+        "obj2": "civ_atm_technical_militia",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [101.80363, -9.953629]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about SPG-9 Technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_techie_0"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_techie_0",
+        "class": "ObjectPlacement",
+        "name_object": "SPG-9 Technical",
+        "obj1": "null",
+        "obj2": "civ_atm_technical_militia",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [102.982254, -9.953629]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_techie_1"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_techie_1",
+        "class": "ObjectPlacement",
+        "name_object": "DShKM Technical",
+        "obj1": "null",
+        "obj2": "civ_jep_technical_militia",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [103.39662, -9.953629]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_techie_2"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_techie_2",
+        "class": "ObjectPlacement",
+        "name_object": "DShKM Technical",
+        "obj1": "null",
+        "obj2": "civ_jep_technical_militia",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [102.22275, -9.953629]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_techie_3"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_techie_3",
+        "class": "ObjectPlacement",
+        "name_object": "DShKM Technical",
+        "obj1": "null",
+        "obj2": "civ_jep_technical_militia",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [102.57863, -9.953629]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_techie_4"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_techie_4",
+        "class": "ObjectPlacement",
+        "name_object": "DShKM Technical",
+        "obj1": "null",
+        "obj2": "civ_jep_technical_militia",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [95.81875, -9.478249]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "120.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_logi"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_logi",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "null",
+        "obj2": "mil_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [95.37962, -10.098373]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "120.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_logi_0"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_logi_0",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "null",
+        "obj2": "mil_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [95.60975, -9.788872]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "120.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_logi_1"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_logi_1",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "null",
+        "obj2": "mil_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [190.265, -193.069]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about BMP-3 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_vcp_bmp"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vcp_bmp",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-3",
+        "obj1": "ru_ifv_bmp3",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [190.265, -192.42638]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about BMP-3 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_vcp_bmp_0"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vcp_bmp_0",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-3",
+        "obj1": "ru_ifv_bmp3",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.82487, -165.74188]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-40.0",
         "popupContent": "Amazing information about T-90 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_tank"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_tank",
+        "class": "ObjectPlacement",
+        "name_object": "T-90",
+        "obj1": "ru_tnk_t90",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [248.77863, -161.14787]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "112.082",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_btr"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_btr",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "ru_apc_btr60_bf2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.63586, -162.72874]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "165.702",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_btr_0"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_btr_0",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "ru_apc_btr60_bf2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.11737, -162.861]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "165.702",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_btr_1"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_btr_1",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "ru_apc_btr60_bf2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [248.97862, -160.65475]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "112.082",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_btr_2"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_btr_2",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "ru_apc_btr60_bf2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [251.20387, -160.52362]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_depot"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ru",
+        "obj1": "vehicle_depot_ru",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [193.00739, -192.44226]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_vcp_logi"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vcp_logi",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [98.233, -13.262627]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-50.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about mil_acv_technical will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_milmain_acv"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain_acv",
+        "class": "ObjectPlacement",
+        "name_object": "mil_acv_technical",
+        "obj1": "null",
+        "obj2": "mil_acv_technical",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [73.881, -83.3515]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-50.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_missilesilo_rally"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_missilesilo_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "rallypoint_chinsurgent_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [65.39, -106.370125]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-50.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_chemstorage_rally"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_chemstorage_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "rallypoint_chinsurgent_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [98.267624, -132.02988]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-50.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_trenches_rally"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_trenches_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "rallypoint_chinsurgent_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [149.42062, -136.45876]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-50.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_outpost_rally"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_outpost_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "rallypoint_chinsurgent_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [191.59575, -193.73001]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-50.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_vcp_rally"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vcp_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "rallypoint_chinsurgent_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [106.39887, -98.77162]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-50.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_vehicledepot_rally"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vehicledepot_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "rallypoint_chinsurgent_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [250.72125, -162.07812]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_truck"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_truck",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [250.72125, -161.61725]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_truck_0"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_truck_0",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [247.57562, -165.13675]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
-      }, 
-      "name": "cpname_kozelsk_coop32_cavebunker_acv"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker_acv",
+        "class": "ObjectPlacement",
+        "name_object": "ru_acv_btr60pu",
+        "obj1": "ru_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

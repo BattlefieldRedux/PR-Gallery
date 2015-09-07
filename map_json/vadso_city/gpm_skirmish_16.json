@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [182.57037, -156.16576]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_vadso_city_skirmish16_rusmain_supplycrate1"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_skirmish16_rusmain_supplycrate1",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [145.44788, -149.02994]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_vadso_city_skirmish16_normain_supplycrate2"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_skirmish16_normain_supplycrate2",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

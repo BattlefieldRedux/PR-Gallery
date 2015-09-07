@@ -1,83 +1,143 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [61.982063, -185.78793]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_skirmish16_govtbuilding_crate"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish16_govtbuilding_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "null",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [31.797249, -182.426]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_skirmish16_temple_crate"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish16_temple_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [61.578186, -185.79482]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_skirmish16_govtbuilding_crate_0"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish16_govtbuilding_crate_0",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "null",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [30.58519, -183.01157]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_skirmish16_temple_crate_0"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish16_temple_crate_0",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [62.78025, -185.86688]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about gb_acv_sultan will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_skirmish16_govtbuilding_gbacv"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish16_govtbuilding_gbacv",
+        "class": "ObjectPlacement",
+        "name_object": "gb_acv_sultan",
+        "obj1": "null",
+        "obj2": "gb_acv_sultan",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [32.677315, -180.6935]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.339",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_skirmish16_temple_plaacv"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish16_temple_plaacv",
+        "class": "ObjectPlacement",
+        "name_object": "ch_acv_wz551",
+        "obj1": "ch_acv_wz551",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

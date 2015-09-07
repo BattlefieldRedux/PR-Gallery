@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [126.65875, -66.18338]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_nuijamaa_skirmish32_wheatfarm_crate"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_wheatfarm_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [165.2305, -205.95486]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_nuijamaa_skirmish32_reccenter_crate"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_reccenter_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

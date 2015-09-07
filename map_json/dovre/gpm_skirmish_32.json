@@ -1,83 +1,143 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [96.45075, -115.70187]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-83.421",
         "popupContent": "Amazing information about rallypoint_nl_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_dovre_skirmish32_nor_rally"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish32_nor_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_nl_placeable_noexpire",
+        "obj1": "rallypoint_nl_placeable_noexpire",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [95.03638, -115.97125]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-58.384",
         "popupContent": "Amazing information about rallypoint_nl_placeable will be found here!"
-      }, 
-      "name": "cpname_dovre_skirmish32_nor_exp"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish32_nor_exp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_nl_placeable",
+        "obj1": "rallypoint_nl_placeable",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [147.32726, -68.387375]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "162.471",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_dovre_skirmish32_rus_rally"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish32_rus_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "null",
+        "obj2": "rallypoint_ru_placeable_noexpire",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [96.48412, -117.273125]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "53.76",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_dovre_skirmish32_nor_box1"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish32_nor_box1",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "null",
+        "maxspawn": "5.0",
+        "minspawn": "5.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [95.45387, -115.768875]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_dovre_skirmish32_nor_box2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish32_nor_box2",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "null",
+        "maxspawn": "5.0",
+        "minspawn": "5.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [148.1015, -69.47225]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_dovre_skirmish32_rus_box1"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish32_rus_box1",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "null",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "5.0",
+        "minspawn": "5.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

@@ -1,629 +1,1109 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.17012, -207.87187]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "1.254",
         "popupContent": "Amazing information about BJ2020 will be found here!"
-      }, 
-      "name": "cpname_ob_64_missilesilo_lightjeep"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_lightjeep",
+        "class": "ObjectPlacement",
+        "name_object": "BJ2020",
+        "obj1": "ch_jep_paratrooper",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [111.17275, -174.45563]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
         "iconrotate": "56.068",
         "popupContent": "Amazing information about zpu4 will be found here!"
-      }, 
-      "name": "cpname_ob_64_supplies_aascannons"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_supplies_aascannons",
+        "class": "ObjectPlacement",
+        "name_object": "zpu4",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [39.79212, -20.382126]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "139.243",
         "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
-      }, 
-      "name": "cpname_ob_64_carrier_ch_usmc_lighttransheli_0"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_carrier_ch_usmc_lighttransheli_0",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1N Twin Huey",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.76913, -197.12799]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-91.578",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "cpname_ob_64_missilesilo_ch_usmc_suporttruck"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_ch_usmc_suporttruck",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.94825, -187.10812]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "cpname_ob_64_docks_rp_1"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_1",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [188.09038, -135.67638]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "cpname_ob_64_docks_rp_2"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_2",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [77.1035, -162.36075]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "cpname_ob_64_docks_rp_5"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_5",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [110.095505, -177.985]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "cpname_ob_64_docks_rp_6"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_6",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [174.453, -193.17163]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "cpname_ob_64_missilesilo_ch_usmc_smg"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_ch_usmc_smg",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.79651, -189.19063]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg"
+      },
+      "bf2props": {
+        "name": "mg",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [176.85088, -189.18976]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg_0"
+      },
+      "bf2props": {
+        "name": "mg_0",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [185.7495, -189.21738]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg_1"
+      },
+      "bf2props": {
+        "name": "mg_1",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [62.701126, -226.50963]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "rp"
+      },
+      "bf2props": {
+        "name": "rp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.76324, -197.86337]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-91.578",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "truck_4"
+      },
+      "bf2props": {
+        "name": "truck_4",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.76512, -198.62187]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-91.578",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "truck_5"
+      },
+      "bf2props": {
+        "name": "truck_5",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.72949, -199.21613]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-91.578",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "truck_6"
+      },
+      "bf2props": {
+        "name": "truck_6",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [185.39075, -207.24374]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-6.168",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "jeep_1"
+      },
+      "bf2props": {
+        "name": "jeep_1",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [186.1145, -207.25838]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-2.017",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "jeep_2"
+      },
+      "bf2props": {
+        "name": "jeep_2",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [169.96663, -190.71875]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg_2"
+      },
+      "bf2props": {
+        "name": "mg_2",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [169.3815, -209.75925]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-85.326",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg_3"
+      },
+      "bf2props": {
+        "name": "mg_3",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [198.52176, -195.442]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg_4"
+      },
+      "bf2props": {
+        "name": "mg_4",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [31.115753, -27.473503]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "140.103",
         "popupContent": "Amazing information about deployable_commandpost_us will be found here!"
-      }, 
-      "name": "cp"
+      },
+      "bf2props": {
+        "name": "cp",
+        "class": "ObjectPlacement",
+        "name_object": "deployable_commandpost_us",
+        "obj1": "null",
+        "obj2": "deployable_commandpost_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [181.74863, -196.87038]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-180.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
-      }, 
-      "name": "cp_0"
+      },
+      "bf2props": {
+        "name": "cp_0",
+        "class": "ObjectPlacement",
+        "name_object": "ch_acv_wz551",
+        "obj1": "ch_acv_wz551",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [204.27899, -215.95775]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "87.398",
         "popupContent": "Amazing information about ch_bipod will be found here!"
-      }, 
-      "name": "mg_8"
+      },
+      "bf2props": {
+        "name": "mg_8",
+        "class": "ObjectPlacement",
+        "name_object": "ch_bipod",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-18.501495, 22.178253]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "137.394",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "jdam"
+      },
+      "bf2props": {
+        "name": "jdam",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "0.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.8145, -196.08899]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
-      }, 
-      "name": "cpname_ob_64_missilesilo_ch_vehicledeport"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_ch_vehicledeport",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ch",
+        "obj1": "vehicle_depot_ch",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [41.355003, -19.171371]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "139.243",
         "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
-      }, 
-      "name": "heli"
+      },
+      "bf2props": {
+        "name": "heli",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1N Twin Huey",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.80176, -196.39925]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-91.578",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "truck"
+      },
+      "bf2props": {
+        "name": "truck",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [268.62323, -258.47888]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-91.599",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "arty"
+      },
+      "bf2props": {
+        "name": "arty",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [34.469498, -23.4805]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "139.243",
         "popupContent": "Amazing information about rallypoint_us_placeable_noexpire will be found here!"
-      }, 
-      "name": "rpammo"
+      },
+      "bf2props": {
+        "name": "rpammo",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_us_placeable_noexpire",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "30.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [40.849876, -22.151001]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "139.243",
         "popupContent": "Amazing information about rallypoint_us_placeable_noexpire will be found here!"
-      }, 
-      "name": "rp_1"
+      },
+      "bf2props": {
+        "name": "rp_1",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_us_placeable_noexpire",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "30.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [187.86063, -207.733]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "34.729",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "jeep"
+      },
+      "bf2props": {
+        "name": "jeep",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [188.35974, -207.80814]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "34.729",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "jeep_4"
+      },
+      "bf2props": {
+        "name": "jeep_4",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.44475, -194.94675]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.879",
         "popupContent": "Amazing information about rallypoint_ch_placeable_noexpire will be found here!"
-      }, 
-      "name": "rpammo_0"
+      },
+      "bf2props": {
+        "name": "rpammo_0",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable_noexpire",
+        "obj1": "rallypoint_ch_placeable_noexpire",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [271.89224, -259.31412]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-91.599",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "arty_0"
+      },
+      "bf2props": {
+        "name": "arty_0",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [270.83038, -262.54248]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-91.599",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "arty_1"
+      },
+      "bf2props": {
+        "name": "arty_1",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [270.32227, -265.082]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-91.599",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "arty_2"
+      },
+      "bf2props": {
+        "name": "arty_2",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-16.525879, 22.299622]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "137.394",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "art_0"
+      },
+      "bf2props": {
+        "name": "art_0",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-18.974747, 22.771881]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "137.394",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "arty_3"
+      },
+      "bf2props": {
+        "name": "arty_3",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-16.19838, 19.474869]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "137.394",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "arty_4"
+      },
+      "bf2props": {
+        "name": "arty_4",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [38.722626, -22.184372]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_0"
+      },
+      "bf2props": {
+        "name": "boat_0",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [39.212753, -20.782501]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_3"
+      },
+      "bf2props": {
+        "name": "boat_3",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [40.14425, -21.947372]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_4"
+      },
+      "bf2props": {
+        "name": "boat_4",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [40.30925, -19.833]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_5"
+      },
+      "bf2props": {
+        "name": "boat_5",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [41.254623, -21.0065]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_8"
+      },
+      "bf2props": {
+        "name": "boat_8",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [42.179626, -20.873253]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_9"
+      },
+      "bf2props": {
+        "name": "boat_9",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [40.636124, -19.033249]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "49.919",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "boat_10"
+      },
+      "bf2props": {
+        "name": "boat_10",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [115.125, -130.91463]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_aas16_swamp_rp"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas16_swamp_rp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

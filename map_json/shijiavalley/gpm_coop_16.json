@@ -1,44 +1,74 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [94.774124, -202.07994]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about Panther CLV will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_coop16_village_panther"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_village_panther",
+        "class": "ObjectPlacement",
+        "name_object": "Panther CLV",
+        "obj1": "null",
+        "obj2": "gb_jep_panther_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [95.55644, -203.05594]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-180.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_coop16_village_depot"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_village_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_gb",
+        "obj1": "null",
+        "obj2": "vehicle_depot_gb",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [96.94175, -201.35338]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-48.0",
         "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      }, 
-      "name": "cpname_shijiavalley_coop16_village_logi"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_village_logi",
+        "class": "ObjectPlacement",
+        "name_object": "MAN SV Logistics",
+        "obj1": "null",
+        "obj2": "gb_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

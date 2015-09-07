@@ -1,278 +1,488 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [48.192253, -51.04975]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "105.61",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_militiastronghold_techie"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_militiastronghold_techie",
+        "class": "ObjectPlacement",
+        "name_object": "DShKM Technical",
+        "obj1": "civ_jep_technical_militia",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [208.92825, -240.04776]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "-28.989",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "hmmmwv"
+      },
+      "bf2props": {
+        "name": "hmmmwv",
+        "class": "ObjectPlacement",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_crows",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [187.65924, -232.55975]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "-120.0",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_hmmwv"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_hmmwv",
+        "class": "ObjectPlacement",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [212.57126, -238.785]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "150.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_us will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_depot"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_us",
+        "obj1": "null",
+        "obj2": "vehicle_depot_us",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [212.381, -238.5175]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-30.0",
         "popupContent": "Amazing information about M35 Logistics will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_logi"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_logi",
+        "class": "ObjectPlacement",
+        "name_object": "M35 Logistics",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [56.420753, -46.47625]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "54.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_mil will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_militiastronghold_depot"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_militiastronghold_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_mil",
+        "obj1": "vehicle_depot_mil",
+        "obj2": "null",
+        "maxspawn": "30.0",
+        "minspawn": "30.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [56.09275, -46.753998]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-127.111",
         "popupContent": "Amazing information about BMP-1 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_militiastronghold_logi"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_militiastronghold_logi",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-1",
+        "obj1": "mil_ifv_bmp1",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [48.178, -50.4545]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "101.529",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_militiastronghold_tech"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_militiastronghold_tech",
+        "class": "ObjectPlacement",
+        "name_object": "DShKM Technical",
+        "obj1": "civ_jep_technical_militia",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [150.524, -195.444]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_us_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_rally"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_us_placeable_noexpire",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [210.83125, -158.568]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_us_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_rally_0"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_rally_0",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_us_placeable_noexpire",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [255.34325, -228.7915]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about mortar_team2 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_mortar"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_mortar",
+        "class": "ObjectPlacement",
+        "name_object": "mortar_team2",
+        "obj1": "null",
+        "obj2": "mortar_team2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [255.5015, -232.03125]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about mortar_team2 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_mortar_0"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_mortar_0",
+        "class": "ObjectPlacement",
+        "name_object": "mortar_team2",
+        "obj1": "null",
+        "obj2": "mortar_team2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [255.38475, -229.79074]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about mortar_team2 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_mortar_1"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_mortar_1",
+        "class": "ObjectPlacement",
+        "name_object": "mortar_team2",
+        "obj1": "null",
+        "obj2": "mortar_team2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [255.418, -230.7815]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about mortar_team2 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_mortar_2"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_mortar_2",
+        "class": "ObjectPlacement",
+        "name_object": "mortar_team2",
+        "obj1": "null",
+        "obj2": "mortar_team2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [67.625, -71.30625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
         "iconrotate": "71.907",
         "popupContent": "Amazing information about zis3 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_militiastronghold_at"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_militiastronghold_at",
+        "class": "ObjectPlacement",
+        "name_object": "zis3",
+        "obj1": "zis3",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [89.7865, -143.51575]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
         "iconrotate": "-140.0",
         "popupContent": "Amazing information about zis3 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_warehouse_at"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_warehouse_at",
+        "class": "ObjectPlacement",
+        "name_object": "zis3",
+        "obj1": "zis3",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [187.88925, -234.77675]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_hmmwv_0"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_hmmwv_0",
+        "class": "ObjectPlacement",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [36.796753, -160.94]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_chinsurgent_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_warehouse_rally"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_warehouse_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_chinsurgent_placeable_noexpire",
+        "obj1": "rallypoint_chinsurgent_placeable_noexpire",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [173.19699, -35.84375]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_chinsurgent_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_ammodump_rally"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_ammodump_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_chinsurgent_placeable_noexpire",
+        "obj1": "rallypoint_chinsurgent_placeable_noexpire",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [207.24051, -234.26375]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about us_acv_lavc2 will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_usoperations_acv"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_usoperations_acv",
+        "class": "ObjectPlacement",
+        "name_object": "us_acv_lavc2",
+        "obj1": "null",
+        "obj2": "us_acv_lavc2",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [46.03475, -44.70175]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "133.899",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about mil_acv_technical will be found here!"
-      }, 
-      "name": "cpname_assault_on_mestia_coop64_militiastronghold_ac"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_coop64_militiastronghold_ac",
+        "class": "ObjectPlacement",
+        "name_object": "mil_acv_technical",
+        "obj1": "mil_acv_technical",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

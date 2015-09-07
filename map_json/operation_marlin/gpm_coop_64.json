@@ -1,330 +1,580 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [40.619377, -39.329002]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "-80.0",
         "popupContent": "Amazing information about AS565 MB Panther will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_transportheli"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_transportheli",
+        "class": "ObjectPlacement",
+        "name_object": "AS565 MB Panther",
+        "obj1": "null",
+        "obj2": "fr_the_panther",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [47.916122, -44.442497]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "150.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_depot"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_fr",
+        "obj1": "null",
+        "obj2": "vehicle_depot_fr",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [43.36875, -44.625748]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "60.0",
         "popupContent": "Amazing information about VBCI will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_tank"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_tank",
+        "class": "ObjectPlacement",
+        "name_object": "VBCI",
+        "obj1": "null",
+        "obj2": "fr_apc_vbci",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [46.228996, -41.122375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "150.0",
         "popupContent": "Amazing information about VBCI will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_apc"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_apc",
+        "class": "ObjectPlacement",
+        "name_object": "VBCI",
+        "obj1": "null",
+        "obj2": "fr_apc_vbci_bf2",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [45.692253, -41.409378]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "150.0",
         "popupContent": "Amazing information about VBCI will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_apc_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_apc_0",
+        "class": "ObjectPlacement",
+        "name_object": "VBCI",
+        "obj1": "null",
+        "obj2": "fr_apc_vbci_bf2",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [46.7545, -44.622]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-30.0",
         "popupContent": "Amazing information about GBC-180 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_truck"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_truck",
+        "class": "ObjectPlacement",
+        "name_object": "GBC-180",
+        "obj1": "null",
+        "obj2": "fr_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [45.48062, -45.316254]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-30.0",
         "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_truck_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_truck_0",
+        "class": "ObjectPlacement",
+        "name_object": "GBC 180 Logistics",
+        "obj1": "null",
+        "obj2": "fr_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [45.289, -41.736748]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "150.0",
         "popupContent": "Amazing information about VAB VTT will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_vab"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_vab",
+        "class": "ObjectPlacement",
+        "name_object": "VAB VTT",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [44.469376, -42.19388]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "150.0",
         "popupContent": "Amazing information about VAB VTT will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_vab_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_vab_0",
+        "class": "ObjectPlacement",
+        "name_object": "VAB VTT",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [45.91263, -45.082253]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-30.0",
         "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_logi"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_logi",
+        "class": "ObjectPlacement",
+        "name_object": "GBC 180 Logistics",
+        "obj1": "null",
+        "obj2": "fr_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [228.05875, -225.07487]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-91.243",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_tank"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_tank",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "mec_apc_btr60",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [223.78876, -224.95474]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-88.783",
         "popupContent": "Amazing information about BMP-2M will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_bmp"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_bmp",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-2M",
+        "obj1": "mec_ifv_bmp2m_bf2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [225.74863, -225.05426]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-87.589",
         "popupContent": "Amazing information about BMP-2M will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_bmp_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_bmp_0",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-2M",
+        "obj1": "mec_ifv_bmp2m_bf2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [231.45013, -225.0435]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "-92.843",
         "popupContent": "Amazing information about BRDM-2 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_btr"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_btr",
+        "class": "ObjectPlacement",
+        "name_object": "BRDM-2",
+        "obj1": "mec_jep_brdm2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [221.932, -224.858]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "-87.369",
         "popupContent": "Amazing information about BRDM-2 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_btr_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_btr_0",
+        "class": "ObjectPlacement",
+        "name_object": "BRDM-2",
+        "obj1": "mec_jep_brdm2",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [239.25024, -225.76688]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "177.447",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_depot"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_mec",
+        "obj1": "vehicle_depot_mec",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [240.13075, -225.52774]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "1.549",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_logi_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_logi_0",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "mec_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [235.41537, -224.87988]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-93.826",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_support"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_support",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [234.03125, -239.73512]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about Mi-17 Hip will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_attack"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_attack",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-17 Hip",
+        "obj1": "mec_the_mi17",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [46.320625, -44.867874]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-30.0",
         "popupContent": "Amazing information about GBC-180 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_truck_1"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_truck_1",
+        "class": "ObjectPlacement",
+        "name_object": "GBC-180",
+        "obj1": "null",
+        "obj2": "fr_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [44.870247, -41.9625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "150.0",
         "popupContent": "Amazing information about VAB VTT will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_vab_1"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_vab_1",
+        "class": "ObjectPlacement",
+        "name_object": "VAB VTT",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [233.38875, -225.018]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_truck"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_truck",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [35.782623, -43.4095]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
         "iconrotate": "-30.0",
         "popupContent": "Amazing information about RHIB will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_butt"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_butt",
+        "class": "ObjectPlacement",
+        "name_object": "RHIB",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_anf1",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "600.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [43.065002, -44.099747]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "60.0",
         "popupContent": "Amazing information about VBCI will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_checkpoint_apc_1"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint_apc_1",
+        "class": "ObjectPlacement",
+        "name_object": "VBCI",
+        "obj1": "null",
+        "obj2": "fr_apc_vbci",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [229.72488, -225.03175]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-91.243",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop64_sainttropaz_btr_1"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz_btr_1",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "mec_apc_btr60",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

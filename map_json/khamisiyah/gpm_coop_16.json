@@ -1,18 +1,28 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [93.96644, -41.265686]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "113.57",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_khamisiyah_coop16_village_hmmwv"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_village_hmmwv",
+        "class": "ObjectPlacement",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

@@ -1,57 +1,97 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [212.5965, -40.514]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_nuijamaa_skirmish16_comms_crate"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish16_comms_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [104.502, -56.0885]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_nuijamaa_skirmish16_grainstorage_crate"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish16_grainstorage_crate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [210.35738, -37.766]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-66.07",
         "popupContent": "Amazing information about bipod_gpmg_pkp will be found here!"
-      }, 
-      "name": "cpname_nuijamaa_skirmish16_comms_mg"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish16_comms_mg",
+        "class": "ObjectPlacement",
+        "name_object": "bipod_gpmg_pkp",
+        "obj1": "bipod_gpmg_pkp",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [209.23375, -41.086746]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-157.361",
         "popupContent": "Amazing information about bipod_gpmg_pkp will be found here!"
-      }, 
-      "name": "cpname_nuijamaa_skirmish16_comms_mg_0"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish16_comms_mg_0",
+        "class": "ObjectPlacement",
+        "name_object": "bipod_gpmg_pkp",
+        "obj1": "bipod_gpmg_pkp",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

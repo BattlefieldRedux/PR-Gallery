@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [127.27138, -131.26512]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-176.577",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
-      }, 
-      "name": "russian_rally_gb_commandpost"
+      },
+      "bf2props": {
+        "name": "russian_rally_gb_commandpost",
+        "class": "ObjectPlacement",
+        "name_object": "ru_acv_btr60pu",
+        "obj1": "null",
+        "obj2": "ru_acv_btr60pu",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "100.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [67.81262, -63.532875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "88.898",
         "popupContent": "Amazing information about deployable_commandpost_chins will be found here!"
-      }, 
-      "name": "chechen_hq_ch_commandpost"
+      },
+      "bf2props": {
+        "name": "chechen_hq_ch_commandpost",
+        "class": "ObjectPlacement",
+        "name_object": "deployable_commandpost_chins",
+        "obj1": "deployable_commandpost_chins",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "100.0"
+      }
     }
   ]
 }

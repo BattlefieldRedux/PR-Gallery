@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [137.83775, -192.64188]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "91.881",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
-      }, 
-      "name": "cpname_sbeneh_outskirts_coop16_farm_house_command"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_farm_house_command",
+        "class": "ObjectPlacement",
+        "name_object": "mec_acv_btr60pu",
+        "obj1": "null",
+        "obj2": "mec_acv_btr60pu",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [62.872627, -177.313]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "98.892",
         "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
-      }, 
-      "name": "cpname_sbeneh_outskirts_coop16_orchard_command"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_orchard_command",
+        "class": "ObjectPlacement",
+        "name_object": "deployable_commandpost_meins",
+        "obj1": "deployable_commandpost_meins",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

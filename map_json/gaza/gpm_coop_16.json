@@ -1,96 +1,166 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [117.5, -179.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about zpu4 will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_aasite_mil_aas_cannons"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_aasite_mil_aas_cannons",
+        "class": "ObjectPlacement",
+        "name_object": "zpu4",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "999.0",
+        "minspawn": "999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [110.5, -176.25]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_aasite_idf_rp_noexpire"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_aasite_idf_rp_noexpire",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "obj1": "rallypoint_hamas_placeable_noexpire",
+        "obj2": "rallypoint_idf_placeable_noexpire",
+        "maxspawn": "480.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [166.0, -177.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_street_rp"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_street_rp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "obj1": "rallypoint_hamas_placeable_noexpire",
+        "obj2": "rallypoint_idf_placeable_noexpire",
+        "maxspawn": "480.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [141.25, -207.25]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_hotel_rp"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_hotel_rp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "obj1": "rallypoint_hamas_placeable_noexpire",
+        "obj2": "rallypoint_idf_placeable_noexpire",
+        "maxspawn": "480.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [135.75, -239.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_hamasmain_rp"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_hamasmain_rp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "obj1": "rallypoint_hamas_placeable_noexpire",
+        "obj2": "rallypoint_idf_placeable_noexpire",
+        "maxspawn": "480.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [116.3635, -110.21325]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about idf_acv_m557 will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_idfspawn_acv"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_idfspawn_acv",
+        "class": "ObjectPlacement",
+        "name_object": "idf_acv_m557",
+        "obj1": "null",
+        "obj2": "idf_acv_m557",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [161.6485, -246.3115]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
-      }, 
-      "name": "cpname_gaza_coop16_hamasmain_acv"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_hamasmain_acv",
+        "class": "ObjectPlacement",
+        "name_object": "deployable_commandpost_meins",
+        "obj1": "deployable_commandpost_meins",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [106.55306, -90.80281]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about us_acv_stryker will be found here!"
-      }, 
-      "name": "cpname_kashan_desert_coop16_northbunker_acv"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_northbunker_acv",
+        "class": "ObjectPlacement",
+        "name_object": "us_acv_stryker",
+        "obj1": "null",
+        "obj2": "us_acv_stryker",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [90.787186, -124.65106]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
-      }, 
-      "name": "cpname_kashan_desert_coop16_southbunker_acv"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_southbunker_acv",
+        "class": "ObjectPlacement",
+        "name_object": "mec_acv_btr60pu",
+        "obj1": "mec_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

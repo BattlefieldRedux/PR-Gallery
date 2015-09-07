@@ -37,6 +37,13 @@ function resetRotation(){
 
 
 $(window).ready(function (e) {
+	
+	map.on('mouseout', function(e) {
+		var ew = window.event;
+		document.getElementById('output').innerHTML = "";
+	});
+	
+	
 	map.on('baselayerchange', function(we){
 		$('#SubTitle').html(we.name);
 	});
@@ -49,9 +56,9 @@ $(window).ready(function (e) {
 		//alert(x + " " + y);
 		var point = map.project(e.latlng,2);
 		if (point.x < 0 || point.y < 0 || point.x > mapwidth/4 || point.y > mapheight/4){
-			window[e.type].innerHTML = "";
+			document.getElementById('output').innerHTML = "";
 		}else {
-			var colno = Math.ceil(point.x/ (mapwidth/4 / 41));  //41 because 41 columns in PR grid
+			var colno = Math.floor(point.x/ (mapwidth/4 / 41)) +1;  //41 because 41 columns in PR grid
 			var rowno = Math.ceil(point.y/ (mapheight/4 / 41));
 				var str_coord = "";
 				switch (colno) {
@@ -150,8 +157,7 @@ $(window).ready(function (e) {
 				} else if ((colno+1 ) % 3 == 2 && (rowno+1 )  % 3 == 0) {
 					str_coord += "kp9";
 				}
-				
-				window[e.type].innerHTML = str_coord;
+				document.getElementById('output').innerHTML = str_coord;
 			}
 		document.getElementById('output').style.top = (y - 20) + 'px' ;
 		document.getElementById('output').style.left = ( x + 20 ) + 'px';

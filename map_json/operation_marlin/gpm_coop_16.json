@@ -1,83 +1,143 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [225.90338, -64.50875]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "67.277",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop16_frenchstagingarea_depot"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_frenchstagingarea_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_fr",
+        "obj1": "null",
+        "obj2": "vehicle_depot_fr",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [223.50763, -68.58537]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "-29.978",
         "popupContent": "Amazing information about VAB VTT will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop16_frenchstagingarea_vab"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_frenchstagingarea_vab",
+        "class": "ObjectPlacement",
+        "name_object": "VAB VTT",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [224.69012, -67.77913]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "-29.978",
         "popupContent": "Amazing information about VAB VTT will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop16_frenchstagingarea_vab_0"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_frenchstagingarea_vab_0",
+        "class": "ObjectPlacement",
+        "name_object": "VAB VTT",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [211.95638, -73.54225]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "92.489",
         "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop16_frenchstagingarea_logi"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_frenchstagingarea_logi",
+        "class": "ObjectPlacement",
+        "name_object": "GBC 180 Logistics",
+        "obj1": "null",
+        "obj2": "fr_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [137.73262, -164.51738]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-88.023",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop16_constructionsite_depot"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_constructionsite_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_mec",
+        "obj1": "vehicle_depot_mec",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [137.91975, -164.50438]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_operation_marlin_coop16_constructionsite_logi"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_constructionsite_logi",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "mec_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "180.0",
+        "minspawn": "180.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

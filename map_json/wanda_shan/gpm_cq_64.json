@@ -1,603 +1,1063 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [14.875, -238.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-140.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_depot"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ch",
+        "obj1": "vehicle_depot_ch",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [18.0, -237.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_post"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_post",
+        "class": "ObjectPlacement",
+        "name_object": "ch_acv_wz551",
+        "obj1": "ch_acv_wz551",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.625, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Type 95 SPAAA will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_mbt"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_mbt",
+        "class": "ObjectPlacement",
+        "name_object": "Type 95 SPAAA",
+        "obj1": "ch_aav_type95",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [15.625, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about Type 98 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_t2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_t2",
+        "class": "ObjectPlacement",
+        "name_object": "Type 98",
+        "obj1": "ch_tnk_type98",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [15.25, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_t3"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_t3",
+        "class": "ObjectPlacement",
+        "name_object": "WZ551",
+        "obj1": "ch_apc_wz551",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [15.0, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about BJ2020 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_t4"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_t4",
+        "class": "ObjectPlacement",
+        "name_object": "BJ2020",
+        "obj1": "ch_jep_paratrooper",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [14.75, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about BJ2020 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_t6"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_t6",
+        "class": "ObjectPlacement",
+        "name_object": "BJ2020",
+        "obj1": "ch_jep_paratrooper",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.875, -236.625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about VN-3 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_a1"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_a1",
+        "class": "ObjectPlacement",
+        "name_object": "VN-3",
+        "obj1": "ch_jep_vn3",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.625, -235.375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about ZSL-92B will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_a2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_a2",
+        "class": "ObjectPlacement",
+        "name_object": "ZSL-92B",
+        "obj1": "ch_ifv_wz551b",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.625, -236.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about ZSL-92B will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_a3"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_a3",
+        "class": "ObjectPlacement",
+        "name_object": "ZSL-92B",
+        "obj1": "ch_ifv_wz551b",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.625, -25.875]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "180.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ger will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_depot"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ger",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ger",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -21.625]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ger_acv_m557a2 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_post"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_post",
+        "class": "ObjectPlacement",
+        "name_object": "ger_acv_m557a2",
+        "obj1": "null",
+        "obj2": "ger_acv_m557a2",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [242.75, -25.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_mbt"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_mbt",
+        "class": "ObjectPlacement",
+        "name_object": "MAN SV Logistics",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [242.5, -25.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_t2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_t2",
+        "class": "ObjectPlacement",
+        "name_object": "MAN SV Logistics",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -22.625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Puma IFV will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_t3"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_t3",
+        "class": "ObjectPlacement",
+        "name_object": "Puma IFV",
+        "obj1": "null",
+        "obj2": "ger_ifv_puma",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.0, -25.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_t4"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_t4",
+        "class": "ObjectPlacement",
+        "name_object": "MAN SV Logistics",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.04688, -25.625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_t5"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_t5",
+        "class": "ObjectPlacement",
+        "name_object": "MAN Support Vehicle",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.75, -25.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about Puma IFV will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_a"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_a",
+        "class": "ObjectPlacement",
+        "name_object": "Puma IFV",
+        "obj1": "null",
+        "obj2": "ger_ifv_puma",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.5, -25.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about Puma IFV will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_a1"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_a1",
+        "class": "ObjectPlacement",
+        "name_object": "Puma IFV",
+        "obj1": "null",
+        "obj2": "ger_apc_puma",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -21.875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_a2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_a2",
+        "class": "ObjectPlacement",
+        "name_object": "Mercedes G-Wagen",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [14.5, -237.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_tr1"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_tr1",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [15.375, -238.875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "40.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_tr2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_tr2",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [14.625, -237.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_tr3"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_tr3",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [14.375, -238.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_tr4"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_tr4",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -23.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Leopard 2A6 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_tr1"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_tr1",
+        "class": "ObjectPlacement",
+        "name_object": "Leopard 2A6",
+        "obj1": "null",
+        "obj2": "ger_tnk_leo2a6",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -24.375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Leopard 2A6 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_tr2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_tr2",
+        "class": "ObjectPlacement",
+        "name_object": "Leopard 2A6",
+        "obj1": "null",
+        "obj2": "ger_tnk_leo2a6",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -24.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Leopard 2A6 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_tr3"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_tr3",
+        "class": "ObjectPlacement",
+        "name_object": "Leopard 2A6",
+        "obj1": "null",
+        "obj2": "ger_tnk_leo2a6",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -23.0]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Puma IFV will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_tr4"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_tr4",
+        "class": "ObjectPlacement",
+        "name_object": "Puma IFV",
+        "obj1": "null",
+        "obj2": "ger_apc_puma",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-4.5, -256.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_art"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_art",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-4.5, -257.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_art_0"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_art_0",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-4.0, -257.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_0"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_0",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-4.0, -256.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_1_1"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_1_1",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [250.0, 3.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_at"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_at",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [250.5, 3.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_art"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_art",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [250.5, 4.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_0"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_0",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [250.0, 4.5]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_1_1"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_1_1",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.625, -230.875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Zhi-9WA will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_heli2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_heli2",
+        "class": "ObjectPlacement",
+        "name_object": "Zhi-9WA",
+        "obj1": "ch_ahe_z9wa_hj8",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [245.375, -18.625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about Tiger UHT will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_heli"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_heli",
+        "class": "ObjectPlacement",
+        "name_object": "Tiger UHT",
+        "obj1": "null",
+        "obj2": "ger_ahe_tiger",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [16.75, -231.875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Mi-17 Hip will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-17 Hip",
+        "obj1": "ch_the_mi17",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.625, -18.625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about NH90 TTH will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_",
+        "class": "ObjectPlacement",
+        "name_object": "NH90 TTH",
+        "obj1": "null",
+        "obj2": "ger_the_nh90",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -22.375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_aa_0"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_aa_0",
+        "class": "ObjectPlacement",
+        "name_object": "MAN Support Vehicle",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [16.25, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain__0"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain__0",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.5, -22.125]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_mtlb"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_mtlb",
+        "class": "ObjectPlacement",
+        "name_object": "Mercedes G-Wagen",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [245.0, -25.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_rfmain_btr80"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_rfmain_btr80",
+        "class": "ObjectPlacement",
+        "name_object": "Mercedes G-Wagen",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [16.0, -235.75]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_wz551a2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_wz551a2",
+        "class": "ObjectPlacement",
+        "name_object": "WZ551",
+        "obj1": "ch_apc_wz551",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [17.875, -236.375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "cpname_wanda_shan_aas64_plamain_vn3_2"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas64_plamain_vn3_2",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

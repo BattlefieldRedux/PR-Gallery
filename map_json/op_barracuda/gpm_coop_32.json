@@ -1,291 +1,511 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [111.225, -174.43588]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about zpu4 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_supplies_zpu4"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_supplies_zpu4",
+        "class": "ObjectPlacement",
+        "name_object": "zpu4",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [42.222748, -20.819]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
         "iconrotate": "50.6",
         "popupContent": "Amazing information about Patrol Boat-River will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_pbr"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_pbr",
+        "class": "ObjectPlacement",
+        "name_object": "Patrol Boat-River",
+        "obj1": "null",
+        "obj2": "us_shp_pbr",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [40.758873, -19.036873]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
         "iconrotate": "50.6",
         "popupContent": "Amazing information about Patrol Boat-River will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_pbr_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_pbr_0",
+        "class": "ObjectPlacement",
+        "name_object": "Patrol Boat-River",
+        "obj1": "null",
+        "obj2": "us_shp_pbr",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [39.186623, -22.671875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "50.6",
         "popupContent": "Amazing information about M113 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_acav"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_acav",
+        "class": "ObjectPlacement",
+        "name_object": "M113",
+        "obj1": "null",
+        "obj2": "us_apc_m113",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [38.41925, -21.737625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "50.6",
         "popupContent": "Amazing information about M113 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_acav_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_acav_0",
+        "class": "ObjectPlacement",
+        "name_object": "M113",
+        "obj1": "null",
+        "obj2": "us_apc_m113",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.68863, -200.73138]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_vnnva will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_depot"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_vnnva",
+        "obj1": "vehicle_depot_vnnva",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.639, -197.29599]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
         "iconrotate": "78.341",
         "popupContent": "Amazing information about PT-76 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_aav"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_aav",
+        "class": "ObjectPlacement",
+        "name_object": "PT-76",
+        "obj1": "nva_tnk_pt76",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [173.54425, -195.695]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "130.0",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_apc"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_apc",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "nva_apc_btr60",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.6295, -195.81113]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "130.0",
         "popupContent": "Amazing information about BTR-60 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_apc_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_apc_0",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-60",
+        "obj1": "nva_apc_btr60",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.92462, -200.65787]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about ZIS-5V will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_logi"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_logi",
+        "class": "ObjectPlacement",
+        "name_object": "ZIS-5V",
+        "obj1": "nva_trk_zis5",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [21.12275, -38.896004]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_cas"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_cas",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_ahe_uh1c",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [41.831497, -21.392128]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_cas_sp"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_cas_sp",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_ahe_uh1c_sp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [41.114, -18.886375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_trans_sp"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_trans_sp",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_the_uh1c_sp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [37.83175, -21.530128]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_trans_sp_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_trans_sp_0",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_the_uh1c_sp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [37.823875, -24.995247]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_cas_sp_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_cas_sp_0",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_ahe_uh1c_sp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [29.409126, -32.056]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about H-34 Choctaw will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_wessex"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_wessex",
+        "class": "ObjectPlacement",
+        "name_object": "H-34 Choctaw",
+        "obj1": "null",
+        "obj2": "us_the_h-34",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [25.311996, -35.493874]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about H-34 Choctaw will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_wessex_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_wessex_0",
+        "class": "ObjectPlacement",
+        "name_object": "H-34 Choctaw",
+        "obj1": "null",
+        "obj2": "us_the_h-34",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [22.676628, -34.261253]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_trans"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_trans",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_the_uh1c",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [18.316002, -37.92025]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "140.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_carrier_cas_0"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_cas_0",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "null",
+        "obj2": "us_ahe_uh1c",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [174.86125, -189.45375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_fence"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_fence",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "us_ahe_uh1c_sp",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [63.150124, -222.27675]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "40.0",
         "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_airstrip_fencekilla"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_airstrip_fencekilla",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1C Huey",
+        "obj1": "us_ahe_uh1c_sp",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [181.49162, -196.70276]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about ZSU-57-2 will be found here!"
-      }, 
-      "name": "cpname_op_barracuda_coop32_nvamissilesilo_tank"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_nvamissilesilo_tank",
+        "class": "ObjectPlacement",
+        "name_object": "ZSU-57-2",
+        "obj1": "nva_aav_zsu57",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

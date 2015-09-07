@@ -1,460 +1,810 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [190.64337, -246.89975]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-74.54",
         "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ca_jeep"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ca_jeep",
+        "class": "ObjectPlacement",
+        "name_object": "Mercedes G-Wagen",
+        "obj1": "ger_jep_gwagon_support_alt",
+        "obj2": "gb_jeep_landrover",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.58438, -245.4325]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_apc"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_apc",
+        "class": "ObjectPlacement",
+        "name_object": "MAN Support Vehicle",
+        "obj1": "ger_trk_support",
+        "obj2": "dummy",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [190.6735, -245.43387]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-85.0",
         "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_jeep2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_jeep2",
+        "class": "ObjectPlacement",
+        "name_object": "Mercedes G-Wagen",
+        "obj1": "ger_jep_gwagon_support_alt",
+        "obj2": "dummy",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [184.00212, -244.92163]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "38.039",
         "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_logistics"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_logistics",
+        "class": "ObjectPlacement",
+        "name_object": "MAN SV Logistics",
+        "obj1": "ger_trk_logistics",
+        "obj2": "dummy",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [178.76688, -249.27063]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "-19.079",
         "popupContent": "Amazing information about UH-1D will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_boat"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_boat",
+        "class": "ObjectPlacement",
+        "name_object": "UH-1D",
+        "obj1": "ger_the_uh1d_mg3",
+        "obj2": "dummy",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [181.67737, -248.41675]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-83.421",
         "popupContent": "Amazing information about rallypoint_ger_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_rally"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ger_placeable_noexpire",
+        "obj1": "rallypoint_ger_placeable_noexpire",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [3.9588776, -79.862]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "69.562",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_rus_truck"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_rus_truck",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "null",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [4.9818726, -78.90075]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "70.809",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_rus_trucklogi"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_rus_trucklogi",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "null",
+        "obj2": "ru_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [11.670372, -79.79425]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "179.989",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_rus_rep"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_rus_rep",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ru",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ru",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "999999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.956749, -79.9975]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-109.529",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_rus_com"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_rus_com",
+        "class": "ObjectPlacement",
+        "name_object": "ru_acv_btr60pu",
+        "obj1": "null",
+        "obj2": "ru_acv_btr60pu",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "999999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [183.00351, -242.944]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-108.611",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ger will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_rep"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_rep",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ger",
+        "obj1": "vehicle_depot_ger",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [187.71625, -238.63863]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ger_acv_m557a2 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_com"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_com",
+        "class": "ObjectPlacement",
+        "name_object": "ger_acv_m557a2",
+        "obj1": "ger_acv_m557a2",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [180.53937, -248.11987]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-48.151",
         "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_apc2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_apc2",
+        "class": "ObjectPlacement",
+        "name_object": "MAN Support Vehicle",
+        "obj1": "ger_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1.0E8"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [46.950623, -146.966]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "79.2",
         "popupContent": "Amazing information about paradrop will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_ru_para"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_ru_para",
+        "class": "ObjectPlacement",
+        "name_object": "paradrop",
+        "obj1": "null",
+        "obj2": "paradrop",
+        "maxspawn": "9999.0",
+        "minspawn": "9999.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-71.073746, -146.709]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about para_supply_crate will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_para_crate"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_para_crate",
+        "class": "ObjectPlacement",
+        "name_object": "para_supply_crate",
+        "obj1": "null",
+        "obj2": "para_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [197.59387, -186.089]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-58.384",
         "popupContent": "Amazing information about rallypoint_ger_placeable will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_ger_rally_exp"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_ger_rally_exp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ger_placeable",
+        "obj1": "rallypoint_ger_placeable",
+        "obj2": "null",
+        "maxspawn": "9999.0",
+        "minspawn": "9999.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [3.9781265, -79.22488]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "69.604",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_ru_supply_truck"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_ru_supply_truck",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "null",
+        "obj2": "ru_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [4.8787537, -79.529625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "70.604",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_ru_trans_truck"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_ru_trans_truck",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "null",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [3.0166245, -78.41388]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "162.471",
         "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_ru_rally"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_ru_rally",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable_noexpire",
+        "obj1": "null",
+        "obj2": "rallypoint_ru_placeable_noexpire",
+        "maxspawn": "9999.0",
+        "minspawn": "9999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-27.71762, -12.374123]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_art_1"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_art_1",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "999999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-26.89, -12.558876]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_art_2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_art_2",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "999999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-25.74437, -12.766129]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_art_3"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_art_3",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [-25.149368, -13.032501]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team2 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_art_4"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_art_4",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [260.15363, -288.03525]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_art_1"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_art_1",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "999999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [261.05588, -288.11664]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_art_2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_art_2",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [262.11285, -288.20776]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_art_3"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_art_3",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [262.74612, -288.1999]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about artillery_team1 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_art_4"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_art_4",
+        "class": "ObjectPlacement",
+        "name_object": "artillery_team1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [56.723373, -54.311752]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about paradrop will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_para2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_para2",
+        "class": "ObjectPlacement",
+        "name_object": "paradrop",
+        "obj1": "null",
+        "obj2": "paradrop",
+        "maxspawn": "9999.0",
+        "minspawn": "9999.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [5.802124, -79.1705]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "70.1",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_truck5"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_truck5",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "null",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [185.24762, -245.4155]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_truck7"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_truck7",
+        "class": "ObjectPlacement",
+        "name_object": "MAN Support Vehicle",
+        "obj1": "ger_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [183.58438, -243.70187]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "69.296",
         "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_hv05_logi3"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_logi3",
+        "class": "ObjectPlacement",
+        "name_object": "MAN SV Logistics",
+        "obj1": "ger_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [5.505127, -87.64737]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "75.58",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_rib1"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_rib1",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-8T Hip",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [7.699623, -85.4975]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "96.796",
         "popupContent": "Amazing information about BRDM-2 will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_rib2"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_rib2",
+        "class": "ObjectPlacement",
+        "name_object": "BRDM-2",
+        "obj1": "null",
+        "obj2": "ru_jep_brdm2_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [94.33175, -187.37025]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-25.179",
         "popupContent": "Amazing information about paradrop will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_ru_para3"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_ru_para3",
+        "class": "ObjectPlacement",
+        "name_object": "paradrop",
+        "obj1": "null",
+        "obj2": "paradrop",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [177.55138, -67.9665]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "",
         "iconrotate": "-147.883",
         "popupContent": "Amazing information about paradrop will be found here!"
-      }, 
-      "name": "cpname_dovre_aas16_rusmain_ru_para4"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_rusmain_ru_para4",
+        "class": "ObjectPlacement",
+        "name_object": "paradrop",
+        "obj1": "null",
+        "obj2": "paradrop",
+        "maxspawn": "99999.0",
+        "minspawn": "9999.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
     }
   ]
 }

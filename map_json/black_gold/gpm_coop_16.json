@@ -1,31 +1,51 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [51.687065, -93.86781]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-130.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
-      }, 
-      "name": "cpname_black_gold_coop16_gasstation_depot"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_gasstation_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ch",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ch",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [52.458435, -94.54938]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "50.0",
         "popupContent": "Amazing information about VN-3 will be found here!"
-      }, 
-      "name": "cpname_black_gold_coop16_gasstation_jeep"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_gasstation_jeep",
+        "class": "ObjectPlacement",
+        "name_object": "VN-3",
+        "obj1": "null",
+        "obj2": "ch_jep_vn3",
+        "maxspawn": "120.0",
+        "minspawn": "120.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
     }
   ]
 }

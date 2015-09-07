@@ -1,200 +1,350 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [6.319252, -186.659]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "83.581",
         "popupContent": "Amazing information about M113 ACAV will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_usmain_command"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_usmain_command",
+        "class": "ObjectPlacement",
+        "name_object": "M113 ACAV",
+        "obj1": "null",
+        "obj2": "us_apc_acav",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [3.0662537, -185.687]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
         "iconrotate": "87.044",
         "popupContent": "Amazing information about M548A1 will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_usmain_logisticstruck"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_usmain_logisticstruck",
+        "class": "ObjectPlacement",
+        "name_object": "M548A1",
+        "obj1": "null",
+        "obj2": "us_trk_m548a1",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [200.23724, -21.378998]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-160.495",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_nvamain_command"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_nvamain_command",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "nva_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [5.2157516, -185.37825]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
         "iconrotate": "82.991",
         "popupContent": "Amazing information about M548A1 will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_usmain_logisticstruck2"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_usmain_logisticstruck2",
+        "class": "ObjectPlacement",
+        "name_object": "M548A1",
+        "obj1": "null",
+        "obj2": "us_trk_m548a1",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [6.1207504, -183.09875]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-1.215",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_us will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_usmain_repairdepot"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_usmain_repairdepot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_us",
+        "obj1": "null",
+        "obj2": "vehicle_depot_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [199.877, -16.902252]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about ZIS-5V will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_nvamain_logisticstruck2"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_nvamain_logisticstruck2",
+        "class": "ObjectPlacement",
+        "name_object": "ZIS-5V",
+        "obj1": "nva_trk_zis5",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [201.59601, -13.374496]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_vnnva will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_nvamain_repairdepot"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_nvamain_repairdepot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_vnnva",
+        "obj1": "vehicle_depot_vnnva",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [38.604248, -46.34475]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "118.005",
         "popupContent": "Amazing information about rallypoint_vnnva_placeable will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_powcamp_spawn1"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_powcamp_spawn1",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_vnnva_placeable",
+        "obj1": "rallypoint_vnnva_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [44.2025, -41.47825]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-91.199",
         "popupContent": "Amazing information about rallypoint_vnnva_placeable will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_powcamp_spawn2"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_powcamp_spawn2",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_vnnva_placeable",
+        "obj1": "rallypoint_vnnva_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [233.0305, -199.311]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-93.739",
         "popupContent": "Amazing information about rallypoint_vnnva_placeable will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_cave_spawn1"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_cave_spawn1",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_vnnva_placeable",
+        "obj1": "rallypoint_vnnva_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [229.66325, -199.55275]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_vnnva_placeable will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_cave_spawn2"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_cave_spawn2",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_vnnva_placeable",
+        "obj1": "rallypoint_vnnva_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [202.1275, -16.903748]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about ZIL 131 will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_nvamain_logisticstruck3"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_nvamain_logisticstruck3",
+        "class": "ObjectPlacement",
+        "name_object": "ZIL 131",
+        "obj1": "nva_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [200.76675, -16.942749]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about ZIS-5V will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_nvamain_logi"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_nvamain_logi",
+        "class": "ObjectPlacement",
+        "name_object": "ZIS-5V",
+        "obj1": "nva_trk_zis5",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [10.886749, -181.6115]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "83.169",
         "popupContent": "Amazing information about M151A2 will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_usmain_jeep"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_usmain_jeep",
+        "class": "ObjectPlacement",
+        "name_object": "M151A2",
+        "obj1": "null",
+        "obj2": "us_jep_m151a2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [113.25525, -34.08525]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_sampan.png",
         "iconrotate": "168.867",
         "popupContent": "Amazing information about Sampan will be found here!"
-      }, 
-      "name": "cpname_tad_sae_aas32_nvamain_boat"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas32_nvamain_boat",
+        "class": "ObjectPlacement",
+        "name_object": "Sampan",
+        "obj1": "vc_shp_sampan",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

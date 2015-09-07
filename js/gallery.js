@@ -20,9 +20,9 @@ $(window).ready(function () {
 			var mapCode = element.code;
 			
 			//If map is already in gallery
-			if($("#Map-"+mapName).length){
+			if($("#Map-"+mapCode).length){
 			}else{ //If map is not yet in gallery
-				var tileMarkup = '<div id="Map-'+mapName+ '" class="tile-container" data-name="'+ element.name +'" data-code="' +element.code  + '" data-listgm="' + element.listgm + '">';
+				var tileMarkup = '<div id="Map-'+mapCode+ '" class="tile-container" data-name="'+ element.name +'" data-code="' +element.code  + '" data-listgm="' + element.listgm + '">';
 				tileMarkup += "<div class='tile-card'>";
 				tileMarkup += metaMap[key].name;
 				tileMarkup += "</div>";
@@ -33,7 +33,6 @@ $(window).ready(function () {
 				$("#Map-Tiles").append(tileMarkup);
 			}
 		}
-		setContainerWidth();
 	}).fail( function(metaMap, textStatus, error) {
 			console.error("getJSON failed, status: " + textStatus + ", error: "+error);
 	});
@@ -44,18 +43,6 @@ $(window).ready(function () {
  * ============================           TILES      =================================
  * ======================================================================================
  */
-
-$(window).resize(function () {
-    setContainerWidth();
-});
-
-function setContainerWidth() {
-    $('#Map-Tiles').css('width', 'auto'); //reset
-    var windowWidth = $('#Container').width();
-    var blockWidth = $('.tile-container').outerWidth(true);
-    var maxBoxPerRow = Math.floor(windowWidth / blockWidth);
-    $('#Map-Tiles').width(maxBoxPerRow * blockWidth);
-}
 
 
 /* ======================================================================================
@@ -73,9 +60,7 @@ $(window).ready(function () {
 		
         var layouts = [];
 		var element = $(event.target).parent();
-		console.log(element);
         var mapcode = element.data('code'); 
-		console.log(mapcode);
 		loadMap(mapcode);
 		
 		
@@ -94,6 +79,7 @@ $(window).ready(function () {
         $('#Header').removeClass("opaque");
         $('#Container').addClass('hide');
         $('#map').removeClass('hide');
+        $('#Map-button').removeClass('hide');
         $('#PRContainer').removeClass('hide');
         map._onResize(); 
     });
@@ -112,6 +98,7 @@ $(window).ready(function () {
     $('#Title').html("Project Reality");
     $('#SubTitle').html('MapGallery');
     $('#map').addClass('hide');
+    $('#Map-button').addClass('hide');
     $('#Container').removeClass('hide');
     $('#PRContainer').addClass('hide');
     $('#Fab-Anchor').html('');

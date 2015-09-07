@@ -37,7 +37,7 @@
 						<span class="menu-button-layer"></span>
 					</div>
 				</div>
-				<div id="Map-button"><img src="js\images\layers.png">
+				<div id="Map-button" class="hide"><img src="js\images\layers.png">
 				</div>
 			</div>
 			<div id="Title-Wrapper">

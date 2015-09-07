@@ -1,83 +1,143 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [126.12325, -202.43887]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_mec_placeable will be found here!"
-      }, 
-      "name": "cpname_mc_scrim16_mecrp"
+      },
+      "bf2props": {
+        "name": "cpname_mc_scrim16_mecrp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_mec_placeable",
+        "obj1": "rallypoint_mec_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [77.33713, -247.04675]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about rallypoint_us_placeable will be found here!"
-      }, 
-      "name": "cpname_mc_scrim16_usmcrp"
+      },
+      "bf2props": {
+        "name": "cpname_mc_scrim16_usmcrp",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_us_placeable",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [80.074005, -230.414]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "-60.388",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_mc_scrim16_usmain_usmc_supplycrate"
+      },
+      "bf2props": {
+        "name": "cpname_mc_scrim16_usmain_usmc_supplycrate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [116.18, -213.84412]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "-121.345",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_mc_scrim16_parkinglot_mec_supplycrate"
+      },
+      "bf2props": {
+        "name": "cpname_mc_scrim16_parkinglot_mec_supplycrate",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [116.14037, -216.14224]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
         "iconrotate": "62.514",
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      }, 
-      "name": "cpname_mc_scrim16_parkinglot_mec_supplycrate_0"
+      },
+      "bf2props": {
+        "name": "cpname_mc_scrim16_parkinglot_mec_supplycrate_0",
+        "class": "ObjectPlacement",
+        "name_object": "fixed_supply_crate",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [123.4405, -200.47987]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-75.874",
         "popupContent": "Amazing information about mec_bipod will be found here!"
-      }, 
-      "name": "cpname_muttrah_city_2_skirmish16_fort_mec_bipod"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_skirmish16_fort_mec_bipod",
+        "class": "ObjectPlacement",
+        "name_object": "mec_bipod",
+        "obj1": "mec_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

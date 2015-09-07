@@ -1,96 +1,166 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [5.6467514, -182.54025]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-20.804",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_us will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_usdeployment_depot"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_usdeployment_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_us",
+        "obj1": "null",
+        "obj2": "vehicle_depot_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [10.408501, -184.057]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "60.0",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_usdeployment_hmmwv"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_usdeployment_hmmwv",
+        "class": "ObjectPlacement",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [8.119751, -185.02675]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "74.461",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_usdeployment_hmmwv_0"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_usdeployment_hmmwv_0",
+        "class": "ObjectPlacement",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [5.345497, -185.64175]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "82.051",
         "popupContent": "Amazing information about M35 Logistics will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_usdeployment_logi"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_usdeployment_logi",
+        "class": "ObjectPlacement",
+        "name_object": "M35 Logistics",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [201.93451, -16.5635]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_tadsaehq_depot"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_tadsaehq_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ch",
+        "obj1": "vehicle_depot_ch",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [201.955, -17.026749]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "180.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_tadsaehq_logi"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_tadsaehq_logi",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [198.96375, -18.936996]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "138.357",
         "popupContent": "Amazing information about UAZ-469 will be found here!"
-      }, 
-      "name": "cpname_tad_sae_coop16_tadsaehq_jeep_0"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_tadsaehq_jeep_0",
+        "class": "ObjectPlacement",
+        "name_object": "UAZ-469",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
     }
   ]
 }

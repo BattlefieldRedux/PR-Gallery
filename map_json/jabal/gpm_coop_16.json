@@ -1,18 +1,28 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [155.78975, -96.77675]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about us_acv_lavc2 will be found here!"
-      }, 
-      "name": "westalburj_acv"
+      },
+      "bf2props": {
+        "name": "westalburj_acv",
+        "class": "ObjectPlacement",
+        "name_object": "us_acv_lavc2",
+        "obj1": "null",
+        "obj2": "us_acv_lavc2",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     }
   ]
 }

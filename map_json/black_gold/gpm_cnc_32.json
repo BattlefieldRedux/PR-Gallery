@@ -1,642 +1,1132 @@
 {
   "type": "FeatureCollection",
   "features": [
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [248.2268, -31.918877]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Su-39 Frogfoot will be found here!"
-      }, 
-      "name": "ru_air_base_ru_jet_bomber"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_jet_bomber",
+        "class": "ObjectPlacement",
+        "name_object": "Su-39 Frogfoot",
+        "obj1": "ru_jet_su39",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [249.85245, -15.88694]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      }, 
-      "name": "ru_air_base_ru_transheli01"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_transheli01",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-8T Hip",
+        "obj1": "ru_the_mi8",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [249.87369, -18.198997]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      }, 
-      "name": "ru_air_base_ru_transheli02"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_transheli02",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-8T Hip",
+        "obj1": "ru_the_mi8",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [249.87312, -13.446312]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Mi-24V Hind-E will be found here!"
-      }, 
-      "name": "ru_air_base_ru_lightheli"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_lightheli",
+        "class": "ObjectPlacement",
+        "name_object": "Mi-24V Hind-E",
+        "obj1": "ru_ahe_mi24_light",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [7.4522476, -219.3577]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_harrier.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Q-5 Fantan will be found here!"
-      }, 
-      "name": "pla_air_base_ch_jet_fighter"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_jet_fighter",
+        "class": "ObjectPlacement",
+        "name_object": "Q-5 Fantan",
+        "obj1": "null",
+        "obj2": "ch_jet_fantan",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [7.425186, -221.7633]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_harrier.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Q-5 Fantan will be found here!"
-      }, 
-      "name": "pla_air_base_ch_jet_bomber"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_jet_bomber",
+        "class": "ObjectPlacement",
+        "name_object": "Q-5 Fantan",
+        "obj1": "null",
+        "obj2": "ch_jet_fantan",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [6.267372, -208.57825]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Zhi-9WA will be found here!"
-      }, 
-      "name": "pla_air_base_ch_lightheli"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_lightheli",
+        "class": "ObjectPlacement",
+        "name_object": "Zhi-9WA",
+        "obj1": "null",
+        "obj2": "ch_ahe_z9wa_hf25",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [6.2910614, -210.88606]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Zhi-9B will be found here!"
-      }, 
-      "name": "pla_air_base_ch_transheli01"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_transheli01",
+        "class": "ObjectPlacement",
+        "name_object": "Zhi-9B",
+        "obj1": "null",
+        "obj2": "ch_the_z9b",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [6.2458725, -213.26357]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about Zhi-8KA will be found here!"
-      }, 
-      "name": "pla_air_base_ch_transheli02"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_transheli02",
+        "class": "ObjectPlacement",
+        "name_object": "Zhi-8KA",
+        "obj1": "null",
+        "obj2": "ch_the_z8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.428688, -217.48343]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-180.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_command_post"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_command_post",
+        "class": "ObjectPlacement",
+        "name_object": "ch_acv_wz551",
+        "obj1": "null",
+        "obj2": "ch_acv_wz551",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.61761, -30.551811]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "0.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/UAVtrailer.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
-      }, 
-      "name": "ru_air_base_ru_command_post"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_command_post",
+        "class": "ObjectPlacement",
+        "name_object": "ru_acv_btr60pu",
+        "obj1": "ru_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.67906, -29.328873]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about MT-LBM will be found here!"
-      }, 
-      "name": "ru_air_base_ru_apc01"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_apc01",
+        "class": "ObjectPlacement",
+        "name_object": "MT-LBM",
+        "obj1": "ru_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.68011, -29.585876]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about BRDM-2 will be found here!"
-      }, 
-      "name": "ru_air_base_ru_apc02"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_apc02",
+        "class": "ObjectPlacement",
+        "name_object": "BRDM-2",
+        "obj1": "ru_jep_brdm2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.66919, -29.03125]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about MT-LBM will be found here!"
-      }, 
-      "name": "ru_air_base_ru_apc03"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_apc03",
+        "class": "ObjectPlacement",
+        "name_object": "MT-LBM",
+        "obj1": "ru_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.5758, -28.044502]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "ru_air_base_ru_apc04"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_apc04",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.595, -28.314377]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "ru_air_base_ru_apc05"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_apc05",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.58844, -28.557625]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "ru_air_base_ru_apc06"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_apc06",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [244.7375, -30.523438]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about T-90 will be found here!"
-      }, 
-      "name": "ru_air_base_ru_tank01"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_tank01",
+        "class": "ObjectPlacement",
+        "name_object": "T-90",
+        "obj1": "ru_tnk_t90",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [245.356, -30.505684]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about BTR-80A will be found here!"
-      }, 
-      "name": "ru_air_base_ru_tank02"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_tank02",
+        "class": "ObjectPlacement",
+        "name_object": "BTR-80A",
+        "obj1": "ru_apc_btr80a",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [245.04306, -30.507812]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about BMP-3 will be found here!"
-      }, 
-      "name": "ru_air_base_ru_tank03"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_tank03",
+        "class": "ObjectPlacement",
+        "name_object": "BMP-3",
+        "obj1": "ru_ifv_bmp3",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [245.88943, -30.518059]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about 9K35 Gopher will be found here!"
-      }, 
-      "name": "ru_air_base_ru_aav01"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_aav01",
+        "class": "ObjectPlacement",
+        "name_object": "9K35 Gopher",
+        "obj1": "ru_aav_gopher",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.26782, -30.556938]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "0.0",
         "popupContent": "Amazing information about 9P149 Shturm-S will be found here!"
-      }, 
-      "name": "ru_air_base_ru_aav02"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_aav02",
+        "class": "ObjectPlacement",
+        "name_object": "9P149 Shturm-S",
+        "obj1": "ru_atm_shturm",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.57175, -26.720375]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "ru_air_base_ru_logi01"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_logi01",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.56638, -26.95169]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "ru_air_base_ru_logi02"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_logi02",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.56375, -27.195686]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "ru_air_base_ru_logi03"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_logi03",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.56757, -27.39331]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      }, 
-      "name": "ru_air_base_ru_logi04"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_logi04",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320 Logistics",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.698502, -212.56706]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about VN-3 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_apc01"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_apc01",
+        "class": "ObjectPlacement",
+        "name_object": "VN-3",
+        "obj1": "null",
+        "obj2": "ch_jep_vn3",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.692375, -212.84369]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_apc02"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_apc02",
+        "class": "ObjectPlacement",
+        "name_object": "WZ551",
+        "obj1": "null",
+        "obj2": "ch_apc_wz551a",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.713188, -213.11906]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_apc03"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_apc03",
+        "class": "ObjectPlacement",
+        "name_object": "WZ551",
+        "obj1": "null",
+        "obj2": "ch_apc_wz551a",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.71019, -211.55124]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "pla_air_base_ch_apc04"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_apc04",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "null",
+        "obj2": "ch_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.705254, -211.8338]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "pla_air_base_ch_apc05"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_apc05",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "null",
+        "obj2": "ch_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.71756, -212.09875]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "pla_air_base_ch_apc06"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_apc06",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "null",
+        "obj2": "ch_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.723373, -213.77457]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_tank01"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_tank01",
+        "class": "ObjectPlacement",
+        "name_object": "WZ551",
+        "obj1": "null",
+        "obj2": "ch_apc_wz551",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.737564, -214.04593]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about ZSL-92B will be found here!"
-      }, 
-      "name": "pla_air_base_ch_tank02"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_tank02",
+        "class": "ObjectPlacement",
+        "name_object": "ZSL-92B",
+        "obj1": "null",
+        "obj2": "ch_ifv_wz551b",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.734184, -214.38087]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about ZTZ-99A2 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_tank03"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_tank03",
+        "class": "ObjectPlacement",
+        "name_object": "ZTZ-99A2",
+        "obj1": "null",
+        "obj2": "ch_tnk_ztz99",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [172.9685, -36.04962]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-47.037",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
-      }, 
-      "name": "ru_outpost_ru_truck01"
+      },
+      "bf2props": {
+        "name": "ru_outpost_ru_truck01",
+        "class": "ObjectPlacement",
+        "name_object": "Ural-4320",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [174.26794, -33.653564]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "-180.0",
         "popupContent": "Amazing information about rallypoint_ru_placeable will be found here!"
-      }, 
-      "name": "ru_outpost_ru_rallypoint"
+      },
+      "bf2props": {
+        "name": "ru_outpost_ru_rallypoint",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ru_placeable",
+        "obj1": "rallypoint_ru_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [171.46562, -36.408936]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
         "iconrotate": "-136.477",
         "popupContent": "Amazing information about zpu4 will be found here!"
-      }, 
-      "name": "ru_outpost_ru_jeep"
+      },
+      "bf2props": {
+        "name": "ru_outpost_ru_jeep",
+        "class": "ObjectPlacement",
+        "name_object": "zpu4",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [99.535995, -187.56512]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-27.297",
         "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      }, 
-      "name": "pla_outpost_ch_truck01"
+      },
+      "bf2props": {
+        "name": "pla_outpost_ch_truck01",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 2.5 Ton",
+        "obj1": "null",
+        "obj2": "ch_trk_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [97.004745, -186.94424]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
-      }, 
-      "name": "pla_outpost_ch_rallypoint"
+      },
+      "bf2props": {
+        "name": "pla_outpost_ch_rallypoint",
+        "class": "ObjectPlacement",
+        "name_object": "rallypoint_ch_placeable",
+        "obj1": "null",
+        "obj2": "rallypoint_ch_placeable",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [101.039, -187.23169]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
         "iconrotate": "60.269",
         "popupContent": "Amazing information about zpu4 will be found here!"
-      }, 
-      "name": "pla_outpost_ch_jeep"
+      },
+      "bf2props": {
+        "name": "pla_outpost_ch_jeep",
+        "class": "ObjectPlacement",
+        "name_object": "zpu4",
+        "obj1": "null",
+        "obj2": "zpu4",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [243.54431, -25.883438]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
-      }, 
-      "name": "ru_air_base_ru_supply_depot"
+      },
+      "bf2props": {
+        "name": "ru_air_base_ru_supply_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ru",
+        "obj1": "vehicle_depot_ru",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.750626, -209.76086]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
         "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
-      }, 
-      "name": "pla_air_base_ch_supply_depot"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_supply_depot",
+        "class": "ObjectPlacement",
+        "name_object": "vehicle_depot_ch",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ch",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.683311, -215.27057]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about WZ550 will be found here!"
-      }, 
-      "name": "pla_air_base_ch_aav02"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_aav02",
+        "class": "ObjectPlacement",
+        "name_object": "WZ550",
+        "obj1": "null",
+        "obj2": "ch_atm_wz550",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.712311, -210.24687]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "pla_air_base_ch_logi01"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_logi01",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "null",
+        "obj2": "ch_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.699249, -210.49612]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "pla_air_base_ch_logi02"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_logi02",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "null",
+        "obj2": "ch_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.700188, -210.72606]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "pla_air_base_ch_logi03"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_logi03",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "null",
+        "obj2": "ch_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [13.690002, -210.96812]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-90.0",
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      }, 
-      "name": "pla_air_base_ch_logi04"
+      },
+      "bf2props": {
+        "name": "pla_air_base_ch_logi04",
+        "class": "ObjectPlacement",
+        "name_object": "EQ2080 Logistics",
+        "obj1": "null",
+        "obj2": "ch_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     },
-    { 
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [246.562, -33.81225]
-      }, 
-      "type": "Feature",
-      "properties": { 
+      },
+      "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
         "iconrotate": "-90.025",
         "popupContent": "Amazing information about deployable_spg9_sp will be found here!"
-      }, 
-      "name": "cpname_black_gold_cnc32_northmain_spg"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_cnc32_northmain_spg",
+        "class": "ObjectPlacement",
+        "name_object": "deployable_spg9_sp",
+        "obj1": "deployable_spg9_sp",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
     }
   ]
 }
