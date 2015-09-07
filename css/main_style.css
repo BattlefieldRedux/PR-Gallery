@@ -21,18 +21,15 @@ div#Wrapper {
     /* overflow-x: hidden; */
 }
 
-div#Background {
+div#map {
     transition: opacity 700ms;
     position: fixed;
     width: 100%;
     height: 100%;
     opacity: 0;
-    -webkit-backface-visibility: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-div#Background.ready {
+div#map.ready {
     opacity: 1;
 }
 
@@ -345,16 +342,16 @@ div#Fab-Shadow {
 
 
 #Body-Wrapper{
-    position: relative;
-    left: 0px;
     top: 80px;
     transition: left 300ms;
     pointer-events: none;
+	display: flex;
+	position:relative;
 }
 
 #Body-Wrapper.open-menu{
     position: relative;
-    left: 160px;
+    left: 200px;
 }
  
  
@@ -362,7 +359,7 @@ div#Fab-Shadow {
 div#Container-Navigation {
     position: absolute;
     height: 100%;
-    left: -160px;
+    left: -200px;
     pointer-events: all;
 }
 
@@ -403,41 +400,6 @@ div#Back {
     background-size: contain;
     position: relative;
     top: -4px;
-}
-
-
-/* ====================================================================
- * ==============              Image Overview          ====================
- * ====================================================================
- */
-
-div#MapOverview.oHide {
-    top: -100%;
-    opacity: 0;
-}
-
-div#MapOverview {
-    opacity: 1;
-    transition: all 300ms ease-in;
-    pointer-events: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;  
-    top: 0;
-    background-image: url(../img/maps/albasrah/mapOverview_gpm_insurgency_16.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 10000;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    background-size:contain;
-}
-
-@media (min-height: 500px) {
-   div#MapOverview {
-    background-size: auto 70%;
-    }
 }
 
 /* ====================================================================

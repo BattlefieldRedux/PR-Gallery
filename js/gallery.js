@@ -5,38 +5,38 @@
  * ==================           BUILDING TILES-CONTAINERS      ==========================
  * ======================================================================================
  */
-ASSETS_JSON = '';
 
 $(window).ready(function () {
-	$('#SubTitle').html('MapGallery')	
-    getJSON('json/serverdata.json', function (metaMap) {
-
+	$('#SubTitle').html('MapGallery');
+	
 		
-		
+	$.getJSON("map_json/maplist.json", function(metaMap) {
 		$("#Container").append('<div id="Map-Tiles"></div>');
-        for (var key in metaMap) {
-			var mapName = metaMap[key].MapName;
-			
+		
+		
+		for (var key in metaMap) {
+			var element = metaMap[key];
+			var mapName = element.name;
+			var mapCode = element.code;
 			
 			//If map is already in gallery
 			if($("#Map-"+mapName).length){
-				$("#Map-"+mapName).addClass('fc-'+metaMap[key].Team2FriendlyNameShort).addClass('fc-'+metaMap[key].Team1FriendlyNameShort);
-
-			}else{//If map is not yet in gallery
-				var tileMarkup = '<div id="Map-'+mapName+ '" class="tile-container size-'+metaMap[key].MapSize + ' fc-'+metaMap[key].Team2FriendlyNameShort +' fc-'+metaMap[key].Team1FriendlyNameShort+'" data="'+key+'" style="background-color:'+metaMap[key].Color+';">';
+			}else{ //If map is not yet in gallery
+				var tileMarkup = '<div id="Map-'+mapName+ '" class="tile-container" data-name="'+ element.name +'" data-code="' +element.code  + '" data-listgm="' + element.listgm + '">';
 				tileMarkup += "<div class='tile-card'>";
-				tileMarkup += metaMap[key].FriendlyMapName + " ("+metaMap[key].MapSize+" Km)";
+				tileMarkup += metaMap[key].name;
 				tileMarkup += "</div>";
-				tileMarkup += "<img class='mix tile' src='img/maps/" + mapName + "/tile.jpg'>";
+				tileMarkup += "<img class='mix tile' src='map_source/" + mapCode + "_minimap.jpg'>";
 				tileMarkup += "<div class='meta-information'>";
 				tileMarkup += "";
 				tileMarkup += "</div></div>";
 				$("#Map-Tiles").append(tileMarkup);
 			}
-        }
-        setContainerWidth();
-        ASSETS_JSON = metaMap;
-    });
+		}
+		setContainerWidth();
+	}).fail( function(metaMap, textStatus, error) {
+			console.error("getJSON failed, status: " + textStatus + ", error: "+error);
+	});
 });
 
 
@@ -66,76 +66,34 @@ function setContainerWidth() {
 $(window).ready(function () {
 
 
-    $('#Container').on('click', '.tile-container', function () {
+    $('#Container').on('click', '.tile-container', function (event) {
+		
+		
+		
+		
         var layouts = [];
-
-        var mapName; 
-        var friendlyMapName;
-        for (var key in ASSETS_JSON) {
-
-            var name = ASSETS_JSON[key].MapName;
-            if("Map-"+name!=$(this).attr('id'))
-                continue;
-
-            friendlyMapName = ASSETS_JSON[key].FriendlyMapName;
-            mapName = ASSETS_JSON[key].MapName;
-            var gmd = ASSETS_JSON[key].GameMode;
-            var layer = ASSETS_JSON[key].Layer;
-            layouts.push([
-                gmd, 
-                layer, 
-                key,  
-                ASSETS_JSON[key].Team1FriendlyName,  
-                ASSETS_JSON[key].Team2FriendlyName
-            ]);
-        }
-
+		var element = $(event.target).parent();
+        var mapcode = element.data('code'); 
+		loadMap(mapcode);
+		
+		
+        var mapname = element.data('name');
+		$('#Title').html(mapname);
+		$('#SubTitle').html("Choose a gamemode");
+		
 
         $('#Search').addClass('hide');
         $('html,body').scrollTop(0);
         // $('body').addClass('noscroll');
         // $('#SubTiles').addClass('open');
-        $('#Background').css('background-image', 'url("img/maps/' + mapName+ '/background.jpg")');
-        $('#Background').addClass('ready');
+        //$('#Background').css('background-image', 'url("img/maps/' + mapName+ '/background.jpg")');
+		//$('#Background').css('background-image', 'url("map_source/albasrah_minimap.jpg")');
+        // $('#map').addClass('ready');
+        $('#map').addClass('ready');
         $('#Header').removeClass("opaque");
         $('#Container').addClass('hide');
         $('#PRContainer').removeClass('hide');
         $("#Menu-button").addClass("open").addClass("galleryPage");
-        // $('#Filter-container').addClass('hide');
-
-        var layoutsHTML = '<ul>';
-
-        var openingLayout = -1;
-        for (var key in layouts) {
-            if(layouts[key][0]=='gpm_cq' || layouts[key][0]=='gpm_insurgency' && openingLayout == -1)
-                openingLayout = key;
-
-            layoutsHTML += '<li data="'+layouts[key][2]+'">' + dictionary(layouts[key][0]) + ' ' + dictionary(layouts[key][1]) + '</li>'
-        }
-        layoutsHTML += '</ul>';
-
-        openingLayout = (openingLayout==-1) ? 0 : openingLayout;
-
-        //Create FAB button for layouts
-        var fabLay = '<div id="Fab-Layouts" onclick="toggleFAB(\'Fab-Layouts\')" class="fab fab-menu">' + layoutsHTML + '</div>';
-        
-        //Create FAB button for overviews
-        var fabOver = '<div id="Fab-Toggle-Overview" onclick="toggleMapOverview()" class="fab fab-menu"></div>';
-
-        $('#Fab-Anchor').html(fabOver + fabLay);
-
-        buildLayout(layouts[openingLayout][2]);
-
-        var child = parseInt(openingLayout) +1;
-        $('#Fab-Layouts li:nth-child('+child+')').addClass('selected');
-
-        $('.team-header.teamB').find('.name').html(layouts[openingLayout][3]);
-        $('.team-header.teamA').find('.name').html(layouts[openingLayout][4]);
-        $('.team-header.teamB').find('.flag').addClass('ancient-factionflag').addClass('ancient-factionflag-' + layouts[openingLayout].BLUFaction);
-        $('.team-header.teamA').find('.flag').addClass('ancient-factionflag').addClass('ancient-factionflag-' + layouts[openingLayout].OPFaction);
-
-
-        $('#Assets-container').css('height', $(window).height() - 50 - 99 - 9);
     });
 });
 
@@ -151,11 +109,12 @@ $(window).ready(function () {
     closeFABs();
     $('#Title').html("Project Reality");
     $('#SubTitle').html('MapGallery')
-    $('#Background').removeClass('ready');
+    $('#map').removeClass('ready');
     $('#Container').removeClass('hide');
     $('#PRContainer').addClass('hide');
     $('#Fab-Anchor').html('');
     $('#Search').removeClass('hide');
+	document.getElementById('output').innerHTML = "";
   });
 });
 
@@ -192,7 +151,7 @@ function buildLayout(layout) {
 
   
 
-    $('#MapOverview').css('background-image', "url(img/maps/"+map.MapName+"/mapOverview_"+map.GameMode+"_"+map.Layer+".png)");
+    // $('#MapOverview').css('background-image', "url(img/maps/"+map.MapName+"/mapOverview_"+map.GameMode+"_"+map.Layer+".png)");
 
 
     $('.assets.teamA').html('');//RESET

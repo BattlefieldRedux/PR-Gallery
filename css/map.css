@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#map {
+	postiion:fixed;
+	top: 80px;
+	width:100%;
+	height:100%;
+	min-height: 100%;
+}
+
+.leaflet-container {
+    background: #000000;
+}
+
+.aicon .form { display:none; }
+
+ ul.mappreviews {
+	 
+	z-index: 10000;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 900px;
+    overflow-x: auto;
+  }
+  ul.mappreviews li {
+	position: relative;
+    display: inline-block;
+    text-align:center;
+    vertical-align:middle;
+    margin: auto;
+    width: 150px;
+	max-width: 150px;
+    height: 150px;
+  }
+  
+  div.mappreview_header {
+	position: absolute; 
+	margin: auto;
+	top: 72; 
+	left: 0px; 
+	max-width: 150px;
+    white-space: normal;
+	width:150px;
+	font-size: 15px;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-shadow: 	1px  1px 1px black,
+							1px -1px 1px black,
+							-1px  1px 1px black,
+							-1px -1px 1px black;
+}
+
+  ul.mappreviews {
+	  position:absolute;
+	  top:0px;
+	  left:0px;
+	  width:100%
+}
+
+
+#output {
+	position: absolute;
+	background: none;
+	z-index: 10000;
+	font-size: 1em;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-shadow:  1px  1px 1px black,
+		  1px -1px 1px black,
+		 -1px  1px 1px black,
+		 -1px -1px 1px black;
+}
