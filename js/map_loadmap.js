@@ -23,6 +23,42 @@ function loadMap(mapname) {
 		map.removeLayer(gmlayers[i]);
 		GMcontrol.removeLayer(gmlayers[i]);
 	}
+
+	layer_grid_group.addLayer(L.simpleGraticule({
+		interval : 6.2439024390243902439024390243902,
+		offset : 6.2439024390243902439024390243902,
+		showOriginLabel : false,
+		showLabels : false,
+		redraw : 'move',
+		clickable : false,
+		className : "simple-grid-line",
+		lineStyle : {
+			stroke : true,
+			color : '#000',
+			opacity : 1,
+			weight : 0.3,
+			clickable : false,
+			className : "simple-grid-line"
+		}
+	}));
+	layer_grid_group.addLayer(L.simpleGraticule({
+		interval : 6.2439024390243902439024390243902 * 3,
+		offset : 6.2439024390243902439024390243902,
+		showOriginLabel : false,
+		showLabels : false,
+		redraw : 'move',
+		lineStyle : {
+			stroke : true,
+			color : '#000',
+			opacity : 0.6,
+			weight : 1.3,
+			clickable : false,
+			className : "simple-grid-line",
+			fillColor : '#fff',
+			fill : true
+		}
+	}));
+	layercontrol.addOverlay(layer_grid_group, "Grid Overlay");
 	gmlayers = [];
 	gmnames = [];
 	GMLayerGroup.clearLayers();
@@ -68,7 +104,7 @@ function loadMap(mapname) {
 				modename += " Large";
 			}
 			gmnames.push(modename);
-			$.getJSON(list_gm[i], doSomething(i)).fail(function(d, textStatus, error) {
+			$.getJSON(list_gm[i], doSomething(i, [mapname, list_gm[i]])).fail(function(d, textStatus, error) {
 				console.error("getJSON failed, status: " + textStatus + ", error: " + error);
 			});
 			;
@@ -82,19 +118,22 @@ function loadMap(mapname) {
 	resetRotation();
 };
 
-var doSomething = function(extraStuff) {
+var doSomething = function(extraStuff, extradata) {
 	return function(data, textStatus, jqXHR) {
+		var gmarray = [];
+		gmarray.mapname = extradata[0];
+		gmarray.gm = extradata[1];
+		//GMASSETS.push("{ map: " + extradata[0] + ", gm: " + extradata[1] + ", ") ;
 		var gamemode = L.geoJson(data, {
 			style : function(feature) {
 				return feature.properties && feature.properties.style;
 			},
 			pointToLayer : function(feature, latlng) {
-				var iconurl = feature.properties.iconurl.toLowerCase();
-				if (iconurl == '') {
+				var iconurl = feature.properties.iconurl;
+				if (iconurl == '' || iconurl == 'null') {
 					console.log("Not found" + feature.bf2props.name_object);
 					iconurl = "icons/flags_map/minimap_uncappable.png";
 				}
-				console.log(feature.name);
 				var newmarker = L.marker(latlng, {
 					icon : L.divIcon({
 						iconSize : new L.Point(20, 20),
@@ -102,21 +141,45 @@ var doSomething = function(extraStuff) {
 						html : '<img style="width:100%" class="rotated" src=' + iconurl + ' data-rotate="' + feature.properties.iconrotate + '">'
 					})
 				});
-
 				var popupContent = "";
+				gmarray.push(feature);
+				if (feature.properties) {
+					var minspawn = parseInt(feature.bf2props.minspawn);
+					var maxspawn = parseInt(feature.bf2props.maxspawn);
 
-				if (feature.properties && feature.properties.popupContent) {
-					popupContent += feature.bf2props.name_object;
+					popupContent += "<table><tr><td colspan='2'>" + feature.bf2props.name_object + "</td></tr>";
+					if (minspawn < 0 || maxspawn < 0 || minspawn > 9999 || maxspawn > 9999) {
+						popupContent += "<tr><td>Respawn Time:</td><td> None</td></tr>";
+					} else {
+						if (minspawn == minspawn) {
+							popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " s" + "</td></tr>";
+						} else {
+							popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " to " + maxspawn + " s" + "</td></tr>";
+						}
+					}
+					if (feature.bf2props.spawndelay == "true") {
+						popupContent += "<tr><td>SpawnDelay:</td><td> Yes" + "</td></tr>";
+					} else {
+						popupContent += "<tr><td>SpawnDelay:</td><td> No" + "</td></tr>";
+					}
+					popupContent += "<tr><td>Team:</td><td>" + feature.bf2props.team + "</td></tr>";
+
+					popupContent += "</table>";
 				}
 
 				newmarker.bindPopup(popupContent);
+				newmarker.on('mouseover', function(e) {
+					// document.getElementById('RightPane').innerHTML = this.getPopup().getContent();
+				});
 
 				return newmarker;
 			},
 			onEachFeature : function(feature, layer) {
 			}
 		});
+		GMASSETS.push(gmarray);
 		gmlayers.push(gamemode);
 		GMcontrol.addBaseLayer(gamemode, gmnames[extraStuff]);
+
 	};
 };

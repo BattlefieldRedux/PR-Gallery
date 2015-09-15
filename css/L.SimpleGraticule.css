@@ -1,11 +1,35 @@
-.leaflet-grid-label .gridlabel-vert {
+.simple-grid-label .simplelabel-vert {
     margin-left: 8px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.leaflet-grid-label .gridlabel-vert,
-.leaflet-grid-label .gridlabel-horiz {
+
+
+.simple-grid-label .gridlabel-vert {
     padding-left:2px;
-    text-shadow: -2px 0 #FFFFFF, 0 2px #FFFFFF, 2px 0 #FFFFFF, 0 -2px #FFFFFF;
+    text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+	
+}
+.simple-grid-label .gridlabel-horiz {
+    padding-top:2px;
+    text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+}
+
+.simple-grid-label {
+	pointer-events: none;
+	cursor: none;
+	width: auto;
+	height: auto;
+    font: "arial";
+    font-size: 15px;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.simple-grid-line {
+	pointer-events: none;
+	cursor: none;
+    shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
 }
