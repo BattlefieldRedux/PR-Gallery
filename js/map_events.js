@@ -39,7 +39,7 @@ function resetRotation() {
 }
 
 
-$(window).ready(function(e) {
+$(window).ready(function(exx) {
 
 	map.on('mouseout', function(e) {
 		var ew = window.event;
@@ -47,7 +47,6 @@ $(window).ready(function(e) {
 	});
 
 	map.on('baselayerchange', function(e) {
-
 		var modename = "";
 		if (e.name.search("Insurgency") != -1) {
 			modename = "gpm_insurgency_";
@@ -112,7 +111,7 @@ $(window).ready(function(e) {
 
 
 		sorted_assets.sort(compare);
-		document.getElementById('RightPane').innerHTML = "";
+		document.getElementById('RPane-content').innerHTML = "";
 
 		for ( i = 0; i < sorted_assets.length; i++) {
 			var stringadd = "";
@@ -134,7 +133,7 @@ $(window).ready(function(e) {
 				}
 			}
 			stringadd += "</div>";
-			document.getElementById('RightPane').innerHTML += stringadd;
+			document.getElementById('RPane-content').innerHTML += stringadd;
 		};
 	});
 

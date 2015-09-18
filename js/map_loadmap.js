@@ -36,7 +36,7 @@ function loadMap(mapname) {
 			stroke : true,
 			color : '#000',
 			opacity : 1,
-			weight : 0.3,
+			weight : 0.2,
 			clickable : false,
 			className : "simple-grid-line"
 		}
@@ -50,8 +50,8 @@ function loadMap(mapname) {
 		lineStyle : {
 			stroke : true,
 			color : '#000',
-			opacity : 0.6,
-			weight : 1.3,
+			opacity : 1,
+			weight : 1,
 			clickable : false,
 			className : "simple-grid-line",
 			fillColor : '#fff',
@@ -131,7 +131,7 @@ var doSomething = function(extraStuff, extradata) {
 			pointToLayer : function(feature, latlng) {
 				var iconurl = feature.properties.iconurl;
 				if (iconurl == '' || iconurl == 'null') {
-					console.log("Not found" + feature.bf2props.name_object);
+					console.error("WARNING: BF2Object has no icon: " + feature.bf2props.name_object + ". Consider adding an exception.");
 					iconurl = "icons/flags_map/minimap_uncappable.png";
 				}
 				var newmarker = L.marker(latlng, {
@@ -148,8 +148,8 @@ var doSomething = function(extraStuff, extradata) {
 					var maxspawn = parseInt(feature.bf2props.maxspawn);
 
 					popupContent += "<table><tr><td colspan='2'>" + feature.bf2props.name_object + "</td></tr>";
-					if (minspawn < 0 || maxspawn < 0 || minspawn > 9999 || maxspawn > 9999) {
-						popupContent += "<tr><td>Respawn Time:</td><td> None</td></tr>";
+					if (minspawn < 0 || maxspawn < 0 || minspawn > 9999 || maxspawn > 9999 || (minspawn == 0 && maxspawn == 0)) {
+						popupContent += "<tr><td>Respawn Time:</td><td> Never</td></tr>";
 					} else {
 						if (minspawn == minspawn) {
 							popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " s" + "</td></tr>";

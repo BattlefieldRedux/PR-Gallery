@@ -74,6 +74,8 @@ $(window).ready(function() {
 		$('#RightPane-button').addClass('open');
 		$('#RightPane').addClass('open');
 		$('#PRContainer').removeClass('hide');
+		$('#Assets-button').removeClass('hide');
+		$('.leaflet-control-layers.GM-button.hide').removeClass('hide');
 		map._onResize();
 	});
 });
@@ -98,6 +100,9 @@ $(window).ready(function() {
 		$('#PRContainer').addClass('hide');
 		$('#Fab-Anchor').html('');
 		$('#Search').removeClass('hide');
+		$("#Search>input").focus();
+		$('#Assets-button').addClass('hide');
+		$('.leaflet-control-layers.GM-button').addClass('hide');
 		document.getElementById('output').innerHTML = "";
 		document.getElementById('RightPane').innerHTML = "";
 	});
@@ -205,13 +210,20 @@ $(window).ready(function() {
 });
 
 function filterMapsByName(nameToFilter) {
+	// TODO: Give feedback to user if no results have been found (found == 0)
+	// E.g. show message in map-tiles 'Your query gives no results.'
+	var no = 0;
+	var found = 0;
 	$(".tile-container").each(function() {
+		no += 1;
 		var mapName = $(this).find(".tile-card").text();
+		if (nameToFilter == "" || mapName.toLowerCase().indexOf(nameToFilter.toLowerCase()) >= 0) {
 
-		if (nameToFilter == "" || mapName.toLowerCase().indexOf(nameToFilter.toLowerCase()) >= 0)
 			$(this).removeClass("hide");
-		else
+			found += 1;
+		} else {
 			$(this).addClass("hide");
+		}
 
 	});
 }
