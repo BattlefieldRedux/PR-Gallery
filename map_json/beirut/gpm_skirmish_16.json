@@ -1,11 +1,60 @@
 {
+  "team1":"idf",
+  "team2":"ru",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_beirut_skirmish16_idfmain2"
+      ],
+      [
+        "cpname_beirut_skirmish16_idfmain"
+      ],
+      [
+        "cpname_beirut_skirmish16_cp2"
+      ],
+      [
+        "cpname_beirut_skirmish16_cp1"
+      ],
+      [
+        "cpname_beirut_skirmish16_rumain"
+      ],
+      [
+        "cpname_beirut_skirmish16_rumain2"
+      ]
+    ],
+    [
+      [
+        "cpname_beirut_skirmish16_idfmain2"
+      ],
+      [
+        "cpname_beirut_skirmish16_2cp1"
+      ],
+      [
+        "cpname_beirut_skirmish16_2cp2"
+      ],
+      [
+        "cpname_beirut_skirmish16_2cp3"
+      ],
+      [
+        "cpname_beirut_skirmish16_rumain2"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [212.7225, -164.77887]
+        "coordinates": [212.7225, -164.77887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +63,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_skirmish16_idfmain_fixedrp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +78,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.33038, -115.11625]
+        "coordinates": [145.33038, -115.11625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +88,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_skirmish16_rumain2_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -47,6 +97,249 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.87387, -135.67862],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West City 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_rumain",
+        "class": "ControlPoint",
+        "name_object": "West City 70m",
+        "team": "0",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.39238, -125.792625],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_cp1",
+        "class": "ControlPoint",
+        "name_object": "North City 70m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [183.551, -149.38063],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East City 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_cp2",
+        "class": "ControlPoint",
+        "name_object": "East City 70m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199.73625, -162.26062],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_idfmain",
+        "class": "ControlPoint",
+        "name_object": "Gas Station 70m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "4",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.155, -114.99425],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian FOB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_rumain2",
+        "class": "ControlPoint",
+        "name_object": "Russian FOB",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "201",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [220.49637, -168.19725],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_idfmain2",
+        "class": "ControlPoint",
+        "name_object": "IDF Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [191.55951, -155.53763],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Apartments 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_2cp1",
+        "class": "ControlPoint",
+        "name_object": "East Apartments 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "500.0",
+        "cpid": "203",
+        "sgid": "202",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.81137, -132.94138],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_2cp2",
+        "class": "ControlPoint",
+        "name_object": "City Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "204",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [156.95724, -133.15962],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Apartments 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_skirmish16_2cp3",
+        "class": "ControlPoint",
+        "name_object": "West Apartments 75m",
+        "team": "0",
+        "areavalue1": "500.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

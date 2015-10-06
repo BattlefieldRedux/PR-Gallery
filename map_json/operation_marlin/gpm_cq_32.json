@@ -1,21 +1,189 @@
 {
+  "team1":"mec",
+  "team2":"fr",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_marlin_aas32_idf_camp"
+      ],
+      [
+        "cpname_operation_marlin_aas32_saint_tropez"
+      ],
+      [
+        "cpname_operation_marlin_aas32_1_district_hill"
+      ],
+      [
+        "cpname_operation_marlin_aas32_1_british_palace"
+      ],
+      [
+        "cpname_operation_marlin_aas32_1_embassy"
+      ],
+      [
+        "cpname_operation_marlin_aas32_1_hotel_bellevue"
+      ],
+      [
+        "cpname_operation_marlin_aas32_checkpoint"
+      ],
+      [
+        "cpname_operation_marlin_aas32_fr_base"
+      ]
+    ],
+    [
+      [
+        "cpname_operation_marlin_aas32_idf_camp"
+      ],
+      [
+        "cpname_operation_marlin_aas32_saint_tropez"
+      ],
+      [
+        "cpname_operation_marlin_aas32_2_south_bridge"
+      ],
+      [
+        "cpname_operation_marlin_aas32_2_district_hill"
+      ],
+      [
+        "cpname_operation_marlin_aas32_2_harbor"
+      ],
+      [
+        "cpname_operation_marlin_aas32_2_hotel_imperial"
+      ],
+      [
+        "cpname_operation_marlin_aas32_checkpoint"
+      ],
+      [
+        "cpname_operation_marlin_aas32_fr_base"
+      ]
+    ],
+    [
+      [
+        "cpname_operation_marlin_aas32_idf_camp"
+      ],
+      [
+        "cpname_operation_marlin_aas32_saint_tropez"
+      ],
+      [
+        "cpname_operation_marlin_aas32_3_district_hill"
+      ],
+      [
+        "cpname_operation_marlin_aas32_3_residences"
+      ],
+      [
+        "cpname_operation_marlin_aas32_3_tv_station"
+      ],
+      [
+        "cpname_operation_marlin_aas32_3_monastery"
+      ],
+      [
+        "cpname_operation_marlin_aas32_checkpoint"
+      ],
+      [
+        "cpname_operation_marlin_aas32_fr_base"
+      ]
+    ],
+    [
+      [
+        "cpname_operation_marlin_aas32_idf_camp"
+      ],
+      [
+        "cpname_operation_marlin_aas32_saint_tropez"
+      ],
+      [
+        "cpname_operation_marlin_aas32_4_south_district"
+      ],
+      [
+        "cpname_operation_marlin_aas32_4_un_outpost"
+      ],
+      [
+        "cpname_operation_marlin_aas32_4_monastery"
+      ],
+      [
+        "cpname_operation_marlin_aas32_4_hotel_imperial"
+      ],
+      [
+        "cpname_operation_marlin_aas32_checkpoint"
+      ],
+      [
+        "cpname_operation_marlin_aas32_fr_base"
+      ]
+    ],
+    [
+      [
+        "cpname_operation_marlin_aas32_idf_camp"
+      ],
+      [
+        "cpname_operation_marlin_aas32_saint_tropez"
+      ],
+      [
+        "cpname_operation_marlin_aas32_5_village"
+      ],
+      [
+        "cpname_operation_marlin_aas32_5_city_center"
+      ],
+      [
+        "cpname_operation_marlin_aas32_5_fuel_depots"
+      ],
+      [
+        "cpname_operation_marlin_aas32_5_estuary"
+      ],
+      [
+        "cpname_operation_marlin_aas32_checkpoint"
+      ],
+      [
+        "cpname_operation_marlin_aas32_fr_base"
+      ]
+    ],
+    [
+      [
+        "cpname_operation_marlin_aas32_idf_camp"
+      ],
+      [
+        "cpname_operation_marlin_aas32_saint_tropez"
+      ],
+      [
+        "cpname_operation_marlin_aas32_6_dam"
+      ],
+      [
+        "cpname_operation_marlin_aas32_6_un_outpost"
+      ],
+      [
+        "cpname_operation_marlin_aas32_6_tv_station"
+      ],
+      [
+        "cpname_operation_marlin_aas32_6_hotel_bellevue"
+      ],
+      [
+        "cpname_operation_marlin_aas32_checkpoint"
+      ],
+      [
+        "cpname_operation_marlin_aas32_fr_base"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.40688, -226.13663]
+        "coordinates": [239.40688, -226.13663],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -29,7 +197,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.31613, -225.87038]
+        "coordinates": [224.31613, -225.87038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -38,7 +207,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_logistics",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -53,7 +222,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.50436, -223.646]
+        "coordinates": [238.50436, -223.646],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -62,7 +232,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_apc3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -77,7 +247,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.10175, -225.86313]
+        "coordinates": [227.10175, -225.86313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +257,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_logistics2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -101,7 +272,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [236.51599, -223.86275]
+        "coordinates": [236.51599, -223.86275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -110,7 +282,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_apc1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -125,7 +297,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.55826, -224.08075]
+        "coordinates": [234.55826, -224.08075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -134,7 +307,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_apc2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "mec_apc_btr60",
@@ -149,17 +322,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [236.732, -227.39938]
+        "coordinates": [236.732, -227.39938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_post",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mec_acv_btr60pu",
         "obj2": "null",
@@ -173,7 +347,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.84988, -239.82225]
+        "coordinates": [233.84988, -239.82225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -182,7 +357,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_the01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -197,7 +372,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.71812, -224.36588]
+        "coordinates": [227.71812, -224.36588],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -206,7 +382,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_jeep2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -221,17 +397,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.24937, -310.87427]
+        "coordinates": [239.24937, -310.87427],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-40.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -245,7 +422,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.68488, -224.30788]
+        "coordinates": [224.68488, -224.30788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -254,7 +432,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_jeep1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz",
@@ -269,17 +447,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.16463, -310.43613]
+        "coordinates": [240.16463, -310.43613],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-40.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_arty2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -293,17 +472,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.76837, -311.12775]
+        "coordinates": [241.76837, -311.12775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-40.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_arty3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -317,17 +497,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.93, -312.15564]
+        "coordinates": [240.93, -312.15564],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-40.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_arty4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -341,7 +522,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.3815, -224.302]
+        "coordinates": [223.3815, -224.302],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -350,7 +532,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_jeep3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz",
@@ -365,7 +547,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.45, -224.34688]
+        "coordinates": [226.45, -224.34688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -374,7 +557,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_jeep4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -389,7 +572,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.825127, -43.21]
+        "coordinates": [43.825127, -43.21],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +582,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_logistics1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -413,7 +597,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.64025, -42.74125]
+        "coordinates": [44.64025, -42.74125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -422,7 +607,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_logistic2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -437,17 +622,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.92125, -44.403503]
+        "coordinates": [47.92125, -44.403503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fr",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_fr",
@@ -461,7 +647,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.6625, -39.21875]
+        "coordinates": [40.6625, -39.21875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -470,7 +657,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_helico3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "CH-147 Chinook",
         "team": "2",
         "obj1": "null",
@@ -485,7 +672,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.412376, -41.7265]
+        "coordinates": [46.412376, -41.7265],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -494,7 +682,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_apc1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -509,7 +697,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.54225, -42.225998]
+        "coordinates": [45.54225, -42.225998],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -518,7 +707,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_apc2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -533,7 +722,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.716873, -45.759003]
+        "coordinates": [44.716873, -45.759003],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -542,7 +732,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_jeep2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -557,17 +747,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.1875, -37.1875]
+        "coordinates": [44.1875, -37.1875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_fr_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_rp1",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_fr_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_fr_placeable_noexpire",
@@ -581,17 +772,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.75, -44.3125]
+        "coordinates": [42.75, -44.3125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about fr_acv_vab will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_command",
-        "class": "ObjectPlacement",
-        "name_object": "fr_acv_vab",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "fr_acv_vab",
@@ -605,7 +797,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.533997, -45.291374]
+        "coordinates": [45.533997, -45.291374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -614,7 +807,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_jeep3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -629,7 +822,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.950752, -46.19925]
+        "coordinates": [43.950752, -46.19925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -638,7 +832,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_jeep1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -653,17 +847,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.99888, 72.00125]
+        "coordinates": [54.99888, 72.00125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -677,17 +872,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [55.99888, 72.00125]
+        "coordinates": [55.99888, 72.00125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_arty2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -701,17 +897,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.87388, 72.00125]
+        "coordinates": [56.87388, 72.00125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_arty3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -725,17 +922,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [57.62388, 72.00125]
+        "coordinates": [57.62388, 72.00125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_arty4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -749,7 +947,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.377876, -44.804626]
+        "coordinates": [46.377876, -44.804626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -758,7 +957,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_fr_base_jeep4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -773,7 +972,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [232.70612, -224.21262]
+        "coordinates": [232.70612, -224.21262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -782,7 +982,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas32_idf_camp_apc4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "mec_apc_btr60",
@@ -791,6 +991,762 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [234.625, -224.75],
+        "size": [33, 33],
+        "radius": "0.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Main Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_idf_camp",
+        "class": "ControlPoint",
+        "name_object": "Main Camp",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "501",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0, -36.75],
+        "size": [33, 33],
+        "radius": "0.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Main Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_fr_base",
+        "class": "ControlPoint",
+        "name_object": "Main Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "502",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.0, -57.375],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Checkpoint 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_checkpoint",
+        "class": "ControlPoint",
+        "name_object": "Checkpoint 100m",
+        "team": "0",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "503",
+        "sgid": "7",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.5, -95.5],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bellevue Hotel 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_1_hotel_bellevue",
+        "class": "ControlPoint",
+        "name_object": "Bellevue Hotel 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "504",
+        "sgid": "601",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.5, -151.75],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about French Embassy 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_1_embassy",
+        "class": "ControlPoint",
+        "name_object": "French Embassy 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "505",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.0, -144.875],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Palace 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_1_british_palace",
+        "class": "ControlPoint",
+        "name_object": "British Palace 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "506",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.375, -114.25],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about District Hill 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_1_district_hill",
+        "class": "ControlPoint",
+        "name_object": "District Hill 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "507",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [203.0, -173.0],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Saint Tropez Resort 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_saint_tropez",
+        "class": "ControlPoint",
+        "name_object": "Saint Tropez Resort 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "508",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.5, -86.75],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Imperial Hotel 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_2_hotel_imperial",
+        "class": "ControlPoint",
+        "name_object": "Imperial Hotel 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "509",
+        "sgid": "602",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.0, -59.25],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Harbor 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_2_harbor",
+        "class": "ControlPoint",
+        "name_object": "Harbor 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "128",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.375, -114.25],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about District Hill 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_2_district_hill",
+        "class": "ControlPoint",
+        "name_object": "District Hill 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "510",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.25, -144.25],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_2_south_bridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "511",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.0, -126.75],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Monastery 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_3_monastery",
+        "class": "ControlPoint",
+        "name_object": "Monastery 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "512",
+        "sgid": "603",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.75, -128.0],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about TV Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_3_tv_station",
+        "class": "ControlPoint",
+        "name_object": "TV Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "513",
+        "sgid": "503",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.625, -99.25],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Residences 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_3_residences",
+        "class": "ControlPoint",
+        "name_object": "Residences 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "514",
+        "sgid": "403",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.375, -114.25],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about District Hill 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_3_district_hill",
+        "class": "ControlPoint",
+        "name_object": "District Hill 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "515",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.5, -86.75],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Imperial Hotel 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_4_hotel_imperial",
+        "class": "ControlPoint",
+        "name_object": "Imperial Hotel 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "516",
+        "sgid": "604",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.0, -126.75],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Monastery 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_4_monastery",
+        "class": "ControlPoint",
+        "name_object": "Monastery 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "517",
+        "sgid": "504",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.5, -194.25],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UN Outpost 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_4_un_outpost",
+        "class": "ControlPoint",
+        "name_object": "UN Outpost 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "518",
+        "sgid": "404",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.0, -160.5],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South District 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_4_south_district",
+        "class": "ControlPoint",
+        "name_object": "South District 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "519",
+        "sgid": "304",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.25, -50.5],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Estuary 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_5_estuary",
+        "class": "ControlPoint",
+        "name_object": "Estuary 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "520",
+        "sgid": "605",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [180.5, -60.5],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fuel Depot 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_5_fuel_depots",
+        "class": "ControlPoint",
+        "name_object": "Fuel Depot 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "521",
+        "sgid": "505",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.75, -113.0],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_5_city_center",
+        "class": "ControlPoint",
+        "name_object": "City Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "522",
+        "sgid": "405",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.25, -125.5],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_5_village",
+        "class": "ControlPoint",
+        "name_object": "Village 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "523",
+        "sgid": "305",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.5, -95.5],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bellevue Hotel 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_6_hotel_bellevue",
+        "class": "ControlPoint",
+        "name_object": "Bellevue Hotel 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "524",
+        "sgid": "606",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.75, -128.0],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about TV Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_6_tv_station",
+        "class": "ControlPoint",
+        "name_object": "TV Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "525",
+        "sgid": "506",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.5, -194.25],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UN Outpost 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_6_un_outpost",
+        "class": "ControlPoint",
+        "name_object": "UN Outpost 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "526",
+        "sgid": "406",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.0, -221.75],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dam 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_aas32_6_dam",
+        "class": "ControlPoint",
+        "name_object": "Dam 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "527",
+        "sgid": "306",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

@@ -1,11 +1,42 @@
 {
+  "team1":"mec",
+  "team2":"usa",
+  "team1tickets":"200",
+  "team2tickets":"200",
+  "mapsize":"4096",
+  "viewdistance":"1300",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_khamisiyah_coop16_southkhamisiyah"
+      ],
+      [
+        "cpname_khamisiyah_coop16_construction",
+        "cpname_khamisiyah_coop16_mosque"
+      ],
+      [
+        "cpname_khamisiyah_coop16_waterplant",
+        "cpname_khamisiyah_coop16_slums"
+      ],
+      [
+        "cpname_khamisiyah_coop16_northkhamisiyah"
+      ],
+      [
+        "cpname_khamisiyah_coop16_village"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.96644, -41.265686]
+        "coordinates": [93.96644, -41.265686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -14,7 +45,7 @@
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop16_village_hmmwv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -23,6 +54,195 @@
         "minspawn": "450.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.83325, -42.999374],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_village",
+        "class": "ControlPoint",
+        "name_object": "US Village",
+        "team": "2",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.640686, -53.569565],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Al Khidhir will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_northkhamisiyah",
+        "class": "ControlPoint",
+        "name_object": "North Al Khidhir",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [70.30625, -68.572754],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Water Plant will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_waterplant",
+        "class": "ControlPoint",
+        "name_object": "Water Plant",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [61.71237, -70.833435],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Slums will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_slums",
+        "class": "ControlPoint",
+        "name_object": "Slums",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.1605, -84.37456],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_construction",
+        "class": "ControlPoint",
+        "name_object": "Construction Site",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.82131, -81.53544],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "30.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.84419, -91.84506],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Al Khidhir will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop16_southkhamisiyah",
+        "class": "ControlPoint",
+        "name_object": "South Al Khidhir",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "7",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
       }
     }
   ]

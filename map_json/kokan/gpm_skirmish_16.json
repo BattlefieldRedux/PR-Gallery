@@ -1,11 +1,40 @@
 {
+  "team1":"taliban",
+  "team2":"usa",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kokan_skirmish16_talibanmain"
+      ],
+      [
+        "cpname_kokan_skirmish16_north"
+      ],
+      [
+        "cpname_kokan_skirmish16_centralvillage"
+      ],
+      [
+        "cpname_kokan_skirmish16_south"
+      ],
+      [
+        "cpname_kokan_skirmish16_usmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.99512, -170.39862]
+        "coordinates": [153.99512, -170.39862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +43,7 @@
       },
       "bf2props": {
         "name": "supplycrate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +58,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [179.13638, -207.176]
+        "coordinates": [179.13638, -207.176],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +68,7 @@
       },
       "bf2props": {
         "name": "supplycrate_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -53,7 +83,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.10251, -216.832]
+        "coordinates": [189.10251, -216.832],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +93,7 @@
       },
       "bf2props": {
         "name": "supplycrate_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -77,7 +108,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.81425, -161.18137]
+        "coordinates": [154.81425, -161.18137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +118,7 @@
       },
       "bf2props": {
         "name": "supplycrate_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -95,6 +127,141 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.53488, -169.857],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kokan_skirmish16_talibanmain",
+        "class": "ControlPoint",
+        "name_object": "Taliban Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [167.651, -180.136],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kokan_skirmish16_north",
+        "class": "ControlPoint",
+        "name_object": "North",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.7625, -182.23975],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Central Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kokan_skirmish16_centralvillage",
+        "class": "ControlPoint",
+        "name_object": "Central Village",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.38937, -193.02237],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kokan_skirmish16_south",
+        "class": "ControlPoint",
+        "name_object": "South",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.40201, -207.157],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kokan_skirmish16_usmain",
+        "class": "ControlPoint",
+        "name_object": "US Base",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
       }
     }
   ]

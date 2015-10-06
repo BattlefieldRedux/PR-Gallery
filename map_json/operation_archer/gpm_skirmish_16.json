@@ -1,21 +1,53 @@
 {
+  "team1":"taliban",
+  "team2":"cf",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"1111",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_archer_skirmish16_farm"
+      ],
+      [
+        "cpname_operation_archer_skirmish16_city1"
+      ],
+      [
+        "cpname_operation_archer_skirmish16_mosque"
+      ],
+      [
+        "cpname_operation_archer_skirmish16_citycenter"
+      ],
+      [
+        "cpname_operation_archer_skirmish16_citywest"
+      ],
+      [
+        "cpname_operation_archer_skirmish16_checkpoint"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.59062, -118.9055]
+        "coordinates": [88.59062, -118.9055],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "a",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.18175, -104.402374]
+        "coordinates": [103.18175, -104.402374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.798996, -139.1355]
+        "coordinates": [74.798996, -139.1355],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "crate_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [84.94925, -121.527374]
+        "coordinates": [84.94925, -121.527374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "crate_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.267372, -100.95137]
+        "coordinates": [37.267372, -100.95137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "crate_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -119,6 +155,168 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.598625, -104.9885],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban Reinforcements will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_skirmish16_farm",
+        "class": "ControlPoint",
+        "name_object": "Taliban Reinforcements",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.740875, -136.83325],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village South will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_skirmish16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Village South",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [64.272995, -118.77625],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village West will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_skirmish16_citycenter",
+        "class": "ControlPoint",
+        "name_object": "Village West",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.856003, -139.23363],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about River will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_skirmish16_citywest",
+        "class": "ControlPoint",
+        "name_object": "River",
+        "team": "0",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.89975, -101.32137],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_skirmish16_checkpoint",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.05812, -117.83112],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village East will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_skirmish16_city1",
+        "class": "ControlPoint",
+        "name_object": "Village East",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "106",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

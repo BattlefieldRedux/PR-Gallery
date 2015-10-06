@@ -1,11 +1,43 @@
 {
+  "team1":"hamas",
+  "team2":"idf",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"1024",
+  "viewdistance":"400",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_gaza_coop16_hamasmain"
+      ],
+      [
+        "cpname_gaza_coop16_hotel"
+      ],
+      [
+        "cpname_gaza_coop16_street"
+      ],
+      [
+        "cpname_gaza_coop16_aasite"
+      ],
+      [
+        "cpname_gaza_coop16_market"
+      ],
+      [
+        "cpname_gaza_coop16_idfspawn"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [117.5, -179.0]
+        "coordinates": [117.5, -179.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -14,7 +46,7 @@
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_aasite_mil_aas_cannons",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -29,17 +61,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [110.5, -176.25]
+        "coordinates": [110.5, -176.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_aasite_idf_rp_noexpire",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_hamas_placeable_noexpire",
         "obj2": "rallypoint_idf_placeable_noexpire",
@@ -53,17 +86,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [166.0, -177.75]
+        "coordinates": [166.0, -177.75],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_street_rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_hamas_placeable_noexpire",
         "obj2": "rallypoint_idf_placeable_noexpire",
@@ -77,17 +111,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.25, -207.25]
+        "coordinates": [141.25, -207.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_hotel_rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_hamas_placeable_noexpire",
         "obj2": "rallypoint_idf_placeable_noexpire",
@@ -101,17 +136,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.75, -239.0]
+        "coordinates": [135.75, -239.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_hamas_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_hamasmain_rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_hamas_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_hamas_placeable_noexpire",
         "obj2": "rallypoint_idf_placeable_noexpire",
@@ -125,17 +161,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.3635, -110.21325]
+        "coordinates": [116.3635, -110.21325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about idf_acv_m557 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_idfspawn_acv",
-        "class": "ObjectPlacement",
-        "name_object": "idf_acv_m557",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "idf_acv_m557",
@@ -149,17 +186,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.6485, -246.3115]
+        "coordinates": [161.6485, -246.3115],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_gaza_coop16_hamasmain_acv",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_meins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_meins",
         "obj2": "null",
@@ -167,6 +205,168 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.25, -238.75],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hamas Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_hamasmain",
+        "class": "ControlPoint",
+        "name_object": "Hamas Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "201",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.25, -213.25],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.0, -184.5],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Street will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_street",
+        "class": "ControlPoint",
+        "name_object": "Street",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.0, -175.5],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about AA Emplacement will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_aasite",
+        "class": "ControlPoint",
+        "name_object": "AA Emplacement",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "204",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.25, -142.75],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_market",
+        "class": "ControlPoint",
+        "name_object": "Market",
+        "team": "0",
+        "areavalue1": "120.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.5, -114.75],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_coop16_idfspawn",
+        "class": "ControlPoint",
+        "name_object": "IDF Deployment Area",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "206",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "1.0",
+        "ttlc": "1.0"
       }
     }
   ]

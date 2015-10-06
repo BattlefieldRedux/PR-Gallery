@@ -59,10 +59,62 @@ function dictionary(word) {
 	return word;
 }
 
+function dict_partial(word) {
+	word += "";
+	//Make sure is a string
+	for (var key in DICTIONARY_LARGE) {
+		if (DICTIONARY_LARGE[key][0].toLowerCase().search(word.toLowerCase()))
+			return DICTIONARY_LARGE[key][1];
+	}
+
+	return word;
+}
+
 function toTitleCase(str) {
 	return str.replace(/\w\S*/g, function(txt) {
 		return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
 	});
+}
+
+function getFlagURL(str) {
+	str = str.toLowerCase();
+	if (str.search("arf") != -1)
+		return "icons/ui/flags/arf.png";
+	else if (str.search("cf") != -1)
+		return "icons/ui/flags/cf.png";
+	else if (str.search("ch") != -1)
+		return "icons/ui/flags/ch.png";
+	else if (str.search("chinsurgent") != -1)
+		return "icons/ui/flags/chinsurgent.png";
+	else if (str.search("fr") != -1)
+		return "icons/ui/flags/fr.png";
+	else if (str.search("fsa") != -1)
+		return "icons/ui/flags/fsa.png";
+	else if (str.search("gb") != -1)
+		return "icons/ui/flags/gb.png";
+	else if (str.search("ger") != -1)
+		return "icons/ui/flags/ger.png";
+	else if (str.search("hamas") != -1)
+		return "icons/ui/flags/hamas.png";
+	else if (str.search("idf") != -1)
+		return "icons/ui/flags/idf.png";
+	else if (str.search("mec") != -1)
+		return "icons/ui/flags/mec.png";
+	else if (str.search("meinsurgent") != -1)
+		return "icons/ui/flags/meinsurgent.png";
+	else if (str.search("nl") != -1)
+		return "icons/ui/flags/nl.png";
+	else if (str.search("ru") != -1)
+		return "icons/ui/flags/ru.png";
+	else if (str.search("taliban") != -1)
+		return "icons/ui/flags/taliban.png";
+	else if (str.search("usa") != -1 || str.search("us") != -1 || str.search("vnusa") != -1 || str.search("vnusmc") != -1)
+		return "icons/ui/flags/usa.png";
+	else if (str.search("vnnva") != -1)
+		return "icons/ui/flags/vnnva.png";
+	else
+		return "icons/ui/flags/neutral.png";
+
 }
 
 /*

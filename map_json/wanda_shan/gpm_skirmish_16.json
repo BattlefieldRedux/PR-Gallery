@@ -1,11 +1,37 @@
 {
+  "team1":"ch",
+  "team2":"ger",
+  "team1tickets":"425",
+  "team2tickets":"425",
+  "mapsize":"4096",
+  "viewdistance":"620",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_wanda_shan_skirmish16_plamain"
+      ],
+      [
+        "cpname_wanda_shan_skirmish16_villagesouth"
+      ],
+      [
+        "cpname_wanda_shan_skirmish16_villagenorth"
+      ],
+      [
+        "cpname_wanda_shan_skirmish16_rumain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.625, -172.125]
+        "coordinates": [177.625, -172.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_skirmish16_plamain_ch_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.125, -162.125]
+        "coordinates": [176.125, -162.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_skirmish16_plamain_",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -53,7 +80,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [173.625, -124.875]
+        "coordinates": [173.625, -124.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +90,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_skirmish16_rumain_",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -77,7 +105,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.625, -114.875]
+        "coordinates": [178.625, -114.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +115,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_skirmish16_rumain__0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -95,6 +124,114 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.75, -161.25],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_skirmish16_plamain",
+        "class": "ControlPoint",
+        "name_object": "PLA Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "401",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [166.375, -146.125],
+        "size": [33, 33],
+        "radius": "2.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Village 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_skirmish16_villagesouth",
+        "class": "ControlPoint",
+        "name_object": "South Village 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "402",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.75, -139.25],
+        "size": [33, 33],
+        "radius": "2.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Village 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_skirmish16_villagenorth",
+        "class": "ControlPoint",
+        "name_object": "North Village 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "403",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [173.5, -126.125],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_skirmish16_rumain",
+        "class": "ControlPoint",
+        "name_object": "German Deployment Area",
+        "team": "2",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "404",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
       }
     }
   ]

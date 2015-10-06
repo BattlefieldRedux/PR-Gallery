@@ -1,21 +1,55 @@
 {
+  "team1":"chinsurgent",
+  "team2":"ch",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"1000",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_black_gold_coop32_airport"
+      ],
+      [
+        "cpname_black_gold_coop32_tunnel"
+      ],
+      [
+        "cpname_black_gold_coop32_northcity",
+        "cpname_black_gold_coop32_alpha"
+      ],
+      [
+        "cpname_black_gold_coop32_southcity",
+        "cpname_black_gold_coop32_bravo"
+      ],
+      [
+        "cpname_black_gold_coop32_plant"
+      ],
+      [
+        "cpname_black_gold_coop32_vcp"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [250.74806, -24.937126]
+        "coordinates": [250.74806, -24.937126],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mil_acv_technical will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_acv",
-        "class": "ObjectPlacement",
-        "name_object": "mil_acv_technical",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mil_acv_technical",
         "obj2": "null",
@@ -29,7 +63,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53513, -29.472939]
+        "coordinates": [243.53513, -29.472939],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -38,7 +73,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62",
@@ -53,7 +88,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53513, -28.094437]
+        "coordinates": [243.53513, -28.094437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -62,7 +98,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62_bf2",
@@ -77,7 +113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53513, -28.457565]
+        "coordinates": [243.53513, -28.457565],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -86,7 +123,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62_bf2",
@@ -101,7 +138,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53513, -29.11869]
+        "coordinates": [243.53513, -29.11869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -110,7 +148,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62",
@@ -125,7 +163,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53513, -26.865059]
+        "coordinates": [243.53513, -26.865059],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -134,7 +173,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "mil_ifv_bmp1_bf2",
@@ -149,7 +188,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53513, -27.219254]
+        "coordinates": [243.53513, -27.219254],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -158,7 +198,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "mil_ifv_bmp1_bf2",
@@ -173,7 +213,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.62575, -25.836685]
+        "coordinates": [243.62575, -25.836685],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -182,7 +223,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "mil_ifv_bmp1",
@@ -197,7 +238,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.62006, -26.166496]
+        "coordinates": [243.62006, -26.166496],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -206,7 +248,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_tank_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "mil_ifv_bmp1",
@@ -221,7 +263,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.00357, -30.285248]
+        "coordinates": [245.00357, -30.285248],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -230,7 +273,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_militia",
@@ -245,7 +288,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.75975, -30.29506]
+        "coordinates": [244.75975, -30.29506],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -254,7 +298,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_militia",
@@ -269,7 +313,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.89624, -30.227753]
+        "coordinates": [245.89624, -30.227753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -278,7 +323,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mil_trk_support",
@@ -293,7 +338,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.69006, -30.230934]
+        "coordinates": [245.69006, -30.230934],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -302,7 +348,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mil_trk_support",
@@ -317,7 +363,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.40726, -30.22181]
+        "coordinates": [246.40726, -30.22181],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -326,7 +373,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mil_trk_logistics",
@@ -341,7 +388,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.12482, -30.224998]
+        "coordinates": [246.12482, -30.224998],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -350,7 +398,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mil_trk_logistics",
@@ -365,7 +413,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.93143, -25.839813]
+        "coordinates": [245.93143, -25.839813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -374,7 +423,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Rocket Technical",
         "team": "1",
         "obj1": "civ_atm_technical_rocket",
@@ -389,7 +438,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.10144, -25.71531]
+        "coordinates": [245.10144, -25.71531],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -398,7 +448,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_aav_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K31 Gaskin",
         "team": "1",
         "obj1": "mec_aav_gaskin",
@@ -413,7 +463,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.170624, -208.58994]
+        "coordinates": [6.170624, -208.58994],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -422,7 +473,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Z-10",
         "team": "2",
         "obj1": "null",
@@ -437,7 +488,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.16494, -206.00125]
+        "coordinates": [6.16494, -206.00125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -446,7 +498,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9WA",
         "team": "2",
         "obj1": "null",
@@ -461,7 +513,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1865005, -213.27794]
+        "coordinates": [6.1865005, -213.27794],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
@@ -470,7 +523,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_mi17",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-8KA",
         "team": "2",
         "obj1": "null",
@@ -485,7 +538,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1865005, -210.90875]
+        "coordinates": [6.1865005, -210.90875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
@@ -494,7 +548,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_mi17_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-8KA",
         "team": "2",
         "obj1": "null",
@@ -509,7 +563,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.170311, -219.29193]
+        "coordinates": [7.170311, -219.29193],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_harrier.png",
@@ -518,7 +573,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_plane",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Q-5 Fantan",
         "team": "2",
         "obj1": "null",
@@ -533,7 +588,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.497566, -209.78674]
+        "coordinates": [13.497566, -209.78674],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -542,7 +598,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "2",
         "obj1": "null",
@@ -557,17 +613,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.95681, -216.97125]
+        "coordinates": [11.95681, -216.97125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ch",
@@ -581,7 +638,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.548561, -215.14944]
+        "coordinates": [13.548561, -215.14944],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -590,7 +648,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "2",
         "obj1": "null",
@@ -605,7 +663,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.548561, -215.38425]
+        "coordinates": [13.548561, -215.38425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -614,7 +673,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "2",
         "obj1": "null",
@@ -629,7 +688,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.55056, -214.8747]
+        "coordinates": [13.55056, -214.8747],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -638,7 +698,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -653,7 +713,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.389816, -213.77612]
+        "coordinates": [13.389816, -213.77612],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -662,7 +723,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "2",
         "obj1": "null",
@@ -677,7 +738,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.389816, -214.40625]
+        "coordinates": [13.389816, -214.40625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -686,7 +748,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "2",
         "obj1": "null",
@@ -701,7 +763,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.389816, -214.20256]
+        "coordinates": [13.389816, -214.20256],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -710,7 +773,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "2",
         "obj1": "null",
@@ -725,7 +788,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.389816, -213.98581]
+        "coordinates": [13.389816, -213.98581],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -734,7 +798,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "2",
         "obj1": "null",
@@ -749,7 +813,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.526627, -213.03525]
+        "coordinates": [13.526627, -213.03525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -758,7 +823,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "2",
         "obj1": "null",
@@ -773,7 +838,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.526627, -212.00562]
+        "coordinates": [13.526627, -212.00562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -782,7 +848,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSL-92B",
         "team": "2",
         "obj1": "null",
@@ -797,7 +863,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.526627, -211.69]
+        "coordinates": [13.526627, -211.69],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -806,7 +873,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSL-92B",
         "team": "2",
         "obj1": "null",
@@ -821,7 +888,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.526627, -212.6935]
+        "coordinates": [13.526627, -212.6935],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -830,7 +898,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_apc_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "2",
         "obj1": "null",
@@ -845,7 +913,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.532249, -210.75656]
+        "coordinates": [13.532249, -210.75656],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -854,7 +923,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_apc_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "2",
         "obj1": "null",
@@ -869,7 +938,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.532249, -210.44095]
+        "coordinates": [13.532249, -210.44095],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -878,7 +948,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_apc_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "2",
         "obj1": "null",
@@ -893,7 +963,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.06143, -23.93769]
+        "coordinates": [248.06143, -23.93769],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -902,7 +973,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "igla_djigit",
         "team": "1",
         "obj1": "igla_djigit",
@@ -917,7 +988,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.5045013, -203.018]
+        "coordinates": [7.5045013, -203.018],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -926,7 +998,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_cassp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ-10",
         "team": "2",
         "obj1": "null",
@@ -941,7 +1013,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.32362, -80.32644]
+        "coordinates": [93.32362, -80.32644],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -950,7 +1023,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_northcity_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -965,7 +1038,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.508873, -209.43063]
+        "coordinates": [13.508873, -209.43063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -974,7 +1048,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "2",
         "obj1": "null",
@@ -989,7 +1063,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1873093, -248.09425]
+        "coordinates": [6.1873093, -248.09425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_harrier.png",
@@ -998,7 +1073,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_fantan_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Q-5 Fantan",
         "team": "2",
         "obj1": "null",
@@ -1013,7 +1088,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.3588104, -201.34494]
+        "coordinates": [7.3588104, -201.34494],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -1022,7 +1098,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_vcp_cas_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9WA",
         "team": "2",
         "obj1": "null",
@@ -1037,7 +1113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.27951, -30.29206]
+        "coordinates": [245.27951, -30.29206],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -1046,7 +1123,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_airport_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_militia",
@@ -1061,7 +1138,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.45275, -134.00969]
+        "coordinates": [96.45275, -134.00969],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -1070,7 +1148,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop32_plant_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62",
@@ -1079,6 +1157,222 @@
         "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.85313, -186.90887],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_vcp",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint 150m",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.54875, -136.20438],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Water Pumping Station 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_plant",
+        "class": "ControlPoint",
+        "name_object": "Water Pumping Station 150m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.697, -88.29344],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Objective Alpha 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_southcity",
+        "class": "ControlPoint",
+        "name_object": "City Objective Alpha 80m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.67825, -69.25212],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Objective Charlie 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_northcity",
+        "class": "ControlPoint",
+        "name_object": "City Objective Charlie 80m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.58063, -32.133064],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel Bunker 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_tunnel",
+        "class": "ControlPoint",
+        "name_object": "Tunnel Bunker 150m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [249.05469, -24.166374],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Repurposed Civilian Airport 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_airport",
+        "class": "ControlPoint",
+        "name_object": "Repurposed Civilian Airport 50m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "6",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.75881, -66.42262],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Objective Delta 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_alpha",
+        "class": "ControlPoint",
+        "name_object": "City Objective Delta 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.09944, -91.95406],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Objective Bravo 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop32_bravo",
+        "class": "ControlPoint",
+        "name_object": "City Objective Bravo 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

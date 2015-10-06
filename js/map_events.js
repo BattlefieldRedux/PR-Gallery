@@ -41,6 +41,13 @@ function resetRotation() {
 
 $(window).ready(function(exx) {
 
+	map.on('overlayadd', function(e) {
+		var curlayers = e.layer.getLayers();
+		for ( i = 0; i < curlayers.length; i++) {
+
+		}
+	});
+
 	map.on('mouseout', function(e) {
 		var ew = window.event;
 		document.getElementById('output').innerHTML = "";
@@ -80,22 +87,144 @@ $(window).ready(function(exx) {
 		}
 		$('#SubTitle').html(e.name);
 		var sorted_assets = [];
+		flag_layer.clearLayers();
+		flag_radius_layer.clearLayers();
+		for ( i = 0; i < routelayers.length; i++) {
+			map.removeLayer(routelayers[i]);
+			routecontrol.removeLayer(routelayers[i]);
+		}
+		routes_layer.clearLayers();
+		$(".leaflet-control-layers.routes-button").removeClass("hide");
+
 		for ( i = 0; i < GMASSETS.length; i++) {
-			if (GMASSETS[i].gm.search(modename) >= 0) {
-				for ( j = 0; j < GMASSETS[i].length; j++) {
-					var object = GMASSETS[i][j];
-					var foundflag = false;
+			if (GMASSETS[i].gm.search(modename) != -1) {
+				var gmarray = GMASSETS[i];
+				$('#MiddleHeader').find(".team1").html('');
+				$('#MiddleHeader').find(".team2").html('');
+				var team1flag = getFlagURL(gmarray.team1name);
+				var team2flag = getFlagURL(gmarray.team2name);
+				$('#MiddleHeader').find(".team1").append("<img src='" + team1flag + "' />");
+				if (gmarray.team1tickets)
+					$('#MiddleHeader').find(".team1").append(" " + gmarray.team1tickets);
+				$('#MiddleHeader').find(".team2").append("<img src='" + team2flag + "' />");
+				if (gmarray.team2tickets)
+					$('#MiddleHeader').find(".team2").append(" " + gmarray.team2tickets);
+				$('#MiddleHeader').removeClass('hide');
+
+				for ( j = 0; j < gmarray.objects.length; j++) {// Get and count same objects
+					var object = gmarray.objects[j];
+					var objexists = false;
 					for ( k = 0; k < sorted_assets.length; k++) {
 						if (sorted_assets[k].bf2props.name_object == object.bf2props.name_object && sorted_assets[k].bf2props.team == object.bf2props.team) {
 							sorted_assets[k].count += 1;
-							foundflag = true;
+							objexists = true;
 							break;
 						}
 					}
-					if (!foundflag) {
+					if (!objexists) {
 						object.count = 1;
 						sorted_assets.push(object);
 					}
+				}
+				for ( j = 0; j < gmarray.flags.length; j++) {// Handle flags
+					var flag = gmarray.flags[j];
+					flag.addTo(flag_layer);
+				}
+				for ( j = 0; j < gmarray.flagradius.length; j++) {// Handle flag radius
+					var flag = gmarray.flagradius[j];
+					flag.addTo(flag_radius_layer);
+				}
+
+				for ( i = 0; i < gmarray.routes.length; i++) {
+					var curroute = gmarray.routes[i];
+					var curroutelayer = L.featureGroup();
+					for ( j = 0; j < curroute.length; j++) {
+						var curstep = curroute[j];
+						var curflags = [];
+						for ( k = 0; k < curstep.length; k++) {
+							var curflagname = curstep[k];
+							for ( l = 0; l < gmarray.flags.length; l++) {
+								if (curflagname == gmarray.flags[l].data.code) {
+									curflags.push(gmarray.flags[l]);
+									break;
+								}
+							}
+						}
+						var curlatlng_avg = L.latLng(0, 0);
+						for ( k = 0; k < curflags.length; k++) {
+							curlatlng_avg.lat += curflags[k].getLatLng().lat;
+							curlatlng_avg.lng += curflags[k].getLatLng().lng;
+						}
+						curlatlng_avg.lat = curlatlng_avg.lat / curflags.length;
+						curlatlng_avg.lng = curlatlng_avg.lng / curflags.length;
+
+						// Average all flags in the same step (random flags). Marked by dashed lines. Connecting to next/previous steps by a virtual average LatLng
+						if (curflags.length > 1) {
+							var curconnector = L.polyline([curflags[0].getLatLng(), curlatlng_avg], {
+								clickable : false,
+								pointerEvents : 'none',
+								color : '#ffffff',
+								dashArray : "20,10",
+								opacity : 0.6
+							});
+							for ( k = 1; k < curflags.length; k++) {
+								var curlatlng = curconnector.getLatLngs();
+								var newlatlng = [];
+								newlatlng.push([curlatlng]);
+								newlatlng.push([curflags[k].getLatLng(), curlatlng_avg]);
+								curconnector.setLatLngs(newlatlng);
+							}
+							curconnector.data = {
+								type : 'curconnector',
+								route : i,
+								link : curstep
+							};
+							curconnector.addTo(curroutelayer);
+
+						}
+
+						if (j < curroute.length - 1) {
+							var nextstep = curroute[j + 1];
+							var nextflags = [];
+							for ( k = 0; k < nextstep.length; k++) {
+								var nextflagname = nextstep[k];
+								for ( l = 0; l < gmarray.flags.length; l++) {
+									if (nextflagname == gmarray.flags[l].data.code) {
+										nextflags.push(gmarray.flags[l]);
+										break;
+									}
+								}
+							}
+
+							var nextlatlng_avg = L.latLng(0, 0);
+							for ( k = 0; k < nextflags.length; k++) {
+								nextlatlng_avg.lat += nextflags[k].getLatLng().lat;
+								nextlatlng_avg.lng += nextflags[k].getLatLng().lng;
+							}
+							nextlatlng_avg.lat = nextlatlng_avg.lat / nextflags.length;
+							nextlatlng_avg.lng = nextlatlng_avg.lng / nextflags.length;
+
+							// Connection between current and next step. Always a solid line.
+							var curnextconnector = L.polyline([curlatlng_avg, nextlatlng_avg], {
+								clickable : false,
+								pointerEvents : 'none',
+								color : '#ffffff',
+								opacity : 0.8
+							});
+							curnextconnector.data = {
+								type : 'curnextconnector',
+								route : i,
+								link : [curstep, nextstep]
+
+							};
+							curnextconnector.addTo(curroutelayer);
+						}
+					}
+
+					routelayers.push(curroutelayer);
+					curroutelayer.addTo(map);
+					routecontrol.addOverlay(curroutelayer, "Route " + (i + 1));
+
 				}
 				break;
 			}
@@ -119,7 +248,9 @@ $(window).ready(function(exx) {
 			var minspawn = parseInt(feature.bf2props.minspawn);
 			var maxspawn = parseInt(feature.bf2props.maxspawn);
 			var spawntime = 0;
-			stringadd += "<div class='asset-row team" + feature.bf2props.team + "'><div class='asset-qt'>" + feature.count + "x</div>";
+			stringadd += "<div class='asset-row team" + feature.bf2props.team + "'>";
+			stringadd += '<img src=' + feature.properties.iconurl + '>';
+			stringadd += "<div class='asset-qt'>" + feature.count + "x</div>";
 			stringadd += "<div class='asset-name'>" + feature.bf2props.name_object + "</div>";
 			stringadd += "<div class='asset-delay'>Respawn Time: ";
 
@@ -249,7 +380,7 @@ $(window).ready(function(exx) {
 			//console.log(e.latlng);
 			//console.log(map.project(e.latlng, map.getMaxZoom()));
 			//str_coord += map.project(e.latlng, map.getMaxZoom());
-			// str_coord += e.latlng;
+			//str_coord += e.latlng;
 			document.getElementById('output').innerHTML = str_coord;
 		}
 		document.getElementById('output').style.top = (y - 20) + 'px';

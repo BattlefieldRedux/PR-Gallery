@@ -1,11 +1,37 @@
 {
+  "team1":"hamas",
+  "team2":"idf",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"1024",
+  "viewdistance":"200",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_asad_khal_skirmish16_mec_mainbase"
+      ],
+      [
+        "cpname_asad_khal_skirmish16_westcity"
+      ],
+      [
+        "cpname_asad_khal_skirmish16_eastcity"
+      ],
+      [
+        "cpname_asad_khal_skirmish16_gb_mainbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.124, -168.98676]
+        "coordinates": [129.124, -168.98676],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.37, -88.498505]
+        "coordinates": [96.37, -88.498505],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "crate_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.6845, -162.686],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_skirmish16_gb_mainbase",
+        "class": "ControlPoint",
+        "name_object": "IDF Operations Base",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "108",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.84875, -93.532745],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hamas Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_skirmish16_mec_mainbase",
+        "class": "ControlPoint",
+        "name_object": "Hamas Operations Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "102",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.4615, -141.59975],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_skirmish16_westcity",
+        "class": "ControlPoint",
+        "name_object": "West Village",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.276, -132.039],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_skirmish16_eastcity",
+        "class": "ControlPoint",
+        "name_object": "East Village",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

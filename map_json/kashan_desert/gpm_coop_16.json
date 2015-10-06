@@ -1,21 +1,49 @@
 {
+  "team1":"mec",
+  "team2":"usa",
+  "team1tickets":"200",
+  "team2tickets":"200",
+  "mapsize":"4096",
+  "viewdistance":"1000",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kashan_desert_coop16_southbunker"
+      ],
+      [
+        "cpname_kashan_desert_coop16_zulu",
+        "cpname_kashan_desert_coop16_xray"
+      ],
+      [
+        "cpname_kashan_desert_coop16_alpha",
+        "cpname_kashan_desert_coop16_bravo"
+      ],
+      [
+        "cpname_kashan_desert_coop16_northbunker"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.55306, -90.80281]
+        "coordinates": [106.55306, -90.80281],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_stryker will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_kashan_desert_coop16_northbunker_acv",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_stryker",
@@ -29,17 +57,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.787186, -124.65106]
+        "coordinates": [90.787186, -124.65106],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_kashan_desert_coop16_southbunker_acv",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mec_acv_btr60pu",
         "obj2": "null",
@@ -47,6 +76,168 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.2305, -86.16825],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_northbunker",
+        "class": "ControlPoint",
+        "name_object": "North Bunker",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.97188, -130.11356],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_southbunker",
+        "class": "ControlPoint",
+        "name_object": "South Bunker",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.56944, -97.24788],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Alpha will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_alpha",
+        "class": "ControlPoint",
+        "name_object": "Alpha",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.926, -97.05525],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bravo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_bravo",
+        "class": "ControlPoint",
+        "name_object": "Bravo",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.677376, -124.833565],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Zulu will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_zulu",
+        "class": "ControlPoint",
+        "name_object": "Zulu",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.61081, -114.64425],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about X-Ray will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_coop16_xray",
+        "class": "ControlPoint",
+        "name_object": "X-Ray",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

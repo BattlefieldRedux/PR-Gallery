@@ -1,11 +1,45 @@
 {
+  "team1":"ch",
+  "team2":"gb",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"4096",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_shijiavalley_skirmish32_plamain"
+      ],
+      [
+        "cpname_shijiavalley_skirmish32_river1"
+      ],
+      [
+        "cpname_shijiavalley_skirmish32_river2",
+        "cpname_shijiavalley_skirmish32_rice1"
+      ],
+      [
+        "cpname_shijiavalley_skirmish32_river3",
+        "cpname_shijiavalley_skirmish32_rice2"
+      ],
+      [
+        "cpname_shijiavalley_skirmish32_bridge"
+      ],
+      [
+        "cpname_shijiavalley_skirmish32_gbmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.83012, -234.24081]
+        "coordinates": [225.83012, -234.24081],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -14,7 +48,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -29,7 +63,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.36531, -234.38788]
+        "coordinates": [226.36531, -234.38788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -38,7 +73,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -53,7 +88,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.823, -234.58612]
+        "coordinates": [226.823, -234.58612],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -62,7 +98,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -77,7 +113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.28906, -234.781]
+        "coordinates": [227.28906, -234.781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -86,7 +123,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -101,7 +138,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.69994, -234.96281]
+        "coordinates": [227.69994, -234.96281],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -110,7 +148,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -125,7 +163,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [228.15512, -235.12032]
+        "coordinates": [228.15512, -235.12032],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -134,7 +173,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -149,7 +188,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [228.63568, -235.29388]
+        "coordinates": [228.63568, -235.29388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -158,7 +198,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -173,7 +213,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [229.0817, -235.48474]
+        "coordinates": [229.0817, -235.48474],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -182,7 +223,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -197,7 +238,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [228.41219, -234.05511]
+        "coordinates": [228.41219, -234.05511],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -206,7 +248,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_crate1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -221,7 +263,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.34363, -233.6375]
+        "coordinates": [227.34363, -233.6375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -230,7 +273,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -245,7 +288,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.37875, -78.148186]
+        "coordinates": [154.37875, -78.148186],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -254,7 +298,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -269,7 +313,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.875, -78.16713]
+        "coordinates": [154.875, -78.16713],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -278,7 +323,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -293,7 +338,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [155.35881, -78.19356]
+        "coordinates": [155.35881, -78.19356],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -302,7 +348,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -317,7 +363,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [155.80063, -78.09825]
+        "coordinates": [155.80063, -78.09825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -326,7 +373,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -341,7 +388,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [152.33556, -78.156624]
+        "coordinates": [152.33556, -78.156624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -350,7 +398,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -365,7 +413,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.89987, -78.21631]
+        "coordinates": [151.89987, -78.21631],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -374,7 +423,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -389,7 +438,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.22656, -78.10906]
+        "coordinates": [153.22656, -78.10906],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -398,7 +448,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -413,7 +463,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [152.78412, -78.063995]
+        "coordinates": [152.78412, -78.063995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -422,7 +473,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -437,7 +488,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.63112, -79.15637]
+        "coordinates": [153.63112, -79.15637],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -446,7 +498,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_crate1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -461,7 +513,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.862, -78.076935]
+        "coordinates": [153.862, -78.076935],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -470,7 +523,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_boat9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -485,7 +538,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [229.47906, -235.647]
+        "coordinates": [229.47906, -235.647],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -494,7 +548,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_boat9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -509,7 +563,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [155.21893, -79.210434]
+        "coordinates": [155.21893, -79.210434],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -518,7 +573,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -533,17 +588,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.3702, -79.65169]
+        "coordinates": [151.3702, -79.65169],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_plamain_plaacv",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -557,17 +613,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.00981, -233.29744]
+        "coordinates": [233.00981, -233.29744],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_skirmish32_gbmain_gbacv",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -575,6 +632,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.36594, -219.97644],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Railroad Bridge will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_bridge",
+        "class": "ControlPoint",
+        "name_object": "Railroad Bridge",
+        "team": "0",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.57738, -78.247314],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_plamain",
+        "class": "ControlPoint",
+        "name_object": "PLA Main",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "901",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.51181, -118.89806],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_river1",
+        "class": "ControlPoint",
+        "name_object": "Tunnel",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "905",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.87431, -168.92993],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Airport will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_river2",
+        "class": "ControlPoint",
+        "name_object": "Airport",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "906",
+        "sgid": "32",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.58862, -205.39012],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outflow Pipe will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_river3",
+        "class": "ControlPoint",
+        "name_object": "Outflow Pipe",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "907",
+        "sgid": "42",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.491, -163.2485],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Paddies will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_rice1",
+        "class": "ControlPoint",
+        "name_object": "North Paddies",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "908",
+        "sgid": "32",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [167.58069, -185.73282],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Paddies will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_rice2",
+        "class": "ControlPoint",
+        "name_object": "South Paddies",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "909",
+        "sgid": "42",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [222.30788, -230.50969],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about GB Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_skirmish32_gbmain",
+        "class": "ControlPoint",
+        "name_object": "GB Main",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "910",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

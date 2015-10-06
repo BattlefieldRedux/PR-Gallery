@@ -1,21 +1,49 @@
 {
+  "team1":"ch",
+  "team2":"usa",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_qwai1_coop32_facility"
+      ],
+      [
+        "cpname_qwai1_coop32_jiangman",
+        "cpname_qwai1_coop32_southobjective"
+      ],
+      [
+        "cpname_qwai1_coop32_northobjective",
+        "cpname_qwai1_coop32_hilltopbase"
+      ],
+      [
+        "cpname_qwai1_coop32_mine"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.08313, -17.955498]
+        "coordinates": [208.08313, -17.955498],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -29,7 +57,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.5185, -24.144875]
+        "coordinates": [202.5185, -24.144875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -38,7 +67,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_aglstryker",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1126 Stryker ICV",
         "team": "2",
         "obj1": "null",
@@ -53,7 +82,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.37286, -18.329247]
+        "coordinates": [198.37286, -18.329247],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -62,7 +92,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_stryker_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1A2 Abrams TUSK",
         "team": "2",
         "obj1": "null",
@@ -77,7 +107,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.00862, -17.057251]
+        "coordinates": [208.00862, -17.057251],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +117,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -101,7 +132,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [206.04163, -17.055878]
+        "coordinates": [206.04163, -17.055878],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -110,7 +142,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_hmmwv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -125,7 +157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [205.55576, -16.979622]
+        "coordinates": [205.55576, -16.979622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -134,7 +167,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_hmmwv_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -149,17 +182,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.328, -240.24625]
+        "coordinates": [226.328, -240.24625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -173,7 +207,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.79488, -237.46725]
+        "coordinates": [223.79488, -237.46725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -182,7 +217,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "1",
         "obj1": "ch_tnk_ztz99",
@@ -197,7 +232,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.79199, -241.59149]
+        "coordinates": [224.79199, -241.59149],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -206,7 +242,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_pac",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -221,7 +257,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.4115, -241.26363]
+        "coordinates": [225.4115, -241.26363],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -230,7 +267,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -245,7 +282,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.626, -237.88087]
+        "coordinates": [224.626, -237.88087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -254,7 +292,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_atm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ550",
         "team": "1",
         "obj1": "ch_atm_wz550",
@@ -269,7 +307,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.16988, -240.25024]
+        "coordinates": [226.16988, -240.25024],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -278,7 +317,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -293,7 +332,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.11325, -16.433624]
+        "coordinates": [185.11325, -16.433624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -302,7 +342,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_hmmwv_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -317,7 +357,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.36237, -16.362999]
+        "coordinates": [186.36237, -16.362999],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -326,7 +367,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_ifv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2A2 Bradley ODS",
         "team": "2",
         "obj1": "null",
@@ -341,7 +382,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.71451, -16.398125]
+        "coordinates": [185.71451, -16.398125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -350,7 +392,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_ifv_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2A2 Bradley ODS",
         "team": "2",
         "obj1": "null",
@@ -365,7 +407,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [205.64587, -18.395378]
+        "coordinates": [205.64587, -18.395378],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -374,7 +417,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_hmmwv_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -389,7 +432,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [206.14413, -18.332878]
+        "coordinates": [206.14413, -18.332878],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -398,7 +442,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_mine_hmmwv_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -413,7 +457,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.25462, -238.2435]
+        "coordinates": [225.25462, -238.2435],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -422,7 +467,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_atv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ550",
         "team": "1",
         "obj1": "ch_atm_wz550",
@@ -437,7 +482,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.88187, -242.3935]
+        "coordinates": [223.88187, -242.3935],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -446,7 +492,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -461,7 +507,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.30913, -242.013]
+        "coordinates": [224.30913, -242.013],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -470,7 +517,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -485,7 +532,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.31113, -243.95113]
+        "coordinates": [224.31113, -243.95113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -494,7 +542,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -509,7 +557,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.99512, -244.21762]
+        "coordinates": [223.99512, -244.21762],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -518,7 +567,7 @@
       },
       "bf2props": {
         "name": "cpname_qwai1_coop32_facility_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -527,6 +576,168 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [183.244, -41.691628],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mine 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop32_mine",
+        "class": "ControlPoint",
+        "name_object": "Mine 150m",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "40.0",
+        "cpid": "1",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.27687, -107.083374],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Objective 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop32_northobjective",
+        "class": "ControlPoint",
+        "name_object": "North Objective 200m",
+        "team": "0",
+        "areavalue1": "60.0",
+        "areavalue2": "60.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.8225, -165.6695],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Jiangmen 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop32_jiangman",
+        "class": "ControlPoint",
+        "name_object": "Jiangmen 100m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.08112, -221.7715],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Facility 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop32_facility",
+        "class": "ControlPoint",
+        "name_object": "Facility 100m",
+        "team": "1",
+        "areavalue1": "40.0",
+        "areavalue2": "99999.0",
+        "cpid": "4",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [183.407, -167.05925],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop32_southobjective",
+        "class": "ControlPoint",
+        "name_object": "South Objective 150m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [211.9135, -105.013626],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill Base 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop32_hilltopbase",
+        "class": "ControlPoint",
+        "name_object": "Hill Base 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

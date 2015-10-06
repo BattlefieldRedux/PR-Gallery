@@ -1,21 +1,50 @@
 {
+  "team1":"ger",
+  "team2":"ru",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"550",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_dovre_skirmish16_nor"
+      ],
+      [
+        "cpname_dovre_skirmish16_hotel"
+      ],
+      [
+        "cpname_dovre_skirmish16_phouse"
+      ],
+      [
+        "cpname_dovre_skirmish16_silo"
+      ],
+      [
+        "cpname_dovre_skirmish16_rus"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.29887, -179.55675]
+        "coordinates": [161.29887, -179.55675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ger_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_skirmish16_nor_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ger_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ger_placeable_noexpire",
         "obj2": "null",
@@ -29,17 +58,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.468, -170.87238]
+        "coordinates": [165.468, -170.87238],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ger_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_skirmish16_nor_exp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ger_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ger_placeable",
         "obj2": "null",
@@ -53,17 +83,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [220.23712, -125.53338]
+        "coordinates": [220.23712, -125.53338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_skirmish16_rus_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ru_placeable_noexpire",
@@ -77,7 +108,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.13, -179.12488]
+        "coordinates": [161.13, -179.12488],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +118,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_skirmish16_nor_box1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -101,7 +133,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.54625, -170.2885]
+        "coordinates": [165.54625, -170.2885],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +143,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_skirmish16_nor_box2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -125,7 +158,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [220.35075, -125.00375]
+        "coordinates": [220.35075, -125.00375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -134,7 +168,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_skirmish16_rus_box1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -143,6 +177,141 @@
         "minspawn": "5.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.7155, -179.06187],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish16_nor",
+        "class": "ControlPoint",
+        "name_object": "German Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [223.01999, -121.80588],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish16_rus",
+        "class": "ControlPoint",
+        "name_object": "Russian Deployment Area",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.42775, -145.248],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish16_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel 30m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "111",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [196.11887, -141.54213],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Parking Garage 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish16_phouse",
+        "class": "ControlPoint",
+        "name_object": "Parking Garage 30m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [196.20163, -116.36325],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Silo 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_skirmish16_silo",
+        "class": "ControlPoint",
+        "name_object": "Silo 30m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

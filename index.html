@@ -48,6 +48,10 @@
                     </div>
                     <div id="SubTitle"></div>
                 </div>
+                <div id="MiddleHeader" class = "hide">
+                    <div class="team1"></div>
+                    vs<div class="team2"></div>
+                </div>
                 <div id="RightMenu">
                     <div id="Assets-button" class="hide"></div>
                     <div id="Search">
@@ -82,8 +86,12 @@
 
                 <div id="RightPane">
                     <div id="RPane-team-buttons">
-                        <div id="RPane-team1-button">Team 1</div>
-                        <div id="RPane-team2-button">Team 2</div>
+                        <div id="RPane-team1-button">
+                            Team 1
+                        </div>
+                        <div id="RPane-team2-button">
+                            Team 2
+                        </div>
                     </div>
                     <div id="RPane-content"></div>
                 </div>
@@ -92,11 +100,17 @@
         <div id='output'></div>
 
         <script>
+			/* Global variables are defined here. They will be capitalized.
+			 *
+			 */
 			var click = document.getElementById('click');
 			var mousemove = document.getElementById('output');
 			var mapwidth = 4096;
 			var mapheight = 4096;
+			var GMLIST = [];
+			// List of gamemodes of the currently active map. Contains fancy name, codename and link to geojson
 			var GMASSETS = [];
+			// List of assets of the currently active gamemode.
 
 			var map = L.map('map', {
 				crs : L.CRS.Simple
@@ -112,10 +126,25 @@
 			GMcontrol._map = map;
 			var controlDiv = GMcontrol.onAdd(map);
 			controlDiv.className += " hide";
-			document.getElementById('RightMenu').appendChild(controlDiv);
+			$('#RightMenu').prepend(controlDiv);
+			
+
+			var routecontrol = L.control.layersCSS({}, {}, {
+				classname : 'routes-button'
+			});
+			routecontrol._map = map;
+			var controlDiv2 = routecontrol.onAdd(map);
+			controlDiv2.className += " hide";
+            $('#RightMenu').prepend(controlDiv2);
+
 			var mapLayerGroup = new L.LayerGroup().addTo(map);
 			var GMLayerGroup = new L.LayerGroup().addTo(map);
 			var layer_grid_group = new L.LayerGroup().addTo(map);
+			var flag_layer = new L.LayerGroup().addTo(map);
+			var routes_layer = new L.LayerGroup().addTo(map);
+			var flag_radius_layer = new L.LayerGroup().addTo(map);
+			var routes_layer = new L.LayerGroup().addTo(map);
+			var routelayers = [];
 			var gmlayers = [];
 			var gmnames = [];
 

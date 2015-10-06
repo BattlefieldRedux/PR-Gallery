@@ -1,11 +1,46 @@
 {
+  "team1":"idf",
+  "team2":"ru",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_beirut_coop32_constructionsite"
+      ],
+      [
+        "cpname_beirut_coop32_oldtown"
+      ],
+      [
+        "cpname_beirut_coop32_apartments"
+      ],
+      [
+        "cpname_beirut_coop32_seaside"
+      ],
+      [
+        "cpname_beirut_coop32_tvstation"
+      ],
+      [
+        "cpname_beirut_coop32_housing"
+      ],
+      [
+        "cpname_beirut_coop32_factory"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.58138, -5.104248]
+        "coordinates": [233.58138, -5.104248],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
@@ -14,7 +49,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-24P Hind-F",
         "team": "2",
         "obj1": "null",
@@ -29,7 +64,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.72876, -5.0737534]
+        "coordinates": [227.72876, -5.0737534],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
@@ -38,7 +74,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_cas_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-24P Hind-F",
         "team": "2",
         "obj1": "null",
@@ -53,7 +89,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.72614, -7.1628723]
+        "coordinates": [237.72614, -7.1628723],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -62,7 +99,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -77,7 +114,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.77525, -7.1628723]
+        "coordinates": [238.77525, -7.1628723],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -86,7 +124,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_boat_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -101,7 +139,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.23288, -7.1628723]
+        "coordinates": [238.23288, -7.1628723],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -110,7 +149,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_boat_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -125,17 +164,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [228.73264, -166.9065]
+        "coordinates": [228.73264, -166.9065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ru",
@@ -149,7 +189,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.8555, -212.31726]
+        "coordinates": [230.8555, -212.31726],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -158,7 +199,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_ifv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "2",
         "obj1": "null",
@@ -173,7 +214,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [227.42987, -215.48837]
+        "coordinates": [227.42987, -215.48837],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -182,7 +224,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_ifv_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "2",
         "obj1": "null",
@@ -197,7 +239,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [229.37799, -215.056]
+        "coordinates": [229.37799, -215.056],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -206,7 +249,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_ifv_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "2",
         "obj1": "null",
@@ -221,7 +264,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.50725, -163.5825]
+        "coordinates": [240.50725, -163.5825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -230,7 +274,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_btr80",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "2",
         "obj1": "null",
@@ -245,7 +289,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.62149, -162.8875]
+        "coordinates": [240.62149, -162.8875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -254,7 +299,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "2",
         "obj1": "null",
@@ -269,7 +314,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.85287, -156.02562]
+        "coordinates": [235.85287, -156.02562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -278,7 +324,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "2",
         "obj1": "null",
@@ -293,7 +339,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.13138, -155.68912]
+        "coordinates": [235.13138, -155.68912],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -302,7 +349,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "2",
         "obj1": "null",
@@ -317,7 +364,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.223877, -250.03937]
+        "coordinates": [14.223877, -250.03937],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -326,7 +374,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_apache",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AH-64D Saraph",
         "team": "1",
         "obj1": "idf_ahe_apache",
@@ -341,7 +389,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.694374, -249.35287]
+        "coordinates": [6.694374, -249.35287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -350,7 +399,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_apache_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AH-64D Saraph",
         "team": "1",
         "obj1": "idf_ahe_apache_sp",
@@ -365,7 +414,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.782501, -237.55212]
+        "coordinates": [9.782501, -237.55212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -374,7 +424,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "1",
         "obj1": "idf_tnk_merkava_bf2",
@@ -389,7 +439,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.021126, -237.55212]
+        "coordinates": [9.021126, -237.55212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -398,7 +449,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "1",
         "obj1": "idf_tnk_merkava_bf2",
@@ -413,7 +464,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.218498, -237.62575]
+        "coordinates": [11.218498, -237.62575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -422,7 +474,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_m113",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Namer",
         "team": "1",
         "obj1": "idf_apc_namer",
@@ -437,7 +489,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.516129, -237.62575]
+        "coordinates": [10.516129, -237.62575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -446,7 +499,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_namer",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Namer",
         "team": "1",
         "obj1": "idf_apc_namer",
@@ -461,7 +514,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.728874, -250.24625]
+        "coordinates": [10.728874, -250.24625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -470,7 +524,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "1",
         "obj1": "idf_tnk_merkava",
@@ -485,7 +539,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.126251, -250.24625]
+        "coordinates": [10.126251, -250.24625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -494,7 +549,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "1",
         "obj1": "idf_tnk_merkava",
@@ -509,7 +564,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.180122, -249.97212]
+        "coordinates": [12.180122, -249.97212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -518,7 +574,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "1",
         "obj1": "idf_trk_logistics",
@@ -533,7 +589,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.694748, -249.97212]
+        "coordinates": [11.694748, -249.97212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -542,7 +599,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "1",
         "obj1": "idf_trk_logistics",
@@ -557,7 +614,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.6135025, -243.60962]
+        "coordinates": [10.6135025, -243.60962],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -566,7 +624,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_jep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW SIYUR",
         "team": "1",
         "obj1": "idf_jep_hmmwvopen",
@@ -581,7 +639,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.6135025, -243.12476]
+        "coordinates": [10.6135025, -243.12476],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -590,7 +649,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW SIYUR",
         "team": "1",
         "obj1": "idf_jep_hmmwvopen",
@@ -605,7 +664,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.40799, -167.8225]
+        "coordinates": [230.40799, -167.8225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -614,7 +674,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -629,7 +689,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.26163, -168.225]
+        "coordinates": [230.26163, -168.225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -638,7 +699,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -653,7 +714,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.69725, -167.028]
+        "coordinates": [230.69725, -167.028],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -662,7 +724,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -677,7 +739,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.54926, -167.43463]
+        "coordinates": [230.54926, -167.43463],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -686,7 +749,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_support_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -701,17 +764,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.579376, -245.07526]
+        "coordinates": [9.579376, -245.07526],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_idf will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_idf",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_idf",
         "obj2": "null",
@@ -725,17 +789,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.68188, -171.98888]
+        "coordinates": [235.68188, -171.98888],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_factory_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ru_acv_btr60pu",
@@ -749,17 +814,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.202248, -244.97437]
+        "coordinates": [18.202248, -244.97437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about idf_acv_m557 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_coop32_constructionsite_acv",
-        "class": "ObjectPlacement",
-        "name_object": "idf_acv_m557",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "idf_acv_m557",
         "obj2": "null",
@@ -767,6 +833,195 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.381622, -216.455],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_constructionsite",
+        "class": "ControlPoint",
+        "name_object": "Construction Site",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.10912, -194.87799],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Town 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_oldtown",
+        "class": "ControlPoint",
+        "name_object": "Old Town 80m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "501",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.566, -174.36388],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments 60m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "502",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.51088, -130.19975],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Seaside Apartments 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_seaside",
+        "class": "ControlPoint",
+        "name_object": "Seaside Apartments 60m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "503",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.56837, -109.480125],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about TV Station 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_tvstation",
+        "class": "ControlPoint",
+        "name_object": "TV Station 60m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "504",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.93837, -150.87762],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Housing Block 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_housing",
+        "class": "ControlPoint",
+        "name_object": "Housing Block 60m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "505",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.03162, -167.71663],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Factory will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop32_factory",
+        "class": "ControlPoint",
+        "name_object": "Factory",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "506",
+        "sgid": "7",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

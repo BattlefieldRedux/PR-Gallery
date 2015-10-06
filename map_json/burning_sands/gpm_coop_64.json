@@ -1,11 +1,47 @@
 {
+  "team1":"mec",
+  "team2":"gb",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"610",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_burning_sands_coop64_mecoperations"
+      ],
+      [
+        "cpname_burning_sands_coop64_vcp"
+      ],
+      [
+        "cpname_burning_sands_coop64_northcity"
+      ],
+      [
+        "cpname_burning_sands_coop64_mecsec",
+        "cpname_burning_sands_coop64_watertreatmentplant"
+      ],
+      [
+        "cpname_burning_sands_coop64_southcity"
+      ],
+      [
+        "cpname_burning_sands_coop64_warehouse"
+      ],
+      [
+        "cpname_burning_sands_coop64_gbmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.07986, -242.11026]
+        "coordinates": [239.07986, -242.11026],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -14,7 +50,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_chinook",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Chinook HC4",
         "team": "2",
         "obj1": "null",
@@ -29,7 +65,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.29225, -242.08307]
+        "coordinates": [241.29225, -242.08307],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -38,7 +75,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_apache",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Apache AH1",
         "team": "2",
         "obj1": "null",
@@ -53,7 +90,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.32625, -245.08551]
+        "coordinates": [243.32625, -245.08551],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -62,7 +100,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_apache_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Apache AH1",
         "team": "2",
         "obj1": "null",
@@ -77,7 +115,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.97194, -247.34799]
+        "coordinates": [235.97194, -247.34799],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -86,7 +125,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV4034 Challenger 2",
         "team": "2",
         "obj1": "null",
@@ -101,7 +140,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.7348, -247.83289]
+        "coordinates": [235.7348, -247.83289],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -110,7 +150,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV4034 Challenger 2",
         "team": "2",
         "obj1": "null",
@@ -125,7 +165,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [236.48724, -245.808]
+        "coordinates": [236.48724, -245.808],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -134,7 +175,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -149,7 +190,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.73538, -246.64212]
+        "coordinates": [235.73538, -246.64212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -158,7 +200,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -173,7 +215,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.81956, -247.36575]
+        "coordinates": [234.81956, -247.36575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -182,7 +225,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_recon",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 107 Scimitar",
         "team": "2",
         "obj1": "null",
@@ -197,7 +240,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.59256, -245.778]
+        "coordinates": [233.59256, -245.778],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -206,7 +250,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -221,7 +265,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.23438, -245.32849]
+        "coordinates": [234.23438, -245.32849],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -230,7 +275,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -245,7 +290,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.07376, -245.44101]
+        "coordinates": [234.07376, -245.44101],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -254,7 +300,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -269,7 +315,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.91025, -245.5555]
+        "coordinates": [233.91025, -245.5555],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -278,7 +325,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -293,7 +340,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.74564, -245.6708]
+        "coordinates": [233.74564, -245.6708],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -302,7 +350,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_jeep_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -317,17 +365,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.37018, -246.3063]
+        "coordinates": [238.37018, -246.3063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -341,7 +390,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.95532, -244.72513]
+        "coordinates": [234.95532, -244.72513],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -350,7 +400,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_warrior",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -365,7 +415,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.6377, -244.94757]
+        "coordinates": [234.6377, -244.94757],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -374,7 +425,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_warrior_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -389,7 +440,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.27356, -243.83032]
+        "coordinates": [237.27356, -243.83032],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +450,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -413,7 +465,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [236.89587, -243.9162]
+        "coordinates": [236.89587, -243.9162],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -422,7 +475,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -437,7 +490,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [71.63806, -41.823128]
+        "coordinates": [71.63806, -41.823128],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -446,7 +500,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_vcp_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -461,7 +515,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [69.04425, -52.01525]
+        "coordinates": [69.04425, -52.01525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -470,7 +525,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_vcp_aa_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -485,7 +540,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.076248, -14.397438]
+        "coordinates": [17.076248, -14.397438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -494,7 +550,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72",
@@ -509,7 +565,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.078247, -12.344254]
+        "coordinates": [17.078247, -12.344254],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -518,7 +575,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72",
@@ -533,7 +590,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.062813, -13.487686]
+        "coordinates": [17.062813, -13.487686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -542,7 +600,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72",
@@ -557,17 +615,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.76381, -14.466812]
+        "coordinates": [21.76381, -14.466812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -581,17 +640,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.236252, -14.851372]
+        "coordinates": [15.236252, -14.851372],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_acv",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mec_acv_btr60pu",
         "obj2": "null",
@@ -605,7 +665,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.10994, -12.803627]
+        "coordinates": [18.10994, -12.803627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -614,7 +675,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2_bf2",
@@ -629,7 +690,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.649689, -12.803627]
+        "coordinates": [18.649689, -12.803627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -638,7 +700,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2_bf2",
@@ -653,7 +715,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.375, -12.803627]
+        "coordinates": [18.375, -12.803627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -662,7 +725,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_bmp_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2_bf2",
@@ -677,7 +740,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.590248, -12.803627]
+        "coordinates": [19.590248, -12.803627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -686,7 +750,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_bmp_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -701,7 +765,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.129997, -12.803627]
+        "coordinates": [20.129997, -12.803627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -710,7 +775,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_bmp_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -725,7 +790,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.855316, -12.803627]
+        "coordinates": [19.855316, -12.803627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -734,7 +800,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_bmp_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -749,7 +815,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.597626, -12.777252]
+        "coordinates": [21.597626, -12.777252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -758,7 +825,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -773,7 +840,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.141434, -12.777252]
+        "coordinates": [21.141434, -12.777252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -782,7 +850,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -797,7 +865,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.379562, -12.777252]
+        "coordinates": [21.379562, -12.777252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -806,7 +875,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_logi_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -821,7 +890,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.045815, -10.287437]
+        "coordinates": [17.045815, -10.287437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -830,7 +900,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSU-23-4",
         "team": "1",
         "obj1": "mec_aav_shilka",
@@ -845,7 +915,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.056374, -11.261124]
+        "coordinates": [17.056374, -11.261124],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -854,7 +925,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_aav_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSU-23-4",
         "team": "1",
         "obj1": "mec_aav_shilka",
@@ -869,7 +940,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.175934, -14.111938]
+        "coordinates": [13.175934, -14.111938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -878,7 +950,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -893,7 +965,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.175934, -16.290497]
+        "coordinates": [13.175934, -16.290497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -902,7 +975,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_trans_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -917,7 +990,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.039436, -15.479935]
+        "coordinates": [21.039436, -15.479935],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -926,7 +1000,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_mecoperations_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -941,17 +1015,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [162.897, -160.764]
+        "coordinates": [162.897, -160.764],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_gb_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_warehouse_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_gb_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "rallypoint_mec_placeable_noexpire",
         "obj2": "rallypoint_gb_placeable_noexpire",
@@ -965,17 +1040,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [108.97325, -105.00119]
+        "coordinates": [108.97325, -105.00119],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_mec_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_northcity_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_mec_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_mec_placeable_noexpire",
         "obj2": "rallypoint_gb_placeable_noexpire",
@@ -989,17 +1065,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.52737, -245.13782]
+        "coordinates": [240.52737, -245.13782],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_coop64_gbmain_acv",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -1007,6 +1084,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [236.48712, -246.42618],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_gbmain",
+        "class": "ControlPoint",
+        "name_object": "British Deployment Area",
+        "team": "2",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "1",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [159.74063, -158.2107],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Freight Depot 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_warehouse",
+        "class": "ControlPoint",
+        "name_object": "Freight Depot 75m",
+        "team": "2",
+        "areavalue1": "9999.0",
+        "areavalue2": "15.0",
+        "cpid": "2",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.7288, -132.2285],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City 120m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_southcity",
+        "class": "ControlPoint",
+        "name_object": "South City 120m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "15.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.697876, -128.86719],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Security Building 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_mecsec",
+        "class": "ControlPoint",
+        "name_object": "MEC Security Building 100m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "7",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.071, -103.29819],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Water Treatment Plant 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_watertreatmentplant",
+        "class": "ControlPoint",
+        "name_object": "Water Treatment Plant 100m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.83794, -103.77013],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City 120m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_northcity",
+        "class": "ControlPoint",
+        "name_object": "North City 120m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "50.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.09918, -47.052315],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_vcp",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint 150m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "9999.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.166748, -13.291939],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop64_mecoperations",
+        "class": "ControlPoint",
+        "name_object": "MEC Operations Base",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "8",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

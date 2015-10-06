@@ -1,11 +1,45 @@
 {
+  "team1":"mec",
+  "team2":"fr",
+  "team1tickets":"400",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_marlin_coop64_mecmain"
+      ],
+      [
+        "cpname_operation_marlin_coop64_sainttropaz"
+      ],
+      [
+        "cpname_operation_marlin_coop64_southbridge"
+      ],
+      [
+        "cpname_operation_marlin_coop64_tvstation",
+        "cpname_operation_marlin_coop64_residencies"
+      ],
+      [
+        "cpname_operation_marlin_coop64_northbridge",
+        "cpname_operation_marlin_coop64_apartments"
+      ],
+      [
+        "cpname_operation_marlin_coop64_checkpoint"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.619377, -39.329002]
+        "coordinates": [40.619377, -39.329002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -14,7 +48,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_transportheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AS565 MB Panther",
         "team": "2",
         "obj1": "null",
@@ -29,17 +63,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.916122, -44.442497]
+        "coordinates": [47.916122, -44.442497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fr",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_fr",
@@ -53,7 +88,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.36875, -44.625748]
+        "coordinates": [43.36875, -44.625748],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -62,7 +98,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -77,7 +113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.228996, -41.122375]
+        "coordinates": [46.228996, -41.122375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -86,7 +123,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -101,7 +138,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.692253, -41.409378]
+        "coordinates": [45.692253, -41.409378],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -110,7 +148,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -125,7 +163,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.7545, -44.622]
+        "coordinates": [46.7545, -44.622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -134,7 +173,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC-180",
         "team": "2",
         "obj1": "null",
@@ -149,7 +188,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.48062, -45.316254]
+        "coordinates": [45.48062, -45.316254],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -158,7 +198,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -173,7 +213,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.289, -41.736748]
+        "coordinates": [45.289, -41.736748],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -182,7 +223,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_vab",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -197,7 +238,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.469376, -42.19388]
+        "coordinates": [44.469376, -42.19388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -206,7 +248,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_vab_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -221,7 +263,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.91263, -45.082253]
+        "coordinates": [45.91263, -45.082253],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -230,7 +273,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -245,7 +288,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [228.05875, -225.07487]
+        "coordinates": [228.05875, -225.07487],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -254,7 +298,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "mec_apc_btr60",
@@ -269,7 +313,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.78876, -224.95474]
+        "coordinates": [223.78876, -224.95474],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -278,7 +323,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2M",
         "team": "1",
         "obj1": "mec_ifv_bmp2m_bf2",
@@ -293,7 +338,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.74863, -225.05426]
+        "coordinates": [225.74863, -225.05426],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -302,7 +348,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2M",
         "team": "1",
         "obj1": "mec_ifv_bmp2m_bf2",
@@ -317,7 +363,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [231.45013, -225.0435]
+        "coordinates": [231.45013, -225.0435],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -326,7 +373,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_btr",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "mec_jep_brdm2",
@@ -341,7 +388,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [221.932, -224.858]
+        "coordinates": [221.932, -224.858],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -350,7 +398,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_btr_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "mec_jep_brdm2",
@@ -365,17 +413,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.25024, -225.76688]
+        "coordinates": [239.25024, -225.76688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -389,7 +438,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.13075, -225.52774]
+        "coordinates": [240.13075, -225.52774],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +448,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -413,7 +463,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.41537, -224.87988]
+        "coordinates": [235.41537, -224.87988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -422,7 +473,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -437,7 +488,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.03125, -239.73512]
+        "coordinates": [234.03125, -239.73512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -446,7 +498,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_attack",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -461,7 +513,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.320625, -44.867874]
+        "coordinates": [46.320625, -44.867874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -470,7 +523,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC-180",
         "team": "2",
         "obj1": "null",
@@ -485,7 +538,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.870247, -41.9625]
+        "coordinates": [44.870247, -41.9625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -494,7 +548,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_vab_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -509,7 +563,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.38875, -225.018]
+        "coordinates": [233.38875, -225.018],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -518,7 +573,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -533,7 +588,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [35.782623, -43.4095]
+        "coordinates": [35.782623, -43.4095],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -542,7 +598,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_butt",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -557,7 +613,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.065002, -44.099747]
+        "coordinates": [43.065002, -44.099747],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -566,7 +623,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_checkpoint_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -581,7 +638,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [229.72488, -225.03175]
+        "coordinates": [229.72488, -225.03175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -590,7 +648,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop64_sainttropaz_btr_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "mec_apc_btr60",
@@ -599,6 +657,222 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [200.43687, -165.02362],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Saint Tropaz Resort 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_sainttropaz",
+        "class": "ControlPoint",
+        "name_object": "Saint Tropaz Resort 80m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.316, -151.56924],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_southbridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge 60m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.77174, -88.60775],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_northbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.10438, -128.88],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about TV Station 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_tvstation",
+        "class": "ControlPoint",
+        "name_object": "TV Station 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.5525, -119.8075],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Residencies 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_residencies",
+        "class": "ControlPoint",
+        "name_object": "Residencies 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.518875, -95.703],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about waterside Apartments 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_apartments",
+        "class": "ControlPoint",
+        "name_object": "waterside Apartments 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "6",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.82413, -57.710747],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Customs Checkpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_checkpoint",
+        "class": "ControlPoint",
+        "name_object": "Customs Checkpoint",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "40.0",
+        "cpid": "7",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.90175, -227.02538],
+        "size": [33, 33],
+        "radius": "0.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop64_mecmain",
+        "class": "ControlPoint",
+        "name_object": "MEC Operations Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

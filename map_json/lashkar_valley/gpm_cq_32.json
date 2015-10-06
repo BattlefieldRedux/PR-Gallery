@@ -1,11 +1,181 @@
 {
+  "team1":"taliban",
+  "team2":"ger",
+  "team1tickets":"800",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_lightblue4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_lightblue3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_lightblue2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_lightblue1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_darkblue4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_darkblue3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_darkblue2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_darkblue1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_red4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_red3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_red2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_red1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_green4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_green3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_green2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_green1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_yellow4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_yellow3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_yellow2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_yellow1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_purple3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_purple21",
+        "cpname_lashkar_valley_aas32_purple22"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_purple1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_white4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_white3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_white2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_white1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ],
+    [
+      [
+        "cpname_lashkar_valley_aas32_taliban_hq"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_grey4"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_grey3"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_grey2"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_grey1"
+      ],
+      [
+        "cpname_lashkar_valley_aas32_isaf_main"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.64737, -227.65125]
+        "coordinates": [78.64737, -227.65125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -14,7 +184,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_0_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -29,17 +199,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [82.65225, -221.7475]
+        "coordinates": [82.65225, -221.7475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_4",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -53,17 +224,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [222.0075, -50.068497]
+        "coordinates": [222.0075, -50.068497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red4_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -77,17 +249,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.88138, -60.32012]
+        "coordinates": [139.88138, -60.32012],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "33.965",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey4_ammo",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -101,17 +274,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.67037, -106.11412]
+        "coordinates": [119.67037, -106.11412],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "92.99",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_white3_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -125,17 +299,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.670876, -106.33813]
+        "coordinates": [119.670876, -106.33813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "5.184",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red2_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -149,17 +324,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.73637, -108.778625]
+        "coordinates": [137.73637, -108.778625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_purple22_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -173,17 +349,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.73038, -108.782]
+        "coordinates": [137.73038, -108.782],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "81.4",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green3_ammo",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -197,17 +374,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [89.65075, -142.713]
+        "coordinates": [89.65075, -142.713],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -221,17 +399,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.0495, -129.57925]
+        "coordinates": [96.0495, -129.57925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red1_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -245,17 +424,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.98926, -181.899]
+        "coordinates": [136.98926, -181.899],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -269,17 +449,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.45563, -158.27225]
+        "coordinates": [224.45563, -158.27225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "144.829",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green2_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -293,7 +474,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.375, -32.5]
+        "coordinates": [101.375, -32.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -302,7 +484,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_0_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "1",
         "obj1": "civ_atm_technical",
@@ -317,7 +499,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.0, -32.5]
+        "coordinates": [101.0, -32.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -326,7 +509,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Rocket Technical",
         "team": "1",
         "obj1": "civ_atm_technical_rocket",
@@ -341,7 +524,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.766624, -123.20013]
+        "coordinates": [43.766624, -123.20013],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -350,7 +534,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_2_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -365,17 +549,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.34262, -95.63263]
+        "coordinates": [94.34262, -95.63263],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-89.472",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_ammodump",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -389,17 +574,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [59.125, -167.625]
+        "coordinates": [59.125, -167.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_1_0",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -413,17 +599,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.26275, -225.63763]
+        "coordinates": [78.26275, -225.63763],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ger will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_fixedbunker",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ger",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ger",
@@ -437,17 +624,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [217.10526, -152.45375]
+        "coordinates": [217.10526, -152.45375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "52.537",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green2_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -461,7 +649,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.40538, -227.8495]
+        "coordinates": [79.40538, -227.8495],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -470,7 +659,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_transport",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -485,7 +674,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.45475, -227.67014]
+        "coordinates": [77.45475, -227.67014],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -494,7 +684,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_4_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -509,7 +699,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.375122, -123.50675]
+        "coordinates": [43.375122, -123.50675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_bombcar.png",
@@ -518,7 +709,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_bomber",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Car Bomb",
         "team": "1",
         "obj1": "civ_jep_car_bomber",
@@ -533,7 +724,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.85112, -74.04825]
+        "coordinates": [169.85112, -74.04825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -542,7 +734,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_civcar",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -557,7 +749,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.906624, -110.52375]
+        "coordinates": [127.906624, -110.52375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -566,7 +759,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_0_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "1",
         "obj1": "civ_atm_technical",
@@ -581,17 +774,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.625, -47.5]
+        "coordinates": [226.625, -47.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_ammocache_0",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -605,17 +799,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.1015, -47.56575]
+        "coordinates": [230.1015, -47.56575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red4_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -629,17 +824,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.598, -221.68839]
+        "coordinates": [75.598, -221.68839],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_lmg",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -653,17 +849,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.35875, -221.72437]
+        "coordinates": [78.35875, -221.72437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_5",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -677,17 +874,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [82.95175, -221.8685]
+        "coordinates": [82.95175, -221.8685],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_1_2",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -701,17 +899,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [83.05287, -225.262]
+        "coordinates": [83.05287, -225.262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_1_3",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -725,17 +924,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [83.06675, -226.756]
+        "coordinates": [83.06675, -226.756],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_1_4",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -749,17 +949,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.625, -16.625]
+        "coordinates": [41.625, -16.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "180.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_ac",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -773,7 +974,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.7585, -247.7255]
+        "coordinates": [98.7585, -247.7255],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -782,7 +984,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -797,7 +999,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.166245, -225.82776]
+        "coordinates": [80.166245, -225.82776],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -806,7 +1009,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_0_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -821,7 +1024,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.18312, -226.18326]
+        "coordinates": [80.18312, -226.18326],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -830,7 +1034,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_6_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -845,7 +1049,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.06038, -224.08237]
+        "coordinates": [81.06038, -224.08237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -854,7 +1059,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -869,7 +1074,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.60325, -229.38225]
+        "coordinates": [80.60325, -229.38225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -878,7 +1084,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -893,7 +1099,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.42912, -226.09512]
+        "coordinates": [75.42912, -226.09512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -902,7 +1109,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_transheli2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Tiger UHT",
         "team": "2",
         "obj1": "null",
@@ -917,7 +1124,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.39687, -244.77063]
+        "coordinates": [98.39687, -244.77063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -926,7 +1134,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_0_7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -941,17 +1149,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.9543762, -252.89262]
+        "coordinates": [1.9543762, -252.89262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_artillery_team2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -965,7 +1174,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.625, -32.5]
+        "coordinates": [100.625, -32.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -974,7 +1184,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_jep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -989,7 +1199,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.875, -33.5]
+        "coordinates": [102.875, -33.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_bombcar.png",
@@ -998,7 +1209,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_bombcar",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Car Bomb",
         "team": "1",
         "obj1": "civ_jep_car_bomber",
@@ -1013,17 +1224,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.666245, -224.401]
+        "coordinates": [77.666245, -224.401],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ger_acv_m557a2 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_com_post",
-        "class": "ObjectPlacement",
-        "name_object": "ger_acv_m557a2",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_acv_m557a2",
@@ -1037,7 +1249,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.382126, -236.95238]
+        "coordinates": [98.382126, -236.95238],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -1046,7 +1259,7 @@
       },
       "bf2props": {
         "name": "apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -1061,7 +1274,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.229126, -233.85287]
+        "coordinates": [98.229126, -233.85287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -1070,7 +1284,7 @@
       },
       "bf2props": {
         "name": "recon",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -1085,7 +1299,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.45912, -241.80313]
+        "coordinates": [98.45912, -241.80313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1094,7 +1309,7 @@
       },
       "bf2props": {
         "name": "logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -1109,7 +1324,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.907875, -249.33725]
+        "coordinates": [98.907875, -249.33725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1118,7 +1334,7 @@
       },
       "bf2props": {
         "name": "rover",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -1133,7 +1349,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.01112, -251.0515]
+        "coordinates": [99.01112, -251.0515],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1142,7 +1359,7 @@
       },
       "bf2props": {
         "name": "rover_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -1157,17 +1374,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.43088, -243.93451]
+        "coordinates": [97.43088, -243.93451],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ger_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rpammo_1",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ger_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ger_placeable",
@@ -1181,17 +1399,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.20625, -236.98238]
+        "coordinates": [97.20625, -236.98238],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ger_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rpammo_2",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ger_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ger_placeable",
@@ -1205,17 +1424,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [69.751495, -221.02425]
+        "coordinates": [69.751495, -221.02425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-1.792",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -1229,17 +1449,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [70.93338, -221.6575]
+        "coordinates": [70.93338, -221.6575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-1.792",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_0",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -1253,17 +1474,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.791504, -220.84062]
+        "coordinates": [76.791504, -220.84062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-1.792",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_1",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -1277,17 +1499,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [84.3385, -224.56175]
+        "coordinates": [84.3385, -224.56175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "83.856",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_2",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -1301,17 +1524,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [84.302124, -227.36975]
+        "coordinates": [84.302124, -227.36975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "88.681",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_3",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_bipod",
@@ -1325,17 +1549,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.792122, -253.26025]
+        "coordinates": [2.792122, -253.26025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1349,17 +1574,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.9717484, -253.73538]
+        "coordinates": [1.9717484, -253.73538],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1373,17 +1599,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.7413788, -254.00562]
+        "coordinates": [2.7413788, -254.00562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1397,17 +1624,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [60.9815, -166.789]
+        "coordinates": [60.9815, -166.789],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "a",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1421,17 +1649,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.98938, -181.90025]
+        "coordinates": [136.98938, -181.90025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_purple1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1445,17 +1674,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.6405, -106.613754]
+        "coordinates": [119.6405, -106.613754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_purple22_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1469,17 +1699,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.375, -201.125]
+        "coordinates": [177.375, -201.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "87.404",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_yellow1_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1493,17 +1724,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.97263, -200.93037]
+        "coordinates": [175.97263, -200.93037],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_yellow1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1517,17 +1749,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.23613, -200.91338]
+        "coordinates": [176.23613, -200.91338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "84.049",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1541,17 +1774,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.5, -200.875]
+        "coordinates": [177.5, -200.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green1_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1565,7 +1799,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.75, -32.5]
+        "coordinates": [101.75, -32.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1574,7 +1809,7 @@
       },
       "bf2props": {
         "name": "techsupply",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ammo Pickup",
         "team": "1",
         "obj1": "civ_jep_support",
@@ -1589,7 +1824,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.125, -32.5]
+        "coordinates": [102.125, -32.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -1598,7 +1834,7 @@
       },
       "bf2props": {
         "name": "techsupply_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Van",
         "team": "1",
         "obj1": "civ_jep_zastava900ak",
@@ -1613,17 +1849,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.125, -34.625]
+        "coordinates": [99.125, -34.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_tal will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_tal",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_tal",
         "obj2": "null",
@@ -1637,17 +1874,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.21225, -34.690125]
+        "coordinates": [93.21225, -34.690125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "hideout",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_meins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_meins",
         "obj2": "null",
@@ -1661,17 +1899,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.215, -31.244873]
+        "coordinates": [101.215, -31.244873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable_noexpire",
         "obj2": "null",
@@ -1685,17 +1924,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.73075, -34.17663]
+        "coordinates": [94.73075, -34.17663],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable_noexpire",
         "obj2": "null",
@@ -1709,17 +1949,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.02788, -110.21575]
+        "coordinates": [99.02788, -110.21575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-0.014",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_purple21_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1733,17 +1974,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.03, -110.20325]
+        "coordinates": [99.03, -110.20325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "3.347",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue3_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1757,17 +1999,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.73375, -108.7415]
+        "coordinates": [137.73375, -108.7415],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.354",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red2_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1781,17 +2024,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.73062, -108.766]
+        "coordinates": [137.73062, -108.766],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "94.334",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_white3_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1805,17 +2049,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.1455, -99.1225]
+        "coordinates": [93.1455, -99.1225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "178.626",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue3_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1829,17 +2074,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.85275, -98.75975]
+        "coordinates": [92.85275, -98.75975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-177.013",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_purple21_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1853,17 +2099,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.539, -126.3605]
+        "coordinates": [41.539, -126.3605],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "134.559",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "a_55",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1877,17 +2124,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.396248, -126.5365]
+        "coordinates": [41.396248, -126.5365],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "174.016",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "a_56",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1901,17 +2149,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.22825, -126.3375]
+        "coordinates": [40.22825, -126.3375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "174.275",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "a_57",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1925,17 +2174,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.721626, -126.05825]
+        "coordinates": [39.721626, -126.05825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "93.647",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue2_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1949,17 +2199,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.598373, -130.59688]
+        "coordinates": [17.598373, -130.59688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "11.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_lightblue2_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1973,17 +2224,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.635, -106.619]
+        "coordinates": [119.635, -106.619],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-174.495",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green3_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -1997,17 +2249,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [220.92099, -187.509]
+        "coordinates": [220.92099, -187.509],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-88.173",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey2_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2021,17 +2274,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [220.92099, -187.509]
+        "coordinates": [220.92099, -187.509],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey2_rp1",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -2045,7 +2299,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.950874, -223.99237]
+        "coordinates": [78.950874, -223.99237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -2054,7 +2309,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_isaf_main_wimic",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -2069,7 +2324,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.18725, -33.482246]
+        "coordinates": [102.18725, -33.482246],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -2078,7 +2334,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_bike",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -2093,7 +2349,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.5, -33.75]
+        "coordinates": [100.5, -33.75],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -2102,7 +2359,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_bike_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -2117,17 +2374,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [168.95999, -74.982376]
+        "coordinates": [168.95999, -74.982376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "138.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue4_ammo",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2141,17 +2399,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [221.125, -49.75]
+        "coordinates": [221.125, -49.75],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "9.878",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_yellow3_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2165,17 +2424,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.875, -79.125]
+        "coordinates": [202.875, -79.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-163.063",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "a_83",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2189,17 +2449,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.125, -47.75]
+        "coordinates": [230.125, -47.75],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "56.299",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_yellow3_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2213,17 +2474,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.5, -81.125]
+        "coordinates": [224.5, -81.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "138.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey3_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2237,17 +2499,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.0625, -76.198746]
+        "coordinates": [234.0625, -76.198746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "138.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey3_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2261,17 +2524,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.83875, -111.2225]
+        "coordinates": [211.83875, -111.2225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "138.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_yellow2_ammo",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2285,17 +2549,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.809128, -126.28175]
+        "coordinates": [41.809128, -126.28175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "138.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_white2_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2309,7 +2574,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.49625, -239.47614]
+        "coordinates": [98.49625, -239.47614],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atv.png",
@@ -2318,7 +2584,7 @@
       },
       "bf2props": {
         "name": "apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "All-Terrain Vehicle",
         "team": "2",
         "obj1": "null",
@@ -2333,17 +2599,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.625, -47.875]
+        "coordinates": [226.625, -47.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_aa",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2357,17 +2624,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.49062, 10.6349945]
+        "coordinates": [91.49062, 10.6349945],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team1 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_mortar_0",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "1",
         "obj1": "mortar_team1",
         "obj2": "null",
@@ -2381,17 +2649,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.67025, 10.159882]
+        "coordinates": [90.67025, 10.159882],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team1 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_mortar_1",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "1",
         "obj1": "mortar_team1",
         "obj2": "null",
@@ -2405,17 +2674,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.43988, 9.889618]
+        "coordinates": [91.43988, 9.889618],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team1 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_taliban_hq_mortar_2",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "1",
         "obj1": "mortar_team1",
         "obj2": "null",
@@ -2429,17 +2699,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.30287, -202.65]
+        "coordinates": [176.30287, -202.65],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_green1_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -2453,17 +2724,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [60.25325, -167.61212]
+        "coordinates": [60.25325, -167.61212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue1_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -2477,17 +2749,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [89.67487, -141.66225]
+        "coordinates": [89.67487, -141.66225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_red1_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -2501,17 +2774,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.65875, -180.956]
+        "coordinates": [136.65875, -180.956],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_purple1_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -2525,17 +2799,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.021126, -192.55325]
+        "coordinates": [32.021126, -192.55325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_white1_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable",
         "obj2": "null",
@@ -2549,7 +2824,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [219.73688, -216.57962]
+        "coordinates": [219.73688, -216.57962],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -2558,7 +2834,7 @@
       },
       "bf2props": {
         "name": "zpu4_cpname_lashkar_valley_aas32_grey2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -2573,7 +2849,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.20938, -34.225502]
+        "coordinates": [157.20938, -34.225502],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -2582,7 +2859,7 @@
       },
       "bf2props": {
         "name": "zpu4_cpname_lashkar_valley_aas32_white4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -2597,7 +2874,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [162.20926, -77.105255]
+        "coordinates": [162.20926, -77.105255],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -2606,7 +2884,7 @@
       },
       "bf2props": {
         "name": "zpu4_cpname_lashkar_valley_aas32_darkblue4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -2621,17 +2899,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.920876, -192.9055]
+        "coordinates": [32.920876, -192.9055],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-15.48",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_white1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2645,17 +2924,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.74775, -192.96175]
+        "coordinates": [32.74775, -192.96175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_lightblue1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2669,17 +2949,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.324875, -177.98724]
+        "coordinates": [36.324875, -177.98724],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_white1_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2693,17 +2974,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.33513, -167.37413]
+        "coordinates": [58.33513, -167.37413],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue1_ammo1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2717,17 +2999,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.60138, -182.3265]
+        "coordinates": [76.60138, -182.3265],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue1_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2741,17 +3024,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.516373, -122.21325]
+        "coordinates": [41.516373, -122.21325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_darkblue2_ammo2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2765,17 +3049,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [221.42075, -214.82362]
+        "coordinates": [221.42075, -214.82362],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_aas32_grey2_ammo",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -2783,6 +3068,924 @@
         "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.746, -226.02487],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_isaf_main",
+        "class": "ControlPoint",
+        "name_object": "German Operations Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "201",
+        "sgid": "-1",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.470505, -33.3245],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_taliban_hq",
+        "class": "ControlPoint",
+        "name_object": "Taliban Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.885002, -192.56863],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Light Blue 1 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_lightblue1",
+        "class": "ControlPoint",
+        "name_object": "Light Blue 1 50m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "101",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "195.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.984627, -130.56963],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Light Blue 2 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_lightblue2",
+        "class": "ControlPoint",
+        "name_object": "Light Blue 2 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.58375, -102.99912],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Light Blue 3 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_lightblue3",
+        "class": "ControlPoint",
+        "name_object": "Light Blue 3 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.96275, -77.01875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Light Blue 4 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_lightblue4",
+        "class": "ControlPoint",
+        "name_object": "Light Blue 4 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "104",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.56138, -169.12201],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dark Blue 1 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_darkblue1",
+        "class": "ControlPoint",
+        "name_object": "Dark Blue 1 50m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "105",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "195.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.157997, -123.8465],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dark Blue 2 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_darkblue2",
+        "class": "ControlPoint",
+        "name_object": "Dark Blue 2 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.50638, -103.17875],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dark Blue 3 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_darkblue3",
+        "class": "ControlPoint",
+        "name_object": "Dark Blue 3 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.53876, -76.764755],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dark Blue 4 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_darkblue4",
+        "class": "ControlPoint",
+        "name_object": "Dark Blue 4 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "108",
+        "sgid": "202",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.90175, -142.40437],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Red 1 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_red1",
+        "class": "ControlPoint",
+        "name_object": "Red 1 50m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "109",
+        "sgid": "503",
+        "uncap": "false",
+        "ttgc": "195.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.459, -105.1465],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Red 2 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_red2",
+        "class": "ControlPoint",
+        "name_object": "Red 2 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "110",
+        "sgid": "403",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.36263, -76.643875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Red 3 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_red3",
+        "class": "ControlPoint",
+        "name_object": "Red 3 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "111",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.97513, -48.35988],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Red 4 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_red4",
+        "class": "ControlPoint",
+        "name_object": "Red 4 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "112",
+        "sgid": "203",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.09738, -203.76175],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Green 1 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_green1",
+        "class": "ControlPoint",
+        "name_object": "Green 1 40m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "113",
+        "sgid": "504",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [216.00125, -150.60075],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Green 2 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_green2",
+        "class": "ControlPoint",
+        "name_object": "Green 2 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "114",
+        "sgid": "404",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.21075, -106.179504],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Green 3 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_green3",
+        "class": "ControlPoint",
+        "name_object": "Green 3 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "115",
+        "sgid": "304",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.42137, -34.923874],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Green 4 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_green4",
+        "class": "ControlPoint",
+        "name_object": "Green 4 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "116",
+        "sgid": "204",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.028, -204.23474],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Yellow 1 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_yellow1",
+        "class": "ControlPoint",
+        "name_object": "Yellow 1 40m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "117",
+        "sgid": "505",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [212.6885, -112.75337],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Yellow 2 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_yellow2",
+        "class": "ControlPoint",
+        "name_object": "Yellow 2 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "118",
+        "sgid": "405",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.06674, -47.9815],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Yellow 3 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_yellow3",
+        "class": "ControlPoint",
+        "name_object": "Yellow 3 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "119",
+        "sgid": "305",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.72975, -35.44925],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Yellow 4 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_yellow4",
+        "class": "ControlPoint",
+        "name_object": "Yellow 4 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "120",
+        "sgid": "205",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.74425, -180.75537],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Purple 1 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_purple1",
+        "class": "ControlPoint",
+        "name_object": "Purple 1 80m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "121",
+        "sgid": "406",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.44937, -102.97425],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Purple 2 1 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_purple21",
+        "class": "ControlPoint",
+        "name_object": "Purple 2 1 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "122",
+        "sgid": "326",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.45, -107.12312],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Purple 2 2 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_purple22",
+        "class": "ControlPoint",
+        "name_object": "Purple 2 2 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "123",
+        "sgid": "326",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.52025, -35.402374],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Purple 3 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_purple3",
+        "class": "ControlPoint",
+        "name_object": "Purple 3 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "124",
+        "sgid": "206",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.117996, -192.65475],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about White 1 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_white1",
+        "class": "ControlPoint",
+        "name_object": "White 1 40m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "125",
+        "sgid": "507",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.39662, -123.910126],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about White 2 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_white2",
+        "class": "ControlPoint",
+        "name_object": "White 2 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "126",
+        "sgid": "407",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.21312, -105.10525],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about White 3 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_white3",
+        "class": "ControlPoint",
+        "name_object": "White 3 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "127",
+        "sgid": "307",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.56963, -35.410378],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about White 4 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_white4",
+        "class": "ControlPoint",
+        "name_object": "White 4 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "128",
+        "sgid": "207",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.20912, -180.66562],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grey 1 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_grey1",
+        "class": "ControlPoint",
+        "name_object": "Grey 1 50m",
+        "team": "0",
+        "areavalue1": "105.0",
+        "areavalue2": "20.0",
+        "cpid": "129",
+        "sgid": "508",
+        "uncap": "false",
+        "ttgc": "135.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [222.498, -213.9585],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grey 2 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_grey2",
+        "class": "ControlPoint",
+        "name_object": "Grey 2 30m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "130",
+        "sgid": "408",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.63675, -80.19313],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grey 3 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_grey3",
+        "class": "ControlPoint",
+        "name_object": "Grey 3 90m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "131",
+        "sgid": "308",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.21475, -59.869873],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grey 4 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_aas32_grey4",
+        "class": "ControlPoint",
+        "name_object": "Grey 4 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "132",
+        "sgid": "208",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "120.0"
       }
     }
   ]

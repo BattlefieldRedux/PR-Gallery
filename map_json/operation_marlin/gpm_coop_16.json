@@ -1,21 +1,55 @@
 {
+  "team1":"mec",
+  "team2":"fr",
+  "team1tickets":"200",
+  "team2tickets":"250",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_marlin_coop16_constructionsite"
+      ],
+      [
+        "cpname_operation_marlin_coop16_delta"
+      ],
+      [
+        "cpname_operation_marlin_coop16_alley"
+      ],
+      [
+        "cpname_operation_marlin_coop16_constructionsite_0",
+        "cpname_operation_marlin_coop16_apartments"
+      ],
+      [
+        "cpname_operation_marlin_coop16_bravo",
+        "cpname_operation_marlin_coop16_gasstation"
+      ],
+      [
+        "cpname_operation_marlin_coop16_frenchstagingarea"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.90338, -64.50875]
+        "coordinates": [225.90338, -64.50875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop16_frenchstagingarea_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fr",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_fr",
@@ -29,7 +63,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.50763, -68.58537]
+        "coordinates": [223.50763, -68.58537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -38,7 +73,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop16_frenchstagingarea_vab",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -53,7 +88,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [224.69012, -67.77913]
+        "coordinates": [224.69012, -67.77913],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -62,7 +98,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop16_frenchstagingarea_vab_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -77,7 +113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.95638, -73.54225]
+        "coordinates": [211.95638, -73.54225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +123,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop16_frenchstagingarea_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -101,17 +138,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.73262, -164.51738]
+        "coordinates": [137.73262, -164.51738],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop16_constructionsite_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -125,7 +163,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.91975, -164.50438]
+        "coordinates": [137.91975, -164.50438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +173,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_marlin_coop16_constructionsite_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -143,6 +182,222 @@
         "minspawn": "180.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.82726, -152.64975],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Staging Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_constructionsite",
+        "class": "ControlPoint",
+        "name_object": "MEC Staging Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.63762, -125.550125],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Delta will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_delta",
+        "class": "ControlPoint",
+        "name_object": "Objective Delta",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.45963, -103.87387],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Alley will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_alley",
+        "class": "ControlPoint",
+        "name_object": "Alley",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.47751, -95.346375],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Building Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_constructionsite_0",
+        "class": "ControlPoint",
+        "name_object": "Building Site",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.71838, -69.43187],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about French Staging Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_frenchstagingarea",
+        "class": "ControlPoint",
+        "name_object": "French Staging Area",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.30112, -89.48837],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.5525, -59.770126],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Bravo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_bravo",
+        "class": "ControlPoint",
+        "name_object": "Objective Bravo",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.27126, -70.95387],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop16_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Gas Station",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

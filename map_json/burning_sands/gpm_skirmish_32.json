@@ -1,11 +1,34 @@
 {
+  "team1":"mec",
+  "team2":"gb",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"610",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_burning_sands_skirmish32_mec"
+      ],
+      [
+        "cpname_burning_sands_skirmish32_terminal"
+      ],
+      [
+        "cpname_burning_sands_skirmish32_brit"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.57112, -137.379]
+        "coordinates": [198.57112, -137.379],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +37,7 @@
       },
       "bf2props": {
         "name": "crate_9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +52,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.61182, -171.979]
+        "coordinates": [198.61182, -171.979],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +62,7 @@
       },
       "bf2props": {
         "name": "crate_13",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -47,6 +71,87 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [197.00043, -153.17238],
+        "size": [33, 33],
+        "radius": "8.4375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Main Terminal 135m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_skirmish32_terminal",
+        "class": "ControlPoint",
+        "name_object": "Main Terminal 135m",
+        "team": "0",
+        "areavalue1": "100.0",
+        "areavalue2": "100.0",
+        "cpid": "201",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [197.34044, -173.55469],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Spawn will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_skirmish32_brit",
+        "class": "ControlPoint",
+        "name_object": "British Spawn",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "3",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199.35493, -136.77463],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Spawn will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_skirmish32_mec",
+        "class": "ControlPoint",
+        "name_object": "MEC Spawn",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

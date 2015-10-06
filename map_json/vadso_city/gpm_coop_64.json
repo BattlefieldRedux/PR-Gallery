@@ -1,11 +1,44 @@
 {
+  "team1":"ru",
+  "team2":"gb",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"4096",
+  "viewdistance":"800",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_vadso_city_coop64_dam"
+      ],
+      [
+        "cpname_vadso_city_coop64_vehicle"
+      ],
+      [
+        "cpname_vadso_city_coop64_harbour",
+        "cpname_vadso_city_coop64_vadsocity"
+      ],
+      [
+        "cpname_vadso_city_coop64_westvadso"
+      ],
+      [
+        "cpname_vadso_city_coop64_airport"
+      ],
+      [
+        "cpname_vadso_city_coop64_carrier"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.69907, -16.580688]
+        "coordinates": [235.69907, -16.580688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -14,7 +47,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_lynx",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merlin HC3",
         "team": "2",
         "obj1": "null",
@@ -29,7 +62,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.16919, -14.504059]
+        "coordinates": [230.16919, -14.504059],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -38,7 +72,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_lynx_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merlin HC3",
         "team": "2",
         "obj1": "null",
@@ -53,7 +87,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.59995, -15.69931]
+        "coordinates": [233.59995, -15.69931],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -62,7 +97,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_lynx_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Lynx AH.7",
         "team": "2",
         "obj1": "null",
@@ -77,7 +112,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.47137, -14.570564]
+        "coordinates": [239.47137, -14.570564],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -86,7 +122,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_lynx_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "killed",
         "team": "2",
         "obj1": "null",
@@ -101,7 +137,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.6825, -15.492378]
+        "coordinates": [237.6825, -15.492378],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -110,7 +147,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_rhib",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -125,7 +162,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.6825, -15.244873]
+        "coordinates": [237.6825, -15.244873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -134,7 +172,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_rhib_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -149,7 +187,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.6825, -15.0011215]
+        "coordinates": [237.6825, -15.0011215],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -158,7 +197,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_rhib_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -173,7 +212,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.6825, -14.752373]
+        "coordinates": [237.6825, -14.752373],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -182,7 +222,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_rhib_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -197,7 +237,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.69087, -238.21637]
+        "coordinates": [225.69087, -238.21637],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -206,7 +247,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -221,7 +262,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.92169, -234.38269]
+        "coordinates": [225.92169, -234.38269],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -230,7 +272,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_brdm_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -245,7 +287,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.86137, -233.8778]
+        "coordinates": [225.86137, -233.8778],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -254,7 +297,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_brdm_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -269,7 +312,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [253.03156, -179.37181]
+        "coordinates": [253.03156, -179.37181],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -278,7 +322,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_btr",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80",
         "team": "1",
         "obj1": "ru_apc_btr80",
@@ -293,17 +337,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.66812, -181.40062]
+        "coordinates": [251.66812, -181.40062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -317,7 +362,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.6435, -178.96231]
+        "coordinates": [251.6435, -178.96231],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -326,7 +372,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a_bf2",
@@ -341,7 +387,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.70337, -178.63895]
+        "coordinates": [251.70337, -178.63895],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -350,7 +397,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_btr_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a_bf2",
@@ -365,7 +412,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.6853, -180.93831]
+        "coordinates": [252.6853, -180.93831],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -374,7 +422,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -389,7 +437,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.45494, -181.14957]
+        "coordinates": [252.45494, -181.14957],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +447,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_dam_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -413,17 +462,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.91943, -14.616501]
+        "coordinates": [235.91943, -14.616501],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_gb will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_acv",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "2",
         "obj1": "null",
         "obj2": "deployable_commandpost_gb",
@@ -437,7 +487,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.96725, -15.699066]
+        "coordinates": [230.96725, -15.699066],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -446,7 +497,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop64_carrier_lynx_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Lynx AH.7",
         "team": "2",
         "obj1": "null",
@@ -455,6 +506,195 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [235.21057, -15.416313],
+        "size": [33, 33],
+        "radius": "0.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about GB Carrier will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_carrier",
+        "class": "ControlPoint",
+        "name_object": "GB Carrier",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.21956, -119.64681],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Airport Objective 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_airport",
+        "class": "ControlPoint",
+        "name_object": "Airport Objective 80m",
+        "team": "1",
+        "areavalue1": "60.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [227.65094, -237.35712],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dam 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_dam",
+        "class": "ControlPoint",
+        "name_object": "Dam 60m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "3",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.55438, -128.68156],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vadso Harbour 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_harbour",
+        "class": "ControlPoint",
+        "name_object": "Vadso Harbour 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.45593, -156.92038],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Freight Depot 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_vehicle",
+        "class": "ControlPoint",
+        "name_object": "Freight Depot 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.01813, -150.60669],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vadso City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_vadsocity",
+        "class": "ControlPoint",
+        "name_object": "Vadso City 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.01575, -144.59312],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Vadso City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop64_westvadso",
+        "class": "ControlPoint",
+        "name_object": "West Vadso City 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "7",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

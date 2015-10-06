@@ -1,11 +1,44 @@
 {
+  "team1":"ru",
+  "team2":"ger",
+  "team1tickets":"200",
+  "team2tickets":"200",
+  "mapsize":"4096",
+  "viewdistance":"900",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_silent_eagle_vehicles64_rumain"
+      ],
+      [
+        "cpname_silent_eagle_vehicles64_rocketsilo",
+        "cpname_silent_eagle_vehicles64_powerplant",
+        "cpname_silent_eagle_vehicles64_hilltop",
+        "cpname_silent_eagle_vehicles64_tunnel_complex"
+      ],
+      [
+        "cpname_silent_eagle_vehicles64_town"
+      ],
+      [
+        "cpname_silent_eagle_vehicles64_clearing",
+        "cpname_silent_eagle_vehicles64_checkpoint"
+      ],
+      [
+        "cpname_silent_eagle_vehicles64_airfield"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.052254, -7.6801224]
+        "coordinates": [31.052254, -7.6801224],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -14,7 +47,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_ch_usmc_heavyjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -29,7 +62,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.069374, -7.2216263]
+        "coordinates": [31.069374, -7.2216263],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -38,7 +72,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_ch_usmc_heavyjeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -53,7 +87,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.14644, -8.526253]
+        "coordinates": [32.14644, -8.526253],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -62,7 +97,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rocketsilo_ch_usmc_heavytank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -77,7 +112,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.324623, -8.107872]
+        "coordinates": [25.324623, -8.107872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -86,7 +122,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rocketsilo_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -101,7 +137,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.22294, -7.1291275]
+        "coordinates": [32.22294, -7.1291275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -110,7 +147,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rocketsilo_gb_ch_supportjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -125,7 +162,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.03881, -8.158066]
+        "coordinates": [31.03881, -8.158066],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -134,7 +172,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rocketsilo_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -149,7 +187,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.051247, -6.833191]
+        "coordinates": [31.051247, -6.833191],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -158,7 +197,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_123",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -173,7 +212,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.063377, -8.614441]
+        "coordinates": [31.063377, -8.614441],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -182,7 +222,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_124124",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -197,7 +237,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.37175, -7.7162476]
+        "coordinates": [25.37175, -7.7162476],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -206,7 +247,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_2354235",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -221,7 +262,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.51393, -211.3818]
+        "coordinates": [148.51393, -211.3818],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -230,7 +272,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_gb_ch_lightjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -245,7 +287,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.47069, -208.02681]
+        "coordinates": [154.47069, -208.02681],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -254,7 +297,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_gb_ch_heavyjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -269,7 +312,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.242, -210.55806]
+        "coordinates": [148.242, -210.55806],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -278,7 +322,7 @@
       },
       "bf2props": {
         "name": "germantanks_leo",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -293,7 +337,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.3325, -210.92575]
+        "coordinates": [148.3325, -210.92575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -302,7 +347,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_ustanks_leo",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -317,7 +362,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.17062, -210.10988]
+        "coordinates": [149.17062, -210.10988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -326,7 +372,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_ustanks_leo_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -341,7 +387,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [138.81912, -210.63068]
+        "coordinates": [138.81912, -210.63068],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -350,7 +397,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_ustanks_leo_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -365,7 +412,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.31963, -210.49731]
+        "coordinates": [149.31963, -210.49731],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -374,7 +422,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_ustanks_wolf",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -389,7 +437,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.40556, -210.82681]
+        "coordinates": [149.40556, -210.82681],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -398,7 +447,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_ustanks_wolf_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -413,7 +462,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.355873, -6.8343735]
+        "coordinates": [25.355873, -6.8343735],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -422,7 +472,7 @@
       },
       "bf2props": {
         "name": "1_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -437,7 +487,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.26181, -8.622498]
+        "coordinates": [25.26181, -8.622498],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -446,7 +497,7 @@
       },
       "bf2props": {
         "name": "2_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -461,7 +512,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.449997, -7.1595]
+        "coordinates": [26.449997, -7.1595],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -470,7 +522,7 @@
       },
       "bf2props": {
         "name": "3_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -485,7 +537,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.49794, -7.685814]
+        "coordinates": [26.49794, -7.685814],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -494,7 +547,7 @@
       },
       "bf2props": {
         "name": "4_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -509,7 +562,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.386688, -7.223686]
+        "coordinates": [25.386688, -7.223686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -518,7 +572,7 @@
       },
       "bf2props": {
         "name": "5_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "ru_ifv_bmp3",
@@ -533,7 +587,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.495628, -8.143311]
+        "coordinates": [26.495628, -8.143311],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -542,7 +597,7 @@
       },
       "bf2props": {
         "name": "6_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "ru_ifv_bmp3",
@@ -557,17 +612,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.71994, -210.13287]
+        "coordinates": [141.71994, -210.13287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ger will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_fixsupply",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ger",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ger",
@@ -581,7 +637,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [142.13382, -209.64093]
+        "coordinates": [142.13382, -209.64093],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -590,7 +647,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -605,7 +662,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.27057, -207.6662]
+        "coordinates": [154.27057, -207.6662],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -614,7 +672,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -629,17 +687,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.81325, -211.64282]
+        "coordinates": [139.81325, -211.64282],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ger_acv_m557a2 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "ger_acv_m557a2",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_acv_m557a2",
@@ -653,17 +712,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.161873, -11.98481]
+        "coordinates": [42.161873, -11.98481],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -677,7 +737,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.04782, -210.16312]
+        "coordinates": [148.04782, -210.16312],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -686,7 +747,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_help_tiger",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -701,7 +762,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.95393, -209.76888]
+        "coordinates": [148.95393, -209.76888],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -710,7 +772,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_help_ef",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -725,7 +787,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.24844, -208.48288]
+        "coordinates": [144.24844, -208.48288],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -734,7 +797,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_fixaa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "aa_m167",
         "team": "2",
         "obj1": "null",
@@ -749,7 +812,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.17632, -215.89644]
+        "coordinates": [139.17632, -215.89644],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -758,7 +822,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_aafix",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "aa_m167",
         "team": "2",
         "obj1": "null",
@@ -773,7 +837,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.58412, -211.17438]
+        "coordinates": [149.58412, -211.17438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -782,7 +847,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_huey",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -797,7 +862,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.95438, -209.81706]
+        "coordinates": [147.95438, -209.81706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -806,7 +872,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_huey_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -821,17 +887,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.250626, -8.479813]
+        "coordinates": [37.250626, -8.479813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_vehciledeport",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -845,7 +912,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.29306, -207.93195]
+        "coordinates": [153.29306, -207.93195],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -854,7 +922,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_tank13",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -869,7 +937,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.46812, -208.30544]
+        "coordinates": [153.46812, -208.30544],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -878,7 +947,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_tank14",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -893,7 +962,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.67262, -208.43057]
+        "coordinates": [154.67262, -208.43057],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -902,7 +972,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_tank15",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -917,7 +987,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.097122, -11.192253]
+        "coordinates": [42.097122, -11.192253],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -926,7 +997,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_logtruck1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -941,7 +1012,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.105812, -11.522873]
+        "coordinates": [42.105812, -11.522873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -950,7 +1022,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_rumain_logtruck2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -965,17 +1037,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.608, -208.68262]
+        "coordinates": [148.608, -208.68262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ger_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_silent_eagle_vehicles64_airfield_rallynoexp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ger_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ger_placeable_noexpire",
@@ -983,6 +1056,249 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.1575, -214.94612],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_airfield",
+        "class": "ControlPoint",
+        "name_object": "German Operations Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "50",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.9155, -134.864],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Central Village 600m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_town",
+        "class": "ControlPoint",
+        "name_object": "Central Village 600m",
+        "team": "0",
+        "areavalue1": "35.0",
+        "areavalue2": "35.0",
+        "cpid": "2",
+        "sgid": "30",
+        "uncap": "false",
+        "ttgc": "360.0",
+        "ttlc": "360.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.411125, -13.839378],
+        "size": [33, 33],
+        "radius": "0.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_rumain",
+        "class": "ControlPoint",
+        "name_object": "Russian Operations Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "10",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.52594, -65.51819],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Missile Silo 600m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_rocketsilo",
+        "class": "ControlPoint",
+        "name_object": "Missile Silo 600m",
+        "team": "1",
+        "areavalue1": "35.0",
+        "areavalue2": "200.0",
+        "cpid": "4",
+        "sgid": "20",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.17144, -107.77457],
+        "size": [33, 33],
+        "radius": "43.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Power Plant 700m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_powerplant",
+        "class": "ControlPoint",
+        "name_object": "Power Plant 700m",
+        "team": "1",
+        "areavalue1": "35.0",
+        "areavalue2": "35.0",
+        "cpid": "5",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [233.47049, -156.87062],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Clearing 600m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_clearing",
+        "class": "ControlPoint",
+        "name_object": "Clearing 600m",
+        "team": "0",
+        "areavalue1": "90.0",
+        "areavalue2": "35.0",
+        "cpid": "6",
+        "sgid": "41",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.484314, -180.9632],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint 600m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_checkpoint",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint 600m",
+        "team": "0",
+        "areavalue1": "90.0",
+        "areavalue2": "35.0",
+        "cpid": "9",
+        "sgid": "41",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199.09094, -92.938995],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective 156 600m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_hilltop",
+        "class": "ControlPoint",
+        "name_object": "Objective 156 600m",
+        "team": "0",
+        "areavalue1": "35.0",
+        "areavalue2": "35.0",
+        "cpid": "10",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.272934, -84.17125],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel Complex 600m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_vehicles64_tunnel_complex",
+        "class": "ControlPoint",
+        "name_object": "Tunnel Complex 600m",
+        "team": "1",
+        "areavalue1": "35.0",
+        "areavalue2": "35.0",
+        "cpid": "13",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

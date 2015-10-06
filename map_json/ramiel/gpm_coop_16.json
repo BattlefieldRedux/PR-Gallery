@@ -1,21 +1,57 @@
 {
+  "team1":"arf",
+  "team2":"usa",
+  "team1tickets":"500",
+  "team2tickets":"600",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_ramiel_coop16_mill"
+      ],
+      [
+        "cpname_ramiel_coop16_cp5"
+      ],
+      [
+        "cpname_ramiel_coop16_cp4"
+      ],
+      [
+        "cpname_ramiel_coop16_cp3",
+        "cpname_ramiel_coop16_cp6"
+      ],
+      [
+        "cpname_ramiel_coop16_cp2"
+      ],
+      [
+        "cpname_ramiel_coop16_cp1"
+      ],
+      [
+        "cpname_ramiel_coop16_fob"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.16375, -160.70488]
+        "coordinates": [120.16375, -160.70488],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_stryker will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_ramiel_coop16_fob_usarmy_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_stryker",
@@ -29,17 +65,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.14462, -19.22725]
+        "coordinates": [135.14462, -19.22725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_ramiel_coop16_mill_crate",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -53,17 +90,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [143.74576, -20.029747]
+        "coordinates": [143.74576, -20.029747],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_ramiel_coop16_mill_cache",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -77,17 +115,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.861, -25.160622]
+        "coordinates": [139.861, -25.160622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_ramiel_coop16_mill_cache_0",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -101,17 +140,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [143.73926, -22.96]
+        "coordinates": [143.73926, -22.96],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_ramiel_coop16_mill_cache_1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -125,17 +165,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.56837, -27.193626]
+        "coordinates": [139.56837, -27.193626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_ramiel_coop16_mill_cache_2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -143,6 +184,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.875, -158.625],
+        "size": [33, 33],
+        "radius": "2.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Army Forward Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_fob",
+        "class": "ControlPoint",
+        "name_object": "US Army Forward Base",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "20.0",
+        "cpid": "201",
+        "sgid": "7",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.125, -122.5],
+        "size": [33, 33],
+        "radius": "3.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Alpha will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_cp1",
+        "class": "ControlPoint",
+        "name_object": "Alpha",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "202",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.75, -106.25],
+        "size": [33, 33],
+        "radius": "2.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bravo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_cp2",
+        "class": "ControlPoint",
+        "name_object": "Bravo",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "203",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.375, -88.5],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Delta will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_cp3",
+        "class": "ControlPoint",
+        "name_object": "Delta",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "204",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.0, -71.625],
+        "size": [33, 33],
+        "radius": "2.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Echo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_cp4",
+        "class": "ControlPoint",
+        "name_object": "Echo",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "205",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.625, -43.625],
+        "size": [33, 33],
+        "radius": "2.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Foxtrot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_cp5",
+        "class": "ControlPoint",
+        "name_object": "Foxtrot",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "206",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0, -20.875],
+        "size": [33, 33],
+        "radius": "3.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Saw Mill will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_mill",
+        "class": "ControlPoint",
+        "name_object": "Saw Mill",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "1000.0",
+        "cpid": "207",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.25, -91.25],
+        "size": [33, 33],
+        "radius": "2.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Charlie will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop16_cp6",
+        "class": "ControlPoint",
+        "name_object": "Charlie",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "208",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

@@ -1,11 +1,40 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusmc",
+  "team1tickets":"300",
+  "team2tickets":"400",
+  "mapsize":"1024",
+  "viewdistance":"275",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_tad_sae_coop32_tadsaehq"
+      ],
+      [
+        "cpname_tad_sae_coop32_temple"
+      ],
+      [
+        "cpname_tad_sae_coop32_village"
+      ],
+      [
+        "cpname_tad_sae_coop32_southbridge"
+      ],
+      [
+        "cpname_tad_sae_coop32_usdeployment"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.512749, -186.8505]
+        "coordinates": [8.512749, -186.8505],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -14,7 +43,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_acav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113 ACAV",
         "team": "2",
         "obj1": "null",
@@ -29,7 +58,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.449501, -185.66675]
+        "coordinates": [6.449501, -185.66675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -38,7 +68,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_acav_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113 ACAV",
         "team": "2",
         "obj1": "null",
@@ -53,7 +83,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.6112518, -186.94075]
+        "coordinates": [3.6112518, -186.94075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -62,7 +93,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M151A2",
         "team": "2",
         "obj1": "null",
@@ -77,7 +108,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.2652512, -186.94925]
+        "coordinates": [2.2652512, -186.94925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -86,7 +118,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_support_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M151A2",
         "team": "2",
         "obj1": "null",
@@ -101,7 +133,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.1522522, -186.95474]
+        "coordinates": [1.1522522, -186.95474],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
@@ -110,7 +143,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M548A1",
         "team": "2",
         "obj1": "null",
@@ -125,7 +158,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.2122498, -185.55225]
+        "coordinates": [1.2122498, -185.55225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
@@ -134,7 +168,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M548A1",
         "team": "2",
         "obj1": "null",
@@ -149,17 +183,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.87175, -182.73975]
+        "coordinates": [5.87175, -182.73975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -173,17 +208,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-164.6995, -111.01825]
+        "coordinates": [-164.6995, -111.01825],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_mortar",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -197,17 +233,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-161.75851, -111.4285]
+        "coordinates": [-161.75851, -111.4285],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_mortar_0",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -221,17 +258,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-159.17374, -111.25925]
+        "coordinates": [-159.17374, -111.25925],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop32_usdeployment_mortar_1",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -239,6 +277,141 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.980751, -184.23825],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop32_usdeployment",
+        "class": "ControlPoint",
+        "name_object": "US Deployment",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.068, -201.44751],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop32_southbridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.40926, -204.1895],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop32_village",
+        "class": "ControlPoint",
+        "name_object": "Village",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [214.99075, -124.39925],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temple will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop32_temple",
+        "class": "ControlPoint",
+        "name_object": "Temple",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [204.89075, -24.104752],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tad Sae HQ will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop32_tadsaehq",
+        "class": "ControlPoint",
+        "name_object": "Tad Sae HQ",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "5",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,11 +1,43 @@
 {
+  "team1":"ru",
+  "team2":"ch",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"4096",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_black_gold_skirmish16_suburbs"
+      ],
+      [
+        "cpname_black_gold_skirmish16_hotel"
+      ],
+      [
+        "cpname_black_gold_skirmish16_constructionsite"
+      ],
+      [
+        "cpname_black_gold_skirmish16_mosque"
+      ],
+      [
+        "cpname_black_gold_skirmish16_commericaldistict"
+      ],
+      [
+        "cpname_black_gold_skirmish16_southmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.317375, -90.21663]
+        "coordinates": [75.317375, -90.21663],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +46,7 @@
       },
       "bf2props": {
         "name": "crate01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.16406, -87.86006]
+        "coordinates": [74.16406, -87.86006],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "crate02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.75206, -67.18738]
+        "coordinates": [81.75206, -67.18738],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "crate04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.61987, -66.99744]
+        "coordinates": [98.61987, -66.99744],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "cratesuburbs",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.14638, -90.79844]
+        "coordinates": [92.14638, -90.79844],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "cratecommercial",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -119,6 +155,195 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.84587, -89.100876],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_southmain",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "601",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.27582, -65.33531],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about RU Forward Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_northmain",
+        "class": "ControlPoint",
+        "name_object": "RU Forward Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "602",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.966064, -83.17662],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "604",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.589874, -80.35394],
+        "size": [33, 33],
+        "radius": "2.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_constructionsite",
+        "class": "ControlPoint",
+        "name_object": "Construction Site 35m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "605",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.50094, -74.80844],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "606",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.20175, -92.404625],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Commerical District 65m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_commericaldistict",
+        "class": "ControlPoint",
+        "name_object": "Commerical District 65m",
+        "team": "2",
+        "areavalue1": "95.0",
+        "areavalue2": "20.0",
+        "cpid": "607",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.93213, -66.404755],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_skirmish16_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs 75m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "95.0",
+        "cpid": "603",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

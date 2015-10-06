@@ -1,11 +1,40 @@
 {
+  "team1":"ru",
+  "team2":"fr",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"850",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_nuijamaa_skirmish32_reccenter"
+      ],
+      [
+        "cpname_nuijamaa_skirmish32_gasstation"
+      ],
+      [
+        "cpname_nuijamaa_skirmish32_bridge"
+      ],
+      [
+        "cpname_nuijamaa_skirmish32_windfarm"
+      ],
+      [
+        "cpname_nuijamaa_skirmish32_wheatfarm"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.65875, -66.18338]
+        "coordinates": [126.65875, -66.18338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +43,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_skirmish32_wheatfarm_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +58,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.2305, -205.95486]
+        "coordinates": [165.2305, -205.95486],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +68,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_skirmish32_reccenter_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +77,141 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [185.4165, -122.878],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridge 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_bridge",
+        "class": "ControlPoint",
+        "name_object": "Bridge 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "701",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.50226, -96.03337],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wind Farm 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_windfarm",
+        "class": "ControlPoint",
+        "name_object": "Wind Farm 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "702",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.31, -148.36],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Gas Station 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "703",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [166.58362, -202.52438],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Rec Center 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_reccenter",
+        "class": "ControlPoint",
+        "name_object": "Rec Center 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "150.0",
+        "cpid": "704",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.73725, -71.46138],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grain Processing 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_skirmish32_wheatfarm",
+        "class": "ControlPoint",
+        "name_object": "Grain Processing 50m",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "705",
+        "sgid": "-999",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

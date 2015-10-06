@@ -1,21 +1,56 @@
 {
+  "team1":"meinsurgent",
+  "team2":"usa",
+  "team1tickets":"200",
+  "team2tickets":"300",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_karbala_coop16_mosque"
+      ],
+      [
+        "cpname_karbala_coop16_junkyard"
+      ],
+      [
+        "cpname_karbala_coop16_brokenroad",
+        "cpname_karbala_coop16_hotel"
+      ],
+      [
+        "cpname_karbala_coop16_intersection",
+        "cpname_karbala_coop16_downeduh60"
+      ],
+      [
+        "cpname_karbala_coop16_courtyard",
+        "cpname_karbala_coop16_constructionsite"
+      ],
+      [
+        "cpname_karbala_coop16_suburbs"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.13812, -133.36737]
+        "coordinates": [92.13812, -133.36737],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_stryker will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_suburbs_acv",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_stryker",
@@ -29,17 +64,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.436623, -147.73563]
+        "coordinates": [56.436623, -147.73563],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_suburbs_mortar",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -53,17 +89,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.07225, -147.73563]
+        "coordinates": [58.07225, -147.73563],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_suburbs_mortar_0",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -77,17 +114,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [57.5345, -147.73563]
+        "coordinates": [57.5345, -147.73563],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_suburbs_mortar_1",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -101,17 +139,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.96237, -147.73563]
+        "coordinates": [56.96237, -147.73563],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_suburbs_mortar_2",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -125,17 +164,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.76375, -112.63988]
+        "coordinates": [191.76375, -112.63988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_junkyard_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "rallypoint_usa_placeable_noexpire",
@@ -149,17 +189,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.5495, -118.67563]
+        "coordinates": [149.5495, -118.67563],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_intersection_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "rallypoint_usa_placeable_noexpire",
@@ -173,17 +214,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [142.32663, -108.63275]
+        "coordinates": [142.32663, -108.63275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_downeduh60_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "rallypoint_usa_placeable_noexpire",
@@ -197,17 +239,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.833374, -128.007]
+        "coordinates": [98.833374, -128.007],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_usa_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_suburbs_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_usa_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "rallypoint_usa_placeable_noexpire",
@@ -221,17 +264,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [210.00299, -110.21863]
+        "coordinates": [210.00299, -110.21863],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop16_mosque_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "rallypoint_usa_placeable_noexpire",
@@ -239,6 +283,249 @@
         "minspawn": "180.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.33525, -128.27287],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs",
+        "team": "2",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.635, -119.929375],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Courtyard will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_courtyard",
+        "class": "ControlPoint",
+        "name_object": "Courtyard",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.575874, -106.554375],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_constructionsite",
+        "class": "ControlPoint",
+        "name_object": "Construction Site",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.78337, -119.633125],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Intersection will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_intersection",
+        "class": "ControlPoint",
+        "name_object": "Intersection",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [191.48625, -112.09788],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Junkyard will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_junkyard",
+        "class": "ControlPoint",
+        "name_object": "Junkyard",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.69287, -113.05775],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "6",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.41125, -105.50975],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Damaged Road will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_brokenroad",
+        "class": "ControlPoint",
+        "name_object": "Damaged Road",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "7",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [173.80138, -117.107],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "8",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.16812, -107.11288],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Blackhawk Down will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop16_downeduh60",
+        "class": "ControlPoint",
+        "name_object": "Blackhawk Down",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "9",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

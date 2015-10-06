@@ -1,21 +1,49 @@
 {
+  "team1":"mec",
+  "team2":"us",
+  "team1tickets":"150",
+  "team2tickets":"150",
+  "mapsize":"2048",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_jabal_coop16_suburbs"
+      ],
+      [
+        "cpname_jabal_coop16_eastalburj",
+        "cpname_jabal_coop16_hotel"
+      ],
+      [
+        "cpname_jabal_coop16_southalburj",
+        "cpname_jabal_coop16_offices"
+      ],
+      [
+        "cpname_jabal_coop16_westalburj"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [155.78975, -96.77675]
+        "coordinates": [155.78975, -96.77675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_lavc2 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "westalburj_acv",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_lavc2",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_lavc2",
@@ -23,6 +51,168 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [163.9335, -100.31462],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Al Burj will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_coop16_westalburj",
+        "class": "ControlPoint",
+        "name_object": "West Al Burj",
+        "team": "2",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "1",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.83038, -104.773],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_coop16_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "2",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [180.29974, -111.19713],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Al Burj will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_coop16_southalburj",
+        "class": "ControlPoint",
+        "name_object": "South Al Burj",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [182.46075, -98.48175],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Offices will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_coop16_offices",
+        "class": "ControlPoint",
+        "name_object": "Offices",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [196.63113, -107.6575],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Al Burj will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_coop16_eastalburj",
+        "class": "ControlPoint",
+        "name_object": "East Al Burj",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.08636, -98.28738],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_coop16_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
       }
     }
   ]

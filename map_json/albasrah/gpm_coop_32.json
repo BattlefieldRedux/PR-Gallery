@@ -1,11 +1,39 @@
 {
+  "team1":"meinsurgent",
+  "team2":"gb",
+  "team1tickets":"350",
+  "team2tickets":"400",
+  "mapsize":"2048",
+  "viewdistance":"525",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_albasrah_coop32_mosque"
+      ],
+      [
+        "cpname_albasrah_coop32_refinery",
+        "cpname_albasrah_coop32_slums",
+        "cpname_albasrah_coop32_citycentre",
+        "cpname_albasrah_coop32_residential",
+        "cpname_albasrah_coop32_palace"
+      ],
+      [
+        "cpname_albasrah_coop32_albasrah",
+        "cpname_albasrah_coop32_vcp"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.54738, -54.305748]
+        "coordinates": [44.54738, -54.305748],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -14,7 +42,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_lynx",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Chinook HC4",
         "team": "2",
         "obj1": "null",
@@ -29,7 +57,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.54738, -47.504997]
+        "coordinates": [44.54738, -47.504997],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -38,7 +67,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_lynx_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Chinook HC4",
         "team": "2",
         "obj1": "null",
@@ -53,17 +82,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [160.10913, -164.53337]
+        "coordinates": [160.10913, -164.53337],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_mosque_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot",
         "obj2": "null",
@@ -77,7 +107,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.75125, -215.35863]
+        "coordinates": [208.75125, -215.35863],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -86,7 +117,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_palace_technical",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -101,7 +132,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.92638, -190.213]
+        "coordinates": [213.92638, -190.213],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -110,7 +142,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_residential_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -125,7 +157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.63025, -190.94162]
+        "coordinates": [184.63025, -190.94162],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -134,7 +167,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -149,7 +182,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.09962, -178.72888]
+        "coordinates": [140.09962, -178.72888],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -158,7 +192,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -173,7 +207,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.32337, -164.71326]
+        "coordinates": [114.32337, -164.71326],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -182,7 +217,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -197,7 +232,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.10088, -153.19713]
+        "coordinates": [182.10088, -153.19713],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -206,7 +242,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_refinery_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -221,7 +257,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.097, -179.01599]
+        "coordinates": [174.097, -179.01599],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -230,7 +267,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -245,7 +282,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.079, -162.39825]
+        "coordinates": [147.079, -162.39825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -254,7 +292,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_blue",
@@ -269,7 +307,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.92075, -187.92838]
+        "coordinates": [157.92075, -187.92838],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -278,7 +317,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_blue",
@@ -293,7 +332,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.16025, -192.96463]
+        "coordinates": [197.16025, -192.96463],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -302,7 +342,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_residential_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_blue",
@@ -317,7 +357,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.68011, -217.68188]
+        "coordinates": [208.68011, -217.68188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -326,7 +367,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_palace_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_blue",
@@ -341,7 +382,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [168.834, -174.79575]
+        "coordinates": [168.834, -174.79575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -350,7 +392,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_techie_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -365,7 +407,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.89838, -159.68774]
+        "coordinates": [186.89838, -159.68774],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -374,7 +417,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_refinery_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -389,7 +432,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.6805, -129.5055]
+        "coordinates": [178.6805, -129.5055],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -398,7 +442,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_refinery_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -413,7 +457,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [142.08212, -160.4285]
+        "coordinates": [142.08212, -160.4285],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -422,7 +467,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_techie_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -437,7 +482,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.13225, -217.66174]
+        "coordinates": [209.13225, -217.66174],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -446,7 +492,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_palace_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -461,7 +507,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.24225, -215.35863]
+        "coordinates": [209.24225, -215.35863],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -470,7 +517,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_palace_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -485,7 +532,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.01038, -175.65762]
+        "coordinates": [161.01038, -175.65762],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -494,7 +542,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_techie_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -509,7 +557,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.96025, -138.88112]
+        "coordinates": [178.96025, -138.88112],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -518,7 +567,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_refinery_techie_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -533,7 +582,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [146.5815, -178.56876]
+        "coordinates": [146.5815, -178.56876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -542,7 +592,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_techie_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -557,7 +607,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.12625, -176.065]
+        "coordinates": [211.12625, -176.065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -566,7 +617,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_residential_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_black",
@@ -581,17 +632,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.06475, -62.398872]
+        "coordinates": [41.06475, -62.398872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_acv",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -605,17 +657,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.799873, -71.121376]
+        "coordinates": [40.799873, -71.121376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -629,7 +682,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -65.03038]
+        "coordinates": [45.110374, -65.03038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -638,7 +692,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -653,7 +707,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -66.29725]
+        "coordinates": [40.961502, -66.29725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -662,7 +717,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -677,7 +732,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -65.72625]
+        "coordinates": [40.961502, -65.72625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -686,7 +742,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -701,7 +757,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -65.117874]
+        "coordinates": [40.961502, -65.117874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -710,7 +767,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -725,7 +782,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -69.42262]
+        "coordinates": [45.110374, -69.42262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -734,7 +792,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -749,7 +807,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -68.799126]
+        "coordinates": [45.110374, -68.799126],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -758,7 +817,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -773,7 +832,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -68.16412]
+        "coordinates": [45.110374, -68.16412],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -782,7 +842,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -797,7 +857,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -67.55063]
+        "coordinates": [45.110374, -67.55063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -806,7 +867,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -821,7 +882,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -66.93325]
+        "coordinates": [45.110374, -66.93325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -830,7 +892,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -845,7 +907,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -66.30275]
+        "coordinates": [45.110374, -66.30275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -854,7 +917,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -869,7 +932,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.110374, -65.7175]
+        "coordinates": [45.110374, -65.7175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -878,7 +942,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_jeep_9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -893,7 +957,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -69.998375]
+        "coordinates": [40.961502, -69.998375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -902,7 +967,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -917,7 +982,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -69.427376]
+        "coordinates": [40.961502, -69.427376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -926,7 +992,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -941,7 +1007,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -68.83537]
+        "coordinates": [40.961502, -68.83537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -950,7 +1017,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -965,7 +1032,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.961502, -66.87413]
+        "coordinates": [40.961502, -66.87413],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -974,7 +1042,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_armour",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -989,17 +1057,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.103874, -118.614876]
+        "coordinates": [124.103874, -118.614876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_gb_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_vcp_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_gb_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_gb_placeable_noexpire",
@@ -1013,17 +1082,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [132.6705, -173.84775]
+        "coordinates": [132.6705, -173.84775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1037,17 +1107,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.90225, -160.16037]
+        "coordinates": [129.90225, -160.16037],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_slums_rally_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1061,17 +1132,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.4425, -140.7725]
+        "coordinates": [182.4425, -140.7725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_refinery_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1085,17 +1157,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.30951, -180.1165]
+        "coordinates": [175.30951, -180.1165],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1109,17 +1182,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.90675, -186.75975]
+        "coordinates": [175.90675, -186.75975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_citycentre_rally_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1133,17 +1207,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [216.96025, -179.68512]
+        "coordinates": [216.96025, -179.68512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_residential_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1157,17 +1232,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [201.93425, -206.9135]
+        "coordinates": [201.93425, -206.9135],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_palace_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1181,17 +1257,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.01187, -214.1435]
+        "coordinates": [209.01187, -214.1435],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_palace_rally_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -1205,17 +1282,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-113.0345, -42.947372]
+        "coordinates": [-113.0345, -42.947372],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about jdam_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about JDAM Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop32_albasrah_lrw",
-        "class": "ObjectPlacement",
-        "name_object": "jdam_team2",
+        "class": "ObjectSpawner",
+        "name_object": "JDAM Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "jdam_team2",
@@ -1223,6 +1301,222 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.683876, -61.85338],
+        "size": [33, 33],
+        "radius": "0.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Al Basrah Airport will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_albasrah",
+        "class": "ControlPoint",
+        "name_object": "Al Basrah Airport",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "3",
+        "uncap": "true",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4235, -118.93375],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_vcp",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "true",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.68025, -136.97838],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Refinery 120m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_refinery",
+        "class": "ControlPoint",
+        "name_object": "Refinery 120m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.1765, -167.26875],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Slums 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_slums",
+        "class": "ControlPoint",
+        "name_object": "Slums 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.046, -184.33038],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Centre 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_citycentre",
+        "class": "ControlPoint",
+        "name_object": "City Centre 70m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [211.313, -181.66837],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Residencies 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_residential",
+        "class": "ControlPoint",
+        "name_object": "Residencies 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [202.84674, -213.36212],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Palace 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_palace",
+        "class": "ControlPoint",
+        "name_object": "Palace 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.88362, -167.61826],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop32_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "8",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "30.0",
+        "ttlc": "120.0"
       }
     }
   ]

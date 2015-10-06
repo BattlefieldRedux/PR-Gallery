@@ -1,21 +1,49 @@
 {
+  "team1":"fsa",
+  "team2":"mec",
+  "team1tickets":"500",
+  "team2tickets":"600",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_sbeneh_outskirts_coop16_orchard"
+      ],
+      [
+        "cpname_sbeneh_outskirts_coop16_apartments",
+        "cpname_sbeneh_outskirts_coop16_suburb_outskirts"
+      ],
+      [
+        "cpname_sbeneh_outskirts_coop16_mosque",
+        "cpname_sbeneh_outskirts_coop16_suburbs"
+      ],
+      [
+        "cpname_sbeneh_outskirts_coop16_farm_house"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.83775, -192.64188]
+        "coordinates": [137.83775, -192.64188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop16_farm_house_command",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "mec_acv_btr60pu",
@@ -29,17 +57,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [62.872627, -177.313]
+        "coordinates": [62.872627, -177.313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop16_orchard_command",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_meins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_meins",
         "obj2": "null",
@@ -47,6 +76,168 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [59.180374, -175.0385],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Orchard will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_orchard",
+        "class": "ControlPoint",
+        "name_object": "Orchard",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "701",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.67162, -167.03325],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "702",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.980125, -201.4495],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburb Outskirts will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_suburb_outskirts",
+        "class": "ControlPoint",
+        "name_object": "Suburb Outskirts",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "703",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.00088, -163.78825],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "704",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.546875, -192.47925],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "705",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.204, -190.76074],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm House will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop16_farm_house",
+        "class": "ControlPoint",
+        "name_object": "Farm House",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "706",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

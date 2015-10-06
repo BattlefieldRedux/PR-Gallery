@@ -1,5 +1,138 @@
 {
+  "team1":"ru",
+  "team2":"nl",
+  "team1tickets":"200",
+  "team2tickets":"200",
+  "mapsize":"4096",
+  "viewdistance":"1025",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_hades_peak_coop16_delta"
+      ],
+      [
+        "cpname_hades_peak_coop16_charlie"
+      ],
+      [
+        "cpname_hades_peak_coop16_bravo"
+      ],
+      [
+        "cpname_hades_peak_coop16_alpha"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.27287, -96.524315],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Delta will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hades_peak_coop16_delta",
+        "class": "ControlPoint",
+        "name_object": "Delta",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.73856, -116.736435],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Charlie will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hades_peak_coop16_charlie",
+        "class": "ControlPoint",
+        "name_object": "Charlie",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.0625, -140.81474],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bravo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hades_peak_coop16_bravo",
+        "class": "ControlPoint",
+        "name_object": "Bravo",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.61606, -144.85263],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/nl/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Alpha will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hades_peak_coop16_alpha",
+        "class": "ControlPoint",
+        "name_object": "Alpha",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    }
   ]
 }

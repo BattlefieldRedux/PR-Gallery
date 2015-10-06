@@ -1,5 +1,254 @@
 {
+  "team1":"mec",
+  "team2":"gb",
+  "team1tickets":"300",
+  "team2tickets":"300",
+  "mapsize":"4096",
+  "viewdistance":"610",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_burning_sands_coop16_powerplant"
+      ],
+      [
+        "cpname_burning_sands_coop16_residential"
+      ],
+      [
+        "cpname_burning_sands_coop16_apachecrashsite",
+        "cpname_burning_sands_coop16_construction"
+      ],
+      [
+        "cpname_burning_sands_coop16_market",
+        "cpname_burning_sands_coop16_destoyedtank"
+      ],
+      [
+        "cpname_burning_sands_coop16_warehouse"
+      ],
+      [
+        "cpname_burning_sands_coop16_gasstation"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.46994, -111.99919],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Gas Station",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.28563, -111.50231],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Warehouse will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_warehouse",
+        "class": "ControlPoint",
+        "name_object": "Warehouse",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.07687, -110.322624],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market Place will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_market",
+        "class": "ControlPoint",
+        "name_object": "Market Place",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.19063, -100.737],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Destroyed Tank will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_destoyedtank",
+        "class": "ControlPoint",
+        "name_object": "Destroyed Tank",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.96669, -111.575],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Downed AH-64 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_apachecrashsite",
+        "class": "ControlPoint",
+        "name_object": "Downed AH-64",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.364746, -103.37531],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_construction",
+        "class": "ControlPoint",
+        "name_object": "Construction Site",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.11557, -104.84344],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Power Station will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_powerplant",
+        "class": "ControlPoint",
+        "name_object": "Power Station",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "7",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.926, -104.533936],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Residential Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_coop16_residential",
+        "class": "ControlPoint",
+        "name_object": "Residential Area",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "8",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    }
   ]
 }

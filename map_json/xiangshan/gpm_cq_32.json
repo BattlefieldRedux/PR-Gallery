@@ -1,11 +1,101 @@
 {
+  "team1":"ch",
+  "team2":"fr",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"4096",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_xiangshan_aas32_supplyline"
+      ],
+      [
+        "cpname_xiangshan_aas32_blufob"
+      ]
+    ],
+    [
+      [
+        "cpname_xiangshan_aas32_redbarracks"
+      ],
+      [
+        "cpname_xiangshan_aas32_northwestbridge"
+      ],
+      [
+        "cpname_xiangshan_aas32_bigmachill"
+      ],
+      [
+        "cpname_xiangshan_aas32_listeningpost"
+      ]
+    ],
+    [
+      [
+        "cpname_xiangshan_aas32_redbarracks1"
+      ],
+      [
+        "cpname_xiangshan_aas32_buddhisttemple"
+      ],
+      [
+        "cpname_xiangshan_aas32_oldcatholicmission"
+      ],
+      [
+        "cpname_xiangshan_aas32_listeningpost1"
+      ]
+    ],
+    [
+      [
+        "cpname_xiangshan_aas32_fishingvillage"
+      ],
+      [
+        "cpname_xiangshan_aas32_village"
+      ],
+      [
+        "cpname_xiangshan_aas32_northbridge"
+      ],
+      [
+        "cpname_xiangshan_aas32_oldcatholicmission1"
+      ]
+    ],
+    [
+      [
+        "cpname_xiangshan_aas32_fishingvillage1"
+      ],
+      [
+        "cpname_xiangshan_aas32_village1"
+      ],
+      [
+        "cpname_xiangshan_aas32_midbridge"
+      ],
+      [
+        "cpname_xiangshan_aas32_listeningpost2"
+      ]
+    ],
+    [
+      [
+        "cpname_xiangshan_aas32_fishingvillage2"
+      ],
+      [
+        "cpname_xiangshan_aas32_swamp"
+      ],
+      [
+        "cpname_xiangshan_aas32_ancientfort"
+      ],
+      [
+        "cpname_xiangshan_aas32_southbridge"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.999687, -227.54276]
+        "coordinates": [19.999687, -227.54276],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -14,7 +104,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_transheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AS565 MB Panther",
         "team": "2",
         "obj1": "null",
@@ -29,7 +119,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.22644, -227.47263]
+        "coordinates": [22.22644, -227.47263],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -38,7 +129,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_transheli_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 NFH",
         "team": "2",
         "obj1": "null",
@@ -53,7 +144,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.571121, -227.54388]
+        "coordinates": [26.571121, -227.54388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -62,7 +154,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_attackheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Eurocopter Tigre",
         "team": "2",
         "obj1": "null",
@@ -77,7 +169,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.707, -231.31787]
+        "coordinates": [18.707, -231.31787],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -86,7 +179,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -101,7 +194,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.431313, -231.14044]
+        "coordinates": [23.431313, -231.14044],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -110,7 +204,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -125,7 +219,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.707, -231.63744]
+        "coordinates": [18.707, -231.63744],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -134,7 +229,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -149,7 +244,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.63806, -19.119812]
+        "coordinates": [241.63806, -19.119812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -158,7 +254,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551",
@@ -173,7 +269,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.363, -19.120125]
+        "coordinates": [241.363, -19.120125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -182,7 +279,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551",
@@ -197,7 +294,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.76357, -16.280624]
+        "coordinates": [239.76357, -16.280624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -206,7 +304,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ550",
         "team": "1",
         "obj1": "ch_atm_wz550",
@@ -221,7 +319,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.40506, -16.273438]
+        "coordinates": [240.40506, -16.273438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -230,7 +329,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 86G",
         "team": "1",
         "obj1": "ch_ifv_type86",
@@ -245,7 +344,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.948, -18.970375]
+        "coordinates": [239.948, -18.970375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -254,7 +354,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_vn3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -269,7 +369,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.226, -18.970375]
+        "coordinates": [240.226, -18.970375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -278,7 +379,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_vn3_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -293,17 +394,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.25418, -16.075249]
+        "coordinates": [245.25418, -16.075249],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -317,17 +419,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.83688, -19.294876]
+        "coordinates": [242.83688, -19.294876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_vehicledepot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -341,17 +444,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.350998, -234.42157]
+        "coordinates": [19.350998, -234.42157],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about fr_acv_vab will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_acv",
-        "class": "ObjectPlacement",
-        "name_object": "fr_acv_vab",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "fr_acv_vab",
@@ -365,7 +469,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.0865, -16.270378]
+        "coordinates": [240.0865, -16.270378],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -374,7 +479,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSL-92B",
         "team": "1",
         "obj1": "ch_ifv_wz551b",
@@ -389,7 +494,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.7828, -19.173622]
+        "coordinates": [242.7828, -19.173622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +504,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_logistictruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -413,7 +519,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.226753, -232.41669]
+        "coordinates": [19.226753, -232.41669],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -422,7 +529,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_logistictruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -437,7 +544,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.50662, -223.03412]
+        "coordinates": [77.50662, -223.03412],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -446,7 +554,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -461,7 +569,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.977875, -222.22212]
+        "coordinates": [76.977875, -222.22212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -470,7 +579,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_lightapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-10RC",
         "team": "2",
         "obj1": "null",
@@ -485,17 +594,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.22319, -232.55725]
+        "coordinates": [19.22319, -232.55725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_vehicledepot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fr",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_fr",
@@ -509,7 +619,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.93845, -15.245438]
+        "coordinates": [241.93845, -15.245438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
@@ -518,7 +629,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_transheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-8KA",
         "team": "1",
         "obj1": "ch_the_z8",
@@ -533,7 +644,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.7965, -55.41269]
+        "coordinates": [136.7965, -55.41269],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -542,7 +654,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_lightapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSL-92B",
         "team": "1",
         "obj1": "ch_ifv_wz551b",
@@ -557,7 +669,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.80457, -54.802124]
+        "coordinates": [136.80457, -54.802124],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -566,7 +679,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_lightapc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ550",
         "team": "1",
         "obj1": "ch_atm_wz550",
@@ -581,17 +694,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.56494, -223.81161]
+        "coordinates": [76.56494, -223.81161],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_fr_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_fr_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_fr_placeable",
@@ -605,17 +719,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [132.38788, -61.538002]
+        "coordinates": [132.38788, -61.538002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ch_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ch_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ch_placeable_noexpire",
         "obj2": "null",
@@ -629,7 +744,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.460129, -231.17468]
+        "coordinates": [24.460129, -231.17468],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -638,7 +754,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-10RC",
         "team": "2",
         "obj1": "null",
@@ -653,7 +769,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [134.80424, -54.510376]
+        "coordinates": [134.80424, -54.510376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -662,7 +779,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_logistictruck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -677,7 +794,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [134.79831, -54.86638]
+        "coordinates": [134.79831, -54.86638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -686,7 +804,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_logistictruck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -701,7 +819,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.47194, -227.50963]
+        "coordinates": [24.47194, -227.50963],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -710,7 +829,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_transheli_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AS565 MB Panther",
         "team": "2",
         "obj1": "null",
@@ -725,7 +844,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.43906, -57.41581]
+        "coordinates": [141.43906, -57.41581],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -734,7 +854,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_rib",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Landing Boat",
         "team": "1",
         "obj1": "ch_boat",
@@ -749,7 +869,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.41481, -56.838127]
+        "coordinates": [141.41481, -56.838127],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -758,7 +879,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_rib_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Landing Boat",
         "team": "1",
         "obj1": "ch_boat",
@@ -773,17 +894,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [131.14626, -61.557747]
+        "coordinates": [131.14626, -61.557747],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ch_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_rallypoint_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ch_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ch_placeable_noexpire",
         "obj2": "null",
@@ -797,7 +919,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.041, -17.861374]
+        "coordinates": [244.041, -17.861374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -806,7 +929,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 95 SPAAA",
         "team": "1",
         "obj1": "ch_aav_type95",
@@ -821,7 +944,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.52118, -18.970375]
+        "coordinates": [240.52118, -18.970375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -830,7 +954,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_vn3_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -845,17 +969,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [317.63568, 59.414062]
+        "coordinates": [317.63568, 59.414062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_areaattack",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -869,17 +994,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-66.248505, -310.83264]
+        "coordinates": [-66.248505, -310.83264],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_areaattack",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -893,7 +1019,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [131.46481, -55.045128]
+        "coordinates": [131.46481, -55.045128],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -902,7 +1029,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_transheli_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9B",
         "team": "1",
         "obj1": "ch_the_z9b",
@@ -917,7 +1044,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.006691, -231.04001]
+        "coordinates": [20.006691, -231.04001],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -926,7 +1054,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_logistictruck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -941,7 +1069,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.71125, -230.99911]
+        "coordinates": [20.71125, -230.99911],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -950,7 +1079,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -965,7 +1094,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.42113, -106.44369]
+        "coordinates": [193.42113, -106.44369],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -974,7 +1104,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Landing Boat",
         "team": "1",
         "obj1": "ch_boat",
@@ -989,17 +1119,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [315.1728, 59.11119]
+        "coordinates": [315.1728, 59.11119],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_areaattack_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1013,17 +1144,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [316.41132, 60.891693]
+        "coordinates": [316.41132, 60.891693],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_areaattack_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1037,17 +1169,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [315.97473, 59.66519]
+        "coordinates": [315.97473, 59.66519],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_areaattack_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1061,17 +1194,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-57.374496, -312.33618]
+        "coordinates": [-57.374496, -312.33618],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_areaattack_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1085,17 +1219,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-64.00481, -319.9215]
+        "coordinates": [-64.00481, -319.9215],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_areaattack_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1109,17 +1244,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-58.852753, -318.23407]
+        "coordinates": [-58.852753, -318.23407],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_areaattack_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1133,7 +1269,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [231.89618, -49.06781]
+        "coordinates": [231.89618, -49.06781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -1142,7 +1279,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_radar",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "mobileradar_ch_dest",
         "team": "1",
         "obj1": "mobileradar_ch_dest",
@@ -1157,7 +1294,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53987, -15.221313]
+        "coordinates": [243.53987, -15.221313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -1166,7 +1304,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_transheli_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9B",
         "team": "1",
         "obj1": "ch_the_z9b",
@@ -1181,7 +1319,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.9502, -19.106064]
+        "coordinates": [241.9502, -19.106064],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1190,7 +1329,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_logistictruck_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -1205,7 +1344,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.2887, -18.300812]
+        "coordinates": [243.2887, -18.300812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1214,7 +1354,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_transporttruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -1229,7 +1369,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [134.80093, -55.289]
+        "coordinates": [134.80093, -55.289],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1238,7 +1379,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_transporttruck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -1253,7 +1394,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.29494, -16.477997]
+        "coordinates": [241.29494, -16.477997],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -1262,7 +1404,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_supplyline_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 86G",
         "team": "1",
         "obj1": "ch_ifv_type86",
@@ -1277,7 +1419,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.392563, -231.92355]
+        "coordinates": [23.392563, -231.92355],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -1286,7 +1429,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -1301,7 +1444,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.23719, -231.00668]
+        "coordinates": [21.23719, -231.00668],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -1310,7 +1454,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas32_blufob_transapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -1319,6 +1463,600 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [230.48676, -49.697685],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supply Line 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_supplyline",
+        "class": "ControlPoint",
+        "name_object": "Supply Line 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "101",
+        "sgid": "100",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.22894, -87.72081],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Buddhist Temple 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_buddhisttemple",
+        "class": "ControlPoint",
+        "name_object": "Buddhist Temple 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "201",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.835815, -134.18076],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Catholic Mission 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_oldcatholicmission",
+        "class": "ControlPoint",
+        "name_object": "Old Catholic Mission 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.41475, -133.44781],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Xiangshan 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_village",
+        "class": "ControlPoint",
+        "name_object": "Xiangshan 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.37656, -205.55925],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_southbridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "204",
+        "sgid": "505",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.17075, -173.01007],
+        "size": [33, 33],
+        "radius": "4.0625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fortress 65m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_ancientfort",
+        "class": "ControlPoint",
+        "name_object": "Fortress 65m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "405",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.54781, -178.84412],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Listening Post 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_listeningpost",
+        "class": "ControlPoint",
+        "name_object": "Listening Post 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "206",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.49344, -60.704247],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_redbarracks",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 60m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "207",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [61.20381, -62.143684],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Northwest Bridge 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_northwestbridge",
+        "class": "ControlPoint",
+        "name_object": "Northwest Bridge 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "208",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.399185, -184.49869],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Center Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_midbridge",
+        "class": "ControlPoint",
+        "name_object": "Center Bridge 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "209",
+        "sgid": "404",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.30025, -112.601],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_northbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "111",
+        "sgid": "403",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.75406, -222.11787],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about French Forward Outpost 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_blufob",
+        "class": "ControlPoint",
+        "name_object": "French Forward Outpost 50m",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "600",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.72955, -124.59363],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Swamp 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_swamp",
+        "class": "ControlPoint",
+        "name_object": "Swamp 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "305",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.72969, -108.775375],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Communication Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_bigmachill",
+        "class": "ControlPoint",
+        "name_object": "Communication Outpost 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.86919, -102.54756],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Leshan 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_fishingvillage",
+        "class": "ControlPoint",
+        "name_object": "Leshan 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "210",
+        "sgid": "203",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.54781, -178.84412],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Listening Post 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_listeningpost1",
+        "class": "ControlPoint",
+        "name_object": "Listening Post 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "211",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.835815, -134.18076],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Catholic Mission 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_oldcatholicmission1",
+        "class": "ControlPoint",
+        "name_object": "Old Catholic Mission 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "212",
+        "sgid": "503",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.41475, -133.44781],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Xiangshan 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_village1",
+        "class": "ControlPoint",
+        "name_object": "Xiangshan 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "213",
+        "sgid": "304",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.86919, -102.54756],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Leshan 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_fishingvillage1",
+        "class": "ControlPoint",
+        "name_object": "Leshan 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "214",
+        "sgid": "204",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.86919, -102.54756],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Leshan 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_fishingvillage2",
+        "class": "ControlPoint",
+        "name_object": "Leshan 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "215",
+        "sgid": "205",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.49344, -60.704247],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_redbarracks1",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 60m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "216",
+        "sgid": "202",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.54781, -178.84412],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Listening Post 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas32_listeningpost2",
+        "class": "ControlPoint",
+        "name_object": "Listening Post 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "217",
+        "sgid": "504",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
       }
     }
   ]

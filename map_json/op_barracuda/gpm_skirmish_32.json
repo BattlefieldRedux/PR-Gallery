@@ -1,21 +1,47 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusmc",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_op_barracuda_skirmish32_missilesilo"
+      ],
+      [
+        "cpname_op_barracuda_skirmish32_waterfall"
+      ],
+      [
+        "cpname_op_barracuda_skirmish32_supplies"
+      ],
+      [
+        "cpname_op_barracuda_skirmish32_insertionpoint"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.45375, -193.17175]
+        "coordinates": [174.45375, -193.17175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about insrg_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_skirmish32_missilesilo_ch_usmc_smg",
-        "class": "ObjectPlacement",
-        "name_object": "insrg_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "insrg_bipod",
         "obj2": "null",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [61.658875, -155.87975]
+        "coordinates": [61.658875, -155.87975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "crate_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -53,7 +80,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.77287, -200.60437]
+        "coordinates": [193.77287, -200.60437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +90,7 @@
       },
       "bf2props": {
         "name": "crate_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -71,6 +99,114 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.6895, -155.23325],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Insertion Point will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_skirmish32_insertionpoint",
+        "class": "ControlPoint",
+        "name_object": "Insertion Point",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.24487, -178.486],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supplies will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_skirmish32_supplies",
+        "class": "ControlPoint",
+        "name_object": "Supplies",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.79575, -213.63174],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NVA Missile Silo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_skirmish32_missilesilo",
+        "class": "ControlPoint",
+        "name_object": "NVA Missile Silo",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "204",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.89075, -199.83826],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Caves will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_skirmish32_waterfall",
+        "class": "ControlPoint",
+        "name_object": "Caves",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

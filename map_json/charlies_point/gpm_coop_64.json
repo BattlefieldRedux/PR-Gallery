@@ -1,21 +1,49 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusmc",
+  "team1tickets":"400",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"550",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_charlies_point_coop64_abandonedairbase"
+      ],
+      [
+        "cpname_charlies_point_coop64_ruins",
+        "cpname_charlies_point_coop64_docks",
+        "cpname_charlies_point_coop64_bridges"
+      ],
+      [
+        "cpname_charlies_point_coop64_pointlookout"
+      ],
+      [
+        "cpname_charlies_point_coop64_usbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.776001, -233.80013]
+        "coordinates": [21.776001, -233.80013],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_vnnva will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_vnnva",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_vnnva",
         "obj2": "null",
@@ -29,7 +57,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.110252, -236.10187]
+        "coordinates": [23.110252, -236.10187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -38,7 +67,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSU-57-2",
         "team": "1",
         "obj1": "nva_aav_zsu57",
@@ -53,7 +82,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.139626, -235.99237]
+        "coordinates": [24.139626, -235.99237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -62,7 +92,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "nva_apc_btr60",
@@ -77,7 +107,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.808372, -236.035]
+        "coordinates": [24.808372, -236.035],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -86,7 +117,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "nva_apc_btr60",
@@ -101,7 +132,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.071373, -232.793]
+        "coordinates": [22.071373, -232.793],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -110,7 +142,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIS-5V",
         "team": "1",
         "obj1": "nva_trk_zis5",
@@ -125,7 +157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.107246, -232.30525]
+        "coordinates": [22.107246, -232.30525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +167,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_bridges_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIS-5V",
         "team": "1",
         "obj1": "nva_trk_zis5",
@@ -149,7 +182,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.041496, -232.31726]
+        "coordinates": [28.041496, -232.31726],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -158,7 +192,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_uaz",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "nva_jep_uaz_mg",
@@ -173,7 +207,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.421997, -232.36787]
+        "coordinates": [27.421997, -232.36787],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -182,7 +217,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_uaz_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "nva_jep_uaz_mg",
@@ -197,7 +232,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.69925, -58.017754]
+        "coordinates": [151.69925, -58.017754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -206,7 +242,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1C Huey",
         "team": "2",
         "obj1": "null",
@@ -221,7 +257,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.23137, -58.017754]
+        "coordinates": [144.23137, -58.017754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -230,7 +267,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_uh1c",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -245,7 +282,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.73676, -58.017754]
+        "coordinates": [145.73676, -58.017754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -254,7 +292,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_uh1d",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -269,7 +307,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.19487, -58.017754]
+        "coordinates": [147.19487, -58.017754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -278,7 +317,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_uh1d_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -293,7 +332,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.689, -58.017754]
+        "coordinates": [148.689, -58.017754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -302,7 +342,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_medvac",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -317,7 +357,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.5815, -79.1595]
+        "coordinates": [147.5815, -79.1595],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -326,7 +367,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -341,7 +382,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.85738, -78.4785]
+        "coordinates": [139.85738, -78.4785],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -350,7 +392,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_boat_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -365,7 +407,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.941, -78.2875]
+        "coordinates": [140.941, -78.2875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -374,7 +417,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_boat_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -389,7 +432,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.89288, -78.812874]
+        "coordinates": [145.89288, -78.812874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -398,7 +442,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_boat_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -413,7 +457,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.71275, -78.09938]
+        "coordinates": [147.71275, -78.09938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -422,7 +467,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_boat_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -437,7 +482,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.26, -58.017754]
+        "coordinates": [150.26, -58.017754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -446,7 +492,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1C Huey",
         "team": "2",
         "obj1": "null",
@@ -461,7 +507,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.080627, -215.23038]
+        "coordinates": [28.080627, -215.23038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_sampan.png",
@@ -470,7 +517,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_bridges_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Sampan",
         "team": "1",
         "obj1": "vc_shp_sampan",
@@ -485,7 +532,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.146126, -215.04251]
+        "coordinates": [29.146126, -215.04251],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_sampan.png",
@@ -494,7 +542,7 @@
       },
       "bf2props": {
         "name": "sampan",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Sampan",
         "team": "1",
         "obj1": "vc_shp_sampan",
@@ -509,7 +557,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [108.3675, -150.58063]
+        "coordinates": [108.3675, -150.58063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -518,7 +567,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_pointlookout_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -533,7 +582,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [64.10475, -223.92487]
+        "coordinates": [64.10475, -223.92487],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -542,7 +592,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_abandonedairbase_aa_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -557,7 +607,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.877, -69.00775]
+        "coordinates": [150.877, -69.00775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -566,7 +617,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_botcas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1C Huey",
         "team": "2",
         "obj1": "null",
@@ -581,7 +632,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.86275, -69.56912]
+        "coordinates": [148.86275, -69.56912],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -590,7 +642,7 @@
       },
       "bf2props": {
         "name": "cpname_charlies_point_coop64_usbase_botcas_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1C Huey",
         "team": "2",
         "obj1": "null",
@@ -599,6 +651,168 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.507, -149.70175],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Point Lookout 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_charlies_point_coop64_pointlookout",
+        "class": "ControlPoint",
+        "name_object": "Point Lookout 60m",
+        "team": "1",
+        "areavalue1": "60.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.14662, -184.19763],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Ruins 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_charlies_point_coop64_ruins",
+        "class": "ControlPoint",
+        "name_object": "Ruins 70m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.05013, -200.01688],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Docks 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_charlies_point_coop64_docks",
+        "class": "ControlPoint",
+        "name_object": "Docks 75m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.56488, -190.94775],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridges 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_charlies_point_coop64_bridges",
+        "class": "ControlPoint",
+        "name_object": "Bridges 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.739876, -230.01375],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned Airbase 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_charlies_point_coop64_abandonedairbase",
+        "class": "ControlPoint",
+        "name_object": "Abandoned Airbase 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "5",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.64224, -69.972374],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_charlies_point_coop64_usbase",
+        "class": "ControlPoint",
+        "name_object": "US Outpost",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "4",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

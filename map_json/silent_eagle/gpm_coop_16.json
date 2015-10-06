@@ -1,5 +1,250 @@
 {
+  "team1":"ru",
+  "team2":"ger",
+  "team1tickets":"300",
+  "team2tickets":"300",
+  "mapsize":"4096",
+  "viewdistance":"900",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_silent_eagle_coop16_hillobjective"
+      ],
+      [
+        "cpname_silent_eagle_coop16_gasstation",
+        "cpname_silent_eagle_coop16_playground",
+        "cpname_silent_eagle_coop16_easttown"
+      ],
+      [
+        "cpname_silent_eagle_coop16_southtown",
+        "cpname_silent_eagle_coop16_northtown",
+        "cpname_silent_eagle_coop16_westtown"
+      ],
+      [
+        "cpname_silent_eagle_coop16_paradrop"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.48193, -146.48706],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Town will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_southtown",
+        "class": "ControlPoint",
+        "name_object": "South Town",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "1",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.34482, -128.94844],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Town will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_northtown",
+        "class": "ControlPoint",
+        "name_object": "North Town",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.56644, -132.42274],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Gas Station",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.02338, -146.76256],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Playground will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_playground",
+        "class": "ControlPoint",
+        "name_object": "Playground",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.39644, -135.33376],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill Objective will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_hillobjective",
+        "class": "ControlPoint",
+        "name_object": "Hill Objective",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "99999.0",
+        "cpid": "5",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.62425, -138.83475],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Town will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_westtown",
+        "class": "ControlPoint",
+        "name_object": "West Town",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.929, -139.32062],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Town will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_easttown",
+        "class": "ControlPoint",
+        "name_object": "East Town",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.53325, -140.453],
+        "size": [33, 33],
+        "radius": "0.3125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Paradrop will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_coop16_paradrop",
+        "class": "ControlPoint",
+        "name_object": "Paradrop",
+        "team": "2",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "8",
+        "sgid": "4",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    }
   ]
 }

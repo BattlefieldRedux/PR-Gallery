@@ -1,21 +1,50 @@
 {
+  "team1":"chinsurgent",
+  "team2":"ru",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"2048",
+  "viewdistance":"450",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kozelsk_coop16_chechenmain"
+      ],
+      [
+        "cpname_kozelsk_coop16_depot",
+        "cpname_kozelsk_coop16_vehicleoutpost",
+        "cpname_kozelsk_coop16_launchfacility"
+      ],
+      [
+        "cpname_kozelsk_coop16_bunker",
+        "cpname_kozelsk_coop16_outpost"
+      ],
+      [
+        "cpname_kozelsk_coop16_russianmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.27138, -131.26512]
+        "coordinates": [127.27138, -131.26512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "russian_rally_gb_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ru_acv_btr60pu",
@@ -29,17 +58,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [67.81262, -63.532875]
+        "coordinates": [67.81262, -63.532875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_chins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "chechen_hq_ch_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_chins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_chins",
         "obj2": "null",
@@ -47,6 +77,195 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "100.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.302246, -133.5925],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_russianmain",
+        "class": "ControlPoint",
+        "name_object": "Russian Deployment Area",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.99338, -68.31125],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_chechenmain",
+        "class": "ControlPoint",
+        "name_object": "Militia Operations Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.56587, -143.935],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_bunker",
+        "class": "ControlPoint",
+        "name_object": "Bunker",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "20.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [64.74712, -116.526375],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_depot",
+        "class": "ControlPoint",
+        "name_object": "Depot",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "20.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.21687, -92.37512],
+        "size": [33, 33],
+        "radius": "2.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_vehicleoutpost",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Outpost",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "20.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.76088, -125.25762],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_outpost",
+        "class": "ControlPoint",
+        "name_object": "Outpost",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "20.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.17262, -76.71775],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Launch Facility will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop16_launchfacility",
+        "class": "ControlPoint",
+        "name_object": "Launch Facility",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "20.0",
+        "ttlc": "30.0"
       }
     }
   ]

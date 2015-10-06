@@ -1,11 +1,46 @@
 {
+  "team1":"hamas",
+  "team2":"idf",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"1024",
+  "viewdistance":"200",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_asad_khal_aas64_breakingpoint"
+      ],
+      [
+        "cpname_asad_khal_aas64_occupiedvillage"
+      ],
+      [
+        "cpname_asad_khal_aas64_northobjective"
+      ],
+      [
+        "cpname_asad_khal_aas64_southobjective"
+      ],
+      [
+        "cpname_asad_khal_aas64_supplyroute"
+      ],
+      [
+        "cpname_asad_khal_aas64_firebase"
+      ],
+      [
+        "cpname_asad_khal_aas64_occupiedmansion"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [188.58125, -203.077]
+        "coordinates": [188.58125, -203.077],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -14,7 +49,7 @@
       },
       "bf2props": {
         "name": "cpname_wl_16_gbhq_ch_usmc_suportjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -29,7 +64,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [188.36024, -204.87851]
+        "coordinates": [188.36024, -204.87851],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -38,7 +74,7 @@
       },
       "bf2props": {
         "name": "humvee_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -53,7 +89,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.74051, -28.393997]
+        "coordinates": [213.74051, -28.393997],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -62,7 +99,7 @@
       },
       "bf2props": {
         "name": "veh",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -77,7 +114,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [214.873, -50.632248]
+        "coordinates": [214.873, -50.632248],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_bombcar.png",
@@ -86,7 +124,7 @@
       },
       "bf2props": {
         "name": "veh_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Car Bomb",
         "team": "1",
         "obj1": "civ_jep_car_bomber",
@@ -101,7 +139,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.31525, -210.14575]
+        "coordinates": [196.31525, -210.14575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -110,7 +149,7 @@
       },
       "bf2props": {
         "name": "truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW SIYUR",
         "team": "2",
         "obj1": "null",
@@ -125,17 +164,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [188.174, -203.112]
+        "coordinates": [188.174, -203.112],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_idf will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "bunker_0",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_idf",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_idf",
@@ -149,17 +189,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [217.23575, -37.480247]
+        "coordinates": [217.23575, -37.480247],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_tal will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "bunker_1",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_tal",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_tal",
         "obj2": "null",
@@ -173,17 +214,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.181, -25.510002]
+        "coordinates": [98.181, -25.510002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_hamas_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_hamas_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_hamas_placeable",
         "obj2": "null",
@@ -197,7 +239,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [210.44101, -32.0185]
+        "coordinates": [210.44101, -32.0185],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -206,7 +249,7 @@
       },
       "bf2props": {
         "name": "car",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ammo Pickup",
         "team": "1",
         "obj1": "civ_jep_support",
@@ -221,7 +264,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [210.31375, -30.804253]
+        "coordinates": [210.31375, -30.804253],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -230,7 +274,7 @@
       },
       "bf2props": {
         "name": "car_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ammo Pickup",
         "team": "1",
         "obj1": "civ_jep_support",
@@ -245,7 +289,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.84076, -27.163002]
+        "coordinates": [211.84076, -27.163002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -254,7 +299,7 @@
       },
       "bf2props": {
         "name": "car_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -269,7 +314,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [212.90076, -31.021751]
+        "coordinates": [212.90076, -31.021751],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -278,7 +324,7 @@
       },
       "bf2props": {
         "name": "car_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -293,7 +339,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.538, -206.55951]
+        "coordinates": [196.538, -206.55951],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -302,7 +349,7 @@
       },
       "bf2props": {
         "name": "car_12",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113",
         "team": "2",
         "obj1": "null",
@@ -317,7 +364,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.5715, -207.9615]
+        "coordinates": [196.5715, -207.9615],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -326,7 +374,7 @@
       },
       "bf2props": {
         "name": "apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113",
         "team": "2",
         "obj1": "null",
@@ -341,7 +389,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.12375, -200.06625]
+        "coordinates": [191.12375, -200.06625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -350,7 +399,7 @@
       },
       "bf2props": {
         "name": "car_13",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -365,7 +414,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [52.741997, -222.40076]
+        "coordinates": [52.741997, -222.40076],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -374,7 +424,7 @@
       },
       "bf2props": {
         "name": "idftruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -389,7 +439,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.68924, -202.56549]
+        "coordinates": [195.68924, -202.56549],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -398,7 +449,7 @@
       },
       "bf2props": {
         "name": "idfapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113",
         "team": "2",
         "obj1": "null",
@@ -413,7 +464,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.41925, -213.21025]
+        "coordinates": [196.41925, -213.21025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -422,7 +474,7 @@
       },
       "bf2props": {
         "name": "truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -437,17 +489,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [55.894753, -217.245]
+        "coordinates": [55.894753, -217.245],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_idf_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rpexpire2ndflagidf",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_idf_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_idf_placeable",
@@ -461,7 +514,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [212.7525, -25.876503]
+        "coordinates": [212.7525, -25.876503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -470,7 +524,7 @@
       },
       "bf2props": {
         "name": "car_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -485,7 +539,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.47725, -28.7835]
+        "coordinates": [211.47725, -28.7835],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -494,7 +549,7 @@
       },
       "bf2props": {
         "name": "car_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -509,7 +564,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.46575, -27.123497]
+        "coordinates": [97.46575, -27.123497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -518,7 +574,7 @@
       },
       "bf2props": {
         "name": "technical",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -533,17 +589,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.18725, -28.3965]
+        "coordinates": [99.18725, -28.3965],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -557,17 +614,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.23825, -74.660995]
+        "coordinates": [88.23825, -74.660995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_0",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -581,17 +639,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [109.61025, -142.71875]
+        "coordinates": [109.61025, -142.71875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -605,17 +664,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [50.50525, -34.018753]
+        "coordinates": [50.50525, -34.018753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -629,17 +689,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.816498, -23.441498]
+        "coordinates": [42.816498, -23.441498],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_3",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -653,17 +714,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.410248, -216.7305]
+        "coordinates": [44.410248, -216.7305],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_4",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -677,17 +739,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.00775, -101.563995]
+        "coordinates": [127.00775, -101.563995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_5",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -701,17 +764,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [84.80725, -126.21]
+        "coordinates": [84.80725, -126.21],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_6",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -725,17 +789,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.75, -124.2175]
+        "coordinates": [161.75, -124.2175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cache_7",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
         "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
@@ -749,17 +814,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [205.153, -30.358002]
+        "coordinates": [205.153, -30.358002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_asad_khal_aas64_breakingpoint_ins_command_post",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_meins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_meins",
         "obj2": "null",
@@ -773,17 +839,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [200.75775, -219.46725]
+        "coordinates": [200.75775, -219.46725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about idf_acv_m557 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_asad_khal_aas64_occupiedmansion_idf_command_post",
-        "class": "ObjectPlacement",
-        "name_object": "idf_acv_m557",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "idf_acv_m557",
@@ -791,6 +858,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.52249, -215.02899],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_occupiedmansion",
+        "class": "ControlPoint",
+        "name_object": "IDF Main",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "50.0",
+        "cpid": "301",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.80375, -34.383003],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Occupied Village 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_occupiedvillage",
+        "class": "ControlPoint",
+        "name_object": "Occupied Village 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "302",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.83625, -96.789],
+        "size": [33, 33],
+        "radius": "25.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Objective 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_northobjective",
+        "class": "ControlPoint",
+        "name_object": "North Objective 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.34725, -145.3175],
+        "size": [33, 33],
+        "radius": "22.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Objective 89m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_southobjective",
+        "class": "ControlPoint",
+        "name_object": "South Objective 89m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.347, -218.48325],
+        "size": [33, 33],
+        "radius": "17.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Supply Route 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_supplyroute",
+        "class": "ControlPoint",
+        "name_object": "IDF Supply Route 70m",
+        "team": "2",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.913, -168.64026],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forward Base 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_firebase",
+        "class": "ControlPoint",
+        "name_object": "Forward Base 40m",
+        "team": "2",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "701",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.1325, -31.067497],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Breaking Point 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_breakingpoint",
+        "class": "ControlPoint",
+        "name_object": "Breaking Point 50m",
+        "team": "1",
+        "areavalue1": "50.0",
+        "areavalue2": "200.0",
+        "cpid": "702",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199.61775, -47.531998],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hamas Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_aas64_hamasmain",
+        "class": "ControlPoint",
+        "name_object": "Hamas Camp",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

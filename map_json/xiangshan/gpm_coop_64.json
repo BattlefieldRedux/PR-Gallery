@@ -1,11 +1,46 @@
 {
+  "team1":"ch",
+  "team2":"fr",
+  "team1tickets":"500",
+  "team2tickets":"600",
+  "mapsize":"4096",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_xiangshan_coop64_chfob"
+      ],
+      [
+        "cpname_xiangshan_coop64_village"
+      ],
+      [
+        "cpname_xiangshan_coop64_northricefields"
+      ],
+      [
+        "cpname_xiangshan_coop64_fishingvillage"
+      ],
+      [
+        "cpname_xiangshan_coop64_nrthobjective"
+      ],
+      [
+        "cpname_xiangshan_coop64_frfob"
+      ],
+      [
+        "cpname_xiangshan_coop64_frmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.92075, -15.236435]
+        "coordinates": [241.92075, -15.236435],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -14,7 +49,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Eurocopter Tigre",
         "team": "2",
         "obj1": "null",
@@ -29,7 +64,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.54175, -17.812126]
+        "coordinates": [251.54175, -17.812126],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -38,7 +74,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_cas_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Eurocopter Tigre",
         "team": "2",
         "obj1": "null",
@@ -53,7 +89,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.87387, -16.282753]
+        "coordinates": [239.87387, -16.282753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -62,7 +99,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-56 Leclerc",
         "team": "2",
         "obj1": "null",
@@ -77,7 +114,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.2602, -16.282753]
+        "coordinates": [240.2602, -16.282753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -86,7 +124,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-56 Leclerc",
         "team": "2",
         "obj1": "null",
@@ -101,7 +139,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.92224, -19.138496]
+        "coordinates": [241.92224, -19.138496],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -110,7 +149,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_amx10",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-10RC",
         "team": "2",
         "obj1": "null",
@@ -125,7 +164,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.55899, -19.138496]
+        "coordinates": [241.55899, -19.138496],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -134,7 +174,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_amx10_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-10RC",
         "team": "2",
         "obj1": "null",
@@ -149,7 +189,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.78188, -18.966812]
+        "coordinates": [242.78188, -18.966812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -158,7 +199,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_vab",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -173,7 +214,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.52438, -18.966812]
+        "coordinates": [242.52438, -18.966812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -182,7 +224,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_vab_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -197,7 +239,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.39093, -19.058502]
+        "coordinates": [243.39093, -19.058502],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -206,7 +249,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -221,7 +264,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.08138, -19.058502]
+        "coordinates": [243.08138, -19.058502],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -230,7 +274,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_vbci",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -245,7 +289,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.28787, -19.128876]
+        "coordinates": [239.28787, -19.128876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -254,7 +299,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_tank_bf2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-56 Leclerc",
         "team": "2",
         "obj1": "null",
@@ -269,7 +314,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.29181, -19.530441]
+        "coordinates": [239.29181, -19.530441],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -278,7 +324,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_tank_bf2_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-56 Leclerc",
         "team": "2",
         "obj1": "null",
@@ -293,7 +339,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.30624, -18.761002]
+        "coordinates": [239.30624, -18.761002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -302,7 +349,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_amx10_bf2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-10RC",
         "team": "2",
         "obj1": "null",
@@ -317,7 +364,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.28525, -18.405998]
+        "coordinates": [239.28525, -18.405998],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -326,7 +374,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_amx10_bf2_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AMX-10RC",
         "team": "2",
         "obj1": "null",
@@ -341,7 +389,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.36493, -18.00869]
+        "coordinates": [239.36493, -18.00869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -350,7 +399,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_vcbi_bf2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -365,7 +414,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.42438, -18.00869]
+        "coordinates": [238.42438, -18.00869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -374,7 +424,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_vcbi_bf2_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -389,17 +439,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.15732, -16.121315]
+        "coordinates": [245.15732, -16.121315],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fr",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_fr",
@@ -413,7 +464,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.98694, -16.510376]
+        "coordinates": [245.98694, -16.510376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -422,7 +474,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -437,7 +489,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.69162, -16.445686]
+        "coordinates": [245.69162, -16.445686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -446,7 +499,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -461,7 +514,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.98381, -16.493813]
+        "coordinates": [246.98381, -16.493813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -470,7 +524,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC-180",
         "team": "2",
         "obj1": "null",
@@ -485,7 +539,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.25436, -16.55156]
+        "coordinates": [247.25436, -16.55156],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -494,7 +549,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_truck_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC-180",
         "team": "2",
         "obj1": "null",
@@ -509,7 +564,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.25475, -173.97337]
+        "coordinates": [127.25475, -173.97337],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -518,7 +574,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -533,7 +589,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.22063, -177.08224]
+        "coordinates": [127.22063, -177.08224],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -542,7 +599,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "1",
         "obj1": "ch_tnk_ztz99",
@@ -557,7 +614,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.22063, -176.13788]
+        "coordinates": [127.22063, -176.13788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -566,7 +624,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "1",
         "obj1": "ch_tnk_ztz99",
@@ -581,7 +639,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.22063, -175.04288]
+        "coordinates": [127.22063, -175.04288],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -590,7 +649,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "1",
         "obj1": "ch_tnk_ztz99",
@@ -605,7 +664,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.18887, -172.88481]
+        "coordinates": [127.18887, -172.88481],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -614,7 +674,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank_bf2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -629,7 +689,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.14538, -171.91049]
+        "coordinates": [127.14538, -171.91049],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -638,7 +699,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank_bf2_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -653,7 +714,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.1405, -170.88913]
+        "coordinates": [127.1405, -170.88913],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -662,7 +724,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_tank_bf2_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -677,7 +739,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.179, -170.43918]
+        "coordinates": [126.179, -170.43918],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -686,7 +749,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_apc_bf2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -701,7 +764,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.655815, -170.43918]
+        "coordinates": [125.655815, -170.43918],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -710,7 +774,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -725,7 +789,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.924934, -170.43918]
+        "coordinates": [125.924934, -170.43918],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -734,7 +799,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -749,7 +814,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.34363, -170.58412]
+        "coordinates": [125.34363, -170.58412],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -758,7 +824,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_apc_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551",
@@ -773,7 +839,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.841125, -170.57475]
+        "coordinates": [124.841125, -170.57475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -782,7 +849,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_apc_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551",
@@ -797,7 +864,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.09625, -170.57956]
+        "coordinates": [125.09625, -170.57956],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -806,7 +874,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_apc_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551",
@@ -821,17 +889,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.37462, -172.66982]
+        "coordinates": [128.37462, -172.66982],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -845,7 +914,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.54488, -170.30794]
+        "coordinates": [128.54488, -170.30794],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -854,7 +924,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -869,7 +939,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.97424, -170.73737]
+        "coordinates": [128.97424, -170.73737],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -878,7 +949,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -893,7 +964,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.82825, -170.59131]
+        "coordinates": [128.82825, -170.59131],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -902,7 +974,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -917,7 +989,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.6878, -170.45087]
+        "coordinates": [128.6878, -170.45087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -926,7 +999,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_truck_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -941,7 +1014,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.478065, -170.43893]
+        "coordinates": [126.478065, -170.43893],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -950,7 +1024,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_chfob_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 95 SPAAA",
         "team": "1",
         "obj1": "ch_aav_type95",
@@ -965,7 +1039,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.54225, -15.236435]
+        "coordinates": [243.54225, -15.236435],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -974,7 +1049,7 @@
       },
       "bf2props": {
         "name": "cpname_xiangshan_coop64_frmain_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 TTH",
         "team": "2",
         "obj1": "null",
@@ -983,6 +1058,195 @@
         "minspawn": "450.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.56537, -18.081253],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about French Command will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_frmain",
+        "class": "ControlPoint",
+        "name_object": "French Command",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [232.10788, -48.12181],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about French Forward Operating Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_frfob",
+        "class": "ControlPoint",
+        "name_object": "French Forward Operating Base",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [180.62537, -62.392372],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Objective 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_nrthobjective",
+        "class": "ControlPoint",
+        "name_object": "North Objective 200m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.68887, -101.60756],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Leshan 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_fishingvillage",
+        "class": "ControlPoint",
+        "name_object": "Leshan 70m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [160.34444, -108.137375],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Ricefields 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_northricefields",
+        "class": "ControlPoint",
+        "name_object": "North Ricefields 150m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.44519, -134.32875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Xiangshan 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_village",
+        "class": "ControlPoint",
+        "name_object": "Xiangshan 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.70869, -170.00012],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Chinese Forward Operating Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_coop64_chfob",
+        "class": "ControlPoint",
+        "name_object": "Chinese Forward Operating Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

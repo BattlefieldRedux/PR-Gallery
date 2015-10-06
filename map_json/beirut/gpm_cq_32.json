@@ -1,11 +1,76 @@
 {
+  "team1":"idf",
+  "team2":"ru",
+  "team1tickets":"600",
+  "team2tickets":"600",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_beirut_aas32_idfmain"
+      ],
+      [
+        "cpname_beirut_aas32_coastalsettlement_0"
+      ],
+      [
+        "cpname_beirut_aas32_bridge"
+      ],
+      [
+        "cpname_beirut_aas32_citycentre",
+        "cpname_beirut_aas32_citycentre2",
+        "cpname_beirut_aas32_citycenterapartments"
+      ],
+      [
+        "cpname_beirut_aas32_westernapartments",
+        "cpname_beirut_aas32_citycentre3"
+      ],
+      [
+        "cpname_beirut_aas32_factory"
+      ],
+      [
+        "cpname_beirut_aas32_russianship"
+      ]
+    ],
+    [
+      [
+        "cpname_beirut_aas32_idfmain"
+      ],
+      [
+        "cpname_beirut_aas32_gasstation"
+      ],
+      [
+        "cpname_beirut_aas32_constructionsite"
+      ],
+      [
+        "cpname_beirut_aas32_oldtown",
+        "cpname_beirut_aas32_oldtown2",
+        "cpname_beirut_aas32_westernapartments2"
+      ],
+      [
+        "cpname_beirut_aas32_industrialrailwaystation",
+        "cpname_beirut_aas32_southernapartments",
+        "cpname_beirut_aas32_market"
+      ],
+      [
+        "cpname_beirut_aas32_factory"
+      ],
+      [
+        "cpname_beirut_aas32_russianship"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.50687, -5.0859985]
+        "coordinates": [234.50687, -5.0859985],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -14,7 +79,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_mi172",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "2",
         "obj1": "null",
@@ -29,7 +94,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [229.39113, -5.0102463]
+        "coordinates": [229.39113, -5.0102463],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -38,7 +104,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_mi174",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "2",
         "obj1": "null",
@@ -53,7 +119,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [225.23026, -4.973877]
+        "coordinates": [225.23026, -4.973877],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -62,7 +129,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_mi176",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "2",
         "obj1": "null",
@@ -77,7 +144,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.896751, -98.65212]
+        "coordinates": [14.896751, -98.65212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -86,7 +154,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_transporttruck4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113",
         "team": "1",
         "obj1": "idf_apc_m113",
@@ -101,17 +169,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.943878, -96.49113]
+        "coordinates": [16.943878, -96.49113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_idf will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_idf",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_idf",
         "obj2": "null",
@@ -125,17 +194,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.535873, -95.84512]
+        "coordinates": [10.535873, -95.84512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_idf will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_vehicledeport",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_idf",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_idf",
         "obj2": "null",
@@ -149,17 +219,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [221.61838, -4.755127]
+        "coordinates": [221.61838, -4.755127],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_ru will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_commandpost",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "2",
         "obj1": "null",
         "obj2": "deployable_commandpost_ru",
@@ -173,17 +244,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-144.96274, -7.639374]
+        "coordinates": [-144.96274, -7.639374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_artillery",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -197,17 +269,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-42.12175, -382.0155]
+        "coordinates": [-42.12175, -382.0155],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_artillery",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -221,7 +294,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.478378, -96.46125]
+        "coordinates": [14.478378, -96.46125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -230,7 +304,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_transporttruck5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113",
         "team": "1",
         "obj1": "idf_apc_m113",
@@ -245,17 +319,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-143.96924, -7.6312485]
+        "coordinates": [-143.96924, -7.6312485],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_artillery2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -269,17 +344,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-145.93262, -7.669876]
+        "coordinates": [-145.93262, -7.669876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_artillery3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -293,17 +369,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-142.79712, -7.681877]
+        "coordinates": [-142.79712, -7.681877],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_artillery4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -317,17 +394,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.553497, -382.09225]
+        "coordinates": [-40.553497, -382.09225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_artillery3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -341,17 +419,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-41.346756, -382.0749]
+        "coordinates": [-41.346756, -382.0749],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_artillery2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -365,17 +444,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-39.669876, -382.07538]
+        "coordinates": [-39.669876, -382.07538],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_artillery4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -389,7 +469,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.744247, -98.142746]
+        "coordinates": [15.744247, -98.142746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -398,7 +479,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113",
         "team": "1",
         "obj1": "idf_apc_m113",
@@ -413,7 +494,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.40012, -7.439125]
+        "coordinates": [238.40012, -7.439125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -422,7 +504,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "2",
         "obj1": "null",
@@ -437,7 +519,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.92288, -7.21875]
+        "coordinates": [240.92288, -7.21875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -446,7 +529,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_rib",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -461,7 +544,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.904373, -91.544754]
+        "coordinates": [11.904373, -91.544754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -470,7 +554,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_blackhawk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-60L Yanshuf",
         "team": "1",
         "obj1": "idf_the_uh60",
@@ -485,7 +569,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.994003, -89.33437]
+        "coordinates": [11.994003, -89.33437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -494,7 +579,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_blackhawk2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-60L Yanshuf",
         "team": "1",
         "obj1": "idf_the_uh60",
@@ -509,7 +594,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.349998, -94.05412]
+        "coordinates": [18.349998, -94.05412],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -518,7 +604,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_blackhawknorespawn1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "1",
         "obj1": "idf_trk_support",
@@ -533,7 +619,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.000748, -94.0715]
+        "coordinates": [15.000748, -94.0715],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -542,7 +629,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_blackhawknorespawn2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "1",
         "obj1": "idf_trk_support",
@@ -557,7 +644,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.746376, -94.111]
+        "coordinates": [13.746376, -94.111],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -566,7 +654,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_supplytruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "1",
         "obj1": "idf_trk_logistics",
@@ -581,7 +669,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.4375, -94.71875]
+        "coordinates": [10.4375, -94.71875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -590,7 +679,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_idftruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "1",
         "obj1": "idf_trk_support",
@@ -605,7 +694,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.14713, -7.399872]
+        "coordinates": [239.14713, -7.399872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -614,7 +704,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_brdm_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80",
         "team": "2",
         "obj1": "null",
@@ -629,7 +719,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.08899, -7.28125]
+        "coordinates": [240.08899, -7.28125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -638,7 +729,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_bmp3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "2",
         "obj1": "null",
@@ -653,7 +744,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.456123, -94.039246]
+        "coordinates": [16.456123, -94.039246],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -662,7 +754,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_0_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "1",
         "obj1": "idf_trk_logistics",
@@ -677,7 +769,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.501747, -97.2065]
+        "coordinates": [15.501747, -97.2065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -686,7 +779,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_idfmain_merkava",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "1",
         "obj1": "idf_tnk_merkava",
@@ -701,7 +794,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.80537, -7.1429977]
+        "coordinates": [241.80537, -7.1429977],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -710,7 +804,7 @@
       },
       "bf2props": {
         "name": "cpname_beirut_aas32_russianship_rib2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -719,6 +813,492 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.444, -92.423004],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_idfmain",
+        "class": "ControlPoint",
+        "name_object": "IDF Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.149376, -216.02362],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_constructionsite",
+        "class": "ControlPoint",
+        "name_object": "Construction Site 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.46237, -192.72575],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Town 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_oldtown",
+        "class": "ControlPoint",
+        "name_object": "Old Town 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [180.99338, -225.78424],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Railway Station 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_industrialrailwaystation",
+        "class": "ControlPoint",
+        "name_object": "Railway Station 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [179.23737, -177.89012],
+        "size": [33, 33],
+        "radius": "13.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Western Apartments 110m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_westernapartments",
+        "class": "ControlPoint",
+        "name_object": "Western Apartments 110m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [233.13087, -154.38487],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Factory 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_factory",
+        "class": "ControlPoint",
+        "name_object": "Factory 100m",
+        "team": "0",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.80225, -115.884],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Northern Apartments 120m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_citycentre",
+        "class": "ControlPoint",
+        "name_object": "Northern Apartments 120m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.198875, -118.75012],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Coastal Settlement 120m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_coastalsettlement_0",
+        "class": "ControlPoint",
+        "name_object": "Coastal Settlement 120m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "200.0",
+        "cpid": "9",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.386375, -150.1965],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Gas Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "200.0",
+        "cpid": "12",
+        "sgid": "202",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.15012, -4.975128],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Cargo Ship will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_russianship",
+        "class": "ControlPoint",
+        "name_object": "Russian Cargo Ship",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "13",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [164.82574, -207.804],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Southern Apartments 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_southernapartments",
+        "class": "ControlPoint",
+        "name_object": "Southern Apartments 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "11",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.4875, -144.9955],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Highway 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_citycentre2",
+        "class": "ControlPoint",
+        "name_object": "Highway 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "14",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.002, -142.96538],
+        "size": [33, 33],
+        "radius": "13.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel Districct 110m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_citycentre3",
+        "class": "ControlPoint",
+        "name_object": "Hotel Districct 110m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "15",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.08537, -184.41913],
+        "size": [33, 33],
+        "radius": "16.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Town 130m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_oldtown2",
+        "class": "ControlPoint",
+        "name_object": "Old Town 130m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.71388, -147.45262],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Western Apartments 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_westernapartments2",
+        "class": "ControlPoint",
+        "name_object": "Western Apartments 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.489624, -134.35275],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridge 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_bridge",
+        "class": "ControlPoint",
+        "name_object": "Bridge 40m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "16",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.80287, -124.82562],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Apartments 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_citycenterapartments",
+        "class": "ControlPoint",
+        "name_object": "City Apartments 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "17",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [166.28537, -174.84012],
+        "size": [33, 33],
+        "radius": "16.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market 130m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_aas32_market",
+        "class": "ControlPoint",
+        "name_object": "Market 130m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,11 +1,34 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusa",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_battle_of_ia_drang_skirmish16_waterhole"
+      ],
+      [
+        "cpname_battle_of_ia_drang_skirmish16_cutoffplatoon"
+      ],
+      [
+        "cpname_battle_of_ia_drang_skirmish16_drycreekbed"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [50.913254, -111.33287]
+        "coordinates": [50.913254, -111.33287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +37,7 @@
       },
       "bf2props": {
         "name": "crate01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +52,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [107.36288, -92.287]
+        "coordinates": [107.36288, -92.287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +62,7 @@
       },
       "bf2props": {
         "name": "crate03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -53,7 +77,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [134.0155, -113.236374]
+        "coordinates": [134.0155, -113.236374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +87,7 @@
       },
       "bf2props": {
         "name": "uscrate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -77,7 +102,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.520752, -126.08725]
+        "coordinates": [17.520752, -126.08725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +112,7 @@
       },
       "bf2props": {
         "name": "nvacrate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -95,6 +121,87 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.121124, -92.095],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dry Creekbed 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_skirmish16_drycreekbed",
+        "class": "ControlPoint",
+        "name_object": "Dry Creekbed 70m",
+        "team": "2",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.695, -110.853],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Water Hole 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_skirmish16_waterhole",
+        "class": "ControlPoint",
+        "name_object": "Water Hole 70m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "20.0",
+        "cpid": "301",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [70.978745, -88.39862],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cutoff Platoon 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_skirmish16_cutoffplatoon",
+        "class": "ControlPoint",
+        "name_object": "Cutoff Platoon 70m",
+        "team": "0",
+        "areavalue1": "80.0",
+        "areavalue2": "80.0",
+        "cpid": "302",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

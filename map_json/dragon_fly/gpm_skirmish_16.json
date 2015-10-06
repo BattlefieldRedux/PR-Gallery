@@ -1,11 +1,37 @@
 {
+  "team1":"chinsurgent",
+  "team2":"gb",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_dragon_fly_skirmish16_chechenbase"
+      ],
+      [
+        "cpname_dragon_fly_skirmish16_apartmentnorth"
+      ],
+      [
+        "cpname_dragon_fly_skirmish16_apartmentsouth"
+      ],
+      [
+        "cpname_dragon_fly_skirmish16_gbbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.82125, -77.462875]
+        "coordinates": [102.82125, -77.462875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_dragon_fly_skirmish16_gbbase_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.05225, -93.44263]
+        "coordinates": [208.05225, -93.44263],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_dragon_fly_skirmish16_chechenbase_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [179.375, -98.375],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_chechenbase",
+        "class": "ControlPoint",
+        "name_object": "Militia Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "150.0",
+        "cpid": "131",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [163.75, -79.375],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_apartmentnorth",
+        "class": "ControlPoint",
+        "name_object": "North Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "132",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.375, -98.625],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_apartmentsouth",
+        "class": "ControlPoint",
+        "name_object": "South Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "133",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.625, -79.25],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_gbbase",
+        "class": "ControlPoint",
+        "name_object": "British Deployment Area",
+        "team": "2",
+        "areavalue1": "150.0",
+        "areavalue2": "0.0",
+        "cpid": "134",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

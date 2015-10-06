@@ -1,11 +1,43 @@
 {
+  "team1":"ch",
+  "team2":"ger",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"620",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_wanda_shan_coop64_chtown"
+      ],
+      [
+        "cpname_wanda_shan_coop64_town"
+      ],
+      [
+        "cpname_wanda_shan_coop64_farm"
+      ],
+      [
+        "cpname_wanda_shan_coop64_southfarm"
+      ],
+      [
+        "cpname_wanda_shan_coop64_radio"
+      ],
+      [
+        "cpname_wanda_shan_coop64_germain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.99369, -240.66487]
+        "coordinates": [17.99369, -240.66487],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -14,7 +46,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.888374, -241.01788]
+        "coordinates": [15.888374, -241.01788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.88694, -240.82193]
+        "coordinates": [16.88694, -240.82193],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.642754, -230.90181]
+        "coordinates": [17.642754, -230.90181],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 TTH",
         "team": "2",
         "obj1": "null",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.850502, -231.96906]
+        "coordinates": [16.850502, -231.96906],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 TTH",
         "team": "2",
         "obj1": "null",
@@ -125,17 +161,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.886871, -238.68188]
+        "coordinates": [14.886871, -238.68188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ger_acv_m557a2 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ger_acv_m557a2",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_acv_m557a2",
@@ -149,7 +186,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.83463, -102.31481]
+        "coordinates": [248.83463, -102.31481],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -158,7 +196,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -173,7 +211,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.37137, -100.57075]
+        "coordinates": [251.37137, -100.57075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -182,7 +221,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -197,7 +236,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [250.52249, -101.15437]
+        "coordinates": [250.52249, -101.15437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -206,7 +246,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -221,7 +261,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [249.66406, -101.74463]
+        "coordinates": [249.66406, -101.74463],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -230,7 +271,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98",
@@ -245,17 +286,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.136375, -235.72025]
+        "coordinates": [15.136375, -235.72025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ger will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ger",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ger",
@@ -269,7 +311,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.254936, -235.77606]
+        "coordinates": [16.254936, -235.77606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -278,7 +321,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -293,7 +336,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.705627, -235.77606]
+        "coordinates": [15.705627, -235.77606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -302,7 +346,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -317,7 +361,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.876938, -235.77606]
+        "coordinates": [15.876938, -235.77606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -326,7 +371,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -341,7 +386,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.063622, -235.77606]
+        "coordinates": [16.063622, -235.77606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -350,7 +396,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -365,7 +411,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.81469, -236.78444]
+        "coordinates": [17.81469, -236.78444],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -374,7 +421,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -389,7 +436,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.81469, -237.02118]
+        "coordinates": [17.81469, -237.02118],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +446,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -413,7 +461,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.81469, -236.52663]
+        "coordinates": [17.81469, -236.52663],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -422,7 +471,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -437,7 +486,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.465065, -235.626]
+        "coordinates": [17.465065, -235.626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -446,7 +496,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_puma",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -461,7 +511,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.465065, -235.95999]
+        "coordinates": [17.465065, -235.95999],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -470,7 +521,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_puma_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -485,7 +536,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.524124, -237.70349]
+        "coordinates": [14.524124, -237.70349],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -494,7 +546,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -509,7 +561,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.06732, -103.345375]
+        "coordinates": [247.06732, -103.345375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -518,7 +571,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -533,7 +586,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.89769, -102.86125]
+        "coordinates": [247.89769, -102.86125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -542,7 +596,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551_bf2",
@@ -557,7 +611,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.38556, -107.61619]
+        "coordinates": [240.38556, -107.61619],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -566,7 +621,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_vn3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -581,7 +636,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.42694, -107.85056]
+        "coordinates": [240.42694, -107.85056],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -590,7 +646,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_vn3_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
         "obj1": "ch_jep_vn3",
@@ -605,17 +661,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.16061, -104.14125]
+        "coordinates": [251.16061, -104.14125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -629,17 +686,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.17107, -104.25113]
+        "coordinates": [252.17107, -104.25113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -653,7 +711,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.0712, -102.96781]
+        "coordinates": [252.0712, -102.96781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -662,7 +721,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -677,7 +736,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.38837, -102.96781]
+        "coordinates": [251.38837, -102.96781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -686,7 +746,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -701,7 +761,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.62268, -102.96781]
+        "coordinates": [251.62268, -102.96781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -710,7 +771,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_support_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -725,7 +786,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.84155, -102.96781]
+        "coordinates": [251.84155, -102.96781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -734,7 +796,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -749,7 +811,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.17456, -240.53569]
+        "coordinates": [19.17456, -240.53569],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -758,7 +821,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -773,7 +836,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.524124, -238.0775]
+        "coordinates": [14.524124, -238.0775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -782,7 +846,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
@@ -797,7 +861,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.15169, -99.942375]
+        "coordinates": [252.15169, -99.942375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -806,7 +871,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_chtown_tank_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 98",
         "team": "1",
         "obj1": "ch_tnk_type98_bf2",
@@ -821,7 +886,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.603378, -239.85794]
+        "coordinates": [15.603378, -239.85794],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -830,7 +896,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_tank_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -845,7 +911,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.875999, -239.51581]
+        "coordinates": [15.875999, -239.51581],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -854,7 +921,7 @@
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_tank_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "2",
         "obj1": "null",
@@ -869,17 +936,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-16.909622, -237.4225]
+        "coordinates": [-16.909622, -237.4225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "80.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -893,17 +961,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-17.376373, -238.01231]
+        "coordinates": [-17.376373, -238.01231],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "80.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_arty_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -917,17 +986,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-16.703308, -238.70587]
+        "coordinates": [-16.703308, -238.70587],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "80.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_arty_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -941,17 +1011,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-17.291382, -239.39175]
+        "coordinates": [-17.291382, -239.39175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "80.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_coop64_germain_arty_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -959,6 +1030,168 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.26926, -108.17262],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Command post 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_coop64_chtown",
+        "class": "ControlPoint",
+        "name_object": "PLA Command post 50m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "35",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [167.09032, -142.75256],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_coop64_town",
+        "class": "ControlPoint",
+        "name_object": "Village 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "36",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.58369, -161.16588],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farmhouses 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_coop64_farm",
+        "class": "ControlPoint",
+        "name_object": "Farmhouses 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "37",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.654434, -208.13513],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Farm 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_coop64_southfarm",
+        "class": "ControlPoint",
+        "name_object": "South Farm 100m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "38",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.50256, -196.1185],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Radio Tower 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_coop64_radio",
+        "class": "ControlPoint",
+        "name_object": "Radio Tower 60m",
+        "team": "0",
+        "areavalue1": "200.0",
+        "areavalue2": "20.0",
+        "cpid": "39",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.753502, -238.41174],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_coop64_germain",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "40",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

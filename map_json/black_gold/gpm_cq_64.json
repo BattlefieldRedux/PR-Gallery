@@ -1,11 +1,94 @@
 {
+  "team1":"ru",
+  "team2":"ch",
+  "team1tickets":"650",
+  "team2tickets":"650",
+  "mapsize":"4096",
+  "viewdistance":"1000",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_black_gold_aas64_1northoutpost"
+      ],
+      [
+        "cpname_black_gold_aas64_1northpeak"
+      ],
+      [
+        "cpname_black_gold_aas64_1tunnelbunker"
+      ],
+      [
+        "cpname_black_gold_aas64_1northernsuburbs",
+        "cpname_black_gold_aas64_1northwestsuburbs",
+        "cpname_black_gold_aas64_1citycenter",
+        "cpname_black_gold_aas64_1constructionsite"
+      ],
+      [
+        "cpname_black_gold_aas64_1westcity",
+        "cpname_black_gold_aas64_1commercialdistrict",
+        "cpname_black_gold_aas64_1militarybase",
+        "cpname_black_gold_aas64_1mosque"
+      ],
+      [
+        "cpname_black_gold_aas64_1oilstorage",
+        "cpname_black_gold_aas64_1bridges"
+      ],
+      [
+        "cpname_black_gold_aas64_1waterpumpingstation"
+      ],
+      [
+        "cpname_black_gold_aas64_1southpeak"
+      ],
+      [
+        "cpname_black_gold_aas64_1southoutpost"
+      ],
+      [
+        "cpname_black_gold_aas64_southmain"
+      ]
+    ],
+    [
+      [
+        "cpname_black_gold_aas64_1northoutpost"
+      ],
+      [
+        "cpname_black_gold_aas64_1northpeak"
+      ],
+      [
+        "cpname_black_gold_aas64_2supplybunker"
+      ],
+      [
+        "cpname_black_gold_aas64_2controlfacility"
+      ],
+      [
+        "cpname_black_gold_aas64_2oilrefinery"
+      ],
+      [
+        "cpname_black_gold_aas64_2oldoutpost"
+      ],
+      [
+        "cpname_black_gold_aas64_2abandonedfarm"
+      ],
+      [
+        "cpname_black_gold_aas64_2southpeak"
+      ],
+      [
+        "cpname_black_gold_aas64_1southoutpost"
+      ],
+      [
+        "cpname_black_gold_aas64_southmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.41537, -34.27031]
+        "coordinates": [248.41537, -34.27031],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jet.png",
@@ -14,7 +97,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_jet_fighter",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Su-27SM Flanker-B",
         "team": "1",
         "obj1": "ru_jet_su27",
@@ -29,7 +112,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.2268, -31.918877]
+        "coordinates": [248.2268, -31.918877],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jet_figherbomber.png",
@@ -38,7 +122,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_jet_bomber",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Su-34 Fullback",
         "team": "1",
         "obj1": "ru_jet_su34",
@@ -53,7 +137,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [249.85245, -15.88694]
+        "coordinates": [249.85245, -15.88694],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -62,7 +147,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_transheli01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -77,7 +162,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [249.87369, -18.198997]
+        "coordinates": [249.87369, -18.198997],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -86,7 +172,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_transheli02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -101,7 +187,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [249.87312, -13.446312]
+        "coordinates": [249.87312, -13.446312],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
@@ -110,7 +197,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_lightheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-24V Hind-E",
         "team": "1",
         "obj1": "ru_ahe_mi24_light",
@@ -125,7 +212,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.4522476, -219.3577]
+        "coordinates": [7.4522476, -219.3577],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jet.png",
@@ -134,7 +222,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_jet_fighter",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "J-10 Vigorous Dragon",
         "team": "2",
         "obj1": "null",
@@ -149,7 +237,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.425186, -221.7633]
+        "coordinates": [7.425186, -221.7633],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jet_figherbomber.png",
@@ -158,7 +247,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_jet_bomber",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Su-30MKK Flanker-C",
         "team": "2",
         "obj1": "null",
@@ -173,7 +262,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.267372, -208.57825]
+        "coordinates": [6.267372, -208.57825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -182,7 +272,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_lightheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9WA",
         "team": "2",
         "obj1": "null",
@@ -197,7 +287,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.2910614, -210.88606]
+        "coordinates": [6.2910614, -210.88606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -206,7 +297,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_transheli01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9B",
         "team": "2",
         "obj1": "null",
@@ -221,7 +312,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.2458725, -213.26357]
+        "coordinates": [6.2458725, -213.26357],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
@@ -230,7 +322,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_transheli02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-8KA",
         "team": "2",
         "obj1": "null",
@@ -245,17 +337,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.428688, -217.48343]
+        "coordinates": [13.428688, -217.48343],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "pla_air_base_ch_command_post",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ch_acv_wz551",
@@ -269,17 +362,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.61761, -30.551811]
+        "coordinates": [243.61761, -30.551811],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "ru_air_base_ru_command_post",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -293,7 +387,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.67906, -29.328873]
+        "coordinates": [243.67906, -29.328873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -302,7 +397,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_apc01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MT-LBM",
         "team": "1",
         "obj1": "ru_apc_mtlb_hmg",
@@ -317,7 +412,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.68011, -29.585876]
+        "coordinates": [243.68011, -29.585876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -326,7 +422,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_apc02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -341,7 +437,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.66919, -29.03125]
+        "coordinates": [243.66919, -29.03125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -350,7 +447,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_apc03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MT-LBM",
         "team": "1",
         "obj1": "ru_apc_mtlb_hmg",
@@ -365,7 +462,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.5758, -28.044502]
+        "coordinates": [243.5758, -28.044502],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -374,7 +472,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_apc04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -389,7 +487,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.595, -28.314377]
+        "coordinates": [243.595, -28.314377],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -398,7 +497,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_apc05",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -413,7 +512,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.58844, -28.557625]
+        "coordinates": [243.58844, -28.557625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -422,7 +522,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_apc06",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -437,7 +537,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.7375, -30.523438]
+        "coordinates": [244.7375, -30.523438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -446,7 +547,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_tank01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "ru_ifv_bmp3",
@@ -461,7 +562,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.356, -30.505684]
+        "coordinates": [245.356, -30.505684],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -470,7 +572,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_tank02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -485,7 +587,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.04306, -30.507812]
+        "coordinates": [245.04306, -30.507812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -494,7 +597,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_tank03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -509,7 +612,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.88943, -30.518059]
+        "coordinates": [245.88943, -30.518059],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -518,7 +622,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_aav01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K22 Tunguska",
         "team": "1",
         "obj1": "ru_aav_tunguska",
@@ -533,7 +637,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.26782, -30.556938]
+        "coordinates": [246.26782, -30.556938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -542,7 +647,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_aav02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P148 Spandrel",
         "team": "1",
         "obj1": "ru_atm_spandrel",
@@ -557,7 +662,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.57175, -26.720375]
+        "coordinates": [243.57175, -26.720375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -566,7 +672,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_logi01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -581,7 +687,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.56638, -26.95169]
+        "coordinates": [243.56638, -26.95169],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -590,7 +697,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_logi02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -605,7 +712,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.56375, -27.195686]
+        "coordinates": [243.56375, -27.195686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -614,7 +722,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_logi03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -629,7 +737,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.56757, -27.39331]
+        "coordinates": [243.56757, -27.39331],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -638,7 +747,7 @@
       },
       "bf2props": {
         "name": "ru_air_base_ru_logi04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -653,7 +762,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.698502, -212.56706]
+        "coordinates": [13.698502, -212.56706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -662,7 +772,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_apc01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "2",
         "obj1": "null",
@@ -677,7 +787,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.692375, -212.84369]
+        "coordinates": [13.692375, -212.84369],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -686,7 +797,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_apc02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "2",
         "obj1": "null",
@@ -701,7 +812,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.713188, -213.11906]
+        "coordinates": [13.713188, -213.11906],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -710,7 +822,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_apc03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "2",
         "obj1": "null",
@@ -725,7 +837,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.71019, -211.55124]
+        "coordinates": [13.71019, -211.55124],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -734,7 +847,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_apc04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -749,7 +862,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.705254, -211.8338]
+        "coordinates": [13.705254, -211.8338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -758,7 +872,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_apc05",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -773,7 +887,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.71756, -212.09875]
+        "coordinates": [13.71756, -212.09875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -782,7 +897,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_apc06",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -797,7 +912,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.723373, -213.77457]
+        "coordinates": [13.723373, -213.77457],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -806,7 +922,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_tank01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "2",
         "obj1": "null",
@@ -821,7 +937,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.737564, -214.04593]
+        "coordinates": [13.737564, -214.04593],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -830,7 +947,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_tank02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "2",
         "obj1": "null",
@@ -845,7 +962,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.734184, -214.38087]
+        "coordinates": [13.734184, -214.38087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -854,7 +972,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_tank03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZSL-92B",
         "team": "2",
         "obj1": "null",
@@ -869,7 +987,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.9685, -36.04962]
+        "coordinates": [172.9685, -36.04962],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -878,7 +997,7 @@
       },
       "bf2props": {
         "name": "ru_outpost_ru_truck01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -893,17 +1012,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.26794, -33.653564]
+        "coordinates": [174.26794, -33.653564],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "ru_outpost_ru_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable",
         "obj2": "null",
@@ -917,7 +1037,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.46562, -36.408936]
+        "coordinates": [171.46562, -36.408936],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -926,7 +1047,7 @@
       },
       "bf2props": {
         "name": "ru_outpost_ru_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -941,7 +1062,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.535995, -187.56512]
+        "coordinates": [99.535995, -187.56512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -950,7 +1072,7 @@
       },
       "bf2props": {
         "name": "pla_outpost_ch_truck01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -965,17 +1087,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.004745, -186.94424]
+        "coordinates": [97.004745, -186.94424],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "pla_outpost_ch_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ch_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ch_placeable",
@@ -989,7 +1112,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.039, -187.23169]
+        "coordinates": [101.039, -187.23169],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -998,7 +1122,7 @@
       },
       "bf2props": {
         "name": "pla_outpost_ch_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "2",
         "obj1": "null",
@@ -1013,17 +1137,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.54431, -25.883438]
+        "coordinates": [243.54431, -25.883438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "ru_air_base_ru_supply_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -1037,17 +1162,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.750626, -209.76086]
+        "coordinates": [13.750626, -209.76086],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "pla_air_base_ch_supply_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ch",
@@ -1061,7 +1187,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.7161255, -214.913]
+        "coordinates": [13.7161255, -214.913],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
@@ -1070,7 +1197,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_aav01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Type 95 SPAAA",
         "team": "2",
         "obj1": "null",
@@ -1085,7 +1212,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.683311, -215.27057]
+        "coordinates": [13.683311, -215.27057],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -1094,7 +1222,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_aav02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ550",
         "team": "2",
         "obj1": "null",
@@ -1109,7 +1237,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.712311, -210.24687]
+        "coordinates": [13.712311, -210.24687],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1118,7 +1247,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_logi01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "2",
         "obj1": "null",
@@ -1133,7 +1262,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.699249, -210.49612]
+        "coordinates": [13.699249, -210.49612],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1142,7 +1272,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_logi02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "2",
         "obj1": "null",
@@ -1157,7 +1287,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.700188, -210.72606]
+        "coordinates": [13.700188, -210.72606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1166,7 +1297,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_logi03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "2",
         "obj1": "null",
@@ -1181,7 +1312,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.690002, -210.96812]
+        "coordinates": [13.690002, -210.96812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1190,7 +1322,7 @@
       },
       "bf2props": {
         "name": "pla_air_base_ch_logi04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "2",
         "obj1": "null",
@@ -1205,7 +1337,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.562, -33.81225]
+        "coordinates": [246.562, -33.81225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
@@ -1214,7 +1347,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_spg",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "deployable_spg9_sp",
         "team": "1",
         "obj1": "deployable_spg9_sp",
@@ -1229,7 +1362,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.450874, -206.17813]
+        "coordinates": [15.450874, -206.17813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -1238,7 +1372,7 @@
       },
       "bf2props": {
         "name": "ch_roadtank_03",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "2",
         "obj1": "null",
@@ -1253,7 +1387,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.973373, -205.58907]
+        "coordinates": [15.973373, -205.58907],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -1262,7 +1397,7 @@
       },
       "bf2props": {
         "name": "ch_roadtank_04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "2",
         "obj1": "null",
@@ -1277,7 +1412,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.44619, -204.9615]
+        "coordinates": [16.44619, -204.9615],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -1286,7 +1422,7 @@
       },
       "bf2props": {
         "name": "ch_roadtank_05",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZTZ-99A2",
         "team": "2",
         "obj1": "null",
@@ -1301,7 +1437,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.36374, -19.38781]
+        "coordinates": [241.36374, -19.38781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -1310,7 +1447,7 @@
       },
       "bf2props": {
         "name": "ru_roadtank_06_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -1325,7 +1462,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.89581, -18.868065]
+        "coordinates": [240.89581, -18.868065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -1334,7 +1472,7 @@
       },
       "bf2props": {
         "name": "ru_roadtank_07_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -1349,7 +1487,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.4415, -18.348877]
+        "coordinates": [240.4415, -18.348877],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -1358,7 +1497,7 @@
       },
       "bf2props": {
         "name": "ru_roadtank_08",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -1373,17 +1512,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-62.95163, -301.6441]
+        "coordinates": [-62.95163, -301.6441],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "31.031",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_southmain_artillery01",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1397,17 +1537,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-63.56456, -301.1142]
+        "coordinates": [-63.56456, -301.1142],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "31.031",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_southmain_artillery02",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1421,17 +1562,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-63.241745, -300.66095]
+        "coordinates": [-63.241745, -300.66095],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "31.031",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_southmain_artillery03",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1445,17 +1587,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-62.722244, -301.16382]
+        "coordinates": [-62.722244, -301.16382],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "31.031",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_southmain_artillery04",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1469,17 +1612,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-62.95575, -300.87738]
+        "coordinates": [-62.95575, -300.87738],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "31.031",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_southmain_artillery05",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1493,17 +1637,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-63.229996, -301.21405]
+        "coordinates": [-63.229996, -301.21405],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "31.031",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_southmain_artillery06",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -1517,17 +1662,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [323.31982, 113.026505]
+        "coordinates": [323.31982, 113.026505],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-160.069",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_artillery01",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1541,17 +1687,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [323.02808, 112.344376]
+        "coordinates": [323.02808, 112.344376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-160.069",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_artillery02",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1565,17 +1712,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [322.5922, 112.61812]
+        "coordinates": [322.5922, 112.61812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-160.069",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_artillery03",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1589,17 +1737,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [323.44226, 112.140625]
+        "coordinates": [323.44226, 112.140625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-160.069",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_artillery04",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1613,17 +1762,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [323.08264, 113.255005]
+        "coordinates": [323.08264, 113.255005],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-160.069",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_artillery05",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1637,17 +1787,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [323.76093, 112.83537]
+        "coordinates": [323.76093, 112.83537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-160.069",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas64_northmain_artillery06",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -1655,6 +1806,654 @@
         "minspawn": "1800.0",
         "spawndelay": "true",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [234.36887, -48.5455],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about RU Airbase will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_northmain",
+        "class": "ControlPoint",
+        "name_object": "RU Airbase",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.29319, -187.28194],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Airbase will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_southmain",
+        "class": "ControlPoint",
+        "name_object": "PLA Airbase",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.76862, -35.27594],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about RU Firebase 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1northoutpost",
+        "class": "ControlPoint",
+        "name_object": "RU Firebase 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "111",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.79762, -33.215935],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel Bunker 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1tunnelbunker",
+        "class": "ControlPoint",
+        "name_object": "Tunnel Bunker 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "112",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.12268, -86.57637],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supply Bunker 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_2supplybunker",
+        "class": "ControlPoint",
+        "name_object": "Supply Bunker 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "113",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.65375, -130.55812],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Control Facility 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_2controlfacility",
+        "class": "ControlPoint",
+        "name_object": "Control Facility 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "115",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [191.32631, -164.3023],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Oil Refinery 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_2oilrefinery",
+        "class": "ControlPoint",
+        "name_object": "Oil Refinery 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "120",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.09156, -111.27818],
+        "size": [33, 33],
+        "radius": "10.9375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Oil Storage 175m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1oilstorage",
+        "class": "ControlPoint",
+        "name_object": "Oil Storage 175m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "122",
+        "sgid": "611",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.465126, -109.65881],
+        "size": [33, 33],
+        "radius": "10.9375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridges 175m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1bridges",
+        "class": "ControlPoint",
+        "name_object": "Bridges 175m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "123",
+        "sgid": "611",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.251, -136.08794],
+        "size": [33, 33],
+        "radius": "7.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Water Pumping Station 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1waterpumpingstation",
+        "class": "ControlPoint",
+        "name_object": "Water Pumping Station 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "125",
+        "sgid": "701",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.91975, -207.62286],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned Farm 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_2abandonedfarm",
+        "class": "ControlPoint",
+        "name_object": "Abandoned Farm 200m",
+        "team": "0",
+        "areavalue1": "90.0",
+        "areavalue2": "0.0",
+        "cpid": "132",
+        "sgid": "702",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.88019, -192.88412],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Outpost 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_2oldoutpost",
+        "class": "ControlPoint",
+        "name_object": "Old Outpost 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "137",
+        "sgid": "602",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.20344, -71.72513],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Northern Suburbs 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1northernsuburbs",
+        "class": "ControlPoint",
+        "name_object": "Northern Suburbs 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "140",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.339874, -65.161125],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North West Suburbs 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1northwestsuburbs",
+        "class": "ControlPoint",
+        "name_object": "North West Suburbs 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "143",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.843376, -88.67544],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1westcity",
+        "class": "ControlPoint",
+        "name_object": "South City 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "146",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.97394, -89.473],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Commercial District 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1commercialdistrict",
+        "class": "ControlPoint",
+        "name_object": "Commercial District 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "149",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.44931, -82.4205],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Military Base 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1militarybase",
+        "class": "ControlPoint",
+        "name_object": "Military Base 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "152",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.86412, -83.08006],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "155",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.59125, -73.185684],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1citycenter",
+        "class": "ControlPoint",
+        "name_object": "City Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "90.0",
+        "cpid": "158",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.228745, -79.91087],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1constructionsite",
+        "class": "ControlPoint",
+        "name_object": "Construction Site 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "161",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.36025, -186.55644],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Firebase 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1southoutpost",
+        "class": "ControlPoint",
+        "name_object": "PLA Firebase 75m",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "164",
+        "sgid": "9",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.393, -68.07919],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Peak 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1northpeak",
+        "class": "ControlPoint",
+        "name_object": "North Peak 150m",
+        "team": "1",
+        "areavalue1": "90.0",
+        "areavalue2": "0.0",
+        "cpid": "302",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.05519, -161.75107],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Peak 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_1southpeak",
+        "class": "ControlPoint",
+        "name_object": "South Peak 150m",
+        "team": "2",
+        "areavalue1": "90.0",
+        "areavalue2": "0.0",
+        "cpid": "303",
+        "sgid": "801",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.72525, -148.89551],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Peak 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_aas64_2southpeak",
+        "class": "ControlPoint",
+        "name_object": "South Peak 150m",
+        "team": "2",
+        "areavalue1": "90.0",
+        "areavalue2": "0.0",
+        "cpid": "301",
+        "sgid": "802",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

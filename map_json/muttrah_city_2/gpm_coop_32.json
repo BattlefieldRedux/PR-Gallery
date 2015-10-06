@@ -1,21 +1,59 @@
 {
+  "team1":"mec",
+  "team2":"us",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_muttrah_city_2_coop32_mecbase"
+      ],
+      [
+        "cpname_muttrah_city_2_coop32_fort"
+      ],
+      [
+        "cpname_muttrah_city_2_coop32_park",
+        "cpname_muttrah_city_2_coop32_market"
+      ],
+      [
+        "cpname_muttrah_city_2_coop32_suburbs",
+        "cpname_muttrah_city_2_coop32_mosque"
+      ],
+      [
+        "cpname_muttrah_city_2_coop32_consite",
+        "cpname_muttrah_city_2_coop32_westcity"
+      ],
+      [
+        "cpname_muttrah_city_2_coop32_northcity"
+      ],
+      [
+        "cpname_muttrah_city_2_coop32_usdocks"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.375, -113.5]
+        "coordinates": [90.375, -113.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_usa_vehicle_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -29,17 +67,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.5, -110.25]
+        "coordinates": [90.5, -110.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_lavc2 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_us_command_post",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_lavc2",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_lavc2",
@@ -53,7 +92,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.375, -117.0]
+        "coordinates": [86.375, -117.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -62,7 +102,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_us_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV-25",
         "team": "2",
         "obj1": "null",
@@ -77,7 +117,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.375, -115.5]
+        "coordinates": [86.375, -115.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -86,7 +127,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_1_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV-25",
         "team": "2",
         "obj1": "null",
@@ -101,7 +142,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.375, -114.0]
+        "coordinates": [86.375, -114.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -110,7 +152,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV-25",
         "team": "2",
         "obj1": "null",
@@ -125,7 +167,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -110.0]
+        "coordinates": [85.375, -110.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -134,7 +177,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_j",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW",
         "team": "2",
         "obj1": "null",
@@ -149,7 +192,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -109.5]
+        "coordinates": [85.375, -109.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -158,7 +202,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_j_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMWV",
         "team": "2",
         "obj1": "null",
@@ -173,7 +217,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -109.0]
+        "coordinates": [85.375, -109.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -182,7 +227,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_j_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMWV",
         "team": "2",
         "obj1": "null",
@@ -197,7 +242,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -108.5]
+        "coordinates": [85.375, -108.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -206,7 +252,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_t",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -221,17 +267,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [142.125, -251.875]
+        "coordinates": [142.125, -251.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_mec_command_post",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mec_acv_btr60pu",
         "obj2": "null",
@@ -245,17 +292,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [142.625, -243.875]
+        "coordinates": [142.625, -243.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_vh",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -269,7 +317,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [134.27037, -246.83087]
+        "coordinates": [134.27037, -246.83087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -278,7 +327,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_westcity_mec_ifv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2_bf2",
@@ -293,7 +342,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.0, -245.75]
+        "coordinates": [135.0, -245.75],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -302,7 +352,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_b2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -317,7 +367,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.75, -244.125]
+        "coordinates": [136.75, -244.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -326,7 +377,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_e",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "mec_apc_bmp2",
@@ -341,7 +392,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.5, -241.125]
+        "coordinates": [139.5, -241.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -350,7 +402,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MT-LB 6MA",
         "team": "1",
         "obj1": "mec_apc_mtlb_30mm_bf2",
@@ -365,7 +417,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.54774, -236.13525]
+        "coordinates": [140.54774, -236.13525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -374,7 +427,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_car",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -389,7 +442,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.25, -246.375]
+        "coordinates": [140.25, -246.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -398,7 +452,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_car_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -413,7 +467,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.25, -245.375]
+        "coordinates": [139.25, -245.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -422,7 +477,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_tr",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -437,7 +492,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [132.53862, -235.6995]
+        "coordinates": [132.53862, -235.6995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -446,7 +502,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_zpu",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -461,7 +517,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.49812, -236.6485]
+        "coordinates": [140.49812, -236.6485],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -470,7 +527,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_uaz",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -485,7 +542,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.64713, -250.41737]
+        "coordinates": [140.64713, -250.41737],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -494,7 +552,7 @@
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -503,6 +561,276 @@
         "minspawn": "120.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.25, -236.25],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_mecbase",
+        "class": "ControlPoint",
+        "name_object": "MEC Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "222.0",
+        "cpid": "207",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.125, -202.5],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fort 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_fort",
+        "class": "ControlPoint",
+        "name_object": "Fort 30m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "55.0",
+        "cpid": "208",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.875, -231.75],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Park 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_park",
+        "class": "ControlPoint",
+        "name_object": "Park 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "55.0",
+        "cpid": "209",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.5, -206.625],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_market",
+        "class": "ControlPoint",
+        "name_object": "Market 30m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "210",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.875, -214.0],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "211",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [64.25, -184.875],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "212",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.5, -185.75],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_consite",
+        "class": "ControlPoint",
+        "name_object": "Construction Site 40m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "213",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.875, -166.125],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West City 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_westcity",
+        "class": "ControlPoint",
+        "name_object": "West City 35m",
+        "team": "0",
+        "areavalue1": "55.0",
+        "areavalue2": "0.0",
+        "cpid": "214",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.625, -128.125],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_northcity",
+        "class": "ControlPoint",
+        "name_object": "North City 35m",
+        "team": "2",
+        "areavalue1": "55.0",
+        "areavalue2": "0.0",
+        "cpid": "215",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.5, -119.375],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Docks will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_usdocks",
+        "class": "ControlPoint",
+        "name_object": "US Docks",
+        "team": "2",
+        "areavalue1": "222.0",
+        "areavalue2": "0.0",
+        "cpid": "216",
+        "sgid": "7",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
       }
     }
   ]

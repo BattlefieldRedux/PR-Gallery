@@ -1,11 +1,37 @@
 {
+  "team1":"mec",
+  "team2":"usa",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"1000",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kashan_desert_skirmish16_mecmain"
+      ],
+      [
+        "cpname_kashan_desert_skirmish16_bunkersouth"
+      ],
+      [
+        "cpname_kashan_desert_skirmish16_bunkernorth"
+      ],
+      [
+        "cpname_kashan_desert_skirmish16_usmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.82331, -131.27538]
+        "coordinates": [92.82331, -131.27538],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [104.04594, -86.84381]
+        "coordinates": [104.04594, -86.84381],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "crate_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -53,7 +80,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [87.62575, -136.4248]
+        "coordinates": [87.62575, -136.4248],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +90,7 @@
       },
       "bf2props": {
         "name": "cpname_kashan_desert_skirmish16_mecmain_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -77,7 +105,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.74869, -81.53963]
+        "coordinates": [103.74869, -81.53963],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +115,7 @@
       },
       "bf2props": {
         "name": "cpname_kashan_desert_skirmish16_usmain_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -95,6 +124,114 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.74644, -130.31094],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_skirmish16_mecmain",
+        "class": "ControlPoint",
+        "name_object": "MEC Operations Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.43732, -124.720375],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_skirmish16_bunkersouth",
+        "class": "ControlPoint",
+        "name_object": "South Bunker",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.58406, -97.03432],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_skirmish16_bunkernorth",
+        "class": "ControlPoint",
+        "name_object": "North Bunker",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.187126, -85.79669],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Army Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_skirmish16_usmain",
+        "class": "ControlPoint",
+        "name_object": "US Army Operations Base",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

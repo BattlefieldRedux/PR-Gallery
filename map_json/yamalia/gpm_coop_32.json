@@ -1,11 +1,46 @@
 {
+  "team1":"ru",
+  "team2":"cf",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_yamalia_coop32_russianhq"
+      ],
+      [
+        "cpname_yamalia_coop32_objectiveanna"
+      ],
+      [
+        "cpname_yamalia_coop32_objectiveboris"
+      ],
+      [
+        "cpname_yamalia_coop32_objectivecharlie"
+      ],
+      [
+        "cpname_yamalia_coop32_objectivedmitri"
+      ],
+      [
+        "cpname_yamalia_coop32_objectiveelena"
+      ],
+      [
+        "cpname_yamalia_coop32_canadianhq"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.04019, -233.58032]
+        "coordinates": [245.04019, -233.58032],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -14,7 +49,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -29,7 +64,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.79337, -232.83163]
+        "coordinates": [243.79337, -232.83163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -38,7 +74,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_trans_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-28N Havoc",
         "team": "1",
         "obj1": "ru_ahe_havoc",
@@ -53,7 +89,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.9765, -232.18869]
+        "coordinates": [245.9765, -232.18869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -62,7 +99,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_trans_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -77,7 +114,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.72806, -236.69812]
+        "coordinates": [240.72806, -236.69812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -86,7 +124,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_lav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a_bf2",
@@ -101,17 +139,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.32318, -235.9895]
+        "coordinates": [238.32318, -235.9895],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -125,7 +164,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.27194, -237.97311]
+        "coordinates": [240.27194, -237.97311],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -134,7 +174,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_lav_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -149,7 +189,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.99957, -238.039]
+        "coordinates": [239.99957, -238.039],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -158,7 +199,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_lav_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -173,7 +214,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.80557, -237.56882]
+        "coordinates": [241.80557, -237.56882],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -182,7 +224,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P148 Spandrel",
         "team": "1",
         "obj1": "ru_atm_spandrel",
@@ -197,7 +239,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.85693, -237.85269]
+        "coordinates": [240.85693, -237.85269],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -206,7 +249,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -221,7 +264,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.04607, -237.79607]
+        "coordinates": [241.04607, -237.79607],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -230,7 +274,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -245,7 +289,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.607, -237.62813]
+        "coordinates": [241.607, -237.62813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -254,7 +299,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P148 Spandrel",
         "team": "1",
         "obj1": "ru_atm_spandrel",
@@ -269,7 +314,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.99112, -236.67438]
+        "coordinates": [240.99112, -236.67438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -278,7 +324,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_coyote",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a_bf2",
@@ -293,7 +339,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.40988, -229.35706]
+        "coordinates": [245.40988, -229.35706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -302,7 +349,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_trans_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-28N Havoc",
         "team": "1",
         "obj1": "ru_ahe_havoc_sp",
@@ -317,7 +364,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.894684, -156.57487]
+        "coordinates": [13.894684, -156.57487],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -326,7 +374,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -341,7 +389,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.877815, -156.21231]
+        "coordinates": [13.877815, -156.21231],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -350,7 +399,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -365,7 +414,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.862503, -155.88132]
+        "coordinates": [13.862503, -155.88132],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -374,7 +424,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -389,7 +439,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.846565, -155.53925]
+        "coordinates": [13.846565, -155.53925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -398,7 +449,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_tank_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -413,7 +464,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.9520035, -157.74905]
+        "coordinates": [13.9520035, -157.74905],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -422,7 +474,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -437,7 +489,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.912689, -156.90318]
+        "coordinates": [13.912689, -156.90318],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -446,7 +499,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -461,7 +514,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.925934, -157.187]
+        "coordinates": [13.925934, -157.187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -470,7 +524,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -485,7 +539,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.939247, -157.47287]
+        "coordinates": [13.939247, -157.47287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -494,7 +549,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_apc_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -509,17 +564,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.563126, -155.9745]
+        "coordinates": [15.563126, -155.9745],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about cf_acv_lav3cpv will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_acv",
-        "class": "ObjectPlacement",
-        "name_object": "cf_acv_lav3cpv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "cf_acv_lav3cpv",
@@ -533,7 +589,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.81476, -235.83887]
+        "coordinates": [241.81476, -235.83887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -542,7 +599,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_logi_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -557,7 +614,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.58469, -235.88687]
+        "coordinates": [241.58469, -235.88687],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -566,7 +624,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_logi_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -581,7 +639,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.20694, -153.73724]
+        "coordinates": [15.20694, -153.73724],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -590,7 +649,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -605,7 +664,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.98819, -153.87025]
+        "coordinates": [14.98819, -153.87025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -614,7 +674,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -629,7 +689,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.4053, -237.68869]
+        "coordinates": [241.4053, -237.68869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -638,7 +699,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_atv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -653,7 +714,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.2285, -237.7415]
+        "coordinates": [241.2285, -237.7415],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -662,7 +724,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_russianhq_atv_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2",
@@ -677,7 +739,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.772125, -154.00357]
+        "coordinates": [14.772125, -154.00357],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -686,7 +749,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_logi_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -701,7 +764,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.553375, -154.13657]
+        "coordinates": [14.553375, -154.13657],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -710,7 +774,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_logi_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -725,17 +789,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-50.00525, -158.45187]
+        "coordinates": [-50.00525, -158.45187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -749,17 +814,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-50.79431, -158.294]
+        "coordinates": [-50.79431, -158.294],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_arty_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -773,17 +839,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-50.600067, -157.06075]
+        "coordinates": [-50.600067, -157.06075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_arty_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -797,17 +864,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-50.47632, -159.90643]
+        "coordinates": [-50.47632, -159.90643],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_canadianhq_arty_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -815,6 +883,195 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.21326, -235.567],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Forward Operating Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_russianhq",
+        "class": "ControlPoint",
+        "name_object": "Russian Forward Operating Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.05412, -232.9745],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Anna 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_objectiveanna",
+        "class": "ControlPoint",
+        "name_object": "Objective Anna 100m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "99999.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.13625, -190.94525],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Boris 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_objectiveboris",
+        "class": "ControlPoint",
+        "name_object": "Objective Boris 100m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.11625, -188.17462],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Cheslav 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_objectivecharlie",
+        "class": "ControlPoint",
+        "name_object": "Objective Cheslav 100m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.215126, -131.52094],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Dimitri 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_objectivedmitri",
+        "class": "ControlPoint",
+        "name_object": "Objective Dimitri 100m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "5",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.1065, -161.36394],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_yamalia_coop32_objectiveelena will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_objectiveelena",
+        "class": "ControlPoint",
+        "name_object": "cpname_yamalia_coop32_objectiveelena",
+        "team": "0",
+        "areavalue1": "99999.0",
+        "areavalue2": "30.0",
+        "cpid": "6",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.325378, -158.42676],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Canadian Task Force will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_canadianhq",
+        "class": "ControlPoint",
+        "name_object": "Canadian Task Force",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

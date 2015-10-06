@@ -1,21 +1,52 @@
 {
+  "team1":"ch",
+  "team2":"usa",
+  "team1tickets":"200",
+  "team2tickets":"200",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_qwai1_coop16_pladeployment"
+      ],
+      [
+        "cpname_qwai1_coop16_gasstaion",
+        "cpname_qwai1_coop16_market"
+      ],
+      [
+        "cpname_qwai1_coop16_governmentoffice"
+      ],
+      [
+        "cpname_qwai1_coop16_harbour",
+        "cpname_qwai1_coop16_northvillage"
+      ],
+      [
+        "cpname_qwai1_coop16_uscompound"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.19525, -84.93437]
+        "coordinates": [176.19525, -84.93437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_stryker will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop16_uscompound_acv",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_stryker",
@@ -29,17 +60,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.97238, -176.89325]
+        "coordinates": [137.97238, -176.89325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop16_pladeployment_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -47,6 +79,195 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.01025, -87.20675],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Army Compound will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_uscompound",
+        "class": "ControlPoint",
+        "name_object": "US Army Compound",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "30.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.2175, -115.844376],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Harbour will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_harbour",
+        "class": "ControlPoint",
+        "name_object": "Harbour",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.16188, -146.52374],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Government Office will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_governmentoffice",
+        "class": "ControlPoint",
+        "name_object": "Government Office",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [156.06912, -127.077],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Jiangmen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_northvillage",
+        "class": "ControlPoint",
+        "name_object": "North Jiangmen",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.00188, -169.16075],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_gasstaion",
+        "class": "ControlPoint",
+        "name_object": "Gas Station",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.06674, -175.31638],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Staging Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_pladeployment",
+        "class": "ControlPoint",
+        "name_object": "PLA Staging Area",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "6",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "30.0",
+        "ttlc": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.64912, -159.147],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop16_market",
+        "class": "ControlPoint",
+        "name_object": "Market",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
       }
     }
   ]

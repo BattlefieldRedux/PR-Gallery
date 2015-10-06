@@ -1,5 +1,138 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusa",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"1024",
+  "viewdistance":"400",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_hill_488_skirmish16_munitionsdump"
+      ],
+      [
+        "cpname_hill_488_skirmish16_eastbank"
+      ],
+      [
+        "cpname_hill_488_skirmish16_fishingport"
+      ],
+      [
+        "cpname_hill_488_skirmish16_communications"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.971, -107.47325],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Communications 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_skirmish16_communications",
+        "class": "ControlPoint",
+        "name_object": "Communications 50m",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "301",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.1085, -107.15275],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fishing Port 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_skirmish16_fishingport",
+        "class": "ControlPoint",
+        "name_object": "Fishing Port 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "302",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.34575, -194.5285],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Munitions Dump 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_skirmish16_munitionsdump",
+        "class": "ControlPoint",
+        "name_object": "Munitions Dump 50m",
+        "team": "1",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "303",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.90275, -168.005],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Bank 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_skirmish16_eastbank",
+        "class": "ControlPoint",
+        "name_object": "East Bank 50m",
+        "team": "0",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "304",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    }
   ]
 }

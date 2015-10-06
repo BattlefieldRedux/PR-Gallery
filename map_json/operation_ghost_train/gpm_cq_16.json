@@ -1,11 +1,41 @@
 {
+  "team1":"ch",
+  "team2":"gb",
+  "team1tickets":"350",
+  "team2tickets":"350",
+  "mapsize":"1024",
+  "viewdistance":"325",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_ghost_train_aas16_reconpost"
+      ],
+      [
+        "cpname_operation_ghost_train_aas16_trench"
+      ],
+      [
+        "cpname_operation_ghost_train_aas16_nbridge",
+        "cpname_operation_ghost_train_aas16_sbridge"
+      ],
+      [
+        "cpname_operation_ghost_train_aas16_tunnel"
+      ],
+      [
+        "cpname_operation_ghost_train_aas16_farm"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [170.023, -203.0105]
+        "coordinates": [170.023, -203.0105],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -14,9 +44,9 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas64_train_objective_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "obj_staticvehicle_type95",
-        "team": "-999",
+        "team": "1",
         "obj1": "obj_staticvehicle_type95",
         "obj2": "obj_staticvehicle_type95",
         "maxspawn": "999999.0",
@@ -29,7 +59,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.22125, -200.77701]
+        "coordinates": [169.22125, -200.77701],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -38,9 +69,9 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas64_train_objective_mbt",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "obj_staticvehicle_type98",
-        "team": "-999",
+        "team": "1",
         "obj1": "obj_staticvehicle_type98",
         "obj2": "obj_staticvehicle_type98",
         "maxspawn": "999999.0",
@@ -53,7 +84,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [168.477, -198.7625]
+        "coordinates": [168.477, -198.7625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -62,9 +94,9 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas64_train_objective_mbt2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "obj_staticvehicle_type98_2",
-        "team": "-999",
+        "team": "1",
         "obj1": "obj_staticvehicle_type98_2",
         "obj2": "obj_staticvehicle_type98_2",
         "maxspawn": "999999.0",
@@ -77,7 +109,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [170.7015, -204.823]
+        "coordinates": [170.7015, -204.823],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -86,9 +119,9 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas64_train_objective_aav2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "obj_staticvehicle_type95",
-        "team": "-999",
+        "team": "1",
         "obj1": "obj_staticvehicle_type95",
         "obj2": "obj_staticvehicle_type95",
         "maxspawn": "999999.0",
@@ -101,7 +134,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.544746, -24.64125]
+        "coordinates": [29.544746, -24.64125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -110,7 +144,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_farm_ch_gb_lightjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -125,7 +159,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.095, -27.940002]
+        "coordinates": [36.095, -27.940002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +169,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_farm_ch_gb_heavyjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -149,17 +184,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.79675, -188.22874]
+        "coordinates": [161.79675, -188.22874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "40.592",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_ch_gb_smg",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "gb_bipod",
@@ -173,17 +209,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [161.41675, -189.80951]
+        "coordinates": [161.41675, -189.80951],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "126.767",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_ch_gb_smg_0",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "gb_bipod",
@@ -197,7 +234,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.165253, -187.32849]
+        "coordinates": [43.165253, -187.32849],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -206,7 +244,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_ch_gb_spdboat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_pkp",
@@ -221,7 +259,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.6445, -213.95125]
+        "coordinates": [97.6445, -213.95125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -230,7 +269,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_heavyjeep2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "ch_jep_uaz",
@@ -245,17 +284,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.02725, -221.20801]
+        "coordinates": [177.02725, -221.20801],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "72.498",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_ch_gb_smg_1",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "gb_bipod",
@@ -269,17 +309,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.337, -221.32526]
+        "coordinates": [176.337, -221.32526],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-113.143",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_ch_gb_smg_2",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "gb_bipod",
@@ -293,7 +334,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [205.308, -191.634]
+        "coordinates": [205.308, -191.634],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -302,7 +344,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_ch_gb_art",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ars_d30",
         "team": "1",
         "obj1": "ars_d30",
@@ -317,7 +359,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [205.33176, -190.14525]
+        "coordinates": [205.33176, -190.14525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -326,7 +369,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_ch_gb_art_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ars_d30",
         "team": "1",
         "obj1": "ars_d30",
@@ -341,7 +384,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.564499, -26.667252]
+        "coordinates": [26.564499, -26.667252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -350,7 +394,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_farm_ch_uk_lightjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -365,7 +409,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.7115, -208.094]
+        "coordinates": [98.7115, -208.094],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -374,7 +419,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_ch_uk_lightjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "1",
         "obj1": "ch_jep_paratrooper",
@@ -389,17 +434,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.67075, -198.87875]
+        "coordinates": [202.67075, -198.87875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_trench_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ch_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ch_placeable",
         "obj2": "null",
@@ -413,17 +459,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.85625, -47.905746]
+        "coordinates": [101.85625, -47.905746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_gb_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_tunnel_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_gb_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_gb_placeable",
@@ -437,17 +484,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.541496, -192.202]
+        "coordinates": [45.541496, -192.202],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ch_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_rallypoint",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ch_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ch_placeable",
         "obj2": "null",
@@ -461,7 +509,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.16475, -212.595]
+        "coordinates": [95.16475, -212.595],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -470,7 +519,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_gb_ch_suporttruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -485,17 +534,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.2265, -22.045753]
+        "coordinates": [37.2265, -22.045753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_farm_cp",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -509,17 +559,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.66575, -212.0505]
+        "coordinates": [91.66575, -212.0505],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_cp",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -533,17 +584,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.00525, -28.705002]
+        "coordinates": [43.00525, -28.705002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_farm_gb_vehicledeport",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -557,17 +609,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.67025, -212.8905]
+        "coordinates": [102.67025, -212.8905],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_ch_vehicledeport",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -581,7 +634,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.76625, -32.32875]
+        "coordinates": [38.76625, -32.32875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -590,7 +644,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_farm_gb_jeep_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -605,7 +659,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.211, -213.92575]
+        "coordinates": [99.211, -213.92575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -614,7 +669,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_aas16_reconpost_ch_jeep_light",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "1",
         "obj1": "ch_jep_paratrooper",
@@ -623,6 +678,168 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.007248, -27.98825],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Farm Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_aas16_farm",
+        "class": "ControlPoint",
+        "name_object": "British Farm Outpost",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "40.0",
+        "cpid": "501",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.59175, -74.458],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel 10m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_aas16_tunnel",
+        "class": "ControlPoint",
+        "name_object": "Tunnel 10m",
+        "team": "2",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "502",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [179.76074, -65.700745],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge 25m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_aas16_nbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge 25m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "504",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.476, -121.55325],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge 20m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_aas16_sbridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge 20m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "505",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.1835, -192.0055],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trenches 25m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_aas16_trench",
+        "class": "ControlPoint",
+        "name_object": "Trenches 25m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "506",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.4955, -211.7935],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Recon Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_aas16_reconpost",
+        "class": "ControlPoint",
+        "name_object": "PLA Recon Outpost",
+        "team": "1",
+        "areavalue1": "40.0",
+        "areavalue2": "1000.0",
+        "cpid": "507",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

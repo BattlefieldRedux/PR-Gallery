@@ -1,11 +1,139 @@
 {
+  "team1":"nl",
+  "team2":"ru",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_dovre_aas128_hv05"
+      ],
+      [
+        "cpname_dovre_aas128_station_1"
+      ],
+      [
+        "cpname_dovre_aas128_east_city_1"
+      ],
+      [
+        "cpname_dovre_aas128_north_fields_1"
+      ],
+      [
+        "cpname_dovre_aas128_radar_station_1"
+      ],
+      [
+        "cpname_dovre_aas128_west_fields_1"
+      ],
+      [
+        "cpname_dovre_aas128_rusmain"
+      ]
+    ],
+    [
+      [
+        "cpname_dovre_aas128_hv05"
+      ],
+      [
+        "cpname_dovre_aas128_station_2"
+      ],
+      [
+        "cpname_dovre_aas128_city_center_2"
+      ],
+      [
+        "cpname_dovre_aas128_bridges_2"
+      ],
+      [
+        "cpname_dovre_aas128_north_west_fields_2"
+      ],
+      [
+        "cpname_dovre_aas128_radar_station_2"
+      ],
+      [
+        "cpname_dovre_aas128_rusmain"
+      ]
+    ],
+    [
+      [
+        "cpname_dovre_aas128_hv05"
+      ],
+      [
+        "cpname_dovre_aas128_south_city_3"
+      ],
+      [
+        "cpname_dovre_aas128_hotel_3"
+      ],
+      [
+        "cpname_dovre_aas128_truck_stop_3"
+      ],
+      [
+        "cpname_dovre_aas128_freight_train_3"
+      ],
+      [
+        "cpname_dovre_aas128_fruit_farm_3"
+      ],
+      [
+        "cpname_dovre_aas128_rusmain"
+      ]
+    ],
+    [
+      [
+        "cpname_dovre_aas128_hv05"
+      ],
+      [
+        "cpname_dovre_aas128_aparments_4"
+      ],
+      [
+        "cpname_dovre_aas128_city_center_4"
+      ],
+      [
+        "cpname_dovre_aas128_factory_4"
+      ],
+      [
+        "cpname_dovre_aas128_little_valley_4"
+      ],
+      [
+        "cpname_dovre_aas128_fruit_farm_4"
+      ],
+      [
+        "cpname_dovre_aas128_rusmain"
+      ]
+    ],
+    [
+      [
+        "cpname_dovre_aas128_hv05"
+      ],
+      [
+        "cpname_dovre_aas128_station_5"
+      ],
+      [
+        "cpname_dovre_aas128_apartments_5"
+      ],
+      [
+        "cpname_dovre_aas128_cabins_5",
+        "cpname_dovre_aas128_delta_5"
+      ],
+      [
+        "cpname_dovre_aas128_south_farm_5"
+      ],
+      [
+        "cpname_dovre_aas128_european_road_6_5"
+      ],
+      [
+        "cpname_dovre_aas128_rusmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.64337, -246.89975]
+        "coordinates": [190.64337, -246.89975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -14,7 +142,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ca_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "1",
         "obj1": "nl_jep_gwagon_support",
@@ -29,7 +157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.69576, -245.86938]
+        "coordinates": [185.69576, -245.86938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -38,7 +167,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YA 4440",
         "team": "1",
         "obj1": "nl_trk_support",
@@ -53,7 +182,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.6735, -245.43387]
+        "coordinates": [190.6735, -245.43387],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -62,7 +192,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_jeep2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "1",
         "obj1": "nl_jep_gwagon_support",
@@ -77,7 +207,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.00212, -244.92163]
+        "coordinates": [184.00212, -244.92163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +217,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_logistics",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YAC-2300",
         "team": "1",
         "obj1": "nl_trk_logistics",
@@ -101,7 +232,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.744, -250.84688]
+        "coordinates": [182.744, -250.84688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -110,7 +242,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_mg3",
@@ -125,17 +257,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.7575, -251.51086]
+        "coordinates": [184.7575, -251.51086],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_nl_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_nl_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_nl_placeable_noexpire",
         "obj2": "null",
@@ -149,7 +282,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.9588776, -79.862]
+        "coordinates": [3.9588776, -79.862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -158,7 +292,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rus_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -173,7 +307,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.0237503, -80.24725]
+        "coordinates": [3.0237503, -80.24725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -182,7 +317,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rus_truck2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -197,7 +332,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.9818726, -78.90075]
+        "coordinates": [4.9818726, -78.90075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -206,7 +342,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rus_trucklogi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -221,17 +357,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.670372, -79.79425]
+        "coordinates": [11.670372, -79.79425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rus_rep",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ru",
@@ -245,17 +382,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.956749, -79.9975]
+        "coordinates": [13.956749, -79.9975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rus_com",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "ru_acv_btr60pu",
@@ -269,17 +407,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.00351, -242.944]
+        "coordinates": [183.00351, -242.944],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_nl will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_rep",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_nl",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_nl",
         "obj2": "null",
@@ -293,17 +432,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.49649, -240.16626]
+        "coordinates": [186.49649, -240.16626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about nl_acv_boxer will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_com",
-        "class": "ObjectPlacement",
-        "name_object": "nl_acv_boxer",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "nl_acv_boxer",
         "obj2": "null",
@@ -317,7 +457,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.18137, -245.87762]
+        "coordinates": [185.18137, -245.87762],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -326,7 +467,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_apc2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YA 4440",
         "team": "1",
         "obj1": "nl_trk_support",
@@ -341,7 +482,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.37387, -245.42862]
+        "coordinates": [184.37387, -245.42862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -350,7 +492,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_supply2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YAC-2300",
         "team": "1",
         "obj1": "nl_trk_logistics",
@@ -365,7 +507,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.36763, -240.59825]
+        "coordinates": [184.36763, -240.59825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -374,7 +517,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_apc3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Leopard 2A6",
         "team": "1",
         "obj1": "nl_tnk_leo2a6",
@@ -389,7 +532,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.381378, -79.529]
+        "coordinates": [10.381378, -79.529],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -398,7 +542,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "2",
         "obj1": "null",
@@ -413,17 +557,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.950623, -146.966]
+        "coordinates": [46.950623, -146.966],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "79.2",
-        "popupContent": "Amazing information about paradrop will be found here!"
+        "iconurl": "icons/player_map/mini_Squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_para",
-        "class": "ObjectPlacement",
-        "name_object": "paradrop",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
@@ -437,41 +582,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.073746, -146.709]
-      },
-      "properties": {
-        "iconurl": "",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about para_supply_crate will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas128_rusmain_para_crate",
-        "class": "ObjectPlacement",
-        "name_object": "para_supply_crate",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "para_supply_crate",
-        "maxspawn": "0.0",
-        "minspawn": "0.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [197.59387, -186.089]
+        "coordinates": [197.59387, -186.089],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_nl_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_rally_exp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_nl_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_nl_placeable",
         "obj2": "null",
@@ -485,7 +607,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.9781265, -79.22488]
+        "coordinates": [3.9781265, -79.22488],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -494,7 +617,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_supply_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -509,7 +632,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8787537, -79.529625]
+        "coordinates": [4.8787537, -79.529625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -518,7 +642,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_trans_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -533,17 +657,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.0166245, -78.41388]
+        "coordinates": [3.0166245, -78.41388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ru_placeable_noexpire",
@@ -557,17 +682,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-27.71762, -12.374123]
+        "coordinates": [-27.71762, -12.374123],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_art_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -581,17 +707,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-26.89, -12.558876]
+        "coordinates": [-26.89, -12.558876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_art_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -605,17 +732,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-25.74437, -12.766129]
+        "coordinates": [-25.74437, -12.766129],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_art_3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -629,17 +757,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-25.149368, -13.032501]
+        "coordinates": [-25.149368, -13.032501],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_art_4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -653,17 +782,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [260.15363, -288.03525]
+        "coordinates": [260.15363, -288.03525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_art_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -677,17 +807,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [261.05588, -288.11664]
+        "coordinates": [261.05588, -288.11664],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_art_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -701,17 +832,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [262.11285, -288.20776]
+        "coordinates": [262.11285, -288.20776],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_art_3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -725,17 +857,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [262.74612, -288.1999]
+        "coordinates": [262.74612, -288.1999],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_art_4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -749,7 +882,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.510246, -79.46887]
+        "coordinates": [9.510246, -79.46887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -758,7 +892,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_apc_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80",
         "team": "2",
         "obj1": "null",
@@ -773,17 +907,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.723373, -54.311752]
+        "coordinates": [56.723373, -54.311752],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about paradrop will be found here!"
+        "iconurl": "icons/player_map/mini_Squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_para2",
-        "class": "ObjectPlacement",
-        "name_object": "paradrop",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
@@ -797,7 +932,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.5185, -240.87813]
+        "coordinates": [183.5185, -240.87813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -806,7 +942,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_ger_apc_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Boxer PWV",
         "team": "1",
         "obj1": "nl_apc_boxer",
@@ -821,7 +957,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.0702515, -80.56875]
+        "coordinates": [2.0702515, -80.56875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -830,7 +967,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_truck4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -845,7 +982,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.802124, -79.1705]
+        "coordinates": [5.802124, -79.1705],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -854,7 +992,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_truck5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -869,7 +1007,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.18137, -245.8815]
+        "coordinates": [186.18137, -245.8815],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -878,7 +1017,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_truck7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YA 4440",
         "team": "1",
         "obj1": "nl_trk_support",
@@ -893,7 +1032,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.64925, -248.276]
+        "coordinates": [190.64925, -248.276],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -902,7 +1042,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_car3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Fennek VWWRN",
         "team": "1",
         "obj1": "nl_jep_fennek",
@@ -917,7 +1057,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.58438, -243.70187]
+        "coordinates": [183.58438, -243.70187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -926,7 +1067,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_logi3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YAC-2300",
         "team": "1",
         "obj1": "nl_trk_logistics",
@@ -941,7 +1082,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.68124, -251.94087]
+        "coordinates": [183.68124, -251.94087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -950,7 +1092,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_hv05_rib2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_mg3",
@@ -965,7 +1107,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.355499, -85.4245]
+        "coordinates": [9.355499, -85.4245],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -974,7 +1117,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rib1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -989,7 +1132,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.699623, -85.4975]
+        "coordinates": [7.699623, -85.4975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -998,7 +1142,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_rib2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -1013,7 +1157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.1627502, -79.92825]
+        "coordinates": [2.1627502, -79.92825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1022,7 +1167,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_logi3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -1037,17 +1182,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.33175, -187.37025]
+        "coordinates": [94.33175, -187.37025],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "-25.179",
-        "popupContent": "Amazing information about paradrop will be found here!"
+        "iconurl": "icons/player_map/mini_Squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_para3",
-        "class": "ObjectPlacement",
-        "name_object": "paradrop",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
@@ -1061,17 +1207,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.55138, -67.9665]
+        "coordinates": [177.55138, -67.9665],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "-147.883",
-        "popupContent": "Amazing information about paradrop will be found here!"
+        "iconurl": "icons/player_map/mini_Squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas128_rusmain_ru_para4",
-        "class": "ObjectPlacement",
-        "name_object": "paradrop",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
@@ -1079,6 +1226,762 @@
         "minspawn": "9999.0",
         "spawndelay": "false",
         "ttl": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [185.88675, -241.20987],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/nl/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about HV 05 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_hv05",
+        "class": "ControlPoint",
+        "name_object": "HV 05",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.098503, -77.53763],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_rusmain",
+        "class": "ControlPoint",
+        "name_object": "Tunnel",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [205.21063, -186.86426],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Train Station 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_station_1",
+        "class": "ControlPoint",
+        "name_object": "Train Station 75m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "30.0",
+        "cpid": "102",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [223.87714, -132.986],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_east_city_1",
+        "class": "ControlPoint",
+        "name_object": "East City 100m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "103",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [187.85251, -91.788376],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Fields 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_north_fields_1",
+        "class": "ControlPoint",
+        "name_object": "North Fields 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "104",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.36662, -60.379128],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Radar Station 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_radar_station_1",
+        "class": "ControlPoint",
+        "name_object": "Radar Station 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "105",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.83975, -110.60013],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Fields 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_west_fields_1",
+        "class": "ControlPoint",
+        "name_object": "West Fields 90m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "50.0",
+        "cpid": "106",
+        "sgid": "601",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [205.18375, -187.18976],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Train Station 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_station_2",
+        "class": "ControlPoint",
+        "name_object": "Train Station 75m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "30.0",
+        "cpid": "107",
+        "sgid": "202",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [203.6365, -142.36426],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Center 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_city_center_2",
+        "class": "ControlPoint",
+        "name_object": "City Center 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "108",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [164.21713, -123.35863],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridges 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_bridges_2",
+        "class": "ControlPoint",
+        "name_object": "Bridges 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "109",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.40587, -78.013],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NW Fields 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_north_west_fields_2",
+        "class": "ControlPoint",
+        "name_object": "NW Fields 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "110",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.503876, -60.766502],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Radar Station 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_radar_station_2",
+        "class": "ControlPoint",
+        "name_object": "Radar Station 90m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "50.0",
+        "cpid": "111",
+        "sgid": "602",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.70363, -178.57526],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_south_city_3",
+        "class": "ControlPoint",
+        "name_object": "South City 75m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "30.0",
+        "cpid": "112",
+        "sgid": "203",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.46425, -146.5195],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_hotel_3",
+        "class": "ControlPoint",
+        "name_object": "Hotel 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "113",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.05838, -130.33362],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Truck Stop 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_truck_stop_3",
+        "class": "ControlPoint",
+        "name_object": "Truck Stop 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "114",
+        "sgid": "403",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.940125, -98.29337],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Freight Train 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_freight_train_3",
+        "class": "ControlPoint",
+        "name_object": "Freight Train 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "115",
+        "sgid": "503",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.728, -134.6585],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fruit Farm 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_fruit_farm_3",
+        "class": "ControlPoint",
+        "name_object": "Fruit Farm 75m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "50.0",
+        "cpid": "116",
+        "sgid": "603",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.102, -181.86224],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_aparments_4",
+        "class": "ControlPoint",
+        "name_object": "Apartments 75m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "30.0",
+        "cpid": "117",
+        "sgid": "204",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.6265, -145.90375],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Center 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_city_center_4",
+        "class": "ControlPoint",
+        "name_object": "City Center 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "118",
+        "sgid": "304",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.87149, -109.27487],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Factory 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_factory_4",
+        "class": "ControlPoint",
+        "name_object": "Factory 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "119",
+        "sgid": "404",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.22713, -99.17875],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Little Valley 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_little_valley_4",
+        "class": "ControlPoint",
+        "name_object": "Little Valley 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "120",
+        "sgid": "504",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.104126, -130.01462],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fruit Farm 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_fruit_farm_4",
+        "class": "ControlPoint",
+        "name_object": "Fruit Farm 75m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "50.0",
+        "cpid": "121",
+        "sgid": "604",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [205.5975, -187.6085],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Train Station 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_station_5",
+        "class": "ControlPoint",
+        "name_object": "Train Station 75m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "50.0",
+        "cpid": "122",
+        "sgid": "205",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.39912, -182.11224],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_apartments_5",
+        "class": "ControlPoint",
+        "name_object": "Apartments 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "123",
+        "sgid": "305",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.03075, -211.33788],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cabins 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_cabins_5",
+        "class": "ControlPoint",
+        "name_object": "Cabins 75m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "124",
+        "sgid": "415",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.34825, -167.09726],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Farm 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_south_farm_5",
+        "class": "ControlPoint",
+        "name_object": "South Farm 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "125",
+        "sgid": "505",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.41575, -119.49475],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about European Route 6 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_european_road_6_5",
+        "class": "ControlPoint",
+        "name_object": "European Route 6 75m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "50.0",
+        "cpid": "126",
+        "sgid": "605",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.8355, -161.808],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about River Delta 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas128_delta_5",
+        "class": "ControlPoint",
+        "name_object": "River Delta 90m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "127",
+        "sgid": "415",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,11 +1,43 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusa",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"1024",
+  "viewdistance":"400",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_hill_488_aas64_vcmain"
+      ],
+      [
+        "cpname_hill_488_aas64_westvillage"
+      ],
+      [
+        "cpname_hill_488_aas64_hill488"
+      ],
+      [
+        "cpname_hill_488_aas64_village"
+      ],
+      [
+        "cpname_hill_488_aas64_vcsupplyroute"
+      ],
+      [
+        "cpname_hill_488_aas64_usmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.697, -41.359]
+        "coordinates": [45.697, -41.359],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -14,7 +46,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_spdboat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.30725, -43.496246]
+        "coordinates": [47.30725, -43.496246],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat_medium.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_1_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Patrol Boat-River",
         "team": "2",
         "obj1": "null",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [158.563, -218.215]
+        "coordinates": [158.563, -218.215],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_heavyjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "nva_jep_uaz",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.40324, -219.129]
+        "coordinates": [157.40324, -219.129],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_0_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "nva_jep_uaz",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.4975, -208.6855]
+        "coordinates": [211.4975, -208.6855],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_sampan.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_spdboat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Sampan",
         "team": "1",
         "obj1": "vc_shp_sampan",
@@ -125,7 +161,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.17725, -207.3365]
+        "coordinates": [213.17725, -207.3365],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_sampan.png",
@@ -134,7 +171,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_0_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Sampan",
         "team": "1",
         "obj1": "vc_shp_sampan",
@@ -149,17 +186,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.64925, -30.32125]
+        "coordinates": [177.64925, -30.32125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_vnusa_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcsupplyroute_rpnoexpire",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_vnusa_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_vnusa_placeable",
@@ -173,17 +211,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [48.47825, -199.867]
+        "coordinates": [48.47825, -199.867],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_vnnva_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_westvillage_rpnoexpire",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_vnnva_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_vnnva_placeable",
         "obj2": "null",
@@ -197,7 +236,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [83.0605, -44.998253]
+        "coordinates": [83.0605, -44.998253],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -206,7 +246,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_suporttruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -221,7 +261,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [158.896, -216.41475]
+        "coordinates": [158.896, -216.41475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -230,7 +271,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_suporttruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIL 131",
         "team": "1",
         "obj1": "nva_trk_support",
@@ -245,7 +286,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [84.158005, -41.32425]
+        "coordinates": [84.158005, -41.32425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
@@ -254,7 +296,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_4_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M548A1",
         "team": "2",
         "obj1": "null",
@@ -269,7 +311,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [158.785, -214.6325]
+        "coordinates": [158.785, -214.6325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -278,7 +321,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_0_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIS-5V",
         "team": "1",
         "obj1": "nva_trk_zis5",
@@ -293,7 +336,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.0065, -40.68]
+        "coordinates": [80.0065, -40.68],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -302,7 +346,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M151A2",
         "team": "2",
         "obj1": "null",
@@ -317,7 +361,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.3155, -42.35]
+        "coordinates": [81.3155, -42.35],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -326,7 +371,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M151A2",
         "team": "2",
         "obj1": "null",
@@ -341,17 +386,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [82.364746, -47.9645]
+        "coordinates": [82.364746, -47.9645],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_us_vehicle_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -365,17 +411,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.68625, -216.1375]
+        "coordinates": [159.68625, -216.1375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_vnnva will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_vehicle_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_vnnva",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_vnnva",
         "obj2": "null",
@@ -389,7 +436,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.64626, -213.623]
+        "coordinates": [157.64626, -213.623],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +446,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIS-5V",
         "team": "1",
         "obj1": "nva_trk_zis5",
@@ -413,7 +461,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.569, -43.2135]
+        "coordinates": [88.569, -43.2135],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
@@ -422,7 +471,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_usmain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M548A1",
         "team": "2",
         "obj1": "null",
@@ -437,7 +486,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.7455, -210.44101]
+        "coordinates": [209.7455, -210.44101],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_sampan.png",
@@ -446,7 +496,7 @@
       },
       "bf2props": {
         "name": "cpname_hill_488_aas64_vcmain_sampan",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Sampan",
         "team": "1",
         "obj1": "vc_shp_sampan",
@@ -455,6 +505,168 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.6125, -122.27625],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village 45m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_village",
+        "class": "ControlPoint",
+        "name_object": "East Village 45m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.722, -38.1845],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_usmain",
+        "class": "ControlPoint",
+        "name_object": "US Camp",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "999999.0",
+        "ttlc": "999999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.920998, -195.4585],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Village 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_westvillage",
+        "class": "ControlPoint",
+        "name_object": "West Village 50m",
+        "team": "1",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.5745, -31.75425],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NVA Supply Route 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_vcsupplyroute",
+        "class": "ControlPoint",
+        "name_object": "NVA Supply Route 50m",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "200.0",
+        "cpid": "5",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.84074, -214.2785],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NVA Tunnels will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_vcmain",
+        "class": "ControlPoint",
+        "name_object": "NVA Tunnels",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "999999.0",
+        "ttlc": "999999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.95475, -107.71125],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill 488 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_hill488",
+        "class": "ControlPoint",
+        "name_object": "Hill 488 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

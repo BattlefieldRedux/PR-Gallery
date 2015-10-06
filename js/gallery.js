@@ -53,7 +53,6 @@ $(window).ready(function() {
 		var layouts = [];
 		var element = $(event.target).parent();
 		var mapcode = element.data('code');
-		loadMap(mapcode);
 
 		var mapname = element.data('name');
 		$('#Title').html(mapname);
@@ -75,7 +74,9 @@ $(window).ready(function() {
 		$('#RightPane').addClass('open');
 		$('#PRContainer').removeClass('hide');
 		$('#Assets-button').removeClass('hide');
+		$('#Assets-button').addClass('open');
 		$('.leaflet-control-layers.GM-button.hide').removeClass('hide');
+		loadMap(mapcode);
 		map._onResize();
 	});
 });
@@ -93,6 +94,7 @@ $(window).ready(function() {
 		$('#SubTitle').html('MapGallery');
 		$('#map').addClass('hide');
 		$('#Map-button').addClass('hide');
+		$('#MiddleHeader').addClass('hide');
 		$('#RightPane-button').addClass('hide');
 		$('#RightPane-button').removeClass('open');
 		$('#RightPane').removeClass('open');
@@ -104,7 +106,7 @@ $(window).ready(function() {
 		$('#Assets-button').addClass('hide');
 		$('.leaflet-control-layers.GM-button').addClass('hide');
 		document.getElementById('output').innerHTML = "";
-		document.getElementById('RightPane').innerHTML = "";
+		document.getElementById('RPane-content').innerHTML = "";
 	});
 });
 

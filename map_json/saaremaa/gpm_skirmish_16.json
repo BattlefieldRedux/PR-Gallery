@@ -1,11 +1,36 @@
 {
+  "team1":"ru",
+  "team2":"us",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"4096",
+  "viewdistance":"1000",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_saaremaa_skirmish16_rubase"
+      ],
+      [
+        "cpname_saaremaa_skirmish16_village",
+        "cpname_saaremaa_skirmish16_east",
+        "cpname_saaremaa_skirmish16_west"
+      ],
+      [
+        "cpname_saaremaa_skirmish16_usbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.5, -92.25]
+        "coordinates": [187.5, -92.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +39,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_skirmish16_rubase_ru_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +54,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [130.75, -100.25]
+        "coordinates": [130.75, -100.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +64,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_skirmish16_usbase_",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -47,6 +73,141 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.375, -92.375],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_skirmish16_rubase",
+        "class": "ControlPoint",
+        "name_object": "Russian Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "501",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.125, -97.25],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_skirmish16_village",
+        "class": "ControlPoint",
+        "name_object": "Village 75m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "502",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.5, -110.75],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Objective 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_skirmish16_east",
+        "class": "ControlPoint",
+        "name_object": "South Objective 75m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "503",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [156.875, -84.375],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Objective 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_skirmish16_west",
+        "class": "ControlPoint",
+        "name_object": "North Objective 75m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "504",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.75, -100.0],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_skirmish16_usbase",
+        "class": "ControlPoint",
+        "name_object": "US Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "505",
+        "sgid": "3",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

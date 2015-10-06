@@ -1,11 +1,90 @@
 {
+  "team1":"mec",
+  "team2":"gb",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"4096",
+  "viewdistance":"610",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_burning_sands_aas64_mecmain_0"
+      ],
+      [
+        "cpname_burning_sands_aas64_olivegrove"
+      ],
+      [
+        "cpname_burning_sands_aas64_nwcitycenter",
+        "cpname_burning_sands_aas64_nwcityoutskirts",
+        "cpname_burning_sands_aas64_trailerpark",
+        "cpname_burning_sands_aas64_nnwcitycenter"
+      ],
+      [
+        "cpname_burning_sands_aas64_sseoutskirts",
+        "cpname_burning_sands_aas64_seoutskirts",
+        "cpname_burning_sands_aas64_eseoutskirts"
+      ],
+      [
+        "cpname_burning_sands_aas64_britmain_0"
+      ]
+    ],
+    [
+      [
+        "cpname_burning_sands_aas64_mecmain_0"
+      ],
+      [
+        "cpname_burning_sands_aas64_mecsec",
+        "cpname_burning_sands_aas64_swoutskirts",
+        "cpname_burning_sands_aas64_woutskirts",
+        "cpname_burning_sands_aas64_industrial",
+        "cpname_burning_sands_aas64_gasstation"
+      ],
+      [
+        "cpname_burning_sands_aas64_centraldual",
+        "cpname_burning_sands_aas64_centralnorthdual"
+      ],
+      [
+        "cpname_burning_sands_aas64_seoutskirts_0",
+        "cpname_burning_sands_aas64_intersection_0",
+        "cpname_burning_sands_aas64_centraleast"
+      ],
+      [
+        "cpname_burning_sands_aas64_britmain_0"
+      ]
+    ],
+    [
+      [
+        "cpname_burning_sands_aas64_mecmain_0"
+      ],
+      [
+        "cpname_burning_sands_aas64_ncity",
+        "cpname_burning_sands_aas64_nnwcity",
+        "cpname_burning_sands_aas64_nwcity",
+        "cpname_burning_sands_aas64_nwcitycenter_0"
+      ],
+      [
+        "cpname_burning_sands_aas64_secitycenter",
+        "cpname_burning_sands_aas64_eseoutskirts_0"
+      ],
+      [
+        "cpname_burning_sands_aas64_intersection"
+      ],
+      [
+        "cpname_burning_sands_aas64_britmain_0"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.4913, -245.33557]
+        "coordinates": [233.4913, -245.33557],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -14,7 +93,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_tnk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV4034 Challenger 2",
         "team": "2",
         "obj1": "null",
@@ -29,7 +108,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.75995, -244.41075]
+        "coordinates": [234.75995, -244.41075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -38,7 +118,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -53,7 +133,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.084999, -14.075623]
+        "coordinates": [13.084999, -14.075623],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -62,7 +143,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_mecmain_0_ahe",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-28N Havoc",
         "team": "1",
         "obj1": "mec_ahe_havoc",
@@ -77,7 +158,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.135315, -12.870628]
+        "coordinates": [18.135315, -12.870628],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -86,7 +168,7 @@
       },
       "bf2props": {
         "name": "mectnk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72",
@@ -101,7 +183,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.668312, -12.830498]
+        "coordinates": [19.668312, -12.830498],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -110,7 +193,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_mecmain_0_ifv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "mec_ifv_bmp3",
@@ -125,7 +208,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.55075, -12.869125]
+        "coordinates": [18.55075, -12.869125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -134,7 +218,7 @@
       },
       "bf2props": {
         "name": "mectnk_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2M",
         "team": "1",
         "obj1": "mec_ifv_bmp2m",
@@ -149,7 +233,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.369812, -14.665688]
+        "coordinates": [21.369812, -14.665688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -158,7 +243,7 @@
       },
       "bf2props": {
         "name": "mecgopher",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K35 Gopher",
         "team": "1",
         "obj1": "mec_aav_gopher",
@@ -173,7 +258,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.40463, -244.6637]
+        "coordinates": [234.40463, -244.6637],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -182,7 +268,7 @@
       },
       "bf2props": {
         "name": "britapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -197,7 +283,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.82907, -245.10895]
+        "coordinates": [233.82907, -245.10895],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -206,7 +293,7 @@
       },
       "bf2props": {
         "name": "brittank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV4034 Challenger 2",
         "team": "2",
         "obj1": "null",
@@ -221,7 +308,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.78244, -243.68375]
+        "coordinates": [235.78244, -243.68375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -230,7 +318,7 @@
       },
       "bf2props": {
         "name": "britjep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 107 Scimitar",
         "team": "2",
         "obj1": "null",
@@ -245,7 +333,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.26993, -245.04607]
+        "coordinates": [243.26993, -245.04607],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -254,7 +343,7 @@
       },
       "bf2props": {
         "name": "gbahe",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Apache AH1",
         "team": "2",
         "obj1": "null",
@@ -269,7 +358,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.83275, -244.84131]
+        "coordinates": [240.83275, -244.84131],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -278,7 +368,7 @@
       },
       "bf2props": {
         "name": "stormer",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Stormer HVM",
         "team": "2",
         "obj1": "null",
@@ -293,7 +383,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.047188, -16.247566]
+        "coordinates": [13.047188, -16.247566],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -302,7 +393,7 @@
       },
       "bf2props": {
         "name": "mecthe128",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -317,7 +408,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.02649, -242.06438]
+        "coordinates": [239.02649, -242.06438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -326,7 +418,7 @@
       },
       "bf2props": {
         "name": "gbthe",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Lynx AH.7",
         "team": "2",
         "obj1": "null",
@@ -341,7 +433,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.23106, -242.00244]
+        "coordinates": [241.23106, -242.00244],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -350,7 +443,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_transheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Chinook HC4",
         "team": "2",
         "obj1": "null",
@@ -365,7 +458,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.17038, -242.87857]
+        "coordinates": [243.17038, -242.87857],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -374,7 +468,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_lynx",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Lynx AH.7",
         "team": "2",
         "obj1": "null",
@@ -389,7 +483,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.33087, -244.05144]
+        "coordinates": [235.33087, -244.05144],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -398,7 +493,7 @@
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_jep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Panther CLV",
         "team": "2",
         "obj1": "null",
@@ -413,17 +508,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.39944, -248.99663]
+        "coordinates": [238.39944, -248.99663],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_command",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -437,17 +533,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.42513, -247.29068]
+        "coordinates": [237.42513, -247.29068],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_britmain_0_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -461,7 +558,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.960129, -11.969002]
+        "coordinates": [12.960129, -11.969002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -470,7 +568,7 @@
       },
       "bf2props": {
         "name": "mecthe",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -485,7 +583,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.650566, -12.879814]
+        "coordinates": [21.650566, -12.879814],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -494,7 +593,7 @@
       },
       "bf2props": {
         "name": "mectrk_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -509,7 +608,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.147934, -12.874626]
+        "coordinates": [20.147934, -12.874626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -518,7 +618,7 @@
       },
       "bf2props": {
         "name": "mectrk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -533,7 +633,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.934189, -9.747063]
+        "coordinates": [12.934189, -9.747063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scouthelo.png",
@@ -542,7 +643,7 @@
       },
       "bf2props": {
         "name": "mecthe_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SA-341H Gazelle",
         "team": "1",
         "obj1": "mec_the_sa341h",
@@ -557,17 +658,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.5215, -16.230438]
+        "coordinates": [19.5215, -16.230438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "mecacv",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mec_acv_btr60pu",
         "obj2": "null",
@@ -581,17 +683,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.734375, -16.248184]
+        "coordinates": [20.734375, -16.248184],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "mecvehicledepot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -605,7 +708,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.654625, -15.036873]
+        "coordinates": [20.654625, -15.036873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -614,7 +718,7 @@
       },
       "bf2props": {
         "name": "meclog",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -629,7 +733,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.652435, -15.352684]
+        "coordinates": [20.652435, -15.352684],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -638,7 +743,7 @@
       },
       "bf2props": {
         "name": "meclog_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -653,7 +758,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.060127, -12.899628]
+        "coordinates": [21.060127, -12.899628],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -662,7 +768,7 @@
       },
       "bf2props": {
         "name": "mectrk_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -677,7 +783,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.35125, -12.881691]
+        "coordinates": [21.35125, -12.881691],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -686,7 +793,7 @@
       },
       "bf2props": {
         "name": "mectrk_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -701,7 +808,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.56963, -243.86388]
+        "coordinates": [235.56963, -243.86388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -710,7 +818,7 @@
       },
       "bf2props": {
         "name": "britjep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -725,7 +833,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.09625, -246.54237]
+        "coordinates": [238.09625, -246.54237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -734,7 +843,7 @@
       },
       "bf2props": {
         "name": "britlog",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -749,7 +858,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.35812, -246.3422]
+        "coordinates": [238.35812, -246.3422],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -758,7 +868,7 @@
       },
       "bf2props": {
         "name": "britlog_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -773,7 +883,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.82336, -246.03363]
+        "coordinates": [238.82336, -246.03363],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -782,7 +893,7 @@
       },
       "bf2props": {
         "name": "britjep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -797,7 +908,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.62714, -246.19168]
+        "coordinates": [238.62714, -246.19168],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -806,7 +918,7 @@
       },
       "bf2props": {
         "name": "britjep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -815,6 +927,735 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.28587, -79.77281],
+        "size": [33, 33],
+        "radius": "10.9375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Olive Grove 175m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_olivegrove",
+        "class": "ControlPoint",
+        "name_object": "Olive Grove 175m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.30619, -110.73125],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North West City Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_nwcitycenter",
+        "class": "ControlPoint",
+        "name_object": "North West City Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.6493, -121.76281],
+        "size": [33, 33],
+        "radius": "7.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_secitycenter",
+        "class": "ControlPoint",
+        "name_object": "South East City Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1308",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.28775, -102.530624],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North West City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_nwcityoutskirts",
+        "class": "ControlPoint",
+        "name_object": "North West City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.957504, -110.498566],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trailer Park 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_trailerpark",
+        "class": "ControlPoint",
+        "name_object": "Trailer Park 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.893936, -102.415],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_nnwcitycenter",
+        "class": "ControlPoint",
+        "name_object": "North City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.8295, -131.17319],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_sseoutskirts",
+        "class": "ControlPoint",
+        "name_object": "South East City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.2302, -129.21669],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_seoutskirts",
+        "class": "ControlPoint",
+        "name_object": "South East City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "108",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.56444, -122.91706],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_eseoutskirts",
+        "class": "ControlPoint",
+        "name_object": "South East City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "109",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.94162, -129.5705],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_seoutskirts_0",
+        "class": "ControlPoint",
+        "name_object": "South East City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "601",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.3185, -128.69376],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC security Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_mecsec",
+        "class": "ControlPoint",
+        "name_object": "MEC security Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "605",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.70456, -137.74782],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South West City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_swoutskirts",
+        "class": "ControlPoint",
+        "name_object": "South West City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "606",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.75325, -120.73994],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_woutskirts",
+        "class": "ControlPoint",
+        "name_object": "West City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "607",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.123375, -126.79169],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Industrial Center 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_industrial",
+        "class": "ControlPoint",
+        "name_object": "Industrial Center 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "604",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.78038, -111.590065],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North West Gas Station 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_gasstation",
+        "class": "ControlPoint",
+        "name_object": "North West Gas Station 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "608",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.75375, -166.13744],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Highway Intersection 300m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_intersection_0",
+        "class": "ControlPoint",
+        "name_object": "Highway Intersection 300m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "110",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.11531, -123.69094],
+        "size": [33, 33],
+        "radius": "7.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_centraleast",
+        "class": "ControlPoint",
+        "name_object": "South East City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "602",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.40169, -120.945],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Central City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_centraldual",
+        "class": "ControlPoint",
+        "name_object": "Central City 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "603",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.97106, -106.71675],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Central City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_centralnorthdual",
+        "class": "ControlPoint",
+        "name_object": "North Central City 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "609",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [196.15237, -145.59956],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Domestic Airport 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_britmain_0",
+        "class": "ControlPoint",
+        "name_object": "Domestic Airport 200m",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.41769, -47.680313],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Highway VCP 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_mecmain_0",
+        "class": "ControlPoint",
+        "name_object": "Highway VCP 200m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "2",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.47963, -122.29625],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_eseoutskirts_0",
+        "class": "ControlPoint",
+        "name_object": "South East City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1301",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.45763, -165.82437],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Highway Intersection 300m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_intersection",
+        "class": "ControlPoint",
+        "name_object": "Highway Intersection 300m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1302",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.231, -99.611626],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_ncity",
+        "class": "ControlPoint",
+        "name_object": "North City 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1304",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.10988, -99.736],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_nnwcity",
+        "class": "ControlPoint",
+        "name_object": "North City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1305",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.57506, -102.44081],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North West City Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_nwcity",
+        "class": "ControlPoint",
+        "name_object": "North West City Outskirts 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1306",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.60675, -111.61075],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North West City Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_nwcitycenter_0",
+        "class": "ControlPoint",
+        "name_object": "North West City Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1307",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

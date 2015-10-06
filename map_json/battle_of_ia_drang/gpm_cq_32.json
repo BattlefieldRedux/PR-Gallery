@@ -1,11 +1,41 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusa",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_battle_of_ia_drang_aas32_nvatunnels",
+        "cpname_battle_of_ia_drang_aas32_nvacamp",
+        "cpname_battle_of_ia_drang_aas32_chupongmountain"
+      ],
+      [
+        "cpname_battle_of_ia_drang_aas32_cutoffplatoon",
+        "cpname_battle_of_ia_drang_aas32_drycreekbed",
+        "cpname_battle_of_ia_drang_aas32_southernflank"
+      ],
+      [
+        "cpname_battle_of_ia_drang_aas32_uscommand"
+      ],
+      [
+        "cpname_battle_of_ia_drang_aas32_usbasecamp"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.59425, -11.2630005]
+        "coordinates": [237.59425, -11.2630005],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -14,7 +44,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_helo01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -29,7 +59,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.26926, -9.400002]
+        "coordinates": [235.26926, -9.400002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -38,7 +69,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_helo02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -53,7 +84,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.74786, -13.510124]
+        "coordinates": [235.74786, -13.510124],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -62,7 +94,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_helo04",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -77,7 +109,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.49937, -11.649376]
+        "coordinates": [233.49937, -11.649376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -86,7 +119,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_helo05",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D Huey",
         "team": "2",
         "obj1": "null",
@@ -101,7 +134,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.99925, -9.701622]
+        "coordinates": [230.99925, -9.701622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -110,7 +144,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_helo06",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1C Huey",
         "team": "2",
         "obj1": "null",
@@ -125,7 +159,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [233.92113, -21.253754]
+        "coordinates": [233.92113, -21.253754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -134,7 +169,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_heavyheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "H-34 Choctaw",
         "team": "2",
         "obj1": "null",
@@ -149,7 +184,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.52263, -235.24313]
+        "coordinates": [129.52263, -235.24313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -158,7 +194,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_nvacamp_zpu4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -173,7 +209,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.284622, -234.63025]
+        "coordinates": [39.284622, -234.63025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -182,7 +219,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_nvalogi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIS-5V",
         "team": "1",
         "obj1": "nva_trk_zis5",
@@ -197,17 +234,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.132004, -230.57187]
+        "coordinates": [36.132004, -230.57187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_vnnva will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_nvasupply",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_vnnva",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_vnnva",
         "obj2": "null",
@@ -221,7 +259,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [66.023125, -179.8065]
+        "coordinates": [66.023125, -179.8065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -230,7 +269,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_nvatunnels_zpu4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -245,7 +284,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.0, -128.0]
+        "coordinates": [128.0, -128.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_prbot.png",
@@ -254,7 +294,7 @@
       },
       "bf2props": {
         "name": "invisible_spectator_camera",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "spectator_camera",
         "team": "1",
         "obj1": "spectator_camera",
@@ -269,7 +309,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.250877, -234.13013]
+        "coordinates": [40.250877, -234.13013],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -278,7 +319,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_nvalogi2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIS-5V",
         "team": "1",
         "obj1": "nva_trk_zis5",
@@ -293,7 +334,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.238503, -126.24125]
+        "coordinates": [23.238503, -126.24125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -302,7 +344,7 @@
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_nvatunnels_zpu4_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -317,17 +359,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.3725, -14.28775]
+        "coordinates": [242.3725, -14.28775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_supplydepot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -341,17 +384,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [278.1621, 11.414871]
+        "coordinates": [278.1621, 11.414871],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-134.281",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_artillery01",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -365,17 +409,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [278.07974, 10.538254]
+        "coordinates": [278.07974, 10.538254],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-134.281",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_artillery02",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -389,17 +434,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [277.82373, 9.395248]
+        "coordinates": [277.82373, 9.395248],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "-134.281",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_usbasecamp_artillery03",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -413,17 +459,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-15.211624, -274.4475]
+        "coordinates": [-15.211624, -274.4475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "46.632",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_artillery1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -437,17 +484,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-14.262756, -275.48312]
+        "coordinates": [-14.262756, -275.48312],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "46.632",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_artillery2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -461,17 +509,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-15.444748, -273.05273]
+        "coordinates": [-15.444748, -273.05273],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "46.632",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_artillery3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -485,17 +534,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-16.658493, -274.87848]
+        "coordinates": [-16.658493, -274.87848],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "46.632",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_artillery4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -509,17 +559,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-17.268997, -273.6305]
+        "coordinates": [-17.268997, -273.6305],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "46.632",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_artillery5",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -533,17 +584,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-16.939255, -272.02625]
+        "coordinates": [-16.939255, -272.02625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "46.632",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas32_chupongmountain_artillery6",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -557,7 +609,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.4955, -233.83075]
+        "coordinates": [37.4955, -233.83075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -566,7 +619,7 @@
       },
       "bf2props": {
         "name": "nva_trk01",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ZIL 131",
         "team": "1",
         "obj1": "nva_trk_support",
@@ -581,7 +634,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.25638, -230.77774]
+        "coordinates": [38.25638, -230.77774],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -590,7 +644,7 @@
       },
       "bf2props": {
         "name": "nva_trk02",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "nva_jep_uaz",
@@ -599,6 +653,222 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.32125, -232.601],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Chu Pong Mountain will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_chupongmountain",
+        "class": "ControlPoint",
+        "name_object": "Chu Pong Mountain",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.924248, -126.35338],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NVA Tunnels 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_nvatunnels",
+        "class": "ControlPoint",
+        "name_object": "NVA Tunnels 70m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "301",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [70.8925, -88.617004],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cutoff Platoon 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_cutoffplatoon",
+        "class": "ControlPoint",
+        "name_object": "Cutoff Platoon 100m",
+        "team": "0",
+        "areavalue1": "25.0",
+        "areavalue2": "0.0",
+        "cpid": "302",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "210.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.22612, -122.98612],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Command 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_uscommand",
+        "class": "ControlPoint",
+        "name_object": "US Command 125m",
+        "team": "0",
+        "areavalue1": "45.0",
+        "areavalue2": "0.0",
+        "cpid": "303",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "240.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.07013, -150.01912],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dry Creekbed 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_drycreekbed",
+        "class": "ControlPoint",
+        "name_object": "Dry Creekbed 150m",
+        "team": "0",
+        "areavalue1": "25.0",
+        "areavalue2": "0.0",
+        "cpid": "304",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "210.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [160.60413, -176.0525],
+        "size": [33, 33],
+        "radius": "21.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Southern Flank 175m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_southernflank",
+        "class": "ControlPoint",
+        "name_object": "Southern Flank 175m",
+        "team": "0",
+        "areavalue1": "25.0",
+        "areavalue2": "0.0",
+        "cpid": "305",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "210.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.99125, -243.76913],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NVA Camp 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_nvacamp",
+        "class": "ControlPoint",
+        "name_object": "NVA Camp 70m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "307",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.70512, -23.038254],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Base Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas32_usbasecamp",
+        "class": "ControlPoint",
+        "name_object": "US Base Camp",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

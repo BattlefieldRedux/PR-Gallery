@@ -1,140 +1,936 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [177.69412, -246.5045]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/mini_map/repairdepot.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_usfob_depot"
-      "class": "ObjectPlacement"
-      "name_object": "vehicle_depot_us"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [175.58513, -249.90962]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about us_bipod will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_usfob_m249"
-      "class": "ObjectPlacement"
-      "name_object": "us_bipod"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [182.22713, -246.265]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about us_bipod will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_usfob_m249_0"
-      "class": "ObjectPlacement"
-      "name_object": "us_bipod"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [177.1985, -249.55263]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-20.0",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_usfob_hmmwv"
-      "class": "ObjectPlacement"
-      "name_object": "M1151 Up-Armored HMMWV"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [179.13976, -246.62274]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-150.0",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_usfob_hmmwv_0"
-      "class": "ObjectPlacement"
-      "name_object": "M1151 Up-Armored HMMWV"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [176.81712, -246.66824]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about M35 Logistics will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_usfob_logi"
-      "class": "ObjectPlacement"
-      "name_object": "M35 Logistics"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [111.235374, -123.577126]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about DShkM Technical will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_talihideout_techie"
-      "class": "ObjectPlacement"
-      "name_object": "DShkM Technical"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [111.235374, -123.2305]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about M2HB Technical will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_talihideout_techie_0"
-      "class": "ObjectPlacement"
-      "name_object": "M2HB Technical"
-    },
-    { 
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.77937, -120.64887]
-      }, 
-      "type": "Feature",
-      "properties": { 
-        "iconurl": "icons/mini_map/repairdepot.png",
-        "iconrotate": "-120.0",
-        "popupContent": "Amazing information about vehicle_depot_tal will be found here!"
-      }, 
-      "name": "cpname_kokan_coop16_talihideout_depot"
-      "class": "ObjectPlacement"
-      "name_object": "vehicle_depot_tal"
-    }
-  ]
+  "modetype" : "gpm_coop",
+  "players" : 16,
+  "maptype" : "headon",
+  "ai" : false,
+  "locid" : null,
+  "placements" : [ {
+    "code" : "dirtroad_kubra",
+    "position" : [ -501.907, 17.7098, 299.956 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : -999
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_depot",
+    "position" : [ 397.553, 20.32, -948.036 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : 1,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_m249",
+    "position" : [ 380.681, 23.987, -975.277 ],
+    "rotation" : [ -90.0, 0.0, 0.0 ],
+    "controlpointid" : 1,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_m249_0",
+    "position" : [ 433.817, 21.466, -946.12 ],
+    "rotation" : [ 90.0, 0.0, 0.0 ],
+    "controlpointid" : 1,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_hmmwv",
+    "position" : [ 393.588, 20.32, -972.421 ],
+    "rotation" : [ -20.0, 0.0, 0.0 ],
+    "controlpointid" : 1,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_hmmwv_0",
+    "position" : [ 409.118, 20.32, -948.982 ],
+    "rotation" : [ -150.0, 0.0, 0.0 ],
+    "controlpointid" : 1,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_logi",
+    "position" : [ 390.537, 20.32, -949.346 ],
+    "rotation" : [ 180.0, 0.0, 0.0 ],
+    "controlpointid" : 1,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_techie",
+    "position" : [ -134.117, 22.12, 35.383 ],
+    "rotation" : [ 90.0, 0.0, 0.0 ],
+    "controlpointid" : 7,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_techie_0",
+    "position" : [ -134.117, 22.12, 38.156 ],
+    "rotation" : [ 90.0, 0.0, 0.0 ],
+    "controlpointid" : 7,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_depot",
+    "position" : [ -145.765, 22.12, 58.809 ],
+    "rotation" : [ -120.0, 0.0, 0.0 ],
+    "controlpointid" : 7,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_1",
+    "position" : [ 401.453, 20.32, -971.686 ],
+    "rotation" : [ 14.569, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_2",
+    "position" : [ 401.797, 20.32, -967.928 ],
+    "rotation" : [ 17.472, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_3",
+    "position" : [ 426.561, 20.32, -946.384 ],
+    "rotation" : [ -115.357, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_4",
+    "position" : [ 405.166, 20.32, -946.454 ],
+    "rotation" : [ 178.501, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_1",
+    "position" : [ 226.57, 20.32, -988.954 ],
+    "rotation" : [ -24.674, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_2",
+    "position" : [ 199.209, 20.32, -982.829 ],
+    "rotation" : [ 36.234, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_3",
+    "position" : [ 194.37, 20.32, -936.061 ],
+    "rotation" : [ 142.721, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_4",
+    "position" : [ 236.702, 20.32, -955.732 ],
+    "rotation" : [ -106.197, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_5",
+    "position" : [ 185.599, 20.32, -960.734 ],
+    "rotation" : [ 93.004, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_6",
+    "position" : [ 144.796, 20.32, -890.829 ],
+    "rotation" : [ 135.776, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_1",
+    "position" : [ -52.223, 23.984, -610.946 ],
+    "rotation" : [ 148.582, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_2",
+    "position" : [ 7.328, 20.32, -668.854 ],
+    "rotation" : [ -33.248, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_3",
+    "position" : [ 39.368, 20.322, -591.665 ],
+    "rotation" : [ -111.067, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_4",
+    "position" : [ 63.08, 20.32, -555.415 ],
+    "rotation" : [ -123.976, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_5",
+    "position" : [ 20.06, 20.32, -575.11 ],
+    "rotation" : [ -131.048, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_6",
+    "position" : [ 48.753, 20.32, -487.165 ],
+    "rotation" : [ -149.535, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_7",
+    "position" : [ -65.308, 16.89, -592.54 ],
+    "rotation" : [ 149.792, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_1",
+    "position" : [ -67.112, 20.32, -341.43 ],
+    "rotation" : [ -91.51, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_2",
+    "position" : [ -85.559, 20.32, -360.724 ],
+    "rotation" : [ -61.261, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_3",
+    "position" : [ -53.89, 20.32, -382.441 ],
+    "rotation" : [ -58.369, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_4",
+    "position" : [ -68.185, 20.32, -402.34 ],
+    "rotation" : [ -40.068, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_5",
+    "position" : [ -88.949, 20.32, -412.931 ],
+    "rotation" : [ -22.692, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_6",
+    "position" : [ -85.884, 20.32, -384.602 ],
+    "rotation" : [ -37.764, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_7",
+    "position" : [ -92.694, 20.32, -303.76 ],
+    "rotation" : [ -146.743, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_8",
+    "position" : [ -183.435, 17.666, -275.825 ],
+    "rotation" : [ 135.781, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_1",
+    "position" : [ -121.814, 20.32, -177.206 ],
+    "rotation" : [ 76.129, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_2",
+    "position" : [ -80.47, 20.32, -86.815 ],
+    "rotation" : [ 139.635, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_3",
+    "position" : [ 55.128, 20.32, -129.318 ],
+    "rotation" : [ -106.468, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_4",
+    "position" : [ 24.252, 19.917, -153.055 ],
+    "rotation" : [ -83.244, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_5",
+    "position" : [ 94.012, 20.32, -156.376 ],
+    "rotation" : [ -89.276, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_6",
+    "position" : [ -7.139, 20.32, -119.698 ],
+    "rotation" : [ -145.727, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_1",
+    "position" : [ -106.952, 22.12, 28.566 ],
+    "rotation" : [ -66.387, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_2",
+    "position" : [ -107.42, 22.12, 44.875 ],
+    "rotation" : [ -119.909, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_3",
+    "position" : [ -144.519, 22.12, 45.235 ],
+    "rotation" : [ 114.169, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_4",
+    "position" : [ -140.379, 25.445, 28.679 ],
+    "rotation" : [ 67.549, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_5",
+    "position" : [ -140.448, 25.39, 31.93 ],
+    "rotation" : [ 79.973, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_6",
+    "position" : [ -97.368, 22.12, 22.921 ],
+    "rotation" : [ -63.745, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_1",
+    "position" : [ 318.229, 20.32, -708.059 ],
+    "rotation" : [ -161.832, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_2",
+    "position" : [ 317.745, 20.32, -695.438 ],
+    "rotation" : [ -152.784, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_3",
+    "position" : [ 340.456, 20.32, -718.116 ],
+    "rotation" : [ -130.423, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_4",
+    "position" : [ 333.643, 20.32, -730.597 ],
+    "rotation" : [ -121.734, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_5",
+    "position" : [ 290.036, 20.32, -757.991 ],
+    "rotation" : [ 57.1, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_6",
+    "position" : [ 291.59, 20.32, -762.679 ],
+    "rotation" : [ 43.047, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_7",
+    "position" : [ 241.471, 20.32, -756.08 ],
+    "rotation" : [ 83.016, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_8",
+    "position" : [ 230.402, 20.32, -765.54 ],
+    "rotation" : [ 80.703, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_usfob",
+    "position" : [ 405.426, 14.279, -956.4 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree",
+    "position" : [ 214.297, 13.526, -962.24 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve",
+    "position" : [ 305.026, 14.084, -748.294 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven",
+    "position" : [ -27.169, 14.143, -616.234 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine",
+    "position" : [ -118.283, 13.877, -342.779 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight",
+    "position" : [ -31.057, 14.096, -154.795 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout",
+    "position" : [ -123.327, 16.0, 35.725 ],
+    "rotation" : [ 0.0, 0.0, 0.0 ],
+    "controlpointid" : -999,
+    "layer" : 1
+  } ],
+  "ostemplates" : [ {
+    "code" : "cpname_kokan_coop16_usfob_depot",
+    "lastuser" : null,
+    "objecttemplate_1" : null,
+    "objecttemplate_2" : "vehicle_depot_us",
+    "minspawndelay" : 0.0,
+    "maxspawndelay" : 0.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 0.0,
+    "distance" : 0.0,
+    "team" : -999,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_m249",
+    "lastuser" : null,
+    "objecttemplate_1" : null,
+    "objecttemplate_2" : "us_bipod",
+    "minspawndelay" : 0.0,
+    "maxspawndelay" : 0.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 0.0,
+    "distance" : 0.0,
+    "team" : -999,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_m249_0",
+    "lastuser" : null,
+    "objecttemplate_1" : null,
+    "objecttemplate_2" : "us_bipod",
+    "minspawndelay" : 0.0,
+    "maxspawndelay" : 0.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 0.0,
+    "distance" : 0.0,
+    "team" : -999,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_hmmwv",
+    "lastuser" : null,
+    "objecttemplate_1" : null,
+    "objecttemplate_2" : "us_jep_hmmwv_uparmored",
+    "minspawndelay" : 600.0,
+    "maxspawndelay" : 600.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 1200.0,
+    "distance" : 100.0,
+    "team" : 2,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_hmmwv_0",
+    "lastuser" : null,
+    "objecttemplate_1" : null,
+    "objecttemplate_2" : "us_jep_hmmwv_uparmored",
+    "minspawndelay" : 600.0,
+    "maxspawndelay" : 600.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 1200.0,
+    "distance" : 100.0,
+    "team" : 2,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_logi",
+    "lastuser" : null,
+    "objecttemplate_1" : null,
+    "objecttemplate_2" : "us_trk_logistics",
+    "minspawndelay" : 300.0,
+    "maxspawndelay" : 300.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 1200.0,
+    "distance" : 100.0,
+    "team" : 2,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_techie",
+    "lastuser" : null,
+    "objecttemplate_1" : "civ_jep_technical",
+    "objecttemplate_2" : null,
+    "minspawndelay" : 600.0,
+    "maxspawndelay" : 600.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 1200.0,
+    "distance" : 100.0,
+    "team" : 1,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_techie_0",
+    "lastuser" : null,
+    "objecttemplate_1" : "civ_jep_technical_black",
+    "objecttemplate_2" : null,
+    "minspawndelay" : 600.0,
+    "maxspawndelay" : 600.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 1200.0,
+    "distance" : 100.0,
+    "team" : 1,
+    "teamonvehicle" : true
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_depot",
+    "lastuser" : null,
+    "objecttemplate_1" : "vehicle_depot_tal",
+    "objecttemplate_2" : null,
+    "minspawndelay" : 0.0,
+    "maxspawndelay" : 0.0,
+    "spawndelayatstart" : false,
+    "timetolive" : 0.0,
+    "distance" : 0.0,
+    "team" : 1,
+    "teamonvehicle" : true
+  } ],
+  "spawnpoints" : [ {
+    "code" : "cpname_kokan_coop16_usfob_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 1,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 1,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 1,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_usfob_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 1,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 2,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 2,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 2,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 2,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_5",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 2,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree_6",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 2,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_5",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_6",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven_7",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 4,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_5",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_6",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_7",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine_8",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 5,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 6,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 6,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 6,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 6,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_5",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 6,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight_6",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 6,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 7,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 7,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 7,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 7,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_5",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 7,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout_6",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 7,
+    "allowspawnclosetovehicle" : true,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_1",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_2",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_3",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_4",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_5",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_6",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_7",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve_8",
+    "spawnpositionoffset" : [ 0.0, 1.25, 0.0 ],
+    "group" : 0,
+    "controlpointid" : 3,
+    "allowspawnclosetovehicle" : false,
+    "onlyforhuman" : false
+  } ],
+  "controlpoints" : [ {
+    "code" : "cpname_kokan_coop16_usfob",
+    "physicsType" : "mesh",
+    "name" : "US Army Forward Operations Base",
+    "team" : 2,
+    "controlpointid" : 1,
+    "unabletochangeteam" : true,
+    "hoistminmax" : null,
+    "radius" : 30.0,
+    "areavalueteam1" : 0.0,
+    "areavalueteam2" : 0.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 7
+  }, {
+    "code" : "cpname_kokan_coop16_hotelonethree",
+    "physicsType" : "mesh",
+    "name" : "Hotel Thirteen",
+    "team" : 2,
+    "controlpointid" : 2,
+    "unabletochangeteam" : false,
+    "hoistminmax" : null,
+    "radius" : 30.0,
+    "areavalueteam1" : 99999.0,
+    "areavalueteam2" : 10.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 6
+  }, {
+    "code" : "cpname_kokan_coop16_indiatwelve",
+    "physicsType" : "mesh",
+    "name" : "India Twelve",
+    "team" : 0,
+    "controlpointid" : 3,
+    "unabletochangeteam" : false,
+    "hoistminmax" : null,
+    "radius" : 25.0,
+    "areavalueteam1" : 10.0,
+    "areavalueteam2" : 10.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 5
+  }, {
+    "code" : "cpname_kokan_coop16_golfeleven",
+    "physicsType" : "mesh",
+    "name" : "Golf Eleven",
+    "team" : 1,
+    "controlpointid" : 4,
+    "unabletochangeteam" : false,
+    "hoistminmax" : null,
+    "radius" : 30.0,
+    "areavalueteam1" : 10.0,
+    "areavalueteam2" : 10.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 4
+  }, {
+    "code" : "cpname_kokan_coop16_foxtrotnine",
+    "physicsType" : "mesh",
+    "name" : "Foxtrot Nine",
+    "team" : 1,
+    "controlpointid" : 5,
+    "unabletochangeteam" : false,
+    "hoistminmax" : null,
+    "radius" : 35.0,
+    "areavalueteam1" : 10.0,
+    "areavalueteam2" : 10.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 3
+  }, {
+    "code" : "cpname_kokan_coop16_golfeight",
+    "physicsType" : "mesh",
+    "name" : "Golf Eight",
+    "team" : 1,
+    "controlpointid" : 6,
+    "unabletochangeteam" : false,
+    "hoistminmax" : null,
+    "radius" : 30.0,
+    "areavalueteam1" : 20.0,
+    "areavalueteam2" : 99999.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 2
+  }, {
+    "code" : "cpname_kokan_coop16_talihideout",
+    "physicsType" : "mesh",
+    "name" : "Taliban Hideout",
+    "team" : 1,
+    "controlpointid" : 7,
+    "unabletochangeteam" : true,
+    "hoistminmax" : null,
+    "radius" : 30.0,
+    "areavalueteam1" : 0.0,
+    "areavalueteam2" : 0.0,
+    "timetogetcontrol" : 120.0,
+    "timetolosecontrol" : 120.0,
+    "supplygroupid" : 1
+  } ],
+  "combatareas" : [ ],
+  "team1" : {
+    "id" : 1,
+    "name" : "taliban",
+    "language" : "mec",
+    "flag" : "flag_taliban",
+    "kits" : [ "taliban_officer_sp", "taliban_assault_sp", "taliban_rifleman_sp", "taliban_support_sp", "taliban_specialist_sp", "taliban_medic_sp", "taliban_riflemanat_sp" ]
+  },
+  "team2" : {
+    "id" : 2,
+    "name" : "usa",
+    "language" : "english",
+    "flag" : "flag_us",
+    "kits" : [ "usa_officer_sp", "usa_assault_sp", "usa_rifleman_sp", "usa_support_sp", "usa_specialist_sp", "usa_medic_sp", "usa_riflemanat_sp" ]
+  },
+  "maxviewdistance" : 500,
+  "tickets_1" : 500,
+  "tickets_2" : 500,
+  "timetonextwave" : 8.0,
+  "ticketlossatendpermin" : 1000.0,
+  "ticketlosspermin_1" : 1.0,
+  "ticketlosspermin_2" : 2.0,
+  "customtexturesuffix" : "",
+  "combatareamanageruse" : false,
+  "combatareamanagerdamage" : 0.0,
+  "combatareamanagerallowedoutside" : 0.0,
+  "heightmapsize" : 2048,
+  "heightmap_imgsize" : null,
+  "heightmapscale" : null,
+  "heightmapseawaterlevel" : 14.0,
+  "fogstartendandbase" : [ 10.0, 540.0, 1.3, 0.85 ],
+  "modeType" : "gpm_coop"
 }

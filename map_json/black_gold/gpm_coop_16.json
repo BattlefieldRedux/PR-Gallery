@@ -1,21 +1,55 @@
 {
+  "team1":"ru",
+  "team2":"ch",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_black_gold_coop16_residential"
+      ],
+      [
+        "cpname_black_gold_coop16_street"
+      ],
+      [
+        "cpname_black_gold_coop16_construction",
+        "cpname_black_gold_coop16_hotel"
+      ],
+      [
+        "cpname_black_gold_coop16_vcp",
+        "cpname_black_gold_coop16_apartments"
+      ],
+      [
+        "cpname_black_gold_coop16_market"
+      ],
+      [
+        "cpname_black_gold_coop16_gasstation"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.687065, -93.86781]
+        "coordinates": [51.687065, -93.86781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_coop16_gasstation_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_ch",
@@ -29,7 +63,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [52.458435, -94.54938]
+        "coordinates": [52.458435, -94.54938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -38,7 +73,7 @@
       },
       "bf2props": {
         "name": "cpname_black_gold_coop16_gasstation_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "2",
         "obj1": "null",
@@ -47,6 +82,222 @@
         "minspawn": "120.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.025436, -94.745255],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Chinese Forward Operations will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Chinese Forward Operations",
+        "team": "2",
+        "areavalue1": "10000.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.830505, -87.20663],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_market",
+        "class": "ControlPoint",
+        "name_object": "Market",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.73068, -84.21687],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned FOB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_vcp",
+        "class": "ControlPoint",
+        "name_object": "Abandoned FOB",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.77569, -88.14888],
+        "size": [33, 33],
+        "radius": "0.9375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.191124, -80.36975],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_construction",
+        "class": "ControlPoint",
+        "name_object": "Construction Site",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.59125, -74.96887],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.09581, -71.32219],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Ping'an St will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_street",
+        "class": "ControlPoint",
+        "name_object": "Ping'an St",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.45187, -65.407814],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_black_gold_coop16_residential",
+        "class": "ControlPoint",
+        "name_object": "Suburbs",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "10000.0",
+        "cpid": "8",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

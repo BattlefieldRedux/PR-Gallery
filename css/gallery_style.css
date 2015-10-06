@@ -80,12 +80,8 @@ div#PRContainer {
 	padding-right: 10px;
 }
 .asset-img {
-	height: 100%;
-	width: 50px;
 	float: left;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 50%;
+	width: 15px;
 }
 .asset-delay {
 	float: left;
@@ -98,11 +94,11 @@ div#PRContainer {
 	background: #c0c0c0;
 	padding: 10px;
 	width: 80%;
-	overflow:auto;
+	overflow: hidden;
 	border-radius: 5px;
 	box-shadow: -2px 2px 2px black;
 	margin: 5px auto;
-	cursor:default;
+	cursor: default;
 }
 .asset-row:hover {
 	background: #a6a6a6;
@@ -122,8 +118,7 @@ div#PRContainer {
 
 .asset-row img {
 	float: left;
-	height: 80%;
-	width: 50px;
+	/*width: 15px;*/
 }
 .asset-name {
 	font-weight: bold;

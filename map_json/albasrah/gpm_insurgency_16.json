@@ -1,11 +1,23 @@
 {
+  "team1":"meinsurgent",
+  "team2":"gb",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"525",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.549873, -68.239746]
+        "coordinates": [46.549873, -68.239746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -14,7 +26,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_landrover",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -29,7 +41,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.53125, -67.586]
+        "coordinates": [46.53125, -67.586],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -38,7 +51,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_landrover_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -53,7 +66,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.541374, -66.967125]
+        "coordinates": [46.541374, -66.967125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -62,7 +76,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_landrover_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -77,7 +91,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.50538, -68.863]
+        "coordinates": [46.50538, -68.863],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -86,7 +101,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_landrover_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -101,7 +116,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.80688, -116.48062]
+        "coordinates": [124.80688, -116.48062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -110,7 +126,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_landrover_nvcp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -125,17 +141,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.53113, -121.11063]
+        "coordinates": [120.53113, -121.11063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about bipod_gpmg_l7a2 will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_m249_0",
-        "class": "ObjectPlacement",
-        "name_object": "bipod_gpmg_l7a2",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
         "obj2": "bipod_gpmg_l7a2",
@@ -149,17 +166,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.56475, -116.2255]
+        "coordinates": [120.56475, -116.2255],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about bipod_gpmg_l7a2 will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_m249_1",
-        "class": "ObjectPlacement",
-        "name_object": "bipod_gpmg_l7a2",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
         "obj2": "bipod_gpmg_l7a2",
@@ -173,7 +191,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.412, -159.99887]
+        "coordinates": [174.412, -159.99887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -182,7 +201,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car",
@@ -197,7 +216,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.24287, -168.95337]
+        "coordinates": [178.24287, -168.95337],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -206,7 +226,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civtruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Van",
         "team": "1",
         "obj1": "civ_jep_zastava900ak",
@@ -221,7 +241,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.494377, -69.48725]
+        "coordinates": [46.494377, -69.48725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -230,7 +251,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_scimitar_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -245,7 +266,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.08425, -117.20038]
+        "coordinates": [118.08425, -117.20038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -254,7 +276,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civtruck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -269,17 +291,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [122.15925, -119.16575]
+        "coordinates": [122.15925, -119.16575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_gb_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_nvcp_rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_gb_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_gb_placeable_noexpire",
@@ -293,7 +316,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.202126, -121.8445]
+        "coordinates": [124.202126, -121.8445],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -302,7 +326,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_landrover_nvcp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -317,7 +341,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [206.29575, -208.44612]
+        "coordinates": [206.29575, -208.44612],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -326,7 +351,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_dirtbike_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Van",
         "team": "1",
         "obj1": "civ_jep_zastava900ak",
@@ -341,7 +366,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [205.45526, -209.43988]
+        "coordinates": [205.45526, -209.43988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -350,7 +376,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_dirtbike_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -365,7 +391,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.613373, -66.38075]
+        "coordinates": [46.613373, -66.38075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -374,7 +401,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_supportruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -389,17 +416,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.42975, -71.92363]
+        "coordinates": [80.42975, -71.92363],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "103.638",
-        "popupContent": "Amazing information about bipod_gpmg_l7a2 will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_m249_2",
-        "class": "ObjectPlacement",
-        "name_object": "bipod_gpmg_l7a2",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
         "obj2": "bipod_gpmg_l7a2",
@@ -413,7 +441,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.92825, -162.9335]
+        "coordinates": [171.92825, -162.9335],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -422,7 +451,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_technical_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -437,17 +466,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.52025, -73.502]
+        "coordinates": [41.52025, -73.502],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-176.036",
-        "popupContent": "Amazing information about bipod_gpmg_l7a2 will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_m249_3",
-        "class": "ObjectPlacement",
-        "name_object": "bipod_gpmg_l7a2",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
         "obj2": "bipod_gpmg_l7a2",
@@ -461,7 +491,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.238876, -68.34688]
+        "coordinates": [41.238876, -68.34688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -470,7 +501,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_supportruck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -485,7 +516,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.30612, -190.94775]
+        "coordinates": [141.30612, -190.94775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -494,7 +526,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Van",
         "team": "1",
         "obj1": "civ_jep_zastava900ak",
@@ -509,7 +541,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [131.91037, -198.3]
+        "coordinates": [131.91037, -198.3],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_semitruck.png",
@@ -518,7 +551,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Semi",
         "team": "1",
         "obj1": "civ_trk_semi",
@@ -533,7 +566,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.476, -164.5045]
+        "coordinates": [129.476, -164.5045],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -542,7 +576,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_black",
@@ -557,7 +591,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.627625, -169.03212]
+        "coordinates": [118.627625, -169.03212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -566,7 +601,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -581,7 +616,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [117.0075, -164.93962]
+        "coordinates": [117.0075, -164.93962],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -590,7 +626,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Van",
         "team": "1",
         "obj1": "civ_jep_zastava900ak",
@@ -605,7 +641,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [67.7115, -148.91925]
+        "coordinates": [67.7115, -148.91925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -614,7 +651,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -629,7 +666,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [115.34612, -106.268]
+        "coordinates": [115.34612, -106.268],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -638,7 +676,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_10",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -653,7 +691,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.89763, -164.76237]
+        "coordinates": [157.89763, -164.76237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -662,7 +701,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_11",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -677,7 +716,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.90363, -164.3005]
+        "coordinates": [157.90363, -164.3005],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -686,7 +726,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_12",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car",
@@ -701,7 +741,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.26675, -167.21625]
+        "coordinates": [178.26675, -167.21625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -710,7 +751,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_13",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -725,17 +766,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.93975, -156.18912]
+        "coordinates": [95.93975, -156.18912],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_rp1",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable",
         "obj2": "null",
@@ -749,17 +791,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [63.544502, -155.95876]
+        "coordinates": [63.544502, -155.95876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_meinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_meinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_meinsurgent_placeable",
         "obj2": "null",
@@ -773,7 +816,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.058, -176.29887]
+        "coordinates": [80.058, -176.29887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -782,7 +826,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_16",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -797,7 +841,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.79312, -169.74687]
+        "coordinates": [54.79312, -169.74687],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -806,7 +851,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_17",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -821,7 +866,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.603745, -155.52637]
+        "coordinates": [93.603745, -155.52637],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -830,7 +876,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_18",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -845,7 +891,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.89713, -188.28476]
+        "coordinates": [183.89713, -188.28476],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -854,7 +901,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_20",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car",
@@ -869,7 +916,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [200.65475, -177.70238]
+        "coordinates": [200.65475, -177.70238],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -878,7 +926,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_22",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -893,17 +941,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.39025, -62.251503]
+        "coordinates": [44.39025, -62.251503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_cp",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -917,17 +966,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.659, -167.924]
+        "coordinates": [159.659, -167.924],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_hideout",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_meins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_meins",
         "obj2": "null",
@@ -941,17 +991,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.01275, -71.22537]
+        "coordinates": [41.01275, -71.22537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_bunker_0",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -965,7 +1016,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.7945, -172.74338]
+        "coordinates": [171.7945, -172.74338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -974,7 +1026,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_bike_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -989,7 +1041,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [173.12563, -165.91525]
+        "coordinates": [173.12563, -165.91525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_bombtruck.png",
@@ -998,7 +1051,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_bombtruck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Suicide Dump Truck",
         "team": "1",
         "obj1": "civ_trk_dumpster_bomber",
@@ -1013,7 +1066,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.257, -172.74387]
+        "coordinates": [172.257, -172.74387],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -1022,7 +1076,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_bike_8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -1037,7 +1091,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.70087, -172.7565]
+        "coordinates": [172.70087, -172.7565],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -1046,7 +1101,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_bike_9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -1061,7 +1116,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.48475, -70.04938]
+        "coordinates": [46.48475, -70.04938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1070,7 +1126,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -1085,7 +1141,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.23488, -67.711876]
+        "coordinates": [41.23488, -67.711876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1094,7 +1151,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -1109,7 +1166,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.59225, -162.90887]
+        "coordinates": [172.59225, -162.90887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1118,7 +1176,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_car",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ammo Pickup",
         "team": "1",
         "obj1": "civ_jep_support",
@@ -1133,7 +1191,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.99063, -175.52937]
+        "coordinates": [141.99063, -175.52937],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_semitruck.png",
@@ -1142,7 +1201,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_car_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dump Truck",
         "team": "1",
         "obj1": "civ_trk_dumpster",
@@ -1157,7 +1216,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.81212, -175.534]
+        "coordinates": [140.81212, -175.534],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_semitruck.png",
@@ -1166,7 +1226,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_car_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dump Truck",
         "team": "1",
         "obj1": "civ_trk_dumpster",
@@ -1181,7 +1241,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.972, -163.36426]
+        "coordinates": [176.972, -163.36426],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -1190,7 +1251,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_civcar_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -1205,7 +1266,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [173.18925, -162.888]
+        "coordinates": [173.18925, -162.888],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1214,7 +1276,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_techresupply",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ammo Pickup",
         "team": "1",
         "obj1": "civ_jep_support",
@@ -1229,17 +1291,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [160.1595, -164.6035]
+        "coordinates": [160.1595, -164.6035],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_tal will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_tal",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_tal",
         "obj2": "null",
@@ -1253,7 +1316,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.2885, -162.94937]
+        "coordinates": [171.2885, -162.94937],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -1262,7 +1326,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_car_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -1277,7 +1341,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [170.64813, -162.97174]
+        "coordinates": [170.64813, -162.97174],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -1286,7 +1351,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_car_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_white",
@@ -1301,7 +1366,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.643875, -65.76212]
+        "coordinates": [46.643875, -65.76212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -1310,7 +1376,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -1325,7 +1391,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.673622, -65.178375]
+        "coordinates": [46.673622, -65.178375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -1334,7 +1401,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -1349,7 +1416,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [170.1055, -162.99326]
+        "coordinates": [170.1055, -162.99326],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_bombcar.png",
@@ -1358,7 +1426,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_cpname_albasrah_insurgency16_mosque_bom",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Car Bomb",
         "team": "1",
         "obj1": "civ_jep_car_bomber_white",
@@ -1373,7 +1441,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.48926, -162.94763]
+        "coordinates": [175.48926, -162.94763],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -1382,7 +1451,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_insurgency16_mosque_ins_jeep_technical",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Rocket Technical",
         "team": "1",
         "obj1": "civ_atm_technical_rocket",
@@ -1397,18 +1466,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [63.897377, -156.55713]
+        "coordinates": [63.897377, -156.55713],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_01",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1421,18 +1491,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.587, -144.39462]
+        "coordinates": [97.587, -144.39462],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_0",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1445,18 +1516,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.037125, -155.97525]
+        "coordinates": [96.037125, -155.97525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_1",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1469,18 +1541,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [65.32762, -155.37988]
+        "coordinates": [65.32762, -155.37988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "80.007",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_3",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1493,18 +1566,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.34263, -152.24774]
+        "coordinates": [58.34263, -152.24774],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_4",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1517,18 +1591,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.01525, -150.92537]
+        "coordinates": [79.01525, -150.92537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_6",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1541,18 +1616,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.688995, -149.95813]
+        "coordinates": [68.688995, -149.95813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_7",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1565,18 +1641,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.67763, -178.625]
+        "coordinates": [202.67763, -178.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_13",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1589,18 +1666,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [216.39276, -195.244]
+        "coordinates": [216.39276, -195.244],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_15",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1613,18 +1691,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.53238, -178.95074]
+        "coordinates": [208.53238, -178.95074],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_42",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1637,18 +1716,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.62, -177.31688]
+        "coordinates": [196.62, -177.31688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_64",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1661,18 +1741,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [179.11063, -190.59274]
+        "coordinates": [179.11063, -190.59274],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_82",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1685,18 +1766,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.36137, -187.80913]
+        "coordinates": [187.36137, -187.80913],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_87",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1709,18 +1791,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [179.48975, -173.38376]
+        "coordinates": [179.48975, -173.38376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_100",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1733,18 +1816,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.37975, -158.44424]
+        "coordinates": [150.37975, -158.44424],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_114",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1757,18 +1841,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [162.155, -195.38737]
+        "coordinates": [162.155, -195.38737],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_121",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1781,18 +1866,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.70337, -194.0315]
+        "coordinates": [150.70337, -194.0315],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_122",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1805,18 +1891,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.01437, -153.99725]
+        "coordinates": [165.01437, -153.99725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_123",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1829,18 +1916,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [130.72925, -199.97226]
+        "coordinates": [130.72925, -199.97226],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_128",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1853,18 +1941,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.18575, -164.78537]
+        "coordinates": [125.18575, -164.78537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_129",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1877,18 +1966,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [130.10863, -178.27374]
+        "coordinates": [130.10863, -178.27374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_130",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1901,18 +1991,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [133.11838, -163.22087]
+        "coordinates": [133.11838, -163.22087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_131",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1925,18 +2016,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.62975, -164.16087]
+        "coordinates": [118.62975, -164.16087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "83.91",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_132",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1949,18 +2041,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.68187, -159.61975]
+        "coordinates": [135.68187, -159.61975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_133",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1973,18 +2066,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.286, -175.64325]
+        "coordinates": [148.286, -175.64325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_134",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -1997,18 +2091,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.65825, -179.48187]
+        "coordinates": [141.65825, -179.48187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_135",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2021,18 +2116,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.789375, -180.13075]
+        "coordinates": [73.789375, -180.13075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_136",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2045,18 +2141,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.48975, -190.26762]
+        "coordinates": [137.48975, -190.26762],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_137",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2069,18 +2166,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.89362, -190.88625]
+        "coordinates": [118.89362, -190.88625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_138",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2093,18 +2191,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.801, -193.67337]
+        "coordinates": [124.801, -193.67337],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_139",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2117,18 +2216,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [122.139626, -192.93274]
+        "coordinates": [122.139626, -192.93274],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_140",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2141,18 +2241,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.703125, -194.90288]
+        "coordinates": [127.703125, -194.90288],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_141",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2165,18 +2266,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.6925, -198.52588]
+        "coordinates": [125.6925, -198.52588],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_144",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2189,18 +2291,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.8235, -148.101]
+        "coordinates": [72.8235, -148.101],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_147",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2213,18 +2316,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [133.80988, -172.24025]
+        "coordinates": [133.80988, -172.24025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_164",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2237,18 +2341,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.031624, -179.27037]
+        "coordinates": [124.031624, -179.27037],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_166",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2261,18 +2366,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [122.7715, -183.01375]
+        "coordinates": [122.7715, -183.01375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_167",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2285,18 +2391,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.94275, -179.83087]
+        "coordinates": [137.94275, -179.83087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_175",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2309,18 +2416,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.63838, -171.76062]
+        "coordinates": [136.63838, -171.76062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_177",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2333,18 +2441,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.75275, -168.47626]
+        "coordinates": [118.75275, -168.47626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_178",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2357,18 +2466,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.39787, -154.32812]
+        "coordinates": [116.39787, -154.32812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_179",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2381,18 +2491,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.78012, -166.81638]
+        "coordinates": [148.78012, -166.81638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_182",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2405,18 +2516,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.59113, -177.6875]
+        "coordinates": [145.59113, -177.6875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-77.011",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_183",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2429,18 +2541,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.991, -189.78287]
+        "coordinates": [157.991, -189.78287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_185",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2453,18 +2566,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.22363, -202.34625]
+        "coordinates": [172.22363, -202.34625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_187",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2477,18 +2591,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.8235, -184.40201]
+        "coordinates": [180.8235, -184.40201],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_188",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2501,18 +2616,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [163.30038, -189.09225]
+        "coordinates": [163.30038, -189.09225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_189",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2525,18 +2641,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.62312, -187.59225]
+        "coordinates": [144.62312, -187.59225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_192",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2549,18 +2666,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [138.68562, -189.12076]
+        "coordinates": [138.68562, -189.12076],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_195",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2573,18 +2691,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.47087, -188.86813]
+        "coordinates": [135.47087, -188.86813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_196",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2597,18 +2716,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.1485, -195.40839]
+        "coordinates": [175.1485, -195.40839],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_198",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2621,18 +2741,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [167.393, -195.35126]
+        "coordinates": [167.393, -195.35126],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "87.501",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_199",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2645,18 +2766,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [157.27487, -194.7015]
+        "coordinates": [157.27487, -194.7015],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_200",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2669,18 +2791,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.74713, -195.05725]
+        "coordinates": [171.74713, -195.05725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_201",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2693,18 +2816,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.875, -189.01788]
+        "coordinates": [174.875, -189.01788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_202",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2717,18 +2841,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.8515, -189.91624]
+        "coordinates": [186.8515, -189.91624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_203",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2741,18 +2866,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.08025, -191.08188]
+        "coordinates": [186.08025, -191.08188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_204",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2765,18 +2891,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.32187, -198.05525]
+        "coordinates": [215.32187, -198.05525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_206",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2789,18 +2916,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.32675, -182.10812]
+        "coordinates": [215.32675, -182.10812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_207",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2813,18 +2941,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [199.56313, -219.39163]
+        "coordinates": [199.56313, -219.39163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "45.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_208",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2837,18 +2966,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.35501, -214.064]
+        "coordinates": [208.35501, -214.064],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_209",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2861,18 +2991,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.39587, -188.05138]
+        "coordinates": [180.39587, -188.05138],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_211",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2885,18 +3016,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.20026, -197.35538]
+        "coordinates": [197.20026, -197.35538],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-64.415",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_212",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2909,18 +3041,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.9435, -191.19287]
+        "coordinates": [209.9435, -191.19287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_214",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2933,18 +3066,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [219.42188, -179.04926]
+        "coordinates": [219.42188, -179.04926],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "179.302",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_215",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2957,18 +3091,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [222.23575, -183.28825]
+        "coordinates": [222.23575, -183.28825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_216",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -2981,18 +3116,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [222.18314, -196.01587]
+        "coordinates": [222.18314, -196.01587],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_217",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3005,18 +3141,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.71649, -191.98438]
+        "coordinates": [196.71649, -191.98438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_218",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3029,18 +3166,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [204.02386, -189.48938]
+        "coordinates": [204.02386, -189.48938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_219",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3053,18 +3191,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.1575, -181.61176]
+        "coordinates": [92.1575, -181.61176],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_220",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3077,18 +3216,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [65.227005, -155.11862]
+        "coordinates": [65.227005, -155.11862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-90.502",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_223",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3101,18 +3241,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.55025, -163.90137]
+        "coordinates": [118.55025, -163.90137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_224",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3125,18 +3266,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.14313, -186.9675]
+        "coordinates": [177.14313, -186.9675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_225",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3149,18 +3291,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.958, -179.58263]
+        "coordinates": [74.958, -179.58263],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "175.617",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_12",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3173,18 +3316,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [69.08612, -153.99174]
+        "coordinates": [69.08612, -153.99174],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_23",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3197,18 +3341,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.12799, -190.5575]
+        "coordinates": [186.12799, -190.5575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_29",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3221,18 +3366,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [168.243, -189.25287]
+        "coordinates": [168.243, -189.25287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_30",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3245,18 +3391,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.91063, -189.46588]
+        "coordinates": [171.91063, -189.46588],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_31",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3269,18 +3416,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [160.9885, -202.35687]
+        "coordinates": [160.9885, -202.35687],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_32",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3293,18 +3441,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [170.254, -190.51237]
+        "coordinates": [170.254, -190.51237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_33",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3317,18 +3466,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [162.89113, -186.96687]
+        "coordinates": [162.89113, -186.96687],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_34",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3341,18 +3491,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.55513, -177.61438]
+        "coordinates": [141.55513, -177.61438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_36",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3365,18 +3516,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [142.49374, -173.0275]
+        "coordinates": [142.49374, -173.0275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_37",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3389,18 +3541,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.18076, -178.14775]
+        "coordinates": [149.18076, -178.14775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_38",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3413,18 +3566,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.7055, -182.117]
+        "coordinates": [148.7055, -182.117],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_39",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3437,18 +3591,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.801, -176.03476]
+        "coordinates": [149.801, -176.03476],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_40",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3461,18 +3616,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.906, -164.5805]
+        "coordinates": [144.906, -164.5805],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_43",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3485,18 +3641,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.906, -178.31537]
+        "coordinates": [129.906, -178.31537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_45",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3509,18 +3666,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [130.34137, -178.33499]
+        "coordinates": [130.34137, -178.33499],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_46",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3533,18 +3691,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.74776, -176.08038]
+        "coordinates": [128.74776, -176.08038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_47",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3557,18 +3716,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.6785, -175.7075]
+        "coordinates": [128.6785, -175.7075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_48",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3581,18 +3741,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.78738, -169.1085]
+        "coordinates": [126.78738, -169.1085],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_49",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3605,18 +3766,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.60313, -169.06787]
+        "coordinates": [126.60313, -169.06787],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_50",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3629,18 +3791,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.21025, -164.07712]
+        "coordinates": [125.21025, -164.07712],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_51",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3653,18 +3816,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.27688, -164.17563]
+        "coordinates": [125.27688, -164.17563],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_52",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3677,18 +3841,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.66512, -165.19376]
+        "coordinates": [127.66512, -165.19376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_53",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3701,18 +3866,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.63113, -163.53975]
+        "coordinates": [127.63113, -163.53975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_54",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3725,18 +3891,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.59663, -163.98138]
+        "coordinates": [127.59663, -163.98138],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_55",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3749,18 +3916,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.1005, -160.22162]
+        "coordinates": [124.1005, -160.22162],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_56",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3773,18 +3941,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.929375, -161.15524]
+        "coordinates": [126.929375, -161.15524],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_57",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3797,18 +3966,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.58287, -163.26663]
+        "coordinates": [129.58287, -163.26663],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_58",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3821,18 +3991,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.574, -163.44049]
+        "coordinates": [129.574, -163.44049],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_59",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3845,18 +4016,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.632, -160.23524]
+        "coordinates": [135.632, -160.23524],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_60",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3869,18 +4041,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [133.20163, -163.07013]
+        "coordinates": [133.20163, -163.07013],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_61",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3893,18 +4066,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [211.47699, -219.96225]
+        "coordinates": [211.47699, -219.96225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_63",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3917,18 +4091,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.83237, -167.07562]
+        "coordinates": [145.83237, -167.07562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_65",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3941,18 +4116,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.89725, -187.85725]
+        "coordinates": [209.89725, -187.85725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_67",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3965,18 +4141,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [203.91212, -184.76813]
+        "coordinates": [203.91212, -184.76813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_68",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -3989,18 +4166,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.80612, -180.476]
+        "coordinates": [202.80612, -180.476],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_69",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4013,18 +4191,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.91238, -175.394]
+        "coordinates": [209.91238, -175.394],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_70",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4037,18 +4216,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.76675, -168.91525]
+        "coordinates": [215.76675, -168.91525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_71",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4061,18 +4241,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [222.17113, -186.58224]
+        "coordinates": [222.17113, -186.58224],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_73",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4085,18 +4266,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [222.16675, -192.72949]
+        "coordinates": [222.16675, -192.72949],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_74",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4109,18 +4291,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.30463, -193.26875]
+        "coordinates": [215.30463, -193.26875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_75",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4133,18 +4316,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.38174, -191.15912]
+        "coordinates": [215.38174, -191.15912],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_76",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4157,18 +4341,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.483253, -125.70125]
+        "coordinates": [58.483253, -125.70125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-103.771",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_79",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4181,18 +4366,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.96925, -156.04675]
+        "coordinates": [95.96925, -156.04675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_80",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4205,18 +4391,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [143.02975, -168.055]
+        "coordinates": [143.02975, -168.055],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_83",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4229,18 +4416,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [192.5755, -134.04]
+        "coordinates": [192.5755, -134.04],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_84",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4253,18 +4441,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.48401, -181.17212]
+        "coordinates": [175.48401, -181.17212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_85",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4277,18 +4466,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.51337, -145.10162]
+        "coordinates": [165.51337, -145.10162],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_92",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4301,18 +4491,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.438, -160.0235]
+        "coordinates": [186.438, -160.0235],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "180.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_93",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4325,18 +4516,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.58138, -158.57712]
+        "coordinates": [151.58138, -158.57712],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_94",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4349,18 +4541,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [132.6295, -170.50812]
+        "coordinates": [132.6295, -170.50812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_95",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4373,18 +4566,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.48438, -182.28638]
+        "coordinates": [150.48438, -182.28638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_96",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4397,18 +4591,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.46437, -186.38237]
+        "coordinates": [150.46437, -186.38237],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_97",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4421,18 +4616,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.69412, -193.76987]
+        "coordinates": [141.69412, -193.76987],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_99",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4445,18 +4641,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.19638, -198.75949]
+        "coordinates": [128.19638, -198.75949],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_101",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4469,18 +4666,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [199.56076, -169.206]
+        "coordinates": [199.56076, -169.206],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_109",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4493,18 +4691,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [62.653625, -151.70325]
+        "coordinates": [62.653625, -151.70325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-97.361",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_111",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4517,18 +4716,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.47413, -171.34625]
+        "coordinates": [54.47413, -171.34625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "71.282",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_113",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4541,18 +4741,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [65.1525, -155.35712]
+        "coordinates": [65.1525, -155.35712],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_115",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4565,18 +4766,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [65.43625, -155.13225]
+        "coordinates": [65.43625, -155.13225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_116",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4589,18 +4791,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.57312, -176.35088]
+        "coordinates": [144.57312, -176.35088],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-174.794",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_117",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4613,18 +4816,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [71.72425, -145.36375]
+        "coordinates": [71.72425, -145.36375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_118",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4637,18 +4841,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [71.277626, -146.83313]
+        "coordinates": [71.277626, -146.83313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_119",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4661,18 +4866,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.29225, -193.48112]
+        "coordinates": [118.29225, -193.48112],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-179.777",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_226",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4685,18 +4891,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.67825, -140.30725]
+        "coordinates": [182.67825, -140.30725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_81",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4709,18 +4916,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.01413, -144.70262]
+        "coordinates": [187.01413, -144.70262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-5.906",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_86",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4733,18 +4941,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.966, -153.08113]
+        "coordinates": [186.966, -153.08113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "87.611",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_88",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4757,18 +4966,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [221.08212, -198.40839]
+        "coordinates": [221.08212, -198.40839],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "88.884",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_89",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4781,18 +4991,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.81912, -181.03062]
+        "coordinates": [145.81912, -181.03062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "84.954",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_35",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4805,18 +5016,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [146.01625, -180.64325]
+        "coordinates": [146.01625, -180.64325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-176.644",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_90",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4829,18 +5041,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.12962, -136.84387]
+        "coordinates": [182.12962, -136.84387],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_91",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4853,18 +5066,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [222.19687, -189.51724]
+        "coordinates": [222.19687, -189.51724],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-92.445",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_25",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4877,18 +5091,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.32263, -185.43375]
+        "coordinates": [215.32263, -185.43375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-89.617",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_26",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4901,18 +5116,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.17587, -142.71338]
+        "coordinates": [182.17587, -142.71338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_8",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4925,18 +5141,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [61.23163, -147.60225]
+        "coordinates": [61.23163, -147.60225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_27",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4949,18 +5166,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [82.64188, -176.233]
+        "coordinates": [82.64188, -176.233],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-2.526",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_2",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4973,18 +5191,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.61288, -164.03674]
+        "coordinates": [118.61288, -164.03674],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_72",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -4997,18 +5216,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [130.294, -161.22424]
+        "coordinates": [130.294, -161.22424],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "9.921",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_78",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5021,18 +5241,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.4865, -171.20087]
+        "coordinates": [137.4865, -171.20087],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_102",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5045,18 +5266,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.99725, -179.84975]
+        "coordinates": [136.99725, -179.84975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_103",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5069,18 +5291,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.23088, -189.005]
+        "coordinates": [136.23088, -189.005],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-91.85",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_107",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5093,18 +5316,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.18312, -197.77812]
+        "coordinates": [135.18312, -197.77812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "177.669",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_124",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5117,18 +5341,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.034, -202.30338]
+        "coordinates": [169.034, -202.30338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "178.208",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_125",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5141,18 +5366,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.36412, -190.65675]
+        "coordinates": [177.36412, -190.65675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "176.95",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_127",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5165,18 +5391,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.43875, -153.86588]
+        "coordinates": [165.43875, -153.86588],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-87.644",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_41",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5189,18 +5416,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.20575, -132.239]
+        "coordinates": [180.20575, -132.239],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "123.474",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_77",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5213,18 +5441,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [188.00462, -135.77287]
+        "coordinates": [188.00462, -135.77287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_106",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5237,18 +5466,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.42525, -124.93325]
+        "coordinates": [184.42525, -124.93325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-88.784",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_142",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5261,18 +5491,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.46425, -144.23987]
+        "coordinates": [182.46425, -144.23987],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-89.381",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_146",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5285,18 +5516,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.2155, -148.65974]
+        "coordinates": [182.2155, -148.65974],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_148",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5309,18 +5541,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [210.27988, -207.40988]
+        "coordinates": [210.27988, -207.40988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-1.136",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_98",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5333,18 +5566,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.219, -209.43938]
+        "coordinates": [202.219, -209.43938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_120",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5357,18 +5591,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [204.97662, -209.2685]
+        "coordinates": [204.97662, -209.2685],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_149",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5381,18 +5616,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [203.53674, -208.44489]
+        "coordinates": [203.53674, -208.44489],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_150",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5405,18 +5641,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [199.5075, -208.48962]
+        "coordinates": [199.5075, -208.48962],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_151",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5429,18 +5666,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.7745, -180.21524]
+        "coordinates": [175.7745, -180.21524],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_152",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5453,18 +5691,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.416, -209.71825]
+        "coordinates": [196.416, -209.71825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_153",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5477,18 +5716,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.29938, -210.83525]
+        "coordinates": [209.29938, -210.83525],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_154",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5501,18 +5741,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [203.0975, -208.49362]
+        "coordinates": [203.0975, -208.49362],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-105.91",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_155",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5525,18 +5766,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.45612, -210.01474]
+        "coordinates": [202.45612, -210.01474],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_156",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5549,18 +5791,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [202.19537, -209.98676]
+        "coordinates": [202.19537, -209.98676],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "91.099",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_157",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5573,18 +5816,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [160.53888, -179.8645]
+        "coordinates": [160.53888, -179.8645],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-101.472",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_28",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5597,18 +5841,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [143.23163, -172.38263]
+        "coordinates": [143.23163, -172.38263],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-83.871",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_44",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5621,18 +5866,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [165.9875, -145.18213]
+        "coordinates": [165.9875, -145.18213],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_11",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5645,18 +5891,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.8265, -195.85324]
+        "coordinates": [118.8265, -195.85324],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_145",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
@@ -5669,24 +5916,79 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.010124, -193.63889]
+        "coordinates": [127.010124, -193.63889],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
         "iconrotate": "-10.425",
-        "popupContent": "Amazing information about ammocache will be found here!"
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_ins_ammocache_158",
-        "class": "ObjectPlacement",
-        "name_object": "ammocache",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
         "obj1": "ammocache",
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.841125, -62.194748],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Al Basrah Airport will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_insurgency16_airport",
+        "class": "ControlPoint",
+        "name_object": "Al Basrah Airport",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "401",
+        "sgid": "2",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.05287, -167.50638],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_insurgency16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "404",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

@@ -18,7 +18,7 @@ L.SimpleGraticule = L.LayerGroup.extend({
 			opacity : 0.6,
 			weight : 1,
 			clickable : false,
-			pointerEvents : null,
+			pointerEvents : 'none',
 			className : "simple-grid-line"
 		}
 	},

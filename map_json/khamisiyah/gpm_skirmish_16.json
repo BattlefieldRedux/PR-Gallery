@@ -1,11 +1,45 @@
 {
+  "team1":"mec",
+  "team2":"usa",
+  "team1tickets":"450",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"1300",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_khamisiyah_skirmish16_mec"
+      ],
+      [
+        "cpname_khamisiyah_skirmish16_flag1"
+      ],
+      [
+        "cpname_khamisiyah_skirmish16_flag2",
+        "cpname_khamisiyah_skirmish16_flag3"
+      ],
+      [
+        "cpname_khamisiyah_skirmish16_flag4",
+        "cpname_khamisiyah_skirmish16_flag5"
+      ],
+      [
+        "cpname_khamisiyah_skirmish16_flag6"
+      ],
+      [
+        "cpname_khamisiyah_skirmish16_us"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [70.23912, -97.25188]
+        "coordinates": [70.23912, -97.25188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +48,7 @@
       },
       "bf2props": {
         "name": "cpname_khamisiyah_skirmish16_us_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +63,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [65.18532, -67.075874]
+        "coordinates": [65.18532, -67.075874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +73,7 @@
       },
       "bf2props": {
         "name": "cpname_khamisiyah_skirmish16_mec_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -53,17 +88,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [69.44481, -68.10919]
+        "coordinates": [69.44481, -68.10919],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_skirmish16_mec_acv",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mec_acv_btr60pu",
         "obj2": "null",
@@ -77,17 +113,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.876625, -97.71881]
+        "coordinates": [74.876625, -97.71881],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_stryker will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_skirmish16_us_acv",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_stryker",
@@ -95,6 +132,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.10225, -67.63937],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Forces will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_mec",
+        "class": "ControlPoint",
+        "name_object": "MEC Forces",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.6405, -73.93331],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridge will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_flag1",
+        "class": "ControlPoint",
+        "name_object": "Bridge",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "701",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.99769, -77.706436],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_flag2",
+        "class": "ControlPoint",
+        "name_object": "Apartment",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "702",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [70.59244, -96.27581],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Forces will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_us",
+        "class": "ControlPoint",
+        "name_object": "US Forces",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "703",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.90525, -78.64957],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Alley will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_flag3",
+        "class": "ControlPoint",
+        "name_object": "Alley",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "704",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.596, -84.95175],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cafe will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_flag4",
+        "class": "ControlPoint",
+        "name_object": "Cafe",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "705",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.74069, -84.6315],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_flag5",
+        "class": "ControlPoint",
+        "name_object": "Construction",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "706",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.05725, -90.375],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Orchard will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_skirmish16_flag6",
+        "class": "ControlPoint",
+        "name_object": "Orchard",
+        "team": "0",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "707",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "90.0"
       }
     }
   ]

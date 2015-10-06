@@ -1,11 +1,113 @@
 {
+  "team1":"ru",
+  "team2":"fr",
+  "team1tickets":"650",
+  "team2tickets":"650",
+  "mapsize":"2048",
+  "viewdistance":"850",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_nuijamaa_aas128_ru_staging"
+      ],
+      [
+        "cpname_nuijamaa_aas128_boardercontrol"
+      ],
+      [
+        "cpname_nuijamaa_aas128_southfarm"
+      ],
+      [
+        "cpname_nuijamaa_aas128_farm1"
+      ],
+      [
+        "cpname_nuijamaa_aas128_indscenter"
+      ],
+      [
+        "cpname_nuijamaa_aas128_fnmaon"
+      ]
+    ],
+    [
+      [
+        "cpname_nuijamaa_aas128_ru_staging"
+      ],
+      [
+        "cpname_nuijamaa_aas128_sportscenter"
+      ],
+      [
+        "cpname_nuijamaa_aas128_suburbs1"
+      ],
+      [
+        "cpname_nuijamaa_aas128_hilltopvilla"
+      ],
+      [
+        "cpname_nuijamaa_aas128_wheatfarm"
+      ],
+      [
+        "cpname_nuijamaa_aas128_windfarm1"
+      ],
+      [
+        "cpname_nuijamaa_aas128_fnmaon"
+      ]
+    ],
+    [
+      [
+        "cpname_nuijamaa_aas128_ru_staging"
+      ],
+      [
+        "cpname_nuijamaa_aas128_pond"
+      ],
+      [
+        "cpname_nuijamaa_aas128_gasstation"
+      ],
+      [
+        "cpname_nuijamaa_aas128_windfarm2"
+      ],
+      [
+        "cpname_nuijamaa_aas128_wheatind"
+      ],
+      [
+        "cpname_nuijamaa_aas128_fnmaon"
+      ]
+    ],
+    [
+      [
+        "cpname_nuijamaa_aas128_ru_staging"
+      ],
+      [
+        "cpname_nuijamaa_aas128_market",
+        "cpname_nuijamaa_aas128_southernsuburbs"
+      ],
+      [
+        "cpname_nuijamaa_aas128_suburbs2"
+      ],
+      [
+        "cpname_nuijamaa_aas128_dairy"
+      ],
+      [
+        "cpname_nuijamaa_aas128_comms"
+      ],
+      [
+        "cpname_nuijamaa_aas128_wheatind2"
+      ],
+      [
+        "cpname_nuijamaa_aas128_watertreat"
+      ],
+      [
+        "cpname_nuijamaa_aas128_fnmaon"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.48038, -249.137]
+        "coordinates": [198.48038, -249.137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -14,7 +116,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_heli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -29,7 +131,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.91225, -249.84425]
+        "coordinates": [189.91225, -249.84425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -38,7 +141,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_apc_bmp2",
@@ -53,7 +156,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.21637, -250.02812]
+        "coordinates": [191.21637, -250.02812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -62,7 +166,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2_alt",
@@ -77,7 +181,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.646, -249.974]
+        "coordinates": [190.646, -249.974],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -86,7 +191,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_brdm_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -101,7 +206,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.78287, -250.05426]
+        "coordinates": [191.78287, -250.05426],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -110,7 +216,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_brdm_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2_alt",
@@ -125,7 +231,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.64662, -244.96225]
+        "coordinates": [189.64662, -244.96225],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +241,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -149,7 +256,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.59775, -244.46762]
+        "coordinates": [189.59775, -244.46762],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -158,7 +266,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -173,7 +281,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.78688, -245.89099]
+        "coordinates": [189.78688, -245.89099],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -182,7 +291,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -197,7 +306,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.727, -245.43512]
+        "coordinates": [189.727, -245.43512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -206,7 +316,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_support_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -221,17 +331,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [192.16475, -251.01126]
+        "coordinates": [192.16475, -251.01126],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_vd",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -245,7 +356,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.2545, -249.13425]
+        "coordinates": [195.2545, -249.13425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -254,7 +366,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_hind",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -269,17 +381,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.31837, -252.6065]
+        "coordinates": [196.31837, -252.6065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -293,7 +406,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.975998, -17.854248]
+        "coordinates": [13.975998, -17.854248],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -302,7 +416,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -317,7 +431,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.462128, -17.205872]
+        "coordinates": [13.462128, -17.205872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -326,7 +441,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VBCI",
         "team": "2",
         "obj1": "null",
@@ -341,7 +456,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.043503, -16.297249]
+        "coordinates": [13.043503, -16.297249],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -350,7 +466,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -365,7 +481,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.767998, -15.900497]
+        "coordinates": [12.767998, -15.900497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -374,7 +491,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "VAB VTT",
         "team": "2",
         "obj1": "null",
@@ -389,7 +506,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.328003, -15.480873]
+        "coordinates": [12.328003, -15.480873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -398,7 +516,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_suuport",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC-180",
         "team": "2",
         "obj1": "null",
@@ -413,7 +531,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.052628, -15.084122]
+        "coordinates": [12.052628, -15.084122],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -422,7 +541,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_suuport_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC-180",
         "team": "2",
         "obj1": "null",
@@ -437,7 +556,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.088127, -13.110123]
+        "coordinates": [13.088127, -13.110123],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -446,7 +566,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -461,7 +581,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.445122, -12.784874]
+        "coordinates": [13.445122, -12.784874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -470,7 +591,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
@@ -485,7 +606,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.649872, -13.468246]
+        "coordinates": [7.649872, -13.468246],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -494,7 +616,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 TTH",
         "team": "2",
         "obj1": "null",
@@ -509,7 +631,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.728996, -9.260246]
+        "coordinates": [8.728996, -9.260246],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -518,7 +641,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_trans_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 TTH",
         "team": "2",
         "obj1": "null",
@@ -533,17 +656,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.700623, -19.39875]
+        "coordinates": [17.700623, -19.39875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fr will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_vd",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fr",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_fr",
@@ -557,17 +681,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.914375, -8.274376]
+        "coordinates": [11.914375, -8.274376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about fr_acv_vab will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_command",
-        "class": "ObjectPlacement",
-        "name_object": "fr_acv_vab",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "fr_acv_vab",
@@ -581,17 +706,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.72838, -189.2065]
+        "coordinates": [91.72838, -189.2065],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_fr_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_fr_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_fr_placeable",
@@ -605,7 +731,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.6905, -20.424622]
+        "coordinates": [78.6905, -20.424622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -614,7 +741,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -629,7 +756,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.65012, -19.566628]
+        "coordinates": [78.65012, -19.566628],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -638,7 +766,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_fnmaon_boat_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -653,7 +781,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.01651, -135.4705]
+        "coordinates": [242.01651, -135.4705],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -662,7 +791,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_pkp",
@@ -677,7 +806,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.16125, -136.93613]
+        "coordinates": [244.16125, -136.93613],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -686,7 +816,7 @@
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_boat_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_pkp",
@@ -695,6 +825,600 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.80862, -248.50063],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Staging area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_ru_staging",
+        "class": "ControlPoint",
+        "name_object": "Russian Staging area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "207",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.958878, -15.341499],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Shopping Center will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_fnmaon",
+        "class": "ControlPoint",
+        "name_object": "Shopping Center",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "201",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.88687, -185.0865],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Border Control 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_boardercontrol",
+        "class": "ControlPoint",
+        "name_object": "Border Control 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "202",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.627502, -85.735245],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Industrial Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_indscenter",
+        "class": "ControlPoint",
+        "name_object": "Industrial Center 100m",
+        "team": "2",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.57849, -206.01086],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Rec Center 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_sportscenter",
+        "class": "ControlPoint",
+        "name_object": "Rec Center 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "206",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.26675, -161.9075],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_suburbs1",
+        "class": "ControlPoint",
+        "name_object": "Suburbs 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "208",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.99825, -164.89787],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Villa 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_hilltopvilla",
+        "class": "ControlPoint",
+        "name_object": "Villa 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "209",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.116875, -113.0745],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wheat Farm 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_wheatfarm",
+        "class": "ControlPoint",
+        "name_object": "Wheat Farm 100m",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "210",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.0485, -68.282745],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wind Farm 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_windfarm1",
+        "class": "ControlPoint",
+        "name_object": "Wind Farm 100m",
+        "team": "2",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "211",
+        "sgid": "612",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.844376, -144.72838],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_farm1",
+        "class": "ControlPoint",
+        "name_object": "Farm 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "212",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [187.0125, -185.07837],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Pond 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_pond",
+        "class": "ControlPoint",
+        "name_object": "Pond 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "213",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [173.65, -148.28351],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Gas Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "214",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.27562, -93.30275],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wind Farm 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_windfarm2",
+        "class": "ControlPoint",
+        "name_object": "Wind Farm 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "215",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.650375, -63.680374],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grain Processing 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_wheatind",
+        "class": "ControlPoint",
+        "name_object": "Grain Processing 100m",
+        "team": "2",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "216",
+        "sgid": "513",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.22488, -171.65088],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Grocery 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_market",
+        "class": "ControlPoint",
+        "name_object": "Grocery 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "217",
+        "sgid": "214",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [215.18425, -146.25438],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_suburbs2",
+        "class": "ControlPoint",
+        "name_object": "Suburbs 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "218",
+        "sgid": "314",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [229.04062, -172.01987],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Suburbs 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_southernsuburbs",
+        "class": "ControlPoint",
+        "name_object": "South Suburbs 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "219",
+        "sgid": "214",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [213.47075, -96.73625],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Dairy 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_dairy",
+        "class": "ControlPoint",
+        "name_object": "Dairy 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "220",
+        "sgid": "414",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [212.336, -40.431877],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Comms Center 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_comms",
+        "class": "ControlPoint",
+        "name_object": "Comms Center 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "221",
+        "sgid": "514",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.68575, -63.651627],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wheat Farm 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_wheatind2",
+        "class": "ControlPoint",
+        "name_object": "Wheat Farm 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "222",
+        "sgid": "614",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.66875, -16.184753],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fr/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Water Treatment Plant 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_watertreat",
+        "class": "ControlPoint",
+        "name_object": "Water Treatment Plant 75m",
+        "team": "2",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "223",
+        "sgid": "714",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.002876, -198.43562],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Farm 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_southfarm",
+        "class": "ControlPoint",
+        "name_object": "South Farm 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

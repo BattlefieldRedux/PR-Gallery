@@ -1,11 +1,35 @@
 {
+  "team1":"fsa",
+  "team2":"mec",
+  "team1tickets":"700",
+  "team2tickets":"700",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_sbeneh_outskirts_vw64_fsa"
+      ],
+      [
+        "cpname_sbeneh_outskirts_vw64_fields",
+        "cpname_sbeneh_outskirts_vw64_southcity"
+      ],
+      [
+        "cpname_sbeneh_outskirts_vw64_mec"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.2865, -243.8405]
+        "coordinates": [195.2865, -243.8405],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -14,7 +38,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -29,7 +53,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [199.51225, -238.33012]
+        "coordinates": [199.51225, -238.33012],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -38,7 +63,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -53,7 +78,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [199.81512, -238.86575]
+        "coordinates": [199.81512, -238.86575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -62,7 +88,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -77,7 +103,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [200.53864, -240.133]
+        "coordinates": [200.53864, -240.133],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -86,7 +113,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -101,7 +128,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [200.86725, -240.669]
+        "coordinates": [200.86725, -240.669],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -110,7 +138,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -125,7 +153,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.90714, -243.86513]
+        "coordinates": [195.90714, -243.86513],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -134,7 +163,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -149,7 +178,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.65288, -238.325]
+        "coordinates": [195.65288, -238.325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -158,7 +188,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -173,7 +203,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.14175, -238.313]
+        "coordinates": [196.14175, -238.313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -182,7 +213,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -197,7 +228,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.63913, -238.341]
+        "coordinates": [196.63913, -238.341],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -206,7 +238,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_bmp_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -221,7 +253,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.16475, -238.28561]
+        "coordinates": [197.16475, -238.28561],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -230,7 +263,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_bmp_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -245,7 +278,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.16437, -243.879]
+        "coordinates": [198.16437, -243.879],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -254,7 +288,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -269,7 +303,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.79724, -243.89862]
+        "coordinates": [198.79724, -243.89862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -278,7 +313,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_t62_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -293,7 +328,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.11237, -243.74475]
+        "coordinates": [197.11237, -243.74475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -302,7 +338,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_bmp_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -317,7 +353,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.63612, -243.757]
+        "coordinates": [197.63612, -243.757],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -326,7 +363,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_bmp_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -341,7 +378,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.474625, -31.501999]
+        "coordinates": [39.474625, -31.501999],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -350,7 +388,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -365,7 +403,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.8415, -31.496872]
+        "coordinates": [38.8415, -31.496872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -374,7 +413,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -389,7 +428,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.238876, -31.175003]
+        "coordinates": [41.238876, -31.175003],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -398,7 +438,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -413,7 +453,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.9355, -31.154251]
+        "coordinates": [41.9355, -31.154251],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -422,7 +463,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -437,7 +478,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.701126, -31.224503]
+        "coordinates": [42.701126, -31.224503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -446,7 +488,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -461,7 +503,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.368378, -31.190872]
+        "coordinates": [43.368378, -31.190872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -470,7 +513,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -485,7 +528,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.206123, -31.144623]
+        "coordinates": [44.206123, -31.144623],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -494,7 +538,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -509,7 +553,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.842125, -31.166878]
+        "coordinates": [44.842125, -31.166878],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -518,7 +563,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_t62_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -533,7 +578,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.17875, -27.048622]
+        "coordinates": [46.17875, -27.048622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -542,7 +588,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "fsa_ifv_bmp1",
@@ -557,7 +603,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.7025, -27.060875]
+        "coordinates": [46.7025, -27.060875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -566,7 +613,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "fsa_ifv_bmp1",
@@ -581,7 +628,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.556747, -25.223999]
+        "coordinates": [45.556747, -25.223999],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -590,7 +638,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_bmp_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "fsa_ifv_bmp1",
@@ -605,7 +653,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.031128, -25.279373]
+        "coordinates": [45.031128, -25.279373],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -614,7 +663,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_bmp_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "fsa_ifv_bmp1",
@@ -629,7 +678,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.533752, -25.251373]
+        "coordinates": [44.533752, -25.251373],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -638,7 +688,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_bmp_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "fsa_ifv_bmp1",
@@ -653,7 +703,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.044876, -25.263374]
+        "coordinates": [44.044876, -25.263374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -662,7 +713,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_bmp_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "fsa_ifv_bmp1",
@@ -677,17 +728,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.789124, -28.017128]
+        "coordinates": [43.789124, -28.017128],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fsa will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_fsa_vd",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fsa",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_fsa",
         "obj2": "null",
@@ -701,17 +753,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [200.712, -244.492]
+        "coordinates": [200.712, -244.492],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_vw64_mec_vd",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_mec",
@@ -719,6 +772,114 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199.22162, -236.40063],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mec Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_vw64_mec",
+        "class": "ControlPoint",
+        "name_object": "Mec Main",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1001",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.547874, -23.646378],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Rebel Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_vw64_fsa",
+        "class": "ControlPoint",
+        "name_object": "Rebel Main",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1002",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [159.96413, -100.40337],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fields 300m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_vw64_fields",
+        "class": "ControlPoint",
+        "name_object": "Fields 300m",
+        "team": "0",
+        "areavalue1": "60.0",
+        "areavalue2": "60.0",
+        "cpid": "1003",
+        "sgid": "22",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.560745, -164.12425],
+        "size": [33, 33],
+        "radius": "37.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City 300m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_vw64_southcity",
+        "class": "ControlPoint",
+        "name_object": "South City 300m",
+        "team": "0",
+        "areavalue1": "60.0",
+        "areavalue2": "60.0",
+        "cpid": "1004",
+        "sgid": "22",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

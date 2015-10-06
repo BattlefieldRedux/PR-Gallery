@@ -1,11 +1,35 @@
 {
+  "team1":"fsa",
+  "team2":"mec",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"480",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_sbeneh_outskirts_skirmish16_suburbs"
+      ],
+      [
+        "cpname_sbeneh_outskirts_skirmish16_market",
+        "cpname_sbeneh_outskirts_skirmish16_wreck"
+      ],
+      [
+        "cpname_sbeneh_outskirts_skirmish16_apartments"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.01525, -32.584625]
+        "coordinates": [92.01525, -32.584625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +38,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_skirmish16_suburbs_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +53,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.130005, -32.746124]
+        "coordinates": [94.130005, -32.746124],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +63,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_skirmish16_suburbs_crate_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -53,7 +78,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.17538, -78.75975]
+        "coordinates": [93.17538, -78.75975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +88,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_skirmish16_apartments_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -77,7 +103,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.71225, -76.080505]
+        "coordinates": [94.71225, -76.080505],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +113,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_skirmish16_apartments_crate_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -95,6 +122,114 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.61087, -41.50963],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Surburbs will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish16_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Surburbs",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "401",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.692505, -56.219376],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish16_market",
+        "class": "ControlPoint",
+        "name_object": "Market",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "402",
+        "sgid": "22",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.25963, -77.61325],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish16_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "403",
+        "sgid": "-999",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.92775, -64.583496],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wreck will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish16_wreck",
+        "class": "ControlPoint",
+        "name_object": "Wreck",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "404",
+        "sgid": "22",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

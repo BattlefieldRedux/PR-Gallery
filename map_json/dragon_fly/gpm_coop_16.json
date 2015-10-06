@@ -1,5 +1,224 @@
 {
+  "team1":"chinsurgent",
+  "team2":"gb",
+  "team1tickets":"300",
+  "team2tickets":"350",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_dragon_fly_coop16_militiaops"
+      ],
+      [
+        "cpname_dragon_fly_coop16_exposedpipe"
+      ],
+      [
+        "cpname_dragon_fly_coop16_westprojects",
+        "cpname_dragon_fly_coop16_centralprojects"
+      ],
+      [
+        "cpname_dragon_fly_coop16_statue",
+        "cpname_dragon_fly_coop16_southprojects"
+      ],
+      [
+        "cpname_dragon_fly_coop16_gbinsertion"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.11838, -166.4945],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Great Britain Insertion Point will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_gbinsertion",
+        "class": "ControlPoint",
+        "name_object": "Great Britain Insertion Point",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.68875, -132.74687],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Statue will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_statue",
+        "class": "ControlPoint",
+        "name_object": "Statue",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.93788, -98.66725],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Housing Project will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_westprojects",
+        "class": "ControlPoint",
+        "name_object": "North Housing Project",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.66188, -82.797],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Controlled Sector will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_militiaops",
+        "class": "ControlPoint",
+        "name_object": "Militia Controlled Sector",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "99999.0",
+        "cpid": "4",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.59, -89.14563],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Exposed Pipe will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_exposedpipe",
+        "class": "ControlPoint",
+        "name_object": "Exposed Pipe",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.75325, -109.35875],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Central Housing Project will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_centralprojects",
+        "class": "ControlPoint",
+        "name_object": "Central Housing Project",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [158.478, -138.70975],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Housing Project will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_coop16_southprojects",
+        "class": "ControlPoint",
+        "name_object": "South Housing Project",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "7",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    }
   ]
 }

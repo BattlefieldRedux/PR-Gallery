@@ -1,11 +1,37 @@
 {
+  "team1":"ru",
+  "team2":"ger",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"4096",
+  "viewdistance":"900",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_silent_eagle_skirmish16_ruhouses"
+      ],
+      [
+        "cpname_silent_eagle_skirmish16_northeast"
+      ],
+      [
+        "cpname_silent_eagle_skirmish16_villagewest"
+      ],
+      [
+        "cpname_silent_eagle_skirmish16_ushouses"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.625, -161.625]
+        "coordinates": [151.625, -161.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_skirmish16_ushouses_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [130.875, -119.625]
+        "coordinates": [130.875, -119.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_silent_eagle_skirmish16_ruhouses_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5, -127.5],
+        "size": [33, 33],
+        "radius": "2.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_skirmish16_ruhouses",
+        "class": "ControlPoint",
+        "name_object": "Russian Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.5, -131.625],
+        "size": [33, 33],
+        "radius": "2.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North East Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_skirmish16_northeast",
+        "class": "ControlPoint",
+        "name_object": "North East Village",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.375, -141.125],
+        "size": [33, 33],
+        "radius": "2.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South West Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_skirmish16_villagewest",
+        "class": "ControlPoint",
+        "name_object": "South West Village",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.75, -145.875],
+        "size": [33, 33],
+        "radius": "2.1875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_skirmish16_ushouses",
+        "class": "ControlPoint",
+        "name_object": "German Deployment Area",
+        "team": "2",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

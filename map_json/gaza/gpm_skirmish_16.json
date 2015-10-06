@@ -1,11 +1,43 @@
 {
+  "team1":"hamas",
+  "team2":"idf",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"1024",
+  "viewdistance":"400",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_gaza_skirmish16_hamasmain"
+      ],
+      [
+        "cpname_gaza_skirmish16_hamasapartments",
+        "cpname_gaza_skirmish16_garage"
+      ],
+      [
+        "cpname_gaza_skirmish16_houses",
+        "cpname_gaza_skirmish16_central"
+      ],
+      [
+        "cpname_gaza_skirmish16_apartment",
+        "cpname_gaza_skirmish16_corridor"
+      ],
+      [
+        "cpname_gaza_skirmish16_offices"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [156.1655, -240.47075]
+        "coordinates": [156.1655, -240.47075],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +46,7 @@
       },
       "bf2props": {
         "name": "cpname_gaza_skirmish16_hamasapartments_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.5, -112.5]
+        "coordinates": [118.5, -112.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "cpname_gaza_skirmish16_offices_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -47,6 +80,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.99075, -208.30374],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Shops 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_hamasapartments",
+        "class": "ControlPoint",
+        "name_object": "Shops 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "500.0",
+        "cpid": "1",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.29875, -180.1815],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Apartments 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_houses",
+        "class": "ControlPoint",
+        "name_object": "East Apartments 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.002, -155.0525],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Apartments 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_apartment",
+        "class": "ControlPoint",
+        "name_object": "North Apartments 35m",
+        "team": "0",
+        "areavalue1": "500.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "41",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.0265, -112.59275],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_offices",
+        "class": "ControlPoint",
+        "name_object": "IDF Deployment Area",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [158.01625, -237.37976],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hamas Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_hamasmain",
+        "class": "ControlPoint",
+        "name_object": "Hamas Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "301",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.30675, -147.33125],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Long Street 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_corridor",
+        "class": "ControlPoint",
+        "name_object": "Long Street 35m",
+        "team": "0",
+        "areavalue1": "500.0",
+        "areavalue2": "0.0",
+        "cpid": "302",
+        "sgid": "41",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.03325, -219.92026],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Parking Garage 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_garage",
+        "class": "ControlPoint",
+        "name_object": "Parking Garage 35m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "500.0",
+        "cpid": "303",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.3685, -187.26175],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Apartments 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_gaza_skirmish16_central",
+        "class": "ControlPoint",
+        "name_object": "West Apartments 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "304",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

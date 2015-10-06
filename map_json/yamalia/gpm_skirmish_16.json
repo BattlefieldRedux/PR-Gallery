@@ -1,11 +1,37 @@
 {
+  "team1":"ru",
+  "team2":"cf",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"4096",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_yamalia_skirmish16_rubase"
+      ],
+      [
+        "cpname_yamalia_skirmish16_trench"
+      ],
+      [
+        "cpname_yamalia_skirmish16_bunker"
+      ],
+      [
+        "cpname_yamalia_skirmish16_cfbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.125, -100.375]
+        "coordinates": [24.125, -100.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_skirmish16_cfbase_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.0, -71.625]
+        "coordinates": [94.0, -71.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_skirmish16_rubase_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.125, -80.25],
+        "size": [33, 33],
+        "radius": "2.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Trench Entrance will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_skirmish16_rubase",
+        "class": "ControlPoint",
+        "name_object": "Russian Trench Entrance",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.625, -91.25],
+        "size": [33, 33],
+        "radius": "2.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supply Station will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_skirmish16_trench",
+        "class": "ControlPoint",
+        "name_object": "Supply Station",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.125, -100.375],
+        "size": [33, 33],
+        "radius": "2.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_skirmish16_bunker",
+        "class": "ControlPoint",
+        "name_object": "Bunker",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.0, -96.875],
+        "size": [33, 33],
+        "radius": "2.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Canadian Trench Entrance will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_skirmish16_cfbase",
+        "class": "ControlPoint",
+        "name_object": "Canadian Trench Entrance",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

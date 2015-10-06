@@ -1,21 +1,52 @@
 {
+  "team1":"ch",
+  "team2":"gb",
+  "team1tickets":"300",
+  "team2tickets":"300",
+  "mapsize":"1024",
+  "viewdistance":"325",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_ghost_train_coop16_plaoutpost"
+      ],
+      [
+        "cpname_operation_ghost_train_coop16_trenches",
+        "cpname_operation_ghost_train_coop16_supplytrain"
+      ],
+      [
+        "cpname_operation_ghost_train_coop16_northbridge",
+        "cpname_operation_ghost_train_coop16_southbridge"
+      ],
+      [
+        "cpname_operation_ghost_train_coop16_tunnel"
+      ],
+      [
+        "cpname_operation_ghost_train_coop16_gbmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.3115, -23.954247]
+        "coordinates": [41.3115, -23.954247],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_gbmain_acv",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -29,17 +60,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.89925, -215.4415]
+        "coordinates": [97.89925, -215.4415],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_plaoutpost_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -53,17 +85,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.25, -28.658249]
+        "coordinates": [43.25, -28.658249],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_gbmain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -77,17 +110,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.667496, -212.05]
+        "coordinates": [91.667496, -212.05],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_plaoutpost_ac",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -101,7 +135,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.61, -215.19424]
+        "coordinates": [99.61, -215.19424],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -110,7 +145,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_plaoutpost_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -125,7 +160,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.023247, -28.729752]
+        "coordinates": [28.023247, -28.729752],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +170,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_gbmain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -149,17 +185,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [50.206497, 42.175003]
+        "coordinates": [50.206497, 42.175003],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_gbmain_mortar",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -173,17 +210,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [52.85, 42.175003]
+        "coordinates": [52.85, 42.175003],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_ghost_train_coop16_gbmain_mortar_0",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -197,17 +235,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [52.003998, 42.175003]
+        "coordinates": [52.003998, 42.175003],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "mortar",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -221,17 +260,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.181747, 42.175003]
+        "coordinates": [51.181747, 42.175003],
+        "size": [16, 16]
       },
       "properties": {
-        "iconurl": "",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about mortar_team2 will be found here!"
+        "iconurl": "icons/mini_map/AirDef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "mortar_0",
-        "class": "ObjectPlacement",
-        "name_object": "mortar_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "mortar_team2",
@@ -239,6 +279,195 @@
         "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.04975, -29.256248],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Farm Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_gbmain",
+        "class": "ControlPoint",
+        "name_object": "British Farm Outpost",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "30.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.267746, -71.75575],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_tunnel",
+        "class": "ControlPoint",
+        "name_object": "Tunnel",
+        "team": "2",
+        "areavalue1": "500.0",
+        "areavalue2": "30.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.64375, -63.767998],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_northbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [173.093, -123.1155],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_southbridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.39551, -189.7635],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trenches will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_trenches",
+        "class": "ControlPoint",
+        "name_object": "Trenches",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.5645, -204.5745],
+        "size": [33, 33],
+        "radius": "7.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supply Train will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_supplytrain",
+        "class": "ControlPoint",
+        "name_object": "Supply Train",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.999, -211.37024],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Recon Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_ghost_train_coop16_plaoutpost",
+        "class": "ControlPoint",
+        "name_object": "PLA Recon Outpost",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "99999.0",
+        "cpid": "7",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

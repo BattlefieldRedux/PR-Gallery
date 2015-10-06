@@ -1,11 +1,46 @@
 {
+  "team1":"taliban",
+  "team2":"usa",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"1024",
+  "viewdistance":"400",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_korengal_skirmish16_talib_start"
+      ],
+      [
+        "cpname_korengal_skirmish16_house_of_martyr"
+      ],
+      [
+        "cpname_korengal_skirmish16_market"
+      ],
+      [
+        "cpname_korengal_skirmish16_compound"
+      ],
+      [
+        "cpname_korengal_skirmish16_crossroads"
+      ],
+      [
+        "cpname_korengal_skirmish16_cottage"
+      ],
+      [
+        "cpname_korengal_skirmish16_us_start"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [59.336998, -91.01875]
+        "coordinates": [59.336998, -91.01875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +49,7 @@
       },
       "bf2props": {
         "name": "cpname_korengal_skirmish16_talib_start_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +64,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [215.21875, -187.12149]
+        "coordinates": [215.21875, -187.12149],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +74,7 @@
       },
       "bf2props": {
         "name": "cpname_korengal_skirmish16_us_start_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -47,6 +83,195 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.888504, -97.062],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about House of Martyr 25m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_house_of_martyr",
+        "class": "ControlPoint",
+        "name_object": "House of Martyr 25m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "101",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.625, -101.25],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_market",
+        "class": "ControlPoint",
+        "name_object": "Market 30m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.25, -132.875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Compound 25m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_compound",
+        "class": "ControlPoint",
+        "name_object": "Compound 25m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [167.875, -146.625],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Crossroads 25m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_crossroads",
+        "class": "ControlPoint",
+        "name_object": "Crossroads 25m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.041, -173.7175],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cottage 20m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_cottage",
+        "class": "ControlPoint",
+        "name_object": "Cottage 20m",
+        "team": "0",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [215.02649, -190.202],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_us_start",
+        "class": "ControlPoint",
+        "name_object": "US Deployment",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.094254, -88.29875],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban Stronghold will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_skirmish16_talib_start",
+        "class": "ControlPoint",
+        "name_object": "Taliban Stronghold",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "100",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

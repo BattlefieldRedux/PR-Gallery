@@ -1,21 +1,55 @@
 {
+  "team1":"ru",
+  "team2":"us",
+  "team1tickets":"500",
+  "team2tickets":"600",
+  "mapsize":"4096",
+  "viewdistance":"900",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_pavlovsk_bay_coop32_subpen"
+      ],
+      [
+        "cpname_pavlovsk_bay_coop32_construction"
+      ],
+      [
+        "cpname_pavlovsk_bay_coop32_oldbarracks",
+        "cpname_pavlovsk_bay_coop32_warehouse"
+      ],
+      [
+        "cpname_pavlovsk_bay_coop32_aabattery",
+        "cpname_pavlovsk_bay_coop32_outpost"
+      ],
+      [
+        "cpname_pavlovsk_bay_coop32_westbeachfort"
+      ],
+      [
+        "cpname_pavlovsk_bay_coop32_carrier"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.534065, -146.74725]
+        "coordinates": [124.534065, -146.74725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_depot_0",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -29,17 +63,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.445374, -179.97775]
+        "coordinates": [39.445374, -179.97775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_us will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_cp",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_us",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "2",
         "obj1": "null",
         "obj2": "deployable_commandpost_us",
@@ -53,7 +88,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.25544, -185.75012]
+        "coordinates": [38.25544, -185.75012],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_mv22.png",
@@ -62,7 +98,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_v22",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MV-22 Osprey",
         "team": "2",
         "obj1": "null",
@@ -77,7 +113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.558372, -185.96944]
+        "coordinates": [39.558372, -185.96944],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -86,7 +123,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_cobra",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -101,7 +138,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.54731, -184.09207]
+        "coordinates": [39.54731, -184.09207],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -110,7 +148,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_trans_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -125,7 +163,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.54731, -182.61462]
+        "coordinates": [39.54731, -182.61462],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -134,7 +173,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_trans_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -149,7 +188,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.669502, -173.16]
+        "coordinates": [39.669502, -173.16],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -158,7 +198,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_botcas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "2",
         "obj1": "null",
@@ -173,7 +213,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.669502, -174.42625]
+        "coordinates": [39.669502, -174.42625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -182,7 +223,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_bottrans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "2",
         "obj1": "null",
@@ -197,7 +238,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.889877, -35.64881]
+        "coordinates": [20.889877, -35.64881],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -206,7 +248,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_rhib",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -221,7 +263,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.92125, -35.24369]
+        "coordinates": [20.92125, -35.24369],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -230,7 +273,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_rhib_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -245,7 +288,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.29637, -185.15857]
+        "coordinates": [39.29637, -185.15857],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -254,7 +298,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_rhib_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -269,7 +313,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.44937, -185.15857]
+        "coordinates": [38.44937, -185.15857],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -278,7 +323,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_rhib_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -293,7 +338,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.750626, -80.67143]
+        "coordinates": [116.750626, -80.67143],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -302,7 +348,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_aabattery_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -317,7 +363,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.74144, -79.70787]
+        "coordinates": [120.74144, -79.70787],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -326,7 +373,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_aabattery_aa_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -341,7 +388,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.75793, -85.98038]
+        "coordinates": [159.75793, -85.98038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -350,7 +398,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_oldbarracks_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -365,7 +413,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.9155, -110.28037]
+        "coordinates": [151.9155, -110.28037],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -374,7 +423,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_construction_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -389,7 +438,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.003, -146.0987]
+        "coordinates": [124.003, -146.0987],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -398,7 +448,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -413,7 +463,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [156.63394, -131.09363]
+        "coordinates": [156.63394, -131.09363],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -422,7 +473,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_aa_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -437,7 +488,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.02893, -141.3895]
+        "coordinates": [137.02893, -141.3895],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -446,7 +498,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_aa_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "igla_djigit",
         "team": "1",
         "obj1": "igla_djigit",
@@ -461,7 +513,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.97862, -82.25406]
+        "coordinates": [118.97862, -82.25406],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -470,7 +523,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_aabattery_aa_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "igla_djigit",
         "team": "1",
         "obj1": "igla_djigit",
@@ -485,17 +538,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.03475, -147.58388]
+        "coordinates": [126.03475, -147.58388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -509,7 +563,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.6075, -146.59175]
+        "coordinates": [126.6075, -146.59175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -518,7 +573,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -533,7 +588,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.42369, -146.68425]
+        "coordinates": [126.42369, -146.68425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -542,7 +598,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -557,7 +613,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.24587, -146.78156]
+        "coordinates": [126.24587, -146.78156],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -566,7 +623,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -581,7 +638,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.97256, -81.630875]
+        "coordinates": [159.97256, -81.630875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -590,7 +648,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_oldbarracks_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_apc_bmp2",
@@ -605,7 +663,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.7562, -80.53587]
+        "coordinates": [159.7562, -80.53587],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -614,7 +673,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_oldbarracks_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -629,7 +688,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.39912, -140.25757]
+        "coordinates": [144.39912, -140.25757],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -638,7 +698,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_bmp3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_ifv_bmp2",
@@ -653,7 +713,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [144.37819, -139.59938]
+        "coordinates": [144.37819, -139.59938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -662,7 +723,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_bmp3_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_ifv_bmp2",
@@ -677,7 +738,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.22487, -137.85]
+        "coordinates": [148.22487, -137.85],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -686,7 +748,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_btr80",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_apc_bmp2_bf2",
@@ -701,7 +763,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.80344, -137.76819]
+        "coordinates": [148.80344, -137.76819],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -710,7 +773,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_btr80_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_apc_bmp2",
@@ -725,7 +788,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.48718, -137.80943]
+        "coordinates": [148.48718, -137.80943],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -734,7 +798,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_btr80_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_apc_bmp2_bf2",
@@ -749,7 +813,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [148.14919, -139.98032]
+        "coordinates": [148.14919, -139.98032],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -758,7 +823,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P149 Shturm-S",
         "team": "1",
         "obj1": "ru_atm_shturm",
@@ -773,7 +838,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.99606, -140.15381]
+        "coordinates": [147.99606, -140.15381],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -782,7 +848,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_brdm2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P149 Shturm-S",
         "team": "1",
         "obj1": "ru_atm_shturm",
@@ -797,7 +863,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [117.73594, -80.739624]
+        "coordinates": [117.73594, -80.739624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -806,7 +873,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_aabattery_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MT-LB",
         "team": "1",
         "obj1": "ru_apc_mtlb",
@@ -821,7 +888,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.82687, -82.295746]
+        "coordinates": [119.82687, -82.295746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -830,7 +898,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_aabattery_brdm_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "1",
         "obj1": "ru_jep_brdm2_support",
@@ -845,7 +913,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.312126, -184.83618]
+        "coordinates": [40.312126, -184.83618],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -854,7 +923,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -869,7 +938,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.669502, -171.66763]
+        "coordinates": [39.669502, -171.66763],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -878,7 +948,7 @@
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_carrier_cas_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "2",
         "obj1": "null",
@@ -887,6 +957,222 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.53787, -130.41425],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Submarine Pen 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_subpen",
+        "class": "ControlPoint",
+        "name_object": "Submarine Pen 80m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.9785, -114.19294],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_construction",
+        "class": "ControlPoint",
+        "name_object": "Construction Site 60m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [158.37006, -82.40062],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Barracks 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_oldbarracks",
+        "class": "ControlPoint",
+        "name_object": "Old Barracks 80m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "30.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.86937, -92.34331],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Harbour Entrance 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_warehouse",
+        "class": "ControlPoint",
+        "name_object": "Harbour Entrance 80m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.05737, -80.25537],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about AA Battery 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_aabattery",
+        "class": "ControlPoint",
+        "name_object": "AA Battery 100m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.28206, -54.924812],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hilltop Outpost 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_outpost",
+        "class": "ControlPoint",
+        "name_object": "Hilltop Outpost 60m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "6",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.4465, -42.42756],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Beach Fort 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_westbeachfort",
+        "class": "ControlPoint",
+        "name_object": "West Beach Fort 70m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.72631, -179.75494],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USS Essex will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_carrier",
+        "class": "ControlPoint",
+        "name_object": "USS Essex",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "90.0"
       }
     }
   ]

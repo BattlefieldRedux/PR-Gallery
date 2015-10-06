@@ -1,11 +1,114 @@
 {
+  "team1":"ru",
+  "team2":"cf",
+  "team1tickets":"600",
+  "team2tickets":"600",
+  "mapsize":"4096",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_yamalia_aas32_papa6",
+        "cpname_yamalia_aas32_defendersmainbase"
+      ],
+      [
+        "cpname_yamalia_aas32_papa5a",
+        "cpname_yamalia_aas32_papa5b"
+      ],
+      [
+        "cpname_yamalia_aas32_papa4a",
+        "cpname_yamalia_aas32_papa4b"
+      ],
+      [
+        "cpname_yamalia_aas32_papa3a",
+        "cpname_yamalia_aas32_papa3b"
+      ],
+      [
+        "cpname_yamalia_aas32_papa2a",
+        "cpname_yamalia_aas32_papa2b",
+        "cpname_yamalia_aas32_papa2c"
+      ],
+      [
+        "cpname_yamalia_aas32_papa1"
+      ],
+      [
+        "cpname_yamalia_aas32_attackersmainbase"
+      ]
+    ],
+    [
+      [
+        "cpname_yamalia_aas32_romeo6",
+        "cpname_yamalia_aas32_defendersmainbase"
+      ],
+      [
+        "cpname_yamalia_aas32_romeo5a",
+        "cpname_yamalia_aas32_romeo5b",
+        "cpname_yamalia_aas32_romeo5c"
+      ],
+      [
+        "cpname_yamalia_aas32_romeo4a",
+        "cpname_yamalia_aas32_romeo4b",
+        "cpname_yamalia_aas32_romeo4c"
+      ],
+      [
+        "cpname_yamalia_aas32_romeo3a",
+        "cpname_yamalia_aas32_romeo3b",
+        "cpname_yamalia_aas32_romeo3c",
+        "cpname_yamalia_aas32_romeo3d"
+      ],
+      [
+        "cpname_yamalia_aas32_romeo2a",
+        "cpname_yamalia_aas32_romeo2b",
+        "cpname_yamalia_aas32_romeo2c"
+      ],
+      [
+        "cpname_yamalia_aas32_romeo1"
+      ],
+      [
+        "cpname_yamalia_aas32_attackersmainbase"
+      ]
+    ],
+    [
+      [
+        "cpname_yamalia_aas32_tango6",
+        "cpname_yamalia_aas32_defendersmainbase"
+      ],
+      [
+        "cpname_yamalia_aas32_tango5a",
+        "cpname_yamalia_aas32_tango5b"
+      ],
+      [
+        "cpname_yamalia_aas32_tango4a",
+        "cpname_yamalia_aas32_tango4b",
+        "cpname_yamalia_aas32_tango4c"
+      ],
+      [
+        "cpname_yamalia_aas32_tango3a",
+        "cpname_yamalia_aas32_tango3b"
+      ],
+      [
+        "cpname_yamalia_aas32_tango2a",
+        "cpname_yamalia_aas32_tango2b"
+      ],
+      [
+        "cpname_yamalia_aas32_tango1"
+      ],
+      [
+        "cpname_yamalia_aas32_attackersmainbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.402626, -16.179565]
+        "coordinates": [8.402626, -16.179565],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -14,7 +117,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_atv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "2",
         "obj1": "null",
@@ -29,7 +132,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.443184, -16.02906]
+        "coordinates": [8.443184, -16.02906],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -38,7 +142,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "2",
         "obj1": "null",
@@ -53,7 +157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.511566, -15.898811]
+        "coordinates": [8.511566, -15.898811],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -62,7 +167,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "2",
         "obj1": "null",
@@ -77,7 +182,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.650627, -18.06456]
+        "coordinates": [8.650627, -18.06456],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -86,7 +192,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "2",
         "obj1": "null",
@@ -101,7 +207,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.87075, -18.846497]
+        "coordinates": [8.87075, -18.846497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -110,7 +217,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -125,7 +232,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.532562, -15.736061]
+        "coordinates": [10.532562, -15.736061],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -134,7 +242,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_heli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "CH-146 Griffon",
         "team": "2",
         "obj1": "null",
@@ -149,7 +257,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.61826, -234.85612]
+        "coordinates": [240.61826, -234.85612],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -158,7 +267,7 @@
       },
       "bf2props": {
         "name": "atv_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -173,7 +282,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.99844, -234.69868]
+        "coordinates": [240.99844, -234.69868],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -182,7 +292,7 @@
       },
       "bf2props": {
         "name": "atv_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -197,7 +307,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.86725, -234.73512]
+        "coordinates": [240.86725, -234.73512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -206,7 +317,7 @@
       },
       "bf2props": {
         "name": "atv_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -221,7 +332,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.73807, -234.79324]
+        "coordinates": [240.73807, -234.79324],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_dirtbike.png",
@@ -230,7 +342,7 @@
       },
       "bf2props": {
         "name": "atv_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Dirtbike",
         "team": "1",
         "obj1": "civ_bik_dirtbike",
@@ -245,7 +357,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.2055, -237.06918]
+        "coordinates": [239.2055, -237.06918],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -254,7 +367,7 @@
       },
       "bf2props": {
         "name": "brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -269,7 +382,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.08493, -237.03194]
+        "coordinates": [243.08493, -237.03194],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -278,7 +392,7 @@
       },
       "bf2props": {
         "name": "logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -293,7 +407,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.3835, -236.9632]
+        "coordinates": [243.3835, -236.9632],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -302,7 +417,7 @@
       },
       "bf2props": {
         "name": "logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -317,7 +432,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.548, -233.2445]
+        "coordinates": [243.548, -233.2445],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -326,7 +442,7 @@
       },
       "bf2props": {
         "name": "heli_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -341,7 +457,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.771126, -18.412125]
+        "coordinates": [8.771126, -18.412125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -350,7 +467,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_1_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -365,7 +482,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.961624, -17.095314]
+        "coordinates": [12.961624, -17.095314],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -374,7 +492,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -389,7 +507,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.546997, -19.209251]
+        "coordinates": [12.546997, -19.209251],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -398,7 +517,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_2_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -413,17 +532,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.564003, -16.825378]
+        "coordinates": [8.564003, -16.825378],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_cf will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_cf",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_cf",
@@ -437,17 +557,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.757935, -19.92781]
+        "coordinates": [15.757935, -19.92781],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about cf_acv_lav3cpv will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_cp",
-        "class": "ObjectPlacement",
-        "name_object": "cf_acv_lav3cpv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "cf_acv_lav3cpv",
@@ -461,17 +582,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.104, -236.90706]
+        "coordinates": [244.104, -236.90706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "depot_0",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -485,17 +607,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.40451, -236.00775]
+        "coordinates": [238.40451, -236.00775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cp_0",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -509,17 +632,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.3804398, 51.208374]
+        "coordinates": [3.3804398, 51.208374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -533,17 +657,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.94275, -296.84186]
+        "coordinates": [247.94275, -296.84186],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -557,7 +682,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.0535, -235.84106]
+        "coordinates": [242.0535, -235.84106],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -566,7 +692,7 @@
       },
       "bf2props": {
         "name": "truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -581,7 +707,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.75995, -237.12119]
+        "coordinates": [242.75995, -237.12119],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -590,7 +717,7 @@
       },
       "bf2props": {
         "name": "truck_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -605,7 +732,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.7995, -237.53387]
+        "coordinates": [241.7995, -237.53387],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -614,7 +742,7 @@
       },
       "bf2props": {
         "name": "apc_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -629,7 +757,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.77744, -235.90857]
+        "coordinates": [241.77744, -235.90857],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -638,7 +767,7 @@
       },
       "bf2props": {
         "name": "apc_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -653,7 +782,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.11975, -237.41882]
+        "coordinates": [242.11975, -237.41882],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -662,7 +792,7 @@
       },
       "bf2props": {
         "name": "apc_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "ru_apc_btr60",
@@ -677,7 +807,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.858, -234.0603]
+        "coordinates": [244.858, -234.0603],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -686,7 +817,7 @@
       },
       "bf2props": {
         "name": "heli_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -701,7 +832,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.3605, -232.82925]
+        "coordinates": [246.3605, -232.82925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -710,7 +842,7 @@
       },
       "bf2props": {
         "name": "heli_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -725,7 +857,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.870811, -16.807816]
+        "coordinates": [12.870811, -16.807816],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -734,7 +867,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_3_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -749,17 +882,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.0514984, 51.61281]
+        "coordinates": [5.0514984, 51.61281],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_1_3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -773,17 +907,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3899384, 52.559372]
+        "coordinates": [4.3899384, 52.559372],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_2_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -797,17 +932,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.8336868, 52.02469]
+        "coordinates": [3.8336868, 52.02469],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_3_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -821,7 +957,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.578064, -17.032997]
+        "coordinates": [10.578064, -17.032997],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -830,7 +967,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_4_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "CH-147 Chinook",
         "team": "2",
         "obj1": "null",
@@ -845,17 +982,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.30588, -295.37555]
+        "coordinates": [247.30588, -295.37555],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -869,17 +1007,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.89499, -297.66376]
+        "coordinates": [247.89499, -297.66376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_5",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -893,17 +1032,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.34113, -296.9285]
+        "coordinates": [247.34113, -296.9285],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "136.435",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_6",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -917,7 +1057,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.80825, -18.656815]
+        "coordinates": [12.80825, -18.656815],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -926,7 +1067,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -941,7 +1082,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.546875, -19.779938]
+        "coordinates": [9.546875, -19.779938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -950,7 +1092,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_3_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -965,7 +1107,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.194313, -19.572876]
+        "coordinates": [9.194313, -19.572876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -974,7 +1117,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_5_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -989,7 +1132,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.52025, -236.99649]
+        "coordinates": [239.52025, -236.99649],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -998,7 +1142,7 @@
       },
       "bf2props": {
         "name": "brdm_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -1013,7 +1157,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.07431, -17.389748]
+        "coordinates": [13.07431, -17.389748],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -1022,7 +1167,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_cfjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -1037,7 +1182,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.782814, -16.469872]
+        "coordinates": [12.782814, -16.469872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -1046,7 +1192,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_cfjeepmg",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -1061,7 +1207,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.680191, -18.926064]
+        "coordinates": [12.680191, -18.926064],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -1070,7 +1217,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_cfapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -1085,7 +1232,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.46518, -237.63269]
+        "coordinates": [241.46518, -237.63269],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -1094,7 +1242,7 @@
       },
       "bf2props": {
         "name": "rusapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -1109,7 +1257,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.09175, -237.73856]
+        "coordinates": [241.09175, -237.73856],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -1118,7 +1267,7 @@
       },
       "bf2props": {
         "name": "rusapc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -1133,7 +1282,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.762375, -20.015999]
+        "coordinates": [9.762375, -20.015999],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -1142,7 +1292,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -1157,7 +1307,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.922684, -18.381187]
+        "coordinates": [12.922684, -18.381187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -1166,7 +1317,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_aas32_attackersmainbase_coyote",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Coyote Recon Vehicle",
         "team": "2",
         "obj1": "null",
@@ -1175,6 +1326,1059 @@
         "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.48743, -234.17743],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_defendersmainbase",
+        "class": "ControlPoint",
+        "name_object": "Russian Deployment Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.838623, -17.444504],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Canadian Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_attackersmainbase",
+        "class": "ControlPoint",
+        "name_object": "Canadian Deployment Area",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.481812, -58.735313],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa One 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa1",
+        "class": "ControlPoint",
+        "name_object": "Papa One 200m",
+        "team": "0",
+        "areavalue1": "150.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "601",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.38575, -98.10788],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa2a",
+        "class": "ControlPoint",
+        "name_object": "Papa Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [61.660378, -99.17206],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa2b",
+        "class": "ControlPoint",
+        "name_object": "Papa Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.31556, -110.124],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa2c",
+        "class": "ControlPoint",
+        "name_object": "Papa Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.867622, -162.48131],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa3a",
+        "class": "ControlPoint",
+        "name_object": "Papa Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.83394, -218.90662],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa4a",
+        "class": "ControlPoint",
+        "name_object": "Papa Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.317184, -150.92757],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa3b",
+        "class": "ControlPoint",
+        "name_object": "Papa Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "9",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.509, -199.91356],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa4b",
+        "class": "ControlPoint",
+        "name_object": "Papa Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "10",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.34793, -229.933],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa5a",
+        "class": "ControlPoint",
+        "name_object": "Papa Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "11",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.02768, -191.56024],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa5b",
+        "class": "ControlPoint",
+        "name_object": "Papa Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "12",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.36612, -227.05281],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Papa Six 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_papa6",
+        "class": "ControlPoint",
+        "name_object": "Papa Six 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "150.0",
+        "cpid": "13",
+        "sgid": "101",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.8955, -41.046753],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo One 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo1",
+        "class": "ControlPoint",
+        "name_object": "Romeo One 200m",
+        "team": "0",
+        "areavalue1": "150.0",
+        "areavalue2": "0.0",
+        "cpid": "14",
+        "sgid": "602",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.879623, -97.43738],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo2a",
+        "class": "ControlPoint",
+        "name_object": "Romeo Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "15",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.910065, -82.72725],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo2b",
+        "class": "ControlPoint",
+        "name_object": "Romeo Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "16",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.11713, -56.437935],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo2c",
+        "class": "ControlPoint",
+        "name_object": "Romeo Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "17",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.40869, -85.16513],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo3a",
+        "class": "ControlPoint",
+        "name_object": "Romeo Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "18",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.261566, -130.37656],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo3b",
+        "class": "ControlPoint",
+        "name_object": "Romeo Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "19",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.89769, -122.327934],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo3c",
+        "class": "ControlPoint",
+        "name_object": "Romeo Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "20",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.728, -105.025314],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo3d",
+        "class": "ControlPoint",
+        "name_object": "Romeo Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "21",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [156.84044, -137.93518],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo4a",
+        "class": "ControlPoint",
+        "name_object": "Romeo Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "22",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.46857, -124.033875],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo4b",
+        "class": "ControlPoint",
+        "name_object": "Romeo Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "23",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.45432, -153.80731],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo4c",
+        "class": "ControlPoint",
+        "name_object": "Romeo Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "24",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [185.5995, -166.78069],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo5a",
+        "class": "ControlPoint",
+        "name_object": "Romeo Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "25",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.398, -182.60225],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo5b",
+        "class": "ControlPoint",
+        "name_object": "Romeo Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "26",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [204.23993, -149.71931],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo5c",
+        "class": "ControlPoint",
+        "name_object": "Romeo Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "27",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.25668, -206.13324],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Romeo Six 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_romeo6",
+        "class": "ControlPoint",
+        "name_object": "Romeo Six 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "150.0",
+        "cpid": "28",
+        "sgid": "102",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.3275, -23.450562],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango One 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango1",
+        "class": "ControlPoint",
+        "name_object": "Tango One 200m",
+        "team": "0",
+        "areavalue1": "150.0",
+        "areavalue2": "0.0",
+        "cpid": "29",
+        "sgid": "603",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.079185, -44.30931],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango2a",
+        "class": "ControlPoint",
+        "name_object": "Tango Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "30",
+        "sgid": "513",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.30507, -17.44519],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Two 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango2b",
+        "class": "ControlPoint",
+        "name_object": "Tango Two 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "31",
+        "sgid": "513",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.05412, -28.514816],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango3a",
+        "class": "ControlPoint",
+        "name_object": "Tango Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "32",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.78038, -56.50775],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Three 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango3b",
+        "class": "ControlPoint",
+        "name_object": "Tango Three 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "33",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [215.59512, -62.781563],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango4a",
+        "class": "ControlPoint",
+        "name_object": "Tango Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "34",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [230.00037, -84.38763],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango4b",
+        "class": "ControlPoint",
+        "name_object": "Tango Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "35",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.64769, -89.567184],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Four 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango4c",
+        "class": "ControlPoint",
+        "name_object": "Tango Four 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "36",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [230.21925, -128.33925],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango5a",
+        "class": "ControlPoint",
+        "name_object": "Tango Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "37",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [213.16588, -142.5905],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Five 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango5b",
+        "class": "ControlPoint",
+        "name_object": "Tango Five 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "38",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.10788, -180.81325],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tango Six 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_aas32_tango6",
+        "class": "ControlPoint",
+        "name_object": "Tango Six 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "150.0",
+        "cpid": "39",
+        "sgid": "103",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     }
   ]

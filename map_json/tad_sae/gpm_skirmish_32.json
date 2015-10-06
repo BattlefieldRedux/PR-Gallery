@@ -1,11 +1,37 @@
 {
+  "team1":"vnnva",
+  "team2":"vnusa",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"1024",
+  "viewdistance":"275",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_tad_sae_skirmish32_nvamain"
+      ],
+      [
+        "cpname_tad_sae_skirmish32_villageeast"
+      ],
+      [
+        "cpname_tad_sae_skirmish32_villagewest"
+      ],
+      [
+        "cpname_tad_sae_skirmish32_usmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [203.71375, -206.45474]
+        "coordinates": [203.71375, -206.45474],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_skirmish32_nvamain_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.1615, -224.67624]
+        "coordinates": [54.1615, -224.67624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_skirmish32_usmain_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.487, -207.21175],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/vnnva/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NVA Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_skirmish32_nvamain",
+        "class": "ControlPoint",
+        "name_object": "NVA Deployment",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.824, -206.5415],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_skirmish32_villageeast",
+        "class": "ControlPoint",
+        "name_object": "East Village",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "50.0",
+        "cpid": "101",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.588, -211.98676],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_skirmish32_villagewest",
+        "class": "ControlPoint",
+        "name_object": "West Village",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "50.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.913002, -223.297],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_skirmish32_usmain",
+        "class": "ControlPoint",
+        "name_object": "US Deployment",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

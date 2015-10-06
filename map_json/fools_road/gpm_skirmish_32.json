@@ -1,11 +1,36 @@
 {
+  "team1":"chinsurgent",
+  "team2":"gb",
+  "team1tickets":"650",
+  "team2tickets":"650",
+  "mapsize":"2048",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_fools_road_skirmish32_militiamain"
+      ],
+      [
+        "cpname_fools_road_skirmish32_fort1"
+      ],
+      [
+        "cpname_fools_road_skirmish32_brit1",
+        "cpname_fools_road_skirmish32_brit2",
+        "cpname_fools_road_skirmish32_brit3"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [52.832626, -51.07875]
+        "coordinates": [52.832626, -51.07875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +39,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_fort1_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +54,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.67975, -55.930252]
+        "coordinates": [51.67975, -55.930252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
@@ -38,7 +64,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_fort1_zis1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zis3",
         "team": "1",
         "obj1": "zis3",
@@ -53,7 +79,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.38775, -52.33938]
+        "coordinates": [54.38775, -52.33938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
@@ -62,7 +89,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_fort1_zis2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zis3",
         "team": "1",
         "obj1": "zis3",
@@ -77,7 +104,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.2715, -9.561501]
+        "coordinates": [78.2715, -9.561501],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +114,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_brit1_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -101,7 +129,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.1535, -61.110374]
+        "coordinates": [96.1535, -61.110374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +139,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_brit2_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -125,7 +154,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.701248, -92.85988]
+        "coordinates": [10.701248, -92.85988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -134,7 +164,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_brit3_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "null",
@@ -149,17 +179,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.390373, -51.55388]
+        "coordinates": [51.390373, -51.55388],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_fort1_spawn1",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -173,17 +204,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [53.3925, -49.763252]
+        "coordinates": [53.3925, -49.763252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_fort1_spawn2",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -197,17 +229,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.39863, -55.235374]
+        "coordinates": [51.39863, -55.235374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_fort1_spawn3",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -221,7 +254,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.272247, -32.190002]
+        "coordinates": [22.272247, -32.190002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -230,7 +264,7 @@
       },
       "bf2props": {
         "name": "cpname_fools_road_skirmish32_militiamain_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -239,6 +273,141 @@
         "minspawn": "1.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.46025, -34.607628],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_skirmish32_militiamain",
+        "class": "ControlPoint",
+        "name_object": "Militia Main",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.007004, -52.39987],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Fortress 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_skirmish32_fort1",
+        "class": "ControlPoint",
+        "name_object": "Militia Fortress 30m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "601",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.00125, -14.647873],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Troops will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_skirmish32_brit1",
+        "class": "ControlPoint",
+        "name_object": "British Troops",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "602",
+        "sgid": "331",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.64212, -64.146126],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Troops will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_skirmish32_brit2",
+        "class": "ControlPoint",
+        "name_object": "British Troops",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "603",
+        "sgid": "331",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.331749, -93.98512],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Troops will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_skirmish32_brit3",
+        "class": "ControlPoint",
+        "name_object": "British Troops",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "604",
+        "sgid": "331",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

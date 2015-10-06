@@ -1,5 +1,168 @@
 {
+  "team1":"chinsurgent",
+  "team2":"gb",
+  "team1tickets":"200",
+  "team2tickets":"200",
+  "mapsize":"2048",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_fools_road_coop16_fort"
+      ],
+      [
+        "cpname_fools_road_coop16_hill531"
+      ],
+      [
+        "cpname_fools_road_coop16_hill530"
+      ],
+      [
+        "cpname_fools_road_coop16_roaddefense"
+      ],
+      [
+        "cpname_fools_road_coop16_helicopterairbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.689255, -60.939003],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill 531 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_coop16_hill531",
+        "class": "ControlPoint",
+        "name_object": "Hill 531",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.13375, -37.252625],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill 530 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_coop16_hill530",
+        "class": "ControlPoint",
+        "name_object": "Hill 530",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.75275, -41.626],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Road Defence will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_coop16_roaddefense",
+        "class": "ControlPoint",
+        "name_object": "Road Defence",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.81512, -31.551003],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Helicopter Air Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_coop16_helicopterairbase",
+        "class": "ControlPoint",
+        "name_object": "Helicopter Air Base",
+        "team": "2",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.55375, -52.346626],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Fort will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fools_road_coop16_fort",
+        "class": "ControlPoint",
+        "name_object": "Militia Fort",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "1000.0",
+        "cpid": "5",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    }
   ]
 }

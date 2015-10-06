@@ -1,11 +1,37 @@
 {
+  "team1":"chinsurgent",
+  "team2":"us",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"1024",
+  "viewdistance":"390",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_assault_on_mestia_skirmish16_rebelbase"
+      ],
+      [
+        "cpname_assault_on_mestia_skirmish16_perimeter"
+      ],
+      [
+        "cpname_assault_on_mestia_skirmish16_munitionplant"
+      ],
+      [
+        "cpname_assault_on_mestia_skirmish16_easttower"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [203.90924, -94.5585]
+        "coordinates": [203.90924, -94.5585],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [50.19375, -47.419746]
+        "coordinates": [50.19375, -47.419746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "crate_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.390747, -50.6025],
+        "size": [33, 33],
+        "radius": "5.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Compound will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_skirmish16_rebelbase",
+        "class": "ControlPoint",
+        "name_object": "Militia Compound",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [183.2975, -38.601753],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Ammo Storage 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_skirmish16_munitionplant",
+        "class": "ControlPoint",
+        "name_object": "Ammo Storage 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "302",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [203.75975, -96.7565],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Tower 20m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_skirmish16_easttower",
+        "class": "ControlPoint",
+        "name_object": "East Tower 20m",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "303",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6555, -79.46825],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Perimeter 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_mestia_skirmish16_perimeter",
+        "class": "ControlPoint",
+        "name_object": "Perimeter 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "306",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

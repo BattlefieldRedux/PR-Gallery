@@ -1,21 +1,47 @@
 {
+  "team1":"mec",
+  "team2":"us",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_muttrah_city_2_skirmish16_fort"
+      ],
+      [
+        "cpname_muttrah_city_2_skirmish16_parkinglot"
+      ],
+      [
+        "cpname_muttrah_city_2_skirmish16_apartments"
+      ],
+      [
+        "cpname_muttrah_city_2_skirmish16_usmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.12325, -202.43887]
+        "coordinates": [126.12325, -202.43887],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_mec_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_mc_scrim16_mecrp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_mec_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_mec_placeable",
         "obj2": "null",
@@ -29,17 +55,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.33713, -247.04675]
+        "coordinates": [77.33713, -247.04675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_us_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_mc_scrim16_usmcrp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_us_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_us_placeable",
@@ -53,7 +80,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.074005, -230.414]
+        "coordinates": [80.074005, -230.414],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +90,7 @@
       },
       "bf2props": {
         "name": "cpname_mc_scrim16_usmain_usmc_supplycrate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -77,7 +105,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.18, -213.84412]
+        "coordinates": [116.18, -213.84412],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +115,7 @@
       },
       "bf2props": {
         "name": "cpname_mc_scrim16_parkinglot_mec_supplycrate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -101,7 +130,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.14037, -216.14224]
+        "coordinates": [116.14037, -216.14224],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +140,7 @@
       },
       "bf2props": {
         "name": "cpname_mc_scrim16_parkinglot_mec_supplycrate_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -125,17 +155,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [123.4405, -200.47987]
+        "coordinates": [123.4405, -200.47987],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-75.874",
-        "popupContent": "Amazing information about mec_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_skirmish16_fort_mec_bipod",
-        "class": "ObjectPlacement",
-        "name_object": "mec_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "mec_bipod",
         "obj2": "null",
@@ -143,6 +174,114 @@
         "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.28413, -223.23637],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Parking Garage will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_skirmish16_parkinglot",
+        "class": "ControlPoint",
+        "name_object": "Parking Garage",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "110.0",
+        "cpid": "400",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.65012, -204.50587],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Fortress will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_skirmish16_fort",
+        "class": "ControlPoint",
+        "name_object": "MEC Fortress",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "402",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.98788, -214.10663],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartment Complex will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_skirmish16_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartment Complex",
+        "team": "0",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "401",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.146126, -244.74162],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USMC Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_skirmish16_usmain",
+        "class": "ControlPoint",
+        "name_object": "USMC Deployment Area",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "403",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
       }
     }
   ]

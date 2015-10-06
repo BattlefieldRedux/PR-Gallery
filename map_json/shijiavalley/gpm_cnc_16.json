@@ -1,11 +1,23 @@
 {
+  "team1":"ch",
+  "team2":"gb",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"4096",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.300186, -10.150627]
+        "coordinates": [15.300186, -10.150627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -14,7 +26,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_lightjeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "ch_jep_uaz",
@@ -29,7 +41,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.928062, -11.68219]
+        "coordinates": [13.928062, -11.68219],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -38,7 +51,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_vn3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "1",
         "obj1": "ch_jep_paratrooper",
@@ -53,7 +66,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.286247, -10.692497]
+        "coordinates": [15.286247, -10.692497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -62,7 +76,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -77,7 +91,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.280441, -11.066559]
+        "coordinates": [15.280441, -11.066559],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +101,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -101,7 +116,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.045937, -14.677628]
+        "coordinates": [12.045937, -14.677628],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
@@ -110,7 +126,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_helo1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-8KA",
         "team": "1",
         "obj1": "ch_the_z8",
@@ -125,17 +141,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.611748, -8.509872]
+        "coordinates": [14.611748, -8.509872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -149,7 +166,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.299187, -10.405441]
+        "coordinates": [15.299187, -10.405441],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -158,7 +176,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "ch_jep_uaz",
@@ -173,7 +191,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.700996, -11.288437]
+        "coordinates": [13.700996, -11.288437],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -182,7 +201,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_tank2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "1",
         "obj1": "ch_jep_paratrooper",
@@ -197,7 +216,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.59032, -5.85569]
+        "coordinates": [149.59032, -5.85569],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -206,7 +226,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -221,7 +241,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.31569, -5.6275024]
+        "coordinates": [149.31569, -5.6275024],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -230,7 +251,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_boat_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib",
@@ -245,7 +266,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.94693, -137.5915]
+        "coordinates": [244.94693, -137.5915],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -254,7 +276,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_heli1_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Chinook HC4",
         "team": "2",
         "obj1": "null",
@@ -269,17 +291,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.04375, -141.11775]
+        "coordinates": [245.04375, -141.11775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_vehicledepot2_0",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -293,7 +316,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.57574, -144.12569]
+        "coordinates": [245.57574, -144.12569],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -302,7 +326,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -317,17 +341,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.72456, -4.626686]
+        "coordinates": [150.72456, -4.626686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ch_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_boatrally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ch_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ch_placeable_noexpire",
         "obj2": "null",
@@ -341,7 +366,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.60843, -143.84995]
+        "coordinates": [245.60843, -143.84995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -350,7 +376,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -365,7 +391,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.87799, -144.6775]
+        "coordinates": [247.87799, -144.6775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -374,7 +401,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_mbt_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -389,7 +416,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.45343, -144.89706]
+        "coordinates": [247.45343, -144.89706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -398,7 +426,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -413,17 +441,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.142563, -17.253998]
+        "coordinates": [16.142563, -17.253998],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_copost",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -437,7 +466,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.16257, -149.31718]
+        "coordinates": [246.16257, -149.31718],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -446,7 +476,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_rover_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Panther CLV",
         "team": "2",
         "obj1": "null",
@@ -461,7 +491,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.88219, -143.3055]
+        "coordinates": [247.88219, -143.3055],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -470,7 +501,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -485,7 +516,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.97507, -241.67719]
+        "coordinates": [240.97507, -241.67719],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -494,7 +526,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_boat_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -509,7 +541,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.25949, -241.90799]
+        "coordinates": [241.25949, -241.90799],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -518,7 +551,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -533,7 +566,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.269249, -11.618561]
+        "coordinates": [15.269249, -11.618561],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -542,7 +576,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -557,7 +591,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.231316, -9.428749]
+        "coordinates": [15.231316, -9.428749],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -566,31 +601,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_aav",
-        "class": "ObjectPlacement",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "-999",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.272873, -11.327499]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_cnc16_plamain_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 2.5 Ton",
         "team": "1",
         "obj1": "ch_trk_support",
@@ -605,7 +616,33 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.72456, -143.06226]
+        "coordinates": [15.272873, -11.327499],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_cnc16_plamain_apc_0",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247.72456, -143.06226],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -614,7 +651,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -629,17 +666,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.01819, -146.04913]
+        "coordinates": [243.01819, -146.04913],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about gb_acv_sultan will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_copost_0",
-        "class": "ObjectPlacement",
-        "name_object": "gb_acv_sultan",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "gb_acv_sultan",
@@ -653,7 +691,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.068436, -9.174309]
+        "coordinates": [15.068436, -9.174309],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -662,7 +701,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_wz551a",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551a",
@@ -677,7 +716,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.1015625, -16.2975]
+        "coordinates": [12.1015625, -16.2975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
@@ -686,7 +726,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_plamain_helo",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-8KA",
         "team": "1",
         "obj1": "ch_the_z8",
@@ -701,7 +741,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.664, -144.78581]
+        "coordinates": [247.664, -144.78581],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -710,7 +751,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -725,17 +766,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.2497, -239.95819]
+        "coordinates": [243.2497, -239.95819],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_gb_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_boatspawn",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_gb_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_gb_placeable_noexpire",
@@ -749,7 +791,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.19513, -149.07756]
+        "coordinates": [246.19513, -149.07756],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -758,7 +801,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_panther",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Panther CLV",
         "team": "2",
         "obj1": "null",
@@ -773,7 +816,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.09444, -137.66013]
+        "coordinates": [246.09444, -137.66013],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -782,7 +826,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_helo",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Chinook HC4",
         "team": "2",
         "obj1": "null",
@@ -797,7 +841,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.02475, -143.53188]
+        "coordinates": [248.02475, -143.53188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -806,7 +851,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_cnc16_gbmain_11",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
@@ -815,6 +860,60 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.31131, -16.931564],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_cnc16_plamain",
+        "class": "ControlPoint",
+        "name_object": "PLA Main",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.85849, -145.43594],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about GB Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_cnc16_gbmain",
+        "class": "ControlPoint",
+        "name_object": "GB Main",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

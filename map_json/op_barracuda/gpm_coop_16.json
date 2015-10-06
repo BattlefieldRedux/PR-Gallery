@@ -1,21 +1,53 @@
 {
+  "team1":"ch",
+  "team2":"us",
+  "team1tickets":"400",
+  "team2tickets":"450",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_op_barracuda_coop16_missilesilo"
+      ],
+      [
+        "cpname_op_barracuda_coop16_supplies",
+        "cpname_op_barracuda_coop16_cave"
+      ],
+      [
+        "cpname_op_barracuda_coop16_airstrip",
+        "cpname_op_barracuda_coop16_beachfortification"
+      ],
+      [
+        "cpname_op_barracuda_coop16_southrockfort",
+        "cpname_op_barracuda_coop16_northrockfort"
+      ],
+      [
+        "cpname_op_barracuda_coop16_carrier"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-17.95137, 24.943619]
+        "coordinates": [-17.95137, 24.943619],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "137.394",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "art_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -29,17 +61,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-20.400253, 25.416]
+        "coordinates": [-20.400253, 25.416],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "137.394",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_3",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -53,17 +86,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-17.62387, 22.118881]
+        "coordinates": [-17.62387, 22.118881],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "137.394",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "arty_4",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -77,17 +111,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-20.783493, 22.269882]
+        "coordinates": [-20.783493, 22.269882],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "137.394",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "jdam",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [111.138, -174.44125]
+        "coordinates": [111.138, -174.44125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "cpname_ob_64_supplies_aascannons",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -125,17 +161,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.453, -193.17163]
+        "coordinates": [174.453, -193.17163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_ob_64_missilesilo_ch_usmc_smg",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -149,17 +186,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.79651, -189.19063]
+        "coordinates": [172.79651, -189.19063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -173,17 +211,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.85088, -189.18976]
+        "coordinates": [176.85088, -189.18976],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_0",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -197,17 +236,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.7495, -189.21738]
+        "coordinates": [185.7495, -189.21738],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_1",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -221,17 +261,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.96663, -190.71875]
+        "coordinates": [169.96663, -190.71875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_2",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -245,17 +286,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.3815, -209.75925]
+        "coordinates": [169.3815, -209.75925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-85.326",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_3",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -269,17 +311,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.52176, -195.442]
+        "coordinates": [198.52176, -195.442],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_4",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -293,17 +336,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.115753, -27.473503]
+        "coordinates": [31.115753, -27.473503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_us will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cp",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_us",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "2",
         "obj1": "null",
         "obj2": "deployable_commandpost_us",
@@ -317,17 +361,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.954, -196.604]
+        "coordinates": [184.954, -196.604],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ch_acv_wz551 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cp_0",
-        "class": "ObjectPlacement",
-        "name_object": "ch_acv_wz551",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ch_acv_wz551",
         "obj2": "null",
@@ -341,17 +386,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [204.27899, -215.95775]
+        "coordinates": [204.27899, -215.95775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "87.398",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "mg_8",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -365,7 +411,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [57.125, -223.125]
+        "coordinates": [57.125, -223.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -374,7 +421,7 @@
       },
       "bf2props": {
         "name": "cpname_ob_64_airstrip_mec_aascannons",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -389,7 +436,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.317001, -37.823875]
+        "coordinates": [18.317001, -37.823875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -398,7 +446,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_transheli_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -413,7 +461,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.48712, -21.093872]
+        "coordinates": [38.48712, -21.093872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -422,7 +471,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_attackheli_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "2",
         "obj1": "null",
@@ -437,7 +486,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.97337, -219.06937]
+        "coordinates": [176.97337, -219.06937],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -446,7 +496,7 @@
       },
       "bf2props": {
         "name": "cpname_ob_64_missilesilo_ch_lightheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9WA",
         "team": "1",
         "obj1": "ch_ahe_z9wa_hf25_sp",
@@ -461,7 +511,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [194.75, -213.625]
+        "coordinates": [194.75, -213.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -470,7 +521,7 @@
       },
       "bf2props": {
         "name": "cpname_ob_64_missilesilo_ch_aas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "igla_djigit",
         "team": "1",
         "obj1": "igla_djigit",
@@ -485,7 +536,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.689377, -19.019127]
+        "coordinates": [40.689377, -19.019127],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -494,7 +546,7 @@
       },
       "bf2props": {
         "name": "cpname_ob_64_carrier_usmc_spdboat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -509,7 +561,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.875, -38.875]
+        "coordinates": [20.875, -38.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -518,7 +571,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_attackheli_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -533,7 +586,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.125, -35.375]
+        "coordinates": [25.125, -35.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -542,7 +596,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_transheli_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -557,7 +611,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.896873, -33.912247]
+        "coordinates": [22.896873, -33.912247],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -566,7 +621,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_transheli_5",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -581,17 +636,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [107.68825, -187.3005]
+        "coordinates": [107.68825, -187.3005],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-58.1",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_supplies_ch_bipod",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -605,17 +661,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [117.834625, -181.1305]
+        "coordinates": [117.834625, -181.1305],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-87.5",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_supplies_ch_bipod_0",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -629,17 +686,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.431, -187.8365]
+        "coordinates": [114.431, -187.8365],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-32.9",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_supplies_ch_bipod_1",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -653,17 +711,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.807625, -163.8145]
+        "coordinates": [68.807625, -163.8145],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-56.3",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_beachfortification_ch_bipod",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -677,17 +736,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [64.93112, -153.7215]
+        "coordinates": [64.93112, -153.7215],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-40.0",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_beachfortification_ch_bipod_0",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -701,17 +761,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [61.345253, -224.96313]
+        "coordinates": [61.345253, -224.96313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-38.9",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_airstrip_ch_bipod",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -725,17 +786,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [62.060127, -227.32112]
+        "coordinates": [62.060127, -227.32112],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-38.9",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_airstrip_ch_bipod_0",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -749,17 +811,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [64.3875, -226.73987]
+        "coordinates": [64.3875, -226.73987],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "51.1",
-        "popupContent": "Amazing information about ch_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_airstrip_ch_bipod_1",
-        "class": "ObjectPlacement",
-        "name_object": "ch_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ch_bipod",
         "obj2": "null",
@@ -773,7 +836,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [181.03763, -196.85]
+        "coordinates": [181.03763, -196.85],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -782,7 +846,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_missilesilo_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -797,17 +861,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.08588, -196.081]
+        "coordinates": [172.08588, -196.081],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_missilesilo_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -821,7 +886,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.10675, -20.159126]
+        "coordinates": [40.10675, -20.159126],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -830,7 +896,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_boat_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -845,7 +911,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.05925, -21.282372]
+        "coordinates": [41.05925, -21.282372],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -854,7 +921,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_boat_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -869,7 +936,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.240128, -20.854752]
+        "coordinates": [42.240128, -20.854752],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -878,7 +946,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_boat_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -893,7 +961,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.361504, -19.498627]
+        "coordinates": [40.361504, -19.498627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -902,7 +971,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_carrier_bothuey",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "2",
         "obj1": "null",
@@ -917,7 +986,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [63.177628, -222.22562]
+        "coordinates": [63.177628, -222.22562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -926,7 +996,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_airstrip_fencekiller",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "1",
         "obj1": "us_ahe_uh1nrockets_sp",
@@ -941,7 +1011,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.75563, -189.56187]
+        "coordinates": [174.75563, -189.56187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -950,7 +1021,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_cave_fencekiller",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Super Huey",
         "team": "1",
         "obj1": "us_ahe_uh1nrockets_sp",
@@ -965,7 +1036,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.0, -220.125]
+        "coordinates": [174.0, -220.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -974,7 +1046,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_missilesilo_hf7d",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Zhi-9WA",
         "team": "1",
         "obj1": "ch_ahe_z9wa_hf25",
@@ -989,7 +1061,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [181.11412, -210.69812]
+        "coordinates": [181.11412, -210.69812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -998,7 +1071,7 @@
       },
       "bf2props": {
         "name": "cpname_op_barracuda_coop16_missilesilo_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
         "obj1": "ch_apc_wz551a",
@@ -1007,6 +1080,222 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.75, -213.625],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Missile Silo 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_missilesilo",
+        "class": "ControlPoint",
+        "name_object": "PLA Missile Silo 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.5, -179.125],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supplies 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_supplies",
+        "class": "ControlPoint",
+        "name_object": "Supplies 60m",
+        "team": "1",
+        "areavalue1": "24.0",
+        "areavalue2": "15.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.468628, -27.085876],
+        "size": [33, 33],
+        "radius": "2.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USS Essex will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_carrier",
+        "class": "ControlPoint",
+        "name_object": "USS Essex",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.625, -228.75],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Air Strip 45m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_airstrip",
+        "class": "ControlPoint",
+        "name_object": "Air Strip 45m",
+        "team": "1",
+        "areavalue1": "24.0",
+        "areavalue2": "15.0",
+        "cpid": "101",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.125, -155.0],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Beach Fortification 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_beachfortification",
+        "class": "ControlPoint",
+        "name_object": "Beach Fortification 40m",
+        "team": "1",
+        "areavalue1": "24.0",
+        "areavalue2": "15.0",
+        "cpid": "103",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.125, -186.125],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Rock Fortification 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_southrockfort",
+        "class": "ControlPoint",
+        "name_object": "South Rock Fortification 40m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "19.0",
+        "cpid": "106",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.515625, -134.325],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Rock Fortification 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_northrockfort",
+        "class": "ControlPoint",
+        "name_object": "North Rock Fortification 40m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "19.0",
+        "cpid": "107",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.375, -198.875],
+        "size": [33, 33],
+        "radius": "2.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cave 15m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop16_cave",
+        "class": "ControlPoint",
+        "name_object": "Cave 15m",
+        "team": "1",
+        "areavalue1": "24.0",
+        "areavalue2": "15.0",
+        "cpid": "102",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

@@ -1,11 +1,37 @@
 {
+  "team1":"fsa",
+  "team2":"mec",
+  "team1tickets":"600",
+  "team2tickets":"600",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_sbeneh_outskirts_skirmish32_apartments",
+        "cpname_sbeneh_outskirts_skirmish32_suburb_outskirts",
+        "cpname_sbeneh_outskirts_skirmish32_orchard"
+      ],
+      [
+        "cpname_sbeneh_outskirts_skirmish32_mosque",
+        "cpname_sbeneh_outskirts_skirmish32_suburbs"
+      ],
+      [
+        "cpname_sbeneh_outskirts_skirmish32_farm_house"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.36874, -196.25037]
+        "coordinates": [136.36874, -196.25037],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_skirmish32_farm_house_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.933, -172.60738]
+        "coordinates": [54.933, -172.60738],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_skirmish32_orchard_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,168 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [59.180374, -175.0385],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Orchard will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish32_orchard",
+        "class": "ControlPoint",
+        "name_object": "Orchard",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "701",
+        "sgid": "-999",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.67162, -167.03325],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish32_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "702",
+        "sgid": "22",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.980125, -201.4495],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburb Outskirts will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish32_suburb_outskirts",
+        "class": "ControlPoint",
+        "name_object": "Suburb Outskirts",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "703",
+        "sgid": "22",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.00088, -163.78825],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish32_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "704",
+        "sgid": "32",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.546875, -192.47925],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish32_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "705",
+        "sgid": "32",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.204, -190.76074],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm House will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_skirmish32_farm_house",
+        "class": "ControlPoint",
+        "name_object": "Farm House",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "706",
+        "sgid": "-999",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

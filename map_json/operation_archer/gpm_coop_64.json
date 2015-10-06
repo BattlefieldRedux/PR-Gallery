@@ -1,11 +1,43 @@
 {
+  "team1":"taliban",
+  "team2":"cf",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"2048",
+  "viewdistance":"1111",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_operation_archer_coop64_talibanhq"
+      ],
+      [
+        "cpname_operation_archer_coop64_abandonedcompound"
+      ],
+      [
+        "cpname_operation_archer_coop64_farm"
+      ],
+      [
+        "cpname_operation_archer_coop64_village"
+      ],
+      [
+        "cpname_operation_archer_coop64_vcp"
+      ],
+      [
+        "cpname_operation_archer_coop64_natohq"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.94925, -229.3835]
+        "coordinates": [91.94925, -229.3835],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -14,7 +46,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "CH-147 Chinook",
         "team": "2",
         "obj1": "null",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.94925, -224.75763]
+        "coordinates": [91.94925, -224.75763],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_chinnok",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "CH-147 Chinook",
         "team": "2",
         "obj1": "null",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.420876, -235.21475]
+        "coordinates": [97.420876, -235.21475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_lavii",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.927124, -235.21275]
+        "coordinates": [96.927124, -235.21275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_laviii",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV III",
         "team": "2",
         "obj1": "null",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.446625, -235.21475]
+        "coordinates": [96.446625, -235.21475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -125,7 +161,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.098, -235.21275]
+        "coordinates": [96.098, -235.21275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -134,7 +171,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -149,7 +186,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.116, -235.14462]
+        "coordinates": [95.116, -235.14462],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -158,7 +196,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_gwagon",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -173,7 +211,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.76725, -235.14262]
+        "coordinates": [94.76725, -235.14262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -182,7 +221,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_gwagon_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -197,7 +236,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.31175, -235.14462]
+        "coordinates": [94.31175, -235.14462],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -206,7 +246,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_gwagon_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -221,7 +261,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.963, -235.14262]
+        "coordinates": [93.963, -235.14262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -230,7 +271,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_gwagon_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "2",
         "obj1": "null",
@@ -245,17 +286,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.67062, -235.33063]
+        "coordinates": [98.67062, -235.33063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_cf will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_cf",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_cf",
@@ -269,7 +311,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [63.384377, -114.760376]
+        "coordinates": [63.384377, -114.760376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -278,7 +321,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_village_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -293,7 +336,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.23813, -31.544624]
+        "coordinates": [99.23813, -31.544624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -302,7 +346,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_talibanhq_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -317,7 +361,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.83862, -31.542625]
+        "coordinates": [99.83862, -31.542625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -326,7 +371,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_talibanhq_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -341,7 +386,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.34138, -31.6195]
+        "coordinates": [100.34138, -31.6195],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -350,7 +396,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_talibanhq_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -365,7 +411,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.91, -31.624496]
+        "coordinates": [100.91, -31.624496],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -374,7 +421,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_talibanhq_techie_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -389,7 +436,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [155.17087, -77.210754]
+        "coordinates": [155.17087, -77.210754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -398,7 +446,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_abandonedcompound_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -413,7 +461,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.75087, -78.75313]
+        "coordinates": [154.75087, -78.75313],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -422,7 +471,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_abandonedcompound_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -437,7 +486,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.64737, -231.66376]
+        "coordinates": [95.64737, -231.66376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -446,7 +496,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -461,7 +511,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.02775, -231.66376]
+        "coordinates": [97.02775, -231.66376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -470,7 +521,7 @@
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_natohq_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -485,17 +536,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.024002, -101.260254]
+        "coordinates": [37.024002, -101.260254],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_cf_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_vcp_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_cf_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "rallypoint_taliban_placeable_noexpire",
         "obj2": "rallypoint_cf_placeable_noexpire",
@@ -509,17 +561,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [67.3855, -115.93125]
+        "coordinates": [67.3855, -115.93125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_village_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable_noexpire",
         "obj2": "rallypoint_cf_placeable_noexpire",
@@ -533,17 +586,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [104.33875, -101.47737]
+        "coordinates": [104.33875, -101.47737],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_farm_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable_noexpire",
         "obj2": "rallypoint_cf_placeable_noexpire",
@@ -557,17 +611,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.68425, -77.91788]
+        "coordinates": [154.68425, -77.91788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_taliban_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_archer_coop64_abandonedcompound_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_taliban_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_taliban_placeable_noexpire",
         "obj2": "rallypoint_cf_placeable_noexpire",
@@ -575,6 +630,168 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.98125, -33.686996],
+        "size": [33, 33],
+        "radius": "2.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban HQ will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_coop64_talibanhq",
+        "class": "ControlPoint",
+        "name_object": "Taliban HQ",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.5, -226.875],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about NATO Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_coop64_natohq",
+        "class": "ControlPoint",
+        "name_object": "NATO Operations Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0, -102.0],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_coop64_farm",
+        "class": "ControlPoint",
+        "name_object": "Farm 80m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "150.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.5, -117.75],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_coop64_village",
+        "class": "ControlPoint",
+        "name_object": "Village 70m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "160.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.25, -100.125],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about VCP 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_coop64_vcp",
+        "class": "ControlPoint",
+        "name_object": "VCP 40m",
+        "team": "2",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.0945, -79.0],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned Compound 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_archer_coop64_abandonedcompound",
+        "class": "ControlPoint",
+        "name_object": "Abandoned Compound 40m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "60.0"
       }
     }
   ]

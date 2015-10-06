@@ -1,11 +1,46 @@
 {
+  "team1":"ch",
+  "team2":"gb",
+  "team1tickets":"225",
+  "team2tickets":"300",
+  "mapsize":"4096",
+  "viewdistance":"650",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_shijiavalley_coop16_temple"
+      ],
+      [
+        "cpname_shijiavalley_coop16_market",
+        "cpname_shijiavalley_coop16_northcity"
+      ],
+      [
+        "cpname_shijiavalley_coop16_damagedroad",
+        "cpname_shijiavalley_coop16_school"
+      ],
+      [
+        "cpname_shijiavalley_coop16_eastcity",
+        "cpname_shijiavalley_coop16_southcity"
+      ],
+      [
+        "cpname_shijiavalley_coop16_farm"
+      ],
+      [
+        "cpname_shijiavalley_coop16_village"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.774124, -202.07994]
+        "coordinates": [94.774124, -202.07994],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -14,7 +49,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_coop16_village_panther",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Panther CLV",
         "team": "2",
         "obj1": "null",
@@ -29,17 +64,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.55644, -203.05594]
+        "coordinates": [95.55644, -203.05594],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_coop16_village_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -53,7 +89,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.94175, -201.35338]
+        "coordinates": [96.94175, -201.35338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -62,7 +99,7 @@
       },
       "bf2props": {
         "name": "cpname_shijiavalley_coop16_village_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -71,6 +108,249 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.33475, -201.68762],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_village",
+        "class": "ControlPoint",
+        "name_object": "Village",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.36206, -189.5345],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_farm",
+        "class": "ControlPoint",
+        "name_object": "Farm",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.977127, -190.6235],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Market will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_market",
+        "class": "ControlPoint",
+        "name_object": "Market",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.49581, -196.51593],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Destroyed Road will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_damagedroad",
+        "class": "ControlPoint",
+        "name_object": "Destroyed Road",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.874435, -182.76682],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temple will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_temple",
+        "class": "ControlPoint",
+        "name_object": "Temple",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "6",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.29, -190.09656],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about School will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_school",
+        "class": "ControlPoint",
+        "name_object": "School",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.053566, -190.04526],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East City will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_eastcity",
+        "class": "ControlPoint",
+        "name_object": "East City",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.865562, -200.03943],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_southcity",
+        "class": "ControlPoint",
+        "name_object": "South City",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.8525, -183.02768],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_coop16_northcity",
+        "class": "ControlPoint",
+        "name_object": "North City",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "9",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

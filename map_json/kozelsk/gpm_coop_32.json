@@ -1,21 +1,55 @@
 {
+  "team1":"ru",
+  "team2":"chinsurgent",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"2048",
+  "viewdistance":"450",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kozelsk_coop32_cavebunker"
+      ],
+      [
+        "cpname_kozelsk_coop32_vcp"
+      ],
+      [
+        "cpname_kozelsk_coop32_trenches",
+        "cpname_kozelsk_coop32_outpost"
+      ],
+      [
+        "cpname_kozelsk_coop32_vehicledepot",
+        "cpname_kozelsk_coop32_chemstorage"
+      ],
+      [
+        "cpname_kozelsk_coop32_missilesilo"
+      ],
+      [
+        "cpname_kozelsk_coop32_milmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.764755, -11.069626]
+        "coordinates": [94.764755, -11.069626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mil will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mil",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_mil",
@@ -29,7 +63,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.593, -14.785873]
+        "coordinates": [103.593, -14.785873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -38,7 +73,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -53,7 +88,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.82562, -14.785873]
+        "coordinates": [102.82562, -14.785873],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -62,7 +98,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -77,7 +113,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [104.128876, -9.871498]
+        "coordinates": [104.128876, -9.871498],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -86,7 +123,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -101,7 +138,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [104.89662, -9.871498]
+        "coordinates": [104.89662, -9.871498],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -110,7 +148,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_bmp_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "2",
         "obj1": "null",
@@ -125,7 +163,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.42175, -9.953629]
+        "coordinates": [101.42175, -9.953629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -134,7 +173,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "2",
         "obj1": "null",
@@ -149,7 +188,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.80363, -9.953629]
+        "coordinates": [101.80363, -9.953629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -158,7 +198,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "2",
         "obj1": "null",
@@ -173,7 +213,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.982254, -9.953629]
+        "coordinates": [102.982254, -9.953629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -182,7 +223,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "2",
         "obj1": "null",
@@ -197,7 +238,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.39662, -9.953629]
+        "coordinates": [103.39662, -9.953629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -206,7 +248,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_techie_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "2",
         "obj1": "null",
@@ -221,7 +263,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.22275, -9.953629]
+        "coordinates": [102.22275, -9.953629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -230,7 +273,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_techie_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "2",
         "obj1": "null",
@@ -245,7 +288,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.57863, -9.953629]
+        "coordinates": [102.57863, -9.953629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -254,7 +298,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_techie_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "2",
         "obj1": "null",
@@ -269,7 +313,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.81875, -9.478249]
+        "coordinates": [95.81875, -9.478249],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -278,7 +323,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -293,7 +338,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.37962, -10.098373]
+        "coordinates": [95.37962, -10.098373],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -302,7 +348,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -317,7 +363,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.60975, -9.788872]
+        "coordinates": [95.60975, -9.788872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -326,7 +373,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_logi_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -341,7 +388,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.265, -193.069]
+        "coordinates": [190.265, -193.069],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -350,7 +398,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_vcp_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "ru_ifv_bmp3",
@@ -365,7 +413,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.265, -192.42638]
+        "coordinates": [190.265, -192.42638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -374,7 +423,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_vcp_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "ru_ifv_bmp3",
@@ -389,7 +438,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.82487, -165.74188]
+        "coordinates": [244.82487, -165.74188],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -398,7 +448,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-90",
         "team": "1",
         "obj1": "ru_tnk_t90",
@@ -413,7 +463,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.77863, -161.14787]
+        "coordinates": [248.77863, -161.14787],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -422,7 +473,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_btr",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "ru_apc_btr60_bf2",
@@ -437,7 +488,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.63586, -162.72874]
+        "coordinates": [244.63586, -162.72874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -446,7 +498,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_btr_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "ru_apc_btr60_bf2",
@@ -461,7 +513,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.11737, -162.861]
+        "coordinates": [244.11737, -162.861],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -470,7 +523,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_btr_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "ru_apc_btr60_bf2",
@@ -485,7 +538,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.97862, -160.65475]
+        "coordinates": [248.97862, -160.65475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -494,7 +548,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_btr_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-60",
         "team": "1",
         "obj1": "ru_apc_btr60_bf2",
@@ -509,17 +563,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.20387, -160.52362]
+        "coordinates": [251.20387, -160.52362],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -533,7 +588,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.00739, -192.44226]
+        "coordinates": [193.00739, -192.44226],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -542,7 +598,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_vcp_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -557,17 +613,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.233, -13.262627]
+        "coordinates": [98.233, -13.262627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mil_acv_technical will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_milmain_acv",
-        "class": "ObjectPlacement",
-        "name_object": "mil_acv_technical",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "mil_acv_technical",
@@ -581,17 +638,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.881, -83.3515]
+        "coordinates": [73.881, -83.3515],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_missilesilo_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "rallypoint_chinsurgent_placeable_noexpire",
@@ -605,17 +663,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [65.39, -106.370125]
+        "coordinates": [65.39, -106.370125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_chemstorage_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "rallypoint_chinsurgent_placeable_noexpire",
@@ -629,17 +688,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.267624, -132.02988]
+        "coordinates": [98.267624, -132.02988],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_trenches_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "rallypoint_chinsurgent_placeable_noexpire",
@@ -653,17 +713,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [149.42062, -136.45876]
+        "coordinates": [149.42062, -136.45876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_outpost_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "rallypoint_chinsurgent_placeable_noexpire",
@@ -677,17 +738,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.59575, -193.73001]
+        "coordinates": [191.59575, -193.73001],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_vcp_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "rallypoint_chinsurgent_placeable_noexpire",
@@ -701,17 +763,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.39887, -98.77162]
+        "coordinates": [106.39887, -98.77162],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_vehicledepot_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "rallypoint_chinsurgent_placeable_noexpire",
@@ -725,7 +788,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [250.72125, -162.07812]
+        "coordinates": [250.72125, -162.07812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -734,7 +798,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -749,7 +813,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [250.72125, -161.61725]
+        "coordinates": [250.72125, -161.61725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -758,7 +823,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -773,17 +838,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.57562, -165.13675]
+        "coordinates": [247.57562, -165.13675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_coop32_cavebunker_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -791,6 +857,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [70.52875, -77.812874],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Missile Silo 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_missilesilo",
+        "class": "ControlPoint",
+        "name_object": "Missile Silo 60m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.34788, -134.68687],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outpost Boris 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_trenches",
+        "class": "ControlPoint",
+        "name_object": "Outpost Boris 40m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.4125, -146.11337],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cave Bunker will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_cavebunker",
+        "class": "ControlPoint",
+        "name_object": "Cave Bunker",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "3",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.89813, -137.2085],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outpost Dmitri 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_outpost",
+        "class": "ControlPoint",
+        "name_object": "Outpost Dmitri 40m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.357254, -95.60675],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vehicledepot",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Depot 50m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.070755, -110.13037],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Chemical Storage 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_chemstorage",
+        "class": "ControlPoint",
+        "name_object": "Chemical Storage 60m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.10762, -188.79163],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_vcp",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint 60m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.453, -13.268372],
+        "size": [33, 33],
+        "radius": "0.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_coop32_milmain",
+        "class": "ControlPoint",
+        "name_object": "Militia Operations Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,21 +1,57 @@
 {
+  "team1":"ger",
+  "team2":"ru",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_dovre_winter_coop64_germain"
+      ],
+      [
+        "cpname_dovre_winter_coop64_station"
+      ],
+      [
+        "cpname_dovre_winter_coop64_houses",
+        "cpname_dovre_winter_coop64_outskirts"
+      ],
+      [
+        "cpname_dovre_winter_coop64_farm"
+      ],
+      [
+        "cpname_dovre_winter_coop64_bravo"
+      ],
+      [
+        "cpname_dovre_winter_coop64_ruparadrop"
+      ],
+      [
+        "cpname_dovre_winter_coop64_radarstation"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.5005, -58.562622]
+        "coordinates": [97.5005, -58.562622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_radarstation_mg",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ger_bipod",
         "obj2": "null",
@@ -29,17 +65,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [95.28262, -58.59913]
+        "coordinates": [95.28262, -58.59913],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_radarstation_mg_0",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ger_bipod",
         "obj2": "null",
@@ -53,17 +90,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.26263, -58.601753]
+        "coordinates": [100.26263, -58.601753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_radarstation_mg_1",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ger_bipod",
         "obj2": "null",
@@ -77,17 +115,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.985374, -58.562622]
+        "coordinates": [98.985374, -58.562622],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_radarstation_mg_2",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ger_bipod",
         "obj2": "null",
@@ -101,17 +140,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.86737, -67.65762]
+        "coordinates": [97.86737, -67.65762],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about ger_bipod will be found here!"
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_radarstation_mg_3",
-        "class": "ObjectPlacement",
-        "name_object": "ger_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
         "team": "1",
         "obj1": "ger_bipod",
         "obj2": "null",
@@ -125,7 +165,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.5105, -244.80774]
+        "coordinates": [184.5105, -244.80774],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -134,7 +175,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Puma IFV",
         "team": "1",
         "obj1": "ger_apc_puma",
@@ -149,17 +190,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [184.15112, -240.58163]
+        "coordinates": [184.15112, -240.58163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ger will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ger",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ger",
         "obj2": "null",
@@ -173,7 +215,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.36826, -241.01599]
+        "coordinates": [183.36826, -241.01599],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -182,7 +225,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "1",
         "obj1": "ger_trk_logistics",
@@ -197,7 +240,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.206, -242.87125]
+        "coordinates": [183.206, -242.87125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -206,7 +250,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_jep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "1",
         "obj1": "ger_jep_gwagon_support_alt",
@@ -221,7 +265,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.78513, -244.17638]
+        "coordinates": [183.78513, -244.17638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -230,7 +275,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_jep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes G-Wagen",
         "team": "1",
         "obj1": "ger_jep_gwagon_support_alt",
@@ -245,7 +290,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.6165, -249.03]
+        "coordinates": [178.6165, -249.03],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lighthelo.png",
@@ -254,7 +300,7 @@
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_he",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1D",
         "team": "1",
         "obj1": "ger_the_uh1d_mg3",
@@ -269,17 +315,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.37988, -249.16812]
+        "coordinates": [189.37988, -249.16812],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ger_acv_m557a2 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_winter_coop64_germain_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ger_acv_m557a2",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ger_acv_m557a2",
         "obj2": "null",
@@ -287,6 +334,222 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.8715, -61.314873],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Radar Station Ben 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_radarstation",
+        "class": "ControlPoint",
+        "name_object": "Radar Station Ben 30m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [189.8935, -90.39225],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_farm",
+        "class": "ControlPoint",
+        "name_object": "Farm 50m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.37286, -127.531876],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Houses 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_houses",
+        "class": "ControlPoint",
+        "name_object": "Houses 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [227.3515, -131.59012],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outskirts 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_outskirts",
+        "class": "ControlPoint",
+        "name_object": "Outskirts 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.21025, -177.19263],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Station 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_station",
+        "class": "ControlPoint",
+        "name_object": "Station 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.92062, -69.76312],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridge 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_bravo",
+        "class": "ControlPoint",
+        "name_object": "Bridge 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.48187, -243.66974],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about HV 05 Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_germain",
+        "class": "ControlPoint",
+        "name_object": "HV 05 Camp",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.285, -17.552628],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about VDV Drop Zone will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_winter_coop64_ruparadrop",
+        "class": "ControlPoint",
+        "name_object": "VDV Drop Zone",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

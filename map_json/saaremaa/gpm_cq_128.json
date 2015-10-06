@@ -1,11 +1,80 @@
 {
+  "team1":"ru",
+  "team2":"us",
+  "team1tickets":"900",
+  "team2tickets":"900",
+  "mapsize":"4096",
+  "viewdistance":"1000",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_saaremaa_aas128_ruship"
+      ],
+      [
+        "cpname_saaremaa_aas128_oldbase",
+        "cpname_saaremaa_aas128_magazine"
+      ],
+      [
+        "cpname_saaremaa_aas128_oldport",
+        "cpname_saaremaa_aas128_village"
+      ],
+      [
+        "cpname_saaremaa_aas128_villagewest",
+        "cpname_saaremaa_aas128_radio",
+        "cpname_saaremaa_aas128_supplybase"
+      ],
+      [
+        "cpname_saaremaa_aas128_runwayend",
+        "cpname_saaremaa_aas128_lighthouse"
+      ],
+      [
+        "cpname_saaremaa_aas128_runway"
+      ],
+      [
+        "cpname_saaremaa_aas128_usship"
+      ]
+    ],
+    [
+      [
+        "cpname_saaremaa_aas128_ruship"
+      ],
+      [
+        "cpname_saaremaa_aas128_cliffnorth",
+        "cpname_saaremaa_aas128_oldbase2"
+      ],
+      [
+        "cpname_saaremaa_aas128_cliffsouth",
+        "cpname_saaremaa_aas128_warehouses",
+        "cpname_saaremaa_aas128_pump"
+      ],
+      [
+        "cpname_saaremaa_aas128_peninsula",
+        "cpname_saaremaa_aas128_kaali",
+        "cpname_saaremaa_aas128_manor"
+      ],
+      [
+        "cpname_saaremaa_aas128_airtower",
+        "cpname_saaremaa_aas128_airbunker"
+      ],
+      [
+        "cpname_saaremaa_aas128_uscliff"
+      ],
+      [
+        "cpname_saaremaa_aas128_usship"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.558815, -247.45631]
+        "coordinates": [16.558815, -247.45631],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
@@ -14,7 +83,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_usa_heli_trans_heavy",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -29,7 +98,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.88044, -248.16544]
+        "coordinates": [14.88044, -248.16544],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_mv22.png",
@@ -38,7 +108,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_mv22",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MV-22 Osprey",
         "team": "2",
         "obj1": "null",
@@ -53,7 +123,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.003685, -241.53561]
+        "coordinates": [6.003685, -241.53561],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -62,7 +133,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_ah",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AH-1 SuperCobra",
         "team": "2",
         "obj1": "null",
@@ -77,7 +148,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.375, -242.375]
+        "coordinates": [7.375, -242.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
@@ -86,7 +158,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_a",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
@@ -101,7 +173,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.75, -249.25]
+        "coordinates": [16.75, -249.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -110,7 +183,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_boat",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -125,7 +198,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.414375, -248.14769]
+        "coordinates": [17.414375, -248.14769],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -134,7 +208,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_a_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
         "obj1": "null",
@@ -149,7 +223,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.0, -247.875]
+        "coordinates": [16.0, -247.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -158,7 +233,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_a_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV-25",
         "team": "2",
         "obj1": "null",
@@ -173,7 +248,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.875, -248.125]
+        "coordinates": [15.875, -248.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scimitar.png",
@@ -182,7 +258,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "LAV-25",
         "team": "2",
         "obj1": "null",
@@ -197,7 +273,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.375, -248.75]
+        "coordinates": [16.375, -248.75],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_aavp7.png",
@@ -206,7 +283,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AAVP7A1 RAM/RS",
         "team": "2",
         "obj1": "null",
@@ -221,7 +298,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.79319, -248.05019]
+        "coordinates": [16.79319, -248.05019],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_aavp7.png",
@@ -230,7 +308,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AAVP7A1 RAM/RS",
         "team": "2",
         "obj1": "null",
@@ -245,7 +323,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.62962, -10.963997]
+        "coordinates": [242.62962, -10.963997],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -254,7 +333,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_light",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -269,17 +348,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.5, -217.25]
+        "coordinates": [47.5, -217.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_us_vehicle_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -293,7 +373,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.96875, -217.0]
+        "coordinates": [47.96875, -217.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -302,7 +383,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -317,17 +398,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [249.25, -14.625]
+        "coordinates": [249.25, -14.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_ru will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_magazine_copost",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_ru",
         "obj2": "null",
@@ -341,17 +423,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.75, -245.125]
+        "coordinates": [11.75, -245.125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_us will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_c",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_us",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "2",
         "obj1": "null",
         "obj2": "deployable_commandpost_us",
@@ -365,17 +448,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.375, -27.875]
+        "coordinates": [198.375, -27.875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_ru_placeable_noexpire",
         "obj2": "null",
@@ -389,17 +473,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.205627, -217.20638]
+        "coordinates": [46.205627, -217.20638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_us_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_6",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_us_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_us_placeable_noexpire",
@@ -413,7 +498,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.25, -214.375]
+        "coordinates": [45.25, -214.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -422,7 +508,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -437,7 +523,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.0, -214.625]
+        "coordinates": [45.0, -214.625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -446,7 +533,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -461,7 +548,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.625, -30.375]
+        "coordinates": [198.625, -30.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -470,7 +558,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -485,7 +573,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [199.00632, -30.376434]
+        "coordinates": [199.00632, -30.376434],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -494,7 +583,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "ru_trk_support",
@@ -509,17 +598,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.692184, -386.23706]
+        "coordinates": [15.692184, -386.23706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_a_2",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -533,17 +623,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.707123, -385.41507]
+        "coordinates": [15.707123, -385.41507],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_11",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -557,17 +648,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.59681, -385.35294]
+        "coordinates": [16.59681, -385.35294],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_12",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -581,17 +673,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.488937, -386.1215]
+        "coordinates": [16.488937, -386.1215],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_13",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -605,17 +698,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.8812, 101.112564]
+        "coordinates": [242.8812, 101.112564],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_24",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -629,17 +723,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.40762, 101.046814]
+        "coordinates": [242.40762, 101.046814],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_25",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -653,17 +748,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.84076, 100.65138]
+        "coordinates": [242.84076, 100.65138],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_26",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -677,17 +773,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.35732, 100.57381]
+        "coordinates": [242.35732, 100.57381],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_27",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
@@ -701,17 +798,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.625, -28.0]
+        "coordinates": [197.625, -28.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_8",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -725,7 +823,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.1875, -28.25]
+        "coordinates": [197.1875, -28.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -734,7 +833,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -749,7 +848,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.09595, -12.425247]
+        "coordinates": [245.09595, -12.425247],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -758,7 +858,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-28N Havoc",
         "team": "1",
         "obj1": "ru_ahe_havoc",
@@ -773,7 +873,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.38525, -10.217186]
+        "coordinates": [241.38525, -10.217186],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -782,7 +883,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_10",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -797,7 +898,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.11218, -11.647186]
+        "coordinates": [241.11218, -11.647186],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -806,7 +908,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_11",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80",
         "team": "1",
         "obj1": "ru_apc_btr80",
@@ -821,7 +923,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.875, -11.5]
+        "coordinates": [240.875, -11.5],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -830,7 +933,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_12",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80",
         "team": "1",
         "obj1": "ru_apc_btr80",
@@ -845,7 +948,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.625, -11.375]
+        "coordinates": [240.625, -11.375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -854,7 +958,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_13",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80",
         "team": "1",
         "obj1": "ru_apc_btr80",
@@ -869,7 +973,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.36282, -11.800629]
+        "coordinates": [241.36282, -11.800629],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -878,7 +983,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_14",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BTR-80A",
         "team": "1",
         "obj1": "ru_apc_btr80a",
@@ -893,7 +998,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.375, -11.0]
+        "coordinates": [240.375, -11.0],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -902,7 +1008,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_15",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_pkp",
@@ -917,7 +1023,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.08682, -10.836876]
+        "coordinates": [240.08682, -10.836876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
@@ -926,7 +1033,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_16",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
         "obj1": "boat_rib_gpmg_pkp",
@@ -941,7 +1048,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.2615, -13.13356]
+        "coordinates": [246.2615, -13.13356],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
@@ -950,7 +1058,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_mi24",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-24V Hind-E",
         "team": "1",
         "obj1": "ru_ahe_mi24_light",
@@ -965,7 +1073,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.91376, -11.693314]
+        "coordinates": [243.91376, -11.693314],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -974,7 +1083,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_heli3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
@@ -989,7 +1098,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.16275, -34.00862]
+        "coordinates": [195.16275, -34.00862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -998,7 +1108,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_ruship_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K35 Gopher",
         "team": "1",
         "obj1": "ru_aav_gopher",
@@ -1013,7 +1123,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.71438, -214.89194]
+        "coordinates": [44.71438, -214.89194],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -1022,7 +1133,7 @@
       },
       "bf2props": {
         "name": "cpname_saaremaa_aas128_usship_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AN/TWQ-1 Avenger",
         "team": "2",
         "obj1": "null",
@@ -1031,6 +1142,627 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.0, -11.625],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Cargo Ship will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_ruship",
+        "class": "ControlPoint",
+        "name_object": "Russian Cargo Ship",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.125, -244.75],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USS Essex  will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_usship",
+        "class": "ControlPoint",
+        "name_object": "USS Essex ",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.61325, -178.59113],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Peninsula 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_peninsula",
+        "class": "ControlPoint",
+        "name_object": "Peninsula 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.762314, -189.867],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cliff Lookout 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_uscliff",
+        "class": "ControlPoint",
+        "name_object": "Cliff Lookout 150m",
+        "team": "0",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "612",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.125, -99.75],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Orissaare 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_villagewest",
+        "class": "ControlPoint",
+        "name_object": "Orissaare 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.625, -99.125],
+        "size": [33, 33],
+        "radius": "7.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Radio Relay 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_radio",
+        "class": "ControlPoint",
+        "name_object": "Radio Relay 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.625, -65.25],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Industrial Port 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_oldport",
+        "class": "ControlPoint",
+        "name_object": "Industrial Port 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "108",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [215.5, -95.875],
+        "size": [33, 33],
+        "radius": "7.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Northern Cliffs 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_cliffnorth",
+        "class": "ControlPoint",
+        "name_object": "Northern Cliffs 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "110",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.375, -85.625],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Base 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_oldbase",
+        "class": "ControlPoint",
+        "name_object": "Old Base 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "111",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [212.0882, -144.11456],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Southern Cliffs 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_cliffsouth",
+        "class": "ControlPoint",
+        "name_object": "Southern Cliffs 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "112",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.875, -97.375],
+        "size": [33, 33],
+        "radius": "7.8125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Kuressaare 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_village",
+        "class": "ControlPoint",
+        "name_object": "Kuressaare 125m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "114",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [202.5, -129.125],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Warehouses 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_warehouses",
+        "class": "ControlPoint",
+        "name_object": "Warehouses 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "115",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.375, -184.0],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Checkpoint 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_runway",
+        "class": "ControlPoint",
+        "name_object": "Checkpoint 150m",
+        "team": "0",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "116",
+        "sgid": "611",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.0, -151.25],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Control Tower 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_airtower",
+        "class": "ControlPoint",
+        "name_object": "Control Tower 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "118",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.625, -121.75],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supply Depot 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_supplybase",
+        "class": "ControlPoint",
+        "name_object": "Supply Depot 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "119",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.625, -140.75],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forest 200m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_kaali",
+        "class": "ControlPoint",
+        "name_object": "Forest 200m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "120",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.747, -131.97356],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Runway Perimeter 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_runwayend",
+        "class": "ControlPoint",
+        "name_object": "Runway Perimeter 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "123",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.77856, -161.071],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned House 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_manor",
+        "class": "ControlPoint",
+        "name_object": "Abandoned House 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "124",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.51369, -63.52381],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Ammo Storage 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_magazine",
+        "class": "ControlPoint",
+        "name_object": "Ammo Storage 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "125",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.625, -147.875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Aircraft Bunker 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_airbunker",
+        "class": "ControlPoint",
+        "name_object": "Aircraft Bunker 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [191.33963, -147.34306],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Pump Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_pump",
+        "class": "ControlPoint",
+        "name_object": "Pump Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "122",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.5, -128.125],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Lighthouse 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_lighthouse",
+        "class": "ControlPoint",
+        "name_object": "Lighthouse 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.5, -85.625],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Base 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_oldbase2",
+        "class": "ControlPoint",
+        "name_object": "Old Base 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "109",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,22 +1,34 @@
 {
+  "team1":"chinsurgent",
+  "team2":"nl",
+  "team1tickets":"550",
+  "team2tickets":"450",
+  "mapsize":"4096",
+  "viewdistance":"1025",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.344055, 29.23175]
+        "coordinates": [-76.344055, 29.23175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "team1arty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
         "maxspawn": "1800.0",
@@ -29,18 +41,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.81506, 29.83638]
+        "coordinates": [-74.81506, 29.83638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "team1arty_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
         "maxspawn": "1800.0",
@@ -53,18 +66,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.43506, 31.63469]
+        "coordinates": [-75.43506, 31.63469],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about artillery_team1 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "team1arty_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team1",
-        "team": "-999",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
         "maxspawn": "1800.0",
@@ -77,17 +91,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.35988, -204.775]
+        "coordinates": [240.35988, -204.775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about nl_acv_boxer will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "gbacv",
-        "class": "ObjectPlacement",
-        "name_object": "nl_acv_boxer",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "nl_acv_boxer",
@@ -101,7 +116,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.76094, -215.29556]
+        "coordinates": [241.76094, -215.29556],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_chinook.png",
@@ -110,7 +126,7 @@
       },
       "bf2props": {
         "name": "gbheli",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "CH-47D Chinook",
         "team": "2",
         "obj1": "null",
@@ -125,7 +141,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.95737, -208.70932]
+        "coordinates": [242.95737, -208.70932],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -134,7 +151,7 @@
       },
       "bf2props": {
         "name": "gbapc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "2",
         "obj1": "null",
@@ -149,7 +166,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.95262, -208.46556]
+        "coordinates": [242.95262, -208.46556],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -158,7 +176,7 @@
       },
       "bf2props": {
         "name": "gbapc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "2",
         "obj1": "null",
@@ -173,7 +191,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.8935, -203.811]
+        "coordinates": [242.8935, -203.811],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -182,7 +201,7 @@
       },
       "bf2props": {
         "name": "gbjep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Fennek VWWRN",
         "team": "2",
         "obj1": "null",
@@ -197,7 +216,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.17825, -204.98244]
+        "coordinates": [243.17825, -204.98244],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -206,7 +226,7 @@
       },
       "bf2props": {
         "name": "gbjep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Boxer PWV",
         "team": "2",
         "obj1": "null",
@@ -221,7 +241,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.87613, -204.08112]
+        "coordinates": [242.87613, -204.08112],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -230,7 +251,7 @@
       },
       "bf2props": {
         "name": "gbjep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Fennek VWWRN",
         "team": "2",
         "obj1": "null",
@@ -245,7 +266,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.16612, -205.49649]
+        "coordinates": [243.16612, -205.49649],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -254,7 +276,7 @@
       },
       "bf2props": {
         "name": "gbjep_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Boxer PWV",
         "team": "2",
         "obj1": "null",
@@ -269,7 +291,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.88219, -203.55164]
+        "coordinates": [242.88219, -203.55164],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -278,7 +301,7 @@
       },
       "bf2props": {
         "name": "gbjep_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "2",
         "obj1": "null",
@@ -293,7 +316,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.51306, -201.13043]
+        "coordinates": [242.51306, -201.13043],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -302,7 +326,7 @@
       },
       "bf2props": {
         "name": "gblog",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YAC-2300",
         "team": "2",
         "obj1": "null",
@@ -317,7 +341,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.03757, -201.09]
+        "coordinates": [243.03757, -201.09],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -326,7 +351,7 @@
       },
       "bf2props": {
         "name": "gblog_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YAC-2300",
         "team": "2",
         "obj1": "null",
@@ -341,7 +366,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.75012, -201.31844]
+        "coordinates": [241.75012, -201.31844],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -350,7 +376,7 @@
       },
       "bf2props": {
         "name": "gbtrk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YA 4440",
         "team": "2",
         "obj1": "null",
@@ -365,17 +391,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.73813, -201.02394]
+        "coordinates": [240.73813, -201.02394],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_nl will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "gbdepot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_nl",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_nl",
@@ -389,17 +416,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [346.92926, -305.2]
+        "coordinates": [346.92926, -305.2],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "gbarty",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -413,17 +441,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [348.11676, -305.36798]
+        "coordinates": [348.11676, -305.36798],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "gbarty_0",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -437,17 +466,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [347.46436, -304.01605]
+        "coordinates": [347.46436, -304.01605],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/AirDef.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about artillery_team2 will be found here!"
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
         "name": "gbarty_1",
-        "class": "ObjectPlacement",
-        "name_object": "artillery_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
         "team": "2",
         "obj1": "null",
         "obj2": "artillery_team2",
@@ -461,7 +491,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.85193, -212.99487]
+        "coordinates": [241.85193, -212.99487],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -470,7 +501,7 @@
       },
       "bf2props": {
         "name": "gbheli_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "NH90 TTH",
         "team": "2",
         "obj1": "null",
@@ -485,7 +516,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.9573, -208.19975]
+        "coordinates": [242.9573, -208.19975],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -494,7 +526,7 @@
       },
       "bf2props": {
         "name": "apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "2",
         "obj1": "null",
@@ -509,7 +541,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.46806, -205.18744]
+        "coordinates": [241.46806, -205.18744],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -518,7 +551,7 @@
       },
       "bf2props": {
         "name": "trknonresp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Fennek VWWRN",
         "team": "2",
         "obj1": "null",
@@ -533,7 +566,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.4787, -205.72719]
+        "coordinates": [241.4787, -205.72719],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -542,7 +576,7 @@
       },
       "bf2props": {
         "name": "gbjep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mercedes-Benz G280",
         "team": "2",
         "obj1": "null",
@@ -557,7 +591,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.44675, -206.86475]
+        "coordinates": [241.44675, -206.86475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -566,7 +601,7 @@
       },
       "bf2props": {
         "name": "gbjep_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YA 4440",
         "team": "2",
         "obj1": "null",
@@ -581,7 +616,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.45468, -206.26244]
+        "coordinates": [241.45468, -206.26244],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -590,7 +626,7 @@
       },
       "bf2props": {
         "name": "jep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Boxer PWV",
         "team": "2",
         "obj1": "null",
@@ -605,17 +641,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.127747, -45.96575]
+        "coordinates": [17.127747, -45.96575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mil will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "mildepot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mil",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mil",
         "obj2": "null",
@@ -629,7 +666,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.344002, -50.003128]
+        "coordinates": [15.344002, -50.003128],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_light.png",
@@ -638,7 +676,7 @@
       },
       "bf2props": {
         "name": "milapc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 & ZU-23-2",
         "team": "1",
         "obj1": "civ_aav_uralzu232",
@@ -653,7 +691,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.790253, -46.16387]
+        "coordinates": [14.790253, -46.16387],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -662,7 +701,7 @@
       },
       "bf2props": {
         "name": "miljep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Rocket Technical",
         "team": "1",
         "obj1": "civ_atm_technical_rocket",
@@ -677,7 +716,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.787247, -46.35869]
+        "coordinates": [14.787247, -46.35869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -686,7 +726,7 @@
       },
       "bf2props": {
         "name": "miljep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_militia",
@@ -701,7 +741,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.7801895, -46.568253]
+        "coordinates": [14.7801895, -46.568253],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -710,7 +751,7 @@
       },
       "bf2props": {
         "name": "miljep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_militia",
@@ -725,7 +766,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.593498, -47.348877]
+        "coordinates": [14.593498, -47.348877],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -734,7 +776,7 @@
       },
       "bf2props": {
         "name": "miljep_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ammo Pickup",
         "team": "1",
         "obj1": "civ_jep_support_militia",
@@ -749,7 +791,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.590439, -47.543686]
+        "coordinates": [14.590439, -47.543686],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -758,7 +801,7 @@
       },
       "bf2props": {
         "name": "miljep_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "mil_ifv_bmp1",
@@ -773,7 +816,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.583435, -47.75325]
+        "coordinates": [14.583435, -47.75325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -782,7 +826,7 @@
       },
       "bf2props": {
         "name": "miltrk_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-1",
         "team": "1",
         "obj1": "mil_ifv_bmp1",
@@ -797,7 +841,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.573814, -47.94288]
+        "coordinates": [14.573814, -47.94288],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -806,7 +851,7 @@
       },
       "bf2props": {
         "name": "miljep_6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "1",
         "obj1": "civ_atm_technical_militia",
@@ -821,7 +866,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.054565, -50.017685]
+        "coordinates": [14.054565, -50.017685],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -830,7 +876,7 @@
       },
       "bf2props": {
         "name": "miltrk_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mil_trk_support",
@@ -845,7 +891,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.581749, -50.060875]
+        "coordinates": [14.581749, -50.060875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -854,7 +901,7 @@
       },
       "bf2props": {
         "name": "miltrk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mil_trk_support",
@@ -869,7 +916,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.36306, -48.69156]
+        "coordinates": [14.36306, -48.69156],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -878,7 +926,7 @@
       },
       "bf2props": {
         "name": "millog_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62",
@@ -893,7 +941,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.404816, -48.915497]
+        "coordinates": [14.404816, -48.915497],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -902,7 +951,7 @@
       },
       "bf2props": {
         "name": "millog",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mil_trk_logistics",
@@ -917,7 +966,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [111.973564, -137.43813]
+        "coordinates": [111.973564, -137.43813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -926,7 +976,7 @@
       },
       "bf2props": {
         "name": "zpu",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -941,7 +991,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.78137, -143.50107]
+        "coordinates": [96.78137, -143.50107],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -950,7 +1001,7 @@
       },
       "bf2props": {
         "name": "igla",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "igla_djigit",
         "team": "1",
         "obj1": "igla_djigit",
@@ -965,7 +1016,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.27387, -144.42262]
+        "coordinates": [100.27387, -144.42262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -974,7 +1026,7 @@
       },
       "bf2props": {
         "name": "zpu_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -989,7 +1041,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.44382, -114.47725]
+        "coordinates": [128.44382, -114.47725],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -998,7 +1051,7 @@
       },
       "bf2props": {
         "name": "zpu_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -1013,7 +1066,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.41075, -115.158]
+        "coordinates": [127.41075, -115.158],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
@@ -1022,7 +1076,7 @@
       },
       "bf2props": {
         "name": "zis3_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zis3",
         "team": "1",
         "obj1": "zis3",
@@ -1037,7 +1091,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [122.019875, -137.27213]
+        "coordinates": [122.019875, -137.27213],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
@@ -1046,7 +1101,7 @@
       },
       "bf2props": {
         "name": "zis3_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zis3",
         "team": "1",
         "obj1": "zis3",
@@ -1061,7 +1116,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [192.35019, -105.73475]
+        "coordinates": [192.35019, -105.73475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -1070,7 +1126,7 @@
       },
       "bf2props": {
         "name": "gbjep_7",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Bushmaster",
         "team": "2",
         "obj1": "null",
@@ -1085,7 +1141,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [197.17688, -105.80788]
+        "coordinates": [197.17688, -105.80788],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -1094,7 +1151,7 @@
       },
       "bf2props": {
         "name": "gbjep_8",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Fennek VWWRN",
         "team": "2",
         "obj1": "null",
@@ -1109,7 +1166,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.99057, -105.620255]
+        "coordinates": [196.99057, -105.620255],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1118,7 +1176,7 @@
       },
       "bf2props": {
         "name": "gbtrk_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DAF YAC-2300",
         "team": "2",
         "obj1": "null",
@@ -1133,17 +1191,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.385689, -49.62581]
+        "coordinates": [16.385689, -49.62581],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mil_acv_technical will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "milacv_0",
-        "class": "ObjectPlacement",
-        "name_object": "mil_acv_technical",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "mil_acv_technical",
         "obj2": "null",
@@ -1157,17 +1216,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [87.04206, -80.46056]
+        "coordinates": [87.04206, -80.46056],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1181,17 +1241,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [99.7065, -145.41025]
+        "coordinates": [99.7065, -145.41025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp_1",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1205,17 +1266,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.784065, -141.20744]
+        "coordinates": [120.784065, -141.20744],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp_2",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1229,17 +1291,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [132.29324, -152.55269]
+        "coordinates": [132.29324, -152.55269],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp_3",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1253,17 +1316,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.86119, -114.85368]
+        "coordinates": [128.86119, -114.85368],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp_4",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1277,17 +1341,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.68457, -107.82425]
+        "coordinates": [195.68457, -107.82425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_nl_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "gbrp_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_nl_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_nl_placeable",
@@ -1301,17 +1366,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.602875, -144.60251]
+        "coordinates": [97.602875, -144.60251],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp_5",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1325,17 +1391,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.57513, -96.024315]
+        "coordinates": [126.57513, -96.024315],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "milrp_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1349,7 +1416,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.397064, -115.95981]
+        "coordinates": [114.397064, -115.95981],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -1358,7 +1426,7 @@
       },
       "bf2props": {
         "name": "zpu_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -1373,17 +1441,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [113.94, -115.88438]
+        "coordinates": [113.94, -115.88438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1397,17 +1466,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.391624, -192.80038]
+        "coordinates": [86.391624, -192.80038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1421,7 +1491,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.16225, -205.23737]
+        "coordinates": [243.16225, -205.23737],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -1430,7 +1501,7 @@
       },
       "bf2props": {
         "name": "gbapc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Boxer PWV",
         "team": "2",
         "obj1": "null",
@@ -1445,7 +1516,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.843941, -50.036186]
+        "coordinates": [15.843941, -50.036186],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -1454,7 +1526,7 @@
       },
       "bf2props": {
         "name": "gaskin",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K31 Gaskin",
         "team": "1",
         "obj1": "mec_aav_gaskin",
@@ -1469,7 +1541,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.313812, -50.01294]
+        "coordinates": [14.313812, -50.01294],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1478,7 +1551,7 @@
       },
       "bf2props": {
         "name": "apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mil_trk_logistics",
@@ -1493,7 +1566,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.961, -140.7602]
+        "coordinates": [119.961, -140.7602],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1502,7 +1576,7 @@
       },
       "bf2props": {
         "name": "trklog",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mil_trk_logistics",
@@ -1517,7 +1591,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.300186, -78.27106]
+        "coordinates": [85.300186, -78.27106],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -1526,7 +1601,7 @@
       },
       "bf2props": {
         "name": "trklog_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_militia",
@@ -1541,7 +1616,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.415375, -112.21619]
+        "coordinates": [72.415375, -112.21619],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1550,7 +1626,7 @@
       },
       "bf2props": {
         "name": "trklog_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mil_trk_logistics",
@@ -1565,17 +1641,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.12312, -111.35156]
+        "coordinates": [73.12312, -111.35156],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp_2",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable",
         "obj2": "null",
@@ -1589,7 +1666,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.592812, -50.057938]
+        "coordinates": [15.592812, -50.057938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -1598,7 +1676,7 @@
       },
       "bf2props": {
         "name": "trk",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "mil_tnk_t62",
@@ -1613,7 +1691,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.99568, -96.41269]
+        "coordinates": [135.99568, -96.41269],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -1622,7 +1701,7 @@
       },
       "bf2props": {
         "name": "zpu_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -1631,6 +1710,60 @@
         "minspawn": "999999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.65988, -228.34294],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/nl/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bluefor Airbase will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hades_peak_aas32_britmain",
+        "class": "ControlPoint",
+        "name_object": "Bluefor Airbase",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "701",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.189812, -34.07556],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Airbase will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hades_peak_aas32_rumain",
+        "class": "ControlPoint",
+        "name_object": "Militia Airbase",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "702",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

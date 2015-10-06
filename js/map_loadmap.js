@@ -16,14 +16,27 @@ function loadMap(mapname) {
 		maxZoom : 5,
 		bounds : bounds,
 		noWrap : true,
-		attribution : 'Project Reality / WGP'
+		attribution : '<a href="http://tournament.realitymod.com/showthread.php?t=34254">Project Reality Tournament</a>'
 	});
 
 	for ( i = 0; i < gmlayers.length; i++) {
 		map.removeLayer(gmlayers[i]);
 		GMcontrol.removeLayer(gmlayers[i]);
 	}
+	for ( i = 0; i < routelayers.length; i++) {
+		map.removeLayer(routelayers[i]);
+		routecontrol.removeLayer(routelayers[i]);
+	}
 
+	gmlayers = [];
+	gmnames = [];
+	GMASSETS = [];
+	GMLayerGroup.clearLayers();
+	flag_layer.clearLayers();
+	flag_radius_layer.clearLayers();
+	routes_layer.clearLayers();
+	mapLayerGroup.clearLayers();
+	layer_grid_group.clearLayers();
 	layer_grid_group.addLayer(L.simpleGraticule({
 		interval : 6.2439024390243902439024390243902,
 		offset : 6.2439024390243902439024390243902,
@@ -35,7 +48,7 @@ function loadMap(mapname) {
 		lineStyle : {
 			stroke : true,
 			color : '#000',
-			opacity : 1,
+			opacity : 0.5,
 			weight : 0.2,
 			clickable : false,
 			className : "simple-grid-line"
@@ -50,8 +63,8 @@ function loadMap(mapname) {
 		lineStyle : {
 			stroke : true,
 			color : '#000',
-			opacity : 1,
-			weight : 1,
+			opacity : 0.5,
+			weight : 0.7,
 			clickable : false,
 			className : "simple-grid-line",
 			fillColor : '#fff',
@@ -59,10 +72,8 @@ function loadMap(mapname) {
 		}
 	}));
 	layercontrol.addOverlay(layer_grid_group, "Grid Overlay");
-	gmlayers = [];
-	gmnames = [];
-	GMLayerGroup.clearLayers();
-	mapLayerGroup.clearLayers();
+	layercontrol.addOverlay(flag_layer, "Flags");
+	layercontrol.addOverlay(flag_radius_layer, "Flag Radius");
 	mapLayerGroup.addLayer(mapimage);
 	layercontrol.addBaseLayer(mapLayerGroup, "Satellite");
 	map.setMaxBounds(bounds);
@@ -120,10 +131,20 @@ function loadMap(mapname) {
 
 var doSomething = function(extraStuff, extradata) {
 	return function(data, textStatus, jqXHR) {
-		var gmarray = [];
+		var gmarray = new Object();
 		gmarray.mapname = extradata[0];
 		gmarray.gm = extradata[1];
-		//GMASSETS.push("{ map: " + extradata[0] + ", gm: " + extradata[1] + ", ") ;
+		gmarray.flags = [];
+		gmarray.flagradius = [];
+		gmarray.objects = [];
+		gmarray.routes = data.routes;
+		gmarray.team1name = data.team1;
+		gmarray.team1tickets = data.team1tickets;
+		gmarray.team2name = data.team2;
+		gmarray.team2tickets = data.team2tickets;
+		gmarray.mapsize = data.mapsize;
+		gmarray.viewdistance = data.viewdistance;
+
 		var gamemode = L.geoJson(data, {
 			style : function(feature) {
 				return feature.properties && feature.properties.style;
@@ -134,45 +155,83 @@ var doSomething = function(extraStuff, extradata) {
 					console.error("WARNING: BF2Object has no icon: " + feature.bf2props.name_object + ". Consider adding an exception.");
 					iconurl = "icons/flags_map/minimap_uncappable.png";
 				}
-				var newmarker = L.marker(latlng, {
-					icon : L.divIcon({
-						iconSize : new L.Point(20, 20),
-						className : 'icon',
-						html : '<img style="width:100%" class="rotated" src=' + iconurl + ' data-rotate="' + feature.properties.iconrotate + '">'
-					})
-				});
-				var popupContent = "";
-				gmarray.push(feature);
-				if (feature.properties) {
-					var minspawn = parseInt(feature.bf2props.minspawn);
-					var maxspawn = parseInt(feature.bf2props.maxspawn);
-
-					popupContent += "<table><tr><td colspan='2'>" + feature.bf2props.name_object + "</td></tr>";
-					if (minspawn < 0 || maxspawn < 0 || minspawn > 9999 || maxspawn > 9999 || (minspawn == 0 && maxspawn == 0)) {
-						popupContent += "<tr><td>Respawn Time:</td><td> Never</td></tr>";
-					} else {
-						if (minspawn == minspawn) {
-							popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " s" + "</td></tr>";
-						} else {
-							popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " to " + maxspawn + " s" + "</td></tr>";
-						}
-					}
-					if (feature.bf2props.spawndelay == "true") {
-						popupContent += "<tr><td>SpawnDelay:</td><td> Yes" + "</td></tr>";
-					} else {
-						popupContent += "<tr><td>SpawnDelay:</td><td> No" + "</td></tr>";
-					}
-					popupContent += "<tr><td>Team:</td><td>" + feature.bf2props.team + "</td></tr>";
-
-					popupContent += "</table>";
+				if (feature.geometry.size) {
+					var newmarker = L.marker(latlng, {
+						icon : L.divIcon({
+							iconSize : new L.Point(feature.geometry.size[0], feature.geometry.size[1]),
+							className : 'icon',
+							html : '<img style="width:100%" class="rotated" src=' + iconurl + ' data-rotate="' + feature.properties.iconrotate + '">'
+						})
+					});
+				} else {
+					var newmarker = L.marker(latlng, {
+						icon : L.divIcon({
+							iconSize : new L.Point(20, 20),
+							className : 'icon',
+							html : '<img style="width:100%" class="rotated" src=' + iconurl + ' data-rotate="' + feature.properties.iconrotate + ' data-code="' + feature.bf2props.name + '">'
+						})
+					});
 				}
+				if (feature.bf2props.class == "ObjectSpawner") {
+					var popupContent = "";
+					gmarray.objects.push(feature);
+					if (feature.properties) {
+						var minspawn = parseInt(feature.bf2props.minspawn);
+						var maxspawn = parseInt(feature.bf2props.maxspawn);
 
-				newmarker.bindPopup(popupContent);
-				newmarker.on('mouseover', function(e) {
-					// document.getElementById('RightPane').innerHTML = this.getPopup().getContent();
-				});
+						popupContent += "<table><tr><td colspan='2'>" + feature.bf2props.name_object + "</td></tr>";
+						if (minspawn < 0 || maxspawn < 0 || minspawn > 9999 || maxspawn > 9999 || (minspawn == 0 && maxspawn == 0)) {
+							popupContent += "<tr><td>Respawn Time:</td><td> Never</td></tr>";
+						} else {
+							if (minspawn == minspawn) {
+								popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " s" + "</td></tr>";
+							} else {
+								popupContent += "<tr><td>Respawn Time:</td><td> " + minspawn + " to " + maxspawn + " s" + "</td></tr>";
+							}
+						}
+						if (feature.bf2props.spawndelay == "true") {
+							popupContent += "<tr><td>SpawnDelay:</td><td> Yes" + "</td></tr>";
+						} else {
+							popupContent += "<tr><td>SpawnDelay:</td><td> No" + "</td></tr>";
+						}
+						popupContent += "<tr><td>Team:</td><td>" + feature.bf2props.team + "</td></tr>";
 
-				return newmarker;
+						popupContent += "</table>";
+					}
+
+					newmarker.bindPopup(popupContent);
+					newmarker.on('mouseover', function(e) {
+						// document.getElementById('RightPane').innerHTML = this.getPopup().getContent();
+					});
+
+					return newmarker;
+				} else if (feature.bf2props.class == "ControlPoint") {
+					newmarker.data = {};
+					newmarker.data.code = feature.bf2props.name;
+					newmarker.data.name = feature.bf2props.name_object;
+					newmarker.data.team = feature.bf2props.team;
+					newmarker.data.sgid = feature.bf2props.sgid;
+					newmarker.data.cpid = feature.bf2props.cpid;
+					newmarker.data.uncap = feature.bf2props.uncap;
+					newmarker.data.ttgc = feature.bf2props.ttgc;
+					newmarker.data.ttlc = feature.bf2props.ttlc;
+					gmarray.flags.push(newmarker);
+					if (feature.geometry.radius && feature.bf2props.uncap == "false") {
+						var radiusmarker = L.circle(latlng, feature.geometry.radius, {
+							color : 'red',
+							weight : 2,
+							opacity : 0.6,
+							fillColor : '#f03',
+							fillOpacity : 0.1
+						});
+						radiusmarker.radius = feature.geometry.radius;
+						radiusmarker.bindPopup(String(feature.geometry.radius * 8) + " m");
+						gmarray.flagradius.push(radiusmarker);
+					}
+
+					return null;
+				} else
+					return null;
 			},
 			onEachFeature : function(feature, layer) {
 			}

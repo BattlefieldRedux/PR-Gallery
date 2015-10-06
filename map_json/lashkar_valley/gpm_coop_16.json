@@ -1,21 +1,56 @@
 {
+  "team1":"taliban",
+  "team2":"ger",
+  "team1tickets":"300",
+  "team2tickets":"320",
+  "mapsize":"2048",
+  "viewdistance":"800",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_lashkar_valley_coop16_talibanhq"
+      ],
+      [
+        "cpname_lashkar_valley_coop16_caves_0"
+      ],
+      [
+        "cpname_lashkar_valley_coop16_caves"
+      ],
+      [
+        "cpname_lashkar_valley_coop16_compound"
+      ],
+      [
+        "cpname_lashkar_valley_coop16_eastvillage"
+      ],
+      [
+        "cpname_lashkar_valley_coop16_westvillage"
+      ],
+      [
+        "cpname_lashkar_valley_coop16_germancompound"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.06937, -48.004875]
+        "coordinates": [230.06937, -48.004875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about bipod_gpmg_pkm will be found here!"
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_coop16_talibanhq_mg",
-        "class": "ObjectPlacement",
-        "name_object": "bipod_gpmg_pkm",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary PKM",
         "team": "1",
         "obj1": "bipod_gpmg_pkm",
         "obj2": "null",
@@ -29,17 +64,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [176.67012, -120.641624]
+        "coordinates": [176.67012, -120.641624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-66.233",
-        "popupContent": "Amazing information about bipod_gpmg_pkm will be found here!"
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_coop16_caves_mg",
-        "class": "ObjectPlacement",
-        "name_object": "bipod_gpmg_pkm",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary PKM",
         "team": "1",
         "obj1": "bipod_gpmg_pkm",
         "obj2": "null",
@@ -47,6 +83,195 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.95163, -88.28725],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Command Post will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_germancompound",
+        "class": "ControlPoint",
+        "name_object": "German Command Post",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "40.0",
+        "cpid": "1",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.232124, -99.582],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Village 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_westvillage",
+        "class": "ControlPoint",
+        "name_object": "West Village 30m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "2",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.20375, -100.99],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_eastvillage",
+        "class": "ControlPoint",
+        "name_object": "East Village 30m",
+        "team": "0",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.445, -105.8215],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Compound 20m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_compound",
+        "class": "ControlPoint",
+        "name_object": "Compound 20m",
+        "team": "1",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.06363, -107.874626],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Central Caves 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_caves",
+        "class": "ControlPoint",
+        "name_object": "Central Caves 30m",
+        "team": "1",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [224.19174, -81.9785],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Caves 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_caves_0",
+        "class": "ControlPoint",
+        "name_object": "North Caves 30m",
+        "team": "1",
+        "areavalue1": "40.0",
+        "areavalue2": "40.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [228.52338, -47.780746],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban Compound 20m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop16_talibanhq",
+        "class": "ControlPoint",
+        "name_object": "Taliban Compound 20m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "7",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "30.0"
       }
     }
   ]

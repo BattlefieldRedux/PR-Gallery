@@ -1,21 +1,53 @@
 {
+  "team1":"ch",
+  "team2":"us",
+  "team1tickets":"300",
+  "team2tickets":"400",
+  "mapsize":"1024",
+  "viewdistance":"275",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_tad_sae_coop16_tadsaehq"
+      ],
+      [
+        "cpname_tad_sae_coop16_ridgeline"
+      ],
+      [
+        "cpname_tad_sae_coop16_northbridge"
+      ],
+      [
+        "cpname_tad_sae_coop16_powcamp"
+      ],
+      [
+        "cpname_tad_sae_coop16_powworksite"
+      ],
+      [
+        "cpname_tad_sae_coop16_usdeployment"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.6467514, -182.54025]
+        "coordinates": [5.6467514, -182.54025],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_usdeployment_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -29,7 +61,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.408501, -184.057]
+        "coordinates": [10.408501, -184.057],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -38,7 +71,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_usdeployment_hmmwv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.119751, -185.02675]
+        "coordinates": [8.119751, -185.02675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_usdeployment_hmmwv_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.345497, -185.64175]
+        "coordinates": [5.345497, -185.64175],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_usdeployment_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -101,17 +136,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [201.93451, -16.5635]
+        "coordinates": [201.93451, -16.5635],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ch will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_tadsaehq_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ch",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ch",
         "obj2": "null",
@@ -125,7 +161,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [201.955, -17.026749]
+        "coordinates": [201.955, -17.026749],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +171,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_tadsaehq_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
         "obj1": "ch_trk_logistics",
@@ -149,7 +186,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.96375, -18.936996]
+        "coordinates": [198.96375, -18.936996],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
@@ -158,7 +196,7 @@
       },
       "bf2props": {
         "name": "cpname_tad_sae_coop16_tadsaehq_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "ch_jep_uaz",
@@ -167,6 +205,168 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.7457504, -185.42975],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_usdeployment",
+        "class": "ControlPoint",
+        "name_object": "US Deployment",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.52225, -117.6705],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about POW Work Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_powworksite",
+        "class": "ControlPoint",
+        "name_object": "POW Work Site",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43.086502, -44.864754],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about POW Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_powcamp",
+        "class": "ControlPoint",
+        "name_object": "POW Camp",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.7005, -35.4675],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_northbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.94925, -67.7185],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Ridgeline will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_ridgeline",
+        "class": "ControlPoint",
+        "name_object": "Ridgeline",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [200.83125, -21.143753],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tad Sae HQ will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop16_tadsaehq",
+        "class": "ControlPoint",
+        "name_object": "Tad Sae HQ",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,11 +1,44 @@
 {
+  "team1":"arf",
+  "team2":"usa",
+  "team1tickets":"0",
+  "team2tickets":"0",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_ramiel_skirmish16_insurgencymain"
+      ],
+      [
+        "cpname_ramiel_skirmish16_apartment"
+      ],
+      [
+        "cpname_ramiel_skirmish16_courtyard",
+        "cpname_ramiel_skirmish16_junkyard"
+      ],
+      [
+        "cpname_ramiel_skirmish16_slums"
+      ],
+      [
+        "cpname_ramiel_skirmish16_fob"
+      ],
+      [
+        "cpname_ramiel_skirmish16_us_mainbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.08312, -142.555]
+        "coordinates": [116.08312, -142.555],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +47,7 @@
       },
       "bf2props": {
         "name": "crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +62,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [133.14725, -119.69537]
+        "coordinates": [133.14725, -119.69537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +72,7 @@
       },
       "bf2props": {
         "name": "cpname_ramiel_skirmish16_fob_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -53,7 +87,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.33412, -70.70062]
+        "coordinates": [121.33412, -70.70062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +97,7 @@
       },
       "bf2props": {
         "name": "cpname_ramiel_skirmish16_apartment_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -71,6 +106,195 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.54925, -141.55138],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Reinforcements will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_us_mainbase",
+        "class": "ControlPoint",
+        "name_object": "US Reinforcements",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.96362, -120.263626],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about M*A*S*H Unit will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_fob",
+        "class": "ControlPoint",
+        "name_object": "M*A*S*H Unit",
+        "team": "2",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.97, -105.839005],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Slums 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_slums",
+        "class": "ControlPoint",
+        "name_object": "Slums 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.19175, -90.6915],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Courtyard 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_courtyard",
+        "class": "ControlPoint",
+        "name_object": "Courtyard 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.0805, -53.1575],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Insurgent Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_insurgencymain",
+        "class": "ControlPoint",
+        "name_object": "Insurgent Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.99587, -70.1295],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_apartment",
+        "class": "ControlPoint",
+        "name_object": "Apartments 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "501",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.33825, -83.74263],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Junkyard 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_skirmish16_junkyard",
+        "class": "ControlPoint",
+        "name_object": "Junkyard 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "502",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,11 +1,47 @@
 {
+  "team1":"chinsurgent",
+  "team2":"ru",
+  "team1tickets":"650",
+  "team2tickets":"580",
+  "mapsize":"2048",
+  "viewdistance":"450",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kozelsk_skirmish32_militia"
+      ],
+      [
+        "cpname_kozelsk_skirmish32_missile"
+      ],
+      [
+        "cpname_kozelsk_skirmish32_gate",
+        "cpname_kozelsk_skirmish32_traintunnel"
+      ],
+      [
+        "cpname_kozelsk_skirmish32_facility"
+      ],
+      [
+        "cpname_kozelsk_skirmish32_tunnels"
+      ],
+      [
+        "cpname_kozelsk_skirmish32_storage"
+      ],
+      [
+        "cpname_kozelsk_skirmish32_ru"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.3875, -71.7905]
+        "coordinates": [68.3875, -71.7905],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +50,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_militia_crate1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -29,7 +65,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [69.51387, -64.67375]
+        "coordinates": [69.51387, -64.67375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +75,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_militia_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -53,7 +90,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.47713, -156.81763]
+        "coordinates": [72.47713, -156.81763],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +100,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_ru_crate1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -77,7 +115,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.596, -154.27675]
+        "coordinates": [72.596, -154.27675],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +125,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_ru_crate2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -101,7 +140,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.942245, -142.72713]
+        "coordinates": [79.942245, -142.72713],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +150,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_storage_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -125,7 +165,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [105.15063, -86.64925]
+        "coordinates": [105.15063, -86.64925],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -134,7 +175,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_gate_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -149,7 +190,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.98712, -77.848755]
+        "coordinates": [81.98712, -77.848755],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -158,7 +200,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_missile_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -173,7 +215,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [70.102005, -88.87163]
+        "coordinates": [70.102005, -88.87163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -182,7 +225,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_traintunnel_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -197,17 +240,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [98.50325, -135.04262]
+        "coordinates": [98.50325, -135.04262],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_ru_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish32_ru_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_ru_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_ru_placeable",
@@ -215,6 +259,222 @@
         "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.56975, -156.45226],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian FOB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_ru",
+        "class": "ControlPoint",
+        "name_object": "Russian FOB",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.596, -142.18637],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Storage 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_storage",
+        "class": "ControlPoint",
+        "name_object": "Storage 50m",
+        "team": "2",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "601",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.82775, -132.69075],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tunnel Complex 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_tunnels",
+        "class": "ControlPoint",
+        "name_object": "Tunnel Complex 30m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "602",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.0025, -110.75775],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bunker 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_facility",
+        "class": "ControlPoint",
+        "name_object": "Bunker 30m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "603",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.59512, -87.63788],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gate 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_gate",
+        "class": "ControlPoint",
+        "name_object": "Gate 30m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "604",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.11562, -76.31387],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Launch Facility 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_missile",
+        "class": "ControlPoint",
+        "name_object": "Launch Facility 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "605",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.21225, -66.51437],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_militia",
+        "class": "ControlPoint",
+        "name_object": "Militia Operations Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "606",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.00075, -89.06863],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Train Tunnel 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish32_traintunnel",
+        "class": "ControlPoint",
+        "name_object": "Train Tunnel 30m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "607",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

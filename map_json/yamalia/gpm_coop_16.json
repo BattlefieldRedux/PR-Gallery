@@ -1,11 +1,39 @@
 {
+  "team1":"ru",
+  "team2":"cf",
+  "team1tickets":"300",
+  "team2tickets":"300",
+  "mapsize":"4096",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_yamalia_coop16_ruops"
+      ],
+      [
+        "cpname_yamalia_coop16_objectivedelta",
+        "cpname_yamalia_coop16_objectivelima"
+      ],
+      [
+        "cpname_yamalia_coop16_objectivecharlie",
+        "cpname_yamalia_coop16_objectivekilo"
+      ],
+      [
+        "cpname_yamalia_coop16_canadianops"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.08588, -133.61093]
+        "coordinates": [91.08588, -133.61093],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -14,7 +42,7 @@
       },
       "bf2props": {
         "name": "cpname_yamalia_coop16_ruops_zpu4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "zpu4",
         "team": "1",
         "obj1": "zpu4",
@@ -29,17 +57,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.894997, -160.7432]
+        "coordinates": [37.894997, -160.7432],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about cf_acv_lav3cpv will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop16_canadianops_acv",
-        "class": "ObjectPlacement",
-        "name_object": "cf_acv_lav3cpv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "cf_acv_lav3cpv",
@@ -53,17 +82,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.62738, -131.24982]
+        "coordinates": [92.62738, -131.24982],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about ru_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop16_ruops_acv",
-        "class": "ObjectPlacement",
-        "name_object": "ru_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "1",
         "obj1": "ru_acv_btr60pu",
         "obj2": "null",
@@ -71,6 +101,168 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.45119, -131.28513],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_yamalia_coop16_ruops will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop16_ruops",
+        "class": "ControlPoint",
+        "name_object": "cpname_yamalia_coop16_ruops",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.35025, -156.6332],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/cf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Canadian Forward Operating Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop16_canadianops",
+        "class": "ControlPoint",
+        "name_object": "Canadian Forward Operating Base",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.59169, -137.22826],
+        "size": [33, 33],
+        "radius": "1.5625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Delta will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop16_objectivedelta",
+        "class": "ControlPoint",
+        "name_object": "Objective Delta",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.92406, -161.54163],
+        "size": [33, 33],
+        "radius": "1.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Charlie will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop16_objectivecharlie",
+        "class": "ControlPoint",
+        "name_object": "Objective Charlie",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.545685, -151.49237],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Lima will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop16_objectivelima",
+        "class": "ControlPoint",
+        "name_object": "Objective Lima",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.160934, -141.69487],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Kilo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop16_objectivekilo",
+        "class": "ControlPoint",
+        "name_object": "Objective Kilo",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "6",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

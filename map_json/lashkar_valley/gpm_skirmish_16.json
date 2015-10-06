@@ -1,11 +1,37 @@
 {
+  "team1":"taliban",
+  "team2":"ger",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"2048",
+  "viewdistance":"800",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_lashkar_valley_skirmish16_talbase"
+      ],
+      [
+        "cpname_lashkar_valley_skirmish16_valleyeast"
+      ],
+      [
+        "cpname_lashkar_valley_skirmish16_valleywest"
+      ],
+      [
+        "cpname_lashkar_valley_skirmish16_gbbase"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.0, -73.25]
+        "coordinates": [45.0, -73.25],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +40,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_skirmish16_gbbase_supply_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +55,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [154.81738, -36.263374]
+        "coordinates": [154.81738, -36.263374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +65,7 @@
       },
       "bf2props": {
         "name": "cpname_lashkar_valley_skirmish16_talbase_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +74,114 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.75, -76.0],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/taliban/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Taliban Base 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_skirmish16_talbase",
+        "class": "ControlPoint",
+        "name_object": "Taliban Base 35m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "100.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.75, -107.375],
+        "size": [33, 33],
+        "radius": "8.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village 65m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_skirmish16_valleyeast",
+        "class": "ControlPoint",
+        "name_object": "East Village 65m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.875, -99.75],
+        "size": [33, 33],
+        "radius": "8.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Village 65m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_skirmish16_valleywest",
+        "class": "ControlPoint",
+        "name_object": "West Village 65m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.746, -88.0915],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Base 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_skirmish16_gbbase",
+        "class": "ControlPoint",
+        "name_object": "German Base 35m",
+        "team": "2",
+        "areavalue1": "100.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     }
   ]

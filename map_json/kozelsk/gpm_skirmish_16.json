@@ -1,21 +1,53 @@
 {
+  "team1":"chinsurgent",
+  "team2":"ru",
+  "team1tickets":"500",
+  "team2tickets":"510",
+  "mapsize":"2048",
+  "viewdistance":"450",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_kozelsk_skirmish16_chechenbase"
+      ],
+      [
+        "cpname_kozelsk_skirmish16_frontbase"
+      ],
+      [
+        "cpname_kozelsk_skirmish16_hilltop"
+      ],
+      [
+        "cpname_kozelsk_skirmish16_vcp"
+      ],
+      [
+        "cpname_kozelsk_skirmish16_forestcamp"
+      ],
+      [
+        "cpname_kozelsk_skirmish16_rusmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.556, -148.27838]
+        "coordinates": [239.556, -148.27838],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -29,17 +61,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.52075, -164.44562]
+        "coordinates": [247.52075, -164.44562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_chinsurgent_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "rp_0",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_chinsurgent_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_chinsurgent_placeable_noexpire",
         "obj2": "null",
@@ -53,7 +86,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [228.47876, -163.70638]
+        "coordinates": [228.47876, -163.70638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +96,7 @@
       },
       "bf2props": {
         "name": "crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -77,7 +111,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [138.44925, -206.70538]
+        "coordinates": [138.44925, -206.70538],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +121,7 @@
       },
       "bf2props": {
         "name": "crate_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -101,7 +136,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.586, -149.51738]
+        "coordinates": [239.586, -149.51738],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -110,7 +146,7 @@
       },
       "bf2props": {
         "name": "crate_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -125,7 +161,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [249.97488, -121.63775]
+        "coordinates": [249.97488, -121.63775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -134,7 +171,7 @@
       },
       "bf2props": {
         "name": "cpname_kozelsk_skirmish16_hidden_crate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -143,6 +180,195 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.21213, -207.25188],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_rusmain",
+        "class": "ControlPoint",
+        "name_object": "Russian Deployment Area",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "6",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.7225, -188.37625],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forest Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_forestcamp",
+        "class": "ControlPoint",
+        "name_object": "Forest Camp",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [191.26688, -188.70038],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_vcp",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Outpost",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.709, -166.86024],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hilltop Camp will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_hilltop",
+        "class": "ControlPoint",
+        "name_object": "Hilltop Camp",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [224.94824, -162.24976],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forward Militia Defenses will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_frontbase",
+        "class": "ControlPoint",
+        "name_object": "Forward Militia Defenses",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.9235, -147.66962],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Tunnel Complex will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_chechenbase",
+        "class": "ControlPoint",
+        "name_object": "Militia Tunnel Complex",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "105",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [249.20676, -123.2345],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_kozelsk_skirmish16_hidden will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_skirmish16_hidden",
+        "class": "ControlPoint",
+        "name_object": "cpname_kozelsk_skirmish16_hidden",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "501",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

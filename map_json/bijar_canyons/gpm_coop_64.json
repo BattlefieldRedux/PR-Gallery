@@ -1,11 +1,52 @@
 {
+  "team1":"mec",
+  "team2":"idf",
+  "team1tickets":"800",
+  "team2tickets":"800",
+  "mapsize":"4096",
+  "viewdistance":"1300",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_bijar_canyons_coop64_mecmain"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_fort"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_farm"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_bunkers"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_westbijar"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_eastbijar"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_bridge"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_vcp"
+      ],
+      [
+        "cpname_bijar_canyons_coop64_idfops"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.681877, -251.21445]
+        "coordinates": [6.681877, -251.21445],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jet.png",
@@ -14,7 +55,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_jet",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "F-16C Barak",
         "team": "2",
         "obj1": "null",
@@ -29,7 +70,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1976852, -244.60106]
+        "coordinates": [6.1976852, -244.60106],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -38,7 +80,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_cas_sp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AH-64D Saraph",
         "team": "2",
         "obj1": "null",
@@ -53,7 +95,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.781876, -249.68582]
+        "coordinates": [10.781876, -249.68582],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -62,7 +105,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_uh60",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-60L Yanshuf",
         "team": "2",
         "obj1": "null",
@@ -77,7 +120,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.325439, -249.68582]
+        "coordinates": [12.325439, -249.68582],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -86,7 +130,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_uh60_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UH-60L Yanshuf",
         "team": "2",
         "obj1": "null",
@@ -101,7 +145,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.232872, -246.07056]
+        "coordinates": [14.232872, -246.07056],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -110,7 +155,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "2",
         "obj1": "null",
@@ -125,7 +170,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.232872, -249.54288]
+        "coordinates": [14.232872, -249.54288],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -134,7 +180,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "2",
         "obj1": "null",
@@ -149,7 +195,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.232872, -248.466]
+        "coordinates": [14.232872, -248.466],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -158,7 +205,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "2",
         "obj1": "null",
@@ -173,7 +220,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.232872, -247.26694]
+        "coordinates": [14.232872, -247.26694],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -182,7 +230,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "2",
         "obj1": "null",
@@ -197,7 +245,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.257309, -243.84286]
+        "coordinates": [14.257309, -243.84286],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -206,7 +255,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_name",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Namer",
         "team": "2",
         "obj1": "null",
@@ -221,7 +270,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.279938, -244.95837]
+        "coordinates": [14.279938, -244.95837],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -230,7 +280,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_namer",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Namer",
         "team": "2",
         "obj1": "null",
@@ -245,7 +295,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.525124, -240.76593]
+        "coordinates": [9.525124, -240.76593],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -254,7 +305,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_tank_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "2",
         "obj1": "null",
@@ -269,7 +320,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.153938, -240.75656]
+        "coordinates": [9.153938, -240.75656],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -278,7 +330,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_tank_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Merkava Mark IV",
         "team": "2",
         "obj1": "null",
@@ -293,7 +345,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.181686, -240.80669]
+        "coordinates": [10.181686, -240.80669],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -302,7 +355,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_namer_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Namer",
         "team": "2",
         "obj1": "null",
@@ -317,7 +370,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.575127, -240.7935]
+        "coordinates": [10.575127, -240.7935],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -326,7 +380,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_namer_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Namer",
         "team": "2",
         "obj1": "null",
@@ -341,17 +395,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.4471283, -238.95894]
+        "coordinates": [7.4471283, -238.95894],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about idf_acv_m557 will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_apc",
-        "class": "ObjectPlacement",
-        "name_object": "idf_acv_m557",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "idf_acv_m557",
@@ -365,7 +420,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.630562, -243.45932]
+        "coordinates": [9.630562, -243.45932],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -374,7 +430,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -389,7 +445,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.3239975, -243.45932]
+        "coordinates": [9.3239975, -243.45932],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
@@ -398,7 +455,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M113 Logistics",
         "team": "2",
         "obj1": "null",
@@ -413,7 +470,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.574066, -239.03644]
+        "coordinates": [10.574066, -239.03644],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -422,7 +480,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW SIYUR",
         "team": "2",
         "obj1": "null",
@@ -437,7 +495,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.055878, -239.03644]
+        "coordinates": [10.055878, -239.03644],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -446,7 +505,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW SIYUR",
         "team": "2",
         "obj1": "null",
@@ -461,7 +520,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.297249, -239.03644]
+        "coordinates": [10.297249, -239.03644],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -470,7 +530,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "HMMVW SIYUR",
         "team": "2",
         "obj1": "null",
@@ -485,17 +545,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.550377, -243.453]
+        "coordinates": [10.550377, -243.453],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_idf will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_vcp_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_idf",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_idf",
@@ -509,7 +570,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -23.173439]
+        "coordinates": [241.56563, -23.173439],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -518,7 +580,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_tank",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72_bf2",
@@ -533,7 +595,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -22.072746]
+        "coordinates": [241.56563, -22.072746],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -542,7 +605,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_tank_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72_bf2",
@@ -557,7 +620,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -22.450813]
+        "coordinates": [241.56563, -22.450813],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -566,7 +630,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_tank_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72_bf2",
@@ -581,7 +645,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -22.803314]
+        "coordinates": [241.56563, -22.803314],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -590,7 +655,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_tank_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72_bf2",
@@ -605,7 +670,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -23.89206]
+        "coordinates": [241.56563, -23.89206],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -614,7 +680,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "mec_ifv_bmp3_bf2",
@@ -629,7 +695,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -23.550438]
+        "coordinates": [241.56563, -23.550438],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -638,7 +705,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_bmp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "mec_ifv_bmp3_bf2",
@@ -653,7 +720,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -24.517189]
+        "coordinates": [241.56563, -24.517189],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -662,7 +730,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K35 Gopher",
         "team": "1",
         "obj1": "mec_aav_gopher",
@@ -677,7 +745,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.56563, -24.22306]
+        "coordinates": [241.56563, -24.22306],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -686,7 +755,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_aav_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9K35 Gopher",
         "team": "1",
         "obj1": "mec_aav_gopher",
@@ -701,7 +770,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.4, -27.374123]
+        "coordinates": [248.4, -27.374123],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -710,7 +780,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_trans",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -725,7 +795,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.4, -25.748436]
+        "coordinates": [248.4, -25.748436],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
@@ -734,7 +805,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_the",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Mi-17 Hip",
         "team": "1",
         "obj1": "mec_the_mi17",
@@ -749,7 +820,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.863, -13.040062]
+        "coordinates": [246.863, -13.040062],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
@@ -758,7 +830,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_jet",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Su-25 Frogfoot",
         "team": "1",
         "obj1": "mec_jet_su25a",
@@ -773,7 +845,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.159, -16.668]
+        "coordinates": [245.159, -16.668],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
@@ -782,7 +855,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_jet_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Su-25 Frogfoot",
         "team": "1",
         "obj1": "mec_jet_su25a",
@@ -797,7 +870,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.78137, -27.797127]
+        "coordinates": [244.78137, -27.797127],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -806,7 +880,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_tank_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72",
@@ -821,7 +895,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.35287, -26.153816]
+        "coordinates": [243.35287, -26.153816],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -830,7 +905,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_bmp_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "mec_ifv_bmp3",
@@ -845,7 +920,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.85712, -26.73381]
+        "coordinates": [243.85712, -26.73381],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -854,7 +930,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_bmp_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "1",
         "obj1": "mec_ifv_bmp3",
@@ -869,7 +945,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.31969, -27.265938]
+        "coordinates": [244.31969, -27.265938],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
@@ -878,7 +955,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_tank_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-72",
         "team": "1",
         "obj1": "mec_tnk_t72",
@@ -893,7 +970,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.90881, -27.953934]
+        "coordinates": [245.90881, -27.953934],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -902,7 +980,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -917,7 +995,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.62112, -27.3125]
+        "coordinates": [246.62112, -27.3125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -926,7 +1005,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -941,7 +1020,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.45145, -27.465378]
+        "coordinates": [246.45145, -27.465378],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -950,7 +1030,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -965,7 +1045,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.08588, -27.794563]
+        "coordinates": [246.08588, -27.794563],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -974,7 +1055,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
@@ -989,7 +1070,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [207.59662, -20.456688]
+        "coordinates": [207.59662, -20.456688],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
@@ -998,7 +1080,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_fort_ate",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "mec_ats_milan",
         "team": "1",
         "obj1": "mec_ats_milan",
@@ -1013,7 +1095,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.22475, -21.827187]
+        "coordinates": [208.22475, -21.827187],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
@@ -1022,7 +1105,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_fort_ats",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "mec_ats_milan",
         "team": "1",
         "obj1": "mec_ats_milan",
@@ -1037,7 +1120,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [208.53075, -92.6325]
+        "coordinates": [208.53075, -92.6325],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
@@ -1046,7 +1130,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_farm_aa",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "igla_djigit",
         "team": "1",
         "obj1": "igla_djigit",
@@ -1061,7 +1145,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.12056, -148.44287]
+        "coordinates": [180.12056, -148.44287],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
@@ -1070,7 +1155,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_bunkers_ats",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "mec_ats_milan",
         "team": "1",
         "obj1": "mec_ats_milan",
@@ -1085,7 +1170,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.90256, -210.24869]
+        "coordinates": [213.90256, -210.24869],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
@@ -1094,7 +1180,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_westbijar_ats",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "mec_ats_milan",
         "team": "1",
         "obj1": "mec_ats_milan",
@@ -1109,7 +1195,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.149315, -241.23956]
+        "coordinates": [13.149315, -241.23956],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -1118,7 +1205,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_aav",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AN/TWQ-1 Avenger",
         "team": "2",
         "obj1": "null",
@@ -1133,7 +1220,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.149315, -241.47575]
+        "coordinates": [13.149315, -241.47575],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
@@ -1142,7 +1230,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_aav_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AN/TWQ-1 Avenger",
         "team": "2",
         "obj1": "null",
@@ -1157,7 +1245,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [30.823189, -232.80731]
+        "coordinates": [30.823189, -232.80731],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
@@ -1166,7 +1255,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_vcp_ats",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "ats_tow",
         "team": "2",
         "obj1": "null",
@@ -1181,7 +1270,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.10901, -8.583939]
+        "coordinates": [251.10901, -8.583939],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
@@ -1190,7 +1280,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_cas_sp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "killed",
         "team": "1",
         "obj1": "mec_jet_su25a_sp",
@@ -1205,7 +1295,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.55132, -8.583939]
+        "coordinates": [252.55132, -8.583939],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
@@ -1214,7 +1305,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_cas_sp_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "killed",
         "team": "1",
         "obj1": "mec_jet_su25a_sp",
@@ -1229,17 +1320,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.901184, -247.44931]
+        "coordinates": [14.901184, -247.44931],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_idf_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_idf_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
         "obj2": "rallypoint_idf_placeable_noexpire",
@@ -1253,7 +1345,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.415253, -243.13338]
+        "coordinates": [13.415253, -243.13338],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -1262,7 +1355,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_towhummer",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1045A1 HMMWV",
         "team": "2",
         "obj1": "null",
@@ -1277,7 +1370,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.272812, -242.90524]
+        "coordinates": [13.272812, -242.90524],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -1286,7 +1380,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_towhummer_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1045A1 HMMWV",
         "team": "2",
         "obj1": "null",
@@ -1301,17 +1395,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.11505, -19.580376]
+        "coordinates": [244.11505, -19.580376],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_mec",
         "obj2": "null",
@@ -1325,7 +1420,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.2945, -19.678627]
+        "coordinates": [243.2945, -19.678627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1334,7 +1430,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -1349,7 +1445,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.53488, -19.678627]
+        "coordinates": [243.53488, -19.678627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -1358,7 +1455,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "mec_trk_logistics",
@@ -1373,7 +1470,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.6182, -19.678627]
+        "coordinates": [242.6182, -19.678627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -1382,7 +1480,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -1397,7 +1495,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.84962, -19.678627]
+        "coordinates": [242.84962, -19.678627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -1406,7 +1505,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_support_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
         "obj1": "mec_trk_support",
@@ -1421,17 +1520,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.68025, -24.982689]
+        "coordinates": [241.68025, -24.982689],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_mec_placeable_noexpire will be found here!"
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_mec_placeable_noexpire",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
         "team": "1",
         "obj1": "rallypoint_mec_placeable_noexpire",
         "obj2": "null",
@@ -1445,7 +1545,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1976852, -246.13757]
+        "coordinates": [6.1976852, -246.13757],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
@@ -1454,7 +1555,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_idfops_cas",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "AH-64D Saraph",
         "team": "2",
         "obj1": "null",
@@ -1469,7 +1570,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.44081, -19.872627]
+        "coordinates": [241.44081, -19.872627],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -1478,7 +1580,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_atvehicle",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P149 Shturm-S",
         "team": "1",
         "obj1": "mec_atm_shturm",
@@ -1493,7 +1595,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.44081, -20.224876]
+        "coordinates": [241.44081, -20.224876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
@@ -1502,7 +1605,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_coop64_mecmain_atv",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "9P149 Shturm-S",
         "team": "1",
         "obj1": "mec_atm_shturm",
@@ -1511,6 +1614,249 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.2993774, -247.41187],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Airbase will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_idfops",
+        "class": "ControlPoint",
+        "name_object": "IDF Airbase",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "9",
+        "uncap": "true",
+        "ttgc": "240.0",
+        "ttlc": "240.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.714813, -230.42612],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Checkpoint 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_vcp",
+        "class": "ControlPoint",
+        "name_object": "Vehicle Checkpoint 150m",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "8",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.559685, -173.51631],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridge 300m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_bridge",
+        "class": "ControlPoint",
+        "name_object": "Bridge 300m",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "3",
+        "sgid": "7",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.012, -216.64938],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Bijar 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_eastbijar",
+        "class": "ControlPoint",
+        "name_object": "West Bijar 150m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "4",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.51926, -209.71744],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Bijar 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_westbijar",
+        "class": "ControlPoint",
+        "name_object": "East Bijar 150m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "6",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [179.4137, -149.29144],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cave Bunker 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_bunkers",
+        "class": "ControlPoint",
+        "name_object": "Cave Bunker 80m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "7",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [188.1695, -85.56038],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 300m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_farm",
+        "class": "ControlPoint",
+        "name_object": "Farm 300m",
+        "team": "1",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "8",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.59012, -17.674622],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fortress 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_fort",
+        "class": "ControlPoint",
+        "name_object": "Fortress 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "9",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.16093, -20.210373],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Airfield will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_coop64_mecmain",
+        "class": "ControlPoint",
+        "name_object": "MEC Airfield",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "10",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "150.0",
+        "ttlc": "150.0"
       }
     }
   ]

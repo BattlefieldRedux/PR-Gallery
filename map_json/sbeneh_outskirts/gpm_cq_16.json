@@ -1,21 +1,77 @@
 {
+  "team1":"fsa",
+  "team2":"mec",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"480",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_sbeneh_outskirts_aas16_fsa"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_factory"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_apartments",
+        "cpname_sbeneh_outskirts_aas16_apartments2"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_suburbs",
+        "cpname_sbeneh_outskirts_aas16_north_market"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_outskirts"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_saf"
+      ]
+    ],
+    [
+      [
+        "cpname_sbeneh_outskirts_aas16_fsa"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_factory"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_apartments3",
+        "cpname_sbeneh_outskirts_aas16_t62_wreak"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_gas_station",
+        "cpname_sbeneh_outskirts_aas16_compound"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_residential"
+      ],
+      [
+        "cpname_sbeneh_outskirts_aas16_saf"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.67151, -88.11537]
+        "coordinates": [185.67151, -88.11537],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_mec will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_vd",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_mec",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_mec",
@@ -29,7 +85,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.02075, -92.35625]
+        "coordinates": [186.02075, -92.35625],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -38,7 +95,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_ammo",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -53,7 +110,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.57812, -92.356995]
+        "coordinates": [186.57812, -92.356995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -62,7 +120,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_ammo_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -77,7 +135,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.1855, -88.268875]
+        "coordinates": [187.1855, -88.268875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -86,7 +145,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_ammo_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -101,7 +160,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.62799, -88.26825]
+        "coordinates": [186.62799, -88.26825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -110,7 +170,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_ammo_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -125,7 +185,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.15912, -92.373]
+        "coordinates": [187.15912, -92.373],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -134,7 +195,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -149,7 +210,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.71649, -92.37375]
+        "coordinates": [187.71649, -92.37375],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -158,7 +220,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_logi_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
@@ -173,7 +235,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.69537, -89.711624]
+        "coordinates": [187.69537, -89.711624],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -182,7 +245,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_brdm",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "2",
         "obj1": "null",
@@ -197,7 +260,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.69612, -89.15413]
+        "coordinates": [187.69612, -89.15413],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scout_light.png",
@@ -206,7 +270,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_brdm_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BRDM-2",
         "team": "2",
         "obj1": "null",
@@ -221,7 +285,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [185.67012, -88.43425]
+        "coordinates": [185.67012, -88.43425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -230,7 +295,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_t72",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "2",
         "obj1": "null",
@@ -245,7 +310,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.29025, -94.750374]
+        "coordinates": [183.29025, -94.750374],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -254,7 +320,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_ammo_3",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -269,7 +335,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [183.84763, -94.75113]
+        "coordinates": [183.84763, -94.75113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -278,7 +345,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_ammo_4",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
@@ -293,17 +360,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.52576, -62.685875]
+        "coordinates": [129.52576, -62.685875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_fsa_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_outskirts_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_fsa_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_fsa_placeable",
         "obj2": "null",
@@ -317,7 +385,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.67137, -16.224503]
+        "coordinates": [37.67137, -16.224503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -326,7 +395,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_mg",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical_blue",
@@ -341,7 +410,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.592125, -16.74775]
+        "coordinates": [37.592125, -16.74775],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -350,7 +420,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_mg_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -365,7 +435,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.653748, -15.648003]
+        "coordinates": [37.653748, -15.648003],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -374,7 +445,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_mg_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M2HB Technical",
         "team": "1",
         "obj1": "civ_jep_technical_red",
@@ -389,7 +460,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.73925, -14.236122]
+        "coordinates": [38.73925, -14.236122],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_civicar.png",
@@ -398,7 +470,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_bomb",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Car",
         "team": "1",
         "obj1": "civ_jep_car_blue",
@@ -413,7 +485,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.392128, -15.038872]
+        "coordinates": [39.392128, -15.038872],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
@@ -422,7 +495,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_bomb_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "T-62",
         "team": "1",
         "obj1": "fsa_tnk_t62",
@@ -437,7 +510,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.153, -14.212753]
+        "coordinates": [38.153, -14.212753],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -446,7 +520,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_spg",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "1",
         "obj1": "civ_atm_technical",
@@ -461,7 +535,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.319252, -21.575127]
+        "coordinates": [41.319252, -21.575127],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -470,7 +545,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_support",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Logistics Van",
         "team": "1",
         "obj1": "fsa_jep_zastava900ak_logistics",
@@ -485,7 +560,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.3395, -21.029503]
+        "coordinates": [41.3395, -21.029503],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -494,7 +570,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_support_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Logistics Van",
         "team": "1",
         "obj1": "fsa_jep_zastava900ak_logistics",
@@ -509,7 +585,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.330124, -20.462372]
+        "coordinates": [41.330124, -20.462372],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -518,7 +595,7 @@
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_support_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Civilian Logistics Van",
         "team": "1",
         "obj1": "fsa_jep_zastava900ak_logistics",
@@ -533,17 +610,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.100372, -24.418747]
+        "coordinates": [37.100372, -24.418747],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_fsa will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_vd",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_fsa",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_fsa",
         "obj2": "null",
@@ -557,17 +635,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [182.1675, -90.750626]
+        "coordinates": [182.1675, -90.750626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about mec_acv_btr60pu will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_saf_command",
-        "class": "ObjectPlacement",
-        "name_object": "mec_acv_btr60pu",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "mec_acv_btr60pu",
@@ -581,17 +660,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [108.223495, -107.43475]
+        "coordinates": [108.223495, -107.43475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/player_map/mini_Squad.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about rallypoint_fsa_placeable will be found here!"
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_residential_rally",
-        "class": "ObjectPlacement",
-        "name_object": "rallypoint_fsa_placeable",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
         "team": "1",
         "obj1": "rallypoint_fsa_placeable",
         "obj2": "null",
@@ -605,17 +685,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [33.524124, -27.856125]
+        "coordinates": [33.524124, -27.856125],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/firebase_mini_white.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about deployable_commandpost_meins will be found here!"
+        "popupContent": "Amazing information about Hideout will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_aas16_fsa_command",
-        "class": "ObjectPlacement",
-        "name_object": "deployable_commandpost_meins",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
         "team": "1",
         "obj1": "deployable_commandpost_meins",
         "obj2": "null",
@@ -623,6 +704,357 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.18437, -90.30513],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Mainbase will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_saf",
+        "class": "ControlPoint",
+        "name_object": "MEC Mainbase",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "601",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.53613, -62.5625],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outskirts 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_outskirts",
+        "class": "ControlPoint",
+        "name_object": "Outskirts 50m",
+        "team": "1",
+        "areavalue1": "101.0",
+        "areavalue2": "0.0",
+        "cpid": "603",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.87788, -44.811874],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs 45m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs 45m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "605",
+        "sgid": "421",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.09262, -60.474],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Market 35m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_north_market",
+        "class": "ControlPoint",
+        "name_object": "North Market 35m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "606",
+        "sgid": "421",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.863625, -76.872],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 45m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_apartments",
+        "class": "ControlPoint",
+        "name_object": "Apartments 45m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "607",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.5815, -57.60225],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_apartments2",
+        "class": "ControlPoint",
+        "name_object": "Apartments 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "608",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.10137, -59.686127],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Factory 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_factory",
+        "class": "ControlPoint",
+        "name_object": "Factory 70m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "101.0",
+        "cpid": "609",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.086624, -24.247002],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Rebel Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_fsa",
+        "class": "ControlPoint",
+        "name_object": "Rebel Outpost",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "610",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.253624, -102.1805],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Residential 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_residential",
+        "class": "ControlPoint",
+        "name_object": "Residential 75m",
+        "team": "1",
+        "areavalue1": "101.0",
+        "areavalue2": "0.0",
+        "cpid": "602",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.09325, -98.99625],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Gas Station 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_gas_station",
+        "class": "ControlPoint",
+        "name_object": "Gas Station 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "604",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.99037, -119.76925],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Compound 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_compound",
+        "class": "ControlPoint",
+        "name_object": "Compound 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "611",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.225624, -76.058876],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_apartments3",
+        "class": "ControlPoint",
+        "name_object": "Apartments 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "612",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.73512, -70.49375],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/fsa/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tank Wreck 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_aas16_t62_wreak",
+        "class": "ControlPoint",
+        "name_object": "Tank Wreck 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "613",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]

@@ -1,21 +1,51 @@
 {
+  "team1":"ru",
+  "team2":"gb",
+  "team1tickets":"400",
+  "team2tickets":"400",
+  "mapsize":"4096",
+  "viewdistance":"800",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_vadso_city_coop32_depot"
+      ],
+      [
+        "cpname_vadso_city_coop32_eastvadso"
+      ],
+      [
+        "cpname_vadso_city_coop32_condos",
+        "cpname_vadso_city_coop32_apartment"
+      ],
+      [
+        "cpname_vadso_city_coop32_seaside"
+      ],
+      [
+        "cpname_vadso_city_coop32_substation"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [112.9445, -134.89957]
+        "coordinates": [112.9445, -134.89957],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_gb will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_substation_cpname_vadso_city_coop32_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_gb",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_gb",
@@ -29,7 +59,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.16775, -141.34425]
+        "coordinates": [114.16775, -141.34425],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
@@ -38,7 +69,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_substation_armour",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
@@ -53,7 +84,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [113.91631, -134.06706]
+        "coordinates": [113.91631, -134.06706],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -62,7 +94,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_substation_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
@@ -77,7 +109,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [115.770874, -137.20137]
+        "coordinates": [115.770874, -137.20137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -86,7 +119,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_substation_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -101,7 +134,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [115.37944, -136.72626]
+        "coordinates": [115.37944, -136.72626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -110,7 +144,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_substation_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
@@ -125,17 +159,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.87018, -157.88475]
+        "coordinates": [180.87018, -157.88475],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_ru will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_depot_cpname_vadso_city_coop32_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_ru",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot_ru",
         "obj2": "null",
@@ -149,7 +184,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [178.36382, -157.25137]
+        "coordinates": [178.36382, -157.25137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
@@ -158,7 +194,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_depot_bmp",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "BMP-2",
         "team": "1",
         "obj1": "ru_ifv_bmp2",
@@ -173,7 +209,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [179.14044, -156.34712]
+        "coordinates": [179.14044, -156.34712],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -182,7 +219,7 @@
       },
       "bf2props": {
         "name": "cpname_vadso_city_coop32_depot_logi",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Ural-4320 Logistics",
         "team": "1",
         "obj1": "ru_trk_logistics",
@@ -191,6 +228,168 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.061, -156.10312],
+        "size": [33, 33],
+        "radius": "1.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Freight Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop32_depot",
+        "class": "ControlPoint",
+        "name_object": "Freight Depot",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [167.07443, -154.35062],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hilltop Apartments 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop32_eastvadso",
+        "class": "ControlPoint",
+        "name_object": "Hilltop Apartments 60m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.24112, -137.44344],
+        "size": [33, 33],
+        "radius": "3.125"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Harbourside Housing 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop32_condos",
+        "class": "ControlPoint",
+        "name_object": "Harbourside Housing 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.44025, -153.13806],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Vadso City 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop32_apartment",
+        "class": "ControlPoint",
+        "name_object": "East Vadso City 40m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.23232, -141.05931],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Seaside Apartments 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop32_seaside",
+        "class": "ControlPoint",
+        "name_object": "Seaside Apartments 60m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "5",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.363625, -145.74],
+        "size": [33, 33],
+        "radius": "2.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Electrical Substation will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_coop32_substation",
+        "class": "ControlPoint",
+        "name_object": "Electrical Substation",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "60.0"
       }
     }
   ]

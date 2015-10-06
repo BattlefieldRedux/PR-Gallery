@@ -1,11 +1,40 @@
 {
+  "team1":"meinsurgent",
+  "team2":"gb",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"525",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_albasrah_skirmish16_village"
+      ],
+      [
+        "cpname_albasrah_skirmish16_facility"
+      ],
+      [
+        "cpname_albasrah_skirmish16_mosque"
+      ],
+      [
+        "cpname_albasrah_skirmish16_construction"
+      ],
+      [
+        "cpname_albasrah_skirmish16_docks"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [187.08087, -152.19212]
+        "coordinates": [187.08087, -152.19212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +43,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_skirmish16_depot",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +58,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.81912, -167.03825]
+        "coordinates": [159.81912, -167.03825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +68,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_skirmish16_crate_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -53,7 +83,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.2345, -178.01038]
+        "coordinates": [139.2345, -178.01038],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -62,7 +93,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_skirmish16_crate_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -77,7 +108,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [117.40388, -163.62163]
+        "coordinates": [117.40388, -163.62163],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -86,7 +118,7 @@
       },
       "bf2props": {
         "name": "cpname_albasrah_skirmish16_crate_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -95,6 +127,141 @@
         "minspawn": "60.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.61325, -180.32162],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_skirmish16_construction",
+        "class": "ControlPoint",
+        "name_object": "Construction Site",
+        "team": "0",
+        "areavalue1": "1000.0",
+        "areavalue2": "0.0",
+        "cpid": "601",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [159.41713, -169.18425],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mosque Entrance will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_skirmish16_mosque",
+        "class": "ControlPoint",
+        "name_object": "Mosque Entrance",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "602",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.251, -175.60538],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Facility will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_skirmish16_facility",
+        "class": "ControlPoint",
+        "name_object": "Facility",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "603",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.81587, -153.4275],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Docks will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_skirmish16_docks",
+        "class": "ControlPoint",
+        "name_object": "Docks",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "604",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.0715, -164.69725],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_skirmish16_village",
+        "class": "ControlPoint",
+        "name_object": "Village",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "605",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]

@@ -1,11 +1,42 @@
 {
+  "team1":"meinsurgent",
+  "team2":"usa",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_karbala_coop32_insmain"
+      ],
+      [
+        "cpname_karbala_coop32_village",
+        "cpname_karbala_coop32_warehouse",
+        "cpname_karbala_coop32_southcity",
+        "cpname_karbala_coop32_hotel",
+        "cpname_karbala_coop32_citycenter",
+        "cpname_karbala_coop32_villagetwo",
+        "cpname_karbala_coop32_suburbs",
+        "cpname_karbala_coop32_junkyard",
+        "cpname_karbala_coop32_outskirts"
+      ],
+      [
+        "cpname_karbala_coop32_fob"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.90326, -16.697876]
+        "coordinates": [226.90326, -16.697876],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scouthelo.png",
@@ -14,7 +45,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_mh9",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MH-6 Littlebird",
         "team": "2",
         "obj1": "null",
@@ -29,7 +60,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [226.90326, -13.620628]
+        "coordinates": [226.90326, -13.620628],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_scouthelo.png",
@@ -38,7 +70,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_mh6",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "MH-6 Littlebird",
         "team": "2",
         "obj1": "null",
@@ -53,7 +85,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.3645, -15.382874]
+        "coordinates": [235.3645, -15.382874],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -62,7 +95,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_apc",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1126 Stryker ICV",
         "team": "2",
         "obj1": "null",
@@ -77,7 +110,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.37338, -18.384499]
+        "coordinates": [235.37338, -18.384499],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -86,7 +120,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_apc_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -101,7 +135,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.38675, -16.097252]
+        "coordinates": [235.38675, -16.097252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
@@ -110,7 +145,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_apc_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1126 Stryker ICV",
         "team": "2",
         "obj1": "null",
@@ -125,17 +160,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.66675, -10.123749]
+        "coordinates": [234.66675, -10.123749],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot_us will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot_us",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
         "obj2": "vehicle_depot_us",
@@ -149,17 +185,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [220.25037, -198.87137]
+        "coordinates": [220.25037, -198.87137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/repairdepot.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about vehicle_depot will be found here!"
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_insmain_depot",
-        "class": "ObjectPlacement",
-        "name_object": "vehicle_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
         "team": "1",
         "obj1": "vehicle_depot",
         "obj2": "null",
@@ -173,7 +210,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.41862, -202.69424]
+        "coordinates": [213.41862, -202.69424],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -182,7 +220,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_insmain_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -197,7 +235,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.02689, -202.01562]
+        "coordinates": [213.02689, -202.01562],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
@@ -206,7 +245,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_insmain_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "SPG-9 Technical",
         "team": "1",
         "obj1": "civ_atm_technical",
@@ -221,7 +260,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.2265, -202.36137]
+        "coordinates": [213.2265, -202.36137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -230,7 +270,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_insmain_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -245,7 +285,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [214.25963, -204.51212]
+        "coordinates": [214.25963, -204.51212],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_bombtruck.png",
@@ -254,7 +295,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_insmain_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "Suicide Dump Truck",
         "team": "1",
         "obj1": "civ_trk_dumpster_bomber",
@@ -269,7 +310,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.32837, -14.378754]
+        "coordinates": [235.32837, -14.378754],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -278,7 +320,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_jeep",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -293,7 +335,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.24275, -13.1916275]
+        "coordinates": [235.24275, -13.1916275],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -302,7 +345,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_jeep_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -317,7 +360,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.26888, -13.603752]
+        "coordinates": [235.26888, -13.603752],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -326,7 +370,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_jeep_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -341,7 +385,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.293, -13.982002]
+        "coordinates": [235.293, -13.982002],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -350,7 +395,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_jeep_2",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -365,7 +410,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.37338, -17.084122]
+        "coordinates": [235.37338, -17.084122],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
@@ -374,7 +420,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_truck",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
@@ -389,7 +435,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.37338, -17.541626]
+        "coordinates": [235.37338, -17.541626],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -398,7 +445,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_truck_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -413,7 +460,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.37338, -17.98825]
+        "coordinates": [235.37338, -17.98825],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
@@ -422,7 +470,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_truck_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
@@ -437,17 +485,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [234.71025, -8.157623]
+        "coordinates": [234.71025, -8.157623],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/UAVtrailer.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about us_acv_stryker will be found here!"
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_acv",
-        "class": "ObjectPlacement",
-        "name_object": "us_acv_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
         "obj2": "us_acv_stryker",
@@ -461,7 +510,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.66287, -122.130875]
+        "coordinates": [79.66287, -122.130875],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -470,7 +520,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_suburbs_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -485,7 +535,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.937874, -121.512]
+        "coordinates": [106.937874, -121.512],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -494,7 +545,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_suburbs_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -509,7 +560,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.05688, -119.213]
+        "coordinates": [97.05688, -119.213],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -518,7 +570,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_suburbs_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -533,7 +585,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [129.65688, -110.21638]
+        "coordinates": [129.65688, -110.21638],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -542,7 +595,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_citycenter_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -557,7 +610,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.1645, -127.2055]
+        "coordinates": [118.1645, -127.2055],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -566,7 +620,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_citycenter_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -581,7 +635,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.55438, -138.9995]
+        "coordinates": [135.55438, -138.9995],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -590,7 +645,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_outskirts_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -605,7 +660,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [200.88213, -164.06387]
+        "coordinates": [200.88213, -164.06387],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -614,7 +670,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_hotel_tehie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -629,7 +685,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [218.63362, -153.606]
+        "coordinates": [218.63362, -153.606],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -638,7 +695,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_hotel_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -653,7 +710,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [186.22713, -103.80063]
+        "coordinates": [186.22713, -103.80063],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -662,7 +720,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_junkyard_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -677,7 +735,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.66824, -104.509]
+        "coordinates": [196.66824, -104.509],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -686,7 +745,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_junkyard_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -701,7 +760,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.03563, -199.7255]
+        "coordinates": [180.03563, -199.7255],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -710,7 +770,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_southcity_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -725,7 +785,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.28337, -211.20526]
+        "coordinates": [150.28337, -211.20526],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -734,7 +795,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_southcity_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -749,7 +810,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.82213, -146.70862]
+        "coordinates": [56.82213, -146.70862],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -758,7 +820,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_warehouse_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -773,7 +835,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.168, -165.53137]
+        "coordinates": [58.168, -165.53137],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -782,7 +845,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_warehouse_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -797,7 +860,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.04825, -160.91824]
+        "coordinates": [45.04825, -160.91824],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -806,7 +870,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_warehouse_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShKM Technical",
         "team": "1",
         "obj1": "civ_jep_technical2",
@@ -821,7 +885,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.13362, -217.95113]
+        "coordinates": [46.13362, -217.95113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -830,7 +895,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_village_techie",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -845,7 +910,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.362373, -229.33499]
+        "coordinates": [58.362373, -229.33499],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -854,7 +920,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_village_techie_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -869,7 +935,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [62.774376, -207.92224]
+        "coordinates": [62.774376, -207.92224],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
@@ -878,7 +945,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_village_techie_1",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "DShkM Technical",
         "team": "1",
         "obj1": "civ_jep_technical",
@@ -893,7 +960,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.67438, -11.560127]
+        "coordinates": [235.67438, -11.560127],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -902,7 +970,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_car",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -917,7 +985,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [235.70238, -11.999252]
+        "coordinates": [235.70238, -11.999252],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
@@ -926,7 +995,7 @@
       },
       "bf2props": {
         "name": "cpname_karbala_coop32_fob_car_0",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
@@ -935,6 +1004,303 @@
         "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.02649, -14.222122],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_fob",
+        "class": "ControlPoint",
+        "name_object": "US Operations Base",
+        "team": "2",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "1",
+        "sgid": "3",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.908997, -210.35013],
+        "size": [33, 33],
+        "radius": "8.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Village 70m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_village",
+        "class": "ControlPoint",
+        "name_object": "South Village 70m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "2",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.01087, -156.75175],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Warehouse 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_warehouse",
+        "class": "ControlPoint",
+        "name_object": "Warehouse 80m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.52263, -205.86337],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Outskirts 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_southcity",
+        "class": "ControlPoint",
+        "name_object": "Outskirts 100m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.14262, -155.2115],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hotel 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_hotel",
+        "class": "ControlPoint",
+        "name_object": "Hotel 80m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.768, -117.8275],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Center 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_citycenter",
+        "class": "ControlPoint",
+        "name_object": "City Center 60m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.559128, -86.30975],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_villagetwo",
+        "class": "ControlPoint",
+        "name_object": "East Village 60m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.80975, -122.30488],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Suburbs 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_suburbs",
+        "class": "ControlPoint",
+        "name_object": "Suburbs 40m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "8",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.625, -109.56688],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Junkyard 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_junkyard",
+        "class": "ControlPoint",
+        "name_object": "Junkyard 60m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "9",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.93213, -150.79037],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Residencies 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_outskirts",
+        "class": "ControlPoint",
+        "name_object": "Residencies 60m",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "10",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [218.107, -202.50388],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Insurgent Hideout will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_karbala_coop32_insmain",
+        "class": "ControlPoint",
+        "name_object": "Insurgent Hideout",
+        "team": "1",
+        "areavalue1": "15.0",
+        "areavalue2": "99999.0",
+        "cpid": "11",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "30.0",
+        "ttlc": "30.0"
       }
     }
   ]

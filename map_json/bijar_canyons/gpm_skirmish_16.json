@@ -1,11 +1,40 @@
 {
+  "team1":"mec",
+  "team2":"idf",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"4096",
+  "viewdistance":"1300",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_bijar_canyons_skirmish16_mecmain"
+      ],
+      [
+        "cpname_bijar_canyons_skirmish16_bijar5"
+      ],
+      [
+        "cpname_bijar_canyons_skirmish16_bijar7"
+      ],
+      [
+        "cpname_bijar_canyons_skirmish16_bijar6"
+      ],
+      [
+        "cpname_bijar_canyons_skirmish16_idfmain"
+      ]
+    ]
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.2515, -208.89113]
+        "coordinates": [169.2515, -208.89113],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -14,7 +43,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_skirmish16_bridge_sup",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
         "obj1": "fixed_supply_crate",
@@ -29,7 +58,8 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [216.95375, -196.903]
+        "coordinates": [216.95375, -196.903],
+        "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/mini_map/icon_supply.png",
@@ -38,7 +68,7 @@
       },
       "bf2props": {
         "name": "cpname_bijar_canyons_skirmish16_construction_sup",
-        "class": "ObjectPlacement",
+        "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
         "obj1": "fixed_supply_crate",
@@ -47,6 +77,141 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [217.51169, -194.56438],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_skirmish16_mecmain",
+        "class": "ControlPoint",
+        "name_object": "MEC Deployment",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "501",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.85544, -209.58038],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_skirmish16_idfmain",
+        "class": "ControlPoint",
+        "name_object": "IDF Deployment",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "502",
+        "sgid": "5",
+        "uncap": "true",
+        "ttgc": "60.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [210.42244, -209.13087],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Bijar 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_skirmish16_bijar5",
+        "class": "ControlPoint",
+        "name_object": "East Bijar 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "200.0",
+        "cpid": "506",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [183.61694, -215.03712],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West Bijar 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_skirmish16_bijar6",
+        "class": "ControlPoint",
+        "name_object": "West Bijar 100m",
+        "team": "0",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "507",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [198.85619, -220.62563],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Centre 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_bijar_canyons_skirmish16_bijar7",
+        "class": "ControlPoint",
+        "name_object": "City Centre 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "508",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
       }
     }
   ]
