@@ -7,7 +7,7 @@
  */
 
 $(window).ready(function() {
-	$('#SubTitle').html('MapGallery');
+	$('#SubTitle-title').html('MapGallery');
 
 	$.getJSON("map_json/maplist.json", function(metaMap) {
 		$("#Container").append('<div id="Map-Tiles"></div>');
@@ -34,20 +34,93 @@ $(window).ready(function() {
 	}).fail(function(metaMap, textStatus, error) {
 		console.error("getJSON failed, status: " + textStatus + ", error: " + error);
 	});
-});
 
-/* ======================================================================================
- * ============================           TILES      =================================
- * ======================================================================================
- */
+	/* ======================================================================================
+	 * ======================           GameMode Selection      =============================
+	 * ======================================================================================
+	 */
 
-/* ======================================================================================
- * =========================           On Map Click      ================================
- * ======================================================================================
- */
+	$('#SubTitle').hover(function() {
+		if (!$('#SubTitle').hasClass('gmselector'))
+			return;
+		if ($('#SubTitle.gmselector').hasClass('expanded')) {
+			$('#SubTitle.gmselector').removeClass('expanded');
+			$('#SubTitle.gmselector .gmselection').addClass('hide');
+			$('#SubTitle.gmselector .gmselection').off('click');
 
-$(window).ready(function() {
+		} else {
+			$('#SubTitle.gmselector').addClass('expanded');
+			$('#SubTitle.gmselector .gmselection').removeClass('hide');
 
+			$('#SubTitle.gmselector .gmselection').click(function(event) {
+				if ($(event.target).hasClass('open')) {
+				} else {
+					$('#SubTitle.gmselector .gmselection.open').removeClass('open');
+					$(event.target).addClass('open');
+					loadGM(GMLIST[$(event.target).attr('data-index')]);
+				}
+
+			});
+		}
+	});
+
+	$('#AAS-button').hover(function() {
+		if ($('#AAS-button').hasClass('expanded')) {
+			$('#AAS-button').removeClass('expanded');
+			$('#AAS-button-list').addClass('hide');
+			$('#AAS-button-list .AASselection').off('click');
+
+		} else {
+			$('#AAS-button').addClass('expanded');
+			$('#AAS-button-list').removeClass('hide');
+
+			$('#AAS-button-list .AASselection').click(function(event) {
+				if ($(event.target).hasClass('open')) {
+					$(event.target).removeClass('open');
+				} else {
+					$(event.target).addClass('open');
+				}
+
+				var selectedroutes = $('#AAS-button-list .AASselection.open');
+				var routeindexes = [];
+				for ( i = 0; i < selectedroutes.length; i++) {
+					routeindexes.push($(selectedroutes[i]).data('index'));
+				}
+				LAYER_ROUTES.clearLayers();
+				LAYER_FLAGS.clearLayers();
+				for ( i = 0; i < GMROUTES.length; i++) {
+					if (routeindexes.indexOf(i) > -1 || routeindexes.length == 0) {
+						LAYER_ROUTES.addLayer(GMROUTES[i]);
+					}
+				}
+
+				var flagindexes = [];
+				for ( i = 0; i < CURRENTGM.flags.length; i++) {
+					for ( j = 0; j < CURRENTGM.routes.length; j++) {
+						if (routeindexes.indexOf(j) > -1 || routeindexes.length == 0) {
+
+							for ( k = 0; k < CURRENTGM.routes[j].length; k++) {
+								for ( l = 0; l < CURRENTGM.routes[j][k].length; l++) {
+									if (CURRENTGM.flags[i].data.code == CURRENTGM.routes[j][k][l] || routeindexes.length == 0) {
+										if (flagindexes.indexOf(i) == -1) {
+											flagindexes.push(i);
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				for ( i = 0; i < flagindexes.length; i++) {
+					LAYER_FLAGS.addLayer(CURRENTGM.flags[flagindexes[i]]);
+				}
+			});
+		}
+	});
+	/* ======================================================================================
+	 * =========================           On Map Click      ================================
+	 * ======================================================================================
+	 */
 	$('#Container').on('click', '.tile-container', function(event) {
 
 		var layouts = [];
@@ -56,7 +129,7 @@ $(window).ready(function() {
 
 		var mapname = element.data('name');
 		$('#Title').html(mapname);
-		$('#SubTitle').html("Choose a gamemode");
+		$('#SubTitle').addClass('gmselector');
 
 		$('#Search').addClass('hide');
 		$('html,body').scrollTop(0);
@@ -74,24 +147,22 @@ $(window).ready(function() {
 		$('#RightPane').addClass('open');
 		$('#PRContainer').removeClass('hide');
 		$('#Assets-button').removeClass('hide');
+		$('#GM-button').removeClass('hide');
 		$('#Assets-button').addClass('open');
 		$('.leaflet-control-layers.GM-button.hide').removeClass('hide');
 		loadMap(mapcode);
-		map._onResize();
+		MAP._onResize();
 	});
-});
 
-/* ======================================================================================
- * ======================           Back Button      =======================
- * ======================================================================================
- */
-
-$(window).ready(function() {
+	/* ======================================================================================
+	 * ======================           Back Button      =======================
+	 * ======================================================================================
+	 */
 
 	$('#Map-button').on('click', function() {
-		closeFABs();
 		$('#Title').html("Project Reality");
-		$('#SubTitle').html('MapGallery');
+		$('#SubTitle-title').html('MapGallery');
+		$('#SubTitle').removeClass('gmselector');
 		$('#map').addClass('hide');
 		$('#Map-button').addClass('hide');
 		$('#MiddleHeader').addClass('hide');
@@ -104,108 +175,18 @@ $(window).ready(function() {
 		$('#Search').removeClass('hide');
 		$("#Search>input").focus();
 		$('#Assets-button').addClass('hide');
+		$('#GM-button').addClass('hide');
+		$('#AAS-button').addClass('hide');
 		$('.leaflet-control-layers.GM-button').addClass('hide');
 		document.getElementById('output').innerHTML = "";
 		document.getElementById('RPane-content').innerHTML = "";
 	});
-});
 
-/* ======================================================================================
- * ============================           LAYOUTS      =================================
- * ======================================================================================
- */
+	/* ======================================================================================
+	 * =========================             Search          ================================
+	 * ======================================================================================
+	 */
 
-$(window).ready(function() {
-
-	$('#Fab-Anchor').on('click', 'li', function() {
-		closeFABs();
-		$(this).siblings('li').removeClass('selected');
-		$(this).addClass('selected');
-
-		buildLayout(parseInt($(this).attr('data')), parseInt($(this).prevAll('li').length));
-
-	});
-});
-
-/* ======================================================================================
- * =========================           buildLayout      ================================
- * ======================================================================================
- */
-
-function buildLayout(layout) {
-	var map = ASSETS_JSON[layout];
-
-	$('#Title').html(map.FriendlyMapName + " (" + map.MapSize + " Km)");
-	$('#SubTitle').html(dictionary(map.GameMode) + ' ' + dictionary(map.Layer));
-
-	// $('#MapOverview').css('background-image', "url(img/maps/"+map.MapName+"/mapOverview_"+map.GameMode+"_"+map.Layer+".png)");
-
-	$('.assets.teamA').html('');
-	//RESET
-	$('.assets.teamB').html('');
-	//RESET
-
-	var teamB = "";
-	var teamA = "";
-	var posA = 0;
-	var posB = 0;
-	for (var key in map.Spawners) {
-		var asset = map.Spawners[key];
-
-		if (asset.Team == 2) {
-			teamA += rowAsset(posB++, asset.FriendlyName, asset.Quantity, asset.MaxSpawnDelay, asset.SpawnDelayAtStart, '');
-		} else {
-			teamB += rowAsset(posA++, asset.FriendlyName, asset.Quantity, asset.MaxSpawnDelay, asset.SpawnDelayAtStart, '');
-		}
-	}
-
-	if (teamA == "")
-		teamA += rowEmpty();
-	if (teamB == "")
-		teamB += rowEmpty();
-
-	$('.assets.teamB').append(teamB);
-	$('.assets.teamA').append(teamA);
-
-}
-
-function rowEmpty() {
-	var html = '';
-
-	html += '<div class="empty">No vehicles on this layout.</div>'
-
-	return html;
-}
-
-function rowAsset(index, name, qt, delay, start, img) {
-
-	if (parseInt(delay) > 9999)
-		delay = 'Never';
-	else
-		delay = Math.round((delay / 60)) + 'm';
-
-	var html = '';
-	html += '<div class="asset-row slide-up" style="-webkit-animation-delay: ' + (index * 50) + 'ms; animation-delay:' + (index * 50) + 'ms"> ';
-	//html += '<div class="asset-img" style="background-image: url(img/assets/mini_heavyhelo.png)"></div>'
-	html += '<div class="info">';
-	html += '<div>';
-	html += '<div class="asset-qt">' + qt + 'x</div>';
-	html += '<div class="asset-name">' + name + '</div>';
-	html += '</div><div>';
-	html += '<div class="asset-delay">Spawn Time: ' + delay + '</div>';
-	if (toTitleCase(start + '') == 'True')
-		html += '<div class="asset-start">Delayed</div>';
-	html += '</div></div></div>';
-	return html;
-
-}
-
-/* ======================================================================================
- * =========================             Search          ================================
- * ======================================================================================
- */
-
-$(window).ready(function() {
 	$('#Search input').on('input', function() {
 		filterMapsByName($(this).val());
 	});
@@ -230,3 +211,6 @@ function filterMapsByName(nameToFilter) {
 	});
 }
 
+function updateAASroutes() {
+
+}

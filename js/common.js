@@ -82,10 +82,10 @@ function getFlagURL(str) {
 		return "icons/ui/flags/arf.png";
 	else if (str.search("cf") != -1)
 		return "icons/ui/flags/cf.png";
-	else if (str.search("ch") != -1)
-		return "icons/ui/flags/ch.png";
 	else if (str.search("chinsurgent") != -1)
 		return "icons/ui/flags/chinsurgent.png";
+	else if (str.search("ch") != -1)
+		return "icons/ui/flags/ch.png";
 	else if (str.search("fr") != -1)
 		return "icons/ui/flags/fr.png";
 	else if (str.search("fsa") != -1)
@@ -149,21 +149,6 @@ function AJAX(src, calback) {
 		}
 	});
 }
-
-/* ======================================================================================
- * ==================     PRContainer onFaction Click      ==============================
- * ======================================================================================
- */
-$(window).ready(function() {
-	$('#PRContainer').on('click', '.team-header', function() {
-		$(this).siblings('.team-header').removeClass('selected');
-		$(this).addClass('selected');
-		if ($(this).hasClass("teamA"))
-			$("#Assets-container").find('.asset-pane').css("left", "-0%");
-		else
-			$("#Assets-container").find('.asset-pane').css("left", "-100%");
-	});
-});
 
 /* ======================================================================================
  * ============================           LEFT MENU      =================================
@@ -230,58 +215,6 @@ $(window).ready(function() {
 		}
 	});
 });
-/* ======================================================================================
- * ============================           closeFABs      =================================
- * ======================================================================================
- */
-function closeFABs() {
-	$('#Fab-Shadow').addClass('hide');
-	$('.fab').removeClass('open');
-	$("body").removeClass('noScroll');
-	$('#MapOverview').addClass('oHide');
-
-}
-
-/* ======================================================================================
- * ============================           toggleFAB      =================================
- * ======================================================================================
- */
-function toggleFAB(view) {
-	$('.fab').removeClass('open');
-	var mView = $('#' + view);
-	var mShadow = $('#Fab-Shadow');
-	if (mView.hasClass('open')) {
-		mShadow.addClass('hide');
-		mView.removeClass('open');
-
-	} else {
-		$('#MapOverview').addClass('oHide');
-		mShadow.removeClass('hide');
-		mView.addClass('open');
-		$("body").addClass('noScroll');
-
-	}
-}
-
-/* ======================================================================================
- * ========================           TOGGLE Image Overview       =======================
- * ======================================================================================
- */
-
-function toggleMapOverview() {
-	var mView = $('#MapOverview');
-
-	if (mView.hasClass('oHide')) {
-		mView.removeClass('oHide');
-		$('#Fab-Shadow').removeClass('hide');
-		$("body").addClass('noScroll');
-	} else {
-		mView.addClass('oHide');
-		$('#Fab-Shadow').addClass('hide');
-		$("body").removeClass('noScroll');
-	}
-
-}
 
 /**
  * Uses canvas.measureText to compute and return the width of the given text of given font in pixels.

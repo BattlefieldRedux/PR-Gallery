@@ -128,41 +128,7 @@ div#PRContainer {
 	width: 170px;
 	float: left;
 }
-/* ====================================================================
- * ==============            FAB-MENU          ====================
- * ====================================================================
- */
-div#Fab-Layouts:hover {
-	cursor: pointer;
-	bottom: 35px;
-	box-shadow: -1px 5px 5px black;
-}
-div#Fab-Layouts {
-	background-image: url("http://uxrepo.com/static/icon-sets/windows/png32/512/000000/layer-512-000000.png");
-}
-.fab.open#Fab-Layouts {
-	cursor: pointer;
-	bottom: 35px;
-	box-shadow: -1px 5px 5px black;
-	background-image: none;
-}
-div#Fab-Toggle-Overview:hover {
-	cursor: pointer;
-}
-#Fab-Toggle-Overview.open, div#Fab-Toggle-Overview:hover {
-	bottom: 105px;
-	box-shadow: -1px 5px 5px black;
-}
-#Fab-Toggle-Overview img {
-	display: none;
-}
-#Fab-Toggle-Overview.open img {
-	display: initial;
-}
-div#Fab-Toggle-Overview {
-	bottom: 100px;
-	background-image: url("http://uxrepo.com/static/icon-sets/google-material/png32/512/000000/android-crop-original-512-000000.png");
-}
+
 .mapOverview {
 	width: 100%;
 }

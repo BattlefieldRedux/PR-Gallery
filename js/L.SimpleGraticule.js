@@ -58,7 +58,7 @@ L.SimpleGraticule = L.LayerGroup.extend({
 
 		this.clearLayers();
 
-		if (this.options.lineStyle.weight * (map.getZoom() + 2 ) < 1) {
+		if (this.options.lineStyle.weight * (this._map.getZoom() + 2 ) < 1) {
 			return this;
 		}
 		if (!this.options.hidden) {
@@ -80,14 +80,14 @@ L.SimpleGraticule = L.LayerGroup.extend({
 		if (north > 0) {
 			north = 0;
 		};
-		if (map.project(this._bounds.getSouthEast(), map.getMaxZoom()).y > 8192) {
-			south = map.unproject([8192, 8192], map.getMaxZoom()).lat;
+		if (this._map.project(this._bounds.getSouthEast(), this._map.getMaxZoom()).y > 8192) {
+			south = this._map.unproject([8192, 8192], this._map.getMaxZoom()).lat;
 		};
 		if (west < 0) {
 			west = 0;
 		};
-		if (map.project(this._bounds.getSouthEast(), map.getMaxZoom()).x > 8192) {
-			east = map.unproject([8192, 8192], map.getMaxZoom()).lng;
+		if (this._map.project(this._bounds.getSouthEast(), this._map.getMaxZoom()).x > 8192) {
+			east = this._map.unproject([8192, 8192], this._map.getMaxZoom()).lng;
 		};
 
 		var x = Math.ceil((east - west) / this.options.interval);
@@ -147,14 +147,14 @@ L.SimpleGraticule = L.LayerGroup.extend({
 		if (top > 0) {
 			top = 0;
 		};
-		if (map.project(this._bounds.getSouthEast(), map.getMaxZoom()).y > 8192) {
-			bottom = map.unproject([8192, 8192], map.getMaxZoom()).lat;
+		if (this._map.project(this._bounds.getSouthEast(), this._map.getMaxZoom()).y > 8192) {
+			bottom = this._map.unproject([8192, 8192], this._map.getMaxZoom()).lat;
 		};
 		var bottomLL = new L.LatLng(bottom, x);
 		var topLL = new L.LatLng(top, x);
 
 		var style = $.extend({}, this.options.lineStyle);
-		style.weight = style.weight * (map.getZoom() + 1);
+		style.weight = style.weight * (this._map.getZoom() + 1);
 		return new L.Polyline([bottomLL, topLL], style);
 	},
 
@@ -164,14 +164,14 @@ L.SimpleGraticule = L.LayerGroup.extend({
 		if (left < 0) {
 			left = 0;
 		};
-		if (map.project(this._bounds.getSouthEast(), map.getMaxZoom()).x > 8192) {
-			right = map.unproject([8192, 8192], map.getMaxZoom()).lng;
+		if (this._map.project(this._bounds.getSouthEast(), this._map.getMaxZoom()).x > 8192) {
+			right = this._map.unproject([8192, 8192], this._map.getMaxZoom()).lng;
 		};
 		var leftLL = new L.LatLng(y, left);
 		var rightLL = new L.LatLng(y, right);
 
 		var style = $.extend({}, this.options.lineStyle);
-		style.weight = style.weight * (map.getZoom() + 1);
+		style.weight = style.weight * (this._map.getZoom() + 1);
 		return new L.Polyline([leftLL, rightLL], style);
 	},
 
@@ -184,14 +184,14 @@ L.SimpleGraticule = L.LayerGroup.extend({
 		if (north > 0) {
 			north = 0;
 		};
-		if (map.project(bounds.getSouthEast(), map.getMaxZoom()).y > 8192) {
-			south = map.unproject([8192, 8192], map.getMaxZoom()).lat;
+		if (map.project(bounds.getSouthEast(), this._map.getMaxZoom()).y > 8192) {
+			south = map.unproject([8192, 8192], this._map.getMaxZoom()).lat;
 		};
 		if (west < 0) {
 			west = 0;
 		};
-		if (map.project(bounds.getSouthEast(), map.getMaxZoom()).x > 8192) {
-			east = map.unproject([8192, 8192], map.getMaxZoom()).lng;
+		if (this._map.project(bounds.getSouthEast(), this._map.getMaxZoom()).x > 8192) {
+			east = this._map.unproject([8192, 8192], this._map.getMaxZoom()).lng;
 		};
 		var latLng;
 		if (axis == 'gridlabel-horiz') {
@@ -202,10 +202,10 @@ L.SimpleGraticule = L.LayerGroup.extend({
 		};
 		if (axis == 'gridlabel-horiz') {
 			var textwidth = getTextWidth(pick, "bold 15px arial");
-			latLng = new L.LatLng(north, val + 1 / 2 * this.options.interval - textwidth / this.options.interval * map.getZoom());
+			latLng = new L.LatLng(north, val + 1 / 2 * this.options.interval - textwidth / this.options.interval * this._map.getZoom());
 		} else {
 			var textwidth = getTextWidth(pick, "bold 15px arial");
-			latLng = new L.LatLng(val - 1 / 2 * this.options.interval + 15 / (map.getZoom() + 1), west);
+			latLng = new L.LatLng(val - 1 / 2 * this.options.interval + 15 / (this._map.getZoom() + 1), west);
 		}
 
 		return L.marker(latLng, {
