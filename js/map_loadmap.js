@@ -266,7 +266,14 @@ function loadGM(gamemode) {
 						radiusmarker.radius = feature.geometry.radius;
 						flaglayer.addLayer(radiusmarker);
 					}
-					flaglayer.bindPopup("Name: " + flaglayer.data.name + "<br/>Team: " + flaglayer.data.team + "<br/>SupplygroupID: " + flaglayer.data.sgid + "<br/>Value Team 1: " + flaglayer.data.areavalue1 + "<br/>Value Team 2: " + flaglayer.data.areavalue2);
+					var str_popup = "Name: " + flaglayer.data.name;
+					str_popup += "<br/>Team: " + flaglayer.data.team;
+					str_popup += "<br/>ControlPointID: " + flaglayer.data.cpid;
+					str_popup += "<br/>SupplygroupID: " + flaglayer.data.sgid;
+					str_popup += "<br/>Value Team 1: " + flaglayer.data.areavalue1;
+					str_popup += "<br/>Value Team 2: " + flaglayer.data.areavalue2;
+
+					flaglayer.bindPopup(str_popup);
 					CURRENTGM.flags.push(flaglayer);
 
 					return null;
