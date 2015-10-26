@@ -11,7 +11,7 @@
 
         <script src="js/loadxmldoc.js"></script>
         <script src="js/leaflet-src.js"></script>
-        <script src="js/jquery-2.1.0.js"></script>
+        <script src="js/jquery-2.1.4.js"></script>
         <script src="js/common.js"></script>
         <script src="js/gallery.js"></script>
         <script src="js/map_events.js"></script>
@@ -124,6 +124,7 @@
 			var GMROUTES = [];
 			var GMLAYERS = [];
 			var GMNAMES = [];
+			var MAPLOADED = false;
 
 			var MAP = L.map('map', {
 				crs : L.CRS.Simple
@@ -142,8 +143,6 @@
 			var LAYER_FLAGRADIUS = new L.LayerGroup().addTo(MAP);
 
 			var LAYER_MAPTILES = new L.LayerGroup().addTo(MAP);
-
-			//map.on('click', function(e) { alert("Lat, Lon : " + map.project(e.latlng, 7) )});
         </script>
     </body>
 </html>

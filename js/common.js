@@ -9,7 +9,8 @@ var DICTIONARY_SMALL = [
     ["128", "Lrg."]
 ];
 
-var DICTIONARY_LARGE = [["gpm_insurgency", "Insurgency"],
+var DICTIONARY_LARGE = [
+	["gpm_insurgency", "Insurgency"],
     ["gpm_skirmish", "Skirmish"],
     ["gpm_cq", "AAS"],
     ["gpm_cnc", "Cnc"],
@@ -45,6 +46,7 @@ var DICTIONARY_LARGE = [["gpm_insurgency", "Insurgency"],
     ["gb82", "British Armed Forces"],
     ["arf", "African Resistance Fighters"],
     ["fsa", "Syrian Rebels"]
+    
 ];
 //@formatter:on
 
@@ -234,3 +236,77 @@ function getTextWidth(text, font) {
 	return metrics.width;
 };
 
+/**
+ * Handles arguments
+ *
+ * @param {String} map Immediately load a specific map
+ * @param {String} gm Immediately load a specific gamemode (only use this when map is set)
+ * @param [{int}] route Select a specific set of routes
+ */
+function parseArgs() {
+	var args = (function(a) {
+		if (a == "")
+			return {};
+		var b = {};
+		for (var i = 0; i < a.length; ++i) {
+			var p = a[i].split('=', 2);
+			if (p.length == 1)
+				b[p[0]] = "";
+			else
+				b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+		}
+		return b;
+	})(window.location.search.substr(1).split('&'));
+
+	var var_route = [];
+	if (args["map"] != undefined) {
+		loadMap(args["map"].toLowerCase(), false);
+	}
+	if (args["gm"] != undefined) {
+		var gm_name = args["gm"].split("_")[0];
+		var gm_size = args["gm"].split("_")[1];
+		var modename = "";
+		if (gm_name.search("ins") != -1) {
+			modename = "Insurgency";
+		}
+		if (gm_name.search("coop") != -1) {
+			modename = "Coop";
+		}
+		if (gm_name.search("conq") != -1 || gm_name.search("cq") != -1 || gm_name.search("aas") != -1) {
+			modename = "Assault and Secure";
+		}
+		if (gm_name.search("veh") != -1 || gm_name.search("wf") != -1) {
+			modename = "Vehicle Warfare";
+		}
+		if (gm_name.search("com") != -1 || gm_name.search("cnc") != -1) {
+			modename = "Command and Control";
+		}
+		if (gm_name.search("ski") != -1) {
+			modename = "Skirmish";
+		}
+		if (gm_size.search("inf") != -1 || gm_size.search("16") != -1) {
+			modename += " Infantry";
+		}
+		if (gm_size.search("alt") != -1 || gm_size.search("32") != -1) {
+			modename += " Alternative";
+		}
+		if (gm_size.search("std") != -1 || gm_size.search("64") != -1) {
+			modename += " Standard";
+		}
+		if (gm_size.search("lrg") != -1 || gm_size.search("128") != -1) {
+			modename += " Large";
+		}
+		$('.gmselection:contains("' + modename + '")').trigger("click");
+
+	}
+	if (args["route"] != undefined) {
+		var_route = JSON.parse(args["route"]);
+		console.log(var_route);
+		for ( x = 0; x < var_route.length; x++) {
+
+			$('#AAS-button-list .AASselection:contains("' + var_route[x] + '")').trigger("click");
+			console.log(var_route[x]);
+		}
+	}
+
+};

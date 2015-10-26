@@ -1,5 +1,32 @@
-function loadMap(mapname) {
+/**
+ * @param {String} mapname The codename of the map to be loaded
+ * @param {Boolean} asyncmode (Optional) Default: true. Specify if the map should be loaded asynchronously (asyncmode = true) or not. Always prefer asynchronous loading!!!
+ *
+ */
+function loadMap(mapname, asyncmode) {
 	xmlDoc = loadXMLDoc('tiles/' + mapname + '/tilemapresource.xml');
+	if (xmlDoc == null)
+		return;
+
+	if (asyncmode == undefined)
+		asyncmode = true;
+	$('#Title').html(dictionary(mapname));
+	$('#SubTitle').addClass('gmselector');
+
+	$('#Search').addClass('hide');
+	$('html,body').scrollTop(0);
+	$('#Header').removeClass("opaque");
+	$('#Container').addClass('hide');
+	$('#map').removeClass('hide');
+	$('#Map-button').removeClass('hide');
+	$('#RightPane-button').removeClass('hide');
+	$('#RightPane-button').addClass('open');
+	$('#RightPane').addClass('open');
+	$('#PRContainer').removeClass('hide');
+	$('#Assets-button').removeClass('hide');
+	$('#GM-button').removeClass('hide');
+	$('#Assets-button').addClass('open');
+	$('.leaflet-control-layers.GM-button.hide').removeClass('hide');
 
 	x = xmlDoc.getElementsByTagName('BoundingBox');
 
@@ -11,6 +38,7 @@ function loadMap(mapname) {
 	var sw = MAP.unproject([0, mapheight], 4);
 	var ne = MAP.unproject([mapwidth, 0], 4);
 	var bounds = new L.LatLngBounds(sw, ne);
+	console.log(bounds);
 	var mapimage = L.tileLayer('tiles/' + mapname + '/{z}/{x}/{y}.jpg', {
 		minZoom : 0,
 		maxZoom : 5,
@@ -78,9 +106,12 @@ function loadMap(mapname) {
 	MAP.setMaxBounds(bounds);
 	MAP.addLayer(LAYER_MAPTILES);
 
-	$.getJSON("map_json/" + mapname + "/listgm.json", function(d) {
-		var list_gm = d;
-
+	$.ajax({
+		type : 'GET',
+		url : "map_json/" + mapname + "/listgm.json",
+		dataType : 'json',
+		async : asyncmode
+	}).done(function(list_gm) {
 		for ( i = 0; i < list_gm.length; i++) {
 			var modename = "";
 			if (list_gm[i].search("gpm_insurgency") != -1) {
@@ -134,14 +165,22 @@ function loadMap(mapname) {
 		for ( i = 0; i < GMLIST.length; i++) {
 			document.getElementById('SubTitle-list').innerHTML += "<div class='gmselection hide' data-index='" + i + "'>" + GMLIST[i].name + "</div>";
 		}
-		MAP.setView([0, 0], 2);
-		// Reset view
-		MAP._onResize();
-		// Ensure map is "refreshed" even if view doesn't change (updates grid, for example)
+		console.log($('#SubTitle.gmselector .gmselection'));
+		$('#SubTitle.gmselector .gmselection').click(function(event) {
+			if ($(event.target).hasClass('open')) {
+			} else {
+				$('#SubTitle.gmselector .gmselection.open').removeClass('open');
+				$(event.target).addClass('open');
+				loadGM(GMLIST[$(event.target).attr('data-index')]);
+			}
 
+		});
 	}).fail(function(d, textStatus, error) {
 		console.error(d);
 		console.error("getJSON failed, status: " + textStatus + ", error: " + error);
+	}).always(function() {
+		MAP._onResize();
+		MAP.setView([0, 0], 2);
 	});
 };
 
@@ -474,6 +513,48 @@ function loadGM(gamemode) {
 			document.getElementById('RPane-content').innerHTML += stringadd;
 		};
 
+		$('#AAS-button-list .AASselection').off('click');
+		$('#AAS-button-list .AASselection').click(function(event) {
+			if ($(event.target).hasClass('open')) {
+				$(event.target).removeClass('open');
+			} else {
+				$(event.target).addClass('open');
+			}
+
+			var selectedroutes = $('#AAS-button-list .AASselection.open');
+			var routeindexes = [];
+			for ( i = 0; i < selectedroutes.length; i++) {
+				routeindexes.push($(selectedroutes[i]).data('index'));
+			}
+			LAYER_ROUTES.clearLayers();
+			LAYER_FLAGS.clearLayers();
+			for ( i = 0; i < GMROUTES.length; i++) {
+				if (routeindexes.indexOf(i) > -1 || routeindexes.length == 0) {
+					LAYER_ROUTES.addLayer(GMROUTES[i]);
+				}
+			}
+
+			var flagindexes = [];
+			for ( i = 0; i < CURRENTGM.flags.length; i++) {
+				for ( j = 0; j < CURRENTGM.routes.length; j++) {
+					if (routeindexes.indexOf(j) > -1 || routeindexes.length == 0) {
+
+						for ( k = 0; k < CURRENTGM.routes[j].length; k++) {
+							for ( l = 0; l < CURRENTGM.routes[j][k].length; l++) {
+								if (CURRENTGM.flags[i].data.code == CURRENTGM.routes[j][k][l] || routeindexes.length == 0) {
+									if (flagindexes.indexOf(i) == -1) {
+										flagindexes.push(i);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			for ( i = 0; i < flagindexes.length; i++) {
+				LAYER_FLAGS.addLayer(CURRENTGM.flags[flagindexes[i]]);
+			}
+		});
 	}).fail(function(d, textStatus, error) {
 		console.error("getJSON failed, status: " + textStatus + ", error: " + error);
 	});
