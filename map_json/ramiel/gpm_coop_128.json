@@ -1,0 +1,1784 @@
+{
+  "team1":"arf",
+  "team2":"usa",
+  "team1tickets":"800",
+  "team2tickets":"800",
+  "mapsize":"2048",
+  "viewdistance":"500",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_ramiel_coop128_loggingmill"
+      ],
+      [
+        "cpname_ramiel_coop128_mercury",
+        "cpname_ramiel_coop128_eastcity",
+        "cpname_ramiel_coop128_northcity",
+        "cpname_ramiel_coop128_mosque",
+        "cpname_ramiel_coop128_slums",
+        "cpname_ramiel_coop128_downedhawk",
+        "cpname_ramiel_coop128_centercity",
+        "cpname_ramiel_coop128_southcity"
+      ],
+      [
+        "cpname_ramiel_coop128_fob"
+      ],
+      [
+        "cpname_ramiel_coop128_airport"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.047127, -212.78912],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.49238, -211.64426],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about MH-60L Blackhawk will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_apakay",
+        "class": "ObjectSpawner",
+        "name_object": "MH-60L Blackhawk",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh60_soar",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "999999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.612625, -206.9255],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-60.889",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_logi",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.61325, -207.44037],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-60.889",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_logi_0",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.713753, -205.91525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-60.889",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_hmmwv",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.816, -160.19487],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "99.091",
+        "popupContent": "Amazing information about M1A2 Abrams TUSK will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_fob_brudly",
+        "class": "ObjectSpawner",
+        "name_object": "M1A2 Abrams TUSK",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_tnk_m1a2_alt",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.51275, -160.00587],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-71.601",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_fob_hmmwv",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.32, -124.67425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "1.026",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_hmmwv",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.18312, -124.68975],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "1.026",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_hmmwv_0",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.75626, -124.68213],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "1.026",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_hmmwv_1",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.36176, -124.84912],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "1.026",
+        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_stryker",
+        "class": "ObjectSpawner",
+        "name_object": "M1126 Stryker ICV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_stryker",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.85526, -124.85787],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "1.026",
+        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_stryker_0",
+        "class": "ObjectSpawner",
+        "name_object": "M1126 Stryker ICV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_stryker",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.55287, -122.136375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-89.565",
+        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_gmgstryker",
+        "class": "ObjectSpawner",
+        "name_object": "M1126 Stryker ICV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_stryker_mk19",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.08925, -123.82825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-37.678",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_gmg",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.48575, -123.8635],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-37.678",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury_gmg_0",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.654625, -206.40326],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-60.889",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_hmmwv_0",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [59.072, -203.14838],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about OH-58D Kiowa Warrior will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_apache",
+        "class": "ObjectSpawner",
+        "name_object": "OH-58D Kiowa Warrior",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_kiowa_sp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.73525, -159.38737],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-84.395",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_fob_jeep",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.411629, -241.64513],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_arty",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.683624, -241.58237],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_arty_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.932625, -241.56738],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_arty_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.189629, -241.643],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_arty_2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.699127, -215.87662],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_acv_stryker",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.872498, -211.80475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about OH-58D Kiowa Warrior will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_cas",
+        "class": "ObjectSpawner",
+        "name_object": "OH-58D Kiowa Warrior",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_kiowa",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "999999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.1895, -211.80475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about OH-58D Kiowa Warrior will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_cas_0",
+        "class": "ObjectSpawner",
+        "name_object": "OH-58D Kiowa Warrior",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_kiowa_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "999999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.318253, -203.14838],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about OH-58D Kiowa Warrior will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport_kiowa",
+        "class": "ObjectSpawner",
+        "name_object": "OH-58D Kiowa Warrior",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_kiowa_sp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.3335, -19.949753],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_techie",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.3335, -17.970001],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_techie_0",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.3335, -18.457253],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_techie_1",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.3335, -19.451622],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_techie_2",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.30362, -24.632751],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about BRDM-2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_brdm",
+        "class": "ObjectSpawner",
+        "name_object": "BRDM-2",
+        "team": "1",
+        "obj1": "mec_jep_brdm2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.30362, -24.144379],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about BRDM-2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_brdm_0",
+        "class": "ObjectSpawner",
+        "name_object": "BRDM-2",
+        "team": "1",
+        "obj1": "mec_jep_brdm2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.30362, -23.203125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_atv",
+        "class": "ObjectSpawner",
+        "name_object": "9P148 Spandrel",
+        "team": "1",
+        "obj1": "mec_atm_spandrel_bf2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.30362, -22.714752],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_atv_0",
+        "class": "ObjectSpawner",
+        "name_object": "9P148 Spandrel",
+        "team": "1",
+        "obj1": "mec_atm_spandrel_bf2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8595, -16.6875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "179.795",
+        "popupContent": "Amazing information about Ammo Pickup will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_jeep",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Pickup",
+        "team": "1",
+        "obj1": "civ_jep_support_arf",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.56438, -16.688622],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "179.795",
+        "popupContent": "Amazing information about Ammo Pickup will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_jeep_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Pickup",
+        "team": "1",
+        "obj1": "civ_jep_support_arf",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.43988, -16.685623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "179.795",
+        "popupContent": "Amazing information about Civilian Van will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_van",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Van",
+        "team": "1",
+        "obj1": "civ_jep_zastava900ak",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.14474, -16.686623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "179.795",
+        "popupContent": "Amazing information about Civilian Van will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_van_0",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Van",
+        "team": "1",
+        "obj1": "civ_jep_zastava900ak",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.67975, -17.105751],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.11937, -55.7595],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_slums_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.107254, -37.20775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_slums_cache_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.26288, -74.35587],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mosque_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.328125, -111.009125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_southcity_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [64.37912, -96.12825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_southcity_cache_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.2105, -85.793625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_centercity_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.60475, -85.772],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_centercity_cache_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.25687, -69.89638],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_eastcity_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.0995, -84.18887],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_eastcity_cache_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.33925, -45.419373],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_downedhawk_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.91087, -47.97525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_downedhawk_cache_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.7175, -43.23925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_northcity_cache",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.76187, -20.72525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Ammo Cache will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_cache_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ammo Cache",
+        "team": "1",
+        "obj1": "ammocache",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.47087, -16.500252],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.5975, -16.746246],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "arf_acv_technical",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.61575, -49.629623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "145.503",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_slums_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.745125, -48.642998],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "145.503",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_slums_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.72638, -44.0655],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-120.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.49312, -43.128998],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "145.503",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.919502, -208.46313],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Airport will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_airport",
+        "class": "ControlPoint",
+        "name_object": "Airport",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.613, -158.92513],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forward Operations Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_fob",
+        "class": "ControlPoint",
+        "name_object": "Forward Operations Base",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.78062, -122.77712],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Firebase Mercury 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mercury",
+        "class": "ControlPoint",
+        "name_object": "Firebase Mercury 40m",
+        "team": "2",
+        "areavalue1": "20.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.98538, -80.3815],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Golf 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_eastcity",
+        "class": "ControlPoint",
+        "name_object": "Objective Golf 60m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.732254, -60.71675],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Echo 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_northcity",
+        "class": "ControlPoint",
+        "name_object": "Objective Echo 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "5",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.46637, -75.205246],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Bravo 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_mosque",
+        "class": "ControlPoint",
+        "name_object": "Objective Bravo 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.8135, -44.36625],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Delta 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_slums",
+        "class": "ControlPoint",
+        "name_object": "Objective Delta 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "7",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.74875, -46.63138],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Foxtror 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_downedhawk",
+        "class": "ControlPoint",
+        "name_object": "Objective Foxtror 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.7415, -88.8145],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Alpha 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_centercity",
+        "class": "ControlPoint",
+        "name_object": "Objective Alpha 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "9",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.82275, -21.437874],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about ARF Staging Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_loggingmill",
+        "class": "ControlPoint",
+        "name_object": "ARF Staging Area",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "10",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.60775, -105.84937],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/arf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Objective Charlie 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ramiel_coop128_southcity",
+        "class": "ControlPoint",
+        "name_object": "Objective Charlie 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "11",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    }
+  ]
+}

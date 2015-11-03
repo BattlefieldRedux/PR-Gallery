@@ -2,7 +2,7 @@
   "team1":"chinsurgent",
   "team2":"ru",
   "team1tickets":"600",
-  "team2tickets":"610",
+  "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"450",
   "combatareause":"false",
@@ -17,18 +17,13 @@
         "cpname_kozelsk_aas64_launchfacility"
       ],
       [
+        "cpname_kozelsk_aas64_trenches",
         "cpname_kozelsk_aas64_southfacility",
-        "cpname_kozelsk_aas64_trenches"
-      ],
-      [
-        "cpname_kozelsk_aas64_hill03"
-      ],
-      [
-        "cpname_kozelsk_aas64_bridge"
+        "cpname_kozelsk_aas64_northfacility"
       ],
       [
         "cpname_kozelsk_aas64_practicearea",
-        "cpname_kozelsk_aas64_swamp"
+        "cpname_kozelsk_aas64_hill03"
       ],
       [
         "cpname_kozelsk_aas64_tunnels",
@@ -474,20 +469,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "179.201",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_aas64_militiamainbase_3_1",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "9P148 Spandrel",
         "team": "1",
-        "obj1": "mil_trk_support",
+        "obj1": "mec_atm_spandrel",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -524,19 +519,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "179.201",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_aas64_militiamainbase_5_1",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "Ural-4320",
         "team": "1",
-        "obj1": "mil_ifv_bmp1",
+        "obj1": "mil_trk_support",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -670,12 +665,37 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.03925, -133.76213],
+        "coordinates": [192.79263, -190.20801],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_aas64_militiamainbase_1_1",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_chinsurgent_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [189.93738, -193.21225],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-87.951",
+        "iconrotate": "93.24",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
@@ -1025,7 +1045,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
@@ -1075,7 +1095,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_towjeep.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about SPG-9 Technical will be found here!"
       },
       "bf2props": {
@@ -1099,19 +1119,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about T-62 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about BMP-1 will be found here!"
       },
       "bf2props": {
         "name": "militiabrdm",
         "class": "ObjectSpawner",
-        "name_object": "T-62",
+        "name_object": "BMP-1",
         "team": "1",
-        "obj1": "mil_tnk_t62",
+        "obj1": "mil_ifv_bmp1",
         "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1195,6 +1215,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [247.58249, -164.76825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "militiarally",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_chinsurgent_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [106.06575, -12.362373],
         "size": [16, 16]
       },
@@ -1270,49 +1315,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.9035, -246.75638],
+        "coordinates": [117.847, -242.10612],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
-        "iconrotate": "18.153",
+        "iconrotate": "44.103",
         "popupContent": "Amazing information about BMP-3 will be found here!"
       },
       "bf2props": {
-        "name": "bmp3",
+        "name": "bmp3_0",
         "class": "ObjectSpawner",
         "name_object": "BMP-3",
         "team": "2",
         "obj1": "null",
         "obj2": "ru_ifv_bmp3",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.847, -242.10612],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "44.103",
-        "popupContent": "Amazing information about BMP-2 will be found here!"
-      },
-      "bf2props": {
-        "name": "bmp3_0",
-        "class": "ObjectSpawner",
-        "name_object": "BMP-2",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_apc_bmp2",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -1535,9 +1555,9 @@
         "name_object": "Russian Operations Base",
         "team": "2",
         "areavalue1": "0.0",
-        "areavalue2": "90.0",
+        "areavalue2": "0.0",
         "cpid": "1",
-        "sgid": "80",
+        "sgid": "60",
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
@@ -1547,7 +1567,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.79712, -151.66225],
+        "coordinates": [240.96487, -149.25],
         "size": [33, 33],
         "radius": "12.5"
       },
@@ -1564,7 +1584,7 @@
         "areavalue1": "101.0",
         "areavalue2": "0.0",
         "cpid": "3",
-        "sgid": "71",
+        "sgid": "51",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1574,24 +1594,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [82.85812, -77.43887],
+        "coordinates": [82.247375, -77.43887],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Launch Facility 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kozelsk_aas64_launchfacility",
+        "class": "ControlPoint",
+        "name_object": "Launch Facility 150m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "400.0",
+        "cpid": "5",
+        "sgid": "20",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.932625, -133.51462],
         "size": [33, 33],
         "radius": "10.0"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Launch Facility 80m will be found here!"
+        "popupContent": "Amazing information about Trenches 80m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kozelsk_aas64_launchfacility",
+        "name": "cpname_kozelsk_aas64_trenches",
         "class": "ControlPoint",
-        "name_object": "Launch Facility 80m",
+        "name_object": "Trenches 80m",
         "team": "1",
         "areavalue1": "0.0",
-        "areavalue2": "400.0",
-        "cpid": "5",
-        "sgid": "20",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "31",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1618,7 +1665,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "7",
-        "sgid": "61",
+        "sgid": "41",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1628,24 +1675,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [181.923, -188.61838],
+        "coordinates": [181.11113, -186.761],
         "size": [33, 33],
-        "radius": "16.25"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Militia FOB 130m will be found here!"
+        "popupContent": "Amazing information about Militia FOB 150m will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_aas64_hill02",
         "class": "ControlPoint",
-        "name_object": "Militia FOB 130m",
+        "name_object": "Militia FOB 150m",
         "team": "1",
-        "areavalue1": "101.0",
+        "areavalue1": "150.0",
         "areavalue2": "0.0",
         "cpid": "102",
-        "sgid": "71",
+        "sgid": "51",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1655,24 +1702,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.78638, -145.38037],
+        "coordinates": [153.76288, -136.65338],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "13.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Dirt Road 100m will be found here!"
+        "popupContent": "Amazing information about Hill 86 110m will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_aas64_hill03",
         "class": "ControlPoint",
-        "name_object": "Dirt Road 100m",
+        "name_object": "Hill 86 110m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "103",
-        "sgid": "40",
+        "sgid": "41",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1709,19 +1756,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [71.26712, -151.4755],
+        "coordinates": [74.08437, -148.09074],
         "size": [33, 33],
-        "radius": "10.0"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South Facility 80m will be found here!"
+        "popupContent": "Amazing information about South Facility 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_kozelsk_aas64_southfacility",
         "class": "ControlPoint",
-        "name_object": "South Facility 80m",
+        "name_object": "South Facility 100m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -1736,81 +1783,27 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [147.89888, -163.97588],
+        "coordinates": [69.35887, -115.704254],
         "size": [33, 33],
         "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Bridge 100m will be found here!"
+        "popupContent": "Amazing information about North Facility 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kozelsk_aas64_bridge",
+        "name": "cpname_kozelsk_aas64_northfacility",
         "class": "ControlPoint",
-        "name_object": "Bridge 100m",
+        "name_object": "North Facility 100m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "201",
-        "sgid": "50",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [92.929504, -132.48975],
-        "size": [33, 33],
-        "radius": "5.0"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Trenches 40m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kozelsk_aas64_trenches",
-        "class": "ControlPoint",
-        "name_object": "Trenches 40m",
-        "team": "1",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "202",
+        "cpid": "104",
         "sgid": "31",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [216.79337, -113.76],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Swamp 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kozelsk_aas64_swamp",
-        "class": "ControlPoint",
-        "name_object": "Swamp 100m",
-        "team": "1",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "203",
-        "sgid": "61",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
       }
     }
   ]

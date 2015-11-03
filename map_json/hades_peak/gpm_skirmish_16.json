@@ -1,8 +1,8 @@
 {
   "team1":"ru",
-  "team2":"nl",
-  "team1tickets":"150",
-  "team2tickets":"150",
+  "team2":"gb",
+  "team1tickets":"450",
+  "team2tickets":"450",
   "mapsize":"4096",
   "viewdistance":"1025",
   "combatareause":"false",
@@ -11,26 +11,26 @@
   "routes": [
     [
       [
-        "cpname_hades_peak_sk16_ruspawn"
+        "cpname_hades_peak_skirmish16_ruspawn"
       ],
       [
-        "cpname_hades_peak_sk16_house1",
-        "cpname_hades_peak_sk16_house2",
-        "cpname_hades_peak_sk16_house3",
-        "cpname_hades_peak_sk16_house4",
-        "cpname_hades_peak_sk16_house7"
+        "cpname_hades_peak_skirmish16_house1",
+        "cpname_hades_peak_skirmish16_house2",
+        "cpname_hades_peak_skirmish16_house3",
+        "cpname_hades_peak_skirmish16_house4",
+        "cpname_hades_peak_skirmish16_house7"
       ],
       [
-        "cpname_hades_peak_sk16_house5",
-        "cpname_hades_peak_sk16_house8",
-        "cpname_hades_peak_sk16_church",
-        "cpname_hades_peak_sk16_house10",
-        "cpname_hades_peak_sk16_house11",
-        "cpname_hades_peak_sk16_house12",
-        "cpname_hades_peak_sk16_house13"
+        "cpname_hades_peak_skirmish16_house5",
+        "cpname_hades_peak_skirmish16_house8",
+        "cpname_hades_peak_skirmish16_church",
+        "cpname_hades_peak_skirmish16_house10",
+        "cpname_hades_peak_skirmish16_house11",
+        "cpname_hades_peak_skirmish16_house12",
+        "cpname_hades_peak_skirmish16_house13"
       ],
       [
-        "cpname_hades_peak_sk16_gbspawn"
+        "cpname_hades_peak_skirmish16_gbspawn"
       ]
     ]
   ],
@@ -54,7 +54,7 @@
         "name_object": "Permanent spawnpoint",
         "team": "2",
         "obj1": "null",
-        "obj2": "rallypoint_nl_placeable_noexpire",
+        "obj2": "rallypoint_gb_placeable_noexpire",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
@@ -115,6 +115,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [60.813812, -74.63119],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "milrp_6",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ru_placeable_noexpire",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [80.17432, -74.19513],
         "size": [33, 33],
         "radius": "0.75"
@@ -125,7 +150,7 @@
         "popupContent": "Amazing information about House One will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house1",
+        "name": "cpname_hades_peak_skirmish16_house1",
         "class": "ControlPoint",
         "name_object": "House One",
         "team": "0",
@@ -152,7 +177,7 @@
         "popupContent": "Amazing information about House Two will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house2",
+        "name": "cpname_hades_peak_skirmish16_house2",
         "class": "ControlPoint",
         "name_object": "House Two",
         "team": "0",
@@ -179,7 +204,7 @@
         "popupContent": "Amazing information about House Three will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house3",
+        "name": "cpname_hades_peak_skirmish16_house3",
         "class": "ControlPoint",
         "name_object": "House Three",
         "team": "0",
@@ -206,7 +231,7 @@
         "popupContent": "Amazing information about House Four will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house4",
+        "name": "cpname_hades_peak_skirmish16_house4",
         "class": "ControlPoint",
         "name_object": "House Four",
         "team": "0",
@@ -233,7 +258,7 @@
         "popupContent": "Amazing information about House Five will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house5",
+        "name": "cpname_hades_peak_skirmish16_house5",
         "class": "ControlPoint",
         "name_object": "House Five",
         "team": "0",
@@ -260,7 +285,7 @@
         "popupContent": "Amazing information about House Six will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house7",
+        "name": "cpname_hades_peak_skirmish16_house7",
         "class": "ControlPoint",
         "name_object": "House Six",
         "team": "0",
@@ -287,7 +312,7 @@
         "popupContent": "Amazing information about House Seven will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house8",
+        "name": "cpname_hades_peak_skirmish16_house8",
         "class": "ControlPoint",
         "name_object": "House Seven",
         "team": "0",
@@ -314,7 +339,7 @@
         "popupContent": "Amazing information about Church will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_church",
+        "name": "cpname_hades_peak_skirmish16_church",
         "class": "ControlPoint",
         "name_object": "Church",
         "team": "0",
@@ -341,7 +366,7 @@
         "popupContent": "Amazing information about House Eight will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house10",
+        "name": "cpname_hades_peak_skirmish16_house10",
         "class": "ControlPoint",
         "name_object": "House Eight",
         "team": "0",
@@ -368,7 +393,7 @@
         "popupContent": "Amazing information about House Nine will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house11",
+        "name": "cpname_hades_peak_skirmish16_house11",
         "class": "ControlPoint",
         "name_object": "House Nine",
         "team": "0",
@@ -395,7 +420,7 @@
         "popupContent": "Amazing information about House Ten will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house12",
+        "name": "cpname_hades_peak_skirmish16_house12",
         "class": "ControlPoint",
         "name_object": "House Ten",
         "team": "0",
@@ -422,7 +447,7 @@
         "popupContent": "Amazing information about House Eleven will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_house13",
+        "name": "cpname_hades_peak_skirmish16_house13",
         "class": "ControlPoint",
         "name_object": "House Eleven",
         "team": "0",
@@ -444,12 +469,12 @@
         "radius": "0.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/nl/minimap_cpbase.png",
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Bluefor Spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_gbspawn",
+        "name": "cpname_hades_peak_skirmish16_gbspawn",
         "class": "ControlPoint",
         "name_object": "Bluefor Spawn",
         "team": "2",
@@ -476,7 +501,7 @@
         "popupContent": "Amazing information about Opfor Spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_hades_peak_sk16_ruspawn",
+        "name": "cpname_hades_peak_skirmish16_ruspawn",
         "class": "ControlPoint",
         "name_object": "Opfor Spawn",
         "team": "1",

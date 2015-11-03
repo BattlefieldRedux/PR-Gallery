@@ -232,6 +232,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [247.29025, -223.69075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconrotate": "85.009",
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_aas16_militia_mainbase_millita_technical_0",
+        "class": "ObjectSpawner",
+        "name_object": "SPG-9 Technical",
+        "team": "1",
+        "obj1": "civ_atm_technical_militia",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [34.381752, -103.76688],
         "size": [16, 16]
       },
@@ -286,16 +311,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "78.058",
-        "popupContent": "Amazing information about Ammo Pickup will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_dragon_fly_aas16_militia_mainbase_insurgent_apc_0",
         "class": "ObjectSpawner",
-        "name_object": "Ammo Pickup",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "civ_jep_support_militia",
+        "obj1": "civ_jep_technical_militia",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -849,81 +874,6 @@
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [140.30862, -192.67688],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
-        "iconrotate": "-121.0",
-        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_aas16_city2_bipod",
-        "class": "ObjectSpawner",
-        "name_object": "Stationary BIPOD",
-        "team": "1",
-        "obj1": "insrg_bipod",
-        "obj2": "null",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [128.37712, -177.10213],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
-        "iconrotate": "-82.6",
-        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_aas16_city2_bipod_0",
-        "class": "ObjectSpawner",
-        "name_object": "Stationary BIPOD",
-        "team": "1",
-        "obj1": "insrg_bipod",
-        "obj2": "null",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [121.48675, -141.34488],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_aas16_city3_bipod",
-        "class": "ObjectSpawner",
-        "name_object": "Stationary BIPOD",
-        "team": "1",
-        "obj1": "insrg_bipod",
-        "obj2": "null",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }

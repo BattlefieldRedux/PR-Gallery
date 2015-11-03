@@ -151,7 +151,7 @@
         "name_object": "AAVP7A1 RAM/RS",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_apc_aavp7a1",
+        "obj2": "us_apc_aavp7a1_bf2",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -518,14 +518,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
         "iconrotate": "-104.23",
-        "popupContent": "Amazing information about mec_ats_milan will be found here!"
+        "popupContent": "Amazing information about mec_ats_milan_ndl will be found here!"
       },
       "bf2props": {
         "name": "cpname_mc_64_fort_mec_ats",
         "class": "ObjectSpawner",
-        "name_object": "mec_ats_milan",
+        "name_object": "mec_ats_milan_ndl",
         "team": "1",
-        "obj1": "mec_ats_milan",
+        "obj1": "mec_ats_milan_ndl",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -726,7 +726,7 @@
         "name_object": "AAVP7A1 RAM/RS",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_apc_aavp7a1",
+        "obj2": "us_apc_aavp7a1_bf2",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -1156,6 +1156,56 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.218376, -202.735],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-70.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop64_fort_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.9415, -203.29663],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-70.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop64_fort_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {

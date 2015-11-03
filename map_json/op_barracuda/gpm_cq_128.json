@@ -1,0 +1,1480 @@
+{
+  "team1":"ch",
+  "team2":"us",
+  "team1tickets":"1200",
+  "team2tickets":"1200",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_op_barracuda_aas128_missilesilo"
+      ],
+      [
+        "cpname_op_barracuda_aas128_docks",
+        "cpname_op_barracuda_aas128_bridge",
+        "cpname_op_barracuda_aas128_swamp"
+      ],
+      [
+        "cpname_op_barracuda_aas128_supplies",
+        "cpname_op_barracuda_aas128_beachfortification",
+        "cpname_op_barracuda_aas128_northrockfort"
+      ],
+      [
+        "cpname_op_barracuda_aas128_airstrip"
+      ],
+      [
+        "cpname_op_barracuda_aas128_carrier"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.17012, -207.87187],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "1.254",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_lightjeep",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.17275, -174.45563],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "56.068",
+        "popupContent": "Amazing information about zpu4 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_supplies_aascannons",
+        "class": "ObjectSpawner",
+        "name_object": "zpu4",
+        "team": "1",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.79212, -20.382126],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "139.243",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_carrier_ch_usmc_lighttransheli_0",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.76913, -197.12799],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-91.578",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_ch_usmc_suporttruck",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.0205, -139.85625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_1",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [188.09038, -135.67638],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_2",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.1035, -162.36075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_5",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.095505, -177.985],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_docks_rp_6",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.453, -193.17163],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_ch_usmc_smg",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.79651, -189.19063],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [176.85088, -189.18976],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg_0",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [185.7495, -189.21738],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg_1",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.701126, -226.50963],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "rp",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.76324, -197.86337],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-91.578",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "truck_4",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.76512, -198.62187],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-91.578",
+        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "truck_5",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 Logistics",
+        "team": "1",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.72949, -199.21613],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-91.578",
+        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "truck_6",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 Logistics",
+        "team": "1",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.7665, -207.056],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "-6.168",
+        "popupContent": "Amazing information about WZ551 will be found here!"
+      },
+      "bf2props": {
+        "name": "jeep_0",
+        "class": "ObjectSpawner",
+        "name_object": "WZ551",
+        "team": "1",
+        "obj1": "ch_apc_wz551",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [185.39075, -207.24374],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-6.168",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "jeep_1",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [186.10812, -207.07837],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-2.017",
+        "popupContent": "Amazing information about WZ551 will be found here!"
+      },
+      "bf2props": {
+        "name": "jeep_2",
+        "class": "ObjectSpawner",
+        "name_object": "WZ551",
+        "team": "1",
+        "obj1": "ch_apc_wz551a",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.96663, -190.71875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg_2",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.3815, -209.75925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-85.326",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg_3",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [198.52176, -195.442],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg_4",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.463875, -23.25],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "134.736",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "huey",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.208626, -21.827873],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "140.957",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "huey_0",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.043373, -33.75775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
+        "iconrotate": "137.394",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "hueyrocket",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_uh1nrockets",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.3675, -35.136497],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
+        "iconrotate": "137.394",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "hueyrocket_0",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_uh1nrockets",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.115753, -27.473503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/firebase_mini_white.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hideout will be found here!"
+      },
+      "bf2props": {
+        "name": "cp",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "deployable_commandpost_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.74863, -196.87038],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_0",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "ch_acv_wz551",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [204.27899, -215.95775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "87.398",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "mg_8",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-18.501495, 22.178253],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "jdam",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.8145, -196.08899],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ob_64_missilesilo_ch_vehicledeport",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_ch",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.355003, -19.171371],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "139.243",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "heli",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [184.80176, -196.39925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-91.578",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "truck",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [268.62323, -258.47888],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "arty",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.469498, -23.4805],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "rpammo",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "30.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.51725, -22.474503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_aavp7.png",
+        "iconrotate": "47.534",
+        "popupContent": "Amazing information about AAVP7A1 RAM/RS will be found here!"
+      },
+      "bf2props": {
+        "name": "apc",
+        "class": "ObjectSpawner",
+        "name_object": "AAVP7A1 RAM/RS",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_aavp7a1",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.809998, -21.629623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_scimitar.png",
+        "iconrotate": "49.919",
+        "popupContent": "Amazing information about LAV-25 will be found here!"
+      },
+      "bf2props": {
+        "name": "apc_0",
+        "class": "ObjectSpawner",
+        "name_object": "LAV-25",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_lav25",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.260002, -21.879623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_boat.png",
+        "iconrotate": "49.919",
+        "popupContent": "Amazing information about RHIB will be found here!"
+      },
+      "bf2props": {
+        "name": "boatus_0",
+        "class": "ObjectSpawner",
+        "name_object": "RHIB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "boat_rib_agl_mk19",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "600.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.849876, -22.151001],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "rp_1",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable_noexpire",
+        "maxspawn": "30.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [187.86063, -207.733],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "34.729",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "jeep",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [188.35974, -207.80814],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "34.729",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "jeep_4",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [271.89224, -259.31412],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "arty_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [270.83038, -262.54248],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "arty_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [270.32227, -265.082],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "arty_2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.525879, 22.299622],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "art_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-18.974747, 22.771881],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "arty_3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.19838, 19.474869],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "arty_4",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.309624, -136.1065],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_northrockfort_rp",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.79575, -213.63174],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Missile Silo 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_missilesilo",
+        "class": "ControlPoint",
+        "name_object": "PLA Missile Silo 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "1",
+        "sgid": "10",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.582504, -181.95825],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Supply Fortification Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_supplies",
+        "class": "ControlPoint",
+        "name_object": "Supply Fortification Objective 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.468628, -27.085876],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USS Essex will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_carrier",
+        "class": "ControlPoint",
+        "name_object": "USS Essex",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "50",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.655502, -214.87813],
+        "size": [33, 33],
+        "radius": "31.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Air Strip Objective 250m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_airstrip",
+        "class": "ControlPoint",
+        "name_object": "Air Strip Objective 250m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "40",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.922, -156.53775],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Beach Fortification Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_beachfortification",
+        "class": "ControlPoint",
+        "name_object": "Beach Fortification Objective 150m",
+        "team": "0",
+        "areavalue1": "50.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.4425, -93.225],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Docks Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_docks",
+        "class": "ControlPoint",
+        "name_object": "Docks Objective 150m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.46025, -130.10312],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bridge Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_bridge",
+        "class": "ControlPoint",
+        "name_object": "Bridge Objective 150m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.00375, -135.53876],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Swamp Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_swamp",
+        "class": "ControlPoint",
+        "name_object": "Swamp Objective 150m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "21",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.19837, -131.08525],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Rock Fortification Objective 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_aas128_northrockfort",
+        "class": "ControlPoint",
+        "name_object": "North Rock Fortification Objective 150m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "31",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    }
+  ]
+}

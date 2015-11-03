@@ -1,8 +1,8 @@
 {
   "team1":"nl",
   "team2":"ru",
-  "team1tickets":"550",
-  "team2tickets":"550",
+  "team1tickets":"650",
+  "team2tickets":"650",
   "mapsize":"2048",
   "viewdistance":"550",
   "combatareause":"false",
@@ -532,32 +532,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.381378, -79.529],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "29.125",
-        "popupContent": "Amazing information about BTR-60 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas64_rusmain_ru_apc",
-        "class": "ObjectSpawner",
-        "name_object": "BTR-60",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_apc_btr60",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [46.950623, -146.966],
+        "coordinates": [39.90825, -135.71387],
         "size": [16, 16]
       },
       "properties": {
@@ -566,16 +541,16 @@
         "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_dovre_aas64_rusmain_ru_para",
+        "name": "cpname_dovre_aas64_rusmain_ru_paradrop",
         "class": "ObjectSpawner",
         "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
-        "maxspawn": "9999.0",
-        "minspawn": "9999.0",
+        "maxspawn": "20.0",
+        "minspawn": "20.0",
         "spawndelay": "false",
-        "ttl": "600.0"
+        "ttl": "0.0"
       }
     },
     {
@@ -957,7 +932,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.723373, -54.311752],
+        "coordinates": [48.101624, -167.55812],
         "size": [16, 16]
       },
       "properties": {
@@ -966,16 +941,16 @@
         "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_dovre_aas64_rusmain_para2",
+        "name": "cpname_dovre_aas64_rusmain_paradrop_2",
         "class": "ObjectSpawner",
         "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
-        "maxspawn": "9999.0",
-        "minspawn": "9999.0",
+        "maxspawn": "20.0",
+        "minspawn": "20.0",
         "spawndelay": "false",
-        "ttl": "600.0"
+        "ttl": "0.0"
       }
     },
     {
@@ -1226,56 +1201,6 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [94.33175, -187.37025],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas64_rusmain_ru_para3",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [177.55138, -67.9665],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas64_rusmain_ru_para4",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "9999.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
       }
     },
     {

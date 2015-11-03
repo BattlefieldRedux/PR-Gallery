@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"us",
-  "team1tickets":"900",
-  "team2tickets":"900",
+  "team1tickets":"1300",
+  "team2tickets":"1300",
   "mapsize":"4096",
   "viewdistance":"1000",
   "combatareause":"false",
@@ -73,12 +73,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.558815, -247.45631],
+        "coordinates": [16.288437, -248.05255],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
-        "iconrotate": "30.442",
+        "iconrotate": "35.0",
         "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
       },
       "bf2props": {
@@ -98,21 +98,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.88044, -248.16544],
+        "coordinates": [17.288437, -248.67755],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_mv22.png",
-        "iconrotate": "120.642",
-        "popupContent": "Amazing information about MV-22 Osprey will be found here!"
+        "iconurl": "",
+        "iconrotate": "35.0",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
       },
       "bf2props": {
-        "name": "cpname_saaremaa_aas128_usship_mv22",
+        "name": "cpname_saaremaa_aas128_usship_uh1",
         "class": "ObjectSpawner",
-        "name_object": "MV-22 Osprey",
+        "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_the_mv22",
+        "obj2": "us_the_uh1n_m240d",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -123,7 +123,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.003685, -241.53561],
+        "coordinates": [7.1623764, -242.46713],
         "size": [16, 16]
       },
       "properties": {
@@ -132,37 +132,12 @@
         "popupContent": "Amazing information about AH-1 SuperCobra will be found here!"
       },
       "bf2props": {
-        "name": "cpname_saaremaa_aas128_usship_ah",
+        "name": "cpname_saaremaa_aas128_usship_a",
         "class": "ObjectSpawner",
         "name_object": "AH-1 SuperCobra",
         "team": "2",
         "obj1": "null",
         "obj2": "us_ahe_ah1z",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.375, -242.375],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
-        "iconrotate": "30.0",
-        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_usship_a",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1N Twin Huey",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_ahe_uh1nrockets",
         "maxspawn": "1200.0",
         "minspawn": "1200.0",
         "spawndelay": "true",
@@ -323,7 +298,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.62962, -10.963997],
+        "coordinates": [243.125, -11.25],
         "size": [16, 16]
       },
       "properties": {
@@ -473,7 +448,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.205627, -217.20638],
+        "coordinates": [46.10575, -216.98395],
         "size": [16, 16]
       },
       "properties": {
@@ -498,107 +473,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.25, -214.375],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "130.0",
-        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_usship_8",
-        "class": "ObjectSpawner",
-        "name_object": "M35 2.5 Ton",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [45.0, -214.625],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "130.0",
-        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_usship_9",
-        "class": "ObjectSpawner",
-        "name_object": "M35 2.5 Ton",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [198.625, -30.375],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_0",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [199.00632, -30.376434],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_3",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.692184, -386.23706],
+        "coordinates": [6.874565, -351.1424],
         "size": [16, 16]
       },
       "properties": {
@@ -623,7 +498,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.707123, -385.41507],
+        "coordinates": [6.8895035, -350.3203],
         "size": [16, 16]
       },
       "properties": {
@@ -648,7 +523,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.59681, -385.35294],
+        "coordinates": [7.77919, -350.25812],
         "size": [16, 16]
       },
       "properties": {
@@ -673,7 +548,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.488937, -386.1215],
+        "coordinates": [7.6713104, -351.0268],
         "size": [16, 16]
       },
       "properties": {
@@ -698,7 +573,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.8812, 101.112564],
+        "coordinates": [224.61137, 130.90988],
         "size": [16, 16]
       },
       "properties": {
@@ -723,7 +598,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.40762, 101.046814],
+        "coordinates": [224.13782, 130.84406],
         "size": [16, 16]
       },
       "properties": {
@@ -748,32 +623,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.84076, 100.65138],
+        "coordinates": [240.06456, -10.985748],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/mini_map/airdef.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+        "iconurl": "icons/vehicles_map/mini_boat.png",
+        "iconrotate": "-155.686",
+        "popupContent": "Amazing information about RHIB will be found here!"
       },
       "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_26",
+        "name": "cpname_saaremaa_aas128_ruship_16",
         "class": "ObjectSpawner",
-        "name_object": "Artillery Barrage Call-In",
+        "name_object": "RHIB",
         "team": "1",
-        "obj1": "artillery_team1",
+        "obj1": "boat_rib_gpmg_pkp",
         "obj2": "null",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
+        "maxspawn": "0.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.35732, 100.57381],
+        "coordinates": [224.08755, 130.17511],
         "size": [16, 16]
       },
       "properties": {
@@ -848,7 +723,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.09595, -12.425247],
+        "coordinates": [245.875, -12.875],
         "size": [16, 16]
       },
       "properties": {
@@ -873,7 +748,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.38525, -10.217186],
+        "coordinates": [241.875, -10.5],
         "size": [16, 16]
       },
       "properties": {
@@ -898,7 +773,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.11218, -11.647186],
+        "coordinates": [241.10675, -11.656563],
         "size": [16, 16]
       },
       "properties": {
@@ -973,7 +848,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.36282, -11.800629],
+        "coordinates": [241.34557, -11.8010025],
         "size": [16, 16]
       },
       "properties": {
@@ -998,7 +873,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.375, -11.0],
+        "coordinates": [240.31363, -11.106316],
         "size": [16, 16]
       },
       "properties": {
@@ -1023,48 +898,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.08682, -10.836876],
+        "coordinates": [224.58368, 130.23938],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_boat.png",
-        "iconrotate": "-150.0",
-        "popupContent": "Amazing information about RHIB will be found here!"
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_16",
+        "name": "cpname_saaremaa_aas128_ruship_26",
         "class": "ObjectSpawner",
-        "name_object": "RHIB",
+        "name_object": "Artillery Barrage Call-In",
         "team": "1",
-        "obj1": "boat_rib_gpmg_pkp",
+        "obj1": "artillery_team1",
         "obj2": "null",
-        "maxspawn": "0.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [246.2615, -13.13356],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
-        "iconrotate": "-150.0",
-        "popupContent": "Amazing information about Mi-24V Hind-E will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_mi24",
-        "class": "ObjectSpawner",
-        "name_object": "Mi-24V Hind-E",
-        "team": "1",
-        "obj1": "ru_ahe_mi24_light",
-        "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -1073,24 +923,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.91376, -11.693314],
+        "coordinates": [45.660934, -214.91907],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-150.0",
-        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "132.968",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
       },
       "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_heli3",
+        "name": "cpname_saaremaa_aas128_usship_trk",
         "class": "ObjectSpawner",
-        "name_object": "Mi-8T Hip",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199.27982, -30.301811],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-33.602",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_saaremaa_aas128_ruship_trk",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
         "team": "1",
-        "obj1": "ru_the_mi8",
+        "obj1": "ru_trk_support",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -1098,48 +973,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.16275, -34.00862],
+        "coordinates": [13.223564, -248.00943],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
-        "iconrotate": "-44.832",
-        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
+        "iconurl": "",
+        "iconrotate": "35.0",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
       },
       "bf2props": {
-        "name": "cpname_saaremaa_aas128_ruship_aav",
+        "name": "cpname_saaremaa_aas128_usship_heli_trans",
         "class": "ObjectSpawner",
-        "name_object": "9K35 Gopher",
-        "team": "1",
-        "obj1": "ru_aav_gopher",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [44.71438, -214.89194],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
-        "iconrotate": "130.0",
-        "popupContent": "Amazing information about AN/TWQ-1 Avenger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_saaremaa_aas128_usship_aav",
-        "class": "ObjectSpawner",
-        "name_object": "AN/TWQ-1 Avenger",
+        "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_aav_avenger",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "obj2": "us_the_uh1n_m240d",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1688,7 +1538,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.33963, -147.34306],
+        "coordinates": [191.33963, -147.32082],
         "size": [33, 33],
         "radius": "6.25"
       },

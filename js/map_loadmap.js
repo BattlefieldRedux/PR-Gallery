@@ -35,14 +35,16 @@ function loadMap(mapname, asyncmode) {
 	mapwidth = Math.abs(parseInt(x[0].getAttribute('minx'))) / factorx;
 	mapheight = Math.abs(parseInt(x[0].getAttribute('maxy'))) / factory;
 
-	var sw = MAP.unproject([0, mapheight], 4);
-	var ne = MAP.unproject([mapwidth, 0], 4);
-	var bounds = new L.LatLngBounds(sw, ne);
-	console.log(bounds);
+	var sw = MAP.unproject([- mapheight * 0.5, mapheight * 1.5], 4);
+	var ne = MAP.unproject([mapwidth * 1.5, -mapwidth * 0.5], 4);
+	var sw2 = MAP.unproject([0, mapheight], 4);
+	var ne2 = MAP.unproject([mapwidth, 0], 4);
+	var layerbounds = new L.LatLngBounds(sw2, ne2);
+	var mapbounds = new L.LatLngBounds(sw, ne);
 	var mapimage = L.tileLayer('tiles/' + mapname + '/{z}/{x}/{y}.jpg', {
 		minZoom : 0,
 		maxZoom : 5,
-		bounds : bounds,
+		bounds : layerbounds,
 		noWrap : true,
 		attribution : '<a href="http://tournament.realitymod.com/showthread.php?t=34254">Project Reality Tournament</a>'
 	});
@@ -103,7 +105,7 @@ function loadMap(mapname, asyncmode) {
 	layercontrol.addOverlay(LAYER_FLAGRADIUS, "Flag Radius");
 	LAYER_MAPTILES.addLayer(mapimage);
 	layercontrol.addBaseLayer(LAYER_MAPTILES, "Satellite");
-	MAP.setMaxBounds(bounds);
+	MAP.setMaxBounds(mapbounds);
 	MAP.addLayer(LAYER_MAPTILES);
 
 	$.ajax({
@@ -145,7 +147,7 @@ function loadMap(mapname, asyncmode) {
 				modename += " Large";
 			}
 			GMLIST.push({
-				"file" : list_gm[i],
+				"file" : "map_json/" + mapname + "/" + list_gm[i] + ".json",
 				"name" : modename
 			});
 		}

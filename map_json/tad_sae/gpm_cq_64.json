@@ -1,0 +1,779 @@
+{
+  "team1":"ch",
+  "team2":"us",
+  "team1tickets":"500",
+  "team2tickets":"450",
+  "mapsize":"1024",
+  "viewdistance":"275",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_tad_sae_aas64_plamain"
+      ],
+      [
+        "cpname_tad_sae_aas64_ridgeline"
+      ],
+      [
+        "cpname_tad_sae_aas64_northbridge"
+      ],
+      [
+        "cpname_tad_sae_aas64_powcamp"
+      ],
+      [
+        "cpname_tad_sae_aas64_workcamp"
+      ],
+      [
+        "cpname_tad_sae_aas64_usmain"
+      ]
+    ],
+    [
+      [
+        "cpname_tad_sae_aas64_plamain"
+      ],
+      [
+        "cpname_tad_sae_aas64_ridgeline"
+      ],
+      [
+        "cpname_tad_sae_aas64_temple"
+      ],
+      [
+        "cpname_tad_sae_aas64_cave"
+      ],
+      [
+        "cpname_tad_sae_aas64_village"
+      ],
+      [
+        "cpname_tad_sae_aas64_southbridge"
+      ],
+      [
+        "cpname_tad_sae_aas64_usmain"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.0964966, -186.909],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_usmain_command",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_acv_lavc2",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.060501, -185.63925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "89.542",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_usmain_logisticstruck",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.2862473, -183.5375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "176.511",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_usmain_logisticstruck2",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.1207504, -183.09875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_usmain_repairdepot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.0515, -16.902252],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about WZ551 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_logisticstruck2",
+        "class": "ObjectSpawner",
+        "name_object": "WZ551",
+        "team": "1",
+        "obj1": "ch_apc_wz551a",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.59601, -14.459251],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_repairdepot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_ch",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.604248, -46.34475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_powcamp_spawn1",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.2025, -41.47825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_powcamp_spawn2",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [233.01675, -199.26526],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_cave_spawn1",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [229.74051, -199.8165],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_cave_spawn2",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_ch_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [179.64825, -84.93975],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "173.637",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_ridgeline_mg2",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "ch_bipod",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.418, -75.99725],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-88.327",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_ridgeline_mg3",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "ch_bipod",
+        "obj2": "ch_bipod",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [202.1275, -16.903748],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_logisticstruck3",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 Logistics",
+        "team": "1",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.8055, -21.207],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "ch_acv_wz551",
+        "obj2": "null",
+        "maxspawn": "1.0",
+        "minspawn": "1.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247.59525, 58.207993],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_mortar1",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
+        "team": "1",
+        "obj1": "mortar_team1",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.82724, 60.877243],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_mortar2",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
+        "team": "1",
+        "obj1": "mortar_team1",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [245.061, 59.526],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_mortar3",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
+        "team": "1",
+        "obj1": "mortar_team1",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247.39276, 63.461],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mortar Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain_mortar4",
+        "class": "ObjectSpawner",
+        "name_object": "Mortar Barrage Call-In",
+        "team": "1",
+        "obj1": "mortar_team1",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.07475, -210.2445],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_village",
+        "class": "ControlPoint",
+        "name_object": "Village 60m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.50975, -201.39801],
+        "size": [33, 33],
+        "radius": "25.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_southbridge",
+        "class": "ControlPoint",
+        "name_object": "South Bridge 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "602",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.704254, -35.457],
+        "size": [33, 33],
+        "radius": "25.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_northbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge 100m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.145752, -48.411003],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about POW Camp 45m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_powcamp",
+        "class": "ControlPoint",
+        "name_object": "POW Camp 45m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.75, -71.05475],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Ridgeline 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_ridgeline",
+        "class": "ControlPoint",
+        "name_object": "Ridgeline 40m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "104",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [214.82675, -121.785],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temple 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_temple",
+        "class": "ControlPoint",
+        "name_object": "Temple 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [229.5475, -201.00075],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Cave 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_cave",
+        "class": "ControlPoint",
+        "name_object": "Cave 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.282249, -182.377],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about US Deployment will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_usmain",
+        "class": "ControlPoint",
+        "name_object": "US Deployment",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.306, -120.3365],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about POW Work Site 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_workcamp",
+        "class": "ControlPoint",
+        "name_object": "POW Work Site 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "108",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.888, -25.225754],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Tad Sae HQ will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_aas64_plamain",
+        "class": "ControlPoint",
+        "name_object": "Tad Sae HQ",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "111",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    }
+  ]
+}

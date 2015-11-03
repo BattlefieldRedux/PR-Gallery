@@ -1,5 +1,5 @@
 {
-  "team1":"meinsurgent",
+  "team1":"hamas",
   "team2":"fr",
   "team1tickets":"450",
   "team2tickets":"450",
@@ -51,7 +51,7 @@
         "class": "ObjectSpawner",
         "name_object": "9P148 Spandrel",
         "team": "1",
-        "obj1": "mec_atm_spandrel",
+        "obj1": "mec_atm_spandrel_bf2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -701,7 +701,7 @@
         "class": "ObjectSpawner",
         "name_object": "Vehicle Depot",
         "team": "1",
-        "obj1": "vehicle_depot",
+        "obj1": "vehicle_depot_tal",
         "obj2": "null",
         "maxspawn": "0.0",
         "minspawn": "0.0",
@@ -788,12 +788,87 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [117.64625, -153.1225],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-40.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop32_southcity_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.74438, -154.06775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-40.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop32_southcity_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.224, -148.07213],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "14.57",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_coop32_church_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [55.409874, -92.57037],
         "size": [33, 33],
         "radius": "6.25"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Bellevue Hotel 50m will be found here!"
       },
@@ -820,7 +895,7 @@
         "radius": "6.25"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Overpass 50m will be found here!"
       },
@@ -847,7 +922,7 @@
         "radius": "5.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Apartments 40m will be found here!"
       },
@@ -874,7 +949,7 @@
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Monostary 35m will be found here!"
       },
@@ -901,7 +976,7 @@
         "radius": "5.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about South City 40m will be found here!"
       },
@@ -928,7 +1003,7 @@
         "radius": "5.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Dam 40m will be found here!"
       },
@@ -955,7 +1030,7 @@
         "radius": "5.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Junkyard 40m will be found here!"
       },

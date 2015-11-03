@@ -582,7 +582,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.950623, -146.966],
+        "coordinates": [39.90825, -135.71387],
         "size": [16, 16]
       },
       "properties": {
@@ -591,16 +591,16 @@
         "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_dovre_aas16_rusmain_ru_para",
+        "name": "cpname_dovre_aas16_rusmain_ru_paradrop",
         "class": "ObjectSpawner",
         "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
-        "maxspawn": "9999.0",
-        "minspawn": "9999.0",
+        "maxspawn": "20.0",
+        "minspawn": "20.0",
         "spawndelay": "false",
-        "ttl": "600.0"
+        "ttl": "0.0"
       }
     },
     {
@@ -907,32 +907,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.510246, -79.46887],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "29.1",
-        "popupContent": "Amazing information about MT-LBM will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas16_rusmain_ru_apc_2",
-        "class": "ObjectSpawner",
-        "name_object": "MT-LBM",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_apc_mtlb_hmg",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [56.723373, -54.311752],
+        "coordinates": [48.101624, -167.55812],
         "size": [16, 16]
       },
       "properties": {
@@ -941,16 +916,16 @@
         "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_dovre_aas16_rusmain_para2",
+        "name": "cpname_dovre_aas16_rusmain_paradrop_2",
         "class": "ObjectSpawner",
         "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
-        "maxspawn": "9999.0",
-        "minspawn": "9999.0",
+        "maxspawn": "20.0",
+        "minspawn": "20.0",
         "spawndelay": "false",
-        "ttl": "600.0"
+        "ttl": "0.0"
       }
     },
     {
@@ -963,14 +938,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "164.1",
-        "popupContent": "Amazing information about YPR .50 will be found here!"
+        "popupContent": "Amazing information about Boxer PWV will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas16_hv05_ger_apc_2",
         "class": "ObjectSpawner",
-        "name_object": "YPR .50",
+        "name_object": "Boxer PWV",
         "team": "1",
-        "obj1": "nl_apc_ypr50_gpmg",
+        "obj1": "nl_apc_boxer",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
@@ -1046,6 +1021,31 @@
         "name_object": "DAF YA 4440",
         "team": "1",
         "obj1": "nl_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.64925, -248.276],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-73.918",
+        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dovre_aas16_hv05_car3",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes-Benz G280",
+        "team": "1",
+        "obj1": "nl_jep_gwagon_support",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -1176,56 +1176,6 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [94.33175, -187.37025],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas16_rusmain_ru_para3",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [177.55138, -67.9665],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas16_rusmain_ru_para4",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "9999.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
       }
     },
     {

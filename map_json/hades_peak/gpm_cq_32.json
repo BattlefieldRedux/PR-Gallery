@@ -1,8 +1,8 @@
 {
   "team1":"chinsurgent",
-  "team2":"nl",
-  "team1tickets":"550",
-  "team2tickets":"450",
+  "team2":"gb",
+  "team1tickets":"650",
+  "team2tickets":"550",
   "mapsize":"4096",
   "viewdistance":"1025",
   "combatareause":"false",
@@ -127,36 +127,11 @@
         "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_acv_boxer",
+        "obj2": "gb_acv_sultan",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.76094, -215.29556],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_chinook.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about CH-47D Chinook will be found here!"
-      },
-      "bf2props": {
-        "name": "gbheli",
-        "class": "ObjectSpawner",
-        "name_object": "CH-47D Chinook",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "nl_the_chinook",
-        "maxspawn": "500.0",
-        "minspawn": "500.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -169,19 +144,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "gbapc",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes-Benz G280",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "gb_jep_landrover_support",
+        "maxspawn": "200.0",
+        "minspawn": "200.0",
         "spawndelay": "true",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -194,19 +169,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "gbapc_0",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes-Benz G280",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "gb_jep_landrover_support",
+        "maxspawn": "200.0",
+        "minspawn": "200.0",
         "spawndelay": "true",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -217,21 +192,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "gbjep",
         "class": "ObjectSpawner",
-        "name_object": "Fennek VWWRN",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_fennek",
-        "maxspawn": "400.0",
-        "minspawn": "400.0",
+        "obj2": "gb_jep_landrover",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -242,21 +217,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Boxer PWV will be found here!"
+        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
         "name": "gbjep_1",
         "class": "ObjectSpawner",
-        "name_object": "Boxer PWV",
+        "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_apc_boxer",
+        "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
@@ -269,19 +244,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
+        "popupContent": "Amazing information about Panther CLV will be found here!"
       },
       "bf2props": {
         "name": "gbjep_2",
         "class": "ObjectSpawner",
-        "name_object": "Fennek VWWRN",
+        "name_object": "Panther CLV",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_fennek",
-        "maxspawn": "400.0",
-        "minspawn": "400.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "obj2": "gb_jep_panther_alt",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
@@ -292,21 +267,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_scimitar.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Boxer PWV will be found here!"
+        "popupContent": "Amazing information about FV 107 Scimitar will be found here!"
       },
       "bf2props": {
         "name": "gbjep_4",
         "class": "ObjectSpawner",
-        "name_object": "Boxer PWV",
+        "name_object": "FV 107 Scimitar",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_apc_boxer",
+        "obj2": "gb_ifv_scimitar",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
@@ -317,21 +292,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "gbjep_6",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes-Benz G280",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "gb_jep_landrover_gmg",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -344,19 +319,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "135.0",
-        "popupContent": "Amazing information about DAF YAC-2300 will be found here!"
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
       },
       "bf2props": {
         "name": "gblog",
         "class": "ObjectSpawner",
-        "name_object": "DAF YAC-2300",
+        "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_trk_logistics",
+        "obj2": "gb_trk_logistics",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -368,20 +343,20 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about DAF YAC-2300 will be found here!"
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
       },
       "bf2props": {
         "name": "gblog_0",
         "class": "ObjectSpawner",
-        "name_object": "DAF YAC-2300",
+        "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_trk_logistics",
+        "obj2": "gb_trk_logistics",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -394,19 +369,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "135.0",
-        "popupContent": "Amazing information about DAF YA 4440 will be found here!"
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
       },
       "bf2props": {
         "name": "gbtrk",
         "class": "ObjectSpawner",
-        "name_object": "DAF YA 4440",
+        "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_trk_support",
+        "obj2": "gb_trk_support",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -427,11 +402,11 @@
         "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
-        "obj2": "vehicle_depot_nl",
+        "obj2": "vehicle_depot_gb",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -513,75 +488,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.53987, -223.18362],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jet.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about F-16C Fighting Falcon will be found here!"
-      },
-      "bf2props": {
-        "name": "tornado",
-        "class": "ObjectSpawner",
-        "name_object": "F-16C Fighting Falcon",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "nl_jet_f16_cas",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.85193, -212.99487],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about NH90 TTH will be found here!"
-      },
-      "bf2props": {
-        "name": "gbheli_2",
-        "class": "ObjectSpawner",
-        "name_object": "NH90 TTH",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "nl_the_nh90",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [242.9573, -208.19975],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "apc_0",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes-Benz G280",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "gb_jep_landrover_support",
+        "maxspawn": "200.0",
+        "minspawn": "200.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -592,21 +517,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "trknonresp",
         "class": "ObjectSpawner",
-        "name_object": "Fennek VWWRN",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_fennek",
+        "obj2": "gb_jep_landrover",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -619,19 +544,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "gbjep_0",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes-Benz G280",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_gwagon_support",
+        "obj2": "gb_jep_landrover_support",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -644,19 +569,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about DAF YA 4440 will be found here!"
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
       },
       "bf2props": {
         "name": "gbjep_3",
         "class": "ObjectSpawner",
-        "name_object": "DAF YA 4440",
+        "name_object": "MAN Support Vehicle",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_trk_support",
+        "obj2": "gb_trk_support",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -667,21 +592,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about Boxer PWV will be found here!"
+        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
         "name": "jep",
         "class": "ObjectSpawner",
-        "name_object": "Boxer PWV",
+        "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_apc_boxer",
+        "obj2": "gb_apc_warrior",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -706,32 +631,32 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.344002, -50.003128],
+        "coordinates": [15.354126, -50.11862],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_scout_light.png",
+        "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about BRDM-2 will be found here!"
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
         "name": "milapc_0",
         "class": "ObjectSpawner",
-        "name_object": "BRDM-2",
+        "name_object": "9P148 Spandrel",
         "team": "1",
-        "obj1": "mec_jep_brdm2",
+        "obj1": "mec_atm_spandrel",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
@@ -756,7 +681,7 @@
         "maxspawn": "900.0",
         "minspawn": "900.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -781,14 +706,14 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.7801895, -46.568253],
+        "coordinates": [14.7801895, -46.538437],
         "size": [16, 16]
       },
       "properties": {
@@ -806,14 +731,14 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.593498, -47.348877],
+        "coordinates": [14.741814, -47.348877],
         "size": [16, 16]
       },
       "properties": {
@@ -831,14 +756,14 @@
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.590439, -47.543686],
+        "coordinates": [14.738747, -47.543686],
         "size": [16, 16]
       },
       "properties": {
@@ -856,14 +781,14 @@
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.583435, -47.75325],
+        "coordinates": [14.7317505, -47.75325],
         "size": [16, 16]
       },
       "properties": {
@@ -880,15 +805,15 @@
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.573814, -47.94288],
+        "coordinates": [14.573814, -48.21219],
         "size": [16, 16]
       },
       "properties": {
@@ -903,60 +828,60 @@
         "team": "1",
         "obj1": "civ_atm_technical_militia",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.054565, -50.017685],
+        "coordinates": [14.070435, -50.149315],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
         "iconrotate": "5.0",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "popupContent": "Amazing information about T-62 will be found here!"
       },
       "bf2props": {
         "name": "miltrk_0",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "T-62",
         "team": "1",
-        "obj1": "mil_trk_support",
+        "obj1": "mil_tnk_t62",
         "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.581749, -50.060875],
+        "coordinates": [14.667122, -50.183685],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_adv_light.png",
         "iconrotate": "-5.0",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "popupContent": "Amazing information about Ural-4320 & ZU-23-2 will be found here!"
       },
       "bf2props": {
         "name": "miltrk",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "Ural-4320 & ZU-23-2",
         "team": "1",
-        "obj1": "mil_trk_support",
+        "obj1": "civ_aav_uralzu232",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -981,7 +906,7 @@
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1006,7 +931,7 @@
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1031,7 +956,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1056,7 +981,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1081,7 +1006,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1106,7 +1031,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1131,7 +1056,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1156,32 +1081,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [192.35019, -105.73475],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about YPR .50 will be found here!"
-      },
-      "bf2props": {
-        "name": "gbjep_7",
-        "class": "ObjectSpawner",
-        "name_object": "YPR .50",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "nl_apc_ypr50",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1192,21 +1092,21 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-129.0",
-        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "gbjep_8",
         "class": "ObjectSpawner",
-        "name_object": "Fennek VWWRN",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_jep_fennek",
+        "obj2": "gb_jep_landrover",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1219,19 +1119,19 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-129.0",
-        "popupContent": "Amazing information about DAF YAC-2300 will be found here!"
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
       },
       "bf2props": {
         "name": "gbtrk_1",
         "class": "ObjectSpawner",
-        "name_object": "DAF YAC-2300",
+        "name_object": "MAN SV Logistics",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_trk_logistics",
+        "obj2": "gb_trk_logistics",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1256,7 +1156,7 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1281,7 +1181,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1306,7 +1206,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1331,7 +1231,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1356,7 +1256,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1381,7 +1281,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1402,11 +1302,11 @@
         "name_object": "Temporary spawnpoint",
         "team": "2",
         "obj1": "null",
-        "obj2": "rallypoint_nl_placeable",
+        "obj2": "rallypoint_gb_placeable",
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1431,7 +1331,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1456,7 +1356,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1481,7 +1381,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1506,7 +1406,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1531,7 +1431,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1542,28 +1442,28 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Boxer PWV will be found here!"
+        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
         "name": "gbapc_1",
         "class": "ObjectSpawner",
-        "name_object": "Boxer PWV",
+        "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "nl_apc_boxer",
+        "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.843941, -50.036186],
+        "coordinates": [15.854065, -50.151688],
         "size": [16, 16]
       },
       "properties": {
@@ -1578,17 +1478,17 @@
         "team": "1",
         "obj1": "mec_aav_gaskin",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "true",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.313812, -50.01294],
+        "coordinates": [14.402374, -50.14325],
         "size": [16, 16]
       },
       "properties": {
@@ -1603,10 +1503,10 @@
         "team": "1",
         "obj1": "mec_jep_brdm2",
         "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
       }
     },
     {
@@ -1631,7 +1531,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1656,7 +1556,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1681,7 +1581,7 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -1706,23 +1606,123 @@
         "maxspawn": "999999.0",
         "minspawn": "999999.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "12000.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.592812, -50.057938],
+        "coordinates": [15.602936, -50.17344],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-5.0",
+        "popupContent": "Amazing information about BMP-1 will be found here!"
+      },
+      "bf2props": {
+        "name": "trk",
+        "class": "ObjectSpawner",
+        "name_object": "BMP-1",
+        "team": "1",
+        "obj1": "mil_ifv_bmp1",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.55719, -48.86206],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-5.0",
+        "iconrotate": "5.0",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
-        "name": "trk",
+        "name": "trk_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mil_trk_support",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.575935, -48.241623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "5.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "trk_1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mil_trk_support",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.589561, -47.685814],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "5.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "trk_2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mil_trk_support",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.782127, -46.72956],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "trk_3",
         "class": "ObjectSpawner",
         "name_object": "Ural-4320",
         "team": "1",
@@ -1730,8 +1730,83 @@
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.741188, -47.938004],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "trk_4",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mil_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.81331, -219.74425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Apache AH1 will be found here!"
+      },
+      "bf2props": {
+        "name": "apache",
+        "class": "ObjectSpawner",
+        "name_object": "Apache AH1",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "gb_ahe_apache",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.53987, -228.86981],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jet_figherbomber.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Tornado GR4 will be found here!"
+      },
+      "bf2props": {
+        "name": "tornado",
+        "class": "ObjectSpawner",
+        "name_object": "Tornado GR4",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "gb_jet_tornadogr4_mw1",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
       }
     },
     {
@@ -1743,7 +1818,7 @@
         "radius": "0.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/nl/minimap_cpbase.png",
+        "iconurl": "icons/flags_map/gb/minimap_cpbase.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Bluefor Airbase will be found here!"
       },
@@ -1765,7 +1840,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.189812, -34.07556],
+        "coordinates": [15.687813, -42.351997],
         "size": [33, 33],
         "radius": "0.0"
       },

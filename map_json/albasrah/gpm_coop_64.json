@@ -294,16 +294,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
         "name": "palace_insurgent_technical_1",
         "class": "ObjectSpawner",
-        "name_object": "SPG-9 Technical",
+        "name_object": "9P148 Spandrel",
         "team": "1",
-        "obj1": "civ_atm_technical",
+        "obj1": "mec_atm_spandrel_bf2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -2390,6 +2390,81 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [159.34038, -189.925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-64.8",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop64_residental_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.086, -214.14575],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-64.8",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop64_palace_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.50738, -119.14475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_albasrah_coop64_nvcp_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [63.875, -62.375],
         "size": [33, 33],
         "radius": "5.625"
@@ -2451,12 +2526,12 @@
       "properties": {
         "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Mosque 40m will be found here!"
+        "popupContent": "Amazing information about Mosque 41m will be found here!"
       },
       "bf2props": {
         "name": "cpname_albasrah_coop64_mosque",
         "class": "ControlPoint",
-        "name_object": "Mosque 40m",
+        "name_object": "Mosque 41m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",

@@ -221,16 +221,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_light.png",
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about Ural-4320 & ZU-23-2 will be found here!"
+        "popupContent": "Amazing information about BMP-1 will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop64_nmemain_aac",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320 & ZU-23-2",
+        "name_object": "BMP-1",
         "team": "1",
-        "obj1": "civ_aav_uralzu232",
+        "obj1": "fsa_ifv_bmp1",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -246,17 +246,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
+        "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about T-62 will be found here!"
+        "popupContent": "Amazing information about ZSU-23-4 will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop64_mecmain_aav",
         "class": "ObjectSpawner",
-        "name_object": "T-62",
+        "name_object": "ZSU-23-4",
         "team": "2",
         "obj1": "null",
-        "obj2": "mil_tnk_t62",
+        "obj2": "mec_aav_shilka",
         "maxspawn": "900.0",
         "minspawn": "900.0",
         "spawndelay": "false",
@@ -296,17 +296,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about T-62 will be found here!"
+        "popupContent": "Amazing information about BMP-2M will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop64_mecmain_apc",
         "class": "ObjectSpawner",
-        "name_object": "T-62",
+        "name_object": "BMP-2M",
         "team": "2",
         "obj1": "null",
-        "obj2": "mil_tnk_t62",
+        "obj2": "mec_ifv_bmp2m",
         "maxspawn": "900.0",
         "minspawn": "900.0",
         "spawndelay": "false",
@@ -323,15 +323,15 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about BMP-2M will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop64_mecmain_btr",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "BMP-2M",
         "team": "2",
         "obj1": "null",
-        "obj2": "mil_ifv_bmp1_bf2",
+        "obj2": "mec_ifv_bmp2m",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -346,17 +346,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-30.0",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about BTR-60 will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop64_mecmain_btr_0",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "BTR-60",
         "team": "2",
         "obj1": "null",
-        "obj2": "mil_ifv_bmp1_bf2",
+        "obj2": "mec_apc_btr60_bf2",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -421,17 +421,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-30.0",
-        "popupContent": "Amazing information about ZSU-23-4 will be found here!"
+        "popupContent": "Amazing information about BTR-60 will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop64_mecmain_btr60",
         "class": "ObjectSpawner",
-        "name_object": "ZSU-23-4",
+        "name_object": "BTR-60",
         "team": "2",
         "obj1": "null",
-        "obj2": "mec_aav_shilka",
+        "obj2": "mec_apc_btr60_bf2",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -886,6 +886,106 @@
         "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.77725, -194.054],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop64_bravo_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.44, -140.84837],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop64_apartments_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.3275, -55.953125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop64_eastcity_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [197.96613, -244.29712],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop64_mecmain_mi17",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-17 Hip",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "mec_the_mi17",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
       }
     },
     {

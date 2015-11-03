@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"cf",
-  "team1tickets":"450",
-  "team2tickets":"450",
+  "team1tickets":"500",
+  "team2tickets":"500",
   "mapsize":"4096",
   "viewdistance":"700",
   "combatareause":"false",
@@ -28,8 +28,7 @@
       ],
       [
         "cpname_yamalia_aas16_papa2a",
-        "cpname_yamalia_aas16_papa2b",
-        "cpname_yamalia_aas16_papa2c"
+        "cpname_yamalia_aas16_papa2b"
       ],
       [
         "cpname_yamalia_aas16_papa1"
@@ -77,21 +76,16 @@
         "cpname_yamalia_aas16_defendersmainbase"
       ],
       [
-        "cpname_yamalia_aas16_tango5a",
         "cpname_yamalia_aas16_tango5b"
       ],
       [
-        "cpname_yamalia_aas16_tango4a",
-        "cpname_yamalia_aas16_tango4b",
         "cpname_yamalia_aas16_tango4c"
       ],
       [
-        "cpname_yamalia_aas16_tango3a",
         "cpname_yamalia_aas16_tango3b"
       ],
       [
-        "cpname_yamalia_aas16_tango2a",
-        "cpname_yamalia_aas16_tango2b"
+        "cpname_yamalia_aas16_tango2a"
       ],
       [
         "cpname_yamalia_aas16_tango1"
@@ -103,106 +97,6 @@
   ],
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.530937, -16.250061],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "91.844",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_atv",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "civ_bik_dirtbike",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.566376, -16.102875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "101.835",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_0",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "civ_bik_dirtbike",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.586685, -15.927315],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "106.504",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_1",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "civ_bik_dirtbike",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.624123, -18.050438],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "53.109",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_2",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "civ_bik_dirtbike",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -236,20 +130,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_chinook.png",
+        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "83.803",
-        "popupContent": "Amazing information about CH-147 Chinook will be found here!"
+        "popupContent": "Amazing information about CH-146 Griffon will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas16_attackersmainbase_heli",
         "class": "ObjectSpawner",
-        "name_object": "CH-147 Chinook",
+        "name_object": "CH-146 Griffon",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_the_chinook",
+        "obj2": "cf_the_ch146_c6",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -257,112 +151,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.58606, -234.86032],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "152.053",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "atv_3",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "1",
-        "obj1": "civ_bik_dirtbike",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.9697, -234.71075],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "153.128",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "atv_4",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "1",
-        "obj1": "civ_bik_dirtbike",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.83768, -234.74445],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "151.544",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "atv_5",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "1",
-        "obj1": "civ_bik_dirtbike",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.70718, -234.7998],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
-        "iconrotate": "156.934",
-        "popupContent": "Amazing information about Dirtbike will be found here!"
-      },
-      "bf2props": {
-        "name": "atv_6",
-        "class": "ObjectSpawner",
-        "name_object": "Dirtbike",
-        "team": "1",
-        "obj1": "civ_bik_dirtbike",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [239.53831, -237.04144],
+        "coordinates": [239.45575, -236.9505],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "149.041",
+        "iconrotate": "-173.109",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
@@ -372,8 +166,8 @@
         "team": "1",
         "obj1": "ru_trk_support",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -382,12 +176,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.71169, -237.153],
+        "coordinates": [243.4925, -237.11969],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-18.372",
+        "iconrotate": "-26.572",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
@@ -407,48 +201,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.548, -233.2445],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-149.511",
-        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
-      },
-      "bf2props": {
-        "name": "heli_0",
-        "class": "ObjectSpawner",
-        "name_object": "Mi-8T Hip",
-        "team": "1",
-        "obj1": "ru_the_mi8",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.771126, -18.412125],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "51.351",
-        "popupContent": "Amazing information about M35 Logistics will be found here!"
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas16_attackersmainbase_1_0",
         "class": "ObjectSpawner",
-        "name_object": "M35 Logistics",
+        "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "cf_trk_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -457,48 +226,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.961624, -17.095314],
+        "coordinates": [12.25206, -19.838371],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
-        "iconrotate": "-108.566",
-        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_jeep",
-        "class": "ObjectSpawner",
-        "name_object": "Mercedes G-Wagen",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "cf_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.546997, -19.209251],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-62.389",
-        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas16_attackersmainbase_2_0",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes G-Wagen",
+        "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "cf_trk_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -557,7 +301,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.15518, -236.91693],
+        "coordinates": [244.25406, -237.06175],
         "size": [16, 16]
       },
       "properties": {
@@ -582,7 +326,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [238.36644, -235.9607],
+        "coordinates": [238.41675, -236.01375],
         "size": [16, 16]
       },
       "properties": {
@@ -607,7 +351,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.578377, 40.230743],
+        "coordinates": [-46.85794, -16.67369],
         "size": [16, 16]
       },
       "properties": {
@@ -632,7 +376,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.0037, -291.47852],
+        "coordinates": [304.3022, -323.95044],
         "size": [16, 16]
       },
       "properties": {
@@ -657,7 +401,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.98682, -235.84851],
+        "coordinates": [242.23526, -235.60925],
         "size": [16, 16]
       },
       "properties": {
@@ -672,8 +416,8 @@
         "team": "1",
         "obj1": "ru_trk_support",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -682,12 +426,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.08444, -237.05493],
+        "coordinates": [242.88062, -237.31989],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-14.914",
+        "iconrotate": "-22.522",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
@@ -707,37 +451,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.2562, -235.70926],
+        "coordinates": [241.96844, -235.8465],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "161.454",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_3",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [242.14381, -237.33475],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-17.266",
+        "iconrotate": "-164.474",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
@@ -747,8 +466,8 @@
         "team": "1",
         "obj1": "ru_trk_support",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -774,7 +493,7 @@
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -807,32 +526,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.870811, -16.807816],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
-        "iconrotate": "-108.566",
-        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_3_0",
-        "class": "ObjectSpawner",
-        "name_object": "Mercedes G-Wagen",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "cf_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.8595657, 40.305695],
+        "coordinates": [-46.57675, -16.598747],
         "size": [16, 16]
       },
       "properties": {
@@ -857,7 +551,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.1710663, 40.32094],
+        "coordinates": [-46.265244, -16.583504],
         "size": [16, 16]
       },
       "properties": {
@@ -882,7 +576,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.6148148, 39.786255],
+        "coordinates": [-46.821503, -17.118187],
         "size": [16, 16]
       },
       "properties": {
@@ -922,8 +616,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "cf_the_chinook",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -932,7 +626,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.593, -291.25586],
+        "coordinates": [303.89148, -323.7278],
         "size": [16, 16]
       },
       "properties": {
@@ -957,7 +651,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.75119, -291.70764],
+        "coordinates": [304.04968, -324.17957],
         "size": [16, 16]
       },
       "properties": {
@@ -982,7 +676,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [251.40201, -291.56512],
+        "coordinates": [303.7005, -324.03705],
         "size": [16, 16]
       },
       "properties": {
@@ -1007,23 +701,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.80825, -18.656815],
+        "coordinates": [12.513313, -19.285934],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-64.413",
-        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas16_attackersmainbase_6",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes G-Wagen",
+        "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "cf_trk_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1047,8 +741,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "cf_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1061,17 +755,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "50.672",
-        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas16_attackersmainbase_5_0",
         "class": "ObjectSpawner",
-        "name_object": "M35 2.5 Ton",
+        "name_object": "M35 Logistics",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_trk_support",
+        "obj2": "cf_trk_logistics",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -1082,12 +776,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [239.245, -237.10556],
+        "coordinates": [238.95963, -237.04657],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "168.421",
+        "iconrotate": "170.115",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
@@ -1097,8 +791,8 @@
         "team": "1",
         "obj1": "ru_trk_support",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1107,48 +801,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.07431, -17.389748],
+        "coordinates": [12.385246, -19.555191],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
-        "iconrotate": "-108.566",
-        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_cfjeep",
-        "class": "ObjectSpawner",
-        "name_object": "Mercedes G-Wagen",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "cf_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.680191, -18.926064],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-64.413",
-        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_aas16_attackersmainbase_cfapc",
         "class": "ObjectSpawner",
-        "name_object": "Mercedes G-Wagen",
+        "name_object": "M35 2.5 Ton",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_jep_gwagon_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "cf_trk_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1157,37 +826,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.81187, -237.43613],
+        "coordinates": [240.03018, -237.99225],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-16.899",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "rusapc",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.47699, -237.50337],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-16.039",
+        "iconrotate": "-10.555",
         "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
@@ -1197,8 +841,8 @@
         "team": "1",
         "obj1": "ru_trk_support",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1207,71 +851,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.762375, -20.015999],
+        "coordinates": [10.99556, -18.990685],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "48.343",
-        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconrotate": "83.803",
+        "popupContent": "Amazing information about CH-146 Griffon will be found here!"
       },
       "bf2props": {
-        "name": "cpname_yamalia_aas16_attackersmainbase_truck",
+        "name": "cpname_yamalia_aas16_attackersmainbase_heli_2",
         "class": "ObjectSpawner",
-        "name_object": "M35 2.5 Ton",
+        "name_object": "CH-146 Griffon",
         "team": "2",
         "obj1": "null",
-        "obj2": "cf_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.13725, -237.59769],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-16.388",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_defendersmainbase_truck",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.42957, -236.97588],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-14.914",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_defendersmainbase_logi",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "ru_trk_logistics",
-        "obj2": "null",
+        "obj2": "cf_the_ch146_c6",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -1407,33 +1001,6 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "5",
-        "sgid": "511",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [25.31556, -110.124],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Papa Two 200m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_papa2c",
-        "class": "ControlPoint",
-        "name_object": "Papa Two 200m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "6",
         "sgid": "511",
         "uncap": "false",
         "ttgc": "120.0",
@@ -1714,7 +1281,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [107.11713, -56.374565],
+        "coordinates": [107.11713, -56.74444],
         "size": [33, 33],
         "radius": "12.5"
       },
@@ -2082,61 +1649,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "30",
-        "sgid": "513",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [134.30507, -17.44519],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Tango Two 200m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_tango2b",
-        "class": "ControlPoint",
-        "name_object": "Tango Two 200m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "31",
-        "sgid": "513",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [170.05412, -28.514816],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Tango Three 200m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_tango3a",
-        "class": "ControlPoint",
-        "name_object": "Tango Three 200m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "32",
-        "sgid": "413",
+        "sgid": "503",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2163,61 +1676,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "33",
-        "sgid": "413",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [215.59512, -62.781563],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Tango Four 200m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_tango4a",
-        "class": "ControlPoint",
-        "name_object": "Tango Four 200m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "34",
-        "sgid": "313",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [230.00037, -84.38763],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Tango Four 200m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_tango4b",
-        "class": "ControlPoint",
-        "name_object": "Tango Four 200m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "35",
-        "sgid": "313",
+        "sgid": "403",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2244,34 +1703,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "36",
-        "sgid": "313",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [230.21925, -128.33925],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Tango Five 200m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_yamalia_aas16_tango5a",
-        "class": "ControlPoint",
-        "name_object": "Tango Five 200m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "37",
-        "sgid": "213",
+        "sgid": "303",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2298,7 +1730,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "38",
-        "sgid": "213",
+        "sgid": "203",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"

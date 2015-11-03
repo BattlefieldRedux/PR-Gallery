@@ -1,0 +1,469 @@
+{
+  "team1":"hamas",
+  "team2":"idf",
+  "team1tickets":"300",
+  "team2tickets":"300",
+  "mapsize":"1024",
+  "viewdistance":"200",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_asad_khal_coop64_hamasmain"
+      ],
+      [
+        "cpname_asad_khal_coop64_northvillage",
+        "cpname_asad_khal_coop64_village"
+      ],
+      [
+        "cpname_asad_khal_coop64_idfvillage",
+        "cpname_asad_khal_coop64_southvillage"
+      ],
+      [
+        "cpname_asad_khal_coop64_idfmansion"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [187.4475, -196.176],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfmansion_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_idf",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.552, -201.794],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-149.431",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfmansion_m113",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "idf_apc_m113",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [195.31525, -202.70125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-158.175",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfmansion_hmmwv",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "idf_jep_hmmwv",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [196.1075, -203.557],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-123.624",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfmansion_hmmwv_0",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "idf_jep_hmmwv",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [195.61325, -212.67224],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-77.379",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfmansion_logi",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "idf_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [210.36725, -31.069252],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "114.021",
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_hamasmain_techie",
+        "class": "ObjectSpawner",
+        "name_object": "DShkM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [213.067, -25.510246],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_hamasmain_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_tal",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [211.7875, -40.908997],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "146.581",
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_hamasmain_techie_0",
+        "class": "ObjectSpawner",
+        "name_object": "DShkM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.84975, -52.456],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_hamasmain_techie_1",
+        "class": "ObjectSpawner",
+        "name_object": "DShkM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.5205, -31.231003],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_village_rally",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_hamas_placeable_noexpire",
+        "obj2": "rallypoint_idf_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.866753, -208.166],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfvillage_rally",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
+        "team": "2",
+        "obj1": "rallypoint_hamas_placeable_noexpire",
+        "obj2": "rallypoint_idf_placeable_noexpire",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.123253, -212.70375],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about IDF Staging Area 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfvillage",
+        "class": "ControlPoint",
+        "name_object": "IDF Staging Area 50m",
+        "team": "2",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "1",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "150.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.949005, -138.15575],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Village 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_southvillage",
+        "class": "ControlPoint",
+        "name_object": "South Village 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "2",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.783005, -88.916504],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Village 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_northvillage",
+        "class": "ControlPoint",
+        "name_object": "North Village 50m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "3",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.230003, -30.340752],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Occupied Village 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_village",
+        "class": "ControlPoint",
+        "name_object": "Occupied Village 50m",
+        "team": "1",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "4",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "150.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.949, -45.433],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/hamas/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hamas Staging Area 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_hamasmain",
+        "class": "ControlPoint",
+        "name_object": "Hamas Staging Area 50m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "5",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.5965, -209.11676],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Occupied Mansion 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop64_idfmansion",
+        "class": "ControlPoint",
+        "name_object": "Occupied Mansion 40m",
+        "team": "2",
+        "areavalue1": "99999.0",
+        "areavalue2": "0.0",
+        "cpid": "6",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    }
+  ]
+}

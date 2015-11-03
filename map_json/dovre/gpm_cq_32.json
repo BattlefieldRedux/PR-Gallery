@@ -1,10 +1,10 @@
 {
   "team1":"nl",
   "team2":"ru",
-  "team1tickets":"550",
-  "team2tickets":"550",
+  "team1tickets":"600",
+  "team2tickets":"600",
   "mapsize":"2048",
-  "viewdistance":"400",
+  "viewdistance":"500",
   "combatareause":"false",
   "combatareadamage":"0.0",
   "combatareaallowoutside":"0.0",
@@ -136,19 +136,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-74.54",
-        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
+        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas32_hv05_ca_jeep",
         "class": "ObjectSpawner",
-        "name_object": "Fennek VWWRN",
+        "name_object": "Mercedes-Benz G280",
         "team": "1",
-        "obj1": "nl_jep_fennek",
+        "obj1": "nl_jep_gwagon_support",
         "obj2": "dummy",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -186,19 +186,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-85.0",
-        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
+        "popupContent": "Amazing information about Mercedes-Benz G280 will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas32_hv05_ger_jeep2",
         "class": "ObjectSpawner",
-        "name_object": "Fennek VWWRN",
+        "name_object": "Mercedes-Benz G280",
         "team": "1",
-        "obj1": "nl_jep_fennek",
+        "obj1": "nl_jep_gwagon_support",
         "obj2": "dummy",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -511,19 +511,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "164.073",
-        "popupContent": "Amazing information about Boxer PWV will be found here!"
+        "popupContent": "Amazing information about Leopard 2A6 will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas32_hv05_ger_apc3",
         "class": "ObjectSpawner",
-        "name_object": "Boxer PWV",
+        "name_object": "Leopard 2A6",
         "team": "1",
-        "obj1": "nl_apc_boxer",
+        "obj1": "nl_tnk_leo2a6",
         "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -536,19 +536,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "29.125",
-        "popupContent": "Amazing information about BTR-80A will be found here!"
+        "popupContent": "Amazing information about T-90 will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas32_rusmain_ru_apc",
         "class": "ObjectSpawner",
-        "name_object": "BTR-80A",
+        "name_object": "T-90",
         "team": "2",
         "obj1": "null",
-        "obj2": "ru_apc_btr80a",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "obj2": "ru_tnk_t90",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -557,7 +557,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.950623, -146.966],
+        "coordinates": [39.90825, -135.71387],
         "size": [16, 16]
       },
       "properties": {
@@ -566,16 +566,16 @@
         "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_dovre_aas32_rusmain_ru_para",
+        "name": "cpname_dovre_aas32_rusmain_ru_paradrop",
         "class": "ObjectSpawner",
         "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
-        "maxspawn": "9999.0",
-        "minspawn": "9999.0",
+        "maxspawn": "20.0",
+        "minspawn": "20.0",
         "spawndelay": "false",
-        "ttl": "600.0"
+        "ttl": "0.0"
       }
     },
     {
@@ -888,40 +888,15 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "29.1",
-        "popupContent": "Amazing information about BTR-60 will be found here!"
+        "popupContent": "Amazing information about BTR-80 will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas32_rusmain_ru_apc_2",
         "class": "ObjectSpawner",
-        "name_object": "BTR-60",
+        "name_object": "BTR-80",
         "team": "2",
         "obj1": "null",
-        "obj2": "ru_apc_btr60",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.062752, -78.0505],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about BTR-60 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas32_rusmain_ru_apc_4",
-        "class": "ObjectSpawner",
-        "name_object": "BTR-60",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_apc_btr60",
+        "obj2": "ru_apc_btr80",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
@@ -932,7 +907,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.723373, -54.311752],
+        "coordinates": [48.101624, -167.55812],
         "size": [16, 16]
       },
       "properties": {
@@ -941,16 +916,16 @@
         "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
       },
       "bf2props": {
-        "name": "cpname_dovre_aas32_rusmain_para2",
+        "name": "cpname_dovre_aas32_rusmain_paradrop_2",
         "class": "ObjectSpawner",
         "name_object": "Temporary paradrop spawn",
         "team": "2",
         "obj1": "null",
         "obj2": "paradrop",
-        "maxspawn": "9999.0",
-        "minspawn": "9999.0",
+        "maxspawn": "20.0",
+        "minspawn": "20.0",
         "spawndelay": "false",
-        "ttl": "600.0"
+        "ttl": "0.0"
       }
     },
     {
@@ -1061,19 +1036,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
         "iconrotate": "-73.918",
-        "popupContent": "Amazing information about Land Rover Defender 110XD WW will be found here!"
+        "popupContent": "Amazing information about Fennek VWWRN will be found here!"
       },
       "bf2props": {
         "name": "cpname_dovre_aas32_hv05_car3",
         "class": "ObjectSpawner",
-        "name_object": "Land Rover Defender 110XD WW",
+        "name_object": "Fennek VWWRN",
         "team": "1",
-        "obj1": "nl_jep_landrover",
+        "obj1": "nl_jep_fennek",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1201,56 +1176,6 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [94.33175, -187.37025],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas32_rusmain_ru_para3",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [177.55138, -67.9665],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dovre_aas32_rusmain_ru_para4",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "9999.0",
-        "spawndelay": "false",
-        "ttl": "300.0"
       }
     },
     {

@@ -1,0 +1,981 @@
+{
+  "team1":"chinsurgent",
+  "team2":"ru",
+  "team1tickets":"600",
+  "team2tickets":"600",
+  "mapsize":"2048",
+  "viewdistance":"400",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_assault_on_grozny_aas32_chechenmain"
+      ],
+      [
+        "cpname_assault_on_grozny_aas32_southcityentrance"
+      ],
+      [
+        "cpname_assault_on_grozny_aas32_southcity"
+      ],
+      [
+        "cpname_assault_on_grozny_aas32_centralpark",
+        "cpname_assault_on_grozny_aas32_presidentialpalace"
+      ],
+      [
+        "cpname_assault_on_grozny_aas32_northcity"
+      ],
+      [
+        "cpname_assault_on_grozny_aas32_mainroad"
+      ],
+      [
+        "cpname_assault_on_grozny_aas32_rumain"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.419998, -14.769997],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_vehicledepot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ru",
+        "maxspawn": "5.0",
+        "minspawn": "5.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.472504, -12.800003],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_logi1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.227753, -12.789124],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_logi2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.996246, -12.783997],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_trans1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.543503, -14.204498],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about BTR-80 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "BTR-80",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_btr80",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.570877, -16.331749],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_apc4",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_mtlb",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.254753, -12.792625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_trans2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.567879, -15.682121],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_apc3",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_mtlb",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.561378, -14.953247],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about BTR-80 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_apc2",
+        "class": "ObjectSpawner",
+        "name_object": "BTR-80",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_btr80",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.759499, -12.796371],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_trans3",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.06226, -241.87274],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_mil",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.83087, -234.95],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_commanpost",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "mil_acv_technical",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.15262, -241.91812],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_adv_light.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Ural-4320 & ZU-23-2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_aav",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 & ZU-23-2",
+        "team": "1",
+        "obj1": "civ_aav_uralzu232",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.38538, -237.327],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "-135.0",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_car4",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "1",
+        "obj1": "civ_jep_car",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.82724, -237.33075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "-135.0",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_car3",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "1",
+        "obj1": "civ_jep_car_blue",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.29637, -237.33063],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "-135.0",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_car2",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "1",
+        "obj1": "civ_jep_car_black",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.748, -237.34825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "-135.0",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_car1",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "1",
+        "obj1": "civ_jep_car_white",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.44463, -239.87851],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_logi1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "mil_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.42624, -239.24663],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_logi2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "mil_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.44513, -238.62076],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_trans1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mil_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.44537, -238.02675],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_trans2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mil_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.37024, -241.83662],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_bombtruck.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Suicide Dump Truck will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_bomber",
+        "class": "ObjectSpawner",
+        "name_object": "Suicide Dump Truck",
+        "team": "1",
+        "obj1": "civ_trk_dumpster_bomber",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.54112, -237.03125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Zastava 900AK Van will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_zastava1",
+        "class": "ObjectSpawner",
+        "name_object": "Zastava 900AK Van",
+        "team": "1",
+        "obj1": "civ_jep_zastava900ak_militia",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.92888, -105.25825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_presidentialpalace_rp",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_chinsurgent_placeable",
+        "obj2": "null",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "800.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.780876, -9.574501],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain_commandpost",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_acv_btr60pu",
+        "maxspawn": "5.0",
+        "minspawn": "5.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.88113, -242.01538],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_atm",
+        "class": "ObjectSpawner",
+        "name_object": "SPG-9 Technical",
+        "team": "1",
+        "obj1": "civ_atm_technical_militia",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.01913, -237.03299],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Zastava 900AK Van will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_zastava2_1",
+        "class": "ObjectSpawner",
+        "name_object": "Zastava 900AK Van",
+        "team": "1",
+        "obj1": "civ_jep_zastava900ak_militia",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.15637, -239.64438],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "45.0",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_mil_jeep1",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.15125, -240.33525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "45.0",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain_mil_jeep2",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "1",
+        "obj1": "civ_jep_technical2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.023125, -14.652878],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_rumain",
+        "class": "ControlPoint",
+        "name_object": "Russian Main",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "201",
+        "sgid": "-1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.60762, -59.710373],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Suburbs 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_mainroad",
+        "class": "ControlPoint",
+        "name_object": "North Suburbs 80m",
+        "team": "2",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "601",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.173, -101.56775],
+        "size": [33, 33],
+        "radius": "13.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Central Park 110m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_centralpark",
+        "class": "ControlPoint",
+        "name_object": "Central Park 110m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "150.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.74625, -107.584625],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Presidential Palace 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_presidentialpalace",
+        "class": "ControlPoint",
+        "name_object": "Presidential Palace 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "204",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.224625, -81.83737],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_northcity",
+        "class": "ControlPoint",
+        "name_object": "North City 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.3375, -138.187],
+        "size": [33, 33],
+        "radius": "11.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City 90m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_southcity",
+        "class": "ControlPoint",
+        "name_object": "South City 90m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "206",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.28062, -163.72937],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Suburbs 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_southcityentrance",
+        "class": "ControlPoint",
+        "name_object": "South Suburbs 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "200.0",
+        "cpid": "207",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "150.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.07288, -239.1705],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Chechen Main will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_assault_on_grozny_aas32_chechenmain",
+        "class": "ControlPoint",
+        "name_object": "Chechen Main",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "208",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    }
+  ]
+}

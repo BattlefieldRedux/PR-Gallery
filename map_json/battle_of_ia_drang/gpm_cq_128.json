@@ -1,8 +1,8 @@
 {
   "team1":"vnnva",
   "team2":"vnusa",
-  "team1tickets":"650",
-  "team2tickets":"650",
+  "team1tickets":"1100",
+  "team2tickets":"1100",
   "mapsize":"2048",
   "viewdistance":"600",
   "combatareause":"false",
@@ -88,19 +88,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "-123.3",
-        "popupContent": "Amazing information about UH-1D Huey will be found here!"
+        "popupContent": "Amazing information about UH-1C Huey will be found here!"
       },
       "bf2props": {
         "name": "cpname_battle_of_ia_drang_aas128_usbasecamp_helo03",
         "class": "ObjectSpawner",
-        "name_object": "UH-1D Huey",
+        "name_object": "UH-1C Huey",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_the_uh1d",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "obj2": "us_ahe_uh1c",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "false",
         "ttl": "12000.0"
       }
@@ -159,81 +159,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.99925, -9.701622],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
-        "iconrotate": "-141.3",
-        "popupContent": "Amazing information about UH-1D Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_battle_of_ia_drang_aas128_usbasecamp_helo06",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1D Huey",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_uh1d",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [247.884, -19.962875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
-        "iconrotate": "-141.3",
-        "popupContent": "Amazing information about UH-1D Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_battle_of_ia_drang_aas128_usbasecamp_medichelo01",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1D Huey",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_uh1d_medevac",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [246.42, -18.794373],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
-        "iconrotate": "-123.3",
-        "popupContent": "Amazing information about UH-1D Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_battle_of_ia_drang_aas128_usbasecamp_medichelo02",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1D Huey",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_uh1d_medevac",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [223.2025, -11.688248],
         "size": [16, 16]
       },
@@ -251,7 +176,7 @@
         "obj2": "us_jet_a1h",
         "maxspawn": "1200.0",
         "minspawn": "1200.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "12000.0"
       }
     },
@@ -384,31 +309,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [128.0, -128.0],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_prbot.png",
-        "iconrotate": "22.728",
-        "popupContent": "Amazing information about spectator_camera will be found here!"
-      },
-      "bf2props": {
-        "name": "invisible_spectator_camera",
-        "class": "ObjectSpawner",
-        "name_object": "spectator_camera",
-        "team": "1",
-        "obj1": "spectator_camera",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [40.250877, -234.13013],
         "size": [16, 16]
       },
@@ -428,6 +328,31 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.238503, -126.24125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "84.363",
+        "popupContent": "Amazing information about zpu4 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_battle_of_ia_drang_aas128_nvatunnels_zpu4_0",
+        "class": "ObjectSpawner",
+        "name_object": "zpu4",
+        "team": "1",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
       }
     },
     {
@@ -834,8 +759,8 @@
         "cpid": "303",
         "sgid": "3",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "240.0"
+        "ttgc": "120.0",
+        "ttlc": "180.0"
       }
     },
     {
@@ -896,7 +821,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [127.99125, -243.76913],
+        "coordinates": [127.99125, -239.0365],
         "size": [33, 33],
         "radius": "8.75"
       },

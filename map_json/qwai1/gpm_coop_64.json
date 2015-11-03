@@ -294,15 +294,15 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
         "iconrotate": "180.0",
-        "popupContent": "Amazing information about ats_tow will be found here!"
+        "popupContent": "Amazing information about ats_tow_ndl will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop64_mine_usa_ats",
         "class": "ObjectSpawner",
-        "name_object": "ats_tow",
+        "name_object": "ats_tow_ndl",
         "team": "2",
         "obj1": "null",
-        "obj2": "ats_tow",
+        "obj2": "ats_tow_ndl",
         "maxspawn": "300.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -519,14 +519,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
         "iconrotate": "-45.0",
-        "popupContent": "Amazing information about ats_hj8 will be found here!"
+        "popupContent": "Amazing information about ats_hj8_ndl will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop64_facility_ats",
         "class": "ObjectSpawner",
-        "name_object": "ats_hj8",
+        "name_object": "ats_hj8_ndl",
         "team": "1",
-        "obj1": "ats_hj8",
+        "obj1": "ats_hj8_ndl",
         "obj2": "null",
         "maxspawn": "0.0",
         "minspawn": "0.0",
@@ -657,6 +657,106 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.69376, -85.60338],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop64_mineentrance_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.07013, -85.700874],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop64_mineentrance_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [193.46037, -186.6735],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-23.037",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop64_facility_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.13974, -187.03387],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-23.037",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_coop64_facility_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {
@@ -832,12 +932,12 @@
       "properties": {
         "iconurl": "icons/flags_map/us/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Mine Entrance 30m will be found here!"
+        "popupContent": "Amazing information about Mine Entrance 29m will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_coop64_mineentrance",
         "class": "ControlPoint",
-        "name_object": "Mine Entrance 30m",
+        "name_object": "Mine Entrance 29m",
         "team": "2",
         "areavalue1": "60.0",
         "areavalue2": "0.0",

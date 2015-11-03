@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"gb",
-  "team1tickets":"800",
-  "team2tickets":"800",
+  "team1tickets":"1200",
+  "team2tickets":"1200",
   "mapsize":"4096",
   "viewdistance":"800",
   "combatareause":"false",
@@ -136,7 +136,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
       },
       "bf2props": {
@@ -186,7 +186,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep3.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
@@ -196,8 +196,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_jep_landrover_support",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -285,17 +285,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_campnyborgmoen_puma",
         "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
+        "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_trk_support",
+        "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
@@ -310,17 +310,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_campnyborgmoen_misc",
         "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
+        "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_trk_support",
+        "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
@@ -660,19 +660,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "-70.102",
-        "popupContent": "Amazing information about T-90 will be found here!"
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_gasstation_rus_suporttruck",
         "class": "ObjectSpawner",
-        "name_object": "T-90",
+        "name_object": "Ural-4320",
         "team": "1",
-        "obj1": "ru_tnk_t90",
+        "obj1": "ru_trk_support",
         "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -731,25 +731,50 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [252.50194, -181.22162],
+        "coordinates": [252.68494, -181.10843],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "popupContent": "Amazing information about BTR-80 will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_gasstation_rus_apc",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "BTR-80",
         "team": "1",
-        "obj1": "ru_trk_support",
+        "obj1": "ru_apc_btr80",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [252.38586, -181.3275],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about BTR-80 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_aas128_gasstation_ru_apc2",
+        "class": "ObjectSpawner",
+        "name_object": "BTR-80",
+        "team": "1",
+        "obj1": "ru_apc_btr80",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
       }
     },
     {
@@ -836,7 +861,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
       },
       "bf2props": {
@@ -860,16 +885,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
         "iconrotate": "-135.952",
-        "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
+        "popupContent": "Amazing information about Mi-24P Hind-F will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_gasstation_ch_attakheli",
         "class": "ObjectSpawner",
-        "name_object": "Mi-28N Havoc",
+        "name_object": "Mi-24P Hind-F",
         "team": "1",
-        "obj1": "ru_ahe_havoc",
+        "obj1": "ru_ahe_mi24",
         "obj2": "null",
         "maxspawn": "1200.0",
         "minspawn": "1200.0",
@@ -894,7 +919,7 @@
         "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
-        "obj1": "boat_rib_gpmg_pkp",
+        "obj1": "boat_rib",
         "obj2": "dummy",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -956,6 +981,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [251.9885, -178.47537],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
+        "iconrotate": "140.0",
+        "popupContent": "Amazing information about BRDM-2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_vadso_city_aas128_gasstation_rus_apc3",
+        "class": "ObjectSpawner",
+        "name_object": "BRDM-2",
+        "team": "1",
+        "obj1": "ru_jep_brdm2",
+        "obj2": "dummy",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [73.707375, -119.556435],
         "size": [16, 16]
       },
@@ -1006,23 +1056,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.351753, -234.621],
+        "coordinates": [16.322685, -234.87437],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_scimitar.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about FV4034 Challenger 2 will be found here!"
+        "popupContent": "Amazing information about FV 107 Scimitar will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_campnyborgmoen_m113_1",
         "class": "ObjectSpawner",
-        "name_object": "FV4034 Challenger 2",
+        "name_object": "FV 107 Scimitar",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_tnk_challenger",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "obj2": "gb_ifv_scimitar",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1031,23 +1081,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.363373, -234.20026],
+        "coordinates": [251.35487, -180.86281],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about FV4034 Challenger 2 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
+        "iconrotate": "45.0",
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
-        "name": "cpname_vadso_city_aas128_campnyborgmoen_m113_2",
+        "name": "cpname_vadso_city_aas128_gasstation_spandre",
         "class": "ObjectSpawner",
-        "name_object": "FV4034 Challenger 2",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_tnk_challenger",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "name_object": "9P148 Spandrel",
+        "team": "1",
+        "obj1": "ru_atm_spandrel",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -1206,7 +1256,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.291687, -233.69344],
+        "coordinates": [16.295998, -234.23512],
         "size": [16, 16]
       },
       "properties": {
@@ -1285,19 +1335,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-68.237",
-        "popupContent": "Amazing information about T-90 will be found here!"
+        "popupContent": "Amazing information about BTR-80A will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_gasstation_bmp3",
         "class": "ObjectSpawner",
-        "name_object": "T-90",
+        "name_object": "BTR-80A",
         "team": "1",
-        "obj1": "ru_tnk_t90",
+        "obj1": "ru_apc_btr80a",
         "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -1310,17 +1360,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
         "name": "cpname_vadso_city_aas128_campnyborgmoen_warrior3",
         "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
+        "name_object": "FV 510 Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_trk_support",
+        "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
@@ -1600,31 +1650,6 @@
         "minspawn": "1800.0",
         "spawndelay": "true",
         "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [22.578316, -242.761],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about Apache AH1 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_vadso_city_aas128_campnyborgmoen_gb_apache",
-        "class": "ObjectSpawner",
-        "name_object": "Apache AH1",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_ahe_apache",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
       }
     },
     {

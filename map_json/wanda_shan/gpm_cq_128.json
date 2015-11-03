@@ -1,8 +1,8 @@
 {
   "team1":"ch",
   "team2":"ger",
-  "team1tickets":"500",
-  "team2tickets":"500",
+  "team1tickets":"940",
+  "team2tickets":"940",
   "mapsize":"4096",
   "viewdistance":"620",
   "combatareause":"false",
@@ -96,7 +96,7 @@
         "cpname_wanda_shan_aas128_plafobsoutheast_4"
       ],
       [
-        "cpname_wanda_shan_aas128_villagewest"
+        "cpname_wanda_shan_aas128_hillfarm_4"
       ],
       [
         "cpname_wanda_shan_aas128_villagehill_4",
@@ -299,19 +299,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Type 98 will be found here!"
+        "popupContent": "Amazing information about VN-3 will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_aas128_plamain_a1",
         "class": "ObjectSpawner",
-        "name_object": "Type 98",
+        "name_object": "VN-3",
         "team": "1",
-        "obj1": "ch_tnk_type98",
+        "obj1": "ch_jep_vn3",
         "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -324,16 +324,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about WZ551 will be found here!"
+        "popupContent": "Amazing information about ZSL-92B 30mm will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_aas128_plamain_a2",
         "class": "ObjectSpawner",
-        "name_object": "WZ551",
+        "name_object": "ZSL-92B 30mm",
         "team": "1",
-        "obj1": "ch_apc_wz551",
+        "obj1": "ch_ifv_wz551b",
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
@@ -351,18 +351,18 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ZSL-92B will be found here!"
+        "popupContent": "Amazing information about ZSL-92B 30mm will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_aas128_plamain_a3",
         "class": "ObjectSpawner",
-        "name_object": "ZSL-92B",
+        "name_object": "ZSL-92B 30mm",
         "team": "1",
         "obj1": "ch_ifv_wz551b",
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "true",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -576,12 +576,12 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about Puma IFV will be found here!"
+        "popupContent": "Amazing information about Puma will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_aas128_rfmain_a1",
         "class": "ObjectSpawner",
-        "name_object": "Puma IFV",
+        "name_object": "Puma",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_apc_puma",
@@ -774,19 +774,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Puma IFV will be found here!"
+        "popupContent": "Amazing information about Leopard 2A6 will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_aas128_rfmain_tr3",
         "class": "ObjectSpawner",
-        "name_object": "Puma IFV",
+        "name_object": "Leopard 2A6",
         "team": "2",
         "obj1": "null",
-        "obj2": "ger_apc_puma",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "obj2": "ger_tnk_leo2a6",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -801,12 +801,12 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Puma IFV will be found here!"
+        "popupContent": "Amazing information about Puma will be found here!"
       },
       "bf2props": {
         "name": "cpname_wanda_shan_aas128_rfmain_tr4",
         "class": "ObjectSpawner",
-        "name_object": "Puma IFV",
+        "name_object": "Puma",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_apc_puma",
@@ -1621,19 +1621,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.125, -161.75],
+        "coordinates": [96.625, -207.75],
         "size": [33, 33],
-        "radius": "3.125"
+        "radius": "4.6875"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about West Village 50m will be found here!"
+        "popupContent": "Amazing information about Farm 75m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_wanda_shan_aas128_villagewest",
+        "name": "cpname_wanda_shan_aas128_hillfarm_4",
         "class": "ControlPoint",
-        "name_object": "West Village 50m",
+        "name_object": "Farm 75m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",

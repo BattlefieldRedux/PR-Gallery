@@ -1,8 +1,8 @@
 {
   "team1":"mec",
   "team2":"us",
-  "team1tickets":"750",
-  "team2tickets":"750",
+  "team1tickets":"1250",
+  "team2tickets":"1250",
   "mapsize":"2048",
   "viewdistance":"700",
   "combatareause":"false",
@@ -131,7 +131,7 @@
         "maxspawn": "120.0",
         "minspawn": "120.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "300.0"
       }
     },
     {
@@ -156,7 +156,7 @@
         "maxspawn": "120.0",
         "minspawn": "120.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "300.0"
       }
     },
     {
@@ -432,31 +432,6 @@
         "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [223.4675, -16.192627],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
-        "iconrotate": "-154.341",
-        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_muttrah_city_2_aas128_carrier_transheli2",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1N Twin Huey",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_ahe_uh1nrockets",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
       }
     },
     {
@@ -853,12 +828,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South City 150m will be found here!"
+        "popupContent": "Amazing information about South City 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_aas128_southcity",
         "class": "ControlPoint",
-        "name_object": "South City 150m",
+        "name_object": "South City 100m",
         "team": "0",
         "areavalue1": "20.0",
         "areavalue2": "29.0",

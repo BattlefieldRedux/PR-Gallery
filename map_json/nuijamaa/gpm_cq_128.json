@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"fr",
-  "team1tickets":"650",
-  "team2tickets":"650",
+  "team1tickets":"1100",
+  "team2tickets":"1100",
   "mapsize":"2048",
   "viewdistance":"850",
   "combatareause":"false",
@@ -106,24 +106,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [198.48038, -249.137],
+        "coordinates": [13.637878, -17.061752],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "54.6",
+        "popupContent": "Amazing information about VBCI will be found here!"
       },
       "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_heli",
+        "name": "cpname_nuijamaa_aas128_shopping_center_m2a2",
         "class": "ObjectSpawner",
-        "name_object": "Mi-8T Hip",
-        "team": "1",
-        "obj1": "ru_the_mi8",
-        "obj2": "null",
-        "maxspawn": "800.0",
-        "minspawn": "800.0",
-        "spawndelay": "true",
+        "name_object": "VBCI",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_apc_vbci",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -131,20 +131,295 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.91225, -249.84425],
+        "coordinates": [5.707123, -12.161377],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "141.449",
+        "popupContent": "Amazing information about NH90 TTH will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_uh60",
+        "class": "ObjectSpawner",
+        "name_object": "NH90 TTH",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_the_nh90",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.32875, -19.605621],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-31.818",
+        "popupContent": "Amazing information about VAB VTT will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_hmmwv",
+        "class": "ObjectSpawner",
+        "name_object": "VAB VTT",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6261215, -18.526749],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "54.6",
+        "popupContent": "Amazing information about VAB VTT will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_hmmwv_0",
+        "class": "ObjectSpawner",
+        "name_object": "VAB VTT",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.276375, -18.056503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "54.6",
+        "popupContent": "Amazing information about VAB VTT will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_hmmwv_1",
+        "class": "ObjectSpawner",
+        "name_object": "VAB VTT",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_apc_vab",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.55275, -16.336876],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "8.9",
+        "popupContent": "Amazing information about GBC-180 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_supply",
+        "class": "ObjectSpawner",
+        "name_object": "GBC-180",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.111, -14.976875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "98.884",
+        "popupContent": "Amazing information about GBC-180 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_supply_0",
+        "class": "ObjectSpawner",
+        "name_object": "GBC-180",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.803375, -15.41375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "98.884",
+        "popupContent": "Amazing information about GBC-180 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_supply_1",
+        "class": "ObjectSpawner",
+        "name_object": "GBC-180",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.766373, -14.616127],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "98.884",
+        "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_logi",
+        "class": "ObjectSpawner",
+        "name_object": "GBC 180 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.086128, -16.078247],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "8.9",
+        "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_logi_0",
+        "class": "ObjectSpawner",
+        "name_object": "GBC 180 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.178879, -19.088371],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_vd",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_fr",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.841751, -8.357498],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_command",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_acv_vab",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [190.05913, -249.56012],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "16.109",
-        "popupContent": "Amazing information about BMP-2 will be found here!"
+        "popupContent": "Amazing information about BTR-80A will be found here!"
       },
       "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_apc",
+        "name": "cpname_nuijamaa_aas128_ru_staging_bmp",
         "class": "ObjectSpawner",
-        "name_object": "BMP-2",
+        "name_object": "BTR-80A",
         "team": "1",
-        "obj1": "ru_apc_bmp2",
+        "obj1": "ru_apc_btr80a",
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
@@ -156,7 +431,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.21637, -250.02812],
+        "coordinates": [191.272, -249.71124],
         "size": [16, 16]
       },
       "properties": {
@@ -181,23 +456,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.646, -249.974],
+        "coordinates": [190.6945, -249.70413],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about BTR-80A will be found here!"
+        "popupContent": "Amazing information about BRDM-2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_nuijamaa_aas128_ru_staging_brdm_0",
         "class": "ObjectSpawner",
-        "name_object": "BTR-80A",
+        "name_object": "BRDM-2",
         "team": "1",
-        "obj1": "ru_apc_btr80a",
+        "obj1": "ru_jep_brdm2_alt",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -206,7 +481,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [191.78287, -250.05426],
+        "coordinates": [191.8385, -249.73737],
         "size": [16, 16]
       },
       "properties": {
@@ -231,107 +506,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [189.64662, -244.96225],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-97.34",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_logi",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "ru_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [189.59775, -244.46762],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-97.34",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_logi_0",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "ru_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [189.78688, -245.89099],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-97.34",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_support",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [189.727, -245.43512],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-97.34",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_support_0",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "ru_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [192.16475, -251.01126],
+        "coordinates": [192.5375, -250.94987],
         "size": [16, 16]
       },
       "properties": {
@@ -356,7 +531,107 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.2545, -249.13425],
+        "coordinates": [189.79288, -246.03712],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-97.305",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_ru_staging_support",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [189.73337, -245.58112],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-97.305",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_ru_staging_support_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [189.69987, -245.02487],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-97.305",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_ru_staging_logi",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [189.64026, -244.56888],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-97.305",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_ru_staging_logi_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [198.42426, -248.89325],
         "size": [16, 16]
       },
       "properties": {
@@ -365,14 +640,14 @@
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
       },
       "bf2props": {
-        "name": "cpname_nuijamaa_aas128_ru_staging_hind",
+        "name": "cpname_nuijamaa_aas128_ru_staging_heli",
         "class": "ObjectSpawner",
         "name_object": "Mi-8T Hip",
         "team": "1",
         "obj1": "ru_the_mi8",
         "obj2": "null",
-        "maxspawn": "800.0",
-        "minspawn": "800.0",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -381,7 +656,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.31837, -252.6065],
+        "coordinates": [8.671249, -9.491501],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "141.449",
+        "popupContent": "Amazing information about NH90 TTH will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_shopping_center_nh90",
+        "class": "ObjectSpawner",
+        "name_object": "NH90 TTH",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_the_nh90",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [196.67688, -252.16412],
         "size": [16, 16]
       },
       "properties": {
@@ -406,224 +706,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.975998, -17.854248],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "54.576",
-        "popupContent": "Amazing information about VBCI will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_apc",
-        "class": "ObjectSpawner",
-        "name_object": "VBCI",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_apc_vbci",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.462128, -17.205872],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "54.576",
-        "popupContent": "Amazing information about VBCI will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_apc_0",
-        "class": "ObjectSpawner",
-        "name_object": "VBCI",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_apc_vbci",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.043503, -16.297249],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "54.576",
-        "popupContent": "Amazing information about VAB VTT will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_truck",
-        "class": "ObjectSpawner",
-        "name_object": "VAB VTT",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_apc_vab",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.767998, -15.900497],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "54.576",
-        "popupContent": "Amazing information about VAB VTT will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_truck_0",
-        "class": "ObjectSpawner",
-        "name_object": "VAB VTT",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_apc_vab",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.328003, -15.480873],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "54.576",
-        "popupContent": "Amazing information about GBC-180 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_suuport",
-        "class": "ObjectSpawner",
-        "name_object": "GBC-180",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.052628, -15.084122],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "54.576",
-        "popupContent": "Amazing information about GBC-180 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_suuport_0",
-        "class": "ObjectSpawner",
-        "name_object": "GBC-180",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.088127, -13.110123],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "137.004",
-        "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_logi",
-        "class": "ObjectSpawner",
-        "name_object": "GBC 180 Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.445122, -12.784874],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "137.004",
-        "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_logi_0",
-        "class": "ObjectSpawner",
-        "name_object": "GBC 180 Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.649872, -13.468246],
+        "coordinates": [195.153, -249.3085],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "143.021",
-        "popupContent": "Amazing information about NH90 TTH will be found here!"
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
       },
       "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_trans",
+        "name": "cpname_nuijamaa_aas128_ru_staging_trans",
         "class": "ObjectSpawner",
-        "name_object": "NH90 TTH",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_the_nh90",
+        "name_object": "Mi-8T Hip",
+        "team": "1",
+        "obj1": "ru_the_mi8",
+        "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -631,82 +731,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.728996, -9.260246],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "142.171",
-        "popupContent": "Amazing information about NH90 TTH will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_trans_0",
-        "class": "ObjectSpawner",
-        "name_object": "NH90 TTH",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_the_nh90",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.700623, -19.39875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/repairdepot.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Vehicle Depot will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_vd",
-        "class": "ObjectSpawner",
-        "name_object": "Vehicle Depot",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "vehicle_depot_fr",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.914375, -8.274376],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/uavtrailer.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about UAV Terminal will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_nuijamaa_aas128_fnmaon_command",
-        "class": "ObjectSpawner",
-        "name_object": "UAV Terminal",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_acv_vab",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [91.72838, -189.2065],
+        "coordinates": [91.193375, -189.73026],
         "size": [16, 16]
       },
       "properties": {
@@ -731,7 +756,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.6905, -20.424622],
+        "coordinates": [13.960251, -17.554626],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "54.6",
+        "popupContent": "Amazing information about VBCI will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_fnmaon_apc",
+        "class": "ObjectSpawner",
+        "name_object": "VBCI",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fr_apc_vbci",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [189.4505, -249.39737],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "16.109",
+        "popupContent": "Amazing information about BTR-80A will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_nuijamaa_aas128_ru_staging_bmp_0",
+        "class": "ObjectSpawner",
+        "name_object": "BTR-80A",
+        "team": "1",
+        "obj1": "ru_apc_btr80a",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.802246, -19.569374],
         "size": [16, 16]
       },
       "properties": {
@@ -756,7 +831,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.65012, -19.566628],
+        "coordinates": [78.851875, -20.523125],
         "size": [16, 16]
       },
       "properties": {
@@ -781,7 +856,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [242.01651, -135.4705],
+        "coordinates": [242.11176, -135.45238],
         "size": [16, 16]
       },
       "properties": {
@@ -806,7 +881,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.16125, -136.93613],
+        "coordinates": [244.64062, -137.18312],
         "size": [16, 16]
       },
       "properties": {
@@ -847,7 +922,7 @@
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "207",
+        "cpid": "324",
         "sgid": "1",
         "uncap": "true",
         "ttgc": "0.0",
@@ -874,7 +949,7 @@
         "team": "2",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "201",
+        "cpid": "301",
         "sgid": "-999",
         "uncap": "true",
         "ttgc": "0.0",
@@ -885,7 +960,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.88687, -185.0865],
+        "coordinates": [90.23813, -181.48013],
         "size": [33, 33],
         "radius": "18.75"
       },
@@ -901,7 +976,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
-        "cpid": "202",
+        "cpid": "302",
         "sgid": "211",
         "uncap": "false",
         "ttgc": "120.0",
@@ -928,7 +1003,7 @@
         "team": "2",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
-        "cpid": "205",
+        "cpid": "305",
         "sgid": "511",
         "uncap": "false",
         "ttgc": "120.0",
@@ -955,7 +1030,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
-        "cpid": "206",
+        "cpid": "306",
         "sgid": "212",
         "uncap": "false",
         "ttgc": "120.0",
@@ -982,7 +1057,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "208",
+        "cpid": "308",
         "sgid": "312",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1009,7 +1084,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "209",
+        "cpid": "309",
         "sgid": "412",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1036,7 +1111,7 @@
         "team": "2",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "210",
+        "cpid": "310",
         "sgid": "512",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1063,7 +1138,7 @@
         "team": "2",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
-        "cpid": "211",
+        "cpid": "311",
         "sgid": "612",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1076,7 +1151,7 @@
         "type": "Point",
         "coordinates": [23.844376, -144.72838],
         "size": [33, 33],
-        "radius": "18.75"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
@@ -1090,7 +1165,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "212",
+        "cpid": "312",
         "sgid": "411",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1117,7 +1192,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
-        "cpid": "213",
+        "cpid": "313",
         "sgid": "213",
         "uncap": "false",
         "ttgc": "120.0",
@@ -1144,7 +1219,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "214",
+        "cpid": "314",
         "sgid": "313",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1171,7 +1246,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "215",
+        "cpid": "315",
         "sgid": "413",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1198,7 +1273,7 @@
         "team": "2",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
-        "cpid": "216",
+        "cpid": "316",
         "sgid": "513",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1225,7 +1300,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
-        "cpid": "217",
+        "cpid": "317",
         "sgid": "214",
         "uncap": "false",
         "ttgc": "120.0",
@@ -1252,7 +1327,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "218",
+        "cpid": "318",
         "sgid": "314",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1279,7 +1354,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
-        "cpid": "219",
+        "cpid": "319",
         "sgid": "214",
         "uncap": "false",
         "ttgc": "120.0",
@@ -1306,7 +1381,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "220",
+        "cpid": "320",
         "sgid": "414",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1333,7 +1408,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "221",
+        "cpid": "321",
         "sgid": "514",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1360,7 +1435,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "222",
+        "cpid": "322",
         "sgid": "614",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1387,7 +1462,7 @@
         "team": "2",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
-        "cpid": "223",
+        "cpid": "323",
         "sgid": "714",
         "uncap": "false",
         "ttgc": "120.0",
@@ -1398,9 +1473,9 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.002876, -198.43562],
+        "coordinates": [40.429626, -197.79663],
         "size": [33, 33],
-        "radius": "15.625"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
@@ -1414,7 +1489,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "203",
+        "cpid": "303",
         "sgid": "311",
         "uncap": "false",
         "ttgc": "180.0",

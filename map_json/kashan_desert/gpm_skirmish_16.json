@@ -1,6 +1,6 @@
 {
   "team1":"mec",
-  "team2":"usa",
+  "team2":"cf",
   "team1tickets":"500",
   "team2tickets":"500",
   "mapsize":"4096",
@@ -20,7 +20,7 @@
         "cpname_kashan_desert_skirmish16_bunkernorth"
       ],
       [
-        "cpname_kashan_desert_skirmish16_usmain"
+        "cpname_kashan_desert_skirmish16_cfmain"
       ]
     ]
   ],
@@ -30,7 +30,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.82331, -131.27538],
+        "coordinates": [87.58963, -136.24512],
         "size": [16, 16]
       },
       "properties": {
@@ -39,57 +39,7 @@
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
       },
       "bf2props": {
-        "name": "crate",
-        "class": "ObjectSpawner",
-        "name_object": "fixed_supply_crate",
-        "team": "1",
-        "obj1": "fixed_supply_crate",
-        "obj2": "fixed_supply_crate",
-        "maxspawn": "0.0",
-        "minspawn": "60.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.04594, -86.84381],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/icon_supply.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      },
-      "bf2props": {
-        "name": "crate_2",
-        "class": "ObjectSpawner",
-        "name_object": "fixed_supply_crate",
-        "team": "2",
-        "obj1": "fixed_supply_crate",
-        "obj2": "fixed_supply_crate",
-        "maxspawn": "0.0",
-        "minspawn": "60.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [87.62575, -136.4248],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/icon_supply.png",
-        "iconrotate": "45.496",
-        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_skirmish16_mecmain_crate2",
+        "name": "cpname_kashan_desert_skirmish16_mecmain_crate1",
         "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "1",
@@ -114,7 +64,7 @@
         "popupContent": "Amazing information about fixed_supply_crate will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_skirmish16_usmain_crate2",
+        "name": "cpname_kashan_desert_vehicles64_bluemain_crate1",
         "class": "ObjectSpawner",
         "name_object": "fixed_supply_crate",
         "team": "2",
@@ -146,7 +96,7 @@
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "1000.0",
-        "cpid": "1",
+        "cpid": "301",
         "sgid": "1",
         "uncap": "false",
         "ttgc": "90.0",
@@ -173,7 +123,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "103",
+        "cpid": "302",
         "sgid": "2",
         "uncap": "false",
         "ttgc": "120.0",
@@ -200,7 +150,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "104",
+        "cpid": "304",
         "sgid": "3",
         "uncap": "false",
         "ttgc": "120.0",
@@ -216,18 +166,18 @@
         "radius": "3.125"
       },
       "properties": {
-        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconurl": "icons/flags_map/cf/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about US Army Operations Base will be found here!"
+        "popupContent": "Amazing information about CAN Operations Base will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_skirmish16_usmain",
+        "name": "cpname_kashan_desert_skirmish16_cfmain",
         "class": "ControlPoint",
-        "name_object": "US Army Operations Base",
+        "name_object": "CAN Operations Base",
         "team": "2",
         "areavalue1": "1000.0",
         "areavalue2": "0.0",
-        "cpid": "107",
+        "cpid": "305",
         "sgid": "4",
         "uncap": "false",
         "ttgc": "90.0",

@@ -163,16 +163,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-125.939",
-        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas16_chechenmain_support_4",
         "class": "ObjectSpawner",
-        "name_object": "SPG-9 Technical",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "civ_atm_technical_militia",
+        "obj1": "civ_jep_technical_militia",
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
@@ -363,19 +363,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "57.0",
-        "popupContent": "Amazing information about MT-LB will be found here!"
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas16_rusmain_bmp2_0",
         "class": "ObjectSpawner",
-        "name_object": "MT-LB",
+        "name_object": "Ural-4320 Logistics",
         "team": "2",
         "obj1": "null",
-        "obj2": "ru_apc_mtlb",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "obj2": "ru_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -909,23 +909,48 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [240.77301, -203.3635],
+        "coordinates": [24.374252, -106.422],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "48.987",
-        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
       },
       "bf2props": {
-        "name": "cpname_iron_ridge_aas16_rusmain_helo",
+        "name": "cpname_iron_ridge_aas16_chechenmain_chechrally1",
         "class": "ObjectSpawner",
-        "name_object": "Mi-8T Hip",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_the_mi8",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_chinsurgent_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.2875, -122.023],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_iron_ridge_aas16_chechenmain_chechrally2",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_chinsurgent_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1001,7 +1026,7 @@
         "name": "cpname_iron_ridge_aas16_westcity",
         "class": "ControlPoint",
         "name_object": "West City 150m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
         "cpid": "101",
@@ -1244,7 +1269,7 @@
         "name": "cpname_iron_ridge_aas16_westcitynorth",
         "class": "ControlPoint",
         "name_object": "West City 100m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
         "cpid": "3",
@@ -1271,7 +1296,7 @@
         "name": "cpname_iron_ridge_aas16_westcitysouth",
         "class": "ControlPoint",
         "name_object": "West City 100m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
         "cpid": "4",
@@ -1325,7 +1350,7 @@
         "name": "cpname_iron_ridge_aas16_westcity_0",
         "class": "ControlPoint",
         "name_object": "West City 150m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
         "cpid": "6",
@@ -1352,7 +1377,7 @@
         "name": "cpname_iron_ridge_aas16_westcitynorth_0",
         "class": "ControlPoint",
         "name_object": "West City 100m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
         "cpid": "7",
@@ -1379,7 +1404,7 @@
         "name": "cpname_iron_ridge_aas16_westcitysouth_0",
         "class": "ControlPoint",
         "name_object": "West City 100m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
         "cpid": "8",

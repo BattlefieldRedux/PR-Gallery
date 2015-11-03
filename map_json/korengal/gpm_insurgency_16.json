@@ -1,10 +1,10 @@
 {
   "team1":"taliban",
   "team2":"usa",
-  "team1tickets":"500",
-  "team2tickets":"500",
+  "team1tickets":"4",
+  "team2tickets":"700",
   "mapsize":"1024",
-  "viewdistance":"400",
+  "viewdistance":"800",
   "combatareause":"false",
   "combatareadamage":"0.0",
   "combatareaallowoutside":"0.0",
@@ -47,15 +47,15 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "35.0",
-        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_usbase_mg2",
         "class": "ObjectSpawner",
-        "name_object": "Stationary BIPOD",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_bipod",
+        "obj2": "bipod_gpmg_l7a2",
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -72,15 +72,15 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-45.0",
-        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_usbase_mg3",
         "class": "ObjectSpawner",
-        "name_object": "Stationary BIPOD",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_bipod",
+        "obj2": "bipod_gpmg_l7a2",
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -97,15 +97,15 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_smgsmall.png",
         "iconrotate": "-50.0",
-        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+        "popupContent": "Amazing information about Stationary L7A2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_usbase_mg5",
         "class": "ObjectSpawner",
-        "name_object": "Stationary BIPOD",
+        "name_object": "Stationary L7A2",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_bipod",
+        "obj2": "bipod_gpmg_l7a2",
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -1351,31 +1351,6 @@
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_valley_53",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [190.73074, -175.16475],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_korengal_insurgency16_valley_54",
         "class": "ObjectSpawner",
         "name_object": "Ammo Cache",
         "team": "1",
@@ -3520,19 +3495,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_bombcar.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-170.0",
-        "popupContent": "Amazing information about Car Bomb will be found here!"
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_valley_bombercar",
         "class": "ObjectSpawner",
-        "name_object": "Car Bomb",
+        "name_object": "DShkM Technical",
         "team": "1",
-        "obj1": "civ_jep_car_bomber",
+        "obj1": "civ_jep_technical",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -3666,7 +3641,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [220.02025, -197.35251],
+        "coordinates": [219.45349, -196.94075],
         "size": [16, 16]
       },
       "properties": {
@@ -4051,56 +4026,6 @@
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_valley_ammocache_4",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [191.0065, -177.325],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-152.62",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_korengal_insurgency16_valley_ammocache_5",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [205.17725, -160.70876],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-62.0",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_korengal_insurgency16_valley_ammocache_6",
         "class": "ObjectSpawner",
         "name_object": "Ammo Cache",
         "team": "1",
@@ -5055,9 +4980,9 @@
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -5280,7 +5205,7 @@
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
+        "obj2": "us_jep_hmmwv_uparmored_alt",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -5305,7 +5230,7 @@
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
+        "obj2": "us_jep_hmmwv_uparmored_mk19",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
         "spawndelay": "false",
@@ -5316,23 +5241,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [230.90076, -216.20575],
+        "coordinates": [230.46774, -215.75775],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_scouthelo.png",
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "-45.0",
-        "popupContent": "Amazing information about MH-6 Littlebird will be found here!"
+        "popupContent": "Amazing information about OH-58D Kiowa Warrior will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_usbase_the",
         "class": "ObjectSpawner",
-        "name_object": "MH-6 Littlebird",
+        "name_object": "OH-58D Kiowa Warrior",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_the_mh6",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "us_ahe_kiowa_alt2",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -5595,19 +5520,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about M2HB Technical will be found here!"
+        "popupContent": "Amazing information about Civilian Car will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_valley_car1",
         "class": "ObjectSpawner",
-        "name_object": "M2HB Technical",
+        "name_object": "Civilian Car",
         "team": "1",
-        "obj1": "civ_jep_technical_black",
+        "obj1": "civ_jep_car",
         "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -5620,20 +5545,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
         "iconrotate": "-180.0",
-        "popupContent": "Amazing information about Civilian Car will be found here!"
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_korengal_insurgency16_valley_car2",
         "class": "ObjectSpawner",
-        "name_object": "Civilian Car",
+        "name_object": "SPG-9 Technical",
         "team": "1",
-        "obj1": "civ_jep_car",
+        "obj1": "civ_atm_technical",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
+        "maxspawn": "1500.0",
+        "minspawn": "1500.0",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -5958,6 +5883,206 @@
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [220.63075, -197.8265],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "126.0",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_tow",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.735, -71.5595],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-117.089",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_logi",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.589, -80.8825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
+        "iconrotate": "-118.923",
+        "popupContent": "Amazing information about ats_tow will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_tow_0",
+        "class": "ObjectSpawner",
+        "name_object": "ats_tow",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ats_tow",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.4395, -194.09775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-127.678",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_truck",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.8695, -193.32324],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-127.678",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_truck_0",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.62775, -81.38925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "128.642",
+        "popupContent": "Amazing information about 50cal_tripod will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_mg",
+        "class": "ObjectSpawner",
+        "name_object": "50cal_tripod",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "50cal_tripod",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [229.53351, -197.95175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "126.0",
+        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_striker",
+        "class": "ObjectSpawner",
+        "name_object": "M1126 Stryker ICV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_stryker",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [222.63324, -194.39874],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "126.0",
+        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_korengal_insurgency16_usbase_striker_0",
+        "class": "ObjectSpawner",
+        "name_object": "M1126 Stryker ICV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_stryker",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }

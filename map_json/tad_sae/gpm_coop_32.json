@@ -87,7 +87,7 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "43.64",
         "popupContent": "Amazing information about M151A2 will be found here!"
       },
@@ -112,7 +112,7 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "39.233",
         "popupContent": "Amazing information about M151A2 will be found here!"
       },
@@ -277,6 +277,31 @@
         "minspawn": "300.0",
         "spawndelay": "true",
         "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201.983, -17.293],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_tad_sae_coop32_tadsaehq_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_vnnva",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {

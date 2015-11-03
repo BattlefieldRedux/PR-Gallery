@@ -1,0 +1,1083 @@
+{
+  "team1":"idf",
+  "team2":"ru",
+  "team1tickets":"1300",
+  "team2tickets":"1100",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_beirut_coop128_construction"
+      ],
+      [
+        "cpname_beirut_coop128_oldtown"
+      ],
+      [
+        "cpname_beirut_coop128_park"
+      ],
+      [
+        "cpname_beirut_coop128_seaside"
+      ],
+      [
+        "cpname_beirut_coop128_westend"
+      ],
+      [
+        "cpname_beirut_coop128_apartment"
+      ],
+      [
+        "cpname_beirut_coop128_harbour"
+      ],
+      [
+        "cpname_beirut_coop128_carrier"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.782372, -244.22961],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_vehicledepot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_idf",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.854126, -235.209],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "38.765",
+        "popupContent": "Amazing information about Merkava Mark IV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_tank",
+        "class": "ObjectSpawner",
+        "name_object": "Merkava Mark IV",
+        "team": "1",
+        "obj1": "idf_tnk_merkava_bf2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.120247, -249.91238],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
+        "iconrotate": "1.193",
+        "popupContent": "Amazing information about M113 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_apc",
+        "class": "ObjectSpawner",
+        "name_object": "M113 Logistics",
+        "team": "1",
+        "obj1": "idf_apc_m113_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.598251, -249.90112],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
+        "iconrotate": "1.193",
+        "popupContent": "Amazing information about M113 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_apc_0",
+        "class": "ObjectSpawner",
+        "name_object": "M113 Logistics",
+        "team": "1",
+        "obj1": "idf_apc_m113_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.488129, -239.06213],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about usaas_stinger will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_aa",
+        "class": "ObjectSpawner",
+        "name_object": "usaas_stinger",
+        "team": "1",
+        "obj1": "usaas_stinger",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [227.96675, -4.961502],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_trans",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-8T Hip",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [234.91913, -4.961502],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_the",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-8T Hip",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.118622, -97.964874],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "88.179",
+        "popupContent": "Amazing information about T-90 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_apc_2",
+        "class": "ObjectSpawner",
+        "name_object": "T-90",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_tnk_t90",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.096123, -97.259125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "88.179",
+        "popupContent": "Amazing information about T-90 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_apc_3",
+        "class": "ObjectSpawner",
+        "name_object": "T-90",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_tnk_t90",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7845, -94.23163],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour_vehicledepot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ru",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.70737, -4.961502],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_trans_0",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-8T Hip",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_the_mi8",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.22824, -4.0527496],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/firebase_mini_white.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hideout will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_cp",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "deployable_commandpost_ru",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.359375, -236.94987],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_jeep",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.833252, -236.94475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_jeep_0",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.337624, -236.94475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_jeep_1",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.858002, -236.94475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_jeep_2",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.942375, -94.332],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour_logi",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.21675, -95.11438],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour_rally",
+        "class": "ObjectSpawner",
+        "name_object": "Permanent spawnpoint",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "rallypoint_ru_placeable_noexpire",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.074371, -94.3985],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour_spandrel",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_mtlb",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.726753, -94.3985],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about MT-LBM will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour_brdm",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LBM",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_mtlb_hmg",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.395378, -94.3985],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about MT-LBM will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour_brdm_0",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LBM",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_apc_mtlb_hmg",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.42688, -7.7389984],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_boat.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about RHIB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_boat",
+        "class": "ObjectSpawner",
+        "name_object": "RHIB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_pkp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.73926, -7.7389984],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_boat.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about RHIB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_boat_0",
+        "class": "ObjectSpawner",
+        "name_object": "RHIB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_pkp",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.305626, -234.76862],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "38.765",
+        "popupContent": "Amazing information about Merkava Mark IV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_tank_1",
+        "class": "ObjectSpawner",
+        "name_object": "Merkava Mark IV",
+        "team": "1",
+        "obj1": "idf_tnk_merkava_bf2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.417122, -235.66101],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "38.765",
+        "popupContent": "Amazing information about Merkava Mark IV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_tank_2",
+        "class": "ObjectSpawner",
+        "name_object": "Merkava Mark IV",
+        "team": "1",
+        "obj1": "idf_tnk_merkava_bf2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.731499, -249.88312],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "1.193",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_truck",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "1",
+        "obj1": "idf_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.242752, -249.87338],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "1.193",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction_truck_0",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "1",
+        "obj1": "idf_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [255.20999, 205.48001],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_arty",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [256.05164, 205.48001],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_arty_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [255.20999, 204.17087],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_arty_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [256.05164, 204.17087],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier_arty_2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.92912, -177.87012],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_park_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.428, -175.43312],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_park_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.79525, -89.49338],
+        "size": [33, 33],
+        "radius": "15.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Docks 120m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_harbour",
+        "class": "ControlPoint",
+        "name_object": "City Docks 120m",
+        "team": "2",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "7",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.445, -118.80312],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Apartments 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_apartment",
+        "class": "ControlPoint",
+        "name_object": "Apartments 60m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "2",
+        "sgid": "6",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [156.25513, -118.1195],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West City 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_westend",
+        "class": "ControlPoint",
+        "name_object": "West City 80m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "3",
+        "sgid": "5",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [183.2665, -151.27425],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Seaside 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_seaside",
+        "class": "ControlPoint",
+        "name_object": "Seaside 80m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "4",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.46162, -194.61925],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about City Park 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_park",
+        "class": "ControlPoint",
+        "name_object": "City Park 80m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "5",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.35988, -194.63338],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Town 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_oldtown",
+        "class": "ControlPoint",
+        "name_object": "Old Town 80m",
+        "team": "1",
+        "areavalue1": "30.0",
+        "areavalue2": "30.0",
+        "cpid": "6",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.543877, -216.00174],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Construction Site 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_construction",
+        "class": "ControlPoint",
+        "name_object": "Construction Site 80m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "99999.0",
+        "cpid": "7",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.5625, -4.6863785],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Russian Carrier will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_beirut_coop128_carrier",
+        "class": "ControlPoint",
+        "name_object": "Russian Carrier",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "8",
+        "sgid": "8",
+        "uncap": "true",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    }
+  ]
+}

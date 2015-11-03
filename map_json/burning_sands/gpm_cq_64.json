@@ -4,7 +4,7 @@
   "team1tickets":"500",
   "team2tickets":"500",
   "mapsize":"4096",
-  "viewdistance":"610",
+  "viewdistance":"1100",
   "combatareause":"false",
   "combatareadamage":"0.0",
   "combatareaallowoutside":"0.0",
@@ -133,31 +133,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.084999, -14.075623],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_burning_sands_aas64_mecmain_0_ahe",
-        "class": "ObjectSpawner",
-        "name_object": "Mi-28N Havoc",
-        "team": "1",
-        "obj1": "mec_ahe_havoc",
-        "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [18.135315, -12.870628],
         "size": [16, 16]
       },
@@ -233,31 +208,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.369812, -14.665688],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
-      },
-      "bf2props": {
-        "name": "mecgopher",
-        "class": "ObjectSpawner",
-        "name_object": "9K35 Gopher",
-        "team": "1",
-        "obj1": "mec_aav_gopher",
-        "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [234.40463, -244.6637],
         "size": [16, 16]
       },
@@ -323,8 +273,108 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_ifv_scimitar",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.084999, -14.075623],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_burning_sands_aas64_mecmain_0_ahe",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-28N Havoc",
+        "team": "1",
+        "obj1": "mec_ahe_havoc",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.047188, -16.247566],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "mecthe128",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-17 Hip",
+        "team": "1",
+        "obj1": "mec_the_mi17",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.369812, -14.665688],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
+      },
+      "bf2props": {
+        "name": "mecgopher",
+        "class": "ObjectSpawner",
+        "name_object": "9K35 Gopher",
+        "team": "1",
+        "obj1": "mec_aav_gopher",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.02649, -242.06438],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconrotate": "-7.594",
+        "popupContent": "Amazing information about Lynx AH.7 will be found here!"
+      },
+      "bf2props": {
+        "name": "gbthe",
+        "class": "ObjectSpawner",
+        "name_object": "Lynx AH.7",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "gb_the_lynx",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -373,8 +423,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_aav_stormer",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -398,8 +448,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_the_chinook",
-        "maxspawn": "500.0",
-        "minspawn": "500.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -573,8 +623,8 @@
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -773,8 +823,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_jep_landrover",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -873,8 +923,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_jep_landrover",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -944,12 +994,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South East City Center 100m will be found here!"
+        "popupContent": "Amazing information about South East City Center 125m will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_secitycenter",
         "class": "ControlPoint",
-        "name_object": "South East City Center 100m",
+        "name_object": "South East City Center 125m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -1322,12 +1372,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South East City Outskirts 100m will be found here!"
+        "popupContent": "Amazing information about South East City Outskirts 125m will be found here!"
       },
       "bf2props": {
         "name": "cpname_burning_sands_aas64_centraleast",
         "class": "ControlPoint",
-        "name_object": "South East City Outskirts 100m",
+        "name_object": "South East City Outskirts 125m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",

@@ -1,8 +1,8 @@
 {
   "team1":"ch",
   "team2":"fr",
-  "team1tickets":"700",
-  "team2tickets":"700",
+  "team1tickets":"950",
+  "team2tickets":"950",
   "mapsize":"4096",
   "viewdistance":"600",
   "combatareause":"false",
@@ -19,6 +19,20 @@
     ],
     [
       [
+        "cpname_xiangshan_aas128_redbarracks"
+      ],
+      [
+        "cpname_xiangshan_aas128_northwestbridge"
+      ],
+      [
+        "cpname_xiangshan_aas128_bigmachill"
+      ],
+      [
+        "cpname_xiangshan_aas128_listeningpost"
+      ]
+    ],
+    [
+      [
         "cpname_xiangshan_aas128_redbarracks1"
       ],
       [
@@ -29,6 +43,20 @@
       ],
       [
         "cpname_xiangshan_aas128_listeningpost1"
+      ]
+    ],
+    [
+      [
+        "cpname_xiangshan_aas128_fishingvillage"
+      ],
+      [
+        "cpname_xiangshan_aas128_village"
+      ],
+      [
+        "cpname_xiangshan_aas128_northbridge"
+      ],
+      [
+        "cpname_xiangshan_aas128_oldcatholicmission1"
       ]
     ],
     [
@@ -271,7 +299,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about ZTZ-99A2 will be found here!"
       },
       "bf2props": {
@@ -296,7 +324,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about ZTZ-99A2 will be found here!"
       },
       "bf2props": {
@@ -306,8 +334,8 @@
         "team": "1",
         "obj1": "ch_tnk_ztz99",
         "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -334,31 +362,6 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.226, -18.970375],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_scout_light.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about VN-3 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_xiangshan_aas128_supplyline_vn3_0",
-        "class": "ObjectSpawner",
-        "name_object": "VN-3",
-        "team": "1",
-        "obj1": "ch_jep_vn3",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -446,7 +449,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about ZTZ-99A2 will be found here!"
       },
       "bf2props": {
@@ -483,7 +486,7 @@
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -520,17 +523,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
         "iconrotate": "-45.0",
-        "popupContent": "Amazing information about VAB VTT will be found here!"
+        "popupContent": "Amazing information about GBC 180 Logistics will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas128_blufob_jeep",
         "class": "ObjectSpawner",
-        "name_object": "VAB VTT",
+        "name_object": "GBC 180 Logistics",
         "team": "2",
         "obj1": "null",
-        "obj2": "fr_apc_vab",
+        "obj2": "fr_trk_logistics",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
         "spawndelay": "false",
@@ -596,7 +599,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Zhi-8KA will be found here!"
       },
       "bf2props": {
@@ -621,13 +624,13 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
-        "iconrotate": "180.0",
-        "popupContent": "Amazing information about ZSL-92B will be found here!"
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about ZSL-92B 30mm will be found here!"
       },
       "bf2props": {
         "name": "cpname_xiangshan_aas128_supplyline_lightapc",
         "class": "ObjectSpawner",
-        "name_object": "ZSL-92B",
+        "name_object": "ZSL-92B 30mm",
         "team": "1",
         "obj1": "ch_ifv_wz551b",
         "obj2": "null",
@@ -646,7 +649,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
       },
       "bf2props": {
@@ -1271,7 +1274,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Zhi-9WA will be found here!"
       },
       "bf2props": {
@@ -1308,32 +1311,7 @@
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.2887, -18.300812],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_xiangshan_aas128_supplyline_transporttruck",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 Logistics",
-        "team": "1",
-        "obj1": "ch_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -1359,56 +1337,6 @@
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.29494, -16.477997],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "-118.778",
-        "popupContent": "Amazing information about ZTZ-99A2 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_xiangshan_aas128_supplyline_tank_2",
-        "class": "ObjectSpawner",
-        "name_object": "ZTZ-99A2",
-        "team": "1",
-        "obj1": "ch_tnk_ztz99",
-        "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [23.392563, -231.92355],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about AMX-56 Leclerc will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_xiangshan_aas128_blufob_tank_1",
-        "class": "ObjectSpawner",
-        "name_object": "AMX-56 Leclerc",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "fr_tnk_leclerc",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -1485,7 +1413,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "201",
-        "sgid": "301",
+        "sgid": "302",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1512,7 +1440,34 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "202",
-        "sgid": "401",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.41475, -133.44781],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Xiangshan 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_village",
+        "class": "ControlPoint",
+        "name_object": "Xiangshan 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "303",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1539,7 +1494,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "204",
-        "sgid": "503",
+        "sgid": "505",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1566,7 +1521,88 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "205",
-        "sgid": "403",
+        "sgid": "405",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.54781, -178.84412],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Listening Post 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_listeningpost",
+        "class": "ControlPoint",
+        "name_object": "Listening Post 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "206",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.49344, -60.704247],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_redbarracks",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 60m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "207",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [61.20381, -62.143684],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Northwest Bridge 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_northwestbridge",
+        "class": "ControlPoint",
+        "name_object": "Northwest Bridge 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "208",
+        "sgid": "301",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1593,7 +1629,34 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "209",
-        "sgid": "402",
+        "sgid": "404",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.30025, -112.601],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Bridge 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_northbridge",
+        "class": "ControlPoint",
+        "name_object": "North Bridge 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "111",
+        "sgid": "403",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1647,7 +1710,61 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "3",
-        "sgid": "303",
+        "sgid": "305",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.72969, -108.775375],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Communication Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_bigmachill",
+        "class": "ControlPoint",
+        "name_object": "Communication Outpost 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.86919, -102.54756],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Leshan 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_fishingvillage",
+        "class": "ControlPoint",
+        "name_object": "Leshan 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "210",
+        "sgid": "203",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1674,7 +1791,34 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "211",
-        "sgid": "501",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "300.0",
+        "ttlc": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.835815, -134.18076],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Catholic Mission 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_xiangshan_aas128_oldcatholicmission1",
+        "class": "ControlPoint",
+        "name_object": "Old Catholic Mission 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "212",
+        "sgid": "503",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1701,7 +1845,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "213",
-        "sgid": "302",
+        "sgid": "304",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1728,7 +1872,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "214",
-        "sgid": "202",
+        "sgid": "204",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1755,7 +1899,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "215",
-        "sgid": "203",
+        "sgid": "205",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1782,7 +1926,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "216",
-        "sgid": "201",
+        "sgid": "202",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"
@@ -1809,7 +1953,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "217",
-        "sgid": "502",
+        "sgid": "504",
         "uncap": "false",
         "ttgc": "300.0",
         "ttlc": "300.0"

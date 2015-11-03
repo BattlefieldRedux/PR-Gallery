@@ -1,8 +1,8 @@
 {
   "team1":"chinsurgent",
   "team2":"ru",
-  "team1tickets":"650",
-  "team2tickets":"650",
+  "team1tickets":"1200",
+  "team2tickets":"1200",
   "mapsize":"2048",
   "viewdistance":"500",
   "combatareause":"false",
@@ -40,35 +40,13 @@
         "cpname_iron_ridge_aas128_westcitysouth_0"
       ],
       [
-        "cpname_iron_ridge_aas128_chemicalfactory"
+        "cpname_iron_ridge_aas128_chemicalfactory",
+        "cpname_iron_ridge_aas128_pumpstation"
       ],
       [
+        "cpname_iron_ridge_aas128_toxicwasteplant",
         "cpname_iron_ridge_aas128_apartments",
         "cpname_iron_ridge_aas128_ferriswheel"
-      ],
-      [
-        "cpname_iron_ridge_aas128_rusmain"
-      ]
-    ],
-    [
-      [
-        "cpname_iron_ridge_aas128_chechenmain"
-      ],
-      [
-        "cpname_iron_ridge_aas128_westcitynorth_1",
-        "cpname_iron_ridge_aas128_westcitysouth_1"
-      ],
-      [
-        "cpname_iron_ridge_aas128_communications1",
-        "cpname_iron_ridge_aas128_trainingcamp1"
-      ],
-      [
-        "cpname_iron_ridge_aas128_chemicalfactory1",
-        "cpname_iron_ridge_aas128_apartments1"
-      ],
-      [
-        "cpname_iron_ridge_aas128_abandoncity1",
-        "cpname_iron_ridge_aas128_abandoncity2"
       ],
       [
         "cpname_iron_ridge_aas128_rusmain"
@@ -81,23 +59,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.462997, -30.803253],
+        "coordinates": [21.971, -30.281502],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
         "iconrotate": "162.388",
-        "popupContent": "Amazing information about Ammo Pickup will be found here!"
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_chechenmain_support_1",
         "class": "ObjectSpawner",
-        "name_object": "Ammo Pickup",
+        "name_object": "SPG-9 Technical",
         "team": "1",
-        "obj1": "civ_jep_support_militia",
+        "obj1": "civ_atm_technical_militia",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -206,24 +184,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.971748, -29.343376],
+        "coordinates": [23.026878, -29.358498],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "179.761",
-        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+        "popupContent": "Amazing information about BMP-1 will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_chechenmain_bmp1",
         "class": "ObjectSpawner",
-        "name_object": "SPG-9 Technical",
+        "name_object": "BMP-1",
         "team": "1",
-        "obj1": "civ_atm_technical_militia",
+        "obj1": "mil_ifv_bmp1",
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "true",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -410,20 +388,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
         "iconrotate": "89.042",
-        "popupContent": "Amazing information about BTR-80A will be found here!"
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_rusmain_bmp2_0",
         "class": "ObjectSpawner",
-        "name_object": "BTR-80A",
+        "name_object": "Ural-4320",
         "team": "2",
         "obj1": "null",
-        "obj2": "ru_apc_btr80a",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "true",
+        "obj2": "ru_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -431,7 +409,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.876503, -31.723251],
+        "coordinates": [21.445625, -30.633377],
         "size": [16, 16]
       },
       "properties": {
@@ -531,12 +509,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.526878, -29.976128],
+        "coordinates": [22.478996, -29.896378],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
-        "iconrotate": "165.538",
+        "iconrotate": "179.416",
         "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
@@ -556,7 +534,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.375, -28.961502],
+        "coordinates": [23.557373, -28.966003],
         "size": [16, 16]
       },
       "properties": {
@@ -906,73 +884,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [243.58913, -201.62775],
+        "coordinates": [88.804, -196.33388],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "91.276",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-43.924",
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
       },
       "bf2props": {
-        "name": "cpname_iron_ridge_aas128_rusmain_truck1",
+        "name": "cpname_iron_ridge_aas128_communications_mg1",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.59637, -201.082],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "91.276",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_rusmain_truck2",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ru_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.041748, -36.364372],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "64.749",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_chechenmain_truck1",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "Stationary PKM",
         "team": "1",
-        "obj1": "mil_trk_support",
+        "obj1": "ru_bipod",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -981,23 +909,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.831253, -35.91275],
+        "coordinates": [88.46425, -199.77911],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "64.749",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-113.936",
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
       },
       "bf2props": {
-        "name": "cpname_iron_ridge_aas128_chechenmain_truck2",
+        "name": "cpname_iron_ridge_aas128_communications_mg2",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "Stationary PKM",
         "team": "1",
-        "obj1": "mil_trk_support",
+        "obj1": "ru_bipod",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1006,23 +934,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.990128, -30.519623],
+        "coordinates": [94.75862, -196.61087],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
-        "iconrotate": "165.416",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "47.233",
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
       },
       "bf2props": {
-        "name": "cpname_iron_ridge_aas128_chechenmain_bmp",
+        "name": "cpname_iron_ridge_aas128_communications_mg3",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "Stationary PKM",
         "team": "1",
-        "obj1": "mil_ifv_bmp1",
+        "obj1": "ru_bipod",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -1087,17 +1015,17 @@
         "type": "Point",
         "coordinates": [39.183624, -124.958496],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about West City 100m will be found here!"
+        "popupContent": "Amazing information about West City 150m will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_westcity",
         "class": "ControlPoint",
-        "name_object": "West City 100m",
+        "name_object": "West City 150m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
@@ -1112,24 +1040,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [180.98074, -40.716248],
+        "coordinates": [178.85287, -39.08075],
         "size": [33, 33],
-        "radius": "9.375"
+        "radius": "15.625"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Chemical Factory 75m will be found here!"
+        "popupContent": "Amazing information about Chemical Factory 125m will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_chemicalfactory",
         "class": "ControlPoint",
-        "name_object": "Chemical Factory 75m",
+        "name_object": "Chemical Factory 125m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "102",
-        "sgid": "302",
+        "sgid": "312",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1139,19 +1067,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [177.67012, -207.03876],
+        "coordinates": [184.3605, -128.44475],
         "size": [33, 33],
         "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Abandoned City 100m will be found here!"
+        "popupContent": "Amazing information about Toxic Waste Plant 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_iron_ridge_aas128_toxicwasteplant",
+        "class": "ControlPoint",
+        "name_object": "Toxic Waste Plant 100m",
+        "team": "0",
+        "areavalue1": "110.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.96013, -199.41875],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned City 150m will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_abandoncity",
         "class": "ControlPoint",
-        "name_object": "Abandoned City 100m",
+        "name_object": "Abandoned City 150m",
         "team": "0",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
@@ -1166,19 +1121,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [181.57088, -108.31375],
+        "coordinates": [183.46838, -102.044876],
         "size": [33, 33],
-        "radius": "9.375"
+        "radius": "15.625"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Apartments 75m will be found here!"
+        "popupContent": "Amazing information about Apartments 125m will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_apartments",
         "class": "ControlPoint",
-        "name_object": "Apartments 75m",
+        "name_object": "Apartments 125m",
         "team": "0",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
@@ -1193,19 +1148,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [179.70074, -181.832],
+        "coordinates": [106.361626, -48.500877],
         "size": [33, 33],
         "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Abandoned City 100m will be found here!"
+        "popupContent": "Amazing information about Pump Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_iron_ridge_aas128_pumpstation",
+        "class": "ControlPoint",
+        "name_object": "Pump Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.16013, -162.68837],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_farmhouse",
         "class": "ControlPoint",
-        "name_object": "Abandoned City 100m",
+        "name_object": "Farm 100m",
         "team": "0",
         "areavalue1": "110.0",
         "areavalue2": "0.0",
@@ -1220,7 +1202,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [61.84075, -219.68762],
+        "coordinates": [61.84075, -219.3865],
         "size": [33, 33],
         "radius": "6.25"
       },
@@ -1247,7 +1229,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.97662, -198.54875],
+        "coordinates": [90.748375, -198.39026],
         "size": [33, 33],
         "radius": "6.25"
       },
@@ -1328,7 +1310,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [171.81337, -159.41063],
+        "coordinates": [171.82138, -159.41063],
         "size": [33, 33],
         "radius": "15.625"
       },
@@ -1355,19 +1337,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.61425, -124.958496],
+        "coordinates": [39.183624, -124.958496],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about West City 100m will be found here!"
+        "popupContent": "Amazing information about West City 150m will be found here!"
       },
       "bf2props": {
         "name": "cpname_iron_ridge_aas128_westcity_0",
         "class": "ControlPoint",
-        "name_object": "West City 100m",
+        "name_object": "West City 150m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "110.0",
@@ -1427,222 +1409,6 @@
         "areavalue2": "110.0",
         "cpid": "8",
         "sgid": "212",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [35.50525, -109.91375],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about West City 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_westcitynorth_1",
-        "class": "ControlPoint",
-        "name_object": "West City 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "110.0",
-        "cpid": "301",
-        "sgid": "213",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [45.011375, -133.991],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about West City 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_westcitysouth_1",
-        "class": "ControlPoint",
-        "name_object": "West City 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "110.0",
-        "cpid": "302",
-        "sgid": "213",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [90.748375, -198.39026],
-        "size": [33, 33],
-        "radius": "6.25"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Communications 50m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_communications1",
-        "class": "ControlPoint",
-        "name_object": "Communications 50m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "303",
-        "sgid": "323",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [61.84075, -219.3865],
-        "size": [33, 33],
-        "radius": "6.25"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Training Camp 50m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_trainingcamp1",
-        "class": "ControlPoint",
-        "name_object": "Training Camp 50m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "304",
-        "sgid": "323",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [180.93512, -40.716248],
-        "size": [33, 33],
-        "radius": "9.375"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Chemical Factory 75m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_chemicalfactory1",
-        "class": "ControlPoint",
-        "name_object": "Chemical Factory 75m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "305",
-        "sgid": "423",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [181.32637, -108.31375],
-        "size": [33, 33],
-        "radius": "9.375"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Apartments 75m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_apartments1",
-        "class": "ControlPoint",
-        "name_object": "Apartments 75m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "306",
-        "sgid": "423",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [177.33838, -207.03876],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Abandoned City 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_abandoncity1",
-        "class": "ControlPoint",
-        "name_object": "Abandoned City 100m",
-        "team": "0",
-        "areavalue1": "110.0",
-        "areavalue2": "0.0",
-        "cpid": "307",
-        "sgid": "513",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [179.40662, -181.832],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Abandoned City 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_iron_ridge_aas128_abandoncity2",
-        "class": "ControlPoint",
-        "name_object": "Abandoned City 100m",
-        "team": "0",
-        "areavalue1": "110.0",
-        "areavalue2": "0.0",
-        "cpid": "308",
-        "sgid": "513",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"

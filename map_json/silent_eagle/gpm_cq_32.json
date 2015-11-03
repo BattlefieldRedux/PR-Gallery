@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"ger",
-  "team1tickets":"550",
-  "team2tickets":"550",
+  "team1tickets":"600",
+  "team2tickets":"600",
   "mapsize":"4096",
   "viewdistance":"900",
   "combatareause":"false",
@@ -26,9 +26,7 @@
         "cpname_silent_eagle_aas32_airfield"
       ],
       [
-        "cpname_silent_eagle_aas32_paradrop",
-        "cpname_silent_eagle_aas32_gertanks",
-        "cpname_silent_eagle_aas32_paradrop2"
+        "cpname_silent_eagle_aas32_gertanks"
       ]
     ],
     [
@@ -50,9 +48,7 @@
         "cpname_silent_eagle_aas32_airfield"
       ],
       [
-        "cpname_silent_eagle_aas32_paradrop",
-        "cpname_silent_eagle_aas32_gertanks",
-        "cpname_silent_eagle_aas32_paradrop2"
+        "cpname_silent_eagle_aas32_gertanks"
       ]
     ],
     [
@@ -73,9 +69,7 @@
         "cpname_silent_eagle_aas32_airfield"
       ],
       [
-        "cpname_silent_eagle_aas32_paradrop",
-        "cpname_silent_eagle_aas32_gertanks",
-        "cpname_silent_eagle_aas32_paradrop2"
+        "cpname_silent_eagle_aas32_gertanks"
       ]
     ]
   ],
@@ -140,7 +134,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about BTR-80A will be found here!"
       },
       "bf2props": {
@@ -165,7 +159,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
@@ -190,7 +184,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
       },
       "bf2props": {
@@ -391,12 +385,12 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "19.68",
-        "popupContent": "Amazing information about Puma IFV will be found here!"
+        "popupContent": "Amazing information about Puma will be found here!"
       },
       "bf2props": {
         "name": "cpname_silent_eagle_aas32_gertanks_puma_0",
         "class": "ObjectSpawner",
-        "name_object": "Puma IFV",
+        "name_object": "Puma",
         "team": "2",
         "obj1": "null",
         "obj2": "ger_apc_puma",
@@ -735,131 +729,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [109.357315, -215.24738],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop2_para",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [118.15288, -208.48663],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop2_para_0",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [150.78506, -203.728],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop2_para_1",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [153.64012, -177.41875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop_para",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [156.63087, -191.91037],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop_para_0",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary paradrop spawn",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "paradrop",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [142.98112, -211.52606],
         "size": [16, 16]
       },
@@ -1115,7 +984,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about MT-LBM will be found here!"
       },
       "bf2props": {
@@ -1140,7 +1009,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about BTR-80 will be found here!"
       },
       "bf2props": {
@@ -1190,7 +1059,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about 9P149 Shturm-S will be found here!"
       },
       "bf2props": {
@@ -1710,6 +1579,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [24.553314, -207.49281],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_aas32_gertanks_paradrop_1",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary paradrop spawn",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "paradrop",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.0735, -227.38525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary paradrop spawn will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_silent_eagle_aas32_gertanks_paradrop_2",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary paradrop spawn",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "paradrop",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [149.1575, -214.94612],
         "size": [33, 33],
         "radius": "12.5"
@@ -1872,33 +1791,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [194.77618, -175.07825],
-        "size": [33, 33],
-        "radius": "0.0"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about cpname_silent_eagle_aas32_paradrop will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop",
-        "class": "ControlPoint",
-        "name_object": "cpname_silent_eagle_aas32_paradrop",
-        "team": "2",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "8",
-        "sgid": "-999",
-        "uncap": "true",
-        "ttgc": "0.0",
-        "ttlc": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [36.34919, -235.14682],
         "size": [33, 33],
         "radius": "0.0"
@@ -1999,33 +1891,6 @@
         "cpid": "11",
         "sgid": "-999",
         "uncap": "true",
-        "ttgc": "0.0",
-        "ttlc": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [113.46025, -177.91257],
-        "size": [33, 33],
-        "radius": "0.0"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/ger/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about cpname_silent_eagle_aas32_paradrop2 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_silent_eagle_aas32_paradrop2",
-        "class": "ControlPoint",
-        "name_object": "cpname_silent_eagle_aas32_paradrop2",
-        "team": "2",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "12",
-        "sgid": "-999",
-        "uncap": "false",
         "ttgc": "0.0",
         "ttlc": "0.0"
       }

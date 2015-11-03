@@ -1,8 +1,8 @@
 {
   "team1":"ch",
   "team2":"usa",
-  "team1tickets":"550",
-  "team2tickets":"550",
+  "team1tickets":"600",
+  "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"700",
   "combatareause":"false",
@@ -17,11 +17,58 @@
         "cpname_qwai1_aas64_temple"
       ],
       [
+        "cpname_qwai1_aas64_southbridge"
+      ],
+      [
+        "cpname_qwai1_aas64_northbridge"
+      ],
+      [
+        "cpname_qwai1_aas64_minefacility"
+      ],
+      [
+        "cpname_qwai1_aas64_usbase"
+      ]
+    ],
+    [
+      [
+        "cpname_qwai1_aas64_plaoutpost"
+      ],
+      [
+        "cpname_qwai1_aas64_forest"
+      ],
+      [
+        "cpname_qwai1_aas64_constructionsite"
+      ],
+      [
+        "cpname_qwai1_aas64_minefacility2"
+      ],
+      [
+        "cpname_qwai1_aas64_oldhouse"
+      ],
+      [
+        "cpname_qwai1_aas64_usbase"
+      ]
+    ],
+    [
+      [
+        "cpname_qwai1_aas64_plaoutpost"
+      ],
+      [
+        "cpname_qwai1_aas64_temple2"
+      ],
+      [
+        "cpname_qwai1_aas64_forest2"
+      ],
+      [
+        "cpname_qwai1_aas64_govtoffice",
+        "cpname_qwai1_aas64_southvillage"
+      ],
+      [
         "cpname_qwai1_aas64_processing",
-        "cpname_qwai1_aas64_facility2"
+        "cpname_qwai1_aas64_facility"
       ],
       [
-        "cpname_qwai1_aas64_pigfarm"
+        "cpname_qwai1_aas64_usbase"
       ]
     ],
     [
@@ -29,57 +76,20 @@
         "cpname_qwai1_aas64_plaoutpost"
       ],
       [
-        "cpname_qwai1_aas64_govtestate",
-        "cpname_qwai1_aas64_fields5"
+        "cpname_qwai1_aas64_temple3"
       ],
       [
-        "cpname_qwai1_aas64_mineentrance"
+        "cpname_qwai1_aas64_forest3"
       ],
       [
-        "cpname_qwai1_aas64_pigfarm"
-      ]
-    ],
-    [
-      [
-        "cpname_qwai1_aas64_plaoutpost"
+        "cpname_qwai1_aas64_southvillage2",
+        "cpname_qwai1_aas64_govtoffice2"
       ],
       [
-        "cpname_qwai1_aas64_fields4"
+        "cpname_qwai1_aas64_oldhouse2"
       ],
       [
-        "cpname_qwai1_aas64_fields1",
-        "cpname_qwai1_aas64_northcrossroad"
-      ],
-      [
-        "cpname_qwai1_aas64_pigfarm"
-      ]
-    ],
-    [
-      [
-        "cpname_qwai1_aas64_plaoutpost"
-      ],
-      [
-        "cpname_qwai1_aas64_fields2"
-      ],
-      [
-        "cpname_qwai1_aas64_southcrossroad"
-      ],
-      [
-        "cpname_qwai1_aas64_pigfarm"
-      ]
-    ],
-    [
-      [
-        "cpname_qwai1_aas64_plaoutpost"
-      ],
-      [
-        "cpname_qwai1_aas64_fishingvillage"
-      ],
-      [
-        "cpname_qwai1_aas64_govtoffice"
-      ],
-      [
-        "cpname_qwai1_aas64_pigfarm"
+        "cpname_qwai1_aas64_usbase"
       ]
     ]
   ],
@@ -89,73 +99,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.39875, -205.16612],
+        "coordinates": [25.107872, -214.37674],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+        "popupContent": "Amazing information about Zhi-9B will be found here!"
       },
       "bf2props": {
-        "name": "trk_1",
+        "name": "cpname_qwai1_aas64_plaoutpost_lightheli",
         "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
+        "name_object": "Zhi-9B",
         "team": "1",
-        "obj1": "ch_trk_support",
+        "obj1": "ch_the_z9b",
         "obj2": "null",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [27.741127, -210.27124],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "trk_2",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "1",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [26.814247, -213.349],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "trk_3",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "1",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "12000.0"
       }
@@ -173,157 +133,7 @@
         "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_pigfarm_ch_us_lightjeep",
-        "class": "ObjectSpawner",
-        "name_object": "M1126 Stryker ICV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_apc_stryker",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.292625, -208.24762],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "-89.682",
-        "popupContent": "Amazing information about WZ551 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_qr_64_plaoutpost_ch_usmc_apc_0",
-        "class": "ObjectSpawner",
-        "name_object": "WZ551",
-        "team": "1",
-        "obj1": "ch_apc_wz551a",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [213.54861, -103.031624],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_towjeep.png",
-        "iconrotate": "-92.751",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "tow",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_atm_hmmwv_uparmored",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "true",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.779625, -204.49088],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ZSL-92B will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_0",
-        "class": "ObjectSpawner",
-        "name_object": "ZSL-92B",
-        "team": "1",
-        "obj1": "ch_ifv_wz551b",
-        "obj2": "null",
-        "maxspawn": "750.0",
-        "minspawn": "750.0",
-        "spawndelay": "true",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.81675, -203.88937],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about BJ2020 will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_1",
-        "class": "ObjectSpawner",
-        "name_object": "BJ2020",
-        "team": "1",
-        "obj1": "ch_jep_paratrooper",
-        "obj2": "null",
-        "maxspawn": "400.0",
-        "minspawn": "400.0",
-        "spawndelay": "true",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.379623, -207.3965],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_scout_light.png",
-        "iconrotate": "-89.682",
-        "popupContent": "Amazing information about VN-3 will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_2",
-        "class": "ObjectSpawner",
-        "name_object": "VN-3",
-        "team": "1",
-        "obj1": "ch_jep_vn3",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [213.45963, -106.18237],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "-88.926",
-        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
-      },
-      "bf2props": {
-        "name": "mk19stryker",
+        "name": "cpname_qwai1_aas64_usbase_apc",
         "class": "ObjectSpawner",
         "name_object": "M1126 Stryker ICV",
         "team": "2",
@@ -331,33 +141,8 @@
         "obj2": "us_apc_stryker_mk19",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [37.587624, -126.321],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about zpu4 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_qr_64_plaoutpost_aa",
-        "class": "ObjectSpawner",
-        "name_object": "zpu4",
-        "team": "1",
-        "obj1": "zpu4",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
         "spawndelay": "false",
-        "ttl": "0.0"
+        "ttl": "12000.0"
       }
     },
     {
@@ -373,7 +158,7 @@
         "popupContent": "Amazing information about RHIB will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_processing_spdboat",
+        "name": "cpname_qwai1_aas64_usbase_rhib",
         "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "2",
@@ -393,20 +178,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
         "iconrotate": "90.0",
         "popupContent": "Amazing information about WZ551 will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_plaoutpost_ch_us_apc",
+        "name": "cpname_qwai1_aas64_plaoutpost_apc",
         "class": "ObjectSpawner",
         "name_object": "WZ551",
         "team": "1",
-        "obj1": "ch_apc_wz551a",
+        "obj1": "ch_apc_wz551",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "12000.0"
       }
     },
@@ -423,7 +208,7 @@
         "popupContent": "Amazing information about M35 Logistics will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_pigfarm_ch_usmc_heavyjeep",
+        "name": "cpname_qwai1_aas64_usbase_logi1",
         "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
@@ -448,7 +233,7 @@
         "popupContent": "Amazing information about BJ2020 will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_plaoutpost_ch_usmc_heavyjeep",
+        "name": "cpname_qwai1_aas64_plaoutpost_jeep1",
         "class": "ObjectSpawner",
         "name_object": "BJ2020",
         "team": "1",
@@ -468,16 +253,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "89.054",
-        "popupContent": "Amazing information about UAZ-469 will be found here!"
+        "popupContent": "Amazing information about BJ2020 will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_plaoutpost_ch_usmc_heavyjeep_0",
+        "name": "cpname_qwai1_aas64_plaoutpost_jeep2",
         "class": "ObjectSpawner",
-        "name_object": "UAZ-469",
+        "name_object": "BJ2020",
         "team": "1",
-        "obj1": "ch_jep_uaz",
+        "obj1": "ch_jep_paratrooper",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -498,7 +283,7 @@
         "popupContent": "Amazing information about M35 Logistics will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qr_64_pigfarm_support",
+        "name": "cpname_qwai1_aas64_usbase_logi2",
         "class": "ObjectSpawner",
         "name_object": "M35 Logistics",
         "team": "2",
@@ -514,31 +299,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.763123, -125.541],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-178.939",
-        "popupContent": "Amazing information about zpu4 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_qr_64_plaoutpost_a",
-        "class": "ObjectSpawner",
-        "name_object": "zpu4",
-        "team": "1",
-        "obj1": "zpu4",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [25.174873, -212.75125],
         "size": [16, 16]
       },
@@ -548,7 +308,7 @@
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
       },
       "bf2props": {
-        "name": "supply",
+        "name": "cpname_qwai1_aas64_plaoutpost_logi1",
         "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
@@ -573,7 +333,7 @@
         "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
       },
       "bf2props": {
-        "name": "supply_0",
+        "name": "cpname_qwai1_aas64_plaoutpost_logi2",
         "class": "ObjectSpawner",
         "name_object": "EQ2080 Logistics",
         "team": "1",
@@ -598,7 +358,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "jdam",
+        "name": "cpname_qwai1_aas64_plaoutpost_arty1",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "1",
@@ -623,7 +383,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "jdam_0",
+        "name": "cpname_qwai1_aas64_usbase_arty1",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "2",
@@ -648,7 +408,7 @@
         "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
-        "name": "cp",
+        "name": "cpname_qwai1_aas64_usbase_acv",
         "class": "ObjectSpawner",
         "name_object": "UAV Terminal",
         "team": "2",
@@ -673,7 +433,7 @@
         "popupContent": "Amazing information about RHIB will be found here!"
       },
       "bf2props": {
-        "name": "a",
+        "name": "cpname_qwai1_aas64_plaoutpost_rhib",
         "class": "ObjectSpawner",
         "name_object": "RHIB",
         "team": "1",
@@ -698,7 +458,7 @@
         "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
-        "name": "cp_0",
+        "name": "cpname_qwai1_aas64_plaoutpost_acv",
         "class": "ObjectSpawner",
         "name_object": "UAV Terminal",
         "team": "1",
@@ -706,31 +466,6 @@
         "obj2": "null",
         "maxspawn": "0.0",
         "minspawn": "0.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [36.748627, -127.06138],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-178.939",
-        "popupContent": "Amazing information about zpu4 will be found here!"
-      },
-      "bf2props": {
-        "name": "aa",
-        "class": "ObjectSpawner",
-        "name_object": "zpu4",
-        "team": "1",
-        "obj1": "zpu4",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "0.0"
       }
@@ -748,7 +483,7 @@
         "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
-        "name": "depot",
+        "name": "cpname_qwai1_aas64_usbase_vehicledepot",
         "class": "ObjectSpawner",
         "name_object": "Vehicle Depot",
         "team": "2",
@@ -773,7 +508,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty",
+        "name": "cpname_qwai1_aas64_usbase_arty2",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "2",
@@ -798,7 +533,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty_0",
+        "name": "cpname_qwai1_aas64_usbase_arty3",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "2",
@@ -823,7 +558,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty_1",
+        "name": "cpname_qwai1_aas64_usbase_arty4",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "2",
@@ -848,7 +583,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty_2",
+        "name": "cpname_qwai1_aas64_plaoutpost_arty2",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "1",
@@ -873,7 +608,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty_3",
+        "name": "cpname_qwai1_aas64_plaoutpost_arty3",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "1",
@@ -898,7 +633,7 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty_4",
+        "name": "cpname_qwai1_aas64_plaoutpost_arty4",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "1",
@@ -923,7 +658,7 @@
         "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
-        "name": "depot_0",
+        "name": "cpname_qwai1_aas64_plaoutpost_vehicledepot",
         "class": "ObjectSpawner",
         "name_object": "Vehicle Depot",
         "team": "1",
@@ -948,7 +683,7 @@
         "popupContent": "Amazing information about VN-3 will be found here!"
       },
       "bf2props": {
-        "name": "recon_1",
+        "name": "cpname_qwai1_aas64_plaoutpost_jeep3",
         "class": "ObjectSpawner",
         "name_object": "VN-3",
         "team": "1",
@@ -956,132 +691,7 @@
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [25.075378, -214.47699],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about Zhi-9B will be found here!"
-      },
-      "bf2props": {
-        "name": "128the",
-        "class": "ObjectSpawner",
-        "name_object": "Zhi-9B",
-        "team": "1",
-        "obj1": "ch_the_z9b",
-        "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.893501, -205.06686],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-89.682",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "16trkdelay",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "1",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [213.66287, -106.726875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-90.0",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "16jep_3",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [215.44012, -102.90675],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_scouthelo.png",
-        "iconrotate": "-88.926",
-        "popupContent": "Amazing information about MH-6 Littlebird will be found here!"
-      },
-      "bf2props": {
-        "name": "littlebird",
-        "class": "ObjectSpawner",
-        "name_object": "MH-6 Littlebird",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_mh6",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [215.33899, -105.89675],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-88.926",
-        "popupContent": "Amazing information about UH-60L Blackhawk will be found here!"
-      },
-      "bf2props": {
-        "name": "helinodelay",
-        "class": "ObjectSpawner",
-        "name_object": "UH-60L Blackhawk",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_uh60",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "12000.0"
       }
     },
@@ -1094,36 +704,11 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
       },
       "bf2props": {
-        "name": "crows",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored_crows",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "false",
-        "ttl": "12000.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [209.96475, -105.09575],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "54.362",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "mk19",
+        "name": "cpname_qwai1_aas64_usbase_jeep1",
         "class": "ObjectSpawner",
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
@@ -1131,6 +716,31 @@
         "obj2": "us_jep_hmmwv_uparmored_mk19",
         "maxspawn": "600.0",
         "minspawn": "600.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [213.67387, -106.27138],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-88.642",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_usbase_jeep2",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "12000.0"
       }
@@ -1139,21 +749,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [210.00775, -104.29725],
+        "coordinates": [213.7745, -103.30625],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+        "iconrotate": "-89.25",
+        "popupContent": "Amazing information about HMMWV will be found here!"
       },
       "bf2props": {
-        "name": "50cal_0",
+        "name": "cpname_qwai1_aas64_usbase_jeep3",
         "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
+        "name_object": "HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
+        "obj2": "us_jep_hmmwv",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
@@ -1164,24 +774,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [67.84625, -67.65488],
+        "coordinates": [67.84625, -67.105125],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "10.0"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Qwai Estate 200m will be found here!"
+        "popupContent": "Amazing information about Construction Site 80m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_govtestate",
+        "name": "cpname_qwai1_aas64_constructionsite",
         "class": "ControlPoint",
-        "name_object": "Qwai Estate 200m",
+        "name_object": "Construction Site 80m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "301",
-        "sgid": "212",
+        "sgid": "302",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1191,24 +801,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [188.01738, -228.25613],
+        "coordinates": [181.62012, -225.86325],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "10.0"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Processing Facility 200m will be found here!"
+        "popupContent": "Amazing information about Processing Plant 80m will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_aas64_processing",
         "class": "ControlPoint",
-        "name_object": "Processing Facility 200m",
+        "name_object": "Processing Plant 80m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "302",
-        "sgid": "311",
+        "sgid": "513",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1218,19 +828,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.429504, -203.58551],
+        "coordinates": [86.429504, -217.55287],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Xuchang Temple 200m will be found here!"
+        "popupContent": "Amazing information about Temple 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_aas64_temple",
         "class": "ControlPoint",
-        "name_object": "Xuchang Temple 200m",
+        "name_object": "Temple 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -1245,25 +855,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.586998, -126.18725],
+        "coordinates": [20.868752, -211.465],
         "size": [33, 33],
         "radius": "12.5"
       },
       "properties": {
-        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about PLA Operations Base 100m will be found here!"
+        "popupContent": "Amazing information about PLA Outpost will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_aas64_plaoutpost",
         "class": "ControlPoint",
-        "name_object": "PLA Operations Base 100m",
+        "name_object": "PLA Outpost",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "1000.0",
         "cpid": "304",
         "sgid": "1",
-        "uncap": "false",
+        "uncap": "true",
         "ttgc": "120.0",
         "ttlc": "120.0"
       }
@@ -1272,24 +882,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [152.61337, -146.62975],
+        "coordinates": [152.61337, -146.45363],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "6.25"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Jiangmen 200m will be found here!"
+        "popupContent": "Amazing information about Government Office 50m will be found here!"
       },
       "bf2props": {
         "name": "cpname_qwai1_aas64_govtoffice",
         "class": "ControlPoint",
-        "name_object": "Jiangmen 200m",
+        "name_object": "Government Office 50m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "305",
-        "sgid": "305",
+        "sgid": "413",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1299,25 +909,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [207.27988, -153.83475],
+        "coordinates": [213.88737, -105.7685],
         "size": [33, 33],
         "radius": "12.5"
       },
       "properties": {
-        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about US Army Operations Base 100m will be found here!"
+        "popupContent": "Amazing information about US Army Base will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_pigfarm",
+        "name": "cpname_qwai1_aas64_usbase",
         "class": "ControlPoint",
-        "name_object": "US Army Operations Base 100m",
+        "name_object": "US Army Base",
         "team": "2",
         "areavalue1": "1000.0",
         "areavalue2": "0.0",
         "cpid": "306",
-        "sgid": "4",
-        "uncap": "false",
+        "sgid": "6",
+        "uncap": "true",
         "ttgc": "120.0",
         "ttlc": "120.0"
       }
@@ -1326,24 +936,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.412125, -138.32062],
+        "coordinates": [121.41688, -171.96312],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Foshan Village 200m will be found here!"
+        "popupContent": "Amazing information about South Bridge 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_fishingvillage",
+        "name": "cpname_qwai1_aas64_southbridge",
         "class": "ControlPoint",
-        "name_object": "Foshan Village 200m",
+        "name_object": "South Bridge 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "307",
-        "sgid": "205",
+        "sgid": "301",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1353,24 +963,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [173.82863, -47.69288],
+        "coordinates": [175.00912, -42.95775],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "7.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Mining Entrance 200m will be found here!"
+        "popupContent": "Amazing information about Mine Facility 60m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_mineentrance",
+        "name": "cpname_qwai1_aas64_minefacility",
         "class": "ControlPoint",
-        "name_object": "Mining Entrance 200m",
+        "name_object": "Mine Facility 60m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "308",
-        "sgid": "302",
+        "sgid": "501",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1380,24 +990,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [169.37613, -85.211624],
+        "coordinates": [174.64288, -86.469124],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "6.25"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Objective 56 200m will be found here!"
+        "popupContent": "Amazing information about Old House 50m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_fields1",
+        "name": "cpname_qwai1_aas64_oldhouse",
         "class": "ControlPoint",
-        "name_object": "Objective 56 200m",
+        "name_object": "Old House 50m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "601",
-        "sgid": "313",
+        "sgid": "502",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1407,24 +1017,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [160.03987, -110.50963],
+        "coordinates": [132.52713, -102.69425],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about North Crossroad 200m will be found here!"
+        "popupContent": "Amazing information about North Bridge 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_northcrossroad",
+        "name": "cpname_qwai1_aas64_northbridge",
         "class": "ControlPoint",
-        "name_object": "North Crossroad 200m",
+        "name_object": "North Bridge 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "602",
-        "sgid": "313",
+        "sgid": "401",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1434,24 +1044,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [159.173, -202.412],
+        "coordinates": [163.93025, -209.008],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "10.0"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Objective 61 200m will be found here!"
+        "popupContent": "Amazing information about Facility 80m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_facility2",
+        "name": "cpname_qwai1_aas64_facility",
         "class": "ControlPoint",
-        "name_object": "Objective 61 200m",
+        "name_object": "Facility 80m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "603",
-        "sgid": "311",
+        "sgid": "513",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1461,24 +1071,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.00963, -165.04025],
+        "coordinates": [99.96687, -135.74863],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Objective 57 200m will be found here!"
+        "popupContent": "Amazing information about Forest 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_fields2",
+        "name": "cpname_qwai1_aas64_forest",
         "class": "ControlPoint",
-        "name_object": "Objective 57 200m",
+        "name_object": "Forest 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "604",
-        "sgid": "204",
+        "sgid": "202",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1488,23 +1098,50 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [87.7755, -109.1285],
+        "coordinates": [146.757, -164.2285],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "6.25"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Objective 59 200m will be found here!"
+        "popupContent": "Amazing information about South Village 50m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_fields4",
+        "name": "cpname_qwai1_aas64_southvillage",
         "class": "ControlPoint",
-        "name_object": "Objective 59 200m",
+        "name_object": "South Village 50m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "606",
+        "cpid": "607",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.429504, -217.55287],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temple 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_temple2",
+        "class": "ControlPoint",
+        "name_object": "Temple 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "309",
         "sgid": "203",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1515,23 +1152,77 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.84888, -171.79037],
+        "coordinates": [86.429504, -217.55287],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South Crossroad 200m will be found here!"
+        "popupContent": "Amazing information about Temple 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_southcrossroad",
+        "name": "cpname_qwai1_aas64_temple3",
         "class": "ControlPoint",
-        "name_object": "South Crossroad 200m",
+        "name_object": "Temple 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "607",
+        "cpid": "310",
+        "sgid": "204",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.96687, -135.74863],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forest 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_forest2",
+        "class": "ControlPoint",
+        "name_object": "Forest 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "311",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.96687, -135.74863],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Forest 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_forest3",
+        "class": "ControlPoint",
+        "name_object": "Forest 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "312",
         "sgid": "304",
         "uncap": "false",
         "ttgc": "180.0",
@@ -1542,24 +1233,105 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [104.7695, -51.577248],
+        "coordinates": [146.757, -164.2285],
         "size": [33, 33],
-        "radius": "25.0"
+        "radius": "6.25"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Objective 60 200m will be found here!"
+        "popupContent": "Amazing information about South Village 50m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_qwai1_aas64_fields5",
+        "name": "cpname_qwai1_aas64_southvillage2",
         "class": "ControlPoint",
-        "name_object": "Objective 60 200m",
+        "name_object": "South Village 50m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "608",
-        "sgid": "212",
+        "cpid": "313",
+        "sgid": "414",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.61337, -146.45363],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Government Office 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_govtoffice2",
+        "class": "ControlPoint",
+        "name_object": "Government Office 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "314",
+        "sgid": "414",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.64288, -86.469124],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old House 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_oldhouse2",
+        "class": "ControlPoint",
+        "name_object": "Old House 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "315",
+        "sgid": "504",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.00912, -42.95775],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Mine Facility 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_minefacility2",
+        "class": "ControlPoint",
+        "name_object": "Mine Facility 60m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "317",
+        "sgid": "402",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"

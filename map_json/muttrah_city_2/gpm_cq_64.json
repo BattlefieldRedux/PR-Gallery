@@ -1,8 +1,8 @@
 {
   "team1":"mec",
   "team2":"us",
-  "team1tickets":"550",
-  "team2tickets":"550",
+  "team1tickets":"750",
+  "team2tickets":"750",
   "mapsize":"2048",
   "viewdistance":"700",
   "combatareause":"false",
@@ -17,13 +17,12 @@
         "cpname_muttrah_city_2_aas64_southcity"
       ],
       [
-        "cpname_muttrah_city_2_aas64_eastcitycenter"
-      ],
-      [
+        "cpname_muttrah_city_2_aas64_eastcitycenter",
         "cpname_muttrah_city_2_aas64_westcitycenter"
       ],
       [
-        "cpname_muttrah_city_2_aas64_northcity"
+        "cpname_muttrah_city_2_aas64_northcity",
+        "cpname_muttrah_city_2_aas64_northsuburbs"
       ],
       [
         "cpname_muttrah_city_2_aas64_docks"
@@ -39,12 +38,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.31575, -30.346252],
+        "coordinates": [237.733, -29.746498],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
-        "iconrotate": "-137.027",
+        "iconrotate": "-135.108",
         "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
       },
       "bf2props": {
@@ -53,7 +52,7 @@
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_the_uh1n",
+        "obj2": "us_the_uh1n_m240d",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -104,8 +103,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "us_the_mv22",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -132,7 +131,7 @@
         "maxspawn": "120.0",
         "minspawn": "120.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "300.0"
       }
     },
     {
@@ -157,7 +156,7 @@
         "maxspawn": "120.0",
         "minspawn": "120.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
+        "ttl": "300.0"
       }
     },
     {
@@ -439,31 +438,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [223.4675, -16.192627],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
-        "iconrotate": "-154.341",
-        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_muttrah_city_2_aas64_carrier_transheli2",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1N Twin Huey",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_ahe_uh1nrockets",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [142.38412, -243.84175],
         "size": [16, 16]
       },
@@ -539,12 +513,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [237.733, -29.746498],
+        "coordinates": [241.31575, -30.346252],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "",
-        "iconrotate": "-135.108",
+        "iconrotate": "-137.027",
         "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
       },
       "bf2props": {
@@ -553,9 +527,9 @@
         "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_the_uh1n_m240d",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -664,6 +638,81 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [240.25824, -35.23725],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-78.821",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas64_docks_us_heli_trans",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n_m240d",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.445, -236.71812],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-81.042",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas64_fort_mec_truck_support",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.07887, -32.493874],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_aavp7.png",
+        "iconrotate": "132.801",
+        "popupContent": "Amazing information about AAVP7A1 RAM/RS will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas64_carrier_us_apc2",
+        "class": "ObjectSpawner",
+        "name_object": "AAVP7A1 RAM/RS",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_aavp7a1",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [233.57639, -25.549126],
         "size": [33, 33],
         "radius": "0.0"
@@ -680,8 +729,8 @@
         "team": "2",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "1",
-        "sgid": "70",
+        "cpid": "500",
+        "sgid": "60",
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
@@ -705,10 +754,10 @@
         "class": "ControlPoint",
         "name_object": "Muttrah Docks 150m",
         "team": "0",
-        "areavalue1": "30.0",
-        "areavalue2": "20.0",
-        "cpid": "201",
-        "sgid": "60",
+        "areavalue1": "60.0",
+        "areavalue2": "30.0",
+        "cpid": "501",
+        "sgid": "50",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "45.0"
@@ -718,24 +767,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [35.22625, -113.49338],
+        "coordinates": [30.910622, -136.606],
         "size": [33, 33],
-        "radius": "18.75"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about North City 150m will be found here!"
+        "popupContent": "Amazing information about North City 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_aas64_northcity",
         "class": "ControlPoint",
-        "name_object": "North City 150m",
+        "name_object": "North City 100m",
         "team": "0",
-        "areavalue1": "20.0",
-        "areavalue2": "20.0",
-        "cpid": "202",
-        "sgid": "50",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "502",
+        "sgid": "40",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "60.0"
@@ -747,25 +796,25 @@
         "type": "Point",
         "coordinates": [57.893753, -193.491],
         "size": [33, 33],
-        "radius": "15.625"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about East City Center 125m will be found here!"
+        "popupContent": "Amazing information about East City Center 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_aas64_eastcitycenter",
         "class": "ControlPoint",
-        "name_object": "East City Center 125m",
+        "name_object": "East City Center 100m",
         "team": "0",
         "areavalue1": "15.0",
         "areavalue2": "15.0",
-        "cpid": "204",
+        "cpid": "504",
         "sgid": "30",
         "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
+        "ttgc": "180.0",
+        "ttlc": "180.0"
       }
     },
     {
@@ -774,25 +823,25 @@
         "type": "Point",
         "coordinates": [89.54738, -221.71863],
         "size": [33, 33],
-        "radius": "18.75"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South City 150m will be found here!"
+        "popupContent": "Amazing information about South City 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_aas64_southcity",
         "class": "ControlPoint",
-        "name_object": "South City 150m",
+        "name_object": "South City 100m",
         "team": "0",
         "areavalue1": "20.0",
         "areavalue2": "29.0",
-        "cpid": "205",
+        "cpid": "505",
         "sgid": "20",
         "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
+        "ttgc": "150.0",
+        "ttlc": "180.0"
       }
     },
     {
@@ -815,11 +864,11 @@
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "1000.0",
-        "cpid": "206",
+        "cpid": "506",
         "sgid": "10",
         "uncap": "false",
-        "ttgc": "45.0",
-        "ttlc": "90.0"
+        "ttgc": "70.0",
+        "ttlc": "120.0"
       }
     },
     {
@@ -828,25 +877,52 @@
         "type": "Point",
         "coordinates": [31.981499, -167.41487],
         "size": [33, 33],
-        "radius": "15.625"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about West City Center 125m will be found here!"
+        "popupContent": "Amazing information about West City Center 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_aas64_westcitycenter",
         "class": "ControlPoint",
-        "name_object": "West City Center 125m",
+        "name_object": "West City Center 100m",
         "team": "0",
         "areavalue1": "15.0",
         "areavalue2": "15.0",
-        "cpid": "203",
+        "cpid": "503",
+        "sgid": "30",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "150.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.4675, -108.724],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Suburbs 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas64_northsuburbs",
+        "class": "ControlPoint",
+        "name_object": "North Suburbs 100m",
+        "team": "0",
+        "areavalue1": "10.0",
+        "areavalue2": "10.0",
+        "cpid": "507",
         "sgid": "40",
         "uncap": "false",
         "ttgc": "120.0",
-        "ttlc": "100.0"
+        "ttlc": "60.0"
       }
     }
   ]

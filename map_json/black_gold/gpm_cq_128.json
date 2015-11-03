@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"ch",
-  "team1tickets":"900",
-  "team2tickets":"900",
+  "team1tickets":"1300",
+  "team2tickets":"1300",
   "mapsize":"4096",
   "viewdistance":"1000",
   "combatareause":"false",
@@ -91,16 +91,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconurl": "icons/vehicles_map/mini_jet.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
+        "popupContent": "Amazing information about Su-27SM Flanker-B will be found here!"
       },
       "bf2props": {
         "name": "ru_air_base_ru_jet_fighter",
         "class": "ObjectSpawner",
-        "name_object": "Mi-28N Havoc",
+        "name_object": "Su-27SM Flanker-B",
         "team": "1",
-        "obj1": "ru_ahe_havoc",
+        "obj1": "ru_jet_su27",
         "obj2": "null",
         "maxspawn": "1200.0",
         "minspawn": "1200.0",
@@ -191,19 +191,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
         "iconrotate": "90.0",
-        "popupContent": "Amazing information about Mi-8T Hip will be found here!"
+        "popupContent": "Amazing information about Mi-24V Hind-E will be found here!"
       },
       "bf2props": {
         "name": "ru_air_base_ru_lightheli",
         "class": "ObjectSpawner",
-        "name_object": "Mi-8T Hip",
+        "name_object": "Mi-24V Hind-E",
         "team": "1",
-        "obj1": "ru_the_mi8",
+        "obj1": "ru_ahe_mi24_light",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "true",
         "ttl": "12000.0"
       }
@@ -216,17 +216,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconurl": "icons/vehicles_map/mini_jet.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Z-10 will be found here!"
+        "popupContent": "Amazing information about J-10 Vigorous Dragon will be found here!"
       },
       "bf2props": {
         "name": "pla_air_base_ch_jet_fighter",
         "class": "ObjectSpawner",
-        "name_object": "Z-10",
+        "name_object": "J-10 Vigorous Dragon",
         "team": "2",
         "obj1": "null",
-        "obj2": "ch_ahe_z10",
+        "obj2": "ch_jet_j10",
         "maxspawn": "1200.0",
         "minspawn": "1200.0",
         "spawndelay": "true",
@@ -266,19 +266,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
+        "popupContent": "Amazing information about Zhi-9WA will be found here!"
       },
       "bf2props": {
         "name": "pla_air_base_ch_lightheli",
         "class": "ObjectSpawner",
-        "name_object": "Mi-17 Hip",
+        "name_object": "Zhi-9WA",
         "team": "2",
         "obj1": "null",
-        "obj2": "ch_the_mi17",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "ch_ahe_z9wa_23mm_guns",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "true",
         "ttl": "12000.0"
       }
@@ -654,7 +654,7 @@
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "12000.0"
       }
     },
@@ -968,12 +968,12 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-90.0",
-        "popupContent": "Amazing information about ZSL-92B will be found here!"
+        "popupContent": "Amazing information about ZSL-92B 30mm will be found here!"
       },
       "bf2props": {
         "name": "pla_air_base_ch_tank03",
         "class": "ObjectSpawner",
-        "name_object": "ZSL-92B",
+        "name_object": "ZSL-92B 30mm",
         "team": "2",
         "obj1": "null",
         "obj2": "ch_ifv_wz551b",
@@ -1229,7 +1229,7 @@
         "obj2": "ch_atm_wz550",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "12000.0"
       }
     },
@@ -1900,12 +1900,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Tunnel Bunker 100m will be found here!"
+        "popupContent": "Amazing information about Tunnel Bunker 200m will be found here!"
       },
       "bf2props": {
         "name": "cpname_black_gold_aas128_1tunnelbunker",
         "class": "ControlPoint",
-        "name_object": "Tunnel Bunker 100m",
+        "name_object": "Tunnel Bunker 200m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "90.0",

@@ -339,7 +339,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
@@ -351,6 +351,131 @@
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.25188, -183.61224],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop32_isaf_main_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.98262, -183.61224],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop32_isaf_main_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.93076, -75.264755],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-150.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop32_farm_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.73488, -76.1905],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-150.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop32_farm_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.916626, -224.81363],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "90.162",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_lashkar_valley_coop32_isaf_main_apc",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }

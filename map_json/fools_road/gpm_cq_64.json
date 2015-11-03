@@ -2,7 +2,7 @@
   "team1":"chinsurgent",
   "team2":"gb",
   "team1tickets":"650",
-  "team2tickets":"650",
+  "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"650",
   "combatareause":"false",
@@ -93,8 +93,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_apc_warrior",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -107,20 +107,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "54.238",
-        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_aas64_britstart_gb_ch_apc",
         "class": "ObjectSpawner",
-        "name_object": "FV 510 Warrior",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_apc_warrior",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
+        "obj2": "gb_jep_landrover_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -132,19 +132,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-41.803",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_aas64_armoury_gb_ch_apc",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "mil_ifv_bmp1",
+        "obj1": "civ_jep_technical_militia",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -195,7 +195,7 @@
         "obj2": "gb_ifv_scimitar",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -220,7 +220,7 @@
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -470,7 +470,7 @@
         "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -1239,12 +1239,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Militia Fortress 50m will be found here!"
+        "popupContent": "Amazing information about Militia Fortress 40m will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_aas64_bunker",
         "class": "ControlPoint",
-        "name_object": "Militia Fortress 50m",
+        "name_object": "Militia Fortress 40m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "300.0",

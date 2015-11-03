@@ -1,7 +1,7 @@
 {
   "team1":"chinsurgent",
   "team2":"gb",
-  "team1tickets":"600",
+  "team1tickets":"5",
   "team2tickets":"550",
   "mapsize":"2048",
   "viewdistance":"500",
@@ -1184,6 +1184,31 @@
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
         "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.25662, -226.69937],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconrotate": "-51.474",
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_insurgency64_militia_mainbase_mil_technical_at",
+        "class": "ObjectSpawner",
+        "name_object": "SPG-9 Technical",
+        "team": "1",
+        "obj1": "civ_atm_technical_militia",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -2741,81 +2766,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [140.59062, -192.5065],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "45.729",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_insurgency64_mil_ammo_63",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [143.14212, -201.88574],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "49.81",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_insurgency64_mil_ammo_64",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [128.56137, -177.07776],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "161.553",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_insurgency64_mil_ammo_65",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [128.14474, -172.07587],
         "size": [16, 16]
       },
@@ -4301,31 +4251,6 @@
       },
       "bf2props": {
         "name": "cpname_dragon_fly_insurgency64_mil_ammo_126",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [121.65012, -141.25838],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "10.0",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_dragon_fly_insurgency64_mil_ammo_127",
         "class": "ObjectSpawner",
         "name_object": "Ammo Cache",
         "team": "1",

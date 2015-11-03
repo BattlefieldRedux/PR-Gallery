@@ -1,8 +1,8 @@
 {
   "team1":"hamas",
   "team2":"idf",
-  "team1tickets":"750",
-  "team2tickets":"750",
+  "team1tickets":"1200",
+  "team2tickets":"1200",
   "mapsize":"1024",
   "viewdistance":"200",
   "combatareause":"false",
@@ -17,12 +17,10 @@
         "cpname_asad_khal_aas128_occupiedvillage"
       ],
       [
-        "cpname_asad_khal_aas128_northobjective",
-        "cpname_asad_khal_aas128_eastobjective"
+        "cpname_asad_khal_aas128_northobjective"
       ],
       [
-        "cpname_asad_khal_aas128_southobjective",
-        "cpname_asad_khal_aas128_westobjective"
+        "cpname_asad_khal_aas128_southobjective"
       ],
       [
         "cpname_asad_khal_aas128_supplyroute"
@@ -256,8 +254,8 @@
         "team": "1",
         "obj1": "civ_jep_support",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -306,8 +304,8 @@
         "team": "1",
         "obj1": "civ_jep_car_blue",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -321,7 +319,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
@@ -441,12 +439,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [196.3505, -202.06601],
+        "coordinates": [195.68924, -202.56549],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "-136.819",
+        "iconrotate": "-130.029",
         "popupContent": "Amazing information about M113 will be found here!"
       },
       "bf2props": {
@@ -816,32 +814,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [194.126, -214.0875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
-        "iconrotate": "-34.329",
-        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_asad_khal_aas128_occupiedmansion_jeep",
-        "class": "ObjectSpawner",
-        "name_object": "HMMVW SIYUR",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "idf_jep_hmmwvopen",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [205.8135, -30.265],
+        "coordinates": [205.153, -30.358002],
         "size": [16, 16]
       },
       "properties": {
@@ -891,7 +864,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [190.52249, -218.24875],
+        "coordinates": [190.52249, -215.02899],
         "size": [33, 33],
         "radius": "0.0"
       },
@@ -918,19 +891,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [48.270752, -30.095749],
+        "coordinates": [45.80375, -34.383003],
         "size": [33, 33],
-        "radius": "13.75"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Occupied Village 55m will be found here!"
+        "popupContent": "Amazing information about Occupied Village 75m will be found here!"
       },
       "bf2props": {
         "name": "cpname_asad_khal_aas128_occupiedvillage",
         "class": "ControlPoint",
-        "name_object": "Occupied Village 55m",
+        "name_object": "Occupied Village 75m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "100.0",
@@ -945,24 +918,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.19725, -80.986496],
+        "coordinates": [104.83625, -96.789],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "25.0"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about North Objective 50m will be found here!"
+        "popupContent": "Amazing information about North Objective 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_asad_khal_aas128_northobjective",
         "class": "ControlPoint",
-        "name_object": "North Objective 50m",
+        "name_object": "North Objective 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "103",
-        "sgid": "32",
+        "sgid": "3",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -972,24 +945,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [131.73225, -144.532],
+        "coordinates": [100.34725, -145.3175],
         "size": [33, 33],
-        "radius": "10.0"
+        "radius": "22.25"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South Objective 40m will be found here!"
+        "popupContent": "Amazing information about South Objective 89m will be found here!"
       },
       "bf2props": {
         "name": "cpname_asad_khal_aas128_southobjective",
         "class": "ControlPoint",
-        "name_object": "South Objective 40m",
+        "name_object": "South Objective 89m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "2",
-        "sgid": "42",
+        "sgid": "4",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -1001,17 +974,17 @@
         "type": "Point",
         "coordinates": [52.347, -218.48325],
         "size": [33, 33],
-        "radius": "15.0"
+        "radius": "17.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/idf/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about IDF Supply Route 60m will be found here!"
+        "popupContent": "Amazing information about IDF Supply Route 70m will be found here!"
       },
       "bf2props": {
         "name": "cpname_asad_khal_aas128_supplyroute",
         "class": "ControlPoint",
-        "name_object": "IDF Supply Route 60m",
+        "name_object": "IDF Supply Route 70m",
         "team": "2",
         "areavalue1": "100.0",
         "areavalue2": "0.0",
@@ -1074,60 +1047,6 @@
         "uncap": "false",
         "ttgc": "60.0",
         "ttlc": "60.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.09725, -100.564255],
-        "size": [33, 33],
-        "radius": "11.25"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about East Objective 45m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_asad_khal_aas128_eastobjective",
-        "class": "ControlPoint",
-        "name_object": "East Objective 45m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "703",
-        "sgid": "32",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [95.728745, -140.15875],
-        "size": [33, 33],
-        "radius": "15.0"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about West Objective 60m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_asad_khal_aas128_westobjective",
-        "class": "ControlPoint",
-        "name_object": "West Objective 60m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "1",
-        "sgid": "42",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
       }
     },
     {

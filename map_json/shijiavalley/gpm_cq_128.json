@@ -1,8 +1,8 @@
 {
   "team1":"ch",
   "team2":"gb",
-  "team1tickets":"800",
-  "team2tickets":"800",
+  "team1tickets":"1300",
+  "team2tickets":"1300",
   "mapsize":"4096",
   "viewdistance":"650",
   "combatareause":"false",
@@ -67,14 +67,17 @@
         "cpname_shijiavalley_aas128_plamain"
       ],
       [
+        "cpname_shijiavalley_aas128_3tunnel",
         "cpname_shijiavalley_aas128_3majiapo"
       ],
       [
-        "cpname_shijiavalley_aas128_3tunnel",
-        "cpname_shijiavalley_aas128_3shijianorth"
+        "cpname_shijiavalley_aas128_3airport"
       ],
       [
         "cpname_shijiavalley_aas128_3liujiafarms"
+      ],
+      [
+        "cpname_shijiavalley_aas128_3rice"
       ],
       [
         "cpname_shijiavalley_aas128_3supply"
@@ -131,14 +134,15 @@
         "cpname_shijiavalley_aas128_plamain"
       ],
       [
-        "cpname_shijiavalley_aas128_6airport",
+        "cpname_shijiavalley_aas128_6airport"
+      ],
+      [
         "cpname_shijiavalley_aas128_6zhouyingcun"
       ],
       [
-        "cpname_shijiavalley_aas128_6power"
+        "cpname_shijiavalley_aas128_6trainbridge"
       ],
       [
-        "cpname_shijiavalley_aas128_6trainbridge",
         "cpname_shijiavalley_aas128_6rice"
       ],
       [
@@ -152,9 +156,6 @@
       [
         "cpname_shijiavalley_aas128_mine",
         "cpname_shijiavalley_aas128_plamain"
-      ],
-      [
-        "cpname_shijiavalley_aas128_7tunnel"
       ],
       [
         "cpname_shijiavalley_aas128_7oldtown"
@@ -197,8 +198,8 @@
         "team": "1",
         "obj1": "ch_jep_paratrooper",
         "obj2": "null",
-        "maxspawn": "450.0",
-        "minspawn": "450.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -207,7 +208,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.132309, -11.992935],
+        "coordinates": [13.928062, -11.68219],
         "size": [16, 16]
       },
       "properties": {
@@ -332,23 +333,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.617996, -19.09475],
+        "coordinates": [11.786125, -19.11531],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
         "iconrotate": "90.664",
-        "popupContent": "Amazing information about Zhi-9B will be found here!"
+        "popupContent": "Amazing information about Z-10 will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_plamain_helo2",
         "class": "ObjectSpawner",
-        "name_object": "Zhi-9B",
+        "name_object": "Z-10",
         "team": "1",
-        "obj1": "ch_the_z9b",
+        "obj1": "ch_ahe_z10",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -412,7 +413,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about RHIB will be found here!"
       },
       "bf2props": {
@@ -437,7 +438,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_boat.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about RHIB will be found here!"
       },
       "bf2props": {
@@ -486,19 +487,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
         "iconrotate": "-1.146",
-        "popupContent": "Amazing information about Lynx AH.7 will be found here!"
+        "popupContent": "Amazing information about Apache AH1 will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_gbmain_apache1_0",
         "class": "ObjectSpawner",
-        "name_object": "Lynx AH.7",
+        "name_object": "Apache AH1",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_the_lynx",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "gb_ahe_apache",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
         "spawndelay": "true",
         "ttl": "99999.0"
       }
@@ -532,7 +533,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [245.48044, -144.11469],
+        "coordinates": [245.57574, -144.12569],
         "size": [16, 16]
       },
       "properties": {
@@ -557,32 +558,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [150.72456, -4.626686],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_plamain_boatrally",
-        "class": "ObjectSpawner",
-        "name_object": "Permanent spawnpoint",
-        "team": "1",
-        "obj1": "rallypoint_ch_placeable_noexpire",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [245.51312, -143.83894],
+        "coordinates": [245.60843, -143.84995],
         "size": [16, 16]
       },
       "properties": {
@@ -707,7 +683,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [248.14743, -143.45757],
+        "coordinates": [248.0278, -143.53381],
         "size": [16, 16]
       },
       "properties": {
@@ -782,12 +758,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.269249, -11.588875],
+        "coordinates": [15.269249, -11.618126],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "-90.0",
+        "iconrotate": "-88.02",
         "popupContent": "Amazing information about WZ551 will be found here!"
       },
       "bf2props": {
@@ -807,7 +783,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.272873, -11.327499],
+        "coordinates": [15.273628, -11.329315],
         "size": [16, 16]
       },
       "properties": {
@@ -832,7 +808,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [247.9892, -143.21338],
+        "coordinates": [247.86957, -143.28963],
         "size": [16, 16]
       },
       "properties": {
@@ -857,12 +833,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [246.42038, -139.32475],
+        "coordinates": [247.66757, -143.07162],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
-        "iconrotate": "168.434",
+        "iconrotate": "-122.239",
         "popupContent": "Amazing information about Stormer HVM will be found here!"
       },
       "bf2props": {
@@ -925,6 +901,31 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.0167465, -16.298065],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_heavyhelo.png",
+        "iconrotate": "90.914",
+        "popupContent": "Amazing information about Zhi-8KA will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_aas128_plamain_helo",
+        "class": "ObjectSpawner",
+        "name_object": "Zhi-8KA",
+        "team": "1",
+        "obj1": "ch_the_z8",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -1001,31 +1002,6 @@
         "minspawn": "1800.0",
         "spawndelay": "true",
         "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.2497, -239.95819],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Permanent spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_gbmain_boatspawn",
-        "class": "ObjectSpawner",
-        "name_object": "Permanent spawnpoint",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "rallypoint_gb_placeable_noexpire",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
       }
     },
     {
@@ -1257,157 +1233,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.953377, -11.619125],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "17.706",
-        "popupContent": "Amazing information about ZTZ-99A2 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_plamain_tank",
-        "class": "ObjectSpawner",
-        "name_object": "ZTZ-99A2",
-        "team": "1",
-        "obj1": "ch_tnk_ztz99",
-        "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [247.90988, -142.90294],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "-125.314",
-        "popupContent": "Amazing information about FV4034 Challenger 2 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_gbmain_mbt",
-        "class": "ObjectSpawner",
-        "name_object": "FV4034 Challenger 2",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_tnk_challenger",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.94588, -139.18869],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "162.206",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_gbmain_truck1",
-        "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.64743, -139.19576],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "162.206",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_gbmain_truck2",
-        "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.922752, -8.93425],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-114.415",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_plamain_truck1",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "1",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.13369, -7.8690643],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-123.16",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_plamain_truck2",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "1",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.019501, -16.328377],
+        "coordinates": [12.250313, -13.497063],
         "size": [16, 16]
       },
       "properties": {
@@ -1422,56 +1248,6 @@
         "team": "1",
         "obj1": "ch_the_z8",
         "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.280441, -12.335503],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "22.333",
-        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_plamain_truck3",
-        "class": "ObjectSpawner",
-        "name_object": "EQ2080 2.5 Ton",
-        "team": "1",
-        "obj1": "ch_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [245.08237, -148.83376],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "162.206",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_gbmain_truck3",
-        "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_support",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -1671,19 +1447,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [170.08624, -172.13382],
+        "coordinates": [167.81119, -172.81725],
         "size": [33, 33],
-        "radius": "15.625"
+        "radius": "21.875"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Rice Paddies 250m will be found here!"
+        "popupContent": "Amazing information about Rice Paddies 350m will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_1rice",
         "class": "ControlPoint",
-        "name_object": "Rice Paddies 250m",
+        "name_object": "Rice Paddies 350m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -1806,7 +1582,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [164.60956, -121.60137],
+        "coordinates": [164.6005, -121.54212],
         "size": [33, 33],
         "radius": "12.5"
       },
@@ -1850,7 +1626,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "114",
-        "sgid": "323",
+        "sgid": "213",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -1887,24 +1663,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [143.1103, -51.707],
+        "coordinates": [89.496, -156.0135],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "9.375"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Shijia North 200m will be found here!"
+        "popupContent": "Amazing information about Abandoned Airport 150m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_shijiavalley_aas128_3shijianorth",
+        "name": "cpname_shijiavalley_aas128_3airport",
         "class": "ControlPoint",
-        "name_object": "Shijia North 200m",
+        "name_object": "Abandoned Airport 150m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "116",
-        "sgid": "323",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.51663, -170.17194],
+        "size": [33, 33],
+        "radius": "21.875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Rice Paddies 350m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_shijiavalley_aas128_3rice",
+        "class": "ControlPoint",
+        "name_object": "Rice Paddies 350m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "117",
+        "sgid": "503",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2049,19 +1852,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [213.99281, -53.73906],
+        "coordinates": [208.4892, -49.778748],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Moyuwan City 200m will be found here!"
+        "popupContent": "Amazing information about Moyuwan City 300m will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_5northpassage",
         "class": "ControlPoint",
-        "name_object": "Moyuwan City 200m",
+        "name_object": "Moyuwan City 300m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -2076,19 +1879,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [143.1103, -51.707],
+        "coordinates": [126.92113, -39.779],
         "size": [33, 33],
-        "radius": "12.5"
+        "radius": "18.75"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Shijia North 200m will be found here!"
+        "popupContent": "Amazing information about North Bank 300m will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_5highlands",
         "class": "ControlPoint",
-        "name_object": "Shijia North 200m",
+        "name_object": "North Bank 300m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -2174,7 +1977,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "127",
-        "sgid": "203",
+        "sgid": "213",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2201,7 +2004,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "128",
-        "sgid": "226",
+        "sgid": "206",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2211,24 +2014,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.762123, -189.14763],
+        "coordinates": [56.233185, -190.10281],
         "size": [33, 33],
-        "radius": "9.375"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Zhouying City 150m will be found here!"
+        "popupContent": "Amazing information about Zhouying City 200m will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_6zhouyingcun",
         "class": "ControlPoint",
-        "name_object": "Zhouying City 150m",
+        "name_object": "Zhouying City 200m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "129",
-        "sgid": "226",
+        "sgid": "306",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2238,24 +2041,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [181.393, -207.21469],
+        "coordinates": [166.27362, -219.80594],
         "size": [33, 33],
-        "radius": "9.375"
+        "radius": "17.1875"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Train Bridge 150m will be found here!"
+        "popupContent": "Amazing information about Train Bridge 275m will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_6trainbridge",
         "class": "ControlPoint",
-        "name_object": "Train Bridge 150m",
+        "name_object": "Train Bridge 275m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "131",
-        "sgid": "426",
+        "sgid": "406",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2265,24 +2068,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [166.42912, -162.18881],
+        "coordinates": [170.95676, -175.71225],
         "size": [33, 33],
-        "radius": "9.375"
+        "radius": "21.875"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Rice Paddies 150m will be found here!"
+        "popupContent": "Amazing information about Rice Paddies 350m will be found here!"
       },
       "bf2props": {
         "name": "cpname_shijiavalley_aas128_6rice",
         "class": "ControlPoint",
-        "name_object": "Rice Paddies 150m",
+        "name_object": "Rice Paddies 350m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "132",
-        "sgid": "426",
+        "sgid": "506",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2309,7 +2112,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "133",
-        "sgid": "307",
+        "sgid": "207",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2336,7 +2139,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "134",
-        "sgid": "407",
+        "sgid": "307",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2363,7 +2166,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "135",
-        "sgid": "507",
+        "sgid": "407",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2390,7 +2193,7 @@
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "136",
-        "sgid": "607",
+        "sgid": "507",
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
@@ -2444,7 +2247,7 @@
         "areavalue1": "100.0",
         "areavalue2": "0.0",
         "cpid": "138",
-        "sgid": "503",
+        "sgid": "603",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -2525,7 +2328,7 @@
         "areavalue1": "100.0",
         "areavalue2": "0.0",
         "cpid": "141",
-        "sgid": "506",
+        "sgid": "606",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -2552,64 +2355,10 @@
         "areavalue1": "100.0",
         "areavalue2": "0.0",
         "cpid": "142",
-        "sgid": "707",
+        "sgid": "607",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [111.41612, -227.85875],
-        "size": [33, 33],
-        "radius": "9.375"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Power Plant 150m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_6power",
-        "class": "ControlPoint",
-        "name_object": "Power Plant 150m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "701",
-        "sgid": "306",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.72619, -98.31906],
-        "size": [33, 33],
-        "radius": "3.125"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Highway Tunnel 50m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_shijiavalley_aas128_7tunnel",
-        "class": "ControlPoint",
-        "name_object": "Highway Tunnel 50m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "702",
-        "sgid": "207",
-        "uncap": "false",
-        "ttgc": "120.0",
-        "ttlc": "120.0"
       }
     }
   ]

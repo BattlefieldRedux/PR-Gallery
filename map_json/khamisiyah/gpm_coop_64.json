@@ -545,7 +545,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-35 will be found here!"
       },
       "bf2props": {
@@ -570,7 +570,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-17 Hip will be found here!"
       },
       "bf2props": {
@@ -595,7 +595,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-17 Hip will be found here!"
       },
       "bf2props": {
@@ -1119,17 +1119,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconurl": "icons/vehicles_map/mini_chinook.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about UH-60L Blackhawk will be found here!"
+        "popupContent": "Amazing information about CH-47D Chinook will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop64_usfob_trans_1",
         "class": "ObjectSpawner",
-        "name_object": "UH-60L Blackhawk",
+        "name_object": "CH-47D Chinook",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_the_uh60",
+        "obj2": "us_the_chinook",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -1145,7 +1145,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about A-10A Thunderbolt II will be found here!"
       },
       "bf2props": {
@@ -1170,7 +1170,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jetattack.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about A-10A Thunderbolt II will be found here!"
       },
       "bf2props": {
@@ -1195,7 +1195,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jet_figherbomber.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about F-15E Strike Eagle will be found here!"
       },
       "bf2props": {
@@ -1205,8 +1205,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "us_jet_f15",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -1546,14 +1546,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
         "iconrotate": "135.0",
-        "popupContent": "Amazing information about mec_ats_milan will be found here!"
+        "popupContent": "Amazing information about mec_ats_milan_ndl will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop64_cpname_khamisiyah_coop64_northkhidirkhidir_at",
         "class": "ObjectSpawner",
-        "name_object": "mec_ats_milan",
+        "name_object": "mec_ats_milan_ndl",
         "team": "1",
-        "obj1": "mec_ats_milan",
+        "obj1": "mec_ats_milan_ndl",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -1870,7 +1870,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_medattackhelo.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-35 will be found here!"
       },
       "bf2props": {
@@ -1896,14 +1896,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
         "iconrotate": "178.527",
-        "popupContent": "Amazing information about 9K31 Gaskin will be found here!"
+        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop64_mecmain_aa_0",
         "class": "ObjectSpawner",
-        "name_object": "9K31 Gaskin",
+        "name_object": "9K35 Gopher",
         "team": "1",
-        "obj1": "mec_aav_gaskin",
+        "obj1": "mec_aav_gopher",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
@@ -1921,17 +1921,117 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_adv_medium.png",
         "iconrotate": "178.527",
-        "popupContent": "Amazing information about 9K31 Gaskin will be found here!"
+        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop64_mecmain_aa_1",
         "class": "ObjectSpawner",
-        "name_object": "9K31 Gaskin",
+        "name_object": "9K35 Gopher",
         "team": "1",
-        "obj1": "mec_aav_gaskin",
+        "obj1": "mec_aav_gopher",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.31931, -89.0775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop64_southkhidi_aa",
+        "class": "ObjectSpawner",
+        "name_object": "9K35 Gopher",
+        "team": "1",
+        "obj1": "mec_aav_gopher",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [164.13132, -97.5035],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop64_bunkers_aa",
+        "class": "ObjectSpawner",
+        "name_object": "9K35 Gopher",
+        "team": "1",
+        "obj1": "mec_aav_gopher",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [228.59018, -124.671684],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
+        "iconrotate": "-13.682",
+        "popupContent": "Amazing information about AN/TWQ-1 Avenger will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop64_usfob_aav",
+        "class": "ObjectSpawner",
+        "name_object": "AN/TWQ-1 Avenger",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_aav_avenger",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.95363, -124.60825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
+        "iconrotate": "-13.682",
+        "popupContent": "Amazing information about AN/TWQ-1 Avenger will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_khamisiyah_coop64_usfob_aa_0",
+        "class": "ObjectSpawner",
+        "name_object": "AN/TWQ-1 Avenger",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_aav_avenger",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -2001,12 +2101,12 @@
       "properties": {
         "iconurl": "icons/flags_map/mec/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Bunker Complex 300m will be found here!"
+        "popupContent": "Amazing information about Bunker Complex 200m will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop64_bunkers",
         "class": "ControlPoint",
-        "name_object": "Bunker Complex 300m",
+        "name_object": "Bunker Complex 200m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
@@ -2028,12 +2128,12 @@
       "properties": {
         "iconurl": "icons/flags_map/mec/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Chemical Facility 150m will be found here!"
+        "popupContent": "Amazing information about Chemical Facility 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_coop64_chemfacil",
         "class": "ControlPoint",
-        "name_object": "Chemical Facility 150m",
+        "name_object": "Chemical Facility 100m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",

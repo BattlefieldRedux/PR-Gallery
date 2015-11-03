@@ -37,6 +37,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [159.40237, -210.614],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
+        "iconrotate": "75.785",
+        "popupContent": "Amazing information about ats_tow will be found here!"
+      },
+      "bf2props": {
+        "name": "64_eastbeach_me_us_ats",
+        "class": "ObjectSpawner",
+        "name_object": "ats_tow",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ats_tow",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.24025, -208.091],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "100.0",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "64_eastbeach_me_us_smg",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_bipod",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [142.397, -41.64325],
         "size": [16, 16]
       },
@@ -356,6 +406,31 @@
         "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.51462, -210.61475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-60.405",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jl_64_eastbeach_me_usmc_smg",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_bipod",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {
@@ -737,6 +812,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [156.97775, -206.38187],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "179.366",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "truck",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.84288, -206.06563],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jl_64_eastbeach_usmc_vehicledeport",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [137.93062, -37.414],
         "size": [16, 16]
       },
@@ -941,20 +1066,20 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
         "iconrotate": "93.578",
-        "popupContent": "Amazing information about BRDM-2 will be found here!"
+        "popupContent": "Amazing information about MT-LB will be found here!"
       },
       "bf2props": {
         "name": "brdm_1",
         "class": "ObjectSpawner",
-        "name_object": "BRDM-2",
+        "name_object": "MT-LB",
         "team": "1",
-        "obj1": "mec_jep_brdm2_support",
+        "obj1": "mec_apc_mtlb",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
-        "spawndelay": "true",
+        "spawndelay": "false",
         "ttl": "12000.0"
       }
     },
@@ -1037,6 +1162,131 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [154.17175, -206.46964],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "179.366",
+        "popupContent": "Amazing information about M1038A1 HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_aas64_eastbeach_humvee1",
+        "class": "ObjectSpawner",
+        "name_object": "M1038A1 HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.7215, -206.49911],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "179.366",
+        "popupContent": "Amazing information about HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_aas64_eastbeach_humvee2",
+        "class": "ObjectSpawner",
+        "name_object": "HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.2125, -206.479],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "179.366",
+        "popupContent": "Amazing information about M1038A1 HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_aas64_eastbeach_humvee3",
+        "class": "ObjectSpawner",
+        "name_object": "M1038A1 HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.66525, -207.57901],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_aas64_eastbeach_rally1",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.59799, -207.74625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_jabal_aas64_eastbeach_rally",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "rallypoint_us_placeable",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [24.710747, -120.87475],
         "size": [33, 33],
         "radius": "18.75"
@@ -1069,7 +1319,7 @@
         "radius": "18.75"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about East Beach 150m will be found here!"
       },
@@ -1077,7 +1327,7 @@
         "name": "cpname_jabal_aas16_eastbeach",
         "class": "ControlPoint",
         "name_object": "East Beach 150m",
-        "team": "0",
+        "team": "2",
         "areavalue1": "200.0",
         "areavalue2": "0.0",
         "cpid": "302",

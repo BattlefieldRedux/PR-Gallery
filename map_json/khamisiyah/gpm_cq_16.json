@@ -1,8 +1,8 @@
 {
   "team1":"mec",
   "team2":"usa",
-  "team1tickets":"450",
-  "team2tickets":"500",
+  "team1tickets":"500",
+  "team2tickets":"550",
   "mapsize":"4096",
   "viewdistance":"1100",
   "combatareause":"false",
@@ -236,7 +236,7 @@
         "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
+        "obj2": "us_jep_hmmwv_uparmored_alt",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
@@ -490,31 +490,6 @@
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [27.132874, -14.231438],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about 9K35 Gopher will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_khamisiyah_aas16_mecmain_aav1",
-        "class": "ObjectSpawner",
-        "name_object": "9K35 Gopher",
-        "team": "1",
-        "obj1": "mec_aav_gopher",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -872,31 +847,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.725998, -185.31937],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-119.261",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_khamisiyah_aas16_checkpoint2_humvee",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [38.202065, -192.13544],
         "size": [16, 16]
       },
@@ -990,31 +940,6 @@
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [115.29063, -242.21387],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_medium.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about AN/TWQ-1 Avenger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_khamisiyah_aas16_usmain_aa1",
-        "class": "ObjectSpawner",
-        "name_object": "AN/TWQ-1 Avenger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_aav_avenger",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -1358,12 +1283,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Oil Fields 200m will be found here!"
+        "popupContent": "Amazing information about Oil Fields 250m will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_aas16_oil1",
         "class": "ControlPoint",
-        "name_object": "Oil Fields 200m",
+        "name_object": "Oil Fields 250m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",

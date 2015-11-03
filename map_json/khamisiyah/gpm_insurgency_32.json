@@ -1,7 +1,7 @@
 {
-  "team1":"mec",
+  "team1":"meinsurgent",
   "team2":"us",
-  "team1tickets":"700",
+  "team1tickets":"5",
   "team2tickets":"700",
   "mapsize":"4096",
   "viewdistance":"1300",
@@ -329,7 +329,7 @@
         "class": "ObjectSpawner",
         "name_object": "Temporary spawnpoint",
         "team": "1",
-        "obj1": "rallypoint_mec_placeable",
+        "obj1": "rallypoint_meinsurgent_placeable",
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
@@ -355,31 +355,6 @@
         "name_object": "UAZ-469",
         "team": "1",
         "obj1": "mec_jep_uaz_mg",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [175.06143, -97.57013],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_khamisiyah_insurgency32_bunker1_rally2",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary spawnpoint",
-        "team": "1",
-        "obj1": "rallypoint_mec_placeable",
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
@@ -879,7 +854,7 @@
         "class": "ObjectSpawner",
         "name_object": "Temporary spawnpoint",
         "team": "1",
-        "obj1": "rallypoint_mec_placeable",
+        "obj1": "rallypoint_meinsurgent_placeable",
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
@@ -1004,7 +979,7 @@
         "class": "ObjectSpawner",
         "name_object": "Temporary spawnpoint",
         "team": "1",
-        "obj1": "rallypoint_mec_placeable",
+        "obj1": "rallypoint_meinsurgent_placeable",
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
@@ -6721,14 +6696,14 @@
         "radius": "0.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cpbase.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about MEC Airbase will be found here!"
+        "popupContent": "Amazing information about Captured Airbase will be found here!"
       },
       "bf2props": {
         "name": "cpname_khamisiyah_insurgency32_mecmain",
         "class": "ControlPoint",
-        "name_object": "MEC Airbase",
+        "name_object": "Captured Airbase",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",

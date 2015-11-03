@@ -11,21 +11,21 @@
   "routes": [
     [
       [
-        "cpname_assault_on_mestia_aas64rebelbase"
+        "cpname_assault_on_mestia_aas64_rebelbase"
       ],
       [
-        "cpname_assault_on_mestia_aas64perimeter"
+        "cpname_assault_on_mestia_aas64_perimeter"
       ],
       [
-        "cpname_assault_on_mestia_aas64storagebunker",
-        "cpname_assault_on_mestia_aas64munitionplant"
+        "cpname_assault_on_mestia_aas64_storagebunker",
+        "cpname_assault_on_mestia_aas64_munitionplant"
       ],
       [
-        "cpname_assault_on_mestia_aas64easttower",
-        "cpname_assault_on_mestia_aas64westtower"
+        "cpname_assault_on_mestia_aas64_easttower",
+        "cpname_assault_on_mestia_aas64_westtower"
       ],
       [
-        "cpname_assault_on_mestia_aas64britbase"
+        "cpname_assault_on_mestia_aas64_britbase"
       ]
     ]
   ],
@@ -685,31 +685,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.36874, -36.02175],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep3.png",
-        "iconrotate": "-76.234",
-        "popupContent": "Amazing information about Ammo Pickup will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64_ammostorage_mil_technical_support_norespawn",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Pickup",
-        "team": "1",
-        "obj1": "civ_jep_support_militia",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [32.378754, -164.02176],
         "size": [16, 16]
       },
@@ -995,7 +970,7 @@
         "popupContent": "Amazing information about Militia Compound will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64rebelbase",
+        "name": "cpname_assault_on_mestia_aas64_rebelbase",
         "class": "ControlPoint",
         "name_object": "Militia Compound",
         "team": "1",
@@ -1012,7 +987,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [34.50025, -158.36475],
+        "coordinates": [36.18775, -159.33925],
         "size": [33, 33],
         "radius": "9.5"
       },
@@ -1022,7 +997,7 @@
         "popupContent": "Amazing information about Warehouse 38m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64storagebunker",
+        "name": "cpname_assault_on_mestia_aas64_storagebunker",
         "class": "ControlPoint",
         "name_object": "Warehouse 38m",
         "team": "1",
@@ -1049,7 +1024,7 @@
         "popupContent": "Amazing information about Ammo Storage 40m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64munitionplant",
+        "name": "cpname_assault_on_mestia_aas64_munitionplant",
         "class": "ControlPoint",
         "name_object": "Ammo Storage 40m",
         "team": "1",
@@ -1076,7 +1051,7 @@
         "popupContent": "Amazing information about East Tower 35m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64easttower",
+        "name": "cpname_assault_on_mestia_aas64_easttower",
         "class": "ControlPoint",
         "name_object": "East Tower 35m",
         "team": "0",
@@ -1103,7 +1078,7 @@
         "popupContent": "Amazing information about West Tower 35m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64westtower",
+        "name": "cpname_assault_on_mestia_aas64_westtower",
         "class": "ControlPoint",
         "name_object": "West Tower 35m",
         "team": "0",
@@ -1130,7 +1105,7 @@
         "popupContent": "Amazing information about US Base will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64britbase",
+        "name": "cpname_assault_on_mestia_aas64_britbase",
         "class": "ControlPoint",
         "name_object": "US Base",
         "team": "2",
@@ -1157,7 +1132,7 @@
         "popupContent": "Amazing information about Perimeter 20m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_assault_on_mestia_aas64perimeter",
+        "name": "cpname_assault_on_mestia_aas64_perimeter",
         "class": "ControlPoint",
         "name_object": "Perimeter 20m",
         "team": "1",

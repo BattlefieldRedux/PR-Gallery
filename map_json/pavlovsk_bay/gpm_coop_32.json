@@ -819,14 +819,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "-50.0",
-        "popupContent": "Amazing information about 9P149 Shturm-S will be found here!"
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_brdm",
         "class": "ObjectSpawner",
-        "name_object": "9P149 Shturm-S",
+        "name_object": "9P148 Spandrel",
         "team": "1",
-        "obj1": "ru_atm_shturm",
+        "obj1": "ru_atm_spandrel_bf2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -844,14 +844,14 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgmvehicle.png",
         "iconrotate": "-50.0",
-        "popupContent": "Amazing information about 9P149 Shturm-S will be found here!"
+        "popupContent": "Amazing information about 9P148 Spandrel will be found here!"
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_subpen_brdm2",
         "class": "ObjectSpawner",
-        "name_object": "9P149 Shturm-S",
+        "name_object": "9P148 Spandrel",
         "team": "1",
-        "obj1": "ru_atm_shturm",
+        "obj1": "ru_atm_spandrel_bf2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -867,16 +867,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
         "iconrotate": "15.863",
-        "popupContent": "Amazing information about MT-LB will be found here!"
+        "popupContent": "Amazing information about BRDM-2 will be found here!"
       },
       "bf2props": {
         "name": "cpname_pavlovsk_bay_coop32_aabattery_brdm",
         "class": "ObjectSpawner",
-        "name_object": "MT-LB",
+        "name_object": "BRDM-2",
         "team": "1",
-        "obj1": "ru_apc_mtlb",
+        "obj1": "ru_jep_brdm2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -957,6 +957,56 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.37262, -101.52825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_warehouse_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.02818, -101.02238],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_pavlovsk_bay_coop32_warehouse_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {

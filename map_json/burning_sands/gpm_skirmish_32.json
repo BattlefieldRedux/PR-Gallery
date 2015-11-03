@@ -1,10 +1,10 @@
 {
   "team1":"mec",
   "team2":"gb",
-  "team1tickets":"500",
-  "team2tickets":"500",
+  "team1tickets":"700",
+  "team2tickets":"700",
   "mapsize":"4096",
-  "viewdistance":"610",
+  "viewdistance":"1100",
   "combatareause":"false",
   "combatareadamage":"0.0",
   "combatareaallowoutside":"0.0",
@@ -52,6 +52,81 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [195.09256, -155.05025],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "crate_10",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [192.50644, -150.48569],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "crate_11",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.02438, -153.65076],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "crate_12",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [198.61182, -171.979],
         "size": [16, 16]
       },
@@ -82,7 +157,7 @@
         "radius": "8.4375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Main Terminal 135m will be found here!"
       },
@@ -90,7 +165,7 @@
         "name": "cpname_burning_sands_skirmish32_terminal",
         "class": "ControlPoint",
         "name_object": "Main Terminal 135m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "100.0",
         "areavalue2": "100.0",
         "cpid": "201",

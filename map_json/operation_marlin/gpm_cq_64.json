@@ -43,16 +43,16 @@
         "cpname_operation_marlin_aas64_saint_tropez"
       ],
       [
-        "cpname_operation_marlin_aas64_2_south_bridge"
+        "cpname_operation_marlin_aas64_2_dam"
       ],
       [
-        "cpname_operation_marlin_aas64_2_district_hill"
+        "cpname_operation_marlin_aas64_2_un_outpost"
       ],
       [
-        "cpname_operation_marlin_aas64_2_harbor"
+        "cpname_operation_marlin_aas64_2_tv_station"
       ],
       [
-        "cpname_operation_marlin_aas64_2_hotel_imperial"
+        "cpname_operation_marlin_aas64_2_hotel_bellevue"
       ],
       [
         "cpname_operation_marlin_aas64_checkpoint"
@@ -79,84 +79,6 @@
       ],
       [
         "cpname_operation_marlin_aas64_3_monastery"
-      ],
-      [
-        "cpname_operation_marlin_aas64_checkpoint"
-      ],
-      [
-        "cpname_operation_marlin_aas64_fr_base"
-      ]
-    ],
-    [
-      [
-        "cpname_operation_marlin_aas64_idf_camp"
-      ],
-      [
-        "cpname_operation_marlin_aas64_saint_tropez"
-      ],
-      [
-        "cpname_operation_marlin_aas64_4_south_district"
-      ],
-      [
-        "cpname_operation_marlin_aas64_4_un_outpost"
-      ],
-      [
-        "cpname_operation_marlin_aas64_4_monastery"
-      ],
-      [
-        "cpname_operation_marlin_aas64_4_hotel_imperial"
-      ],
-      [
-        "cpname_operation_marlin_aas64_checkpoint"
-      ],
-      [
-        "cpname_operation_marlin_aas64_fr_base"
-      ]
-    ],
-    [
-      [
-        "cpname_operation_marlin_aas64_idf_camp"
-      ],
-      [
-        "cpname_operation_marlin_aas64_saint_tropez"
-      ],
-      [
-        "cpname_operation_marlin_aas64_5_village"
-      ],
-      [
-        "cpname_operation_marlin_aas64_5_city_center"
-      ],
-      [
-        "cpname_operation_marlin_aas64_5_fuel_depots"
-      ],
-      [
-        "cpname_operation_marlin_aas64_5_estuary"
-      ],
-      [
-        "cpname_operation_marlin_aas64_checkpoint"
-      ],
-      [
-        "cpname_operation_marlin_aas64_fr_base"
-      ]
-    ],
-    [
-      [
-        "cpname_operation_marlin_aas64_idf_camp"
-      ],
-      [
-        "cpname_operation_marlin_aas64_saint_tropez"
-      ],
-      [
-        "cpname_operation_marlin_aas64_6_dam"
-      ],
-      [
-        "cpname_operation_marlin_aas64_6_un_outpost"
-      ],
-      [
-        "cpname_operation_marlin_aas64_6_tv_station"
-      ],
-      [
-        "cpname_operation_marlin_aas64_6_hotel_bellevue"
       ],
       [
         "cpname_operation_marlin_aas64_checkpoint"
@@ -251,17 +173,17 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_chinook.png",
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
         "iconrotate": "-120.0",
-        "popupContent": "Amazing information about CH-147 Chinook will be found here!"
+        "popupContent": "Amazing information about NH90 NFH will be found here!"
       },
       "bf2props": {
         "name": "cpname_operation_marlin_aas64_fr_base_helico3",
         "class": "ObjectSpawner",
-        "name_object": "CH-147 Chinook",
+        "name_object": "NH90 NFH",
         "team": "2",
         "obj1": "null",
-        "obj2": "fr_the_chinook",
+        "obj2": "fr_the_nh90_navy",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -1205,33 +1127,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [115.5, -86.75],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Imperial Hotel 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_4_hotel_imperial",
-        "class": "ControlPoint",
-        "name_object": "Imperial Hotel 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "104",
-        "sgid": "604",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [55.5, -151.75],
         "size": [33, 33],
         "radius": "12.5"
@@ -1304,87 +1199,6 @@
         "areavalue2": "0.0",
         "cpid": "107",
         "sgid": "601",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [208.0, -59.25],
-        "size": [33, 33],
-        "radius": "18.75"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Harbor 150m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_2_harbor",
-        "class": "ControlPoint",
-        "name_object": "Harbor 150m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "108",
-        "sgid": "502",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [115.5, -86.75],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Imperial Hotel 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_2_hotel_imperial",
-        "class": "ControlPoint",
-        "name_object": "Imperial Hotel 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "109",
-        "sgid": "602",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [149.25, -125.5],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Village 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_5_village",
-        "class": "ControlPoint",
-        "name_object": "Village 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "110",
-        "sgid": "305",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1475,87 +1289,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.375, -114.25],
-        "size": [33, 33],
-        "radius": "15.625"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about District Hill 125m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_2_district_hill",
-        "class": "ControlPoint",
-        "name_object": "District Hill 125m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "117",
-        "sgid": "402",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [75.5, -194.25],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about UN Outpost 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_4_un_outpost",
-        "class": "ControlPoint",
-        "name_object": "UN Outpost 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "121",
-        "sgid": "404",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [53.0, -126.75],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Monastery 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_4_monastery",
-        "class": "ControlPoint",
-        "name_object": "Monastery 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "122",
-        "sgid": "504",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [53.0, -126.75],
         "size": [33, 33],
         "radius": "12.5"
@@ -1574,141 +1307,6 @@
         "areavalue2": "0.0",
         "cpid": "111",
         "sgid": "603",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [144.25, -144.25],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about South Bridge 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_2_south_bridge",
-        "class": "ControlPoint",
-        "name_object": "South Bridge 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "115",
-        "sgid": "302",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [128.0, -160.5],
-        "size": [33, 33],
-        "radius": "15.625"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about South District 125m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_4_south_district",
-        "class": "ControlPoint",
-        "name_object": "South District 125m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "116",
-        "sgid": "304",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [101.75, -113.0],
-        "size": [33, 33],
-        "radius": "12.5"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about City Center 100m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_5_city_center",
-        "class": "ControlPoint",
-        "name_object": "City Center 100m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "118",
-        "sgid": "405",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [180.5, -60.5],
-        "size": [33, 33],
-        "radius": "18.75"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Fuel Depot 150m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_5_fuel_depots",
-        "class": "ControlPoint",
-        "name_object": "Fuel Depot 150m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "119",
-        "sgid": "505",
-        "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "180.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [129.25, -50.5],
-        "size": [33, 33],
-        "radius": "15.625"
-      },
-      "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Estuary 125m will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_operation_marlin_aas64_5_estuary",
-        "class": "ControlPoint",
-        "name_object": "Estuary 125m",
-        "team": "0",
-        "areavalue1": "0.0",
-        "areavalue2": "0.0",
-        "cpid": "120",
-        "sgid": "605",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1755,14 +1353,14 @@
         "popupContent": "Amazing information about Dam 125m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_operation_marlin_aas64_6_dam",
+        "name": "cpname_operation_marlin_aas64_2_dam",
         "class": "ControlPoint",
         "name_object": "Dam 125m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "124",
-        "sgid": "306",
+        "sgid": "302",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1782,14 +1380,14 @@
         "popupContent": "Amazing information about UN Outpost 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_operation_marlin_aas64_6_un_outpost",
+        "name": "cpname_operation_marlin_aas64_2_un_outpost",
         "class": "ControlPoint",
         "name_object": "UN Outpost 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "125",
-        "sgid": "406",
+        "sgid": "402",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1809,14 +1407,14 @@
         "popupContent": "Amazing information about TV Station 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_operation_marlin_aas64_6_tv_station",
+        "name": "cpname_operation_marlin_aas64_2_tv_station",
         "class": "ControlPoint",
         "name_object": "TV Station 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "126",
-        "sgid": "506",
+        "sgid": "502",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1836,14 +1434,14 @@
         "popupContent": "Amazing information about Bellevue Hotel 100m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_operation_marlin_aas64_6_hotel_bellevue",
+        "name": "cpname_operation_marlin_aas64_2_hotel_bellevue",
         "class": "ControlPoint",
         "name_object": "Bellevue Hotel 100m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "127",
-        "sgid": "606",
+        "sgid": "602",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"

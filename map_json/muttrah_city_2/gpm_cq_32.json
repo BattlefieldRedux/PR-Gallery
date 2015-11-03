@@ -1,0 +1,828 @@
+{
+  "team1":"mec",
+  "team2":"us",
+  "team1tickets":"550",
+  "team2tickets":"550",
+  "mapsize":"2048",
+  "viewdistance":"700",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_muttrah_city_2_aas32_fort"
+      ],
+      [
+        "cpname_muttrah_city_2_aas32_southcity"
+      ],
+      [
+        "cpname_muttrah_city_2_aas32_eastcitycenter"
+      ],
+      [
+        "cpname_muttrah_city_2_aas32_westcitycenter"
+      ],
+      [
+        "cpname_muttrah_city_2_aas32_northcity"
+      ],
+      [
+        "cpname_muttrah_city_2_aas32_docks"
+      ],
+      [
+        "cpname_muttrah_city_2_aas32_carrier"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.31575, -30.346252],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-137.027",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_transheli",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.62, -33.319626],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-84.221",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_0_1",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.6655, -18.178253],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mv22.png",
+        "iconrotate": "-139.696",
+        "popupContent": "Amazing information about MV-22 Osprey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_0_2",
+        "class": "ObjectSpawner",
+        "name_object": "MV-22 Osprey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_mv22",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.886, -34.926872],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_boat.png",
+        "iconrotate": "129.987",
+        "popupContent": "Amazing information about RHIB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_spdboat",
+        "class": "ObjectSpawner",
+        "name_object": "RHIB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_m240b",
+        "maxspawn": "120.0",
+        "minspawn": "120.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.58176, -33.230125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_boat.png",
+        "iconrotate": "141.379",
+        "popupContent": "Amazing information about RHIB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_0_3",
+        "class": "ObjectSpawner",
+        "name_object": "RHIB",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "boat_rib_gpmg_m240b",
+        "maxspawn": "120.0",
+        "minspawn": "120.0",
+        "spawndelay": "false",
+        "ttl": "300.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.55325, -33.04625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_aavp7.png",
+        "iconrotate": "135.201",
+        "popupContent": "Amazing information about AAVP7A1 RAM/RS will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_apc",
+        "class": "ObjectSpawner",
+        "name_object": "AAVP7A1 RAM/RS",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_aavp7a1",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.62187, -31.940247],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_aavp7.png",
+        "iconrotate": "133.84",
+        "popupContent": "Amazing information about AAVP7A1 RAM/RS will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_0_4",
+        "class": "ObjectSpawner",
+        "name_object": "AAVP7A1 RAM/RS",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_apc_aavp7a1",
+        "maxspawn": "450.0",
+        "minspawn": "450.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [232.99124, -30.9505],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconrotate": "-97.848",
+        "popupContent": "Amazing information about AH-1 SuperCobra will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_attakheli",
+        "class": "ObjectSpawner",
+        "name_object": "AH-1 SuperCobra",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_ahe_ah1z",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.45924, -236.15175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-76.483",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_suporttruck",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.75175, -233.99013],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-131.013",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_0",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.83275, -235.793],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-80.707",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_1_1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.36626, -236.72462],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_commandpost",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "mec_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [232.66364, -25.018997],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/firebase_mini_white.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hideout will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_commandpost",
+        "class": "ObjectSpawner",
+        "name_object": "Hideout",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "deployable_commandpost_us",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.50638, -212.03175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "-174.998",
+        "popupContent": "Amazing information about zpu4 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_aascannons",
+        "class": "ObjectSpawner",
+        "name_object": "zpu4",
+        "team": "1",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.5685, -235.75313],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "-39.603",
+        "popupContent": "Amazing information about zpu4 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_0_0",
+        "class": "ObjectSpawner",
+        "name_object": "zpu4",
+        "team": "1",
+        "obj1": "zpu4",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.34, -200.42238],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/player_map/mini_squad.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_fixedbunker",
+        "class": "ObjectSpawner",
+        "name_object": "Temporary spawnpoint",
+        "team": "1",
+        "obj1": "rallypoint_mec_placeable",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.38412, -243.84175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_vehicledeport",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_mec",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.36963, -234.4135],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-129.712",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_2_1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "mec_trk_support",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [254.18938, -254.28888],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_arty",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.733, -29.746498],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-135.108",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier_lighttransheli",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n_m240d",
+        "maxspawn": "999999.0",
+        "minspawn": "999999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [254.11887, -253.1065],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_arty_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [252.479, -254.71451],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_arty2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [252.35574, -252.6495],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_arty3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.4405, -200.47987],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-75.874",
+        "popupContent": "Amazing information about Stationary BIPOD will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort_mec_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary BIPOD",
+        "team": "1",
+        "obj1": "mec_bipod",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [233.57639, -25.549126],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USS Essex will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_carrier",
+        "class": "ControlPoint",
+        "name_object": "USS Essex",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "70",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.13887, -87.474],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Muttrah Docks 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_docks",
+        "class": "ControlPoint",
+        "name_object": "Muttrah Docks 150m",
+        "team": "0",
+        "areavalue1": "30.0",
+        "areavalue2": "20.0",
+        "cpid": "201",
+        "sgid": "60",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "45.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.22625, -113.49338],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North City 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_northcity",
+        "class": "ControlPoint",
+        "name_object": "North City 150m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "20.0",
+        "cpid": "202",
+        "sgid": "50",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "60.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.893753, -193.491],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East City Center 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_eastcitycenter",
+        "class": "ControlPoint",
+        "name_object": "East City Center 125m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "204",
+        "sgid": "30",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.54738, -221.71863],
+        "size": [33, 33],
+        "radius": "18.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South City 150m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_southcity",
+        "class": "ControlPoint",
+        "name_object": "South City 150m",
+        "team": "0",
+        "areavalue1": "20.0",
+        "areavalue2": "29.0",
+        "cpid": "205",
+        "sgid": "20",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.65012, -204.50587],
+        "size": [33, 33],
+        "radius": "12.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Fortress will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_fort",
+        "class": "ControlPoint",
+        "name_object": "MEC Fortress",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "1000.0",
+        "cpid": "206",
+        "sgid": "10",
+        "uncap": "false",
+        "ttgc": "45.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.981499, -167.41487],
+        "size": [33, 33],
+        "radius": "15.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about West City Center 125m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_aas32_westcitycenter",
+        "class": "ControlPoint",
+        "name_object": "West City Center 125m",
+        "team": "0",
+        "areavalue1": "15.0",
+        "areavalue2": "15.0",
+        "cpid": "203",
+        "sgid": "40",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "100.0"
+      }
+    }
+  ]
+}

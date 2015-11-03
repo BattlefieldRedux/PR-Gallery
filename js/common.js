@@ -275,7 +275,7 @@ function parseArgs() {
 		if (gm_name.search("conq") != -1 || gm_name.search("cq") != -1 || gm_name.search("aas") != -1) {
 			modename = "Assault and Secure";
 		}
-		if (gm_name.search("veh") != -1 || gm_name.search("wf") != -1) {
+		if (gm_name.search("veh") != -1 || gm_name.search("vw") != -1) {
 			modename = "Vehicle Warfare";
 		}
 		if (gm_name.search("com") != -1 || gm_name.search("cnc") != -1) {

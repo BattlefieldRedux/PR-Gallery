@@ -637,6 +637,81 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [177.893, -75.67],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "170.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fallujah_west_coop64_mosque_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [227.10925, -98.1965],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-160.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fallujah_west_coop64_upstreet_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.6695, -18.096748],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "150.0",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_fallujah_west_coop64_crossroad_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [224.25, -40.75],
         "size": [33, 33],
         "radius": "11.25"
@@ -698,12 +773,12 @@
       "properties": {
         "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Mosque 20m will be found here!"
+        "popupContent": "Amazing information about Mosque 25m will be found here!"
       },
       "bf2props": {
         "name": "cpname_fallujah_west_coop64_mosque",
         "class": "ControlPoint",
-        "name_object": "Mosque 20m",
+        "name_object": "Mosque 25m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "35.0",
@@ -860,12 +935,12 @@
       "properties": {
         "iconurl": "icons/flags_map/us/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about USMC Operations Base 45m will be found here!"
+        "popupContent": "Amazing information about USMC Operations Base 20m will be found here!"
       },
       "bf2props": {
         "name": "cpname_fallujah_west_coop64_usmain",
         "class": "ControlPoint",
-        "name_object": "USMC Operations Base 45m",
+        "name_object": "USMC Operations Base 20m",
         "team": "2",
         "areavalue1": "300.0",
         "areavalue2": "0.0",

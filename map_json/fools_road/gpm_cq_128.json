@@ -1,8 +1,8 @@
 {
   "team1":"chinsurgent",
   "team2":"gb",
-  "team1tickets":"800",
-  "team2tickets":"800",
+  "team1tickets":"1300",
+  "team2tickets":"1200",
   "mapsize":"2048",
   "viewdistance":"650",
   "combatareause":"false",
@@ -78,12 +78,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.30287, -239.78325],
+        "coordinates": [239.20363, -241.88837],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "-42.282",
+        "iconrotate": "30.571",
         "popupContent": "Amazing information about FV 510 Warrior will be found here!"
       },
       "bf2props": {
@@ -93,8 +93,8 @@
         "team": "2",
         "obj1": "null",
         "obj2": "gb_apc_warrior",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -107,19 +107,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "54.238",
-        "popupContent": "Amazing information about FV 510 Warrior will be found here!"
+        "popupContent": "Amazing information about Land Rover will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_aas128_britstart_gb_ch_apc",
         "class": "ObjectSpawner",
-        "name_object": "FV 510 Warrior",
+        "name_object": "Land Rover",
         "team": "2",
         "obj1": "null",
-        "obj2": "gb_apc_warrior",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "obj2": "gb_jep_landrover_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -128,23 +128,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.530998, -33.134125],
+        "coordinates": [25.534378, -33.131126],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-41.803",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_aas128_armoury_gb_ch_apc",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "mil_ifv_bmp1",
+        "obj1": "civ_jep_technical_militia",
         "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -195,7 +195,7 @@
         "obj2": "gb_ifv_scimitar",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -220,7 +220,7 @@
         "obj2": "null",
         "maxspawn": "900.0",
         "minspawn": "900.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -408,7 +408,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_atgun.png",
-        "iconrotate": "-159.256",
+        "iconrotate": "-159.294",
         "popupContent": "Amazing information about zis3 will be found here!"
       },
       "bf2props": {
@@ -421,31 +421,6 @@
         "maxspawn": "1800.0",
         "minspawn": "1800.0",
         "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [239.1695, -241.81587],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "30.493",
-        "popupContent": "Amazing information about FV4034 Challenger 2 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_britstart_gb_ch_lightjeep",
-        "class": "ObjectSpawner",
-        "name_object": "FV4034 Challenger 2",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_tnk_challenger",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -495,7 +470,7 @@
         "obj2": "gb_apc_warrior",
         "maxspawn": "600.0",
         "minspawn": "600.0",
-        "spawndelay": "false",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -703,24 +678,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.945251, -36.707626],
+        "coordinates": [25.8825, -32.81788],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "-42.732",
-        "popupContent": "Amazing information about T-62 will be found here!"
+        "popupContent": "Amazing information about BMP-1 will be found here!"
       },
       "bf2props": {
         "name": "brdm",
         "class": "ObjectSpawner",
-        "name_object": "T-62",
+        "name_object": "BMP-1",
         "team": "1",
-        "obj1": "mil_tnk_t62",
+        "obj1": "mil_ifv_bmp1",
         "obj2": "null",
-        "maxspawn": "1200.0",
-        "minspawn": "1200.0",
-        "spawndelay": "true",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
         "ttl": "99999.0"
       }
     },
@@ -1203,157 +1178,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [232.21413, -248.868],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "17.553",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_gbmain_trans1",
-        "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.67664, -239.32],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-43.637",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_gbmain_trans2",
-        "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [25.861374, -32.83825],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
-        "iconrotate": "-43.457",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_militiamain_bmp1",
-        "class": "ObjectSpawner",
-        "name_object": "BMP-1",
-        "team": "1",
-        "obj1": "mil_ifv_bmp1",
-        "obj2": "null",
-        "maxspawn": "900.0",
-        "minspawn": "900.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [19.95475, -25.404625],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-132.943",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_militiamain_trans1",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "mil_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.972, -236.31863],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "-132.898",
-        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_gbmain_logi1",
-        "class": "ObjectSpawner",
-        "name_object": "MAN SV Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [231.98038, -250.26736],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "6.215",
-        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_fools_road_aas128_gbmain_trans3",
-        "class": "ObjectSpawner",
-        "name_object": "MAN Support Vehicle",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "gb_trk_support",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [234.64413, -184.0585],
+        "coordinates": [236.373, -183.46788],
         "size": [33, 33],
         "radius": "18.75"
       },
@@ -1414,12 +1239,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about Militia Fortress 50m will be found here!"
+        "popupContent": "Amazing information about Militia Fortress 40m will be found here!"
       },
       "bf2props": {
         "name": "cpname_fools_road_aas128_bunker",
         "class": "ControlPoint",
-        "name_object": "Militia Fortress 50m",
+        "name_object": "Militia Fortress 40m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "300.0",

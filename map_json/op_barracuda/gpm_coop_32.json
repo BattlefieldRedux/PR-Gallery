@@ -511,56 +511,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.86125, -189.45375],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
-        "iconrotate": "0.0",
-        "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_op_barracuda_coop32_nvamissilesilo_fence",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1C Huey",
-        "team": "1",
-        "obj1": "us_ahe_uh1c_sp",
-        "obj2": "null",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [63.150124, -222.27675],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_lightattackhelo.png",
-        "iconrotate": "40.0",
-        "popupContent": "Amazing information about UH-1C Huey will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_op_barracuda_coop32_airstrip_fencekilla",
-        "class": "ObjectSpawner",
-        "name_object": "UH-1C Huey",
-        "team": "1",
-        "obj1": "us_ahe_uh1c_sp",
-        "obj2": "null",
-        "maxspawn": "999999.0",
-        "minspawn": "999999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [181.49162, -196.70276],
         "size": [16, 16]
       },
@@ -579,6 +529,56 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.308876, -185.1375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "106.622",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.196877, -186.74913],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "106.622",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_op_barracuda_coop32_carrier_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fixed_mortar",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
         "ttl": "1200.0"
       }
     },

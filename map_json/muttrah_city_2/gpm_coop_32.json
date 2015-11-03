@@ -1,6 +1,6 @@
 {
-  "team1":"mec",
-  "team2":"us",
+  "team1":"meinsurgent",
+  "team2":"usa",
   "team1tickets":"400",
   "team2tickets":"400",
   "mapsize":"2048",
@@ -32,6 +32,9 @@
         "cpname_muttrah_city_2_coop32_northcity"
       ],
       [
+        "cpname_muttrah_city_2_coop32_harbourentrance"
+      ],
+      [
         "cpname_muttrah_city_2_coop32_usdocks"
       ]
     ]
@@ -42,7 +45,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.375, -113.5],
+        "coordinates": [99.41812, -57.319],
         "size": [16, 16]
       },
       "properties": {
@@ -67,7 +70,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.5, -110.25],
+        "coordinates": [102.17175, -58.292374],
         "size": [16, 16]
       },
       "properties": {
@@ -81,7 +84,7 @@
         "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_acv_lavc2",
+        "obj2": "us_acv_stryker",
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -92,23 +95,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.375, -117.0],
+        "coordinates": [96.3015, -62.814125],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_scimitar.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about LAV-25 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "-125.0",
+        "popupContent": "Amazing information about M1A2 Abrams will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_us_apc",
         "class": "ObjectSpawner",
-        "name_object": "LAV-25",
+        "name_object": "M1A2 Abrams",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_apc_lav25_bf2",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "us_tnk_m1a2",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -117,23 +120,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.375, -115.5],
+        "coordinates": [94.85925, -62.449127],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_scimitar.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about LAV-25 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-125.0",
+        "popupContent": "Amazing information about M2A2 Bradley ODS will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_1_0",
         "class": "ObjectSpawner",
-        "name_object": "LAV-25",
+        "name_object": "M2A2 Bradley ODS",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_apc_lav25_bf2",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
+        "obj2": "us_ifv_m2a2_bf2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -142,21 +145,46 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.375, -114.0],
+        "coordinates": [94.468376, -61.86875],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_scimitar.png",
-        "iconrotate": "150.0",
-        "popupContent": "Amazing information about LAV-25 will be found here!"
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-125.0",
+        "popupContent": "Amazing information about M2A2 Bradley ODS will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_apc",
         "class": "ObjectSpawner",
-        "name_object": "LAV-25",
+        "name_object": "M2A2 Bradley ODS",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_apc_lav25",
+        "obj2": "us_ifv_m2a2_bf2",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.35237, -67.633255],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-125.0",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_usdocks_j",
+        "class": "ObjectSpawner",
+        "name_object": "M1151 Up-Armored HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_uparmored_crows",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -167,48 +195,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -110.0],
+        "coordinates": [94.20987, -66.470245],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about HMMVW will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_muttrah_city_2_coop32_usdocks_j",
-        "class": "ObjectSpawner",
-        "name_object": "HMMVW",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_crows",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
-        "spawndelay": "false",
-        "ttl": "1200.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [85.375, -109.5],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about HMMWV will be found here!"
+        "iconrotate": "-125.0",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_j_0",
         "class": "ObjectSpawner",
-        "name_object": "HMMWV",
+        "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -217,23 +220,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -109.0],
+        "coordinates": [94.482124, -66.889496],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "90.0",
-        "popupContent": "Amazing information about HMMWV will be found here!"
+        "iconrotate": "-125.0",
+        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_usdocks_j_1",
         "class": "ObjectSpawner",
-        "name_object": "HMMWV",
+        "name_object": "M1151 Up-Armored HMMWV",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_jep_hmmwv",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "obj2": "us_jep_hmmwv_uparmored",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -242,12 +245,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.375, -108.5],
+        "coordinates": [100.20187, -57.85775],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "90.0",
+        "iconrotate": "55.0",
         "popupContent": "Amazing information about M35 Logistics will be found here!"
       },
       "bf2props": {
@@ -257,35 +260,10 @@
         "team": "2",
         "obj1": "null",
         "obj2": "us_trk_logistics",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [142.125, -251.875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/uavtrailer.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about UAV Terminal will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_muttrah_city_2_coop32_mecbase_mec_command_post",
-        "class": "ObjectSpawner",
-        "name_object": "UAV Terminal",
-        "team": "1",
-        "obj1": "mec_acv_btr60pu",
-        "obj2": "null",
-        "maxspawn": "0.0",
-        "minspawn": "0.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
       }
     },
     {
@@ -321,16 +299,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-30.0",
-        "popupContent": "Amazing information about BMP-2 will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_westcity_mec_ifv",
         "class": "ObjectSpawner",
-        "name_object": "BMP-2",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "mec_apc_bmp2_bf2",
+        "obj1": "civ_jep_technical2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -346,16 +324,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-40.0",
-        "popupContent": "Amazing information about BMP-2 will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_b2",
         "class": "ObjectSpawner",
-        "name_object": "BMP-2",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "mec_apc_bmp2",
+        "obj1": "civ_jep_technical2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -371,16 +349,16 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-110.0",
-        "popupContent": "Amazing information about BMP-2 will be found here!"
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_e",
         "class": "ObjectSpawner",
-        "name_object": "BMP-2",
+        "name_object": "DShKM Technical",
         "team": "1",
-        "obj1": "mec_apc_bmp2",
+        "obj1": "civ_jep_technical2",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -396,19 +374,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconurl": "icons/vehicles_map/mini_bombcar.png",
         "iconrotate": "-30.0",
-        "popupContent": "Amazing information about MT-LB 6MA will be found here!"
+        "popupContent": "Amazing information about Car Bomb will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_brdm",
         "class": "ObjectSpawner",
-        "name_object": "MT-LB 6MA",
+        "name_object": "Car Bomb",
         "team": "1",
-        "obj1": "mec_apc_mtlb_30mm_bf2",
+        "obj1": "civ_jep_car_bomber",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -423,17 +401,17 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-80.0",
-        "popupContent": "Amazing information about UAZ-469 will be found here!"
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_car",
         "class": "ObjectSpawner",
-        "name_object": "UAZ-469",
+        "name_object": "DShkM Technical",
         "team": "1",
-        "obj1": "mec_jep_uaz_mg",
+        "obj1": "civ_jep_technical",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -448,17 +426,17 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about UAZ-469 will be found here!"
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_car_0",
         "class": "ObjectSpawner",
-        "name_object": "UAZ-469",
+        "name_object": "DShkM Technical",
         "team": "1",
-        "obj1": "mec_jep_uaz_mg",
+        "obj1": "civ_jep_technical",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -471,19 +449,19 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+        "popupContent": "Amazing information about Ammo Pickup will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_tr",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
+        "name_object": "Ammo Pickup",
         "team": "1",
-        "obj1": "mec_trk_logistics",
+        "obj1": "civ_jep_support",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -507,8 +485,8 @@
         "team": "1",
         "obj1": "zpu4",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -523,17 +501,17 @@
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-80.0",
-        "popupContent": "Amazing information about UAZ-469 will be found here!"
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_uaz",
         "class": "ObjectSpawner",
-        "name_object": "UAZ-469",
+        "name_object": "DShkM Technical",
         "team": "1",
-        "obj1": "mec_jep_uaz_mg",
+        "obj1": "civ_jep_technical",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
       }
@@ -546,21 +524,121 @@
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
         "iconrotate": "-165.612",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
+        "popupContent": "Amazing information about Ammo Pickup will be found here!"
       },
       "bf2props": {
         "name": "cpname_muttrah_city_2_coop32_mecbase_support",
         "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
+        "name_object": "Ammo Pickup",
         "team": "1",
-        "obj1": "mec_trk_support",
+        "obj1": "civ_jep_support",
         "obj2": "null",
-        "maxspawn": "120.0",
-        "minspawn": "120.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.655624, -60.556877],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "55.0",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_usdocks_support",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.398254, -60.189377],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "55.0",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_usdocks_support_0",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.185875, -238.20862],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-73.57",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_mecbase_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "800.0",
+        "minspawn": "800.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.21963, -240.1925],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-73.57",
+        "popupContent": "Amazing information about fixed_mortar_ins will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_mecbase_mortar_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar_ins",
+        "team": "1",
+        "obj1": "fixed_mortar_ins",
+        "obj2": "null",
+        "maxspawn": "800.0",
+        "minspawn": "800.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {
@@ -572,7 +650,7 @@
         "radius": "3.125"
       },
       "properties": {
-        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about MEC Base will be found here!"
       },
@@ -582,11 +660,11 @@
         "name_object": "MEC Base",
         "team": "1",
         "areavalue1": "0.0",
-        "areavalue2": "222.0",
+        "areavalue2": "99999.0",
         "cpid": "207",
         "sgid": "1",
         "uncap": "false",
-        "ttgc": "120.0",
+        "ttgc": "90.0",
         "ttlc": "90.0"
       }
     },
@@ -599,7 +677,7 @@
         "radius": "3.75"
       },
       "properties": {
-        "iconurl": "icons/flags_map/mec/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Fort 30m will be found here!"
       },
@@ -609,12 +687,12 @@
         "name_object": "Fort 30m",
         "team": "1",
         "areavalue1": "0.0",
-        "areavalue2": "55.0",
+        "areavalue2": "15.0",
         "cpid": "208",
         "sgid": "2",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -626,7 +704,7 @@
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Park 35m will be found here!"
       },
@@ -634,14 +712,14 @@
         "name": "cpname_muttrah_city_2_coop32_park",
         "class": "ControlPoint",
         "name_object": "Park 35m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
-        "areavalue2": "55.0",
+        "areavalue2": "15.0",
         "cpid": "209",
         "sgid": "3",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -653,7 +731,7 @@
         "radius": "3.75"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Market 30m will be found here!"
       },
@@ -661,14 +739,14 @@
         "name": "cpname_muttrah_city_2_coop32_market",
         "class": "ControlPoint",
         "name_object": "Market 30m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "210",
         "sgid": "3",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -680,7 +758,7 @@
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Suburbs 35m will be found here!"
       },
@@ -688,14 +766,14 @@
         "name": "cpname_muttrah_city_2_coop32_suburbs",
         "class": "ControlPoint",
         "name_object": "Suburbs 35m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "211",
         "sgid": "4",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -707,7 +785,7 @@
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Mosque 35m will be found here!"
       },
@@ -715,14 +793,14 @@
         "name": "cpname_muttrah_city_2_coop32_mosque",
         "class": "ControlPoint",
         "name_object": "Mosque 35m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "212",
         "sgid": "4",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -734,7 +812,7 @@
         "radius": "5.0"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about Construction Site 40m will be found here!"
       },
@@ -742,14 +820,14 @@
         "name": "cpname_muttrah_city_2_coop32_consite",
         "class": "ControlPoint",
         "name_object": "Construction Site 40m",
-        "team": "0",
+        "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "213",
         "sgid": "5",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -761,7 +839,7 @@
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about West City 35m will be found here!"
       },
@@ -769,14 +847,14 @@
         "name": "cpname_muttrah_city_2_coop32_westcity",
         "class": "ControlPoint",
         "name_object": "West City 35m",
-        "team": "0",
-        "areavalue1": "55.0",
+        "team": "1",
+        "areavalue1": "0.0",
         "areavalue2": "0.0",
         "cpid": "214",
         "sgid": "5",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
@@ -788,7 +866,7 @@
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconurl": "icons/flags_map/meinsurgent/minimap_cp.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about North City 35m will be found here!"
       },
@@ -796,26 +874,26 @@
         "name": "cpname_muttrah_city_2_coop32_northcity",
         "class": "ControlPoint",
         "name_object": "North City 35m",
-        "team": "2",
-        "areavalue1": "55.0",
+        "team": "1",
+        "areavalue1": "20.0",
         "areavalue2": "0.0",
         "cpid": "215",
         "sgid": "6",
         "uncap": "false",
-        "ttgc": "180.0",
-        "ttlc": "150.0"
+        "ttgc": "90.0",
+        "ttlc": "90.0"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [60.5, -119.375],
+        "coordinates": [99.07863, -63.191124],
         "size": [33, 33],
         "radius": "4.375"
       },
       "properties": {
-        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
         "iconrotate": "0",
         "popupContent": "Amazing information about US Docks will be found here!"
       },
@@ -827,6 +905,33 @@
         "areavalue1": "222.0",
         "areavalue2": "0.0",
         "cpid": "216",
+        "sgid": "8",
+        "uncap": "true",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [61.630753, -119.53113],
+        "size": [33, 33],
+        "radius": "3.75"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Harbour Entrance 30m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_muttrah_city_2_coop32_harbourentrance",
+        "class": "ControlPoint",
+        "name_object": "Harbour Entrance 30m",
+        "team": "2",
+        "areavalue1": "150.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
         "sgid": "7",
         "uncap": "false",
         "ttgc": "120.0",

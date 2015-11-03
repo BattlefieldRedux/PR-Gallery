@@ -1,8 +1,8 @@
 {
   "team1":"ru",
   "team2":"cf",
-  "team1tickets":"500",
-  "team2tickets":"500",
+  "team1tickets":"600",
+  "team2tickets":"600",
   "mapsize":"4096",
   "viewdistance":"700",
   "combatareause":"false",
@@ -44,7 +44,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
       },
       "bf2props": {
@@ -69,7 +69,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
       },
       "bf2props": {
@@ -94,7 +94,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-8T Hip will be found here!"
       },
       "bf2props": {
@@ -344,7 +344,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_attack_heli.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
       },
       "bf2props": {
@@ -558,6 +558,31 @@
         "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.716248, -154.99625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_canadianhq_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_cf",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
       }
     },
     {
@@ -889,6 +914,106 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [13.951187, -158.11313],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-93.141",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_canadianhq_support",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "cf_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.952248, -158.36913],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-93.141",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_canadianhq_support_0",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "cf_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.954941, -158.62306],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-93.141",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_canadianhq_support_1",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "cf_jep_gwagon",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.95594, -158.87906],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-93.141",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_yamalia_coop32_canadianhq_support_2",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "cf_jep_gwagon",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [240.21326, -235.567],
         "size": [33, 33],
         "radius": "2.5"
@@ -1031,12 +1156,12 @@
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about cpname_yamalia_coop32_objectiveelena will be found here!"
+        "popupContent": "Amazing information about Objective Elena 100m will be found here!"
       },
       "bf2props": {
         "name": "cpname_yamalia_coop32_objectiveelena",
         "class": "ControlPoint",
-        "name_object": "cpname_yamalia_coop32_objectiveelena",
+        "name_object": "Objective Elena 100m",
         "team": "0",
         "areavalue1": "99999.0",
         "areavalue2": "30.0",

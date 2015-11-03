@@ -1,8 +1,8 @@
 {
   "team1":"vnnva",
   "team2":"vnusa",
-  "team1tickets":"550",
-  "team2tickets":"550",
+  "team1tickets":"600",
+  "team2tickets":"600",
   "mapsize":"1024",
   "viewdistance":"400",
   "combatareause":"false",
@@ -486,7 +486,57 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [209.7455, -210.44101],
+        "coordinates": [74.84425, -36.847748],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
+        "iconrotate": "111.309",
+        "popupContent": "Amazing information about M67 Zippo will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_usmain_flametank",
+        "class": "ObjectSpawner",
+        "name_object": "M67 Zippo",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_tnk_m67",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154.6715, -220.42426],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_scimitar.png",
+        "iconrotate": "-11.093",
+        "popupContent": "Amazing information about PT-76 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_hill_488_aas64_vcmain_pt76",
+        "class": "ObjectSpawner",
+        "name_object": "PT-76",
+        "team": "1",
+        "obj1": "nva_tnk_pt76",
+        "obj2": "null",
+        "maxspawn": "1200.0",
+        "minspawn": "1200.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.73926, -210.44751],
         "size": [16, 16]
       },
       "properties": {
@@ -527,7 +577,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "3",
+        "cpid": "13",
         "sgid": "4",
         "uncap": "false",
         "ttgc": "120.0",
@@ -554,7 +604,7 @@
         "team": "2",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "2",
+        "cpid": "12",
         "sgid": "6",
         "uncap": "true",
         "ttgc": "999999.0",
@@ -581,7 +631,7 @@
         "team": "1",
         "areavalue1": "200.0",
         "areavalue2": "0.0",
-        "cpid": "1",
+        "cpid": "11",
         "sgid": "2",
         "uncap": "false",
         "ttgc": "120.0",
@@ -608,7 +658,7 @@
         "team": "2",
         "areavalue1": "0.0",
         "areavalue2": "200.0",
-        "cpid": "5",
+        "cpid": "15",
         "sgid": "5",
         "uncap": "false",
         "ttgc": "120.0",
@@ -635,7 +685,7 @@
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "4",
+        "cpid": "14",
         "sgid": "1",
         "uncap": "true",
         "ttgc": "999999.0",
@@ -662,7 +712,7 @@
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "8",
+        "cpid": "18",
         "sgid": "3",
         "uncap": "false",
         "ttgc": "120.0",

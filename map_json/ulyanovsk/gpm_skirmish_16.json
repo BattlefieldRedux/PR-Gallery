@@ -1,0 +1,318 @@
+{
+  "team1":"ru",
+  "team2":"ger",
+  "team1tickets":"450",
+  "team2tickets":"450",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_ulyanovsk_skirmish16_team1main"
+      ],
+      [
+        "cpname_ulyanovsk_skirmish16_oldfort"
+      ],
+      [
+        "cpname_ulyanovsk_skirmish16_outpost"
+      ],
+      [
+        "cpname_ulyanovsk_skirmish16_oldfortress"
+      ],
+      [
+        "cpname_ulyanovsk_skirmish16_team2main"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.50288, -55.323128],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team1main_crate",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.15413, -59.466873],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team1main_crate_0",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.263245, -73.30525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team1main_crate_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.987, -129.66376],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team2main_crate",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.43225, -60.308876],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team1main_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "ru_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [212.088, -128.09375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team2main_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_acv_m557a2",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.388626, -60.845],
+        "size": [33, 33],
+        "radius": "9.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about RU Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team1main",
+        "class": "ControlPoint",
+        "name_object": "RU Outpost",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.27863, -130.6175],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about GER Outpost will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_team2main",
+        "class": "ControlPoint",
+        "name_object": "GER Outpost",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "405",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.61563, -89.686874],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Fort 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_oldfort",
+        "class": "ControlPoint",
+        "name_object": "Old Fort 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "406",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [161.4715, -129.70825],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fortress 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_oldfortress",
+        "class": "ControlPoint",
+        "name_object": "Fortress 40m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "407",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.3585, -134.57588],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trenches 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_skirmish16_outpost",
+        "class": "ControlPoint",
+        "name_object": "Trenches 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "4",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    }
+  ]
+}

@@ -42,20 +42,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [195.07574, -244.54251],
+        "coordinates": [198.00299, -244.54251],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_scouthelo.png",
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
         "iconrotate": "0.0",
-        "popupContent": "Amazing information about EC635 will be found here!"
+        "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop32_fob_cas",
         "class": "ObjectSpawner",
-        "name_object": "EC635",
+        "name_object": "Mi-28N Havoc",
         "team": "1",
-        "obj1": "mec_ahe_ec635",
+        "obj1": "mec_ahe_havoc",
         "obj2": "null",
         "maxspawn": "300.0",
         "minspawn": "300.0",
@@ -67,7 +67,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.633, -241.13974],
+        "coordinates": [193.64813, -240.74512],
         "size": [16, 16]
       },
       "properties": {
@@ -117,20 +117,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.59763, -242.063],
+        "coordinates": [193.626, -241.32437],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "92.193",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about BMP-3 will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop32_fob_apc_1",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "BMP-3",
         "team": "1",
-        "obj1": "mil_ifv_bmp1_bf2",
+        "obj1": "mec_ifv_bmp3_bf2",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
@@ -142,20 +142,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [193.61426, -241.62537],
+        "coordinates": [193.60425, -241.88538],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
         "iconrotate": "92.193",
-        "popupContent": "Amazing information about BMP-1 will be found here!"
+        "popupContent": "Amazing information about BMP-3 will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop32_fob_apc_2",
         "class": "ObjectSpawner",
-        "name_object": "BMP-1",
+        "name_object": "BMP-3",
         "team": "1",
-        "obj1": "mil_ifv_bmp1_bf2",
+        "obj1": "mec_ifv_bmp3_bf2",
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
@@ -267,7 +267,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [145.6335, -58.771873],
+        "coordinates": [145.98262, -55.641876],
         "size": [16, 16]
       },
       "properties": {
@@ -281,7 +281,7 @@
         "name_object": "Vehicle Depot",
         "team": "2",
         "obj1": "null",
-        "obj2": "vehicle_depot",
+        "obj2": "vehicle_depot_fsa",
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -292,12 +292,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [137.631, -60.041748],
+        "coordinates": [129.35637, -60.500122],
         "size": [16, 16]
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_medium.png",
-        "iconrotate": "0.0",
+        "iconrotate": "32.288",
         "popupContent": "Amazing information about T-62 will be found here!"
       },
       "bf2props": {
@@ -317,21 +317,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [136.481, -60.096252],
+        "coordinates": [137.5565, -60.021126],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/vehicles_map/mini_tank_medium.png",
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
         "iconrotate": "-4.0",
-        "popupContent": "Amazing information about T-62 will be found here!"
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
         "name": "cpname_sbeneh_outskirts_coop32_rebelmain_techie_0",
         "class": "ObjectSpawner",
-        "name_object": "T-62",
+        "name_object": "DShkM Technical",
         "team": "2",
         "obj1": "null",
-        "obj2": "fsa_tnk_t62",
+        "obj2": "civ_jep_technical",
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
@@ -367,7 +367,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [135.40875, -60.342125],
+        "coordinates": [134.62363, -60.244873],
         "size": [16, 16]
       },
       "properties": {
@@ -382,31 +382,6 @@
         "team": "2",
         "obj1": "null",
         "obj2": "fsa_ifv_bmp1",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "1200.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [135.78024, -60.33188],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_adv_light.png",
-        "iconrotate": "-4.0",
-        "popupContent": "Amazing information about Ural-4320 & ZU-23-2 will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_sbeneh_outskirts_coop32_rebelmain_aav_0",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 & ZU-23-2",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "civ_aav_uralzu232",
         "maxspawn": "300.0",
         "minspawn": "300.0",
         "spawndelay": "false",
@@ -711,6 +686,106 @@
         "minspawn": "600.0",
         "spawndelay": "true",
         "ttl": "30.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.493, -60.095497],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-4.0",
+        "popupContent": "Amazing information about M2HB Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop32_rebelmain_techie_2",
+        "class": "ObjectSpawner",
+        "name_object": "M2HB Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical_black",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.576, -60.178253],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-4.0",
+        "popupContent": "Amazing information about BMP-1 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop32_rebelmain_bmp",
+        "class": "ObjectSpawner",
+        "name_object": "BMP-1",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "fsa_ifv_bmp1",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [195.07574, -244.54251],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_attack_heli.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mi-28N Havoc will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop32_fob_havok",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-28N Havoc",
+        "team": "1",
+        "obj1": "mec_ahe_havoc_sp",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.20488, -171.4155],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_mortardefsmall.png",
+        "iconrotate": "-123.662",
+        "popupContent": "Amazing information about fixed_mortar will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_sbeneh_outskirts_coop32_bravo_mortar",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_mortar",
+        "team": "1",
+        "obj1": "fixed_mortar",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
       }
     },
     {

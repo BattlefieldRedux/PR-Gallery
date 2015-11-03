@@ -1,0 +1,2932 @@
+{
+  "team1":"idf",
+  "team2":"hamas",
+  "team1tickets":"500",
+  "team2tickets":"500",
+  "mapsize":"1024",
+  "viewdistance":"900",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.351746, -156.25424],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_vehicledepot_team2",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.557, -160.44475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_vehicledepot_team1",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.786247, -149.99075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-92.9",
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_team1_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary PKM",
+        "team": "1",
+        "obj1": "ru_bipod",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.816498, -151.56125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_smgsmall.png",
+        "iconrotate": "-92.9",
+        "popupContent": "Amazing information about Stationary PKM will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_team2_bipod",
+        "class": "ObjectSpawner",
+        "name_object": "Stationary PKM",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ru_bipod",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.66376, -218.28325],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_crate_team1_2",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.0995, -230.80225],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_crate_team1_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.15924, -222.29926],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_crate_team1_3",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.631, -230.5715],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_crate_team2_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [245.36125, -222.20074],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_crate_team2_2",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.23224, -218.62175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_crate_team2_3",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.582253, -234.97876],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_crate_team2_2",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.822, -227.48074],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_crate_team2_3",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.123497, -219.34375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_crate_team2_4",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.137, -235.3305],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_crate_team1_2",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [59.129997, -228.155],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_crate_team1_3",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.79725, -220.1835],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_crate_team1_4",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.959747, -128.848],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.870003, -127.31625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_2",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.618248, -120.18825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_3",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.456253, -109.928],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_4",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.630997, -97.9075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_5",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.666748, -88.83525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_6",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.6305, -82.246],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_7",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.833252, -67.843],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_8",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.150002, -57.083252],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_9",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.22425, -39.14125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_10",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.116753, -21.834503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team1_11",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.39125, -128.9135],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.20375, -127.00525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_2",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.612503, -119.33775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_3",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.692749, -109.278],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_4",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.708252, -97.08425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_5",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.652, -88.0215],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_6",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.67575, -81.345],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_7",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.85675, -67.01825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_8",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.26825, -56.2975],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_9",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.833748, -38.853996],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_10",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.954002, -22.693497],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "shootingrange_crate_team2_11",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.0285, -162.90851],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_crate_team1_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.22975, -162.9955],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_crate_team2_1",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "0.0",
+        "minspawn": "60.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.897, -164.53575],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-103.042",
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "DShkM Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.0485, -165.59076],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-101.919",
+        "popupContent": "Amazing information about M2HB Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_apc2",
+        "class": "ObjectSpawner",
+        "name_object": "M2HB Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical_black",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.205246, -166.5745],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-99.754",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_apc3",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical2",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.37775, -167.47275],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
+        "iconrotate": "-99.754",
+        "popupContent": "Amazing information about Dirtbike will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_apc4",
+        "class": "ObjectSpawner",
+        "name_object": "Dirtbike",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_bik_dirtbike",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.527, -168.50674],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
+        "iconrotate": "-99.754",
+        "popupContent": "Amazing information about Dirtbike will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_aa1",
+        "class": "ObjectSpawner",
+        "name_object": "Dirtbike",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_bik_dirtbike",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.97725, -168.795],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_truck1",
+        "class": "ObjectSpawner",
+        "name_object": "SPG-9 Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_atm_technical",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.13725, -168.8705],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_towjeep.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about SPG-9 Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_truck2",
+        "class": "ObjectSpawner",
+        "name_object": "SPG-9 Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_atm_technical",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.399, -169.01476],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_car",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.518005, -169.15425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_car_blue",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.50125, -167.84601],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_bombcar.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about Car Bomb will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_tnk",
+        "class": "ObjectSpawner",
+        "name_object": "Car Bomb",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_car_bomber_black",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.3155, -166.82126],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_bombtruck.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about Suicide Dump Truck will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_tnk2",
+        "class": "ObjectSpawner",
+        "name_object": "Suicide Dump Truck",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_trk_dumpster_bomber",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.266, -165.899],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_semitruck.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about Semi Truck Bomb will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_apc5",
+        "class": "ObjectSpawner",
+        "name_object": "Semi Truck Bomb",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_trk_semi_bomber",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.16225, -164.99875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_semitruck.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about Semi Truck Bomb will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team2_apc6",
+        "class": "ObjectSpawner",
+        "name_object": "Semi Truck Bomb",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_trk_semi_bomber",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.3625, -163.2795],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-103.042",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.514, -164.33475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-101.919",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_apc2",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.670746, -165.3185],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_logistics.png",
+        "iconrotate": "-99.754",
+        "popupContent": "Amazing information about M113 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_apc3",
+        "class": "ObjectSpawner",
+        "name_object": "M113 Logistics",
+        "team": "1",
+        "obj1": "idf_apc_m113_logistics",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.84325, -166.21649],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-99.754",
+        "popupContent": "Amazing information about Namer will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_apc4",
+        "class": "ObjectSpawner",
+        "name_object": "Namer",
+        "team": "1",
+        "obj1": "idf_apc_namer",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.9925, -167.25075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-99.754",
+        "popupContent": "Amazing information about Namer will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_aa1",
+        "class": "ObjectSpawner",
+        "name_object": "Namer",
+        "team": "1",
+        "obj1": "idf_apc_namer",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.44275, -167.53876],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_truck1",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "1",
+        "obj1": "idf_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.60275, -167.6145],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_truck2",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "1",
+        "obj1": "idf_trk_support",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.8645, -167.75876],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.983246, -167.898],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-8.036",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwvopen",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.9665, -166.58975],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about Merkava Mark IV will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_tnk",
+        "class": "ObjectSpawner",
+        "name_object": "Merkava Mark IV",
+        "team": "1",
+        "obj1": "idf_tnk_merkava",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.78075, -165.565],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about Merkava Mark IV will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_tnk2",
+        "class": "ObjectSpawner",
+        "name_object": "Merkava Mark IV",
+        "team": "1",
+        "obj1": "idf_tnk_merkava",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.7315, -164.643],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_apc5",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.62775, -163.7425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "77.23",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "vehiclerange_team1_apc6",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.29974, -231.563],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-177.899",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team1_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.22174, -231.6175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-177.899",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team1_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwvopen",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.1205, -231.6525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-177.899",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team1_jep3",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwvopen",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.0875, -231.7545],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-177.899",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team1_trk1",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "1",
+        "obj1": "idf_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [244.0365, -231.8405],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-177.899",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team1_trk2",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "1",
+        "obj1": "idf_trk_support",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [245.16, -231.79001],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.899",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team1_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.1535, -237.52249],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
+        "iconrotate": "1.162",
+        "popupContent": "Amazing information about Dirtbike will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team2_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "Dirtbike",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_bik_dirtbike",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241.276, -237.45349],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
+        "iconrotate": "1.162",
+        "popupContent": "Amazing information about Dirtbike will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team2_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "Dirtbike",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_bik_dirtbike",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.22626, -237.52425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "1.162",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team2_jep3",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_car_blue",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.195, -237.61026],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "1.162",
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team2_trk1",
+        "class": "ObjectSpawner",
+        "name_object": "DShkM Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [244.094, -237.6305],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "1.162",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team2_trk2",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical2",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [245.01675, -237.66974],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "1.162",
+        "popupContent": "Amazing information about Civilian Van will be found here!"
+      },
+      "bf2props": {
+        "name": "topvillage_team2_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Van",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_zastava900ak",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.88675, -230.28226],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-86.203",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team1_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwvopen",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.80525, -231.202],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-86.203",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team1_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwvopen",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.7435, -232.09924],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-86.203",
+        "popupContent": "Amazing information about HMMVW SIYUR will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team1_jep3",
+        "class": "ObjectSpawner",
+        "name_object": "HMMVW SIYUR",
+        "team": "1",
+        "obj1": "idf_jep_hmmwv",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.613, -233.063],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-86.203",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team1_trk1",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "1",
+        "obj1": "idf_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.49875, -234.009],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-86.203",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team1_trk2",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "1",
+        "obj1": "idf_trk_support",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.51625, -235.1335],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-86.203",
+        "popupContent": "Amazing information about M113 will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team1_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "M113",
+        "team": "1",
+        "obj1": "idf_apc_m113",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [61.525253, -236.475],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "3.803",
+        "popupContent": "Amazing information about Civilian Van will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team2_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Van",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_zastava900ak",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.64975, -236.45775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "3.803",
+        "popupContent": "Amazing information about DShKM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team2_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "DShKM Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical2",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.595497, -236.57199],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_civicar.png",
+        "iconrotate": "3.803",
+        "popupContent": "Amazing information about Civilian Car will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team2_jep3",
+        "class": "ObjectSpawner",
+        "name_object": "Civilian Car",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_car_blue",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [64.55925, -236.70276],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
+        "iconrotate": "3.803",
+        "popupContent": "Amazing information about Dirtbike will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team2_trk1",
+        "class": "ObjectSpawner",
+        "name_object": "Dirtbike",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_bik_dirtbike",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.4565, -236.7645],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_dirtbike.png",
+        "iconrotate": "3.803",
+        "popupContent": "Amazing information about Dirtbike will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team2_trk2",
+        "class": "ObjectSpawner",
+        "name_object": "Dirtbike",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_bik_dirtbike",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.376495, -236.84625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "3.803",
+        "popupContent": "Amazing information about DShkM Technical will be found here!"
+      },
+      "bf2props": {
+        "name": "bottomvillage_team2_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "DShkM Technical",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "civ_jep_technical",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.009003, -125.5465],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target1",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.324005, -109.824],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target2",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.16175, -95.91525],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target3",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.875, -83.78225],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target4",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.1485, -72.2265],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target5",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.13025, -60.631752],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target6",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [181.86426, -50.578003],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target7",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.06975, -37.287003],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target8",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [232.142, -27.0205],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-93.586",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2_team2_target9",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "target_pr",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.98475, -123.8125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target1",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.322754, -108.0765],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target2",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.04375, -94.18625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target3",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.96575, -81.94825],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target4",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.06175, -70.507],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target5",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.061, -58.925247],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target6",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [182.14426, -49.209747],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target7",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207.00226, -35.57775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target8",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [232.04126, -25.31025],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-94.342",
+        "popupContent": "Amazing information about target_pr will be found here!"
+      },
+      "bf2props": {
+        "name": "cp_shootingrange_team1_target9",
+        "class": "ObjectSpawner",
+        "name_object": "target_pr",
+        "team": "1",
+        "obj1": "target_pr",
+        "obj2": "null",
+        "maxspawn": "10.0",
+        "minspawn": "10.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.51825, -224.298],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_topvillage1 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_topvillage1",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_topvillage1",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "101",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [59.493248, -231.353],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_bottomvillage1 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_bottomvillage1",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_bottomvillage1",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "102",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.921, -154.9125],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_vehiclerange will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_vehiclerange",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_vehiclerange",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "103",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.059998, -116.328],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/idf/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_shootingrange will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_shootingrange",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "104",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.041245, -152.82925],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_vehiclerange2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_vehiclerange2",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_vehiclerange2",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "105",
+        "sgid": "-999",
+        "uncap": "false",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.863998, -111.07325],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_shootingrange2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_shootingrange2",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_shootingrange2",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "106",
+        "sgid": "-999",
+        "uncap": "false",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240.2015, -221.6275],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_topvillage2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_topvillage2",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_topvillage2",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "107",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.34775, -230.66449],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about cpname_test_bootcamp_skirmish32_bottomvillage2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_test_bootcamp_skirmish32_bottomvillage2",
+        "class": "ControlPoint",
+        "name_object": "cpname_test_bootcamp_skirmish32_bottomvillage2",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "108",
+        "sgid": "-999",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    }
+  ]
+}

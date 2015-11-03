@@ -1,0 +1,1613 @@
+{
+  "team1":"ru",
+  "team2":"ger",
+  "team1tickets":"1100",
+  "team2tickets":"1100",
+  "mapsize":"2048",
+  "viewdistance":"600",
+  "combatareause":"false",
+  "combatareadamage":"0.0",
+  "combatareaallowoutside":"0.0",
+  "routes": [
+    [
+      [
+        "cpname_ulyanovsk_aas128_team1main"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainyard"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_oldfortess"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_facility"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_gasstation"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainstation"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_team2main"
+      ]
+    ],
+    [
+      [
+        "cpname_ulyanovsk_aas128_team1main"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainyard_2"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_outpost_2"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_oldoutpost_2"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainstation_2"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_team2main"
+      ]
+    ],
+    [
+      [
+        "cpname_ulyanovsk_aas128_team1main"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainyard_3"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_outpost_3"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_oldfort_3"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_farm_3"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_team2main"
+      ]
+    ],
+    [
+      [
+        "cpname_ulyanovsk_aas128_team1main"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainyard_4"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_chemicalplant_4",
+        "cpname_ulyanovsk_aas128_loggingcompany_4"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_farm_4"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_team2main"
+      ]
+    ],
+    [
+      [
+        "cpname_ulyanovsk_aas128_team1main"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainyard_5"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_abandonedshack_5"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_oldoutpost_5"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_trainstation_5"
+      ],
+      [
+        "cpname_ulyanovsk_aas128_team2main"
+      ]
+    ]
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.1055, -29.341377],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Puma will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_apc_1",
+        "class": "ObjectSpawner",
+        "name_object": "Puma",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_puma",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.39925, -25.813126],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "92.1",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_jep_1",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.973999, -239.10251],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_trans_1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.667999, -239.09637],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_logi_2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.139122, -239.05212],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_trans_2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.966621, -236.35324],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_trans_4",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.239876, -239.13376],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_logi_1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "ru_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [223.69263, -24.2715],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ger",
+        "maxspawn": "180.0",
+        "minspawn": "180.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.32875, -26.390503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "92.1",
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_trans_2",
+        "class": "ObjectSpawner",
+        "name_object": "MAN Support Vehicle",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.28876, -27.001625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "92.1",
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_trans_1",
+        "class": "ObjectSpawner",
+        "name_object": "MAN Support Vehicle",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.97525, -33.28325],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_logi_1",
+        "class": "ObjectSpawner",
+        "name_object": "MAN SV Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [221.68825, -24.140747],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_acv_m557a2",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.809753, -230.22363],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_ru",
+        "obj2": "null",
+        "maxspawn": "180.0",
+        "minspawn": "180.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.938248, -234.14638],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about MT-LBM will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_apc_2",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LBM",
+        "team": "1",
+        "obj1": "ru_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.36063, -24.74775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "87.676",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_jep_3",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.33563, -25.273125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "87.676",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_jep_2",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.94725, -236.98264],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "92.0",
+        "popupContent": "Amazing information about Ural-4320 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_trans_3",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320",
+        "team": "1",
+        "obj1": "ru_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.193748, -230.89587],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "ru_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.10162, -28.237],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-92.807",
+        "popupContent": "Amazing information about Puma IFV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_ifv_1",
+        "class": "ObjectSpawner",
+        "name_object": "Puma IFV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_ifv_puma",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.950127, -232.39775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "92.0",
+        "popupContent": "Amazing information about BMP-2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_apc_1",
+        "class": "ObjectSpawner",
+        "name_object": "BMP-2",
+        "team": "1",
+        "obj1": "ru_apc_bmp2",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.10312, -29.965248],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_apc_2",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.13113, -31.214996],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_apc_3",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.15625, -31.802124],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_apc_4",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.97287, -32.745003],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_logi_2",
+        "class": "ObjectSpawner",
+        "name_object": "MAN SV Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.92025, -233.14337],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about BMP-2 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_ifv_1",
+        "class": "ObjectSpawner",
+        "name_object": "BMP-2",
+        "team": "1",
+        "obj1": "ru_ifv_bmp2",
+        "obj2": "null",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.935249, -234.772],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about MT-LBM will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_apc_3",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LBM",
+        "team": "1",
+        "obj1": "ru_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.9105, -235.40425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about MT-LBM will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_apc_4",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LBM",
+        "team": "1",
+        "obj1": "ru_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-17.150375, -301.09564],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_arty_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-17.921875, -301.02725],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_arty_2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-18.707245, -300.8949],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_arty_3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-19.631119, -300.58673],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main_arty_4",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [300.29163, 45.63713],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_arty_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [301.03775, 45.08162],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_arty_2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [301.79187, 44.39038],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_arty_3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [302.16687, 43.89038],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main_arty_4",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.004753, -226.76663],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ru/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about RU Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team1main",
+        "class": "ControlPoint",
+        "name_object": "RU Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [227.35413, -16.357628],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about GER Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_team2main",
+        "class": "ControlPoint",
+        "name_object": "GER Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "201",
+        "sgid": "7",
+        "uncap": "true",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.40938, -43.292877],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_farm_3",
+        "class": "ControlPoint",
+        "name_object": "Farm 40m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "202",
+        "sgid": "503",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [197.05637, -194.12976],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Processing Plant 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_facility",
+        "class": "ControlPoint",
+        "name_object": "Processing Plant 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "203",
+        "sgid": "401",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.669754, -70.03462],
+        "size": [33, 33],
+        "radius": "10.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Chemical Plant 80m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_chemicalplant_4",
+        "class": "ControlPoint",
+        "name_object": "Chemical Plant 80m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "324",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.524002, -74.732254],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Logging Company 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_loggingcompany_4",
+        "class": "ControlPoint",
+        "name_object": "Logging Company 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "204",
+        "sgid": "324",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.73026, -89.81763],
+        "size": [33, 33],
+        "radius": "7.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Fort 60m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_oldfort_3",
+        "class": "ControlPoint",
+        "name_object": "Old Fort 60m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "206",
+        "sgid": "403",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209.19238, -130.51338],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Service Station 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_gasstation",
+        "class": "ControlPoint",
+        "name_object": "Service Station 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "207",
+        "sgid": "501",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.51425, -214.80887],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Fortress 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_oldfortess",
+        "class": "ControlPoint",
+        "name_object": "Fortress 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "208",
+        "sgid": "301",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.3395, -134.64113],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trenches 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_outpost_2",
+        "class": "ControlPoint",
+        "name_object": "Trenches 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "209",
+        "sgid": "302",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.12512, -129.54587],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bunker 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_oldoutpost_2",
+        "class": "ControlPoint",
+        "name_object": "Bunker 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "210",
+        "sgid": "402",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.27675, -184.48026],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned Shack 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_abandonedshack_5",
+        "class": "ControlPoint",
+        "name_object": "Abandoned Shack 40m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "211",
+        "sgid": "305",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.680374, -203.09575],
+        "size": [33, 33],
+        "radius": "17.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trainyard 140m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainyard",
+        "class": "ControlPoint",
+        "name_object": "Trainyard 140m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "200.0",
+        "cpid": "212",
+        "sgid": "201",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.36426, -101.06663],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Station 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainstation",
+        "class": "ControlPoint",
+        "name_object": "Station 50m",
+        "team": "0",
+        "areavalue1": "200.0",
+        "areavalue2": "0.0",
+        "cpid": "3",
+        "sgid": "601",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.680374, -203.09575],
+        "size": [33, 33],
+        "radius": "17.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trainyard 140m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainyard_2",
+        "class": "ControlPoint",
+        "name_object": "Trainyard 140m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "5",
+        "sgid": "202",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.36426, -101.06663],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Station 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainstation_2",
+        "class": "ControlPoint",
+        "name_object": "Station 50m",
+        "team": "0",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "213",
+        "sgid": "502",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.680374, -181.63263],
+        "size": [33, 33],
+        "radius": "17.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trainyard 140m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainyard_3",
+        "class": "ControlPoint",
+        "name_object": "Trainyard 140m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "214",
+        "sgid": "203",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.3395, -134.64113],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trenches 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_outpost_3",
+        "class": "ControlPoint",
+        "name_object": "Trenches 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "215",
+        "sgid": "303",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.680374, -181.63263],
+        "size": [33, 33],
+        "radius": "17.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trainyard 140m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainyard_4",
+        "class": "ControlPoint",
+        "name_object": "Trainyard 140m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "216",
+        "sgid": "204",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.40938, -43.292877],
+        "size": [33, 33],
+        "radius": "5.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 40m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_farm_4",
+        "class": "ControlPoint",
+        "name_object": "Farm 40m",
+        "team": "0",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "205",
+        "sgid": "404",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.680374, -203.09575],
+        "size": [33, 33],
+        "radius": "17.5"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Trainyard 140m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainyard_5",
+        "class": "ControlPoint",
+        "name_object": "Trainyard 140m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "218",
+        "sgid": "205",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.12512, -129.54587],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Bunker 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_oldoutpost_5",
+        "class": "ControlPoint",
+        "name_object": "Bunker 50m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "219",
+        "sgid": "405",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [231.36426, -101.06663],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Station 50m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas128_trainstation_5",
+        "class": "ControlPoint",
+        "name_object": "Station 50m",
+        "team": "0",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "220",
+        "sgid": "505",
+        "uncap": "false",
+        "ttgc": "180.0",
+        "ttlc": "180.0"
+      }
+    }
+  ]
+}

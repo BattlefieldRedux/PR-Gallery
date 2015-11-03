@@ -1,6 +1,6 @@
 {
   "team1":"mec",
-  "team2":"usa",
+  "team2":"us",
   "team1tickets":"500",
   "team2tickets":"500",
   "mapsize":"4096",
@@ -11,22 +11,28 @@
   "routes": [
     [
       [
-        "cpname_kashan_desert_aas16_mecbase"
+        "cpname_kashan_desert_aas16_redmain"
       ],
       [
-        "cpname_kashan_desert_aas16_southvillage"
+        "cpname_kashan_desert_aas16_northoutpost"
       ],
       [
-        "cpname_kashan_desert_aas16_bunkersouth"
+        "cpname_kashan_desert_aas16_villagesouth"
       ],
       [
-        "cpname_kashan_desert_aas16_bunkernorth"
+        "cpname_kashan_desert_aas16_southbunker"
       ],
       [
-        "cpname_kashan_desert_aas16_northvillage"
+        "cpname_kashan_desert_aas16_northbunker"
       ],
       [
-        "cpname_kashan_desert_aas16_usbase"
+        "cpname_kashan_desert_aas16_villagenorth"
+      ],
+      [
+        "cpname_kashan_desert_aas16_southoutpost"
+      ],
+      [
+        "cpname_kashan_desert_aas16_bluemain"
       ]
     ]
   ],
@@ -36,1457 +42,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [244.39825, -30.053062],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "59.346",
-        "popupContent": "Amazing information about M1126 Stryker ICV will be found here!"
-      },
-      "bf2props": {
-        "name": "apc",
-        "class": "ObjectSpawner",
-        "name_object": "M1126 Stryker ICV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_apc_stryker_mk19",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.8565, -30.090248],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "59.212",
-        "popupContent": "Amazing information about HMMVW will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_0",
-        "class": "ObjectSpawner",
-        "name_object": "HMMVW",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_crows",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.94943, -29.958687],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "61.369",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored_alt",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.91187, -29.12719],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "144.8",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_0",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored_mk19",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.36105, -29.16394],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "149.3",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_1",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [239.24731, -13.75856],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-133.57",
-        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_2",
-        "class": "ObjectSpawner",
-        "name_object": "M35 2.5 Ton",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_support",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [235.07675, -17.399559],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-133.57",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_3",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.07956, -13.0926895],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-133.57",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_4",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [235.85213, -16.715935],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-133.57",
-        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_1",
-        "class": "ObjectSpawner",
-        "name_object": "M35 2.5 Ton",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_support",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [236.55325, -16.069],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-133.57",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_5",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored_alt",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.772, -12.500122],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "-133.57",
-        "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_6",
-        "class": "ObjectSpawner",
-        "name_object": "M1151 Up-Armored HMMWV",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_jep_hmmwv_uparmored_alt",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.473373, -201.04263],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-65.043",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "trk",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "mec_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.281189, -200.64618],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "-70.559",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "trk_0",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "mec_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.976814, -200.22588],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "-69.33",
-        "popupContent": "Amazing information about MT-LB 6M will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_7",
-        "class": "ObjectSpawner",
-        "name_object": "MT-LB 6M",
-        "team": "1",
-        "obj1": "mec_apc_mtlb_hmg",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.584625, -201.136],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_scout_light.png",
-        "iconrotate": "13.359",
-        "popupContent": "Amazing information about BRDM-2 will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_2",
-        "class": "ObjectSpawner",
-        "name_object": "BRDM-2",
-        "team": "1",
-        "obj1": "mec_jep_brdm2",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.846626, -201.38293],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
-        "iconrotate": "13.359",
-        "popupContent": "Amazing information about BTR-60 will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_3",
-        "class": "ObjectSpawner",
-        "name_object": "BTR-60",
-        "team": "1",
-        "obj1": "mec_apc_btr60",
-        "obj2": "null",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
-        "spawndelay": "true",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.689316, -205.188],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_scout_light.png",
-        "iconrotate": "22.619",
-        "popupContent": "Amazing information about BRDM-2 will be found here!"
-      },
-      "bf2props": {
-        "name": "apc_4",
-        "class": "ObjectSpawner",
-        "name_object": "BRDM-2",
-        "team": "1",
-        "obj1": "mec_jep_brdm2",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.274315, -206.14987],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "22.619",
-        "popupContent": "Amazing information about MT-LB 6M will be found here!"
-      },
-      "bf2props": {
-        "name": "trk_1",
-        "class": "ObjectSpawner",
-        "name_object": "MT-LB 6M",
-        "team": "1",
-        "obj1": "mec_apc_mtlb_hmg",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.801064, -207.28632],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "22.619",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "je[",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "mec_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.196251, -211.60556],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_scout_light.png",
-        "iconrotate": "22.619",
-        "popupContent": "Amazing information about BRDM-2 will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_8",
-        "class": "ObjectSpawner",
-        "name_object": "BRDM-2",
-        "team": "1",
-        "obj1": "mec_jep_brdm2",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.500374, -210.75713],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_apc_light.png",
-        "iconrotate": "22.619",
-        "popupContent": "Amazing information about MT-LB 6M will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_9",
-        "class": "ObjectSpawner",
-        "name_object": "MT-LB 6M",
-        "team": "1",
-        "obj1": "mec_apc_mtlb_hmg",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.871628, -212.46362],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
-        "iconrotate": "22.619",
-        "popupContent": "Amazing information about Ural-4320 will be found here!"
-      },
-      "bf2props": {
-        "name": "jep_10",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320",
-        "team": "1",
-        "obj1": "mec_trk_support",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.058563, -193.35625],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "33.13",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_aa",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.157127, -201.85019],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "22.301",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_rpr",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "mec_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.460999, -202.00806],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "22.301",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_0_4",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "mec_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.232872, -195.16843],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-180.0",
-        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_ah",
-        "class": "ObjectSpawner",
-        "name_object": "Mi-17 Hip",
-        "team": "1",
-        "obj1": "mec_the_mi17",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.244812, -195.1287],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-180.0",
-        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_0_5",
-        "class": "ObjectSpawner",
-        "name_object": "Mi-17 Hip",
-        "team": "1",
-        "obj1": "mec_the_mi17",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [354.035, 45.028244],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/airdef.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_jdam",
-        "class": "ObjectSpawner",
-        "name_object": "Artillery Barrage Call-In",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "artillery_team2",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
-        "spawndelay": "true",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.457, -25.979752],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "4.23",
-        "popupContent": "Amazing information about M35 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_rpr",
-        "class": "ObjectSpawner",
-        "name_object": "M35 Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.75824, -20.41819],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-180.0",
-        "popupContent": "Amazing information about UH-60L Blackhawk will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_ah",
-        "class": "ObjectSpawner",
-        "name_object": "UH-60L Blackhawk",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_uh60",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [247.00168, -20.41819],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
-        "iconrotate": "-180.0",
-        "popupContent": "Amazing information about UH-60L Blackhawk will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_0_7",
-        "class": "ObjectSpawner",
-        "name_object": "UH-60L Blackhawk",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_the_uh60",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.072441, -213.08694],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_rp",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary spawnpoint",
-        "team": "1",
-        "obj1": "rallypoint_mec_placeable",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [237.27231, -15.835251],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_rp",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary spawnpoint",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "rallypoint_usa_placeable",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [250.93607, -30.172752],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.434",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_aascannons",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-11.668442, -272.505],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/airdef.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_jdam",
-        "class": "ObjectSpawner",
-        "name_object": "Artillery Barrage Call-In",
-        "team": "1",
-        "obj1": "artillery_team1",
-        "obj2": "null",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
-        "spawndelay": "true",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.029816, -191.94263],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "34.139",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_aas",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [15.960564, -194.92825],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "46.141",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_aamissiles2",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.699753, -210.66556],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "53.546",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_aaguns3",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.734497, -211.90668],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "34.139",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_aamissiles3",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [251.16055, -21.835938],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-89.849",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_aaguns3",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [251.30444, -20.96125],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_aamissiles3",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [251.08656, -29.038315],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_aamissiles2",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.018875, -207.62405],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "46.141",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_aa_0",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.466621, -200.74057],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "46.141",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_1_3",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.142815, -212.16087],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "46.141",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_2_2",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.073189, -197.73456],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
-        "iconrotate": "41.413",
-        "popupContent": "Amazing information about mec_ats_milan will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_tow",
-        "class": "ObjectSpawner",
-        "name_object": "mec_ats_milan",
-        "team": "1",
-        "obj1": "mec_ats_milan",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.673622, -200.6463],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
-        "iconrotate": "48.973",
-        "popupContent": "Amazing information about mec_ats_milan will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_0_7",
-        "class": "ObjectSpawner",
-        "name_object": "mec_ats_milan",
-        "team": "1",
-        "obj1": "mec_ats_milan",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.39313, -31.932],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_4",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.21964, -20.068],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_5",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [248.67938, -19.876816],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_6",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.5585, -26.382935],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_7",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.84363, -25.976936],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "4.723",
-        "popupContent": "Amazing information about M35 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_truck",
-        "class": "ObjectSpawner",
-        "name_object": "M35 Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [240.07306, -25.96231],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
-        "iconrotate": "-95.709",
-        "popupContent": "Amazing information about ats_tow will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_ats",
-        "class": "ObjectSpawner",
-        "name_object": "ats_tow",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ats_tow",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [239.92014, -22.698128],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
-        "iconrotate": "-95.709",
-        "popupContent": "Amazing information about ats_tow will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_1_5",
-        "class": "ObjectSpawner",
-        "name_object": "ats_tow",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "ats_tow",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [247.244, -31.709625],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "-92.501",
-        "popupContent": "Amazing information about usaas_stinger will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_0_8",
-        "class": "ObjectSpawner",
-        "name_object": "usaas_stinger",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "usaas_stinger",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.195374, -195.06763],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
-        "iconrotate": "46.141",
-        "popupContent": "Amazing information about igla_djigit will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_3_2",
-        "class": "ObjectSpawner",
-        "name_object": "igla_djigit",
-        "team": "1",
-        "obj1": "igla_djigit",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.797, -26.703438],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "3.261",
-        "popupContent": "Amazing information about M35 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_a",
-        "class": "ObjectSpawner",
-        "name_object": "M35 Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [241.37857, -26.665878],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "3.261",
-        "popupContent": "Amazing information about M35 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_0_9",
-        "class": "ObjectSpawner",
-        "name_object": "M35 Logistics",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "us_trk_logistics",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [244.0, -25.75],
+        "coordinates": [242.60606, -27.39544],
         "size": [16, 16]
       },
       "properties": {
@@ -1495,12 +51,12 @@
         "popupContent": "Amazing information about UAV Terminal will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_cp",
+        "name": "cpname_kashan_desert_aas16_bluemain_acv",
         "class": "ObjectSpawner",
         "name_object": "UAV Terminal",
         "team": "2",
         "obj1": "null",
-        "obj2": "us_acv_stryker",
+        "obj2": "us_acv_lavc2",
         "maxspawn": "0.0",
         "minspawn": "0.0",
         "spawndelay": "false",
@@ -1511,132 +67,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [241.31438, -12.257751],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_1_6",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary spawnpoint",
-        "team": "2",
-        "obj1": "null",
-        "obj2": "rallypoint_usa_placeable",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.151253, -208.05731],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/player_map/mini_squad.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Temporary spawnpoint will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_2_3",
-        "class": "ObjectSpawner",
-        "name_object": "Temporary spawnpoint",
-        "team": "1",
-        "obj1": "rallypoint_mec_placeable",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.912315, -202.54156],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "22.301",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_3_3",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "mec_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [14.204124, -202.66705],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
-        "iconrotate": "22.301",
-        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_4_0",
-        "class": "ObjectSpawner",
-        "name_object": "Ural-4320 Logistics",
-        "team": "1",
-        "obj1": "mec_trk_logistics",
-        "obj2": "null",
-        "maxspawn": "300.0",
-        "minspawn": "300.0",
-        "spawndelay": "false",
-        "ttl": "99999.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.315315, -201.88213],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/uavtrailer.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about UAV Terminal will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_0_8",
-        "class": "ObjectSpawner",
-        "name_object": "UAV Terminal",
-        "team": "1",
-        "obj1": "mec_acv_btr60pu",
-        "obj2": "null",
-        "maxspawn": "0.0",
-        "minspawn": "0.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.451561, -199.677],
+        "coordinates": [246.6365, -27.171814],
         "size": [16, 16]
       },
       "properties": {
@@ -1645,32 +76,7 @@
         "popupContent": "Amazing information about Vehicle Depot will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase_vehicledeport",
-        "class": "ObjectSpawner",
-        "name_object": "Vehicle Depot",
-        "team": "1",
-        "obj1": "vehicle_depot_mec",
-        "obj2": "null",
-        "maxspawn": "0.0",
-        "minspawn": "0.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [243.80937, -28.101875],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/mini_map/repairdepot.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Vehicle Depot will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase_vehicledeport",
+        "name": "cpname_kashan_desert_aas16_bluemain_vehicledepot",
         "class": "ObjectSpawner",
         "name_object": "Vehicle Depot",
         "team": "2",
@@ -1686,24 +92,124 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [355.12207, 46.187943],
+        "coordinates": [243.91475, -39.722626],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/mini_map/airdef.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+        "iconurl": "",
+        "iconrotate": "-88.922",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
       },
       "bf2props": {
-        "name": "arty",
+        "name": "cpname_kashan_desert_aas16_bluemain_heli1",
         "class": "ObjectSpawner",
-        "name_object": "Artillery Barrage Call-In",
+        "name_object": "UH-1N Twin Huey",
         "team": "2",
         "obj1": "null",
-        "obj2": "artillery_team2",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
+        "obj2": "us_the_uh1n_m240d",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.96637, -41.215622],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "",
+        "iconrotate": "-88.922",
+        "popupContent": "Amazing information about UH-1N Twin Huey will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_heli2",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1N Twin Huey",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_the_uh1n_m240d",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.46806, -24.393936],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-89.547",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_logi1",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.50089, -26.123123],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.799",
+        "popupContent": "Amazing information about M35 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_logi2",
+        "class": "ObjectSpawner",
+        "name_object": "M35 Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.54907, -26.446877],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "-92.501",
+        "popupContent": "Amazing information about usaas_stinger will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_aa1",
+        "class": "ObjectSpawner",
+        "name_object": "usaas_stinger",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "usaas_stinger",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
         "ttl": "0.0"
       }
     },
@@ -1711,24 +217,24 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [353.91187, 46.06569],
+        "coordinates": [239.37405, -22.821],
         "size": [16, 16]
       },
       "properties": {
-        "iconurl": "icons/mini_map/airdef.png",
-        "iconrotate": "0",
-        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
+        "iconrotate": "-95.709",
+        "popupContent": "Amazing information about ats_tow will be found here!"
       },
       "bf2props": {
-        "name": "arty_0",
+        "name": "cpname_kashan_desert_aas16_bluemain_tow1",
         "class": "ObjectSpawner",
-        "name_object": "Artillery Barrage Call-In",
+        "name_object": "ats_tow",
         "team": "2",
         "obj1": "null",
-        "obj2": "artillery_team2",
-        "maxspawn": "1800.0",
-        "minspawn": "1800.0",
-        "spawndelay": "true",
+        "obj2": "ats_tow",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
         "ttl": "0.0"
       }
     },
@@ -1736,7 +242,332 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [354.76456, 47.242752],
+        "coordinates": [249.29225, -30.39994],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "-92.501",
+        "popupContent": "Amazing information about usaas_stinger will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_aa2",
+        "class": "ObjectSpawner",
+        "name_object": "usaas_stinger",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "usaas_stinger",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.866684, -212.89075],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "89.569",
+        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_heli1",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-17 Hip",
+        "team": "1",
+        "obj1": "mec_the_mi17",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.8791275, -211.399],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "89.569",
+        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_heli2",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-17 Hip",
+        "team": "1",
+        "obj1": "mec_the_mi17",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.238998, -225.85175],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "179.657",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_logi1",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "mec_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.9713745, -225.85812],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "179.657",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_logi2",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "mec_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.575623, -226.30106],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_atgmsmall.png",
+        "iconrotate": "41.413",
+        "popupContent": "Amazing information about mec_ats_milan will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_tow1",
+        "class": "ObjectSpawner",
+        "name_object": "mec_ats_milan",
+        "team": "1",
+        "obj1": "mec_ats_milan",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.027748, -230.71031],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "46.141",
+        "popupContent": "Amazing information about igla_djigit will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_aa1",
+        "class": "ObjectSpawner",
+        "name_object": "igla_djigit",
+        "team": "1",
+        "obj1": "igla_djigit",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.589874, -222.79425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "46.141",
+        "popupContent": "Amazing information about igla_djigit will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_aa2",
+        "class": "ObjectSpawner",
+        "name_object": "igla_djigit",
+        "team": "1",
+        "obj1": "igla_djigit",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.433311, -211.39044],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "46.141",
+        "popupContent": "Amazing information about igla_djigit will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_aa3",
+        "class": "ObjectSpawner",
+        "name_object": "igla_djigit",
+        "team": "1",
+        "obj1": "igla_djigit",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.431938, -202.52213],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "46.141",
+        "popupContent": "Amazing information about igla_djigit will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_aa4",
+        "class": "ObjectSpawner",
+        "name_object": "igla_djigit",
+        "team": "1",
+        "obj1": "igla_djigit",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.446503, -201.474],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_airdefsmall.png",
+        "iconrotate": "117.671",
+        "popupContent": "Amazing information about igla_djigit will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_aa5",
+        "class": "ObjectSpawner",
+        "name_object": "igla_djigit",
+        "team": "1",
+        "obj1": "igla_djigit",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.252373, -229.89874],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "mec_acv_btr60pu",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.607185, -225.56432],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_vehicledepot_0",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_mec",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.51294, -290.19232],
         "size": [16, 16]
       },
       "properties": {
@@ -1745,7 +576,107 @@
         "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
       },
       "bf2props": {
-        "name": "arty_1",
+        "name": "cpname_kashan_desert_aas16_redmain_arty1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.996445, -290.4148],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_arty2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-36.928818, -290.4969],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_arty3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-37.802185, -290.323],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_arty4",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [326.22418, 56.24037],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_arty1",
         "class": "ObjectSpawner",
         "name_object": "Artillery Barrage Call-In",
         "team": "2",
@@ -1754,7 +685,532 @@
         "maxspawn": "1800.0",
         "minspawn": "1800.0",
         "spawndelay": "true",
-        "ttl": "0.0"
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [327.66492, 56.90988],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_arty2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [327.20462, 55.86125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_arty3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [328.42627, 55.806503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_arty4",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.34193, -22.94619],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep1",
+        "class": "ObjectSpawner",
+        "name_object": "HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.4305, -24.151184],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.32693, -23.401123],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep3",
+        "class": "ObjectSpawner",
+        "name_object": "HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.46025, -25.393753],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep4",
+        "class": "ObjectSpawner",
+        "name_object": "HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.41843, -24.829002],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about M1038A1 HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep5",
+        "class": "ObjectSpawner",
+        "name_object": "M1038A1 HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.321, -23.180061],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about M1038A1 HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep6",
+        "class": "ObjectSpawner",
+        "name_object": "M1038A1 HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.3057, -23.651253],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about M1038A1 HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep7",
+        "class": "ObjectSpawner",
+        "name_object": "M1038A1 HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.4465, -25.628128],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about M1038A1 HMMWV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep8",
+        "class": "ObjectSpawner",
+        "name_object": "M1038A1 HMMWV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_support",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.45462, -25.887497],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about M1025 HMMWV MK19 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep9",
+        "class": "ObjectSpawner",
+        "name_object": "M1025 HMMWV MK19",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_mk19",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.43607, -24.619621],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep2.png",
+        "iconrotate": "-89.077",
+        "popupContent": "Amazing information about M1025 HMMWV MK19 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain_jep10",
+        "class": "ObjectSpawner",
+        "name_object": "M1025 HMMWV MK19",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_jep_hmmwv_mk19",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.512123, -225.5145],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_apc1",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "1",
+        "obj1": "mec_apc_mtlb",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.918121, -226.01244],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep2",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "1",
+        "obj1": "mec_apc_mtlb",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.749001, -225.55331],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep3",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "1",
+        "obj1": "mec_apc_mtlb",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.201874, -226.08105],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep4",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "1",
+        "obj1": "mec_apc_mtlb",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.934998, -225.52275],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB 6M will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep5",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB 6M",
+        "team": "1",
+        "obj1": "mec_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.489372, -225.98856],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB 6M will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep6",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB 6M",
+        "team": "1",
+        "obj1": "mec_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.730934, -226.07843],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB 6M will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep7",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB 6M",
+        "team": "1",
+        "obj1": "mec_apc_mtlb_hmg",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.223312, -225.58731],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-177.947",
+        "popupContent": "Amazing information about MT-LB will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain_jep8",
+        "class": "ObjectSpawner",
+        "name_object": "MT-LB",
+        "team": "1",
+        "obj1": "mec_apc_mtlb",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
       }
     },
     {
@@ -1771,14 +1227,14 @@
         "popupContent": "Amazing information about North Outpost 200m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_mecbase",
+        "name": "cpname_kashan_desert_aas16_northoutpost",
         "class": "ControlPoint",
         "name_object": "North Outpost 200m",
         "team": "1",
         "areavalue1": "0.0",
         "areavalue2": "1000.0",
-        "cpid": "1",
-        "sgid": "1",
+        "cpid": "210",
+        "sgid": "2",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1790,22 +1246,22 @@
         "type": "Point",
         "coordinates": [96.42569, -219.64499],
         "size": [33, 33],
-        "radius": "18.75"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about South Village 300m will be found here!"
+        "popupContent": "Amazing information about South Village 200m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_southvillage",
+        "name": "cpname_kashan_desert_aas16_villagesouth",
         "class": "ControlPoint",
-        "name_object": "South Village 300m",
+        "name_object": "South Village 200m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "102",
-        "sgid": "2",
+        "cpid": "211",
+        "sgid": "3",
         "uncap": "false",
         "ttgc": "360.0",
         "ttlc": "360.0"
@@ -1825,14 +1281,14 @@
         "popupContent": "Amazing information about South Bunkers 170m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_bunkersouth",
+        "name": "cpname_kashan_desert_aas16_southbunker",
         "class": "ControlPoint",
         "name_object": "South Bunkers 170m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "103",
-        "sgid": "3",
+        "cpid": "212",
+        "sgid": "4",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1852,14 +1308,14 @@
         "popupContent": "Amazing information about North Bunkers 170m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_bunkernorth",
+        "name": "cpname_kashan_desert_aas16_northbunker",
         "class": "ControlPoint",
         "name_object": "North Bunkers 170m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "104",
-        "sgid": "4",
+        "cpid": "213",
+        "sgid": "5",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
@@ -1871,22 +1327,22 @@
         "type": "Point",
         "coordinates": [160.62631, -86.89569],
         "size": [33, 33],
-        "radius": "18.75"
+        "radius": "12.5"
       },
       "properties": {
         "iconurl": "icons/flags_map/neutral/minimap_cp.png",
         "iconrotate": "0",
-        "popupContent": "Amazing information about North Village 300m will be found here!"
+        "popupContent": "Amazing information about North Village 200m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_northvillage",
+        "name": "cpname_kashan_desert_aas16_villagenorth",
         "class": "ControlPoint",
-        "name_object": "North Village 300m",
+        "name_object": "North Village 200m",
         "team": "0",
         "areavalue1": "0.0",
         "areavalue2": "0.0",
-        "cpid": "105",
-        "sgid": "5",
+        "cpid": "214",
+        "sgid": "6",
         "uncap": "false",
         "ttgc": "360.0",
         "ttlc": "360.0"
@@ -1906,17 +1362,71 @@
         "popupContent": "Amazing information about South Outpost 200m will be found here!"
       },
       "bf2props": {
-        "name": "cpname_kashan_desert_aas16_usbase",
+        "name": "cpname_kashan_desert_aas16_southoutpost",
         "class": "ControlPoint",
         "name_object": "South Outpost 200m",
         "team": "2",
         "areavalue1": "1000.0",
         "areavalue2": "0.0",
-        "cpid": "107",
-        "sgid": "6",
+        "cpid": "215",
+        "sgid": "7",
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.29312, -24.55169],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/us/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about USMC Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_bluemain",
+        "class": "ControlPoint",
+        "name_object": "USMC Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "216",
+        "sgid": "8",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.000809, -228.2385],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/mec/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about MEC Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_kashan_desert_aas16_redmain",
+        "class": "ControlPoint",
+        "name_object": "MEC Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "217",
+        "sgid": "1",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
       }
     }
   ]
