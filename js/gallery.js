@@ -91,7 +91,6 @@ $(window).ready(function() {
 		$('#RightPane').removeClass('open');
 		$('#Container').removeClass('hide');
 		$('#PRContainer').addClass('hide');
-		$('#Fab-Anchor').html('');
 		$('#Search').removeClass('hide');
 		$("#Search>input").focus();
 		$('#Assets-button').addClass('hide');

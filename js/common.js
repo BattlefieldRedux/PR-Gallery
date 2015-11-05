@@ -263,40 +263,35 @@ function parseArgs() {
 		loadMap(args["map"].toLowerCase(), false);
 	}
 	if (args["gm"] != undefined) {
-		var gm_name = args["gm"].split("_")[0];
-		var gm_size = args["gm"].split("_")[1];
 		var modename = "";
-		if (gm_name.search("ins") != -1) {
+		var arggm = args["gm"].toLowerCase();
+		console.log(arggm);
+		if (arggm.search("ins") != -1) {
 			modename = "Insurgency";
-		}
-		if (gm_name.search("coop") != -1) {
+		} else if (arggm.search("coop") != -1) {
 			modename = "Coop";
-		}
-		if (gm_name.search("conq") != -1 || gm_name.search("cq") != -1 || gm_name.search("aas") != -1) {
+		} else if (arggm.search("conq") != -1 || arggm.search("cq") != -1 || arggm.search("aas") != -1 || arggm.search("ass") != -1) {
 			modename = "Assault and Secure";
-		}
-		if (gm_name.search("veh") != -1 || gm_name.search("vw") != -1) {
+		} else if (arggm.search("veh") != -1 || arggm.search("vw") != -1) {
 			modename = "Vehicle Warfare";
-		}
-		if (gm_name.search("com") != -1 || gm_name.search("cnc") != -1) {
+		} else if (arggm.search("com") != -1 || arggm.search("cnc") != -1) {
 			modename = "Command and Control";
-		}
-		if (gm_name.search("ski") != -1) {
+		} else if (arggm.search("ski") != -1) {
 			modename = "Skirmish";
-		}
-		if (gm_size.search("inf") != -1 || gm_size.search("16") != -1) {
+		};
+		if (arggm.search("inf") != -1 || arggm.search("16") != -1) {
 			modename += " Infantry";
-		}
-		if (gm_size.search("alt") != -1 || gm_size.search("32") != -1) {
+		} else if (arggm.search("alt") != -1 || arggm.search("32") != -1) {
 			modename += " Alternative";
-		}
-		if (gm_size.search("std") != -1 || gm_size.search("64") != -1) {
+		} else if (arggm.search("std") != -1 || arggm.search("64") != -1) {
 			modename += " Standard";
-		}
-		if (gm_size.search("lrg") != -1 || gm_size.search("128") != -1) {
+		} else if (arggm.search("lrg") != -1 || arggm.search("128") != -1) {
 			modename += " Large";
 		}
-		$('.gmselection:contains("' + modename + '")').trigger("click");
+		console.log(modename);
+		if (modename != "") {
+			$('.gmselection:contains("' + modename + '"):first').trigger("click");
+		}
 
 	}
 	if (args["route"] != undefined) {

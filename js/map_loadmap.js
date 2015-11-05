@@ -11,6 +11,8 @@ function loadMap(mapname, asyncmode) {
 	if (asyncmode == undefined)
 		asyncmode = true;
 	$('#Title').html(dictionary(mapname));
+	
+	window.history.replaceState("", "PR Mapviewer" + mapname, "?map=" + mapname);
 	$('#SubTitle').addClass('gmselector');
 
 	$('#Search').addClass('hide');
@@ -167,7 +169,6 @@ function loadMap(mapname, asyncmode) {
 		for ( i = 0; i < GMLIST.length; i++) {
 			document.getElementById('SubTitle-list').innerHTML += "<div class='gmselection hide' data-index='" + i + "'>" + GMLIST[i].name + "</div>";
 		}
-		console.log($('#SubTitle.gmselector .gmselection'));
 		$('#SubTitle.gmselector .gmselection').click(function(event) {
 			if ($(event.target).hasClass('open')) {
 			} else {
@@ -196,7 +197,7 @@ function loadGM(gamemode) {
 		"flags" : []
 	};
 	$.getJSON(gmfile, function(data) {
-		CURRENTGM.mapname = gmname;
+		CURRENTGM.gmname = gmname;
 		CURRENTGM.gm = gamemode;
 		CURRENTGM.flags = [];
 		CURRENTGM.flagradius = [];
@@ -208,6 +209,12 @@ function loadGM(gamemode) {
 		CURRENTGM.team2tickets = data.team2tickets;
 		CURRENTGM.mapsize = data.mapsize;
 		CURRENTGM.viewdistance = data.viewdistance;
+		
+		// This usually looks like 'map_json/yamalia/gpm_cq_16.json'
+		var tokens = CURRENTGM.gm.file.split("/");
+		console.log(tokens);
+		window.history.replaceState("", "PR Mapviewer" + tokens[1], "?map=" + tokens[1] + "&gm=" + tokens[2].replace(".json", "").replace("gpm_", ""));
+		
 		// We don't actually use the Leaflet geojson layer, instead we use the function to access all individual features and sort them into their proper array with all the info we need. Actual loading will come later.
 		L.geoJson(data, {
 			pointToLayer : function(feature, latlng) {
