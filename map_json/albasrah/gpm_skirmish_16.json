@@ -5,9 +5,9 @@
   "team2tickets":"650",
   "mapsize":"2048",
   "viewdistance":"525",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"2.8",
+  "combatareaallowoutside":"5.0",
   "routes": [
     [
       [
@@ -262,6 +262,93 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [111.804634, -138.68762],
+            [106.775475, -207.78152],
+            [166.52351, -211.7948],
+            [181.89034, -207.07501],
+            [192.82152, -190.95238],
+            [192.07689, -164.53171],
+            [205.88962, -147.05695],
+            [202.96669, -137.13873],
+            [171.63567, -135.7114],
+            [140.71288, -133.39348]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_cp_layer_s16",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [179.04527, -155.9331],
+            [190.2049, -156.32068],
+            [191.67073, -138.20438],
+            [168.03036, -137.97467],
+            [169.45389, -151.70547],
+            [177.81908, -152.28401]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_16_cp_layer_s16",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [127.28339, -171.63657],
+            [128.12479, -156.37018],
+            [128.26431, -136.00146],
+            [112.24795, -138.99016],
+            [106.65664, -206.20274],
+            [125.776436, -205.03581]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_22_cp_layer_s16",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

@@ -901,7 +901,34 @@
     "timetolosecontrol" : 120.0,
     "supplygroupid" : 1
   } ],
-  "combatareas" : [ ],
+  "combatareas" : [ {
+    "code" : "combatarea_0_default",
+    "min" : [ 0.0, 0.0 ],
+    "max" : [ 0.0, 0.0 ],
+    "areapoints" : [ [ 428.37732, -1003.00183 ], [ 173.5476, -1007.1678 ], [ 67.84338, -876.86664 ], [ 56.26184, -761.17096 ], [ -72.890076, -660.7479 ], [ -120.170044, -419.75323 ], [ -201.63525, -307.31067 ], [ -155.3288, -60.605225 ], [ -199.99689, 18.646362 ], [ -111.25171, 121.35559 ], [ -15.354065, -32.035217 ], [ 133.4325, -138.77032 ], [ 275.64355, -330.51697 ], [ 384.3286, -709.4211 ], [ 497.79407, -920.5177 ], [ 503.35632, -985.87885 ] ],
+    "team" : 0,
+    "vehicles" : 4,
+    "layer" : 1,
+    "inverted" : false
+  }, {
+    "code" : "combatarea_16_default",
+    "min" : [ 0.0, 0.0 ],
+    "max" : [ 0.0, 0.0 ],
+    "areapoints" : [ [ 338.90723, -1013.34155 ], [ 448.29175, -1014.2188 ], [ 482.97388, -1006.2226 ], [ 520.183, -991.79944 ], [ 517.96716, -897.7393 ], [ 456.39502, -820.86957 ], [ 335.86182, -882.3837 ] ],
+    "team" : 1,
+    "vehicles" : 4,
+    "layer" : 1,
+    "inverted" : true
+  }, {
+    "code" : "combatarea_23_default",
+    "min" : [ 0.0, 0.0 ],
+    "max" : [ 0.0, 0.0 ],
+    "areapoints" : [ [ -165.15027, -67.72272 ], [ -5.896057, -24.810608 ], [ -110.418884, 131.23022 ], [ -208.80438, 17.789917 ] ],
+    "team" : 2,
+    "vehicles" : 4,
+    "layer" : 1,
+    "inverted" : true
+  } ],
   "team1" : {
     "id" : 1,
     "name" : "taliban",
@@ -924,9 +951,9 @@
   "ticketlosspermin_1" : 1.0,
   "ticketlosspermin_2" : 2.0,
   "customtexturesuffix" : "",
-  "combatareamanageruse" : false,
-  "combatareamanagerdamage" : 0.0,
-  "combatareamanagerallowedoutside" : 0.0,
+  "combatareamanageruse" : true,
+  "combatareamanagerdamage" : 20.0,
+  "combatareamanagerallowedoutside" : 10.0,
   "heightmapsize" : 2048,
   "heightmap_imgsize" : null,
   "heightmapscale" : null,

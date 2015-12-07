@@ -5,9 +5,9 @@
   "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"600",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -113,6 +113,56 @@
   ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.1055, -29.341377],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Puma will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_apc_1",
+        "class": "ObjectSpawner",
+        "name_object": "Puma",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_puma",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.39925, -25.813126],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "92.1",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_jep_1",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -242,6 +292,131 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [223.69263, -24.2715],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ger",
+        "maxspawn": "180.0",
+        "minspawn": "180.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.32875, -26.390503],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "92.1",
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_trans_2",
+        "class": "ObjectSpawner",
+        "name_object": "MAN Support Vehicle",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.28876, -27.001625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "92.1",
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_trans_1",
+        "class": "ObjectSpawner",
+        "name_object": "MAN Support Vehicle",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.97525, -33.28325],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_logi_1",
+        "class": "ObjectSpawner",
+        "name_object": "MAN SV Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [221.68825, -24.140747],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_acv",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_acv_m557a2",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.809753, -230.22363],
         "size": [16, 16]
       },
@@ -285,6 +460,56 @@
         "maxspawn": "600.0",
         "minspawn": "600.0",
         "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.36063, -24.74775],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "87.7",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_jep_3",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219.33563, -25.273125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "87.7",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_jep_2",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
         "ttl": "99999.0"
       }
     },
@@ -342,6 +567,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [226.10162, -28.237],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_heavy.png",
+        "iconrotate": "-92.8",
+        "popupContent": "Amazing information about Puma IFV will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_ifv_1",
+        "class": "ObjectSpawner",
+        "name_object": "Puma IFV",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_ifv_puma",
+        "maxspawn": "900.0",
+        "minspawn": "900.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.950127, -232.39775],
         "size": [16, 16]
       },
@@ -359,6 +609,106 @@
         "obj2": "null",
         "maxspawn": "600.0",
         "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.10312, -29.965248],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_apc_2",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.13113, -31.214996],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_apc_3",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.15625, -31.802124],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_apc_4",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225.97287, -32.745003],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_logi_2",
+        "class": "ObjectSpawner",
+        "name_object": "MAN SV Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "99999.0"
       }
@@ -532,6 +882,106 @@
         "team": "1",
         "obj1": "artillery_team1",
         "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [300.29163, 45.63713],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_arty_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [301.03775, 45.08162],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_arty_2",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [301.79187, 44.39038],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_arty_3",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [302.16687, 43.89038],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_ulyanovsk_aas64_team2main_arty_4",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
         "maxspawn": "1800.0",
         "minspawn": "1800.0",
         "spawndelay": "true",
@@ -1157,6 +1607,85 @@
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [256.0, -256.0],
+            [256.0, 0.0],
+            [0.0, 0.0],
+            [0.0, -256.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_conquest_64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "9",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [30.581696, -255.43689],
+            [30.288765, -231.69885],
+            [21.099594, -217.6225],
+            [0.6228256, -217.75323],
+            [0.40169525, -255.69589]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_10_conquest_64",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "9",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [207.80121, -0.09439087],
+            [207.31165, -32.564392],
+            [208.6449, -36.954514],
+            [256.0, -37.01172],
+            [255.71594, -0.22706604]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_15_conquest_64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "9",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

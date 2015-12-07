@@ -5,9 +5,9 @@
   "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"700",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -165,7 +165,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
@@ -943,6 +943,35 @@
         "uncap": "true",
         "ttgc": "120.0",
         "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [0.0, 0.0],
+            [0.0, -256.0],
+            [256.0, -256.0],
+            [256.0, 0.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_23_default",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "1",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

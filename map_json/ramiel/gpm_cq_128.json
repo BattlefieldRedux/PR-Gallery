@@ -5,9 +5,9 @@
   "team2tickets":"1200",
   "mapsize":"2048",
   "viewdistance":"500",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"15.0",
   "routes": [
     [
       [
@@ -2321,6 +2321,174 @@
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [256.0, -256.0],
+            [256.0, 0.0],
+            [0.0, 0.0],
+            [0.0, -193.61684],
+            [45.83674, -256.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_blackhawk_down",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [164.3573, -95.59851],
+            [164.37546, -86.281235],
+            [166.61908, -86.19246],
+            [166.57127, -79.9482],
+            [155.17056, -80.07919],
+            [155.14493, -95.62891]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_20_blackhawk_down",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "0",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [87.591515, -76.91289],
+            [87.57515, -71.73476],
+            [77.76616, -72.04161],
+            [77.57472, -76.79237]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_26_blackhawk_down",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "0",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [84.48455, -46.615173],
+            [84.50384, -48.48024],
+            [87.14353, -48.413696],
+            [87.11086, -46.53]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_42_blackhawk_down",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "0",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [58.558647, -59.30455],
+            [78.97265, -59.381836],
+            [82.90994, -53.768814],
+            [83.35504, -46.4778],
+            [55.922638, -46.49321],
+            [55.85253, -48.941147],
+            [57.057022, -50.522186],
+            [57.107727, -55.10971],
+            [58.562164, -56.8461]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_34_blackhawk_down",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [109.31291, -173.72064],
+            [105.16836, -170.9446],
+            [86.65, -181.52338],
+            [67.88741, -179.49484],
+            [51.783813, -162.43874],
+            [40.505142, -163.0462],
+            [14.838387, -186.67374],
+            [0.26911926, -187.82271],
+            [0.9882736, -256.10242],
+            [135.6252, -255.16058],
+            [148.15071, -222.30273],
+            [147.90031, -217.18015],
+            [139.93085, -200.4513],
+            [129.84256, -190.50067],
+            [112.35463, -175.23282]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_28_blackhawk_down",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

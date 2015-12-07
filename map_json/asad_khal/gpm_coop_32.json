@@ -5,9 +5,9 @@
   "team2tickets":"300",
   "mapsize":"1024",
   "viewdistance":"200",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -307,6 +307,81 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [211.38475, -28.610748],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "179.044",
+        "popupContent": "Amazing information about Ural-4320 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop32_mecmain_trk",
+        "class": "ObjectSpawner",
+        "name_object": "Ural-4320 Logistics",
+        "team": "1",
+        "obj1": "mec_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "1200.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.889503, -216.7675],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop32_idfvillage_crate",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.38125, -33.535004],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_asad_khal_coop32_village_crate",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [57.123253, -212.70375],
         "size": [33, 33],
         "radius": "12.5"
@@ -463,6 +538,35 @@
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [256.0, 0.0],
+            [0.0, 0.0],
+            [0.0, -256.0],
+            [256.0, -256.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_default",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "1",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

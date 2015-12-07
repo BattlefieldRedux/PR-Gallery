@@ -5,9 +5,9 @@
   "team2tickets":"300",
   "mapsize":"4096",
   "viewdistance":"1100",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -248,6 +248,39 @@
         "uncap": "false",
         "ttgc": "60.0",
         "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [88.99873, -116.91289],
+            [139.8297, -117.183395],
+            [144.39, -117.01613],
+            [143.74483, -100.542206],
+            [135.3264, -97.264206],
+            [105.45889, -97.06929],
+            [88.90651, -98.41435],
+            [88.74313, -116.94412]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_default",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "1",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

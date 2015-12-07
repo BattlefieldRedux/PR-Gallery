@@ -8,7 +8,6 @@ div#Header {
 	height: 80px;
 	min-height: 80px;
 	transition: all 700ms;
-	z-index: 9999;
 	box-shadow: 2px 2px 2px #000000;
 }
 html {
@@ -41,10 +40,12 @@ div#Title-Wrapper {
 	top: 12px;
 	left: 90px;
 	color: white;
+	z-index: 99999;
 }
 .clear {
 	clear: both;
 }
+
 div#SubTitle {
 	/* float: left; */
 	margin-left: 15px;

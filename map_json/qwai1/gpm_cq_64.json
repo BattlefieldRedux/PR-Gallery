@@ -5,9 +5,9 @@
   "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"700",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -704,7 +704,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep2.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about M1151 Up-Armored HMMWV will be found here!"
       },
       "bf2props": {
@@ -764,8 +764,58 @@
         "team": "2",
         "obj1": "null",
         "obj2": "us_jep_hmmwv",
-        "maxspawn": "600.0",
-        "minspawn": "600.0",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.957375, -207.34425],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-90.482",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_plaoutpost_trk1",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "12000.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [213.86487, -102.802],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-89.25",
+        "popupContent": "Amazing information about M35 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_qwai1_aas64_usbase_trk1",
+        "class": "ObjectSpawner",
+        "name_object": "M35 2.5 Ton",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "us_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
         "spawndelay": "false",
         "ttl": "12000.0"
       }
@@ -1335,6 +1385,115 @@
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [229.98526, -65.890915],
+            [212.53891, -79.59712],
+            [195.63696, -105.06081],
+            [200.27315, -124.18518],
+            [219.56229, -127.703735],
+            [243.68434, -138.20856]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_27_cp_layer_64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "6",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [7.0459824, -144.0153],
+            [9.31208, -186.21342],
+            [14.670395, -193.71915],
+            [13.640343, -220.94356],
+            [0.0, -256.0],
+            [13.640343, -220.94356],
+            [41.752174, -239.43015],
+            [68.48099, -240.8079],
+            [71.94694, -242.89429],
+            [88.8389, -242.4151],
+            [134.14725, -249.6771],
+            [174.25217, -247.01138],
+            [198.26959, -249.92242],
+            [239.6908, -242.33893],
+            [245.95648, -230.54773],
+            [244.11949, -167.7984],
+            [244.60298, -117.6245],
+            [239.94684, -118.40097],
+            [229.77911, -65.67267],
+            [236.26942, -30.466232],
+            [225.45299, -13.696777],
+            [256.0, 0.0],
+            [225.45299, -13.696777],
+            [213.57231, -7.595749],
+            [172.77072, -4.6013336],
+            [105.80107, -7.713852],
+            [60.20884, -16.86502],
+            [23.793983, -24.08345],
+            [22.848198, -85.86481],
+            [21.210953, -119.65451],
+            [10.974991, -138.6848]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_6_cp_layer_64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "6",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [11.190811, -188.90439],
+            [31.590744, -186.11073],
+            [40.578537, -208.73682],
+            [45.32055, -211.41695],
+            [45.577805, -216.17369],
+            [35.34268, -237.06961],
+            [14.416092, -222.24237]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_33_cp_layer_64",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "6",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

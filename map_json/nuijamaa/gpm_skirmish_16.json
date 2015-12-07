@@ -5,9 +5,9 @@
   "team2tickets":"550",
   "mapsize":"2048",
   "viewdistance":"850",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -230,6 +230,41 @@
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [236.69345, -0.029449463],
+            [239.77835, -142.73701],
+            [198.8605, -135.42679],
+            [177.94408, -138.51868],
+            [164.42215, -138.55984],
+            [121.865234, -101.08223],
+            [93.68139, -75.56793],
+            [88.54171, -70.12706],
+            [84.828445, -56.649033],
+            [79.08733, -0.09616089]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_12_skirmish16",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

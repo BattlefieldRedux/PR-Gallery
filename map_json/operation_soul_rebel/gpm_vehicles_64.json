@@ -1,13 +1,13 @@
 {
   "team1":"ru",
   "team2":"gb",
-  "team1tickets":"750",
-  "team2tickets":"750",
+  "team1tickets":"200",
+  "team2tickets":"200",
   "mapsize":"4096",
-  "viewdistance":"1000",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "viewdistance":"1500",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"30.0",
   "routes": [
     [
       [
@@ -686,6 +686,35 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [256.0, -256.0],
+            [256.0, 0.0],
+            [0.0, 0.0],
+            [0.0, -256.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_vw64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "6",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

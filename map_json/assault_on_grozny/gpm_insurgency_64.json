@@ -5,9 +5,9 @@
   "team2tickets":"750",
   "mapsize":"2048",
   "viewdistance":"400",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
   ],
   "type": "FeatureCollection",
@@ -1641,31 +1641,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [141.2555, -131.53712],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "137.8",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_assault_on_grozny_insurgency64_milmain_51",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [143.85762, -125.26725],
         "size": [16, 16]
       },
@@ -2176,31 +2151,6 @@
       },
       "bf2props": {
         "name": "cpname_assault_on_grozny_insurgency64_milmain_72",
-        "class": "ObjectSpawner",
-        "name_object": "Ammo Cache",
-        "team": "1",
-        "obj1": "ammocache",
-        "obj2": "null",
-        "maxspawn": "99999.0",
-        "minspawn": "99999.0",
-        "spawndelay": "false",
-        "ttl": "0.0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.80637, -95.12387],
-        "size": [16, 16]
-      },
-      "properties": {
-        "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-145.0",
-        "popupContent": "Amazing information about Ammo Cache will be found here!"
-      },
-      "bf2props": {
-        "name": "cpname_assault_on_grozny_insurgency64_milmain_73",
         "class": "ObjectSpawner",
         "name_object": "Ammo Cache",
         "team": "1",
@@ -3814,6 +3764,85 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [0.07072449, -0.1270752],
+            [255.88634, -0.09162903],
+            [256.0, -255.982],
+            [0.13644409, -255.88492]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_insurgency64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.10434723, -0.107910156],
+            [90.82004, -0.1539154],
+            [76.63324, -31.588043],
+            [55.635757, -69.55957],
+            [0.12989044, -88.83003]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_8_insurgency64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [256.0, -255.89581],
+            [199.85318, -255.8945],
+            [192.76193, -196.24069],
+            [205.71173, -176.83493],
+            [256.0, -173.23483]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_9_insurgency64",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "7",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

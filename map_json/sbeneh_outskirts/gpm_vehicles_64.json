@@ -1,13 +1,13 @@
 {
   "team1":"fsa",
   "team2":"mec",
-  "team1tickets":"700",
-  "team2tickets":"700",
+  "team1tickets":"200",
+  "team2tickets":"200",
   "mapsize":"2048",
   "viewdistance":"500",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -880,6 +880,83 @@
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [256.0, -255.97586],
+            [0.059165955, -255.95503],
+            [0.079200745, -0.10101318],
+            [255.82964, -0.3180542]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_vw_64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "11",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [175.67534, -255.90048],
+            [174.62495, -212.88799],
+            [255.7559, -209.61783],
+            [255.86693, -255.87695]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_4_vw_64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "11",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.17403412, -51.90097],
+            [73.713486, -49.112854],
+            [71.37487, -0.34890747],
+            [0.26630402, -0.24812317]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_8_vw_64",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "11",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

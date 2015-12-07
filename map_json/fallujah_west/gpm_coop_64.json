@@ -5,9 +5,9 @@
   "team2tickets":"550",
   "mapsize":"1024",
   "viewdistance":"500",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -42,7 +42,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about DShkM Technical will be found here!"
       },
       "bf2props": {
@@ -67,7 +67,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about M2HB Technical will be found here!"
       },
       "bf2props": {
@@ -92,7 +92,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
@@ -949,6 +949,54 @@
         "uncap": "false",
         "ttgc": "90.0",
         "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [254.48834, -254.60812],
+            [254.46481, -133.2609],
+            [255.28752, -2.053772],
+            [256.0, 0.0],
+            [255.28752, -2.053772],
+            [243.52072, -3.989441],
+            [213.93413, -6.0861816],
+            [213.53893, -0.8504944],
+            [198.41461, -0.49084473],
+            [123.34536, -0.72880554],
+            [110.2177, -6.9311523],
+            [87.46018, -11.7326355],
+            [66.93723, -10.092712],
+            [63.299637, -12.590851],
+            [63.20726, -39.238495],
+            [63.122993, -52.532364],
+            [50.868263, -66.81676],
+            [33.03511, -84.941666],
+            [3.4902802, -116.02466],
+            [0.9105301, -137.55241],
+            [1.5253143, -254.50616],
+            [0.0, -256.0],
+            [1.5253143, -254.50616]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_default",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "2",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

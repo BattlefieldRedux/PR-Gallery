@@ -5,33 +5,2109 @@
   "team2tickets":"500",
   "mapsize":"4096",
   "viewdistance":"620",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
+        "cpname_wanda_shan_aas16_plamain",
         "cpname_wanda_shan_coop64_chtown"
       ],
       [
+        "cpname_wanda_shan_aas16_plafobnorth_1",
+        "cpname_wanda_shan_aas16_plafobcenter_1",
         "cpname_wanda_shan_coop64_town"
       ],
       [
+        "cpname_wanda_shan_aas16_hill3_1",
         "cpname_wanda_shan_coop64_farm"
       ],
       [
+        "cpname_wanda_shan_aas16_oldbarn",
         "cpname_wanda_shan_coop64_southfarm"
       ],
       [
+        "cpname_wanda_shan_aas16_powerstation_1",
+        "cpname_wanda_shan_aas16_windturbines_1",
+        "cpname_wanda_shan_aas16_windturbines_2",
         "cpname_wanda_shan_coop64_radio"
       ],
       [
+        "cpname_wanda_shan_aas16_rufobnorth_1",
         "cpname_wanda_shan_coop64_germain"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rfmain"
+      ]
+    ],
+    [
+      [
+        "cpname_wanda_shan_aas16_plamain",
+        "cpname_wanda_shan_coop64_chtown"
+      ],
+      [
+        "cpname_wanda_shan_aas16_plafobnorth_2",
+        "cpname_wanda_shan_aas16_plafobcenter_2",
+        "cpname_wanda_shan_coop64_town"
+      ],
+      [
+        "cpname_wanda_shan_aas16_hill3_2",
+        "cpname_wanda_shan_coop64_farm"
+      ],
+      [
+        "cpname_wanda_shan_aas16_abandonedcamp",
+        "cpname_wanda_shan_aas16_overpassnorth",
+        "cpname_wanda_shan_coop64_southfarm"
+      ],
+      [
+        "cpname_wanda_shan_aas16_powerstation_2",
+        "cpname_wanda_shan_coop64_radio"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rufobnorth_2",
+        "cpname_wanda_shan_aas16_rufobcenter_2",
+        "cpname_wanda_shan_coop64_germain"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rfmain"
+      ]
+    ],
+    [
+      [
+        "cpname_wanda_shan_aas16_plamain",
+        "cpname_wanda_shan_coop64_chtown"
+      ],
+      [
+        "cpname_wanda_shan_aas16_plafobcenter_3",
+        "cpname_wanda_shan_aas16_plafobsoutheast_3",
+        "cpname_wanda_shan_coop64_town"
+      ],
+      [
+        "cpname_wanda_shan_aas16_hillfarm_3",
+        "cpname_wanda_shan_coop64_farm"
+      ],
+      [
+        "cpname_wanda_shan_aas16_villagehill_3",
+        "cpname_wanda_shan_aas16_village_3",
+        "cpname_wanda_shan_coop64_southfarm"
+      ],
+      [
+        "cpname_wanda_shan_aas16_hill2",
+        "cpname_wanda_shan_coop64_radio"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rufobcenter_3",
+        "cpname_wanda_shan_aas16_rufobeast_3",
+        "cpname_wanda_shan_coop64_germain"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rfmain"
+      ]
+    ],
+    [
+      [
+        "cpname_wanda_shan_aas16_plamain",
+        "cpname_wanda_shan_coop64_chtown"
+      ],
+      [
+        "cpname_wanda_shan_aas16_plafobcenter_4",
+        "cpname_wanda_shan_aas16_plafobsoutheast_4",
+        "cpname_wanda_shan_coop64_town"
+      ],
+      [
+        "cpname_wanda_shan_aas16_hillfarm_4",
+        "cpname_wanda_shan_coop64_farm"
+      ],
+      [
+        "cpname_wanda_shan_aas16_villagehill_4",
+        "cpname_wanda_shan_aas16_village_4",
+        "cpname_wanda_shan_coop64_southfarm"
+      ],
+      [
+        "cpname_wanda_shan_aas16_villageeast",
+        "cpname_wanda_shan_coop64_radio"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rufobcenter_4",
+        "cpname_wanda_shan_aas16_rufobeast_4",
+        "cpname_wanda_shan_coop64_germain"
+      ],
+      [
+        "cpname_wanda_shan_aas16_rfmain"
       ]
     ]
   ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.875, -238.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "1",
+        "obj1": "vehicle_depot_ch",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.0, -237.0],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_post",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "1",
+        "obj1": "ch_acv_wz551",
+        "obj2": "null",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.625, -235.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about WZ551 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_t2",
+        "class": "ObjectSpawner",
+        "name_object": "WZ551",
+        "team": "1",
+        "obj1": "ch_apc_wz551",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.25, -235.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_scout_light.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about VN-3 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_t3",
+        "class": "ObjectSpawner",
+        "name_object": "VN-3",
+        "team": "1",
+        "obj1": "ch_jep_vn3",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0, -235.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about BJ2020 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_t4",
+        "class": "ObjectSpawner",
+        "name_object": "BJ2020",
+        "team": "1",
+        "obj1": "ch_jep_paratrooper",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.75, -235.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about BJ2020 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_t6",
+        "class": "ObjectSpawner",
+        "name_object": "BJ2020",
+        "team": "1",
+        "obj1": "ch_jep_paratrooper",
+        "obj2": "null",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.875, -236.625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_a1",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.625, -235.375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_a2",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.625, -236.0],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about UAZ-469 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_a3",
+        "class": "ObjectSpawner",
+        "name_object": "UAZ-469",
+        "team": "1",
+        "obj1": "ch_jep_uaz",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.625, -25.875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_ger",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.5, -21.625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/uavtrailer.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about UAV Terminal will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_post",
+        "class": "ObjectSpawner",
+        "name_object": "UAV Terminal",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_acv_m557a2",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.75, -25.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_light.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about TPz Fuchs 1A8 will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_mbt",
+        "class": "ObjectSpawner",
+        "name_object": "TPz Fuchs 1A8",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_fuchs",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242.5, -25.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_apc_medium.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Puma will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_t2",
+        "class": "ObjectSpawner",
+        "name_object": "Puma",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_apc_puma",
+        "maxspawn": "600.0",
+        "minspawn": "600.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.5, -22.625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_t3",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [243.0, -25.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_t4",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [244.04688, -25.625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_t5",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support_alt",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [244.75, -25.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_a",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [244.5, -25.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_a1",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.5, -21.875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_jeep3.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about Mercedes G-Wagen will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_a2",
+        "class": "ObjectSpawner",
+        "name_object": "Mercedes G-Wagen",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_jep_gwagon_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.5, -237.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_tr1",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.375, -238.875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "40.0",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_tr2",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.625, -237.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_tr3",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 Logistics",
+        "team": "1",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.375, -238.0],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_tr4",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 Logistics",
+        "team": "1",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.5, -23.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_tr1",
+        "class": "ObjectSpawner",
+        "name_object": "MAN Support Vehicle",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.5, -24.375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN Support Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_tr2",
+        "class": "ObjectSpawner",
+        "name_object": "MAN Support Vehicle",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_support",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.5, -256.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_art",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.5, -257.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_art_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.0, -257.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.0, -256.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_1_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "1",
+        "obj1": "artillery_team1",
+        "obj2": "null",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250.0, 3.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_at",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250.5, 3.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_art",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250.5, 4.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_0",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250.0, 4.5],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/airdef.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Artillery Barrage Call-In will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_1_1",
+        "class": "ObjectSpawner",
+        "name_object": "Artillery Barrage Call-In",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "artillery_team2",
+        "maxspawn": "1800.0",
+        "minspawn": "1800.0",
+        "spawndelay": "true",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.625, -230.875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Zhi-9B will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_heli2",
+        "class": "ObjectSpawner",
+        "name_object": "Zhi-9B",
+        "team": "1",
+        "obj1": "ch_the_z9b",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [245.375, -18.625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_lighthelo.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about UH-1D will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_heli",
+        "class": "ObjectSpawner",
+        "name_object": "UH-1D",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_the_uh1d",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.75, -231.875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "90.0",
+        "popupContent": "Amazing information about Mi-17 Hip will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_",
+        "class": "ObjectSpawner",
+        "name_object": "Mi-17 Hip",
+        "team": "1",
+        "obj1": "ch_the_mi17",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.625, -18.625],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_transport_heli.png",
+        "iconrotate": "180.0",
+        "popupContent": "Amazing information about NH90 TTH will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_",
+        "class": "ObjectSpawner",
+        "name_object": "NH90 TTH",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_the_nh90",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.25, -235.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about EQ2080 Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain__0",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 Logistics",
+        "team": "1",
+        "obj1": "ch_trk_logistics",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "true",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246.5, -22.125],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_mtlb",
+        "class": "ObjectSpawner",
+        "name_object": "MAN SV Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [245.0, -25.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_logisticstruck.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about MAN SV Logistics will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain_btr80",
+        "class": "ObjectSpawner",
+        "name_object": "MAN SV Logistics",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "ger_trk_logistics",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.0, -235.75],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_supporttruck.png",
+        "iconrotate": "-180.0",
+        "popupContent": "Amazing information about EQ2080 2.5 Ton will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_wz551a2",
+        "class": "ObjectSpawner",
+        "name_object": "EQ2080 2.5 Ton",
+        "team": "1",
+        "obj1": "ch_trk_support",
+        "obj2": "null",
+        "maxspawn": "300.0",
+        "minspawn": "300.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.875, -236.375],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/vehicles_map/mini_atv.png",
+        "iconrotate": "-90.0",
+        "popupContent": "Amazing information about All-Terrain Vehicle will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain_vn3_2",
+        "class": "ObjectSpawner",
+        "name_object": "All-Terrain Vehicle",
+        "team": "1",
+        "obj1": "civ_bik_atv",
+        "obj2": "null",
+        "maxspawn": "99999.0",
+        "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.125, -234.0],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plamain",
+        "class": "ControlPoint",
+        "name_object": "PLA Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "1",
+        "sgid": "10",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [237.75, -23.75],
+        "size": [33, 33],
+        "radius": "0.0"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cpbase.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rfmain",
+        "class": "ControlPoint",
+        "name_object": "German Base",
+        "team": "2",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "2",
+        "sgid": "70",
+        "uncap": "true",
+        "ttgc": "0.0",
+        "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.0, -178.375],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobnorth_1",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "3",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.0, -178.375],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobnorth_2",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "4",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.875, -195.5],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobcenter_1",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "5",
+        "sgid": "211",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.875, -195.5],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobcenter_2",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "6",
+        "sgid": "212",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.875, -195.5],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobcenter_3",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "7",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.875, -195.5],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobcenter_4",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "8",
+        "sgid": "214",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.75, -228.75],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobsoutheast_3",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "9",
+        "sgid": "213",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.75, -228.75],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ch/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about PLA Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_plafobsoutheast_4",
+        "class": "ControlPoint",
+        "name_object": "PLA Forward Outpost 75m",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "300.0",
+        "cpid": "10",
+        "sgid": "214",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.400314, -155.52043],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_hill3_1",
+        "class": "ControlPoint",
+        "name_object": "Hill 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "13",
+        "sgid": "311",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.400314, -155.52043],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_hill3_2",
+        "class": "ControlPoint",
+        "name_object": "Hill 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "14",
+        "sgid": "312",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.625, -207.75],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_hillfarm_3",
+        "class": "ControlPoint",
+        "name_object": "Farm 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "11",
+        "sgid": "313",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.625, -207.75],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Farm 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_hillfarm_4",
+        "class": "ControlPoint",
+        "name_object": "Farm 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "12",
+        "sgid": "314",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.5, -49.875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Old Barn 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_oldbarn",
+        "class": "ControlPoint",
+        "name_object": "Old Barn 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "15",
+        "sgid": "411",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.625, -107.875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Abandoned Camp 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_abandonedcamp",
+        "class": "ControlPoint",
+        "name_object": "Abandoned Camp 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "16",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.0, -77.125],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Overpass 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_overpassnorth",
+        "class": "ControlPoint",
+        "name_object": "Overpass 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "17",
+        "sgid": "412",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [163.75, -142.625],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_village_3",
+        "class": "ControlPoint",
+        "name_object": "Village 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "20",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [163.75, -142.625],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Village 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_village_4",
+        "class": "ControlPoint",
+        "name_object": "Village 75m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "21",
+        "sgid": "414",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.875, -161.75],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill Village 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_villagehill_3",
+        "class": "ControlPoint",
+        "name_object": "Hill Village 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "18",
+        "sgid": "413",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.875, -161.75],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill Village 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_villagehill_4",
+        "class": "ControlPoint",
+        "name_object": "Hill Village 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "19",
+        "sgid": "414",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.625, -28.875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Power Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_powerstation_1",
+        "class": "ControlPoint",
+        "name_object": "Power Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "22",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.625, -28.875],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Power Station 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_powerstation_2",
+        "class": "ControlPoint",
+        "name_object": "Power Station 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "23",
+        "sgid": "512",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.375, -51.5],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wind Turbines 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_windturbines_1",
+        "class": "ControlPoint",
+        "name_object": "Wind Turbines 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "24",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.375, -51.5],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Wind Turbines 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_windturbines_2",
+        "class": "ControlPoint",
+        "name_object": "Wind Turbines 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "25",
+        "sgid": "511",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [171.125, -85.375],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Hill 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_hill2",
+        "class": "ControlPoint",
+        "name_object": "Hill 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "26",
+        "sgid": "513",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [238.875, -111.375],
+        "size": [33, 33],
+        "radius": "6.25"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about East Village 100m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_villageeast",
+        "class": "ControlPoint",
+        "name_object": "East Village 100m",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "27",
+        "sgid": "514",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.125, -21.625],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobnorth_1",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "28",
+        "sgid": "611",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.125, -21.625],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobnorth_2",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "29",
+        "sgid": "612",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.375, -50.25],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobcenter_2",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "30",
+        "sgid": "612",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.375, -50.25],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobcenter_3",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "31",
+        "sgid": "613",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [194.375, -50.25],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobcenter_4",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "32",
+        "sgid": "614",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.25, -67.125],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobeast_3",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "33",
+        "sgid": "613",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [226.25, -67.125],
+        "size": [33, 33],
+        "radius": "4.6875"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/ger/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about German Forward Outpost 75m will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_wanda_shan_aas16_rufobeast_4",
+        "class": "ControlPoint",
+        "name_object": "German Forward Outpost 75m",
+        "team": "2",
+        "areavalue1": "300.0",
+        "areavalue2": "0.0",
+        "cpid": "34",
+        "sgid": "614",
+        "uncap": "false",
+        "ttgc": "120.0",
+        "ttlc": "120.0"
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -1192,6 +3268,127 @@
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "180.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [255.51279, -255.47377],
+            [255.53615, -0.5077667],
+            [0.5086899, -0.4785614],
+            [0.49235535, -255.52536]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_cq64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "2",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [65.26, -255.74857],
+            [61.87802, -234.70502],
+            [63.363937, -217.01273],
+            [50.16871, -208.60098],
+            [31.836967, -204.70648],
+            [0.9328003, -210.27217],
+            [0.13375854, -211.59639],
+            [0.12210083, -255.64978]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_4_cq64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "2",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [255.73505, -63.491455],
+            [255.73889, -0.28599548],
+            [224.36974, -0.17079163],
+            [211.20093, -0.5614929],
+            [209.63036, -12.071564],
+            [207.474, -34.8058],
+            [222.10028, -48.879227],
+            [230.18834, -55.778458],
+            [252.8034, -61.688004]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_12_cq64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "2",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [0.50051117, -222.79913],
+            [0.31118774, -256.0],
+            [92.423386, -255.29767],
+            [178.35892, -164.41693],
+            [255.65157, -112.02626],
+            [255.92764, -88.75348],
+            [208.12164, -104.255554],
+            [151.98329, -121.169556],
+            [105.88377, -139.88477],
+            [61.06195, -191.89685]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_35_default",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "1",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

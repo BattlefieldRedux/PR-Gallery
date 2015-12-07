@@ -5,13 +5,189 @@
   "team2tickets":"550",
   "mapsize":"2048",
   "viewdistance":"500",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
+    [
+      [
+        "cpname_dragon_fly_skirmish16_chechenbase",
+        "cpname_dragon_fly_insurgency64_militia_mainbase"
+      ],
+      [
+        "cpname_dragon_fly_skirmish16_apartmentnorth"
+      ],
+      [
+        "cpname_dragon_fly_skirmish16_apartmentsouth"
+      ],
+      [
+        "cpname_dragon_fly_skirmish16_gbbase"
+      ],
+      [
+        "cpname_dragon_fly_insurgency64_highway"
+      ]
+    ]
   ],
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.82125, -77.462875],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_gbbase_supply_crate",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "2",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "30.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [208.05225, -93.44263],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/icon_supply.png",
+        "iconrotate": "0.0",
+        "popupContent": "Amazing information about fixed_supply_crate will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_chechenbase_crate",
+        "class": "ObjectSpawner",
+        "name_object": "fixed_supply_crate",
+        "team": "1",
+        "obj1": "fixed_supply_crate",
+        "obj2": "fixed_supply_crate",
+        "maxspawn": "30.0",
+        "minspawn": "0.0",
+        "spawndelay": "false",
+        "ttl": "99999.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [179.375, -98.375],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/chinsurgent/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Militia Base will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_chechenbase",
+        "class": "ControlPoint",
+        "name_object": "Militia Base",
+        "team": "1",
+        "areavalue1": "0.0",
+        "areavalue2": "150.0",
+        "cpid": "131",
+        "sgid": "1",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [163.75, -79.375],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about North Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_apartmentnorth",
+        "class": "ControlPoint",
+        "name_object": "North Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "132",
+        "sgid": "2",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.375, -98.625],
+        "size": [33, 33],
+        "radius": "5.625"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/neutral/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about South Apartments will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_apartmentsouth",
+        "class": "ControlPoint",
+        "name_object": "South Apartments",
+        "team": "0",
+        "areavalue1": "0.0",
+        "areavalue2": "0.0",
+        "cpid": "133",
+        "sgid": "3",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.625, -79.25],
+        "size": [33, 33],
+        "radius": "4.375"
+      },
+      "properties": {
+        "iconurl": "icons/flags_map/gb/minimap_cp.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about British Deployment Area will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_dragon_fly_skirmish16_gbbase",
+        "class": "ControlPoint",
+        "name_object": "British Deployment Area",
+        "team": "2",
+        "areavalue1": "150.0",
+        "areavalue2": "0.0",
+        "cpid": "134",
+        "sgid": "4",
+        "uncap": "false",
+        "ttgc": "90.0",
+        "ttlc": "90.0"
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -7639,6 +7815,193 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [191.48471, -111.02043],
+            [208.30905, -104.43414],
+            [212.98633, -96.39072],
+            [213.31725, -76.0103],
+            [186.87895, -66.85872],
+            [157.80766, -65.710175],
+            [118.94966, -66.60814],
+            [106.36926, -70.82762],
+            [94.8648, -73.18817],
+            [90.86542, -78.80806],
+            [79.92257, -100.01933],
+            [91.9129, -114.664566],
+            [124.73478, -121.17679],
+            [130.68599, -123.33411],
+            [147.72435, -124.20703],
+            [169.5346, -124.12158],
+            [185.32993, -121.37599]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_30_sk16",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "3",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [112.14835, -120.06607],
+            [112.601204, -65.55423],
+            [79.58286, -73.09274],
+            [80.64772, -115.95032],
+            [112.40348, -120.36748]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_31_sk16",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "3",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [212.80756, -114.11043],
+            [222.62352, -69.610825],
+            [189.53386, -61.43126],
+            [187.75475, -93.03729],
+            [191.22575, -115.653366]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_32_sk16",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "3",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [7.839287, -9.887802],
+            [3.8492737, -94.81561],
+            [5.108261, -194.28412],
+            [5.258934, -245.59686],
+            [0.0, -256.0],
+            [5.258934, -245.59686],
+            [75.057236, -249.36716],
+            [186.01926, -247.7943],
+            [247.80363, -248.47433],
+            [253.87097, -226.74152],
+            [253.43109, -209.9102],
+            [253.59674, -166.82886],
+            [251.36845, -149.09654],
+            [250.21191, -75.0298],
+            [249.2349, -9.177002],
+            [256.0, 0.0],
+            [249.2349, -9.177002],
+            [235.0914, -5.970001],
+            [164.69957, -3.691681],
+            [102.47994, -3.1427155],
+            [10.383446, -5.2373047]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_50_insurgency_64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [189.375, -249.875],
+            [254.25, -249.875],
+            [254.25, -180.0],
+            [207.625, -207.625],
+            [201.25, -229.625]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_51_insurgency_64",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [3.0, -27.625],
+            [74.75, -51.125],
+            [80.125, -113.625],
+            [3.0, -186.125]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_52_insurgency_64",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

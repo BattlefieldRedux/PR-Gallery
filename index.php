@@ -118,7 +118,8 @@
 			var CURRENTGM = {
 				"objects" : [],
 				"routes" : [],
-				"flags" : []
+				"flags" : [],
+				"combatareas" : []
 			};
 			// List of assets of the currently active gamemode.
 			var GMROUTES = [];
@@ -141,6 +142,7 @@
 			var LAYER_ROUTES = new L.LayerGroup().addTo(MAP);
 			var LAYER_FLAGS = new L.LayerGroup().addTo(MAP);
 			var LAYER_FLAGRADIUS = new L.LayerGroup().addTo(MAP);
+			var LAYER_COMBATAREAS = new L.LayerGroup().addTo(MAP);
 
 			var LAYER_MAPTILES = new L.LayerGroup().addTo(MAP);
         </script>

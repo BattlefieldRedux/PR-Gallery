@@ -5,9 +5,9 @@
   "team2tickets":"600",
   "mapsize":"2048",
   "viewdistance":"400",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -152,6 +152,96 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [181.14883, -174.15033],
+            [178.43864, -154.38759],
+            [181.7462, -150.24326],
+            [182.75671, -143.793],
+            [177.49973, -113.37204],
+            [176.2112, -87.07445],
+            [152.94038, -86.53342],
+            [152.07141, -122.67328],
+            [153.3323, -133.6047],
+            [156.3281, -141.4093],
+            [156.32916, -147.80923],
+            [157.64983, -152.47289],
+            [157.85924, -164.42192],
+            [167.15614, -176.2782],
+            [175.57834, -175.56702]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_skirmish32",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "4",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [176.26097, -87.10332],
+            [153.00449, -86.58002],
+            [152.49753, -107.309235],
+            [177.15143, -107.149124]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_15_skirmish32",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "4",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [181.05696, -174.15042],
+            [178.79298, -156.75604],
+            [157.76727, -157.9516],
+            [157.86119, -164.413],
+            [167.29974, -176.23726],
+            [175.6008, -175.55835]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_19_skirmish32",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "4",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

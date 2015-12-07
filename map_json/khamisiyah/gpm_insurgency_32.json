@@ -5,9 +5,9 @@
   "team2tickets":"700",
   "mapsize":"4096",
   "viewdistance":"1300",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"30.0",
   "routes": [
   ],
   "type": "FeatureCollection",
@@ -6739,6 +6739,102 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [256.0, 0.0],
+            [0.0, 0.0],
+            [0.0, -256.0],
+            [256.0, -256.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_insurgency32",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "11",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [60.63115, -22.195618],
+            [70.89756, -13.958649],
+            [77.14491, 0.0],
+            [0.0, 0.0],
+            [0.0, -30.011703],
+            [17.66333, -31.560577],
+            [24.221176, -27.384155],
+            [29.59517, -29.427826],
+            [35.98001, -29.905762],
+            [40.666336, -32.961075],
+            [43.99243, -31.25264],
+            [54.181343, -27.542648]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_4_insurgency32",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "11",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [43.131226, -256.0],
+            [187.12114, -256.0],
+            [186.04681, -250.57544],
+            [176.13927, -239.88089],
+            [171.49203, -234.30994],
+            [157.76254, -228.38603],
+            [144.94046, -222.90198],
+            [129.93266, -219.85365],
+            [111.87447, -217.37048],
+            [92.6637, -219.36826],
+            [81.10956, -213.65987],
+            [77.63548, -213.46704],
+            [65.65572, -216.25151],
+            [59.328354, -222.22545],
+            [40.7546, -239.84824]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_16_insurgency32",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "11",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

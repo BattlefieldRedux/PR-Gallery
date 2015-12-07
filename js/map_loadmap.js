@@ -11,7 +11,7 @@ function loadMap(mapname, asyncmode) {
 	if (asyncmode == undefined)
 		asyncmode = true;
 	$('#Title').html(dictionary(mapname));
-	
+
 	window.history.replaceState("", "PR Mapviewer" + mapname, "?map=" + mapname);
 	$('#SubTitle').addClass('gmselector');
 
@@ -37,7 +37,7 @@ function loadMap(mapname, asyncmode) {
 	mapwidth = Math.abs(parseInt(x[0].getAttribute('minx'))) / factorx;
 	mapheight = Math.abs(parseInt(x[0].getAttribute('maxy'))) / factory;
 
-	var sw = MAP.unproject([- mapheight * 0.5, mapheight * 1.5], 4);
+	var sw = MAP.unproject([-mapheight * 0.5, mapheight * 1.5], 4);
 	var ne = MAP.unproject([mapwidth * 1.5, -mapwidth * 0.5], 4);
 	var sw2 = MAP.unproject([0, mapheight], 4);
 	var ne2 = MAP.unproject([mapwidth, 0], 4);
@@ -69,6 +69,7 @@ function loadMap(mapname, asyncmode) {
 	LAYER_FLAGRADIUS.clearLayers();
 	LAYER_GRID.clearLayers();
 	LAYER_ROUTES.clearLayers();
+	LAYER_COMBATAREAS.clearLayers();
 	LAYER_MAPTILES.clearLayers();
 	LAYER_GRID.addLayer(L.simpleGraticule({
 		interval : 256 / 41,
@@ -105,6 +106,7 @@ function loadMap(mapname, asyncmode) {
 	layercontrol.addOverlay(LAYER_GRID, "Grid Overlay");
 	layercontrol.addOverlay(LAYER_FLAGS, "Flags");
 	layercontrol.addOverlay(LAYER_FLAGRADIUS, "Flag Radius");
+	layercontrol.addOverlay(LAYER_COMBATAREAS, "Combat Areas");
 	LAYER_MAPTILES.addLayer(mapimage);
 	layercontrol.addBaseLayer(LAYER_MAPTILES, "Satellite");
 	MAP.setMaxBounds(mapbounds);
@@ -194,7 +196,8 @@ function loadGM(gamemode) {
 	CURRENTGM = {
 		"objects" : [],
 		"routes" : [],
-		"flags" : []
+		"flags" : [],
+		"combatareas" : []
 	};
 	$.getJSON(gmfile, function(data) {
 		CURRENTGM.gmname = gmname;
@@ -209,12 +212,15 @@ function loadGM(gamemode) {
 		CURRENTGM.team2tickets = data.team2tickets;
 		CURRENTGM.mapsize = data.mapsize;
 		CURRENTGM.viewdistance = data.viewdistance;
-		
+		CURRENTGM.combatareause = data.combatareause;
+		CURRENTGM.combatareadamage = data.combatareadamage;
+		CURRENTGM.combatareaallowoutside = data.combatareaallowoutside;
+
 		// This usually looks like 'map_json/yamalia/gpm_cq_16.json'
 		var tokens = CURRENTGM.gm.file.split("/");
 		console.log(tokens);
 		window.history.replaceState("", "PR Mapviewer" + tokens[1], "?map=" + tokens[1] + "&gm=" + tokens[2].replace(".json", "").replace("gpm_", ""));
-		
+
 		// We don't actually use the Leaflet geojson layer, instead we use the function to access all individual features and sort them into their proper array with all the info we need. Actual loading will come later.
 		L.geoJson(data, {
 			pointToLayer : function(feature, latlng) {
@@ -327,6 +333,64 @@ function loadGM(gamemode) {
 					return null;
 				} else
 					return null;
+			},
+			onEachFeature : function(feature, layer) {
+				if (feature.bf2props.class == "CombatArea") {
+					console.log(layer);
+					var color = 'black';
+					if (feature.bf2props.team == 1) {
+						color = 'blue';
+					} else if (feature.bf2props.team == 2) {
+						color = 'red';
+					}
+					layer.setStyle({
+						color : color,
+						weight : 2,
+						opacity : 0.6,
+						fill : true,
+						fillColor : color,
+						fillOpacity : 0.2
+					});
+					if (color == 'black')
+						layer.setStyle({
+							fillOpacity : 0.4
+						});
+					/*var camarker = L.Polygon(feature.geometry.coordinates, {
+					var camarker = L.Polygon([[0,0],[0,256],[256,256],[256,0]], {
+					color : 'red',
+					weight : 2,
+					opacity : 0.6,
+					fill : true,
+					fillColor : '#f03',
+					fillOpacity : 0.1
+					});*/
+					//var camarker = L.Polygon([[0, 0], [0, -256], [256, -256], [256, 0]]);
+					//console.log(camarker);
+					var str_popup = "";
+					if (feature.bf2props.team == 1)
+						str_popup += "<table><tr><td>Denied for:</td><td>" + dictionary(CURRENTGM.team1name) + "</td></tr>";
+					else if (feature.bf2props.team == 2)
+						str_popup += "<table><tr><td>Denied for:</td><td>" + dictionary(CURRENTGM.team2name) + "</td></tr>";
+					else
+						str_popup += "<table><tr><td>Denied for:</td><td>Everyone" + "</td></tr>";
+					if (feature.bf2props.vehicles == 0)
+						str_popup += "<tr><td>Affects:</td><td>Land vehicles" + "</td></tr>";
+					if (feature.bf2props.vehicles == 1)
+						str_popup += "<tr><td>Affects:</td><td>Sea vehicles" + "</td></tr>";
+					if (feature.bf2props.vehicles == 2)
+						str_popup += "<tr><td>Affects:</td><td>Planes" + "</td></tr>";
+					if (feature.bf2props.vehicles == 3)
+						str_popup += "<tr><td>Affects:</td><td>Helicopters" + "</td></tr>";
+					if (feature.bf2props.vehicles == 4)
+						str_popup += "<tr><td>Affects:</td><td>Everything" + "</td></tr>";
+					if (feature.bf2props.vehicles == 5)
+						str_popup += "<tr><td>Affects:</td><td>Planes and helicopters" + "</td></tr>";
+					str_popup += "<tr><td>Damage:</td><td>" + CURRENTGM.combatareadamage + " hp/sec" + "</td></tr>";
+					str_popup += "<tr><td>Tolerance:</td><td>" + CURRENTGM.combatareaallowoutside + " sec" + "</td></tr>";
+					str_popup += "</table>";
+					layer.bindPopup(str_popup);
+					CURRENTGM.combatareas.push(layer);
+				}
 			}
 		});
 
@@ -359,6 +423,13 @@ function loadGM(gamemode) {
 				sorted_assets.push(object);
 			}
 		}
+
+		LAYER_COMBATAREAS.clearLayers();
+		for ( j = 0; j < CURRENTGM.combatareas.length; j++) {// Handle combatareas
+			var ca = CURRENTGM.combatareas[j];
+			ca.addTo(LAYER_COMBATAREAS);
+		}
+
 		LAYER_FLAGS.clearLayers();
 		for ( j = 0; j < CURRENTGM.flags.length; j++) {// Handle flags
 			var flag = CURRENTGM.flags[j];

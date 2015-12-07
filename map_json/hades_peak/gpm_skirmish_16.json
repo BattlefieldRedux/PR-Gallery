@@ -5,9 +5,9 @@
   "team2tickets":"450",
   "mapsize":"4096",
   "viewdistance":"1025",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -512,6 +512,85 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [121.81393, -55.796326],
+            [56.68335, -53.877274],
+            [47.8631, -88.3674],
+            [73.63317, -101.38811],
+            [121.423706, -89.17384]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_skirmish16",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "9",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [122.01439, -55.51848],
+            [98.81008, -55.078125],
+            [100.699776, -96.150894],
+            [121.55078, -89.69151]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_5_skirmish16",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "9",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [69.08826, -53.989655],
+            [72.80708, -65.82028],
+            [65.55243, -97.30768],
+            [47.050507, -88.543976],
+            [56.35614, -53.434433]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_9_skirmish16",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "9",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

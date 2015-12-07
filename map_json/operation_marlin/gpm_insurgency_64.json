@@ -1,13 +1,13 @@
 {
   "team1":"hamas",
   "team2":"fr",
-  "team1tickets":"550",
+  "team1tickets":"4",
   "team2tickets":"550",
   "mapsize":"2048",
   "viewdistance":"600",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
   ],
   "type": "FeatureCollection",
@@ -458,6 +458,31 @@
         "obj2": "null",
         "maxspawn": "99999.0",
         "minspawn": "99999.0",
+        "spawndelay": "false",
+        "ttl": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239.15225, -225.94337],
+        "size": [16, 16]
+      },
+      "properties": {
+        "iconurl": "icons/mini_map/repairdepot.png",
+        "iconrotate": "0",
+        "popupContent": "Amazing information about Vehicle Depot will be found here!"
+      },
+      "bf2props": {
+        "name": "cpname_operation_marlin_insurgency64_base_depot",
+        "class": "ObjectSpawner",
+        "name_object": "Vehicle Depot",
+        "team": "2",
+        "obj1": "null",
+        "obj2": "vehicle_depot_fr",
+        "maxspawn": "0.0",
+        "minspawn": "0.0",
         "spawndelay": "false",
         "ttl": "0.0"
       }
@@ -1196,7 +1221,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -1246,7 +1271,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -1271,7 +1296,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -1321,7 +1346,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -1496,7 +1521,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -1821,7 +1846,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -1846,7 +1871,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -2296,7 +2321,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -2371,7 +2396,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -2396,7 +2421,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -2571,7 +2596,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -2996,7 +3021,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3021,7 +3046,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3071,7 +3096,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3096,7 +3121,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3196,7 +3221,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3271,7 +3296,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3546,7 +3571,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3621,7 +3646,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3721,7 +3746,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3846,7 +3871,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3871,7 +3896,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -3971,7 +3996,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -4146,7 +4171,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -4321,7 +4346,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -4421,7 +4446,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -4746,7 +4771,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -4971,7 +4996,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5146,7 +5171,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5221,7 +5246,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5271,7 +5296,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5646,7 +5671,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5671,7 +5696,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5696,7 +5721,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5746,7 +5771,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -5821,7 +5846,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -6271,7 +6296,7 @@
       },
       "properties": {
         "iconurl": "icons/spotted_map/icon_objectivespotted.png",
-        "iconrotate": "180.0",
+        "iconrotate": "-180.0",
         "popupContent": "Amazing information about Ammo Cache will be found here!"
       },
       "bf2props": {
@@ -7314,6 +7339,101 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [255.66808, -158.9218],
+            [236.2633, -157.87405],
+            [181.0873, -154.94244],
+            [175.12206, -161.47246],
+            [184.20232, -178.27661],
+            [154.87592, -221.53546],
+            [140.79428, -245.18576],
+            [141.5487, -254.80786],
+            [255.33936, -255.47888]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_17_default",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "1",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [3.0, -3.0],
+            [253.0, -3.0],
+            [256.0, 0.0],
+            [253.0, -3.0],
+            [253.0, -253.0],
+            [3.0, -253.0],
+            [0.0, -256.0],
+            [3.0, -253.0]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_9_insurgency_64",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.2314148, -151.60895],
+            [44.321915, -132.23865],
+            [58.7927, -132.55026],
+            [58.846405, -124.55165],
+            [60.38791, -120.007935],
+            [60.3655, -115.62828],
+            [61.21936, -104.593704],
+            [60.11738, -91.823135],
+            [58.418854, -85.99611],
+            [56.634308, -80.92694],
+            [56.430626, -72.94679],
+            [35.102745, -36.970795],
+            [0.28917694, -35.013794]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_59_default",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "5",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

@@ -5,9 +5,9 @@
   "team2tickets":"600",
   "mapsize":"4096",
   "viewdistance":"1000",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -1538,6 +1538,94 @@
         "uncap": "false",
         "ttgc": "120.0",
         "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [255.54237, -255.53955],
+            [255.50392, -0.52705383],
+            [0.48680878, -0.5184326],
+            [0.470253, -255.50342]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_aas32",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "4",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.26752, -255.74765],
+            [86.84885, -221.68298],
+            [84.95249, -201.45988],
+            [77.74617, -198.25896],
+            [69.724785, -197.50993],
+            [63.257423, -193.17686],
+            [53.206284, -181.76782],
+            [30.980484, -185.6159],
+            [0.2552185, -188.75105],
+            [0.24874878, -255.74542]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_4_aas32",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "4",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [193.92207, -56.322968],
+            [205.13272, -66.62134],
+            [224.61186, -67.39279],
+            [255.74893, -67.752365],
+            [255.71957, -0.2416687],
+            [173.00424, -0.25076294],
+            [173.1437, -32.241272],
+            [178.25813, -46.209564],
+            [189.84192, -53.60681]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_14_aas32",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "4",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

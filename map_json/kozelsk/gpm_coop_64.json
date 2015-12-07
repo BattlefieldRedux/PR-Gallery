@@ -5,9 +5,9 @@
   "team2tickets":"450",
   "mapsize":"2048",
   "viewdistance":"450",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"10.0",
   "routes": [
     [
       [
@@ -145,7 +145,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
@@ -170,7 +170,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_jeep.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about DShKM Technical will be found here!"
       },
       "bf2props": {
@@ -345,7 +345,7 @@
       },
       "properties": {
         "iconurl": "icons/vehicles_map/mini_tank_heavy.png",
-        "iconrotate": "-180.0",
+        "iconrotate": "180.0",
         "popupContent": "Amazing information about T-90 will be found here!"
       },
       "bf2props": {
@@ -1200,6 +1200,110 @@
         "uncap": "false",
         "ttgc": "180.0",
         "ttlc": "120.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [0.0, 0.0],
+            [93.12094, -5.7920837],
+            [108.58548, -5.60701],
+            [113.5672, -12.894348],
+            [113.03472, -31.21553],
+            [142.30804, -68.99356],
+            [159.02444, -92.878555],
+            [167.81947, -111.64375],
+            [168.83177, -137.74698],
+            [186.26247, -153.57623],
+            [202.16766, -184.8869],
+            [204.08357, -200.01846],
+            [156.79799, -252.23776],
+            [256.0, -256.0],
+            [156.79799, -252.23776],
+            [107.55364, -253.48608],
+            [85.04173, -231.02142],
+            [58.03856, -157.92955],
+            [55.06311, -125.84662],
+            [47.813065, -102.45111],
+            [50.73558, -73.29001],
+            [67.627525, -49.009644],
+            [87.69202, -22.958328],
+            [91.44116, -6.3477783]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_0_default",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "8",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [122.87581, -42.09001],
+            [118.19038, -45.062607],
+            [106.66492, -37.191742],
+            [90.412575, -33.17041],
+            [79.473015, -31.759811],
+            [86.19762, -22.420364],
+            [89.91884, -5.0782776],
+            [109.91603, -4.6790466],
+            [115.23108, -12.948502],
+            [114.721085, -30.836899]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_22_default",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "8",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [175.09529, -234.14621],
+            [129.55986, -203.72296],
+            [79.52307, -224.05939],
+            [106.27727, -254.61841],
+            [157.36201, -253.93253]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_32_default",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "8",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]

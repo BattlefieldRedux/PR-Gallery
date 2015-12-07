@@ -5,9 +5,9 @@
   "team2tickets":"700",
   "mapsize":"4096",
   "viewdistance":"1100",
-  "combatareause":"false",
-  "combatareadamage":"0.0",
-  "combatareaallowoutside":"0.0",
+  "combatareause":"true",
+  "combatareadamage":"20.0",
+  "combatareaallowoutside":"30.0",
   "routes": [
     [
       [
@@ -227,6 +227,83 @@
         "uncap": "true",
         "ttgc": "0.0",
         "ttlc": "0.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0,0],
+            [0,-256],
+            [256,-256],
+            [256,0]
+          ],[
+            [221.11641, -175.48703],
+            [188.80144, -175.87973],
+            [185.24039, -133.39606],
+            [216.4817, -129.51472]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_46_skirmishal",
+        "class": "CombatArea",
+        "team": "0",
+        "vehicles": "4",
+        "layer": "3",
+        "inverted": "false",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [187.78235, -168.3681],
+            [220.63687, -164.96793],
+            [221.546, -175.99554],
+            [188.63565, -176.21892]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_50_skirmishal",
+        "class": "CombatArea",
+        "team": "1",
+        "vehicles": "4",
+        "layer": "3",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [185.42584, -141.88657],
+            [217.57663, -137.89738],
+            [216.63367, -129.31659],
+            [185.01897, -133.26703]
+          ]
+        ]
+      },
+      "bf2props": {
+        "code": "combatarea_8_skirmishal",
+        "class": "CombatArea",
+        "team": "2",
+        "vehicles": "4",
+        "layer": "3",
+        "inverted": "true",
+        "max": [0.0, 0.0],
+        "min": [0.0, 0.0]
       }
     }
   ]
